@@ -1,0 +1,11 @@
+<!-- page: 002 -->
+
+IX d'Aquitaine, Cercamon, Jaufre Rudel et Marcabru - l'influence de ce dernier est d'ailleurs manifeste chez Raimbaut - la lyrique occitane était arrivée à un point de maturité et où la *nécessité* d'un renouvellement, ou plutôt d'un approfondissement de l'acquis, commençait à se faire sentir. C'est le moment des "expériences", c'est le début de ce que Robert Lafont et Christian Anatole appellent "l'infléchissement des *trobar*"[2].
+
+En effet, de Guillaume IX à Raimbaut d'Orange, on avait vu s'établir et se fixer presque tous les éléments constitutifs de la lyrique occitane, tant thématiques que formels. Se situant à ce qui semble être un tournant important dans cette lyrique, Raimbaut intervient personnellement dans le débat qui oppose les tenants du *trobar clus* à ceux du *trobar leu*[3].
+
+[^1]: C'est ce que Carl APPEL, *Raimbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928, pp. 62-98 (ci-après [RvO]{.underline}) a fort bien mis en évidence dans sa minutieuse étude de la versification de Raimbaut. Pattison, lui, parle même des "marcabrunesque poems" de Raimbaut, faisant allusion par cela, surtout, aux chansons I, II et IV, farcies de procédés rhétoriques et langagiers empruntés à Marcabru; voir aussi D. SCHELDKO, *Anlässlich des Liedes von Raïmbaut d'Aurenga "Cans doux"* (Zur Fragen nach dem "trobar clus"), dans [Archivum Romanicum]{.underline}, XXI (1937), pp. 285-297.
+
+[^2]: Robert LAFONT et Christian ANATOLE, *Nouvelle histoire de la littérature occitane*, Paris, P.U.F., 1970, t.I, pp. 65sv.
+
+[^3]: Remarquons que cette controverse n'est certainement pas propre à la littérature occitane. Edgar De BRUYNE, *Études d'esthétique médiévale*, Bruges, De Tempel, 1946, note à cet égard que "L'esthétique du moyen âge est le résultat de deux tendances opposées, l'une caractérisée par la simplicité, la mesure, la logique, l'autre par la fantaisie, l'exubérance, la liberté débridée" (t.I, p.108). Ce sont là deux attitudes dont il voit déjà l'effet dans l'esthétique antique et, parlant à ce propos d'"atticisme" et d'"asianisme" (*ibid.*), il fait remarquer qu'il y a dans cette dernière tendance "toute une atmosphère (...) qui prépare peut-être les voies à la poésie savante et hermétique du *trobar clus*" (p.114).

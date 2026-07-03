@@ -1,0 +1,9 @@
+<!-- page: 095 -->
+
+Pour autant que le verbe *ayzir* signifie en effet "'to prepare', freely 'to create'" ([RO]{.underline}, 77), la traduction que donne Pattison de *lo iorn que'm fee liey a ayzir* - 'on the day He caused her to be created for me' ([RO]{.underline}, 75) pourrait éventuellement être acceptée. Rien n'est moins sûr cependant. Raynouard et Levy nous donnent pour ce même verbe les significations 'accueillir' et 'accomoder' ([LR]{.underline}, II, 42 et [PDP]{.underline}, 13); et si Ulrich Gschwind a tort de refuser le premier de ces deux sens - les deux sont attestés dans [FEH]{.underline}, XXIV, 149 - il a raison, en revanche de donner également à *ayzir* la signification de 'donner du plaisir' d'où, ajoute-t-il, "le p.p. féminin *aizida jouissance*". Dès lors, il serait possible de traduire ce vers par: '...le jour où Il me lui fit donner du plaisir', la forme tonique du pronom personnel (*lieyze*) servant alors de datif sans préposition[^1]. Ainsi donc, *ayzir* semble avoir, à la fois, un sens locatif ('accueillir') et des implications sensuelles ('donner du plaisir') et/ou courtoises ('accomoder'). Ce qui correspond d'ailleurs fort bien à ce qu'a mis en lumière Roger Dragonetti à propos d'*aizir, aizimen*... et d'autres mots de la même famille, à savoir que, sans s'exclure totalement l'un l'autre, il existe deux modes différents d'interpréter ces mots: l'un "qui (...) fait prévaloir l'idée d'accord, d'ajustement, de convenance, l'autre, l'idée de lieu au sens appréciatif (propre ou figuré) de demeure privilégiée"[^3].
+
+[^1]: Ulrich GSCHWIND, *op.cité*, t.II, p.257.
+
+[^2]: W. Mary HACKETT, *La langue de Girart de Roussillon*, Genève, Droz, 1970, p.79.
+
+[^3]: Roger DRAGONETTI, "*Aizir* et *Aizimen* chez les plus anciens troubadours", dans *Mélanges (...) Maurice Delbouille*, Gembloux éd. Duculot, 1964, t.II, o.153.

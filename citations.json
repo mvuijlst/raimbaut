@@ -1,0 +1,1111 @@
+{
+  "abbreviations": [
+    {
+      "siglum": "ANG",
+      "definition": "Joseph ANGLADE, *Grammaire de l'ancien provençal ou ancienne langue d'oc*, Paris, Klincksieck, 1921.",
+      "defined_on_page": "59",
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "BA",
+      "definition": "Edmund STENGEL, *Le Chansonnier de Bernart Amoros* (édition du chansonnier *a*), dans *Revue des langues romanes* XLIV-XLV (1901-1902).",
+      "defined_on_page": null,
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "Elem.",
+      "definition": "Oscar SCHULTZ-GORA, *Altprovenzalisches Elementarbuch*, Heidelberg, Carl Winter, 1924",
+      "defined_on_page": "71"
+    },
+    {
+      "siglum": "FEW",
+      "definition": "Walther von WARTBURG, *Französisches Etymologisches Wörterbuch*, Bonn/Leipzig/Basel, 1922- , 25 vols.",
+      "defined_on_page": "63",
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "Godefroy",
+      "definition": "Frédéric GODEFROY, *Dictionnaire de l'ancienne langue française et de tous ses dialectes du IX^e^ au XV^e^ siècle*, Paris, 1880-1902 (réimpr. Vaduz, Kraus Reprint), 8 vols.",
+      "defined_on_page": "63",
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "LF",
+      "definition": "Frédéric MISTRAL, *Lou Tresor dóu Felibrige* ou *Dictionnaire provençal - français* (...) *Edition du Centenaire*, Paris, Librairie Delagrave, 1932",
+      "defined_on_page": "155"
+    },
+    {
+      "siglum": "LR",
+      "definition": "François RAYNOUARD, *Lexique roman ou Dictionnaire de la langue des troubadours*, Paris, Silvestre, 1838-1844, 6 vols.",
+      "defined_on_page": null,
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "Leys",
+      "definition": "GUILHEM MOLINER, *Las Flors del Gay Saber, estier dichas Las Leys d'Amors*, éd. Gatien-Arnoult, Toulouse, J.B. Paya, 1841-1843, 3 vols.",
+      "defined_on_page": "5",
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "MG",
+      "definition": "C.A.F. MAHN, *Gedichte der Troubadours in provenzalischer Sprache*, Berlin, Dümmler, 1856-1873, 4 vols.",
+      "defined_on_page": null,
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "MW",
+      "definition": "C.A.F. MAHN, *Die Werke der Troubadours in provenzalischer Sprache*, Berlin, Dümmler, 1846-1886, 4 vols.",
+      "defined_on_page": null,
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "P.-C.",
+      "definition": "Alfred PILLET et Henry CARSTENS, *Bibliographie der Troubadours*, Halle, Niemeyer, 1933 (réimpr. New York, Burt Franklin).",
+      "defined_on_page": "11",
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "PAT",
+      "definition": "Linda M. PATERSON, *Troubadours and Eloquence*, Oxford, Clarendon Press, 1975.",
+      "defined_on_page": "5",
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "PDP",
+      "definition": "Emil LEVY, *Petit dictionnaire provençal-français*, Heidelberg, Carl Winter, 1909 (4e éd. 1966).",
+      "defined_on_page": null,
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "REW",
+      "definition": "Wilhelm MEYER-LÜBKE, *Romanisches Etymologisches Wörterbuch*, Heidelberg, Carl Winter.",
+      "defined_on_page": null,
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "RLR",
+      "definition": "*Revue des langues romanes*, Montpellier / Paris (revue).",
+      "defined_on_page": null,
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "RO",
+      "definition": "Walter T. PATTISON, *The Life and Works of the Troubadour Raimbaut d'Orange*, Minneapolis, University of Minnesota Press, 1952.",
+      "defined_on_page": "1",
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "RvO",
+      "definition": "Carl APPEL, *Raimbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928.",
+      "defined_on_page": "2",
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "SW",
+      "definition": "Emil LEVY, *Provenzalisches Supplement-Wörterbuch*, Leipzig, O.R. Reisland, 1894-1924, 8 vols",
+      "defined_on_page": "57"
+    },
+    {
+      "siglum": "TL",
+      "definition": "Adolf TOBLER et Erhard LOMMATZSCH, *Altfranzösisches Wörterbuch*, Wiesbaden, F. Steiner Verlag, 1925-1976, 10 vols (A-T).",
+      "defined_on_page": "63",
+      "source": "manual",
+      "confidence": "high"
+    },
+    {
+      "siglum": "ZRPh",
+      "definition": "*Zeitschrift für romanische Philologie*, Halle / Tübingen (revue).",
+      "defined_on_page": null,
+      "source": "manual",
+      "confidence": "high"
+    }
+  ],
+  "manuscript_sigla": {
+    "note": "Single capital letters (and their concatenations) are the medieval song-manuscripts (chansonniers) collated in the edition, following Pillet-Carstens conventions. Not bibliographic references; they should link to a manuscript-list rather than a works entry.",
+    "singletons": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "I",
+      "K",
+      "M",
+      "N",
+      "R",
+      "U",
+      "V",
+      "a",
+      "d"
+    ],
+    "N2_note": "N² (also transcribed 'N^2^', 'N°2', and doubled as 'NN'/'NN²') is the chansonnier N²; 'NN'/'NN²' are transcription artifacts of N / N².",
+    "groups_seen": [
+      "IKN",
+      "CDM",
+      "DIKMN",
+      "DM",
+      "RV",
+      "CMRA",
+      "CEDROM",
+      "DER",
+      "CDEIKMRUV",
+      "ABCDEFGHIKLMNOPQRSTU"
+    ]
+  },
+  "aliases": [
+    {
+      "siglum": "PDF",
+      "alias_of": "PDP",
+      "note": "the work is defined once (page-070) as Emil LEVY, Petit dictionnaire provençal-français (ci-après [PDF]); it is then cited 35× as PDP. PDP is the intended/dominant form; the single 'PDF' is a P/F transcription slip on the definition page."
+    },
+    {
+      "siglum": "FEM",
+      "alias_of": "FEW",
+      "note": "cited as « FEM, XIV, 561-562 » (page-278) etc. — identical volume+page style to FEW (von Wartburg); an M/W transcription slip."
+    }
+  ],
+  "flagged_uncertain": [
+    {
+      "siglum": "PDL",
+      "guess": "probably Emil LEVY, *Petit dictionnaire provençal-français* (= PDP); a P/L transcription variant.",
+      "confidence": "medium",
+      "evidence": "page-296 « Voir e.a. LR, IV, 659; SW, VI, 566-567; PDL, 308 » — sits in a run of dictionary lookups with bare page numbers, exactly like PDP. Not folded automatically; verify against the scan of page-296/283/298."
+    }
+  ],
+  "usage": [
+    {
+      "siglum": "RO",
+      "count": 190,
+      "pages": [
+        "1",
+        "4",
+        "7",
+        "12",
+        "23",
+        "24",
+        "28",
+        "29",
+        "33",
+        "41",
+        "44",
+        "48",
+        "56",
+        "66",
+        "67",
+        "75",
+        "76",
+        "78",
+        "80",
+        "81",
+        "82",
+        "84",
+        "91",
+        "92",
+        "95",
+        "96",
+        "105",
+        "110",
+        "112",
+        "113",
+        "114",
+        "117",
+        "119",
+        "120",
+        "125",
+        "126",
+        "127",
+        "128",
+        "132",
+        "136",
+        "138",
+        "140",
+        "144",
+        "146",
+        "149",
+        "152",
+        "153",
+        "157",
+        "158",
+        "159",
+        "162",
+        "163",
+        "164",
+        "169",
+        "176",
+        "180",
+        "183",
+        "185",
+        "186",
+        "189",
+        "190",
+        "192",
+        "197",
+        "198",
+        "199",
+        "200",
+        "201",
+        "202",
+        "203",
+        "204",
+        "207",
+        "216",
+        "217",
+        "222",
+        "225",
+        "226",
+        "227",
+        "235",
+        "236",
+        "237",
+        "240",
+        "244",
+        "247",
+        "250",
+        "251",
+        "255",
+        "256",
+        "257",
+        "259",
+        "261",
+        "265",
+        "266",
+        "268",
+        "270",
+        "276",
+        "277",
+        "279",
+        "280",
+        "281",
+        "285",
+        "286",
+        "289",
+        "295",
+        "296",
+        "298",
+        "299",
+        "300",
+        "301",
+        "303",
+        "307",
+        "313",
+        "314",
+        "315",
+        "318",
+        "323",
+        "324",
+        "328",
+        "331",
+        "334",
+        "340",
+        "345",
+        "347",
+        "350",
+        "351",
+        "354",
+        "355",
+        "234a"
+      ]
+    },
+    {
+      "siglum": "FEW",
+      "count": 60,
+      "pages": [
+        "63",
+        "64",
+        "67",
+        "76",
+        "78",
+        "80",
+        "81",
+        "83",
+        "97",
+        "99",
+        "101",
+        "107",
+        "113",
+        "114",
+        "116",
+        "117",
+        "155",
+        "156",
+        "157",
+        "159",
+        "166",
+        "173",
+        "174",
+        "184",
+        "186",
+        "189",
+        "190",
+        "192",
+        "198",
+        "217",
+        "236",
+        "237",
+        "239",
+        "247",
+        "259",
+        "278",
+        "285",
+        "319",
+        "329",
+        "330",
+        "335",
+        "348"
+      ]
+    },
+    {
+      "siglum": "SW",
+      "count": 50,
+      "pages": [
+        "57",
+        "80",
+        "82",
+        "91",
+        "92",
+        "99",
+        "101",
+        "107",
+        "114",
+        "116",
+        "157",
+        "158",
+        "159",
+        "165",
+        "189",
+        "192",
+        "198",
+        "199",
+        "200",
+        "225",
+        "233",
+        "235",
+        "237",
+        "247",
+        "248",
+        "256",
+        "257",
+        "259",
+        "276",
+        "281",
+        "289",
+        "296",
+        "324",
+        "326",
+        "329",
+        "350",
+        "351",
+        "355"
+      ]
+    },
+    {
+      "siglum": "PDP",
+      "count": 36,
+      "pages": [
+        "70",
+        "76",
+        "78",
+        "95",
+        "101",
+        "127",
+        "128",
+        "132",
+        "144",
+        "146",
+        "153",
+        "157",
+        "158",
+        "159",
+        "166",
+        "192",
+        "199",
+        "200",
+        "201",
+        "225",
+        "236",
+        "237",
+        "247",
+        "248",
+        "250",
+        "300",
+        "319",
+        "330",
+        "331",
+        "348"
+      ]
+    },
+    {
+      "siglum": "LR",
+      "count": 26,
+      "pages": [
+        "67",
+        "76",
+        "78",
+        "92",
+        "95",
+        "97",
+        "101",
+        "107",
+        "116",
+        "117",
+        "158",
+        "189",
+        "192",
+        "198",
+        "199",
+        "200",
+        "247",
+        "257",
+        "259",
+        "276",
+        "296",
+        "329",
+        "347"
+      ]
+    },
+    {
+      "siglum": "MG",
+      "count": 22,
+      "pages": [
+        "56",
+        "75",
+        "105",
+        "180",
+        "197",
+        "216",
+        "217",
+        "222",
+        "244",
+        "265",
+        "295",
+        "345",
+        "234a"
+      ]
+    },
+    {
+      "siglum": "PAT",
+      "count": 22,
+      "pages": [
+        "56",
+        "58",
+        "69",
+        "76",
+        "91",
+        "180",
+        "183",
+        "185",
+        "186",
+        "189",
+        "190",
+        "245",
+        "265",
+        "266",
+        "277",
+        "283"
+      ]
+    },
+    {
+      "siglum": "RvO",
+      "count": 21,
+      "pages": [
+        "2",
+        "4",
+        "56",
+        "67",
+        "125",
+        "126",
+        "128",
+        "199",
+        "202",
+        "250",
+        "286",
+        "288",
+        "323"
+      ]
+    },
+    {
+      "siglum": "ANG",
+      "count": 20,
+      "pages": [
+        "59",
+        "63",
+        "67",
+        "86",
+        "110",
+        "128",
+        "157",
+        "185",
+        "203",
+        "248",
+        "261",
+        "279",
+        "297",
+        "308",
+        "314",
+        "324",
+        "355"
+      ]
+    },
+    {
+      "siglum": "P.-C.",
+      "count": 18,
+      "pages": [
+        "19",
+        "29",
+        "33",
+        "56",
+        "75",
+        "84",
+        "90",
+        "105",
+        "125",
+        "152",
+        "162",
+        "216",
+        "229",
+        "275",
+        "323",
+        "345",
+        "234a"
+      ]
+    },
+    {
+      "siglum": "RLR",
+      "count": 13,
+      "pages": [
+        "56",
+        "90",
+        "125",
+        "152",
+        "162",
+        "169",
+        "197",
+        "255",
+        "323",
+        "345",
+        "234a"
+      ]
+    },
+    {
+      "siglum": "BA",
+      "count": 11,
+      "pages": [
+        "56",
+        "90",
+        "125",
+        "152",
+        "162",
+        "169",
+        "197",
+        "255",
+        "323",
+        "345",
+        "234a"
+      ]
+    },
+    {
+      "siglum": "MW",
+      "count": 10,
+      "pages": [
+        "56",
+        "75",
+        "125",
+        "197",
+        "222",
+        "244",
+        "265",
+        "295",
+        "345",
+        "234a"
+      ]
+    },
+    {
+      "siglum": "TL",
+      "count": 6,
+      "pages": [
+        "63",
+        "64",
+        "80",
+        "159",
+        "217",
+        "304"
+      ]
+    },
+    {
+      "siglum": "IKN",
+      "count": 6,
+      "pages": [
+        "81",
+        "121",
+        "270"
+      ]
+    },
+    {
+      "siglum": "CDM",
+      "count": 4,
+      "pages": [
+        "38",
+        "266",
+        "270"
+      ]
+    },
+    {
+      "siglum": "RV",
+      "count": 4,
+      "pages": [
+        "66",
+        "276",
+        "350"
+      ]
+    },
+    {
+      "siglum": "D",
+      "count": 4,
+      "pages": [
+        "75",
+        "121"
+      ]
+    },
+    {
+      "siglum": "M",
+      "count": 4,
+      "pages": [
+        "75",
+        "121"
+      ]
+    },
+    {
+      "siglum": "R",
+      "count": 4,
+      "pages": [
+        "96",
+        "112"
+      ]
+    },
+    {
+      "siglum": "ZRPh",
+      "count": 3,
+      "pages": [
+        "75",
+        "169",
+        "180"
+      ]
+    },
+    {
+      "siglum": "NN",
+      "count": 3,
+      "pages": [
+        "174",
+        "190"
+      ]
+    },
+    {
+      "siglum": "NN²",
+      "count": 3,
+      "pages": [
+        "227"
+      ]
+    },
+    {
+      "siglum": "PDL",
+      "count": 3,
+      "pages": [
+        "283",
+        "296",
+        "298"
+      ]
+    },
+    {
+      "siglum": "Est.",
+      "count": 2,
+      "pages": [
+        "56",
+        "295"
+      ]
+    },
+    {
+      "siglum": "SM",
+      "count": 2,
+      "pages": [
+        "67",
+        "266"
+      ]
+    },
+    {
+      "siglum": "REW",
+      "count": 2,
+      "pages": [
+        "113",
+        "184"
+      ]
+    },
+    {
+      "siglum": "Rv",
+      "count": 2,
+      "pages": [
+        "127",
+        "280"
+      ]
+    },
+    {
+      "siglum": "Adm",
+      "count": 2,
+      "pages": [
+        "136",
+        "244"
+      ]
+    },
+    {
+      "siglum": "SH",
+      "count": 2,
+      "pages": [
+        "156",
+        "316"
+      ]
+    },
+    {
+      "siglum": "SN",
+      "count": 2,
+      "pages": [
+        "165"
+      ]
+    },
+    {
+      "siglum": "PAI",
+      "count": 2,
+      "pages": [
+        "192",
+        "278"
+      ]
+    },
+    {
+      "siglum": "Rv0",
+      "count": 2,
+      "pages": [
+        "197",
+        "345"
+      ]
+    },
+    {
+      "siglum": "MG,",
+      "count": 2,
+      "pages": [
+        "275"
+      ]
+    },
+    {
+      "siglum": "Bon",
+      "count": 2,
+      "pages": [
+        "280"
+      ]
+    },
+    {
+      "siglum": "RvQ",
+      "count": 1,
+      "pages": [
+        "7"
+      ]
+    },
+    {
+      "siglum": "CDEIKMRUV",
+      "count": 1,
+      "pages": [
+        "36"
+      ]
+    },
+    {
+      "siglum": "ABCDEFGHIKLMNOPQRSTU",
+      "count": 1,
+      "pages": [
+        "36"
+      ]
+    },
+    {
+      "siglum": "CEDROM",
+      "count": 1,
+      "pages": [
+        "38"
+      ]
+    },
+    {
+      "siglum": "CMRA",
+      "count": 1,
+      "pages": [
+        "38"
+      ]
+    },
+    {
+      "siglum": "DER",
+      "count": 1,
+      "pages": [
+        "38"
+      ]
+    },
+    {
+      "siglum": "PMLA",
+      "count": 1,
+      "pages": [
+        "44"
+      ]
+    },
+    {
+      "siglum": "IK",
+      "count": 1,
+      "pages": [
+        "58"
+      ]
+    },
+    {
+      "siglum": "Est",
+      "count": 1,
+      "pages": [
+        "75"
+      ]
+    },
+    {
+      "siglum": "I",
+      "count": 1,
+      "pages": [
+        "75"
+      ]
+    },
+    {
+      "siglum": "FEH",
+      "count": 1,
+      "pages": [
+        "95"
+      ]
+    },
+    {
+      "siglum": "C",
+      "count": 1,
+      "pages": [
+        "96"
+      ]
+    },
+    {
+      "siglum": "Love's",
+      "count": 1,
+      "pages": [
+        "96"
+      ]
+    },
+    {
+      "siglum": "O",
+      "count": 1,
+      "pages": [
+        "112"
+      ]
+    },
+    {
+      "siglum": "IXN^2^",
+      "count": 1,
+      "pages": [
+        "117"
+      ]
+    },
+    {
+      "siglum": "AdM",
+      "count": 1,
+      "pages": [
+        "125"
+      ]
+    },
+    {
+      "siglum": "ANM",
+      "count": 1,
+      "pages": [
+        "126"
+      ]
+    },
+    {
+      "siglum": "LSW",
+      "count": 1,
+      "pages": [
+        "128"
+      ]
+    },
+    {
+      "siglum": "RO,88",
+      "count": 1,
+      "pages": [
+        "137"
+      ]
+    },
+    {
+      "siglum": "LF",
+      "count": 1,
+      "pages": [
+        "155"
+      ]
+    },
+    {
+      "siglum": "N",
+      "count": 1,
+      "pages": [
+        "169"
+      ]
+    },
+    {
+      "siglum": "MLN",
+      "count": 1,
+      "pages": [
+        "169"
+      ]
+    },
+    {
+      "siglum": "Rom.",
+      "count": 1,
+      "pages": [
+        "197"
+      ]
+    },
+    {
+      "siglum": "Rvo",
+      "count": 1,
+      "pages": [
+        "201"
+      ]
+    },
+    {
+      "siglum": "KR",
+      "count": 1,
+      "pages": [
+        "245"
+      ]
+    },
+    {
+      "siglum": "PD",
+      "count": 1,
+      "pages": [
+        "247"
+      ]
+    },
+    {
+      "siglum": "Flem",
+      "count": 1,
+      "pages": [
+        "250"
+      ]
+    },
+    {
+      "siglum": "RV0",
+      "count": 1,
+      "pages": [
+        "265"
+      ]
+    },
+    {
+      "siglum": "Sw",
+      "count": 1,
+      "pages": [
+        "266"
+      ]
+    },
+    {
+      "siglum": "DIKMN",
+      "count": 1,
+      "pages": [
+        "270"
+      ]
+    },
+    {
+      "siglum": "DM",
+      "count": 1,
+      "pages": [
+        "270"
+      ]
+    },
+    {
+      "siglum": "Studj.",
+      "count": 1,
+      "pages": [
+        "275"
+      ]
+    },
+    {
+      "siglum": "Archiv,",
+      "count": 1,
+      "pages": [
+        "275"
+      ]
+    },
+    {
+      "siglum": "RLR,",
+      "count": 1,
+      "pages": [
+        "275"
+      ]
+    },
+    {
+      "siglum": "RvO,",
+      "count": 1,
+      "pages": [
+        "275"
+      ]
+    },
+    {
+      "siglum": "RO,",
+      "count": 1,
+      "pages": [
+        "275"
+      ]
+    },
+    {
+      "siglum": "Chrest.",
+      "count": 1,
+      "pages": [
+        "279"
+      ]
+    },
+    {
+      "siglum": "Zem.",
+      "count": 1,
+      "pages": [
+        "304"
+      ]
+    },
+    {
+      "siglum": "PEKINA",
+      "count": 1,
+      "pages": [
+        "307"
+      ]
+    },
+    {
+      "siglum": "TEXTE",
+      "count": 1,
+      "pages": [
+        "307"
+      ]
+    },
+    {
+      "siglum": "RVO",
+      "count": 1,
+      "pages": [
+        "354"
+      ]
+    }
+  ],
+  "unresolved": [
+    "PDL"
+  ]
+}

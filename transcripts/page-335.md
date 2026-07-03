@@ -1,0 +1,7 @@
+<!-- page: 335 -->
+
+Ainsi, il ne nous paraît pas impossible d'imaginer que ce "jeu" ait pu sembler tellement caractéristique de la poésie de Raimbaut, ou plutôt tellement propre à l'évoquer, que lorsque Peire d'Auvergne voulut chanter *D'aqeesta trobadorne / que canton de maintae colorne* (éd. Del Monte, Ch. XII, 1-2), il dut lui paraître tout naturel de le réutiliser, fût-ce toutefois en introduisant une ambiguïté subtile et ironique dans l'emploi de *baut*.
+
+En effet, tout en faisant usage des deux sens possibles du mot - 'gai, joyeux' et 'hautain, fier' ([FEW]{.underline}, XV, 30) - Raimbaut se garde bien d'introduire quelque ambiguïté que ce soit, grâce à une utilisation contraignante, si l'on peut dire, du contexte. Même là où il emploie deux fois le mot dans un seul poème, notre chanson XXI, sa distribution empêche toute hésitation dans l'interprétation: ainsi, *baut* (fier) est opposé à *humil* au vers 30, tandis que le contexte immédiat du vers 48 (gai) est également des plus clairs (*deazaut, dompna e vos...*).
+
+Il en va tout autrement chez Peire d'Auvergne. Car, tout en ne retenant - à première vue - qu'un des deux sens du mot, celui de 'fier, hautain', Peire confère à l'autre signification de *baut* une sorte de présence diffuse, virtuelle plutôt, par l'introduction du mot dans un environnement textuel similaire à celui qui est le sien dans l'œuvre de Raimbaut, ou du moins s'y référant par un système bien élaboré d'échos sonores et/ou morphologiques:

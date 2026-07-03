@@ -1,0 +1,9 @@
+<!-- page: 010 -->
+
+qu'un grand nombre de manuscrits, contenant beaucoup de textes d'un auteur donné, ne nous permet pas encore de conclure automatiquement au succès de cet auteur. Et l'inverse n'est pas forcément vrai non plus. De là qu'on ne peut travailler valablement que par comparaison. Cela étant, il eût pu sembler intéressant d'examiner ainsi l'ensemble de la production des troubadours. Cependant, outre qu'un tel examen nous entraînerait bien trop en dehors du cadre de notre travail, il risquerait également d'être beaucoup moins pertinent qu'on ne le penserait de prime abord : il est un fait avéré que les conditions de conservation et de transmission des textes médiévaux ne sont pas identiques - beaucoup s'en faut - de Guillaume IX à Guiraut Riquier[^1]. Aussi bien nous sommes-nous volontairement limités à ces troubadours que l'on peut raisonnablement considérer comme étant les prédécesseurs et/ou les contemporains de Raimbaut d'Orange, à savoir : Guillaume IX, Jaufre Rudel, Marcabru, Cercamon, Bernart Marti, Rigaut de Barbézieux, Bernart de Ventadour, Peire d'Auvergne, Giraut de Bornelh, Arnaut de Mareuil, Guilhelm de Saint-Didier et Peire Rogier[^2].
+
+Pour chaque troubadour considéré, nous avons quantifié le nombre de chansons connues ou attribuées avec un haut degré de certitude, le nombre de manuscrits dans lesquels se retrouvent ces chansons et, finalement, le nombre de fois que celles-ci apparaissent dans l'ensemble des manuscrits. Signalons toutefois que nous n'avons fait aucune distinction entre manuscrits médiévaux et chansonniers plus modernes, et que nous n'avons pas tenu compte
+
+[^1]: *Ibid.*
+
+[^2]: Pour les questions de chronologie relative, voir de manière générale Robert A. TAYLOR, *La littérature occitane du moyen âge. Bibliographie sélective et critique*, Toronto, Univ. of Toronto Press, 1977, *passim*.

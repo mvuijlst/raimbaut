@@ -1,0 +1,10 @@
+<!-- page: 200 -->
+
+jection[^1]. D'autre part, pour admettre que *fui* soit un présent de *fugir* et non un parfait d'*esser*, il faudrait admettre que le poète n'aurait commis aucune action répréhensible et qu'il serait par conséquent la victime de reproches injustifiés. C'est d'ailleurs dans cette optique que Pattison traduit *failimen* par 'wrong' (= 'injustice'). Or, au sens propre, ce mot ne signifie par nécessairement 'tort, injustice', mais plutôt 'défaut, erreur, chose erronée' ([LR]{.underline}, III, 253; [SW]{.underline}, III, 400-401; [PDP]{.underline}, 183).
+
+Nous avons donc là déjà une première raison de douter de l'interprétation de Pattison. En outre, on remarquera qu'à lire ces vers de cette façon - en fonction de l'innocence du poète - Pattison ne manque pas d'être inconséquent avec lui-même, dans la mesure où il affirme également que ce poème fait suite à d'autres textes ayant provoqué la disgrâce du poète ([RO]{.underline}, 106-107). C'est là d'ailleurs une position qu'il explicite dans son introduction, là où il écrit que le poème XI "...has references to Raimbaut's agreement with his lady to sing no more of her" ([RO]{.underline}, 40). Et c'est dans ce même poème XI, que Raimbaut propose à sa Dame un nouveau *coven* (v. 79), ce qui fait dire à Pattison: "If he ever disobeys her command again, even in intention, may he never be pardoned. Notice the word *again* in this statement. It reinforces my belief that Raimbaut has already gone back on one promise, specifically, the agreement to sing no more of the lady"[^2].
+
+En conséquence de quoi, il nous semble vraiment peu vraisemblable qu'il faille comprendre ici, comme le fait Pattison, que le poète déclare 'fuir une injustice'. Pour nous, *fui* est bel et bien un parfait d'*esser*, et notre traduction
+
+[^1]: A l'appui d'une telle lecture, voir le manuscrit C: *et doler*.
+[^2]: *Ibid.* - On opposera à cela son commentaire du vers 9: "I believe that the poet complains of unjust treatment due to the lady's misinterpretation of one of his earlier poems".

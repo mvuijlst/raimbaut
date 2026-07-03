@@ -1,0 +1,9 @@
+<!-- page: 021 -->
+
+Jaufre Rudel et Guilhem de Saint-Didier; chaque chanson y apparaît, en moyenne, de 8 à 11 fois. Le second groupe est celui de Raimbaut d'Orange, Peire d'Auvergne, et Marcabru dont la fréquence d'apparition des chansons gravite autour de 5. Finalement, nous avons celui de Guillaume IX d'Aquitaine, de Cercamon et de Bernart Marti, dont la fréquence est minimale par rapport à celles des autres troubadours.
+
+Bien sûr, ce classement ne signifie aucunement que Bernard de Ventadour ait connu neuf fois plus de succès que Bernart Marti, ou 2,15 fois plus que Raimbaut d'Orange. Une telle conclusion serait absurde, sans plus. La valeur de ces chiffres, rappelons-le, est tout indicative. Cependant, elle acquiert quelque vraisemblance, quand on compare cette dernière liste aux constatations que nous avions faites dans les pages qui précèdent.
+
+En effet, si l'on écarte de ces trois groupes les troubadours qui présentent une forte corrélation entre les positions respectives qu'ils occupent quant au nombre de poèmes, de manuscrits et d'occurrences - c'est-à-dire, Bernard de Ventadour (9,11,12), Peire d'Auvergne (5,5,6), Guillaume IX (3,3,3), Cercamon (1,2,2) et Bernart Marti (2,1,1)[^1] - on remarquera qu'il y a entre ce classement par fréquences d'apparition et le regroupement en tendances dont il fut question précédemment, des rapports non dépourvus d'intérêt:
+
+[^1]: Il ne nous sembla pas pertinent de tenir compte ici de ces troubadours, dans la mesure où la corrélation évidente existant entre leurs positions respectives ne nous permet aucune hypothèse quant au succès ou à la notoriété qu'ils connurent. Comme nous l'avons déjà dit plus haut, il est en effet impossible de déterminer si le grand (petit) nombre de chansons (de manuscrits, d'occurrences) d'un troubadour donné est dû au hasard ou non.

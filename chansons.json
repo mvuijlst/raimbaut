@@ -1,0 +1,310 @@
+[
+  {
+    "chanson": "I",
+    "number": 1,
+    "pc": "389,22",
+    "incipit": "Cans, dous e fenhs del bedenes",
+    "sections": {
+      "incipit": "page-056",
+      "remarques": "page-057",
+      "texte": "page-072"
+    },
+    "page_start": "page-056",
+    "page_end": "page-074",
+    "missing_sections": []
+  },
+  {
+    "chanson": "II",
+    "number": 2,
+    "pc": "389,26",
+    "incipit": "En aital rimeta prima",
+    "sections": {
+      "incipit": "page-075",
+      "remarques": "page-076",
+      "texte": "page-088"
+    },
+    "page_start": "page-075",
+    "page_end": "page-089",
+    "missing_sections": []
+  },
+  {
+    "chanson": "III",
+    "number": 3,
+    "pc": "389,40",
+    "incipit": "Una chansoneta fera",
+    "sections": {
+      "incipit": "page-090",
+      "remarques": "page-091",
+      "texte": "page-102"
+    },
+    "page_start": "page-090",
+    "page_end": "page-104",
+    "missing_sections": []
+  },
+  {
+    "chanson": "IV",
+    "number": 4,
+    "pc": "389,10",
+    "incipit": "Apres mon vers vueilh sempr'ordrre",
+    "sections": {
+      "incipit": "page-105",
+      "remarques": "page-106",
+      "texte": "page-122"
+    },
+    "page_start": "page-105",
+    "page_end": "page-124",
+    "missing_sections": []
+  },
+  {
+    "chanson": "V",
+    "number": 5,
+    "pc": "389,41",
+    "incipit": "Un vers farai de tal mena",
+    "sections": {
+      "incipit": "page-125",
+      "remarques": "page-126",
+      "texte": "page-133"
+    },
+    "page_start": "page-125",
+    "page_end": "page-135",
+    "missing_sections": []
+  },
+  {
+    "chanson": "VI",
+    "number": 6,
+    "pc": "389,34",
+    "incipit": "Peire Rogier, a trassaillir",
+    "sections": {
+      "incipit": "page-136",
+      "remarques": "page-137",
+      "texte": "page-149"
+    },
+    "page_start": "page-136",
+    "page_end": "page-151",
+    "missing_sections": []
+  },
+  {
+    "chanson": "VII",
+    "number": 7,
+    "pc": "389,4",
+    "incipit": "Al prim qe'il timi sorz en sue",
+    "sections": {
+      "incipit": "page-152",
+      "remarques": "page-153",
+      "texte": "page-160"
+    },
+    "page_start": "page-152",
+    "page_end": "page-161",
+    "missing_sections": []
+  },
+  {
+    "chanson": "VIII",
+    "number": 8,
+    "pc": "389,21",
+    "incipit": "Braiz, chanes, qu'ieu, critz",
+    "sections": {
+      "incipit": "page-162",
+      "remarques": "page-163",
+      "texte": "page-167"
+    },
+    "page_start": "page-162",
+    "page_end": "page-168",
+    "missing_sections": []
+  },
+  {
+    "chanson": "IX",
+    "number": 9,
+    "pc": "389,38",
+    "incipit": "Car vei qe clares",
+    "sections": {
+      "incipit": "page-169",
+      "remarques": "page-170",
+      "texte": "page-177"
+    },
+    "page_start": "page-169",
+    "page_end": "page-179",
+    "missing_sections": []
+  },
+  {
+    "chanson": "X",
+    "number": 10,
+    "pc": "392,5",
+    "incipit": "Ar vei bru, escur, trebol cel",
+    "sections": {
+      "incipit": "page-180",
+      "remarques": "page-181",
+      "texte": "page-194"
+    },
+    "page_start": "page-180",
+    "page_end": "page-196",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XI",
+    "number": 11,
+    "pc": "389,13",
+    "incipit": "Ar m'er tal un vers a faire",
+    "sections": {
+      "incipit": "page-197",
+      "remarques": "page-198",
+      "texte": "page-209"
+    },
+    "page_start": "page-197",
+    "page_end": "page-211",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XII",
+    "number": 12,
+    "pc": "389,2",
+    "incipit": "Ab vergoinha part marrimentz",
+    "sections": {
+      "incipit": "page-216",
+      "remarques": "page-217",
+      "texte": "page-220"
+    },
+    "page_start": "page-216",
+    "page_end": "page-221",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XIII",
+    "number": 13,
+    "pc": "389,15",
+    "incipit": "Er quant s'embla'l foill del fraisse",
+    "sections": {
+      "incipit": "page-222",
+      "remarques": "page-223",
+      "texte": "page-232"
+    },
+    "page_start": "page-222",
+    "page_end": "page-234",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XIV",
+    "number": 14,
+    "pc": "389,12",
+    "incipit": "Ara non s'escl'a ni chanta",
+    "sections": {
+      "incipit": "page-234a",
+      "remarques": "page-235",
+      "texte": "page-241"
+    },
+    "page_start": "page-234a",
+    "page_end": "page-243",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XV",
+    "number": 15,
+    "pc": "389,27",
+    "incipit": "Entre gel e vent e fanc",
+    "sections": {
+      "incipit": "page-244",
+      "remarques": "page-245",
+      "texte": "page-252"
+    },
+    "page_start": "page-244",
+    "page_end": "page-254",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XVI",
+    "number": 16,
+    "pc": "389,37",
+    "incipit": "Pos trobare plan",
+    "sections": {
+      "incipit": "page-255",
+      "remarques": "page-256",
+      "texte": "page-262"
+    },
+    "page_start": "page-255",
+    "page_end": "page-264",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XVII",
+    "number": 17,
+    "pc": "389,17",
+    "incipit": "Assaz m'ee bel",
+    "sections": {
+      "incipit": "page-265",
+      "remarques": "page-266",
+      "texte": "page-271"
+    },
+    "page_start": "page-265",
+    "page_end": "page-273",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XVIII",
+    "number": 18,
+    "pc": "389,3",
+    "incipit": "Aissei mou",
+    "sections": {
+      "incipit": "page-275",
+      "remarques": "page-276",
+      "texte": "page-291"
+    },
+    "page_start": "page-275",
+    "page_end": "page-294",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XIX",
+    "number": 19,
+    "pc": "389,8",
+    "incipit": "Amors, cum er? Que faray?",
+    "sections": {
+      "incipit": "page-295",
+      "remarques": "page-296",
+      "texte": "page-309"
+    },
+    "page_start": "page-295",
+    "page_end": "page-311",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XX",
+    "number": 20,
+    "pc": "389,18",
+    "incipit": "Aseatz e sai d'amor ben parlar",
+    "sections": {
+      "incipit": "page-312",
+      "remarques": "page-313",
+      "texte": "page-320"
+    },
+    "page_start": "page-312",
+    "page_end": "page-322",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XXI",
+    "number": 21,
+    "pc": "389,20",
+    "incipit": "Ben s'eschai q'en bona cort",
+    "sections": {
+      "incipit": "page-323",
+      "remarques": "page-324",
+      "texte": "page-334"
+    },
+    "page_start": "page-323",
+    "page_end": "page-344",
+    "missing_sections": []
+  },
+  {
+    "chanson": "XXII",
+    "number": 22,
+    "pc": "389,19",
+    "incipit": "Ben sai c'a sels seria fer",
+    "sections": {
+      "incipit": "page-345",
+      "remarques": "page-346",
+      "texte": "page-356"
+    },
+    "page_start": "page-345",
+    "page_end": "page-358",
+    "missing_sections": []
+  }
+]

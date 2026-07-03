@@ -1,0 +1,10 @@
+<!-- page: 006 -->
+
+syl[lab]es[^1]. Il est le premier également à se servir de ce que les *Leyg d'Amor* appellent des coblas *capcaudadas* et des coblas *capfinidas*[^2]. Il est aussi le premier troubadour à exploiter cette forme particulière de l'enjambement qui consiste à séparer l'adjectif du nom qu'il qualifie: "Die virtuose, alle Klangwirkungen des Reimes ausschöpfende Verwendung des E/A/S findet sich in der romanischen Lyrik erstmalig im Werk des (...) Raimbaut d'Aurenga"[^3]. Nous aurons d'ailleurs l'occasion de montrer plus loin comment Raimbaut se servit de façon toute particulière de l'enjambement (*ses regle e ses ligna*) dans sa chanson II[^4]. Quant à l' "unrhymed refrain word" qui, chez Raimbaut, apparaît soit dans chaque vers de la strophe (sauf dans le dernier, qui donne alors le mot-refrain de la strophe suivante)[^5], soit à travers le poème tout entier[^6].
+
+[^1]: Voir les chansons XVIII et XXII.
+[^2]: *Coblas capcaudadas*: chanson XXXIII; *capfinidas*: chansons X et XXXV. — Pour une définition de ces coblas, voir *Leyg*, I.I, respectivement pp.168 et 236; 280. Voir aussi A. JEANROY, ouv. cité, p.80. — Il s'agit en fait d'une façon particulière de relier les strophes d'un poème les unes aux autres, en répétant un élément du dernier vers de la strophe précédente dans le premier vers de la suivante. Les coblas sont dites *capfinidas* lorsque la syllabe (le mot, la phrase) qui termine la strophe devient le commencement de la suivante; elles sont *capcaudadas* lorsque la rime initiale de la strophe est la rime terminale de la strophe précédente.
+[^3]: Jörn GRUBER, *Laura und das "trobar car". Studien zur stilistischen Funktion des Enjambements in der provenzalischen und italienischen Lyrik von den Anfängen bis Francesco Petrarca*, Hambourg, Helmut Buske Verlag, 1976, p.39. — L'auteur décode son sigle de la façon suivante: E=Enjambement; A=Attributives Adjektiv; /=Versgrenze; S=Substantiv (p.4, n.10).
+[^4]: Voir nos "Remarques" à II,17.
+[^5]: Tel est le cas dans la chanson XXXV.
+[^6]: Voir chanson XXXVI.

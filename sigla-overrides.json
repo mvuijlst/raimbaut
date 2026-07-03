@@ -1,0 +1,143 @@
+{
+  "_comment": "Hand-curated resolution of sigla the automatic 'ci-après' harvester could not resolve, plus cleaned definitions for the three entries whose auto-captured text was noisy (ANG/Godefroy/TL). Each fact was verified against the siglum's actual usage context in corpus/ (page references in 'evidence'). Merged into citations.json by build_citations.py. confidence: high = citation seen spelled out or usage unambiguous; medium = strong inference, worth a human glance. 'alias_of' folds a transcription-variant siglum into its canonical form (usage counts are merged).",
+
+  "resolved": [
+    {
+      "siglum": "LR",
+      "definition": "François RAYNOUARD, *Lexique roman ou Dictionnaire de la langue des troubadours*, Paris, Silvestre, 1838-1844, 6 vols.",
+      "confidence": "high",
+      "evidence": "page-078 « le sens de 'cordeau' que donne Raynouard (LR, IV, 77-78) »; page-154 « Voir LR,V,522.- Remarquons que Raynouard y traduit »"
+    },
+    {
+      "siglum": "MG",
+      "definition": "C.A.F. MAHN, *Gedichte der Troubadours in provenzalischer Sprache*, Berlin, Dümmler, 1856-1873, 4 vols.",
+      "confidence": "high",
+      "evidence": "page-031 « MAHN, Gedichte der Troubadours, Berlin, Duemmler, 1864, t.III »; page-036 « C.A.F. MAHN, Gedichte der Troubadoure..., t. I-IV, 1856-1873 »; used in ms. lines with a poem number, e.g. page-197 « I(f°146^v^-147; MG,622) »"
+    },
+    {
+      "siglum": "MW",
+      "definition": "C.A.F. MAHN, *Die Werke der Troubadours in provenzalischer Sprache*, Berlin, Dümmler, 1846-1886, 4 vols.",
+      "confidence": "high",
+      "evidence": "used in the 'Princ. éd.' lines as volume+page, e.g. page-075 « MW,I,79 », page-244 « MW, I, 80 » — companion collection to Mahn's Gedichte (MG)"
+    },
+    {
+      "siglum": "RLR",
+      "definition": "*Revue des langues romanes*, Montpellier / Paris (revue).",
+      "confidence": "high",
+      "evidence": "page-038 « dans Revue des Langues Romanes, XL (1897) »; page-199 « dans Revue des Langues Romanes, XLV (1902) »; used as « RLR, XLV, 218 » in ms. apparatus"
+    },
+    {
+      "siglum": "BA",
+      "definition": "Edmund STENGEL, *Le Chansonnier de Bernart Amoros* (édition du chansonnier *a*), dans *Revue des langues romanes* XLIV-XLV (1901-1902).",
+      "confidence": "high",
+      "evidence": "always paired with the chansonnier *a* and RLR XLV, e.g. page-056 « a(f°205-206; RLR, XLV, 218 + BA, 76) »; page-199 names it: « E. STENGEL, Le Chansonnier de Bernart Amoros, dans Revue des Langues Romanes, XLV (1902) »"
+    },
+    {
+      "siglum": "ZRPh",
+      "definition": "*Zeitschrift für romanische Philologie*, Halle / Tübingen (revue).",
+      "confidence": "high",
+      "evidence": "spelled out repeatedly, e.g. page-026 « dans Zeitschrift für romanische Philologie, XLI (1921) »; used as « ZRPh,LVIII,92 » on page-075"
+    },
+    {
+      "siglum": "REW",
+      "definition": "Wilhelm MEYER-LÜBKE, *Romanisches Etymologisches Wörterbuch*, Heidelberg, Carl Winter.",
+      "confidence": "high",
+      "evidence": "standard reference; used on page-113, page-184 as etymological authority alongside FEW"
+    }
+  ],
+
+  "cleaned": [
+    {
+      "siglum": "RO",
+      "definition": "Walter T. PATTISON, *The Life and Works of the Troubadour Raimbaut d'Orange*, Minneapolis, University of Minnesota Press, 1952.",
+      "confidence": "high",
+      "note": "the edition's core siglum (190×); auto-capture on page-001 was a full sentence ('Pour tout renseignement... on se rapportera...'). Pattison is both the biography and the reference edition of the songs."
+    },
+    {
+      "siglum": "RvO",
+      "definition": "Carl APPEL, *Raimbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928.",
+      "confidence": "high",
+      "note": "auto-capture on page-002 began 'C'est ce que Carl APPEL...' and ended at a specific page range (pp.62-98)."
+    },
+    {
+      "siglum": "FEW",
+      "definition": "Walther von WARTBURG, *Französisches Etymologisches Wörterbuch*, Bonn/Leipzig/Basel, 1922- , 25 vols.",
+      "confidence": "high",
+      "note": "auto-capture on page-063 began 'Voir...' and truncated the title."
+    },
+    {
+      "siglum": "PAT",
+      "definition": "Linda M. PATERSON, *Troubadours and Eloquence*, Oxford, Clarendon Press, 1975.",
+      "confidence": "high",
+      "note": "auto-capture on page-005 began 'voir aussi le rimaire de...'."
+    },
+    {
+      "siglum": "Leys",
+      "definition": "GUILHEM MOLINER, *Las Flors del Gay Saber, estier dichas Las Leys d'Amors*, éd. Gatien-Arnoult, Toulouse, J.B. Paya, 1841-1843, 3 vols.",
+      "confidence": "high",
+      "note": "auto-capture on page-005 began 'Pour la définition de ces coblas, voir...'."
+    },
+    {
+      "siglum": "P.-C.",
+      "definition": "Alfred PILLET et Henry CARSTENS, *Bibliographie der Troubadours*, Halle, Niemeyer, 1933 (réimpr. New York, Burt Franklin).",
+      "confidence": "high",
+      "note": "the standard troubadour numbering (P.-C. 389 = Raimbaut d'Orange); auto-capture began 'Voir...' and ended at 'pp. XIV et XXV'."
+    },
+    {
+      "siglum": "ANG",
+      "definition": "Joseph ANGLADE, *Grammaire de l'ancien provençal ou ancienne langue d'oc*, Paris, Klincksieck, 1921.",
+      "confidence": "high",
+      "note": "auto-capture on page-059 prepended stray discussion text about *fenhs*/*fenhz*; citation itself is correct"
+    },
+    {
+      "siglum": "Godefroy",
+      "definition": "Frédéric GODEFROY, *Dictionnaire de l'ancienne langue française et de tous ses dialectes du IX^e^ au XV^e^ siècle*, Paris, 1880-1902 (réimpr. Vaduz, Kraus Reprint), 8 vols.",
+      "confidence": "high",
+      "note": "auto-capture on page-063 swept in an adjacent FEW quotation; citation isolated here"
+    },
+    {
+      "siglum": "TL",
+      "definition": "Adolf TOBLER et Erhard LOMMATZSCH, *Altfranzösisches Wörterbuch*, Wiesbaden, F. Steiner Verlag, 1925-1976, 10 vols (A-T).",
+      "confidence": "high",
+      "note": "auto-capture on page-063 included the preceding Godefroy definition; citation isolated here"
+    }
+  ],
+
+  "aliases": [
+    {
+      "siglum": "PDF",
+      "alias_of": "PDP",
+      "note": "the work is defined once (page-070) as Emil LEVY, Petit dictionnaire provençal-français (ci-après [PDF]); it is then cited 35× as PDP. PDP is the intended/dominant form; the single 'PDF' is a P/F transcription slip on the definition page."
+    },
+    {
+      "siglum": "FEM",
+      "alias_of": "FEW",
+      "note": "cited as « FEM, XIV, 561-562 » (page-278) etc. — identical volume+page style to FEW (von Wartburg); an M/W transcription slip."
+    }
+  ],
+
+  "resolved_via_alias": [
+    {
+      "siglum": "PDP",
+      "definition": "Emil LEVY, *Petit dictionnaire provençal-français*, Heidelberg, Carl Winter, 1909 (4e éd. 1966).",
+      "confidence": "high",
+      "evidence": "defined inline on page-070 (as the variant 'PDF'); used as a dictionary lookup with page number, e.g. page-078 « s'il s'agit d'une forme de dechar 'dire' (PDP, 106) »"
+    }
+  ],
+
+  "manuscript_sigla": {
+    "note": "Single capital letters (and their concatenations) are the medieval song-manuscripts (chansonniers) collated in the edition, following Pillet-Carstens conventions. Not bibliographic references; they should link to a manuscript-list rather than a works entry.",
+    "singletons": ["A", "B", "C", "D", "E", "F", "G", "I", "K", "M", "N", "R", "U", "V", "a", "d"],
+    "N2_note": "N² (also transcribed 'N^2^', 'N°2', and doubled as 'NN'/'NN²') is the chansonnier N²; 'NN'/'NN²' are transcription artifacts of N / N².",
+    "groups_seen": ["IKN", "CDM", "DIKMN", "DM", "RV", "CMRA", "CEDROM", "DER", "CDEIKMRUV", "ABCDEFGHIKLMNOPQRSTU"]
+  },
+
+  "flagged_uncertain": [
+    {
+      "siglum": "PDL",
+      "guess": "probably Emil LEVY, *Petit dictionnaire provençal-français* (= PDP); a P/L transcription variant.",
+      "confidence": "medium",
+      "evidence": "page-296 « Voir e.a. LR, IV, 659; SW, VI, 566-567; PDL, 308 » — sits in a run of dictionary lookups with bare page numbers, exactly like PDP. Not folded automatically; verify against the scan of page-296/283/298."
+    }
+  ]
+}

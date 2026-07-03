@@ -1,0 +1,9 @@
+<!-- page: 023 -->
+
+nous pouvons en déduire un certain nombre de faits. Partant de ce que la production des troubadours a subi - à l'intérieur d'un cadre géographique et temporel plus ou moins restreint - de pareille manière l'injure du temps (ce qui n'est qu'une hypothèse mais vraisemblable), nous avons déduit des données quantitatives que fournit cette tradition, des façons de faire, des attitudes distinctes quant à la transmission des textes. Si certaines de ces attitudes sont tout à fait neutres et non pertinentes quant à la notoriété qu'auraient pu avoir les poètes étudiés, d'autres, en revanche, le sont beaucoup moins et ne peuvent logiquement s'expliquer que par cela. Or, et c'est ce qui nous importe ici, ce sont toujours ces attitudes-là, ces tendances révélatrices d'un certain succès, que l'on retrouve également dans la tradition manuscrite propre aux textes de Raimbaut d'Orange.
+
+La "réception matérielle" de l'oeuvre de Raimbaut montre de façon objective - fût-elle toute théorique - la notoriété de ce troubadour : elle peut se comparer aisément à celle d'un Marcabru ou d'un Giraut de Bornehl. Cela étant, les données de l'histoire littéraire ne font que la corroborer. Ainsi, la *Vida* de Peire Rogier nous apprend que ce dernier se rendit à la cour de Raimbaut - "Et el s'en anet dolenz e pensius e consiros e marritz a'n Rambaut d'Aurenga (...) lone tems estetz ab En Raimbaut"[^1]. - et qu'à cette occasion eut lieu un échange de sirventes[^2]. Ces poèmes nous montrent un Peire Rogier
+
+[^1]: Derek T. NICHOLSON, *ouv. cité*, p. 35.
+
+[^2]: Il s'agit, pour Peire Rogier, de *Segn'En Raymbaut, per vezer* (éd. Nicholson, ch. VIII) et, pour Raimbaut, de *Peire Rotgier, a trassaillir* (éd. Pattison, ch. VI). Tant pour Pattison que pour Nicholson, les deux poèmes dateraient de 1165-1167 (voir [RO]{.underline}, pp. 37 et 90, n.1; D.T. NICHOLSON, *ouv. cité*, p. 4).

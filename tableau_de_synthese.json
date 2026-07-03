@@ -1,0 +1,1756 @@
+{
+  "meta": {
+    "title": "Tableau de synthèse",
+    "description": "Presence/absence matrix: editions and studies (rows, 1774-1948) versus poem numbers 1-39 of Raimbaut d'Orange (columns). An 'x' means the poem is edited/treated in that work. Transcribed from a typewritten thesis page; column numbering presumably follows the ordering used elsewhere in the thesis.",
+    "columns": {
+      "count": 39,
+      "label": "poem number (1-39)"
+    },
+    "footnote": "Aux travaux mentionnés ci-dessus et représentés dans ce tableau, il faudrait bien entendu ajouter les différentes éditions diplomatiques ou synoptiques des versions manuscrites des poèmes de Raimbaut d'Orange. Celles-ci seront citées en tête de nos « Remarques », chanson par chanson, ainsi que les éditions postérieures à celle de Pattison.",
+    "transcription_caveats": []
+  },
+  "editions": [
+    {
+      "id": "spalaye-1774-1",
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "n_poems": 9,
+      "poems": [
+        4,
+        8,
+        11,
+        19,
+        28,
+        30,
+        31,
+        37,
+        38
+      ]
+    },
+    {
+      "id": "rochegude-1819-2",
+      "editor": "Rochegude",
+      "year_label": "1819",
+      "year_sort": 1819,
+      "n_poems": 4,
+      "poems": [
+        6,
+        20,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "raynouard-1816-21-3",
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "n_poems": 22,
+      "poems": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        22,
+        24,
+        25,
+        26,
+        30,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": "diez-1826-4",
+      "editor": "Diez",
+      "year_label": "1826",
+      "year_sort": 1826,
+      "n_poems": 1,
+      "poems": [
+        24
+      ]
+    },
+    {
+      "id": "diez-1829-5",
+      "editor": "Diez",
+      "year_label": "1829",
+      "year_sort": 1829,
+      "n_poems": 5,
+      "poems": [
+        1,
+        13,
+        25,
+        30,
+        37
+      ]
+    },
+    {
+      "id": "raynouard-1836-6",
+      "editor": "Raynouard",
+      "year_label": "1836",
+      "year_sort": 1836,
+      "n_poems": 1,
+      "poems": [
+        20
+      ]
+    },
+    {
+      "id": "mahn-1846-7",
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "n_poems": 23,
+      "poems": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        20,
+        24,
+        25,
+        26,
+        27,
+        30,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": "mahn-1856-73-8",
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "n_poems": 19,
+      "poems": [
+        1,
+        2,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        22,
+        26,
+        28,
+        29,
+        31,
+        32,
+        37,
+        39
+      ]
+    },
+    {
+      "id": "bartsch-1855-9",
+      "editor": "Bartsch",
+      "year_label": "1855",
+      "year_sort": 1855,
+      "n_poems": 1,
+      "poems": [
+        24
+      ]
+    },
+    {
+      "id": "meyer-1874-10",
+      "editor": "Meyer",
+      "year_label": "1874",
+      "year_sort": 1874,
+      "n_poems": 1,
+      "poems": [
+        24
+      ]
+    },
+    {
+      "id": "bayle-1879-11",
+      "editor": "Bayle",
+      "year_label": "1879",
+      "year_sort": 1879,
+      "n_poems": 1,
+      "poems": [
+        24
+      ]
+    },
+    {
+      "id": "bartsch-1879-12",
+      "editor": "Bartsch",
+      "year_label": "1879",
+      "year_sort": 1879,
+      "n_poems": 2,
+      "poems": [
+        24,
+        38
+      ]
+    },
+    {
+      "id": "constans-1881-13",
+      "editor": "Constans",
+      "year_label": "1881",
+      "year_sort": 1881,
+      "n_poems": 2,
+      "poems": [
+        9,
+        20
+      ]
+    },
+    {
+      "id": "appel-1882-14",
+      "editor": "Appel",
+      "year_label": "1882",
+      "year_sort": 1882,
+      "n_poems": 1,
+      "poems": [
+        7
+      ]
+    },
+    {
+      "id": "schultz-1888-15",
+      "editor": "Schultz",
+      "year_label": "1888",
+      "year_sort": 1888,
+      "n_poems": 1,
+      "poems": [
+        25
+      ]
+    },
+    {
+      "id": "appel-1892-16",
+      "editor": "Appel",
+      "year_label": "1892",
+      "year_sort": 1892,
+      "n_poems": 2,
+      "poems": [
+        3,
+        34
+      ]
+    },
+    {
+      "id": "crescini-1892-17",
+      "editor": "Crescini",
+      "year_label": "1892",
+      "year_sort": 1892,
+      "n_poems": 1,
+      "poems": [
+        24
+      ]
+    },
+    {
+      "id": "santy-1893-18",
+      "editor": "Santy",
+      "year_label": "1893",
+      "year_sort": 1893,
+      "n_poems": 1,
+      "poems": [
+        25
+      ]
+    },
+    {
+      "id": "appel-1895-19",
+      "editor": "Appel",
+      "year_label": "1895",
+      "year_sort": 1895,
+      "n_poems": 3,
+      "poems": [
+        24,
+        31,
+        39
+      ]
+    },
+    {
+      "id": "appel-1897-20",
+      "editor": "Appel",
+      "year_label": "1897",
+      "year_sort": 1897,
+      "n_poems": 2,
+      "poems": [
+        8,
+        33
+      ]
+    },
+    {
+      "id": "chaytor-1902-21",
+      "editor": "Chaytor",
+      "year_label": "1902",
+      "year_sort": 1902,
+      "n_poems": 1,
+      "poems": [
+        31
+      ]
+    },
+    {
+      "id": "jeanroy-1905-22",
+      "editor": "Jeanroy",
+      "year_label": "1905",
+      "year_sort": 1905,
+      "n_poems": 1,
+      "poems": [
+        3
+      ]
+    },
+    {
+      "id": "crescini-1907-23",
+      "editor": "Crescini",
+      "year_label": "1907",
+      "year_sort": 1907,
+      "n_poems": 1,
+      "poems": [
+        24
+      ]
+    },
+    {
+      "id": "kolsen-1910-24",
+      "editor": "Kolsen",
+      "year_label": "1910",
+      "year_sort": 1910,
+      "n_poems": 1,
+      "poems": [
+        31
+      ]
+    },
+    {
+      "id": "rochemaure-1910-25",
+      "editor": "Rochemaure",
+      "year_label": "1910",
+      "year_sort": 1910,
+      "n_poems": 1,
+      "poems": [
+        6
+      ]
+    },
+    {
+      "id": "kolsen-1916-26",
+      "editor": "Kolsen",
+      "year_label": "1916",
+      "year_sort": 1916,
+      "n_poems": 2,
+      "poems": [
+        10,
+        17
+      ]
+    },
+    {
+      "id": "lommatzsch-1917-27",
+      "editor": "Lommatzsch",
+      "year_label": "1917",
+      "year_sort": 1917,
+      "n_poems": 2,
+      "poems": [
+        24,
+        31
+      ]
+    },
+    {
+      "id": "kussler-1917-28",
+      "editor": "Kussler",
+      "year_label": "1917",
+      "year_sort": 1917,
+      "n_poems": 1,
+      "poems": [
+        25
+      ]
+    },
+    {
+      "id": "kolsen-1919-29",
+      "editor": "Kolsen",
+      "year_label": "1919",
+      "year_sort": 1919,
+      "n_poems": 2,
+      "poems": [
+        4,
+        15
+      ]
+    },
+    {
+      "id": "kolsen-1920-30",
+      "editor": "Kolsen",
+      "year_label": "1920",
+      "year_sort": 1920,
+      "n_poems": 1,
+      "poems": [
+        30
+      ]
+    },
+    {
+      "id": "kolsen-1925-31",
+      "editor": "Kolsen",
+      "year_label": "1925",
+      "year_sort": 1925,
+      "n_poems": 3,
+      "poems": [
+        14,
+        27,
+        30
+      ]
+    },
+    {
+      "id": "crescini-1926-32",
+      "editor": "Crescini",
+      "year_label": "1926",
+      "year_sort": 1926,
+      "n_poems": 1,
+      "poems": [
+        24
+      ]
+    },
+    {
+      "id": "crescini-1926-27-33",
+      "editor": "Crescini",
+      "year_label": "1926/27",
+      "year_sort": 1926,
+      "n_poems": 1,
+      "poems": [
+        21
+      ]
+    },
+    {
+      "id": "anglade-1927-34",
+      "editor": "Anglade",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "n_poems": 2,
+      "poems": [
+        20,
+        31
+      ]
+    },
+    {
+      "id": "jeanroy-1927-35",
+      "editor": "Jeanroy",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "n_poems": 3,
+      "poems": [
+        20,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "audiau-lav-1927-36",
+      "editor": "Audiau-Lav.",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "n_poems": 2,
+      "poems": [
+        20,
+        31
+      ]
+    },
+    {
+      "id": "appel-1928-37",
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "n_poems": 9,
+      "poems": [
+        1,
+        4,
+        11,
+        17,
+        18,
+        21,
+        22,
+        28,
+        33
+      ]
+    },
+    {
+      "id": "appel-1928-38",
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "n_poems": 1,
+      "poems": [
+        23
+      ]
+    },
+    {
+      "id": "appel-1929-39",
+      "editor": "Appel",
+      "year_label": "1929",
+      "year_sort": 1929,
+      "n_poems": 1,
+      "poems": [
+        37
+      ]
+    },
+    {
+      "id": "appel-1929-40",
+      "editor": "Appel",
+      "year_label": "1929",
+      "year_sort": 1929,
+      "n_poems": 2,
+      "poems": [
+        9,
+        32
+      ]
+    },
+    {
+      "id": "fassbinder-1929-41",
+      "editor": "Fassbinder",
+      "year_label": "1929",
+      "year_sort": 1929,
+      "n_poems": 1,
+      "poems": [
+        10
+      ]
+    },
+    {
+      "id": "berry-1930-42",
+      "editor": "Berry",
+      "year_label": "1930",
+      "year_sort": 1930,
+      "n_poems": 1,
+      "poems": [
+        25
+      ]
+    },
+    {
+      "id": "appel-1933-43",
+      "editor": "Appel",
+      "year_label": "1933",
+      "year_sort": 1933,
+      "n_poems": 1,
+      "poems": [
+        32
+      ]
+    },
+    {
+      "id": "kolsen-1935-44",
+      "editor": "Kolsen",
+      "year_label": "1935",
+      "year_sort": 1935,
+      "n_poems": 1,
+      "poems": [
+        31
+      ]
+    },
+    {
+      "id": "kolsen-1938-45",
+      "editor": "Kolsen",
+      "year_label": "1938",
+      "year_sort": 1938,
+      "n_poems": 3,
+      "poems": [
+        2,
+        8,
+        26
+      ]
+    },
+    {
+      "id": "cavaliere-1938-46",
+      "editor": "Cavaliere",
+      "year_label": "1938",
+      "year_sort": 1938,
+      "n_poems": 1,
+      "poems": [
+        24
+      ]
+    },
+    {
+      "id": "monteverdi-1939-47",
+      "editor": "Monteverdi",
+      "year_label": "1939",
+      "year_sort": 1939,
+      "n_poems": 1,
+      "poems": [
+        20
+      ]
+    },
+    {
+      "id": "kolsen-1940-48",
+      "editor": "Kolsen",
+      "year_label": "1940",
+      "year_sort": 1940,
+      "n_poems": 1,
+      "poems": [
+        28
+      ]
+    },
+    {
+      "id": "bertoni-1940-49",
+      "editor": "Bertoni",
+      "year_label": "1940",
+      "year_sort": 1940,
+      "n_poems": 1,
+      "poems": [
+        20
+      ]
+    },
+    {
+      "id": "hill-bergin-1941-50",
+      "editor": "Hill-Bergin",
+      "year_label": "1941",
+      "year_sort": 1941,
+      "n_poems": 3,
+      "poems": [
+        24,
+        31,
+        39
+      ]
+    },
+    {
+      "id": "barroux-1941-51",
+      "editor": "Barroux",
+      "year_label": "1941",
+      "year_sort": 1941,
+      "n_poems": 3,
+      "poems": [
+        11,
+        15,
+        18
+      ]
+    },
+    {
+      "id": "wellner-1942-52",
+      "editor": "Wellner",
+      "year_label": "1942",
+      "year_sort": 1942,
+      "n_poems": 3,
+      "poems": [
+        24,
+        31,
+        39
+      ]
+    },
+    {
+      "id": "lewent-1943-53",
+      "editor": "Lewent",
+      "year_label": "1943",
+      "year_sort": 1943,
+      "n_poems": 1,
+      "poems": [
+        28
+      ]
+    },
+    {
+      "id": "lewent-1944-54",
+      "editor": "Lewent",
+      "year_label": "1944",
+      "year_sort": 1944,
+      "n_poems": 0,
+      "poems": []
+    },
+    {
+      "id": "viscardi-1945-55",
+      "editor": "Viscardi",
+      "year_label": "1945",
+      "year_sort": 1945,
+      "n_poems": 1,
+      "poems": [
+        39
+      ]
+    },
+    {
+      "id": "chambers-1945-56",
+      "editor": "Chambers",
+      "year_label": "1945",
+      "year_sort": 1945,
+      "n_poems": 1,
+      "poems": [
+        9
+      ]
+    },
+    {
+      "id": "véran-1946-57",
+      "editor": "Véran",
+      "year_label": "1946",
+      "year_sort": 1946,
+      "n_poems": 0,
+      "poems": []
+    },
+    {
+      "id": "piccolo-1948-58",
+      "editor": "Piccolo",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "n_poems": 2,
+      "poems": [
+        20,
+        31
+      ]
+    },
+    {
+      "id": "mderiquer-1948-59",
+      "editor": "M. de Riquer",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "n_poems": 8,
+      "poems": [
+        8,
+        14,
+        20,
+        24,
+        25,
+        27,
+        31,
+        39
+      ]
+    }
+  ],
+  "cells_long": [
+    {
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "poem": 4
+    },
+    {
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "poem": 8
+    },
+    {
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "poem": 11
+    },
+    {
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "poem": 19
+    },
+    {
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "poem": 28
+    },
+    {
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "poem": 30
+    },
+    {
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "poem": 31
+    },
+    {
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "poem": 37
+    },
+    {
+      "editor": "S. Palaye",
+      "year_label": "1774",
+      "year_sort": 1774,
+      "poem": 38
+    },
+    {
+      "editor": "Rochegude",
+      "year_label": "1819",
+      "year_sort": 1819,
+      "poem": 6
+    },
+    {
+      "editor": "Rochegude",
+      "year_label": "1819",
+      "year_sort": 1819,
+      "poem": 20
+    },
+    {
+      "editor": "Rochegude",
+      "year_label": "1819",
+      "year_sort": 1819,
+      "poem": 24
+    },
+    {
+      "editor": "Rochegude",
+      "year_label": "1819",
+      "year_sort": 1819,
+      "poem": 25
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 1
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 2
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 3
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 5
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 6
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 8
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 11
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 13
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 14
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 15
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 17
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 19
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 22
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 24
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 25
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 26
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 30
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 34
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 35
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 36
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 37
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1816/21",
+      "year_sort": 1816,
+      "poem": 38
+    },
+    {
+      "editor": "Diez",
+      "year_label": "1826",
+      "year_sort": 1826,
+      "poem": 24
+    },
+    {
+      "editor": "Diez",
+      "year_label": "1829",
+      "year_sort": 1829,
+      "poem": 1
+    },
+    {
+      "editor": "Diez",
+      "year_label": "1829",
+      "year_sort": 1829,
+      "poem": 13
+    },
+    {
+      "editor": "Diez",
+      "year_label": "1829",
+      "year_sort": 1829,
+      "poem": 25
+    },
+    {
+      "editor": "Diez",
+      "year_label": "1829",
+      "year_sort": 1829,
+      "poem": 30
+    },
+    {
+      "editor": "Diez",
+      "year_label": "1829",
+      "year_sort": 1829,
+      "poem": 37
+    },
+    {
+      "editor": "Raynouard",
+      "year_label": "1836",
+      "year_sort": 1836,
+      "poem": 20
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 1
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 2
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 3
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 5
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 6
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 8
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 11
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 13
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 14
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 15
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 17
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 19
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 20
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 24
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 25
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 26
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 27
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 30
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 34
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 35
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 36
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 37
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1846",
+      "year_sort": 1846,
+      "poem": 38
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 1
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 2
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 4
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 10
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 11
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 12
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 13
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 14
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 16
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 17
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 18
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 22
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 26
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 28
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 29
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 31
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 32
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 37
+    },
+    {
+      "editor": "Mahn",
+      "year_label": "1856/73",
+      "year_sort": 1856,
+      "poem": 39
+    },
+    {
+      "editor": "Bartsch",
+      "year_label": "1855",
+      "year_sort": 1855,
+      "poem": 24
+    },
+    {
+      "editor": "Meyer",
+      "year_label": "1874",
+      "year_sort": 1874,
+      "poem": 24
+    },
+    {
+      "editor": "Bayle",
+      "year_label": "1879",
+      "year_sort": 1879,
+      "poem": 24
+    },
+    {
+      "editor": "Bartsch",
+      "year_label": "1879",
+      "year_sort": 1879,
+      "poem": 24
+    },
+    {
+      "editor": "Bartsch",
+      "year_label": "1879",
+      "year_sort": 1879,
+      "poem": 38
+    },
+    {
+      "editor": "Constans",
+      "year_label": "1881",
+      "year_sort": 1881,
+      "poem": 9
+    },
+    {
+      "editor": "Constans",
+      "year_label": "1881",
+      "year_sort": 1881,
+      "poem": 20
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1882",
+      "year_sort": 1882,
+      "poem": 7
+    },
+    {
+      "editor": "Schultz",
+      "year_label": "1888",
+      "year_sort": 1888,
+      "poem": 25
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1892",
+      "year_sort": 1892,
+      "poem": 3
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1892",
+      "year_sort": 1892,
+      "poem": 34
+    },
+    {
+      "editor": "Crescini",
+      "year_label": "1892",
+      "year_sort": 1892,
+      "poem": 24
+    },
+    {
+      "editor": "Santy",
+      "year_label": "1893",
+      "year_sort": 1893,
+      "poem": 25
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1895",
+      "year_sort": 1895,
+      "poem": 24
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1895",
+      "year_sort": 1895,
+      "poem": 31
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1895",
+      "year_sort": 1895,
+      "poem": 39
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1897",
+      "year_sort": 1897,
+      "poem": 8
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1897",
+      "year_sort": 1897,
+      "poem": 33
+    },
+    {
+      "editor": "Chaytor",
+      "year_label": "1902",
+      "year_sort": 1902,
+      "poem": 31
+    },
+    {
+      "editor": "Jeanroy",
+      "year_label": "1905",
+      "year_sort": 1905,
+      "poem": 3
+    },
+    {
+      "editor": "Crescini",
+      "year_label": "1907",
+      "year_sort": 1907,
+      "poem": 24
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1910",
+      "year_sort": 1910,
+      "poem": 31
+    },
+    {
+      "editor": "Rochemaure",
+      "year_label": "1910",
+      "year_sort": 1910,
+      "poem": 6
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1916",
+      "year_sort": 1916,
+      "poem": 10
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1916",
+      "year_sort": 1916,
+      "poem": 17
+    },
+    {
+      "editor": "Lommatzsch",
+      "year_label": "1917",
+      "year_sort": 1917,
+      "poem": 24
+    },
+    {
+      "editor": "Lommatzsch",
+      "year_label": "1917",
+      "year_sort": 1917,
+      "poem": 31
+    },
+    {
+      "editor": "Kussler",
+      "year_label": "1917",
+      "year_sort": 1917,
+      "poem": 25
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1919",
+      "year_sort": 1919,
+      "poem": 4
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1919",
+      "year_sort": 1919,
+      "poem": 15
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1920",
+      "year_sort": 1920,
+      "poem": 30
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1925",
+      "year_sort": 1925,
+      "poem": 14
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1925",
+      "year_sort": 1925,
+      "poem": 27
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1925",
+      "year_sort": 1925,
+      "poem": 30
+    },
+    {
+      "editor": "Crescini",
+      "year_label": "1926",
+      "year_sort": 1926,
+      "poem": 24
+    },
+    {
+      "editor": "Crescini",
+      "year_label": "1926/27",
+      "year_sort": 1926,
+      "poem": 21
+    },
+    {
+      "editor": "Anglade",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "poem": 20
+    },
+    {
+      "editor": "Anglade",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "poem": 31
+    },
+    {
+      "editor": "Jeanroy",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "poem": 20
+    },
+    {
+      "editor": "Jeanroy",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "poem": 24
+    },
+    {
+      "editor": "Jeanroy",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "poem": 25
+    },
+    {
+      "editor": "Audiau-Lav.",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "poem": 20
+    },
+    {
+      "editor": "Audiau-Lav.",
+      "year_label": "1927",
+      "year_sort": 1927,
+      "poem": 31
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 1
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 4
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 11
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 17
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 18
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 21
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 22
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 28
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 33
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1928",
+      "year_sort": 1928,
+      "poem": 23
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1929",
+      "year_sort": 1929,
+      "poem": 37
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1929",
+      "year_sort": 1929,
+      "poem": 9
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1929",
+      "year_sort": 1929,
+      "poem": 32
+    },
+    {
+      "editor": "Fassbinder",
+      "year_label": "1929",
+      "year_sort": 1929,
+      "poem": 10
+    },
+    {
+      "editor": "Berry",
+      "year_label": "1930",
+      "year_sort": 1930,
+      "poem": 25
+    },
+    {
+      "editor": "Appel",
+      "year_label": "1933",
+      "year_sort": 1933,
+      "poem": 32
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1935",
+      "year_sort": 1935,
+      "poem": 31
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1938",
+      "year_sort": 1938,
+      "poem": 2
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1938",
+      "year_sort": 1938,
+      "poem": 8
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1938",
+      "year_sort": 1938,
+      "poem": 26
+    },
+    {
+      "editor": "Cavaliere",
+      "year_label": "1938",
+      "year_sort": 1938,
+      "poem": 24
+    },
+    {
+      "editor": "Monteverdi",
+      "year_label": "1939",
+      "year_sort": 1939,
+      "poem": 20
+    },
+    {
+      "editor": "Kolsen",
+      "year_label": "1940",
+      "year_sort": 1940,
+      "poem": 28
+    },
+    {
+      "editor": "Bertoni",
+      "year_label": "1940",
+      "year_sort": 1940,
+      "poem": 20
+    },
+    {
+      "editor": "Hill-Bergin",
+      "year_label": "1941",
+      "year_sort": 1941,
+      "poem": 24
+    },
+    {
+      "editor": "Hill-Bergin",
+      "year_label": "1941",
+      "year_sort": 1941,
+      "poem": 31
+    },
+    {
+      "editor": "Hill-Bergin",
+      "year_label": "1941",
+      "year_sort": 1941,
+      "poem": 39
+    },
+    {
+      "editor": "Barroux",
+      "year_label": "1941",
+      "year_sort": 1941,
+      "poem": 11
+    },
+    {
+      "editor": "Barroux",
+      "year_label": "1941",
+      "year_sort": 1941,
+      "poem": 15
+    },
+    {
+      "editor": "Barroux",
+      "year_label": "1941",
+      "year_sort": 1941,
+      "poem": 18
+    },
+    {
+      "editor": "Wellner",
+      "year_label": "1942",
+      "year_sort": 1942,
+      "poem": 24
+    },
+    {
+      "editor": "Wellner",
+      "year_label": "1942",
+      "year_sort": 1942,
+      "poem": 31
+    },
+    {
+      "editor": "Wellner",
+      "year_label": "1942",
+      "year_sort": 1942,
+      "poem": 39
+    },
+    {
+      "editor": "Lewent",
+      "year_label": "1943",
+      "year_sort": 1943,
+      "poem": 28
+    },
+    {
+      "editor": "Viscardi",
+      "year_label": "1945",
+      "year_sort": 1945,
+      "poem": 39
+    },
+    {
+      "editor": "Chambers",
+      "year_label": "1945",
+      "year_sort": 1945,
+      "poem": 9
+    },
+    {
+      "editor": "Piccolo",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 20
+    },
+    {
+      "editor": "Piccolo",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 31
+    },
+    {
+      "editor": "M. de Riquer",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 8
+    },
+    {
+      "editor": "M. de Riquer",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 14
+    },
+    {
+      "editor": "M. de Riquer",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 20
+    },
+    {
+      "editor": "M. de Riquer",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 24
+    },
+    {
+      "editor": "M. de Riquer",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 25
+    },
+    {
+      "editor": "M. de Riquer",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 27
+    },
+    {
+      "editor": "M. de Riquer",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 31
+    },
+    {
+      "editor": "M. de Riquer",
+      "year_label": "1948",
+      "year_sort": 1948,
+      "poem": 39
+    }
+  ]
+}

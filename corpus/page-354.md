@@ -1,0 +1,9 @@
+<!-- page: 354 -->
+
+Si Pattison a raison de préférer à la *lectio facilior* du manuscrit a (choisie par [RVO]{.underline}, 57) la reconstruction *donc mon gran ben ab jauzen uer*, il n'en demeure pas moins que sa traduction nous semble fort peu satisfaisante: 'Shall I conceal then my great good and its joyous truth?' ([RO]{.underline}, 143). Sans doute, elle est logique par rapport à ce qui précède (vv. 33-37) mais elle ne respecte pas le texte: il n'y a pas coordination entre les deux syntagmes. Nous traduirions, littéralement: 'Couvrirai-je donc mon grand bien *avec* vérité joyeuse?' Contrairement à ce qu'on pourrait croire, il n'y a ici aucune contradiction car, de par ses exagérations mêmes, cette chanson est en partie une sorte de *gap*, une plaisanterie, une vantardise[^1]. Ce *ab jauzen uer* nous semble, dès lors, désigner très exactement les procédés employés dans ce texte: le poète ne travestit pas la vérité (v. 17), il ne ment pas (voir les str. VII-IX), il dit la vérité. Mais en riant, de sorte que du fait même elle est cachée. On a là, pour ainsi dire, une définition rigoureusement exacte du procédé qui lui a fait employer le terme *nomnar* tout en ne "nommant" (= donner le nom) jamais sa Dame.
+
+v.54
+
+Pour Pattison, *trai* est un substantif analogue à l'ancien français *trait*, ayant par conséquent le sens de 'durée, longueur de temps' ([RO]{.underline}, 143; *Godefroy*, VIII, 5).
+
+[^1]: Pattison a beau ne pas la considérer comme faisant partie de ce genre (il n'y inclut que les ch. XX, XXI, XXVIII, XXXI et XXXVII), la strophe même dans laquelle apparaît ce vers nous semble assez caractéristique du genre: toutes les dames se jetteront à son cou lorsqu'elle sauront quel bon amant il est (tout comme dans la ch. XXI il se dit le meilleur jongleur, tout comme dans la ch. XXXVI il est le plus *malaetrucs*).

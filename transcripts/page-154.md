@@ -1,0 +1,10 @@
+<!-- page: 154 -->
+
+Pattison considère les mots *fere* et *estraig* "as two indignantly interpolated epithets hurled at the calumniators in passing" (RO,92), qu'il traduit par 'the cruel, low-borne people'. En effet, se fondant pour ce faire sur *SM*, III,335, il accorde à *estraig* la signification de 'of low birth, bastard'. Continuant sur sa lancée, il postule même l'existence d'un éventuel substantif ayant alors le sens de 'bastard line, illegitimate offspring', ce qui pourrait mener, si cela était, à la traduction suivante: 'those (slanderers) whom I especially wish fierce unnatural sons'.
+
+Toutefois, pour séduisante qu'elle soit, cette hypothèse nous paraît reposer sur des bases bien trop peu sûres. L'exemple dans lequel Emil Levy relève le mot *estraig* (*estraig*, *estrais*) est emprunté à Peire d'Auvergne: *Aquest en-  
+gres, enveres, estrais / Fals e fat, filh d'avolz paires, / Felos, embronce, sebeno, mal fait*[^1]. Levy y donne à *estrais*, participe passé d'*estraire* le sens de 'abstammend' et se demande si, supprimant la virgule (comme le fait Raynouard[^2]), on ne peut pas considérer *enveres estrais* comme un syntagme ayant le même sens que 'filh d'avolz paires'. Il ne peut que remarquer cependant que, dans cette hypothèse-là, il faudrait supposer un *enveres* non attesté à ce jour. Un tel adverbe (qui signifierait quelque chose comme 'in übler Weise') lui paraissant donc fort peu probable, Emil Levy conclut en donnant la préférence à la traduction de Zenker que nous venons de citer en note.
+
+[^1]: Voir *Bel m'es qu'ieu* (ch.XV,33-35, éd.Del Monte).
+
+[^2]: Voir LR,V,522.- Remarquons que Raynouard y traduit *estrais* par 'formé', ce qui est de toute façon une erreur. - Rudolf ZENKER, *Peire d'Auvergne. Die Lieder*, Genève, Slatkine Reprints, 1977 (réimpr. de 1^re^ éd. d'Erlangen, 1900), p.859, relève *estrais* à *d'avolz paires* et traduit: 'abstammend als falsche und übhärische Söhne von schlechten Vätern'. Il en va de même chez Del Monte: '... falsi e flaccidi figli discendenti da malvagi padri' (p.154).

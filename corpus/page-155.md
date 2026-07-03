@@ -1,0 +1,10 @@
+<!-- page: 155 -->
+
+En fait, il apparaît donc bien que les interprétations de Pattison - tant la première que la seconde - dépassent, et de loin, la pensée de Levy. Là où ce dernier donne un sens tout à fait neutre à *estraït* ('abstamend'), Pattison retient pour ce même mot la connotation négative introduite par le contexte (*enveire... filh d'avole paire*) qui l'accompagne dans cet exemple bien particulier de Peire d'Alvernhe.
+
+Pour notre part, nous admettons ici parfaitement ce sens 'abstamend', d'autant qu'on trouve, également en ancien provençal, un terme voisin - *estrat, estraça, estracha* - qui, en tant que substantif, se traduit par 'extrait' ([FEW]{.underline}, III, 332; voir aussi P. PANSIER, *ouv. cité*, t.III, p.80). Il n'est donc pas absolument impossible de postuler un *estraït, estraig* ... substantif, qui serait alors analogue à l'ancien français *estraçe, -ache, -asse, estraçe, entraçe, atraçe, atraçe*, 'extraction, race, origine, commencement' (*Godefroy*, III, 635).
+
+Cela étant, une connotation négative n'est peut-être, malgré tout, pas entièrement étrangère au mot qui nous occupe. C'est du moins ce que l'on pourrait déduire de certains dérivés de *extraciata* dont, étymologiquement parlant, le rapport avec *estraig, estraït* est assez évident[^1]. On en trouvera d'ailleurs des exemples analogues dans *Le Trésor du Félibrige* - par exemple, *estrascaire, estrasanello, estrascairis, estrascairo, estrasco-biasso, estrasco-braio, estrasco-linçou, estrasco-pan, estrasco-paraulo*... - qui, tous, ont des connotations clairement négatives[^2].
+
+[^1]: Voir [FEW]{.underline}, III, 331, qui cite e.a. *extraciatare 'zerrissen' (< *extrac tuz* *extrahere*) e.a. *npr. estrae 'déchirure, dégât, chiffon', apr. estraeza 'rebut', arg. estraese 'personne malpropre, dénonciateur'*.
+[^2]: Frédéric MISTRAL, *Lou Tresor dóu Felibrige* ou *Dictionnaire provençal - français* (...) *Edition du Centenaire*, Paris, Librairie Delagrave, 1932 (ci-après [LF]{.underline}), t.I, p.1071.

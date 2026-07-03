@@ -1,0 +1,3980 @@
+{
+  "stats": {
+    "resolved": 277,
+    "unresolved": 16,
+    "high_conf": 96,
+    "medium_conf": 148,
+    "low_conf": 33
+  },
+  "resolved": [
+    {
+      "page": "2",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Edgar De BRUYNE",
+        "title": "Études d'esthétique médiévale",
+        "page": "2",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "4",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Alfred JEANROY",
+        "title": "La poésie lyrique des troubadours",
+        "page": "3",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "4",
+      "note": "5",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Alfred JEANROY",
+        "title": "La poésie lyrique des troubadours",
+        "page": "3",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "5",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "ouv. cit",
+      "target": {
+        "author": "MOLINER",
+        "title": "Las Flors del Gay Saber, estier dichas Las Leys d'Amors",
+        "page": "5",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "6",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "ouv. cit",
+      "target": {
+        "author": "Linda M. PATERSON",
+        "title": "Troubadours and Eloquence",
+        "page": "5",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "8",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Jörn GRUBER",
+        "title": "Laura und das \"trobar car\". Studien zur stilistischen Funktion des Enjambements in der provenzalischen und italienischen Lyrik von den Anfängen bis Francesco Petrarca",
+        "page": "6",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "8",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "L. LAWINER",
+        "title": "Notes toward an interpretation of the \"vers de dreyt nien\"",
+        "page": "8",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "8",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "L. LAWINER",
+        "title": "Notes toward an interpretation of the \"vers de dreyt nien\"",
+        "page": "8",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "8",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Nicolò PASERO",
+        "title": "\"Devinalh\", \"non-seneno\" e \"interrogatio adtentata\" osservazioni a proposito fra struttura formali e contenuti ideologici nella poesia provenzale",
+        "page": "8",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "10",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Dietmar RIEGER",
+        "title": "Der \"vers de dreyt nien\" Wilhelm IX von Aquitanien",
+        "page": "8",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "17",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Arco Silvio AVALLE",
+      "author": "Arco Silvio AVALLE",
+      "target": {
+        "author": "Arco Silvio AVALLE",
+        "title": "(reference on this page)",
+        "page": "9",
+        "note": "3"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "18",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Arco Silvio AVALLE",
+      "author": "Arco Silvio AVALLE",
+      "target": {
+        "author": "Arco Silvio AVALLE",
+        "title": "(reference on this page)",
+        "page": "17",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "23",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Derek T. NICHOLSON",
+      "author": "Derek T. NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "23",
+      "note": "2",
+      "kind": "named",
+      "phrase": "D.T. NICHOLSON",
+      "author": "D.T. NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "24",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Derek E.T. NICHOLSON",
+      "author": "Derek E.T. NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "24",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Derek E.T. NICHOLSON",
+      "author": "Derek E.T. NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "24",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Derek E.T. NICHOLSON",
+      "author": "Derek E.T. NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "24",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "25",
+      "note": "1",
+      "kind": "named",
+      "phrase": "MONTE",
+      "author": "MONTE",
+      "target": {
+        "author": "MONTE",
+        "title": "Peire d'Alvernhe. Poesie",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "25",
+      "note": "5",
+      "kind": "named",
+      "phrase": "Moshé LAZAR",
+      "author": "Moshé LAZAR",
+      "target": {
+        "author": "Moshe LAZAR",
+        "title": "Bernard de Ventadour, troubadour du XII^e^ siècle. Chansons d'amour",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "27",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "art. cit",
+      "target": {
+        "author": "Atmo SAKARI",
+        "title": "Azalaïs de Porcairague, le \"joglar\" de Raimbaut d'Orange",
+        "page": "27",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "27",
+      "note": "4",
+      "kind": "bare",
+      "phrase": "art. cit",
+      "target": {
+        "author": "Oscar SCHULTZ-GORA",
+        "title": "Die Provenzalischen Dichterinnen. Biographien und Texte nebst Anmerkungen und einer Einleitung",
+        "page": "27",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "28",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Meg BOGIN",
+        "title": "The Women Troubadours",
+        "page": "27",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "28",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Bruno PANVINI",
+      "author": "Bruno PANVINI",
+      "target": {
+        "author": "Bruno PANVINI",
+        "title": "Giraldo di Bornelh, trovatore del sec. XII",
+        "page": "26",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "29",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Jean MOUZAT",
+      "author": "Jean MOUZAT",
+      "target": {
+        "author": "Jean MOUZAT",
+        "title": "Les poèmes de Gaucelm Faidit, troubadour du XII^e^ siècle",
+        "page": "26",
+        "note": "4"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "29",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Jörn GRUBER",
+      "author": "Jörn GRUBER",
+      "target": {
+        "author": "Jörn GRUBER",
+        "title": "Laura und das \"trobar car\". Studien zur stilistischen Funktion des Enjambements in der provenzalischen und italienischen Lyrik von den Anfängen bis Francesco Petrarca",
+        "page": "6",
+        "note": "3"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "29",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Arco Silvio AVALLE",
+      "author": "Arco Silvio AVALLE",
+      "target": {
+        "author": "Arco Silvio AVALLE",
+        "title": "Peire Vidal",
+        "page": "29",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "29",
+      "note": "4",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Arco Silvio AVALLE",
+        "title": "Peire Vidal",
+        "page": "29",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "29",
+      "note": "5",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Arco Silvio AVALLE",
+        "title": "Peire Vidal",
+        "page": "29",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "34",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Giulio BERTONI",
+        "title": "I Trovatori d'Italia. Biografie, testi, traduzioni, note",
+        "page": "33",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "35",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "ouv. cit",
+      "target": {
+        "author": "PALAYE",
+        "title": "Histoire littéraire des troubadours",
+        "page": "35",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "35",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "ouv. cit",
+      "target": {
+        "author": "PALAYE",
+        "title": "Histoire littéraire des troubadours",
+        "page": "35",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "35",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "ouv. cit",
+      "target": {
+        "author": "PALAYE",
+        "title": "Histoire littéraire des troubadours",
+        "page": "35",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "38",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Oscar SCHULTZ-GORA",
+      "author": "Oscar SCHULTZ-GORA",
+      "target": {
+        "author": "Oscar SCHULTZ-GORA",
+        "title": "Die Provenzalischen Dichterinnen. Biographien und Texte nebst Anmerkungen und einer Einleitung",
+        "page": "27",
+        "note": "3"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "50",
+      "note": "1",
+      "kind": "named",
+      "phrase": "H.H. LUCAS",
+      "author": "H.H. LUCAS",
+      "target": {
+        "author": "H.H. LUCAS",
+        "title": "(reference on this page)",
+        "page": "48",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "50",
+      "note": "2",
+      "kind": "named",
+      "phrase": "RIQUER",
+      "author": "RIQUER",
+      "target": {
+        "author": "RIQUER",
+        "title": "La Lírica de los Trovadores",
+        "page": "45",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "51",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Thomas G. BERGIN",
+      "author": "Thomas G. BERGIN",
+      "target": {
+        "author": "Thomas G. BERGIN",
+        "title": "(reference on this page)",
+        "page": "48",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "56",
+      "note": "1",
+      "kind": "named",
+      "phrase": "J.H. MARSHALL",
+      "author": "J.H. MARSHALL",
+      "target": {
+        "author": "J.H. MARSHALL",
+        "title": "Le \"vers\" au XII^e^ siècle: genre poétique?",
+        "page": "55",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "57",
+      "note": "3",
+      "kind": "named",
+      "phrase": "J.H. MARSHALL",
+      "author": "J.H. MARSHALL",
+      "target": {
+        "author": "J.H. MARSHALL",
+        "title": "Le \"vers\" au XII^e^ siècle: genre poétique?",
+        "page": "55",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "60",
+      "note": "1",
+      "kind": "named",
+      "phrase": "H. LAUSBERG",
+      "author": "H. LAUSBERG",
+      "target": {
+        "author": "H. LAUSBERG",
+        "title": "Handbuch der literarischen Rhetorik",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "60",
+      "note": "2",
+      "kind": "named",
+      "phrase": "A.H. SCHUTZ",
+      "author": "A.H. SCHUTZ",
+      "target": {
+        "author": "A.H. SCHUTZ",
+        "title": "Did the poets \"feign\" or \"fashion\"?",
+        "page": "60",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "63",
+      "note": "3",
+      "kind": "named",
+      "phrase": "MARSHALL",
+      "author": "MARSHALL",
+      "target": {
+        "author": "J.H. MARSHALL",
+        "title": "Le \"vers\" au XII^e^ siècle: genre poétique?",
+        "page": "55",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "64",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "ibid",
+      "target": {
+        "author": "PANSLER",
+        "title": "Histoire de la langue provençale à Avignon du XII^e^ au XIX^e^ siècle",
+        "page": "63",
+        "note": "6"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "65",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "PANSLER",
+        "title": "Histoire de la langue provençale à Avignon du XII^e^ au XIX^e^ siècle",
+        "page": "63",
+        "note": "6"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "66",
+      "note": "2",
+      "kind": "named",
+      "phrase": "J.H. MARSHALL",
+      "author": "J.H. MARSHALL",
+      "target": {
+        "author": "J.H. MARSHALL",
+        "title": "Le \"vers\" au XII^e^ siècle: genre poétique?",
+        "page": "55",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "68",
+      "note": "2",
+      "kind": "named",
+      "phrase": "J. H. MARSHALL",
+      "author": "J. H. MARSHALL",
+      "target": {
+        "author": "J.H. MARSHALL",
+        "title": "Le \"vers\" au XII^e^ siècle: genre poétique?",
+        "page": "55",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "69",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Raoul BLOMME",
+      "author": "Raoul BLOMME",
+      "target": {
+        "author": "Raoul BLOMME",
+        "title": "Studi per una triplice esperienza poetica del Dante minore",
+        "page": "69",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "69",
+      "note": "2",
+      "kind": "named",
+      "phrase": "H. LAUSBERG",
+      "author": "H. LAUSBERG",
+      "target": {
+        "author": "H. LAUSBERG",
+        "title": "Handbuch der literarischen Rhetorik",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "70",
+      "note": "1",
+      "kind": "named",
+      "phrase": "J.H. MARSHALL",
+      "author": "J.H. MARSHALL",
+      "target": {
+        "author": "J.H. MARSHALL",
+        "title": "Le \"vers\" au XII^e^ siècle: genre poétique?",
+        "page": "55",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "71",
+      "note": "3",
+      "kind": "named",
+      "phrase": "J.H. MARSHALL",
+      "author": "J.H. MARSHALL",
+      "target": {
+        "author": "J.H. MARSHALL",
+        "title": "Le \"vers\" au XII^e^ siècle: genre poétique?",
+        "page": "55",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "76",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Ulrich MOLK",
+      "author": "Ulrich MOLK",
+      "target": {
+        "author": "Ulrich MOLK",
+        "title": "(reference on this page)",
+        "page": "28",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "76",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Ulrich MOLK",
+      "author": "Ulrich MOLK",
+      "target": {
+        "author": "Ulrich MOLK",
+        "title": "(reference on this page)",
+        "page": "76",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "80",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Altprovenzalisches 17. Drei Lieder des Raimbaut d'Aurenga (P.-C. 389,21, 25, 26)",
+        "page": "78",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "85",
+      "note": "3",
+      "kind": "named",
+      "phrase": "René NELLI",
+      "author": "René NELLI",
+      "target": {
+        "author": "René NELLI",
+        "title": "L'érotique des troubadours",
+        "page": "85",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "86",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Altprovenzalisches 17. Drei Lieder des Raimbaut d'Aurenga (P.-C. 389,21, 25, 26)",
+        "page": "78",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "86",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Altprovenzalisches 17. Drei Lieder des Raimbaut d'Aurenga (P.-C. 389,21, 25, 26)",
+        "page": "78",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "87",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "art. cit",
+      "target": {
+        "author": "Frede JENSEN",
+        "title": "Provençal \"cor, corg\". A Flexional Dilemma",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "91",
+      "note": "2",
+      "kind": "named",
+      "phrase": "SCHUTZ",
+      "author": "SCHUTZ",
+      "target": {
+        "author": "A.H. SCHUTZ",
+        "title": "Did the poets \"feign\" or \"fashion\"?",
+        "page": "60",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "93",
+      "note": "1",
+      "kind": "named",
+      "phrase": "LAUSBERG",
+      "author": "LAUSBERG",
+      "target": {
+        "author": "H. LAUSBERG",
+        "title": "Handbuch der literarischen Rhetorik",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "95",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Ulrich GSCHWIND",
+      "author": "Ulrich GSCHWIND",
+      "target": {
+        "author": "Ulrich GSCHWIND",
+        "title": "Le roman de \"Flamenca\". Nouvelle occitane du 13^e^ siècle",
+        "page": "61",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "96",
+      "note": "2",
+      "kind": "named",
+      "phrase": "A.H. SCHUTZ",
+      "author": "A.H. SCHUTZ",
+      "target": {
+        "author": "A.H. SCHUTZ",
+        "title": "Did the poets \"feign\" or \"fashion\"?",
+        "page": "60",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "99",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Provenzalische Inedita...",
+        "page": "98",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "99",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Provenzalische Inedita...",
+        "page": "98",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "100",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Roger BOASE",
+      "author": "Roger BOASE",
+      "target": {
+        "author": "Roger BOASE",
+        "title": "The Origin and Meaning of Courtly Love: A Critical Survey of European Scholarship",
+        "page": "70",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "100",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Alfred PATZOLD",
+      "author": "Alfred PATZOLD",
+      "target": {
+        "author": "Alfred PATZOLD",
+        "title": "Die individuellen Eigentümlichkeiten einiger hervorragender Trobadores",
+        "page": "47",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "100",
+      "note": "4",
+      "kind": "bare",
+      "phrase": "ouv.cit",
+      "target": {
+        "author": "H. ELWERT",
+        "title": "La dittologia sinonimica nella poesia lirica romanza delle origini e nella scuola siciliana",
+        "page": "100",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "101",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "loc. cit.",
+      "target": {
+        "author": "H. ELWERT",
+        "title": "La dittologia sinonimica nella poesia lirica romanza delle origini e nella scuola siciliana",
+        "page": "100",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "106",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Glynnis M. CROPP",
+      "author": "Glynnis M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "111",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "107",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "112",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "op. cit.",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "107",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "112",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Edward L. ADAMS",
+      "author": "Edward L. ADAMS",
+      "target": {
+        "author": "Georges C.S. ADAMS",
+        "title": "Words and Descriptive Terms for 'Woman' and 'Girl' in French and Provençal and Border Dialects",
+        "page": "106",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "115",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Charles H. GRANDGENT",
+      "author": "Charles H. GRANDGENT",
+      "target": {
+        "author": "Charles H. GRANDGENT",
+        "title": "An outline of the Phonology and Morphology of Old Provençal",
+        "page": "109",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "117",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "107",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "118",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "107",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "118",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "107",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "119",
+      "note": "1",
+      "kind": "named",
+      "phrase": "CROPP",
+      "author": "CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "120",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "107",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "120",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "107",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "121",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "107",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "121",
+      "note": "4",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "107",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "131",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Glynnis M. CROPP",
+      "author": "Glynnis M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "131",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "132",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Phyllis F. MANNOCHI",
+      "author": "Phyllis F. MANNOCHI",
+      "target": {
+        "author": "Phyllis F. MANNOCHI",
+        "title": "(reference on this page)",
+        "page": "127",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "137",
+      "note": "1",
+      "kind": "named",
+      "phrase": "NICHOLSON",
+      "author": "NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "138",
+      "note": "1",
+      "kind": "named",
+      "phrase": "NICHOLSON",
+      "author": "NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "138",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "138",
+      "note": "2",
+      "kind": "named",
+      "phrase": "ROCHEMAURE",
+      "author": "ROCHEMAURE",
+      "target": {
+        "author": "ROCHEMAURE",
+        "title": "Les troubadours cantaliens",
+        "page": "39",
+        "note": "6"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "140",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "op.cit.",
+      "target": {
+        "author": "Raoul BLOMME",
+        "title": "I siciliani. Alcune proposte di lettura",
+        "page": "139",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "140",
+      "note": "3",
+      "kind": "named",
+      "phrase": "NICHOLSON",
+      "author": "NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "140",
+      "note": "4",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "141",
+      "note": "1",
+      "kind": "named",
+      "phrase": "ROCHEMAURE",
+      "author": "ROCHEMAURE",
+      "target": {
+        "author": "ROCHEMAURE",
+        "title": "Les troubadours cantaliens",
+        "page": "39",
+        "note": "6"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "142",
+      "note": "1",
+      "kind": "named",
+      "phrase": "René NELLI",
+      "author": "René NELLI",
+      "target": {
+        "author": "René NELLI",
+        "title": "L'érotique des troubadours",
+        "page": "141",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "142",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "loc.cit.",
+      "target": {
+        "author": "Flavio CATENAZZI",
+        "title": "L'influsso dei Provenzali sui temi e immagini della poesia siculo-toscana",
+        "page": "142",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "144",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Heinrich LAUSBERG",
+      "author": "Heinrich LAUSBERG",
+      "target": {
+        "author": "H. LAUSBERG",
+        "title": "Handbuch der literarischen Rhetorik",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "144",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Roger DRAGONETTI",
+      "author": "Roger DRAGONETTI",
+      "target": {
+        "author": "Roger DRAGONETTI",
+        "title": "Techniques poétiques",
+        "page": "142",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "144",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Roger DRAGONETTI",
+        "title": "Techniques poétiques",
+        "page": "142",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "145",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Derek T. NICHOLSON",
+      "author": "Derek T. NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "145",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "145",
+      "note": "4",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Philippe MENARD",
+        "title": "Manuel du français du moyen âge",
+        "page": "145",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "146",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Carleton W. CARROL",
+        "title": "Medieval Paleography: a Brief Introduction",
+        "page": "145",
+        "note": "5"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "146",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "op. cit.",
+      "target": {
+        "author": "Carleton W. CARROL",
+        "title": "Medieval Paleography: a Brief Introduction",
+        "page": "145",
+        "note": "5"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "147",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Derek T. NICHOLSON",
+      "author": "Derek T. NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "147",
+      "note": "4",
+      "kind": "named",
+      "phrase": "ROCHEMAURE",
+      "author": "ROCHEMAURE",
+      "target": {
+        "author": "ROCHEMAURE",
+        "title": "Les troubadours cantaliens",
+        "page": "39",
+        "note": "6"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "148",
+      "note": "1",
+      "kind": "named",
+      "phrase": "ROCHEMAURE",
+      "author": "ROCHEMAURE",
+      "target": {
+        "author": "ROCHEMAURE",
+        "title": "Les troubadours cantaliens",
+        "page": "39",
+        "note": "6"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "148",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Derek T. NICHOLSON",
+      "author": "Derek T. NICHOLSON",
+      "target": {
+        "author": "Derek T. NICHOLSON",
+        "title": "The poems of the troubadour Peire Rogier",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "153",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Poésies provençales inédites...",
+        "page": "153",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "156",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Provenzalische Chrestomathie",
+        "page": "153",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "158",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Provenzalische Chrestomathie",
+        "page": "153",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "158",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Rupert T. PICKENS",
+      "author": "Rupert T. PICKENS",
+      "target": {
+        "author": "Rupert T. PICKENS",
+        "title": "The songs of Jaufre Rudel",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "159",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Provenzalische Chrestomathie",
+        "page": "153",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "159",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Provenzalische Chrestomathie",
+        "page": "153",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "159",
+      "note": "4",
+      "kind": "named",
+      "phrase": "Suzanne THIOLIER-MEJEAN",
+      "author": "Suzanne THIOLIER-MEJEAN",
+      "target": {
+        "author": "Suzanne THIOLIER-MEJEAN",
+        "title": "Les poésies satiriques et morales des troubadours du XII^e^ siècle à la fin du XIII^e^ siècle",
+        "page": "132",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "161",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "loc. cit.",
+      "target": {
+        "author": "Suzanne THIOLIER-MEJEAN",
+        "title": "Les poésies satiriques et morales des troubadours du XII^e^ siècle à la fin du XIII^e^ siècle",
+        "page": "132",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "163",
+      "note": "2",
+      "kind": "named",
+      "phrase": "G.B. PELLEGRINI",
+      "author": "G.B. PELLEGRINI",
+      "target": {
+        "author": "G.B. PELLEGRINI",
+        "title": "Appunti di grammatica storica del Provenzale",
+        "page": "83",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "163",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Charles ROTH",
+      "author": "Charles ROTH",
+      "target": {
+        "author": "Charles ROTH",
+        "title": "(reference on this page)",
+        "page": "129",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "163",
+      "note": "4",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Drei Gedichten...",
+        "page": "163",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "164",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Drei Gedichten...",
+        "page": "163",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "164",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Glynnis M. CROPP",
+      "author": "Glynnis M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "165",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Drei Gedichten...",
+        "page": "163",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "165",
+      "note": "1",
+      "kind": "named",
+      "phrase": "RIQUER",
+      "author": "RIQUER",
+      "target": {
+        "author": "RIQUER",
+        "title": "La Lírica...",
+        "page": "163",
+        "note": "5"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "166",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Leslie T. TOPSFIELD",
+      "author": "Leslie T. TOPSFIELD",
+      "target": {
+        "author": "Leslie T. TOPSFIELD",
+        "title": "(reference on this page)",
+        "page": "100",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "170",
+      "note": "1",
+      "kind": "named",
+      "phrase": "LAUSBERG",
+      "author": "LAUSBERG",
+      "target": {
+        "author": "H. LAUSBERG",
+        "title": "Handbuch der literarischen Rhetorik",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "170",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "H. LAUSBERG",
+        "title": "Handbuch der literarischen Rhetorik",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "170",
+      "note": "3",
+      "kind": "named",
+      "phrase": "TOPSFIELD",
+      "author": "TOPSFIELD",
+      "target": {
+        "author": "TOPSFIELD",
+        "title": "(reference on this page)",
+        "page": "166",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "171",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Patrick BOYDE",
+        "title": "Dante's Style in his Lyric Poetry",
+        "page": "171",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "171",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Nathaniel B. SMITH",
+      "author": "Nathaniel B. SMITH",
+      "target": {
+        "author": "Nathaniel B. SMITH",
+        "title": "Figures of Repetition in the Old Provençal lyric",
+        "page": "77",
+        "note": "3"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "171",
+      "note": "3",
+      "kind": "named",
+      "phrase": "H. LAUSBERG",
+      "author": "H. LAUSBERG",
+      "target": {
+        "author": "H. LAUSBERG",
+        "title": "Handbuch der literarischen Rhetorik",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "171",
+      "note": "4",
+      "kind": "named",
+      "phrase": "Nathaniel B. SMITH",
+      "author": "Nathaniel B. SMITH",
+      "target": {
+        "author": "Nathaniel B. SMITH",
+        "title": "Figures of Repetition in the Old Provençal lyric",
+        "page": "77",
+        "note": "3"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "171",
+      "note": "5",
+      "kind": "named",
+      "phrase": "H. MORIER",
+      "author": "H. MORIER",
+      "target": {
+        "author": "Henri MORIER",
+        "title": "Dictionnaire de poétique et de rhétorique",
+        "page": "144",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "172",
+      "note": "1",
+      "kind": "named",
+      "phrase": "PICONE",
+      "author": "PICONE",
+      "target": {
+        "author": "M. PICONE",
+        "title": "Osservazioni sulla poesia di Raimbaut d'Aurenga",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "172",
+      "note": "3",
+      "kind": "named",
+      "phrase": "SCHUTZ",
+      "author": "SCHUTZ",
+      "target": {
+        "author": "A.H. SCHUTZ",
+        "title": "Did the poets \"feign\" or \"fashion\"?",
+        "page": "60",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "173",
+      "note": "3",
+      "kind": "named",
+      "phrase": "CROPP",
+      "author": "CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "174",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "174",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "174",
+      "note": "4",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Drei Lieder...",
+        "page": "170",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "175",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Glynnis M. CROPP",
+      "author": "Glynnis M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "175",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Drei Lieder...",
+        "page": "170",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "176",
+      "note": "1",
+      "kind": "named",
+      "phrase": "CROPP",
+      "author": "CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "176",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Drei Lieder...",
+        "page": "170",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "181",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Drei Lieder...",
+        "page": "170",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "184",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "loc.cit.",
+      "target": {
+        "author": "Ernst GAMILLSCHEG",
+        "title": "Historia lingüística de los visigodos",
+        "page": "184",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "189",
+      "note": "1",
+      "kind": "named",
+      "phrase": "MANNOCHI",
+      "author": "MANNOCHI",
+      "target": {
+        "author": "MANNOCHI",
+        "title": "(reference on this page)",
+        "page": "132",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "189",
+      "note": "3",
+      "kind": "named",
+      "phrase": "ADAMS",
+      "author": "ADAMS",
+      "target": {
+        "author": "Georges C.S. ADAMS",
+        "title": "Words and Descriptive Terms for 'Woman' and 'Girl' in French and Provençal and Border Dialects",
+        "page": "106",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "190",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Phyllis F. MANNOCHI",
+      "author": "Phyllis F. MANNOCHI",
+      "target": {
+        "author": "Phyllis F. MANNOCHI",
+        "title": "(reference on this page)",
+        "page": "189",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "191",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Leo POLLMANN",
+      "author": "Leo POLLMANN",
+      "target": {
+        "author": "Leo POLLMANN",
+        "title": "(reference on this page)",
+        "page": "191",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "191",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Klara M. FASSBINDER",
+        "title": "Der Trobador Raimbaut von Vaqueiras",
+        "page": "190",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "200",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "E. STENGEL",
+        "title": "Le Chansonnier de Bernart Amoros",
+        "page": "199",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "201",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Heinrich LAUSBERG",
+      "author": "Heinrich LAUSBERG",
+      "target": {
+        "author": "H. LAUSBERG",
+        "title": "Handbuch der literarischen Rhetorik",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "201",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "H. LAUSBERG",
+        "title": "Handbuch der literarischen Rhetorik",
+        "page": "58",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "201",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Patrick BOYDE",
+      "author": "Patrick BOYDE",
+      "target": {
+        "author": "Patrick BOYDE",
+        "title": "Dante's Style in his Lyric Poetry",
+        "page": "171",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "202",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Charles ROTH",
+      "author": "Charles ROTH",
+      "target": {
+        "author": "Charles ROTH",
+        "title": "(reference on this page)",
+        "page": "163",
+        "note": "3"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "202",
+      "note": "3",
+      "kind": "named",
+      "phrase": "O. SCHULTZ-GORA",
+      "author": "O. SCHULTZ-GORA",
+      "target": {
+        "author": "Oscar SCHULTZ-GORA",
+        "title": "Altprovenzalisches Elementarbuch",
+        "page": "71",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "202",
+      "note": "4",
+      "kind": "named",
+      "phrase": "ROTH",
+      "author": "ROTH",
+      "target": {
+        "author": "ROTH",
+        "title": "(reference on this page)",
+        "page": "202",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "206",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Jacques WETTSTEIN",
+      "author": "Jacques WETTSTEIN",
+      "target": {
+        "author": "Jacques WETTSTEIN",
+        "title": "Mezura",
+        "page": "139",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "206",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Roger DRAGONETTI",
+      "author": "Roger DRAGONETTI",
+      "target": {
+        "author": "Roger DRAGONETTI",
+        "title": "Techniques poétiques",
+        "page": "142",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "206",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Glynnis M. CROPP",
+      "author": "Glynnis M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "206",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Raymond GAY-CROSIER",
+        "title": "Religious Elements in the Secular Lyric of the Troubadours",
+        "page": "206",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "208",
+      "note": "1",
+      "kind": "named",
+      "phrase": "PELLEGRINI",
+      "author": "PELLEGRINI",
+      "target": {
+        "author": "G.B. PELLEGRINI",
+        "title": "Appunti di grammatica storica del Provenzale",
+        "page": "83",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "217",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Derrei Lieder...",
+        "page": "217",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "218",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Derrei Lieder...",
+        "page": "217",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "218",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Derrei Lieder...",
+        "page": "217",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "219",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "Carl APPEL",
+        "title": "Derrei Lieder...",
+        "page": "217",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "224",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Edward L. ADAMS",
+      "author": "Edward L. ADAMS",
+      "target": {
+        "author": "Georges C.S. ADAMS",
+        "title": "Words and Descriptive Terms for 'Woman' and 'Girl' in French and Provençal and Border Dialects",
+        "page": "106",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "226",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Edward L. ADAMS",
+      "author": "Edward L. ADAMS",
+      "target": {
+        "author": "Georges C.S. ADAMS",
+        "title": "Words and Descriptive Terms for 'Woman' and 'Girl' in French and Provençal and Border Dialects",
+        "page": "106",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "226",
+      "note": "3",
+      "kind": "named",
+      "phrase": "A. KOLSEN",
+      "author": "A. KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Drei Gedichten...",
+        "page": "163",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "227",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Frede JENSEN",
+      "author": "Frede JENSEN",
+      "target": {
+        "author": "Frede JENSEN",
+        "title": "Provençal \"cor, corg\". A Flexional Dilemma",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "228",
+      "note": "3",
+      "kind": "named",
+      "phrase": "GRANDGENT",
+      "author": "GRANDGENT",
+      "target": {
+        "author": "Charles H. GRANDGENT",
+        "title": "An outline of the Phonology and Morphology of Old Provençal",
+        "page": "109",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "230",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Maurizio PERUGI",
+      "author": "Maurizio PERUGI",
+      "target": {
+        "author": "Maurizio PERUGI",
+        "title": "Le Canzoni di Arnaut Daniel",
+        "page": "228",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "235",
+      "note": "1",
+      "kind": "named",
+      "phrase": "RIQUER",
+      "author": "RIQUER",
+      "target": {
+        "author": "RIQUER",
+        "title": "La Lírica...",
+        "page": "163",
+        "note": "5"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "235",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Charles ROTH",
+      "author": "Charles ROTH",
+      "target": {
+        "author": "Charles ROTH",
+        "title": "(reference on this page)",
+        "page": "202",
+        "note": "4"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "235",
+      "note": "4",
+      "kind": "named",
+      "phrase": "ROTH",
+      "author": "ROTH",
+      "target": {
+        "author": "ROTH",
+        "title": "(reference on this page)",
+        "page": "235",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "235",
+      "note": "4",
+      "kind": "named",
+      "phrase": "TOPSFIELD",
+      "author": "TOPSFIELD",
+      "target": {
+        "author": "TOPSFIELD",
+        "title": "Les poésies de Raimon de Miraval",
+        "page": "172",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "236",
+      "note": "1",
+      "kind": "named",
+      "phrase": "RIQUER",
+      "author": "RIQUER",
+      "target": {
+        "author": "RIQUER",
+        "title": "La Lírica...",
+        "page": "163",
+        "note": "5"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "236",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Charles ROTH",
+      "author": "Charles ROTH",
+      "target": {
+        "author": "Charles ROTH",
+        "title": "(reference on this page)",
+        "page": "235",
+        "note": "4"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "237",
+      "note": "1",
+      "kind": "named",
+      "phrase": "RIQUER",
+      "author": "RIQUER",
+      "target": {
+        "author": "RIQUER",
+        "title": "La Lírica...",
+        "page": "163",
+        "note": "5"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "237",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Frede JENSEN",
+      "author": "Frede JENSEN",
+      "target": {
+        "author": "Frede JENSEN",
+        "title": "Provençal \"cor, corg\". A Flexional Dilemma",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "237",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Glynnis M. CROPP",
+      "author": "Glynnis M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "238",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "A.H. SCHUTZ",
+        "title": "c.r. de [RO]{.underline}",
+        "page": "237",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "238",
+      "note": "4",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "A.H. SCHUTZ",
+        "title": "c.r. de [RO]{.underline}",
+        "page": "237",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "239",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Charles ROTH",
+      "author": "Charles ROTH",
+      "target": {
+        "author": "Charles ROTH",
+        "title": "(reference on this page)",
+        "page": "236",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "239",
+      "note": "2",
+      "kind": "named",
+      "phrase": "RIQUER",
+      "author": "RIQUER",
+      "target": {
+        "author": "RIQUER",
+        "title": "La Lírica...",
+        "page": "163",
+        "note": "5"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "239",
+      "note": "3",
+      "kind": "named",
+      "phrase": "SCHUTZ",
+      "author": "SCHUTZ",
+      "target": {
+        "author": "A.H. SCHUTZ",
+        "title": "c.r. de [RO]{.underline}",
+        "page": "237",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "240",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolk KOLSEN",
+        "title": "Trobadorgedichte",
+        "page": "236",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "246",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Roger DRAGONETTI",
+      "author": "Roger DRAGONETTI",
+      "target": {
+        "author": "Roger DRAGONETTI",
+        "title": "Techniques poétiques",
+        "page": "142",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "247",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Charles ROTH",
+      "author": "Charles ROTH",
+      "target": {
+        "author": "Charles ROTH",
+        "title": "(reference on this page)",
+        "page": "239",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "247",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Nora K.B. SCOTT",
+        "title": "The Thematic Structure of the Twelfth Century Provençal \"Canso\"",
+        "page": "246",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "248",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Nora K.B. SCOTT",
+        "title": "The Thematic Structure of the Twelfth Century Provençal \"Canso\"",
+        "page": "246",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "248",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Phyllis F. MANNOCHI",
+      "author": "Phyllis F. MANNOCHI",
+      "target": {
+        "author": "Phyllis F. MANNOCHI",
+        "title": "(reference on this page)",
+        "page": "190",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "248",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Nora K.B. SCOTT",
+      "author": "Nora K.B. SCOTT",
+      "target": {
+        "author": "Nora K.B. SCOTT",
+        "title": "The Thematic Structure of the Twelfth Century Provençal \"Canso\"",
+        "page": "246",
+        "note": "3"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "249",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Roger DRAGONETTI",
+      "author": "Roger DRAGONETTI",
+      "target": {
+        "author": "Roger DRAGONETTI",
+        "title": "Techniques poétiques",
+        "page": "142",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "249",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "245",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "250",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Charles ROTH",
+      "author": "Charles ROTH",
+      "target": {
+        "author": "Charles ROTH",
+        "title": "(reference on this page)",
+        "page": "247",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "250",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen",
+        "page": "245",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "257",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "A. PRESS",
+        "title": "opv. cité",
+        "page": "256",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "258",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Alan R. PRESS",
+      "author": "Alan R. PRESS",
+      "target": {
+        "author": "A. PRESS",
+        "title": "opv. cité",
+        "page": "256",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "259",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Carl APPEL",
+      "author": "Carl APPEL",
+      "target": {
+        "author": "APPEL",
+        "title": "Chrest.",
+        "page": "258",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "259",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Alan R. PRESS",
+      "author": "Alan R. PRESS",
+      "target": {
+        "author": "A. PRESS",
+        "title": "opv. cité",
+        "page": "256",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "260",
+      "note": "4",
+      "kind": "named",
+      "phrase": "Alan R. PRESS",
+      "author": "Alan R. PRESS",
+      "target": {
+        "author": "A. PRESS",
+        "title": "opv. cité",
+        "page": "256",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "261",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Peter DRONKE",
+      "author": "Peter DRONKE",
+      "target": {
+        "author": "Peter DRONKE",
+        "title": "Medieval Latin and the Rise of European Love-Lyric",
+        "page": "206",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "261",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Leslie T. TOPSFIELD",
+      "author": "Leslie T. TOPSFIELD",
+      "target": {
+        "author": "TOPSFIELD",
+        "title": "Les poésies de Raimon de Miraval",
+        "page": "172",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "261",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Suzanne MEJEAN",
+      "author": "Suzanne MEJEAN",
+      "target": {
+        "author": "Suzanne MEJEAN",
+        "title": "Les mots composés chez Marcabru et Raimbaut d'Orange; études de quelques cas",
+        "page": "172",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "261",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Alan R. PRESS",
+      "author": "Alan R. PRESS",
+      "target": {
+        "author": "A. PRESS",
+        "title": "opv. cité",
+        "page": "256",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "261",
+      "note": "4",
+      "kind": "named",
+      "phrase": "L.T. TOPSFIELD",
+      "author": "L.T. TOPSFIELD",
+      "target": {
+        "author": "TOPSFIELD",
+        "title": "Les poésies de Raimon de Miraval",
+        "page": "172",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "267",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Ulrich MOLK",
+      "author": "Ulrich MOLK",
+      "target": {
+        "author": "Ulrich MOLK",
+        "title": "(reference on this page)",
+        "page": "76",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "267",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Leo POLLMANN",
+      "author": "Leo POLLMANN",
+      "target": {
+        "author": "Leo POLLMANN",
+        "title": "(reference on this page)",
+        "page": "191",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "267",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "art.cit",
+      "target": {
+        "author": "Erich KOHLER",
+        "title": "Trobadorlyrik und höfischer Roman",
+        "page": "267",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "267",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Erich KOHLER",
+        "title": "Trobadorlyrik und höfischer Roman",
+        "page": "267",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "268",
+      "note": "1",
+      "kind": "named",
+      "phrase": "A.S. AVALLE",
+      "author": "A.S. AVALLE",
+      "target": {
+        "author": "Arco Silvio AVALLE",
+        "title": "Peire Vidal",
+        "page": "29",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "269",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen der Trobadores",
+        "page": "266",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "278",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Adolf KOLSEN",
+      "author": "Adolf KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen der Trobadores",
+        "page": "266",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "279",
+      "note": "1",
+      "kind": "named",
+      "phrase": "KOLSEN",
+      "author": "KOLSEN",
+      "target": {
+        "author": "Adolf KOLSEN",
+        "title": "Dichtungen der Trobadores",
+        "page": "266",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "279",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Ulrich MOLK",
+      "author": "Ulrich MOLK",
+      "target": {
+        "author": "Ulrich MOLK",
+        "title": "(reference on this page)",
+        "page": "267",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "280",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Charles ROTH",
+      "author": "Charles ROTH",
+      "target": {
+        "author": "Charles ROTH",
+        "title": "(reference on this page)",
+        "page": "250",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "281",
+      "note": "1",
+      "kind": "named",
+      "phrase": "PELLEGRINI",
+      "author": "PELLEGRINI",
+      "target": {
+        "author": "G.B. PELLEGRINI",
+        "title": "Appunti di grammatica storica del Provenzale",
+        "page": "83",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "281",
+      "note": "1",
+      "kind": "named",
+      "phrase": "GRANDGENT",
+      "author": "GRANDGENT",
+      "target": {
+        "author": "Charles H. GRANDGENT",
+        "title": "An outline of the Phonology and Morphology of Old Provençal",
+        "page": "109",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "282",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Roger DRAGONETTI",
+      "author": "Roger DRAGONETTI",
+      "target": {
+        "author": "Roger DRAGONETTI",
+        "title": "Techniques poétiques",
+        "page": "142",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "285",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Wilhelm MEYER-LÜBKE",
+        "title": "Grammaire des langues romanes",
+        "page": "285",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "285",
+      "note": "3",
+      "kind": "named",
+      "phrase": "J. RONJAT",
+      "author": "J. RONJAT",
+      "target": {
+        "author": "J. RONJAT",
+        "title": "(reference on this page)",
+        "page": "285",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "285",
+      "note": "3",
+      "kind": "named",
+      "phrase": "W. MEYER-LÜBKE",
+      "author": "W. MEYER-LÜBKE",
+      "target": {
+        "author": "Wilhelm MEYER-LÜBKE",
+        "title": "Grammaire des langues romanes",
+        "page": "285",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "289",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Arco Silvio AVALLE",
+      "author": "Arco Silvio AVALLE",
+      "target": {
+        "author": "Arco Silvio AVALLE",
+        "title": "Peire Vidal",
+        "page": "29",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "290",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Salvatore BATTAGLIA",
+      "author": "Salvatore BATTAGLIA",
+      "target": {
+        "author": "Salvatore BATTAGLIA",
+        "title": "Formazione e destino della lirica",
+        "page": "289",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "296",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Glynnis M. CROPP",
+      "author": "Glynnis M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "297",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "297",
+      "note": "1",
+      "kind": "bare",
+      "phrase": "ibid.",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "304",
+      "note": "2",
+      "kind": "named",
+      "phrase": "A.J. HENRICHSEN",
+      "author": "A.J. HENRICHSEN",
+      "target": {
+        "author": "A.J. HENRICHSEN",
+        "title": "(reference on this page)",
+        "page": "238",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "308",
+      "note": "1",
+      "kind": "named",
+      "phrase": "L.A. SCHWARZSCHILD",
+      "author": "L.A. SCHWARZSCHILD",
+      "target": {
+        "author": "L.A. SCHWARZSCHILD",
+        "title": "(reference on this page)",
+        "page": "285",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "313",
+      "note": "6",
+      "kind": "named",
+      "phrase": "A. JEANROY",
+      "author": "A. JEANROY",
+      "target": {
+        "author": "A. JEANROY",
+        "title": "Anthologie",
+        "page": "313",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "314",
+      "note": "1",
+      "kind": "named",
+      "phrase": "L. CONSTANS",
+      "author": "L. CONSTANS",
+      "target": {
+        "author": "CONSTANS",
+        "title": "Les manuscrits provençaux de Cheltenham",
+        "page": "37",
+        "note": "5"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "314",
+      "note": "2",
+      "kind": "named",
+      "phrase": "J. ANGLADE",
+      "author": "J. ANGLADE",
+      "target": {
+        "author": "J. ANGLADE",
+        "title": "Anthologie",
+        "page": "313",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "315",
+      "note": "1",
+      "kind": "named",
+      "phrase": "MEJEAN",
+      "author": "MEJEAN",
+      "target": {
+        "author": "Suzanne MEJEAN",
+        "title": "Les mots composés chez Marcabru et Raimbaut d'Orange; études de quelques cas",
+        "page": "172",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "315",
+      "note": "2",
+      "kind": "named",
+      "phrase": "ANGLADE",
+      "author": "ANGLADE",
+      "target": {
+        "author": "J. ANGLADE",
+        "title": "Anthologie",
+        "page": "313",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "315",
+      "note": "3",
+      "kind": "named",
+      "phrase": "JEANROY",
+      "author": "JEANROY",
+      "target": {
+        "author": "A. JEANROY",
+        "title": "Anthologie",
+        "page": "313",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "316",
+      "note": "1",
+      "kind": "named",
+      "phrase": "RIQUER",
+      "author": "RIQUER",
+      "target": {
+        "author": "RIQUER",
+        "title": "La Trirca",
+        "page": "313",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "316",
+      "note": "1",
+      "kind": "named",
+      "phrase": "NELLI et R. LAVAUD",
+      "author": "NELLI et R. LAVAUD",
+      "target": {
+        "author": "R. NELLI et R. LAVAUD",
+        "title": "Les troubadours",
+        "page": "313",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "316",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Próspero SAIZ",
+      "author": "Próspero SAIZ",
+      "target": {
+        "author": "Próspero SAIZ",
+        "title": "\"Personae\" and \"Poiesis\": The Poet and the Poem in Medieval Love Lyric",
+        "page": "313",
+        "note": "3"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "316",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Próspero SAIZ",
+        "title": "\"Personae\" and \"Poiesis\": The Poet and the Poem in Medieval Love Lyric",
+        "page": "313",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "316",
+      "note": "4",
+      "kind": "named",
+      "phrase": "Maurizio PERUGI",
+      "author": "Maurizio PERUGI",
+      "target": {
+        "author": "Maurizio PERUGI",
+        "title": "Le Canzoni di Arnaut Daniel",
+        "page": "228",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "316",
+      "note": "5",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Maurizio PERUGI",
+        "title": "Le Canzoni di Arnaut Daniel",
+        "page": "228",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "317",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Christopher KLEINHENZ",
+      "author": "Christopher KLEINHENZ",
+      "target": {
+        "author": "Christopher KLEINHENZ",
+        "title": "(reference on this page)",
+        "page": "145",
+        "note": "5"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "317",
+      "note": "2",
+      "kind": "named",
+      "phrase": "N.B. SMITH",
+      "author": "N.B. SMITH",
+      "target": {
+        "author": "Nathaniel B. SMITH",
+        "title": "Figures of Repetition in the Old Provençal lyric",
+        "page": "77",
+        "note": "3"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "318",
+      "note": "1",
+      "kind": "named",
+      "phrase": "ANGLADE",
+      "author": "ANGLADE",
+      "target": {
+        "author": "J. ANGLADE",
+        "title": "Anthologie",
+        "page": "313",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "318",
+      "note": "1",
+      "kind": "named",
+      "phrase": "LAVAUD",
+      "author": "LAVAUD",
+      "target": {
+        "author": "René LAVAUD",
+        "title": "Peire Cardenal...",
+        "page": "226",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "319",
+      "note": "1",
+      "kind": "named",
+      "phrase": "JEANROY",
+      "author": "JEANROY",
+      "target": {
+        "author": "A. JEANROY",
+        "title": "Anthologie",
+        "page": "313",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "319",
+      "note": "1",
+      "kind": "named",
+      "phrase": "ANGLADE",
+      "author": "ANGLADE",
+      "target": {
+        "author": "J. ANGLADE",
+        "title": "Anthologie",
+        "page": "313",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "319",
+      "note": "1",
+      "kind": "named",
+      "phrase": "RIQUER",
+      "author": "RIQUER",
+      "target": {
+        "author": "RIQUER",
+        "title": "La Trirca",
+        "page": "313",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "319",
+      "note": "2",
+      "kind": "named",
+      "phrase": "LAVAUD",
+      "author": "LAVAUD",
+      "target": {
+        "author": "René LAVAUD",
+        "title": "Peire Cardenal...",
+        "page": "226",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "319",
+      "note": "2",
+      "kind": "named",
+      "phrase": "LAVAUD",
+      "author": "LAVAUD",
+      "target": {
+        "author": "René LAVAUD",
+        "title": "Peire Cardenal...",
+        "page": "226",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "319",
+      "note": "3",
+      "kind": "named",
+      "phrase": "LAVAUD",
+      "author": "LAVAUD",
+      "target": {
+        "author": "René LAVAUD",
+        "title": "Peire Cardenal...",
+        "page": "226",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "319",
+      "note": "3",
+      "kind": "named",
+      "phrase": "LAVAUD",
+      "author": "LAVAUD",
+      "target": {
+        "author": "René LAVAUD",
+        "title": "Peire Cardenal...",
+        "page": "226",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "324",
+      "note": "3",
+      "kind": "named",
+      "phrase": "Rudolf ZENKER",
+      "author": "Rudolf ZENKER",
+      "target": {
+        "author": "Rudolf ZENKER",
+        "title": "Peire d'Auvergne. Die Lieder",
+        "page": "154",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "324",
+      "note": "3",
+      "kind": "named",
+      "phrase": "MONTE",
+      "author": "MONTE",
+      "target": {
+        "author": "MONTE",
+        "title": "Peire d'Alvernhe. Poesie",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "325",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Maurizio PERUGI",
+      "author": "Maurizio PERUGI",
+      "target": {
+        "author": "Maurizio PERUGI",
+        "title": "Le Canzoni di Arnaut Daniel",
+        "page": "228",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "326",
+      "note": "1",
+      "kind": "named",
+      "phrase": "I.M. MOK",
+      "author": "I.M. MOK",
+      "target": {
+        "author": "I.M. MOK",
+        "title": "Manuel pratique de morphologie d'ancien occitan",
+        "page": "225",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "328",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Charles ROTH",
+      "author": "Charles ROTH",
+      "target": {
+        "author": "Charles ROTH",
+        "title": "(reference on this page)",
+        "page": "280",
+        "note": "1"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "328",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Edward L. ADAMS",
+      "author": "Edward L. ADAMS",
+      "target": {
+        "author": "Georges C.S. ADAMS",
+        "title": "Words and Descriptive Terms for 'Woman' and 'Girl' in French and Provençal and Border Dialects",
+        "page": "106",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "330",
+      "note": "2",
+      "kind": "named",
+      "phrase": "HENRICHSEN",
+      "author": "HENRICHSEN",
+      "target": {
+        "author": "HENRICHSEN",
+        "title": "(reference on this page)",
+        "page": "304",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "331",
+      "note": "1",
+      "kind": "named",
+      "phrase": "MONTE",
+      "author": "MONTE",
+      "target": {
+        "author": "MONTE",
+        "title": "Peire d'Alvernhe. Poesie",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "332",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Rudolf ZENKER",
+      "author": "Rudolf ZENKER",
+      "target": {
+        "author": "Rudolf ZENKER",
+        "title": "Peire d'Auvergne. Die Lieder",
+        "page": "154",
+        "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "332",
+      "note": "3",
+      "kind": "named",
+      "phrase": "MONTE",
+      "author": "MONTE",
+      "target": {
+        "author": "MONTE",
+        "title": "Peire d'Alvernhe. Poesie",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "334",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Roger DRAGONETTI",
+        "title": "La vie de la lettre au moyen âge",
+        "page": "334",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "337",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Glynnis M. CROPP",
+      "author": "Glynnis M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "337",
+      "note": "2",
+      "kind": "named",
+      "phrase": "A. Del MONTE",
+      "author": "A. Del MONTE",
+      "target": {
+        "author": "MONTE",
+        "title": "Peire d'Alvernhe. Poesie",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "338",
+      "note": "4",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Rita LEJEUNE",
+        "title": "La \"Galerie littéraire\" du troubadour Peire d'Auvergne",
+        "page": "338",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "339",
+      "note": "3",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Rita LEJEUNE",
+        "title": "Le troubadour lombard de la \"Galerie littéraire\" satirique de Peire d'Alvernhe",
+        "page": "339",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "340",
+      "note": "1",
+      "kind": "named",
+      "phrase": "MONTE",
+      "author": "MONTE",
+      "target": {
+        "author": "MONTE",
+        "title": "Peire d'Alvernhe. Poesie",
+        "page": "12",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "340",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Walter T. PATTISON",
+      "author": "Walter T. PATTISON",
+      "target": {
+        "author": "W.T. PATTISON",
+        "title": "The Background of Peire d'Alvernhe's \"Chantarai d'aquests trobadors\"",
+        "page": "338",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "341",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Rita LEJEUNE",
+      "author": "Rita LEJEUNE",
+      "target": {
+        "author": "Rita LEJEUNE",
+        "title": "Le troubadour lombard de la \"Galerie littéraire\" satirique de Peire d'Alvernhe",
+        "page": "339",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "342",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Rita LEJEUNE",
+      "author": "Rita LEJEUNE",
+      "target": {
+        "author": "Rita LEJEUNE",
+        "title": "Le troubadour lombard de la \"Galerie littéraire\" satirique de Peire d'Alvernhe",
+        "page": "339",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "346",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Glynnis M. CROPP",
+      "author": "Glynnis M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "348",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Christiane LEUBE-FEY",
+      "author": "Christiane LEUBE-FEY",
+      "target": {
+        "author": "Christiane LEUBE-FEY",
+        "title": "Bild und Funktion der \"Domna\" in der Lyrik der Trobadoren",
+        "page": "174",
+        "note": "3"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "349",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Edward L. ADAMS",
+      "author": "Edward L. ADAMS",
+      "target": {
+        "author": "Georges C.S. ADAMS",
+        "title": "Words and Descriptive Terms for 'Woman' and 'Girl' in French and Provençal and Border Dialects",
+        "page": "106",
+        "note": "1"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "349",
+      "note": "4",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "Pierre GUIRAUD",
+        "title": "Les structures étymologiques du \"Troubar\"",
+        "page": "349",
+        "note": "3"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "349",
+      "note": "4",
+      "kind": "named",
+      "phrase": "G. M. CROPP",
+      "author": "G. M. CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "351",
+      "note": "1",
+      "kind": "named",
+      "phrase": "A.J. HENRICHSEN",
+      "author": "A.J. HENRICHSEN",
+      "target": {
+        "author": "A.J. HENRICHSEN",
+        "title": "(reference on this page)",
+        "page": "330",
+        "note": "2"
+      },
+      "confidence": "low",
+      "loose": "points to prior mention; full citation not parsed"
+    },
+    {
+      "page": "351",
+      "note": "2",
+      "kind": "bare",
+      "phrase": "Ibid.",
+      "target": {
+        "author": "A. H. SCHULTZ",
+        "title": "The Provençal Expression \"Pretz e Valor\"",
+        "page": "349",
+        "note": "4"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "352",
+      "note": "1",
+      "kind": "named",
+      "phrase": "CROPP",
+      "author": "CROPP",
+      "target": {
+        "author": "Glynnis M. CROPP",
+        "title": "Le vocabulaire courtois des troubadours de l'époque classique",
+        "page": "87",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "355",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Kurt LEWENT",
+      "author": "Kurt LEWENT",
+      "target": {
+        "author": "Kurt LEWENT",
+        "title": "On the Text of Two Troubadours Poems: I. Raimbaut d'Aurenga \"Ara'm so a del tot conquis\" B.Gr.389, II. Kolser...",
+        "page": "44",
+        "note": "4"
+      },
+      "confidence": "high"
+    }
+  ],
+  "unresolved": [
+    {
+      "page": "26",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Maurice DELBOUILLE",
+      "author": "Maurice DELBOUILLE",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "42",
+      "note": "1",
+      "kind": "named",
+      "phrase": "K. LEWENT",
+      "author": "K. LEWENT",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "100",
+      "note": "1",
+      "kind": "named",
+      "phrase": "L.T. TOPSFIELD",
+      "author": "L.T. TOPSFIELD",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "120",
+      "note": "2",
+      "kind": "named",
+      "phrase": "ERDMANNSDORFFER",
+      "author": "ERDMANNSDORFFER",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "127",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Phyllis F. MANNOCHI",
+      "author": "Phyllis F. MANNOCHI",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "130",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Kurt LEMENT",
+      "author": "Kurt LEMENT",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "142",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Alfred PAITZOLD",
+      "author": "Alfred PAITZOLD",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "173",
+      "note": "2",
+      "kind": "named",
+      "phrase": "MANNOCCI",
+      "author": "MANNOCCI",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "191",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Leo POLLMANN",
+      "author": "Leo POLLMANN",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "217",
+      "note": "1",
+      "kind": "named",
+      "phrase": "LEAN",
+      "author": "LEAN",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "224",
+      "note": "1",
+      "kind": "named",
+      "phrase": "P. PANSIER",
+      "author": "P. PANSIER",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "238",
+      "note": "1",
+      "kind": "named",
+      "phrase": "ERDMANNSDORFER",
+      "author": "ERDMANNSDORFER",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "260",
+      "note": "2",
+      "kind": "named",
+      "phrase": "D.R. SUTHERLAND",
+      "author": "D.R. SUTHERLAND",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "261",
+      "note": "1",
+      "kind": "named",
+      "phrase": "Phyllis F. MANNOCCIHI",
+      "author": "Phyllis F. MANNOCCIHI",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "285",
+      "note": "2",
+      "kind": "named",
+      "phrase": "J. RONJAT",
+      "author": "J. RONJAT",
+      "reason": "author not previously cited"
+    },
+    {
+      "page": "327",
+      "note": "3",
+      "kind": "named",
+      "phrase": "FEW, LTF et Louis ALIBERT",
+      "author": "FEW, LTF et Louis ALIBERT",
+      "reason": "author not previously cited"
+    }
+  ]
+}

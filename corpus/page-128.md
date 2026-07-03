@@ -1,0 +1,9 @@
+<!-- page: 128 -->
+
+tive. Dans la version que suit Pattison, en revanche, il n'en est pas nécessairement ainsi, et ce vers peut aisément être considéré comme une reprise du vers 12 (*ni res qu'ieu aya no'm fa gaug*), d'autant plus que les vers 20-21 qui le suivent reprennent également la même idée que les vers 13-14 de la strophe précédente. De là qu'on pourrait traduire comme suit: 'Mais je ne possède rien qui puisse me donner de la joie, car un désir m'en presse et me dit de ne pas rechercher d'autre joie'.
+
+v.28
+
+Ce vers présente quelques problèmes concernant l'établissement et l'interprétation du mot à la rime. D'après les variantes qui lui étaient connues (celles de [ACN^a^]) et suivant en cela les exigences de la versification qui demandent ici une rime en *-onh*, Carl Appel optait pour la forme *m'esconh*, première personne de l'indicatif présent d'*esconder* 'cacher' ([PDP]{.underline},163) et traduit: '...das schwere Leiden (...) das ich mir im Herzen drinnen berge' ([RvO]{.underline},53). Il n'en demeure pas moins que, normalement, nous devrions avoir dans cette hypothèse la forme *escon* ([ANG]{.underline},33 De là que Schultz-Gora suppose, comme le rappelle Pattison qu'*esconh* est une licence poétique, "a forged rhyme" ([RO]{.underline}, 86)[^1]. Pattison, quant à lui, récuse tout rapport avec *esconder*, et propose de voir en *esconh* une forme d'*esconhar, enconhar*, "whose second form occurs in [LSW]{.underline},II,447 where the meaning is given as probably 'to notch'. Obviously, the word is based on *conh*, 'wedge; die, stamp', hence *enconhar* would hypothetically mean 'to cut into, split open' (like a wedge) or 'to stamp' (metal with the figure of the die). In our text this last meaning could be taken freely in the sense of 'to engrave upon one's heart'; if
+
+[^1]: Pattison s'y réfère à Oscar SCHULTZ-GORA, C.R. de [RvO]{.underline}, dans *Archiv für das Studium der neueren Sprachen und Literaturen*, CLVII (1930), p.302.
