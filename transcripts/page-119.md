@@ -1,9 +1,0 @@
-<!-- page: 119 -->
-
-Si cette hypothèse est exacte, nous pourrions également donner cette même signification au verbe *tolre* du vers 39 - et traduire 'Amour qui me tient triste et me garde prisonnier' - là où Pattison lui donne le sens d'‘enlever’ et est obligé, de ce fait, de supposer un complément d'objet direct sous-entendu : 'Love which keeps me sad, takes from me [my joy in love ?]'{lang=en} ([RO]{.underline},79). De cette façon, nous aurions tout au long des vers 39-43 un jeu sur les deux significations de *tolre*.
-
-D'autre part, une telle traduction s'intègre bien dans le contexte : dans la strophe VI, le lecteur apprend qu'Amour ne veut pas libérer le poète ; le dialogue de la strophe VII reprend cette idée au vers 39 en ajoutant que c'est de ce fait qu'Amour rend triste le poète, et non parce qu'il lui enlève quelque chose (le poète doit bien avouer qu'il n'a jamais possédé ce dont il pourrait regretter l'absence, vv.41-42) ; la strophe VIII nous donne l'explicitation de cette idée : c'est la joie que j'ai et qui ne se réalise pas pleinement qui me tient prisonnier.
-
-En fait - et ce malgré l'emploi du terme *gauq* - on a ici l'expression même du topos du *Joy* : le "je" du texte possède et ne possède pas le *Joy*. Il le possède dans la mesure où son amour est sans espoir, car le *Joy* procède de la non-réalisation matérielle de l'amour. Et, tout à la fois, il ne le possède pas dans la mesure où cet amour ne se réalise pas et que cette non-réalisation le fait douter de la réalité, de la plé-
-
-[^1]: Encore que le terme *joy* soit le plus souvent employé pour désigner le concept courtois qui nous occupe, il n'y a pas lieu de trancher trop définitivement en cette matière. Comme l'a montré Glynnis M.CROPP, *op.cit.*, pp. 334s.v., le mot *gauq* peut tout autant s'employer comme synonyme de *joy* (voir surtout p.337).

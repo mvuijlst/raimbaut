@@ -1,9 +1,0 @@
-<!-- page: 286 -->
-
-vv. 61-63
-
-Trad. de Pattison: *'Now it is raining on me! It would seem sunny to me without great deception'* ([RO]{.underline}, 126). Pour Pattison, *sou* est ici l'équivalent de *pol eolem* et il s'explique à ce propos en avançant que "Raimbaut is showing his love-madness by telling us how he confuses things with their opposites - rain with sunshine, snow with summer - just as he does in XXXIX" ([RO]{.underline}, 130). Quant à son interprétation de *trichan ses datz*, il la justifie en disant que "We can conclude that deception was common in dice games, thus 'deceiving without dice' means practicing an even more simple deception" (*ibid.*). A.H. Schutz, pour sa part, propose une traduction plus littérale de *trichan ses datz*: "cheating without dice, i.e. pulling a fast one, i.e. using deceit"[^1].
-
-Si *sou* peut en effet signifier 'soleil' - ainsi que nous venons de le voir - nous croyons cependant qu'il y a ici, une fois de plus, jeu sur l'ambiguïté du terme : 'sou'/'soleil'. À titre d'hypothèse, nous proposerions l'interprétation suivante: aux vers 49-50, Raimbaut écrit que s'il pleut et que s'il est donc mouillé, cela ne lui vaut pas la valeur d'un sou; or, il pleut maintenant (*era'm plou*) et, en effet, se souvenant avoir déclaré que la pluie ne le préoccupait guère, le poète peut fort bien affirmer maintenant que le soleil ne le
-
-[^1]: A.H. SCHUTZ, c.r. de [RO]{.underline}, dans *Modern Language Notes*, LXVIII (1953), p. 420. - Rappelons pour mémoire l'interprétation de Carl Appel: "Jetzt regnet es. Was macht er mir aus, wenn es (das starke Regen) ein Ei ohne Finger (que 'm fa a 'um que tronha ses datz) zerbricht ?" ([RvO]{.underline}, 83). - Voir à ce propos le c.r. que fait O. SCHULTZ-GÖRA de [RvO]{.underline} dans *Archiv*..., CLVII (1930), p. 303: "...der Vers bleibt rätselhaft".

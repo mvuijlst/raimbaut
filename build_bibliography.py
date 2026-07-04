@@ -1,128 +1,231 @@
 """
-Harvest a consolidated bibliography from the footnote apparatus.
+Build bibliography.json from the REAL bibliography in vol2 (pp.470-554), which the
+old footnote-harvest approach never had (the old corpus stopped at ch. XXII).
 
-Full citations in this thesis follow a stable shape inside footnote definitions:
+Three parts, split by printed page number (authoritative ranges from the table des
+matières on v2p287):
+  470-511  general bibliography  (I. Généralités: études, dictionnaires, éditions…)
+  512-515  A. Ouvrages/articles directly on Raimbaut d'Orange
+  516-554  B. Bibliographie par chanson  (per-chanson: Manuscrits + Éditions)
 
-    [Prénom(s)/Initiales] NOM(S), *Titre*[, dans *Revue*], Lieu, Éditeur, Année, pp.
+General + Raimbaut entries look like:
+  - SURNAME, Prénom(s), *Titre* | 'Article', dans *Revue*, Lieu, Éditeur, année, pp. …[, [SIGLE]]
+(author sometimes on its own line, title on the next). We capture author / title /
+trailing siglum / full text / page / category.
 
-The surname is ALL-CAPS (the thesis convention), which is the reliable hook: we
-scan every footnote definition, in reading order, for "AUTHOR, *Title*" and
-record each as a citation occurrence. Occurrences are then deduplicated by
-(surname-key, title-key) into bibliography entries, keeping the fullest snippet
-and the first page of appearance.
-
-This is Phase 1 of the reference apparatus: the target list that sigla and
-back-references (op. cité / ibid. / …) will later resolve *to*. Output:
-  bibliography.json  { entries[], occurrences[] }
-Run it, eyeball the entries, tighten the regex, repeat.
+Output: bibliography.json { general[], raimbaut[], par_chanson[] }.
 """
-
 import json
 import re
-import unicodedata
-from pathlib import Path
 
-MANIFEST = json.loads(Path("manifest.json").read_text(encoding="utf-8"))
-OUT = Path("bibliography.json")
+manifest = json.load(open("manifest.json", encoding="utf-8"))
+by_printed = {}
+pages = []
+for e in manifest:
+    p = e["printed"]
+    pages.append(e)
+    if p.isdigit():
+        by_printed[int(p)] = e
 
-DEF_LINE = re.compile(r"^\[\^([^\]]+)\]:\s*(.*)", re.M)
-
-# An author: optional given names / initials (Title-case words or "X."),
-# then one or more ALL-CAPS surname tokens, optionally joined by et/de/von/di,
-# immediately followed by ", *Title*".
 CAP = r"[A-ZÀ-ÖØ-Þ]"
-LOW = r"[a-zà-öø-ÿ]"
-GIVEN = rf"(?:{CAP}(?:{LOW}+|\.)\s+|{CAP}\.-?{CAP}?\.?\s+)*"
-SURNAME = rf"{CAP}{CAP}[A-ZÀ-ÖØ-Þ'’\.\-]+"
-AUTHOR = rf"{GIVEN}{SURNAME}(?:(?:\s+(?:et|E\.|and)\s+|\s*,\s*)?{GIVEN}{SURNAME})*"
-# title may be *italic* (books) or "quote-wrapped" (articles, often with inner italics)
-CITATION = re.compile(rf'(?P<author>{AUTHOR}|ID\.|Id\.)\s*,\s*'
-                      rf'(?:\*(?P<t1>[^*]+)\*|"(?P<t2>[^"]{{4,}})")')
-SIGLA = set(json.loads(Path("citations.json").read_text(encoding="utf-8")).get("abbreviations", []) and
-            [a["siglum"] for a in json.loads(Path("citations.json").read_text(encoding="utf-8"))["abbreviations"]])
-
-BACKREF = re.compile(r"\b(?:op\.?\s*cit|ouv\.?\s*cit|art\.?\s*cit|loc\.?\s*cit|ibid)", re.I)
-# a "title" that is really a back-reference phrase (author named, work implicit)
-BACKREF_TITLE = re.compile(r"^\s*(?:op|ouv|art|loc)\.?\s*cit|^\s*ibid", re.I)
-# connectors that get swept into the author capture and must be stripped
-LEAD = re.compile(r"^(?:voir\s+aussi\s+|voir\s+|cfr\.?\s+|cf\.\s+|e\.a\.\s+|"
-                  r"dans\s+|chez\s+|see\s+|aussi\s+|selon\s+|d'après\s+)+", re.I)
+SURNAME = rf"{CAP}{CAP}[A-ZÀ-ÖØ-Þ'’\.\- ]*{CAP}|{CAP}{CAP}"
+SIGLUM = re.compile(r"\[([^\]]+)\]\{\.underline\}|\[([A-Z][A-Za-z.]{0,6})\]\s*$")
+# a line that OPENS a new author entry: "SURNAME, Given[, work…]"
+NEWAUTHOR = re.compile(rf"^(?P<sur>{SURNAME})\s*,\s*(?P<rest>.*)$")
+TITLE = re.compile(r"\*(?P<t1>[^*]+)\*|'(?P<t2>[^']{4,})'")
+JOURNAL = re.compile(r"(?:dans|ds\.?|in)\s+\*(?P<j>[^*]+)\*", re.I)
+IBIDJ = re.compile(r"\*?\bibid\.?\*?", re.I)
+CHANSON_HDR = re.compile(r"^\*?CHANSON\s+([IVXL]+)\*?\s*$")
+HEADING = re.compile(r"^([IVX]+\.|[A-Z]\.|\d+\.)\s")
 
 
-def keyify(s):
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
-    return re.sub(r"[^a-z0-9]", "", s.lower())
+def body_lines(e):
+    return [l for l in open(e["file"], encoding="utf-8").read().splitlines()
+            if not l.startswith("<!-- page:")]
 
 
-def surname_key(author):
-    caps = re.findall(rf"\b{CAP}{CAP}[A-ZÀ-ÖØ-Þ'’\-]+", author)
-    return keyify(caps[0]) if caps else keyify(author.split()[-1])
+def looks_like_siglum(tok):
+    return bool(tok) and " " not in tok and len(tok) <= 9 and tok[:1].isupper()
 
 
-occurrences = []
-entries = {}   # (surname_key, title_key) -> entry
-last_author = None   # for "ID." (idem) = same author as the previous citation
+def norm_quotes(w):
+    """Article-title single quotes -> double quotes. The opening ' sits at a boundary
+    (start / after space or '('); the CLOSING ' is anchored on the journal signal
+    (', dans *J*' / ', ds.' / ', in') or the entry end. Anchoring on the journal lets
+    internal apostrophes (d'Italie, l'art) stay inside the title instead of ending it
+    early. Titles whose closing quote was OCR-dropped find no anchor -> left as-is."""
+    return re.sub(
+        r"(?:(?<=^)|(?<=[\s(]))'(.+?)'(?=\s*,?\s*(?:dans|ds\.?|in)\b|\s*[.,]?\s*$)",
+        r'"\1"', w)
 
-for m in MANIFEST:
-    page = m["label"]
-    text = Path(m["file"]).read_text(encoding="utf-8")
-    for dm in DEF_LINE.finditer(text):
-        note, body = dm.group(1), dm.group(2)
-        # record citations
-        for cm in CITATION.finditer(body):
-            author = LEAD.sub("", re.sub(r"\s+", " ", cm.group("author")).strip(" ,"))
-            title = re.sub(r"\s+", " ", (cm.group("t1") or cm.group("t2"))).strip()
-            if len(title) < 4:      # skip stray *x* emphasis
+
+UNDER = re.compile(r"^\[([^\]]+)\]\{\.underline\}(\s*,.*)$")   # underlined surname
+REVIEW = re.compile(r"^\[?\s*C\.?\s*R\.?\b", re.I)             # "C.R." compte rendu
+
+
+def new_author_head(body):
+    """True if a NON-bulleted line opens a new author 'SURNAME, Given' (e.g. a review
+    listed under the previous work: 'BOURCIEZ, J., [C.R. de RO]…'): a mostly-uppercase
+    surname of <=30 chars followed by a comma. Underlined surnames unwrapped first."""
+    m = UNDER.match(body)
+    head = (m.group(1) if m else body.split(",", 1)[0]).strip()
+    if not head or len(head) > 30 or "," not in body:
+        return False
+    letters = [c for c in head if c.isalpha()]
+    return bool(len(letters) >= 2 and re.match(r"^[A-ZÀ-Þ]{2}", head)
+                and sum(c.isupper() for c in letters) / len(letters) >= 0.7)
+
+
+general, raimbaut = [], []
+par_chanson = []      # {chanson, manuscrits, editions[]}
+cur = None            # per-chanson accumulator
+flags = []            # (printed, kind, text) — OCR-damaged / ambiguous, for review
+
+# order pages: bibliography start .. first index
+bib_pages = [e for e in pages if e["printed"].isdigit() and 470 <= int(e["printed"]) <= 554]
+
+
+def entry_sink(printed):
+    return raimbaut if 512 <= printed <= 515 else general
+
+
+# general / raimbaut: ONE entry per work, author carried forward across the blank /
+# dash left-column continuations the two-column typescript OCR'd into bare lines.
+cur_author = None     # "SURNAME, Given" display prefix
+cur_surname = ""      # SURNAME only (downstream keying: build_citations_v2)
+cur_journal = None    # last journal cited by the current author (for ibid.)
+
+
+def split_author_work(rest):
+    """rest = 'Given, work…' -> (given, work). Given = field up to the next comma."""
+    parts = rest.split(",", 1)
+    return parts[0].strip(), (parts[1].strip() if len(parts) > 1 else "")
+
+
+def emit_work(author_display, surname, work, printed, author_sig=""):
+    global cur_journal
+    work = work.strip()
+    if not work:
+        return
+    # ibid. (= same journal as this author's previous work) -> explicit journal
+    if cur_journal and IBIDJ.search(work):
+        work = IBIDJ.sub(f"dans *{cur_journal}*", work, count=1)
+    jm = JOURNAL.search(work)
+    if jm:
+        cur_journal = jm.group("j").strip()
+    # title from the ORIGINAL work, preferring a quoted article title over the first
+    # *italic* (which for an article is the journal, for a book is the title itself)
+    aq = re.search(r"'([^']{4,})'", work)
+    bi = re.search(r"\*([^*]+)\*", work)
+    title = (aq.group(1) if aq else (bi.group(1) if bi else "")).strip()
+    # conservative flags: unbalanced " (BARTHES) or an article-title ' never closed
+    converted = norm_quotes(work)
+    if work.count('"') % 2:
+        flags.append((printed, "unbalanced double quote", f"{surname}: {work[:100]}"))
+    if work.lstrip().startswith("'") and converted.lstrip().startswith("'"):
+        flags.append((printed, "single-quoted title not auto-converted (closing quote "
+                      "missing?)", f"{surname}: {work[:100]}"))
+    work = converted
+    sm = SIGLUM.search(work)
+    sig = (sm.group(1) or sm.group(2)) if sm else ""
+    if not looks_like_siglum(sig):
+        sig = ""
+    sig = author_sig or sig   # an underlined author-surname siglum takes precedence
+    cat = "raimbaut" if 512 <= printed <= 515 else "general"
+    entry_sink(printed).append({"author": surname, "title": title, "siglum": sig,
+                                "text": f"{author_display}, {work}".strip(),
+                                "page": printed, "category": cat})
+
+
+for e in bib_pages:
+    printed = int(e["printed"])
+    if printed >= 516:
+        # ---- par chanson (B): unchanged Manuscrits / Éditions accumulation -----
+        for ln in body_lines(e):
+            s = ln.strip()
+            if not s:
                 continue
-            if author in ("ID.", "Id.", "id."):     # idem = previous author's other work
-                author = last_author or author
-            elif author in SIGLA:                    # a siglum, not an author
+            ch = CHANSON_HDR.match(s)
+            if ch:
+                cur = {"chanson": ch.group(1), "manuscrits": "", "editions": []}
+                par_chanson.append(cur); continue
+            if cur is None:
                 continue
-            else:
-                last_author = author
-            # "AUTHOR, *op. cité*" is a back-reference naming its author, not a work
-            if BACKREF_TITLE.match(title):
-                occurrences.append({"page": page, "note": note, "kind": "backref_named",
-                                    "author": author, "surname_key": surname_key(author),
-                                    "phrase": title})
-                continue
-            sk, tk = surname_key(author), keyify(title)[:40]
-            occurrences.append({"page": page, "note": note, "kind": "full",
-                                 "author": author, "title": title})
-            key = (sk, tk)
-            snippet = re.sub(r"\s+", " ", body[cm.start():cm.start() + 240]).strip()
-            if key not in entries:
-                entries[key] = {"id": f"{sk}-{tk}"[:48], "author": author,
-                                "title": title, "surname_key": sk,
-                                "first_page": page, "snippet": snippet, "count": 0}
-            entries[key]["count"] += 1
-            # keep the longest given-name form seen
-            if len(author) > len(entries[key]["author"]):
-                entries[key]["author"] = author
-        # bare back-references (no author named right before the cit-phrase):
-        # count phrase hits, minus the ones already captured as backref_named here
-        named_here = sum(1 for o in occurrences
-                         if o.get("page") == page and o.get("note") == note
-                         and o["kind"] == "backref_named")
-        total_here = len(BACKREF.findall(body))
-        for _ in range(max(0, total_here - named_here)):
-            occurrences.append({"page": page, "note": note, "kind": "backref_bare",
-                                "snippet": re.sub(r"\s+", " ", body)[:120]})
+            if re.match(r"^1\.\s*Manuscrits", s):
+                cur["_mode"] = "ms"; continue
+            if re.match(r"^2\.\s*[EÉ]ditions", s):
+                cur["_mode"] = "ed"; continue
+            if cur.get("_mode") == "ms":
+                cur["manuscrits"] += (" " if cur["manuscrits"] else "") + s
+            elif cur.get("_mode") == "ed":
+                cur["editions"].append(s)
+        continue
+    # ---- general / raimbaut: one entry per work -------------------------------
+    for ln in body_lines(e):
+        s = ln.strip()
+        if not s:
+            continue
+        # section / subsection heading (I. / A. / 1. / *Titre*) breaks the author run
+        if HEADING.match(s) or (s.startswith("*") and s.endswith("*") and s.count("*") == 2):
+            cur_author, cur_surname, cur_journal = None, "", None
+            continue
+        bulleted = s.startswith("- ")
+        body = s[2:].strip() if bulleted else s
+        # a "C.R. par X" compte-rendu note -> a review of the current author's work;
+        # attach it to that author rather than minting a garbage author, and flag it.
+        if REVIEW.match(re.sub(r"^\[([^\]]+)\]\{\.underline\}", r"\1", body)):
+            if cur_author:
+                emit_work(cur_author, cur_surname, body, printed)
+            flags.append((printed, "review note (C.R.) attached to current author", body[:90]))
+            continue
+        # A bullet ALWAYS opens a new author (left-column entry). A non-bulleted line
+        # opens one only if it clearly starts with SURNAME, Given (a review); otherwise
+        # it is a continuation work of the current author (its title may start with
+        # plain words, not just *…*/'…', so we don't test the leading char).
+        new_author = (bulleted or new_author_head(body)) and body[:1] not in "*'\""
+        if not new_author:
+            if cur_author:
+                emit_work(cur_author, cur_surname, body, printed)
+            continue
+        # new author. Some are cited by siglum, so their surname is underlined:
+        # "[GHIL]{.underline}, Eliza M., …". Unwrap it; record the siglum if it is one.
+        author_sig = ""
+        um = UNDER.match(body)
+        if um:
+            raw = um.group(1).strip()
+            if looks_like_siglum(raw):
+                author_sig = raw
+            body = raw + um.group(2)
+        parts = body.split(",", 2)                      # surname, given, work…
+        cur_surname = parts[0].strip()
+        given = parts[1].strip() if len(parts) > 1 else ""
+        work = parts[2].strip() if len(parts) > 2 else ""
+        cur_author = f"{cur_surname}, {given}".rstrip(", ").strip()
+        cur_journal = None
+        emit_work(cur_author, cur_surname, work, printed, author_sig)
 
-bib = sorted(entries.values(), key=lambda e: (e["surname_key"], -e["count"]))
+for c in par_chanson:
+    c.pop("_mode", None)
 
-OUT.write_text(json.dumps({"entries": bib, "occurrences": occurrences},
-                          ensure_ascii=False, indent=2), encoding="utf-8")
+out = {"general": general, "raimbaut": raimbaut, "par_chanson": par_chanson}
+json.dump(out, open("bibliography.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
-full = [o for o in occurrences if o["kind"] == "full"]
-named = [o for o in occurrences if o["kind"] == "backref_named"]
-bare = [o for o in occurrences if o["kind"] == "backref_bare"]
-print(f"{len(bib)} distinct works, from {len(full)} full-citation occurrences")
-print(f"back-references: {len(named)} author-named (easy) + {len(bare)} bare (ibid.-type)")
-print("\n— most-cited works —")
-for e in sorted(bib, key=lambda e: -e["count"])[:18]:
-    print(f"  {e['count']:3}×  {e['author'][:30]:30}  {e['title'][:48]}")
-print("\n— named back-refs by author (Phase-2 resolvable) —")
-from collections import Counter
-c = Counter(o["surname_key"] for o in named)
-print("  " + ", ".join(f"{k}({n})" for k, n in c.most_common(12)))
+with open("bibliography-flags.md", "w", encoding="utf-8") as f:
+    f.write("# Bibliography flags — OCR-damaged / ambiguous entries (manual review)\n\n")
+    f.write(f"{len(flags)} entries left as-is (conservative repair). Quote delimiters "
+            "could not be safely closed/converted; fix by hand in the source "
+            "(`corpus/`) if desired, then re-run `build_bibliography.py`.\n\n")
+    f.write("| printed p. | issue | entry (author: text…) |\n|---|---|---|\n")
+    for pg, kind, txt in flags:
+        f.write(f"| {pg} | {kind} | {txt.replace('|', '\\|')} |\n")
+
+print(f"general entries: {len(general)}   raimbaut entries: {len(raimbaut)}   "
+      f"par-chanson blocks: {len(par_chanson)}   flags: {len(flags)}")
+print("sample general:")
+for x in general[:4]:
+    print(f"  {x['author'][:22]:22} | {x['title'][:48]}")
+print("sample raimbaut (w/ sigla):")
+for x in raimbaut:
+    if x["siglum"]:
+        print(f"  [{x['siglum']}] {x['author'][:20]:20} {x['title'][:40]}")
+print("par-chanson chansons:", [c["chanson"] for c in par_chanson][:12], "...")

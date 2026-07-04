@@ -1,9 +1,0 @@
-<!-- page: 347 -->
-
-Remarquons, toutefois, qu'en nous donnant des vers 9-11 une traduction pour le moins fort vague, Pattison évite soigneusement le problème posé par ce verbe *nommar*[^1]. Ce qui lui permet, par ailleurs, tirant parti de cette ambiguïté, d'affirmer à propos du vers 18, que le poète peut parfaitement montrer sa joie "on hearing the poem without revealing the subject of his love, since she is not named therein" ([RO]{.underline},144). Passons sur le fait qu'au vers 18 il n'est pas dit que le poète entend réciter son poème (ce serait là plutôt le sujet de la strophe II), mais bien qu'il lui serait agréable de s'entendre poser des questions directes concernant sa Dame (*Bo'm sap qi de midonz m'enqzier*). Ce n'est pas cela qui importe, pour l'instant, mais bien la façon dont on interprète *nommar*.
-
-Répétons-nous, pour Pattison, la Dame n'est pas nommée dans le poème - mais sa traduction des vers 9-11 est très peu claire à ce sujet - ce qui lui permet de traduire *temer* par 'cacher ses sentiments' et d'éviter ainsi toute contradiction entre les vers 15-16 et 17-19. En ce qui nous concerne, nous croyons mieux respecter la syntaxe du texte en traduisant les vers 10-11 par 'car je ne peux pas la nommer pendant que tous écoutent aussi souvent (que je ne le fais) en chantant'[^2]. En d'autres termes: ce n'est que dans mes poèmes que je
-
-[^1]: En effet, la syntaxe même de sa traduction est ambiguë: 'because as often as I sing I cannot name her in the hearing of all' ([RO]{.underline},142). Faut-il comprendre 'Car chaque fois que je chante je ne peux pas la nommer devant tous' ou bien, au contraire, 'je ne peux pas la nommer devant tous aussi souvent (que je la nomme) en chantant' ?
-
-[^2]: Les *auzen totz* ne forment pas, dans ce cas-ci, l'audience normale du poète, son public. Il s'agit là d'une périphrase désignant de façon indéterminée 'les autres', 'en présence de tous' (voir e.a.[LR]{.underline},I,149).

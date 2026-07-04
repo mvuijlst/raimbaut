@@ -1,7 +1,7 @@
 """
 Typography normalization for the readable web edition (post-merge step).
 
-Pipeline order: merge_corpus_v2.py  ->  normalize_typography.py  (both write corpus-v2/).
+Pipeline order: merge_corpus.py  ->  normalize_typography.py  (both write corpus/).
 Idempotent: re-running on already-normalized text is a no-op.
 
 Per user's locked editorial decisions (2026-07-04):
@@ -112,7 +112,7 @@ def normalize(text, pageid):
 
 
 def main():
-    files = sorted(glob.glob("corpus-v2/*.md"))
+    files = sorted(glob.glob("corpus/*.md"))
     changed = 0
     for f in files:
         pageid = f.replace("\\", "/").split("/")[-1][:-3]
@@ -120,11 +120,11 @@ def main():
         nt = normalize(t, pageid)
         if nt != t:
             open(f, "w", encoding="utf-8").write(nt); changed += 1
-    with open("corrections-reflow-v2.csv", "w", newline="", encoding="utf-8") as fh:
+    with open("corrections-reflow.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh); w.writerow(["pageid", "before(...-)", "after(joined)"])
         w.writerows(joins_log)
     print(f"normalized {changed}/{len(files)} files; "
-          f"{len(joins_log)} soft-hyphen joins logged -> corrections-reflow-v2.csv")
+          f"{len(joins_log)} soft-hyphen joins logged -> corrections-reflow.csv")
 
 
 if __name__ == "__main__":

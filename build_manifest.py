@@ -1,67 +1,57 @@
 """
-Build manifest.json: the reading order of the edition.
+Build manifest.json: the reading order of the 2026 edition.
 
-The logical page LABELS (i, ii, 234a, the two unnumbered title pages, the
-pagination jumps) don't sort into reading order on their own. But the original
-scan sequence does -- it is physical page order. rename_map.csv records
-old (pages/page_NNN.png, scan order) -> new (corpus stem), so we order by the
-scan number and carry the logical label along. Rejected duplicate scans are
-skipped.
+Reading order is simply PDF page order: vol1 (v1p000..) then vol2 (v2p000..),
+which the zero-padded pageid sorts into directly. Each entry carries the printed
+page number (from page_numbers.csv; blank for unnumbered leaves) for anchors,
+and a coarse `kind` from the leading section header.
 
-Output: manifest.json -- ordered [{order, file, stem, label, kind}].
+Output: manifest.json -- ordered [{order, pageid, vol, idx, printed, file, kind}].
 """
-
 import csv
+import glob
 import json
+import os
 import re
-from pathlib import Path
 
-RENAME = Path("rename_map.csv")
-CORPUS = Path("corpus")
-OUT = Path("manifest.json")
+PRINTED = {r["pageid"]: r["printed_number"]
+           for r in csv.DictReader(open("page_numbers.csv", encoding="utf-8"))}
 
-
-def classify(stem):
-    s = stem[len("page-"):]
-    if s in ("i", "ii", "iii", "iv", "v"):
-        return s, "front-matter"
-    if s.startswith("title-"):
-        return s[len("title-"):], "section-title"
-    m = re.fullmatch(r"(\d+)([a-z])", s)
-    if m:
-        return f"{int(m.group(1))}{m.group(2)}", "body-insert"
-    if s.isdigit():
-        return str(int(s)), "body"
-    return s, "other"
+HEAD = [
+    ("chanson-remarques", re.compile(r"CHANSON\s+[IVXL]+\s*:?\s*REMARQUES", re.I)),
+    ("chanson-texte",     re.compile(r"CHANSON\s+[IVXL]+\s*:?\s*TEXTE", re.I)),
+    ("introduction",      re.compile(r"^I\s*N\s*T\s*R\s*O\s*D\s*U\s*C\s*T\s*I\s*O\s*N", re.I)),
+    ("bibliographie",     re.compile(r"^B\s*I\s*B\s*L\s*I\s*O\s*G\s*R\s*A\s*P\s*H\s*I\s*E", re.I)),
+    ("index",             re.compile(r"^I\s*N\s*D\s*E\s*X\b", re.I)),
+    ("table-matieres",    re.compile(r"TABLE\s+DES\s+MATI", re.I)),
+]
 
 
-def scan_no(old_path):
-    m = re.search(r"page_(\d+)\.png", old_path)
-    return int(m.group(1)) if m else 10**9
+def kind_of(pageid, text, printed):
+    body = "\n".join(l for l in text.splitlines() if not l.startswith("<!-- page:"))
+    head = body.strip()[:80]
+    for name, rx in HEAD:
+        if rx.search(head):
+            return name
+    if not printed:
+        return "front-matter" if pageid < "v1p010" or pageid.startswith("v2p000") else "plate-or-divider"
+    return "body"
 
 
-rows = []
-for r in csv.DictReader(RENAME.open(encoding="utf-8")):
-    if "/rejects/" in r["new"]:
-        continue
-    stem = Path(r["new"]).stem
-    rows.append((scan_no(r["old"]), stem))
-
-rows.sort()
 manifest = []
-for i, (_, stem) in enumerate(rows):
-    md = CORPUS / f"{stem}.md"
-    if not md.exists():
-        print(f"WARNING: no corpus file for {stem}")
-        continue
-    label, kind = classify(stem)
-    manifest.append({"order": i, "file": f"corpus/{stem}.md",
-                     "stem": stem, "label": label, "kind": kind})
+for order, f in enumerate(sorted(glob.glob("corpus/*.md"))):
+    pageid = os.path.basename(f)[:-3]
+    m = re.match(r"v(\d)p(\d+)", pageid)
+    text = open(f, encoding="utf-8").read()
+    printed = PRINTED.get(pageid, "")
+    manifest.append({"order": order, "pageid": pageid,
+                     "vol": int(m.group(1)), "idx": int(m.group(2)),
+                     "printed": printed, "file": f.replace("\\", "/"),
+                     "kind": kind_of(pageid, text, printed)})
 
-OUT.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-print(f"Wrote {len(manifest)} pages -> {OUT}\n")
-# show the interesting boundaries (front matter, title pages, insert)
-for m in manifest:
-    if m["kind"] != "body":
-        nbrs = f"[{m['order']}] {m['stem']}  ({m['kind']}: {m['label']})"
-        print(nbrs)
+json.dump(manifest, open("manifest.json", "w", encoding="utf-8"),
+          ensure_ascii=False, indent=2)
+from collections import Counter
+c = Counter(m["kind"] for m in manifest)
+print(f"Wrote {len(manifest)} pages -> manifest.json")
+print("kinds:", dict(c))

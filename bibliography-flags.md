@@ -1,6 +1,6 @@
 # Bibliography flags — OCR-damaged / ambiguous entries (manual review)
 
-17 entries left as-is (conservative repair). Quote delimiters could not be safely closed/converted; fix by hand in the source (`corpus-v2/`) if desired, then re-run `build_bibliography_v2.py`.
+17 entries left as-is (conservative repair). Quote delimiters could not be safely closed/converted; fix by hand in the source (`corpus/`) if desired, then re-run `build_bibliography.py`.
 
 | printed p. | issue | entry (author: text…) |
 |---|---|---|

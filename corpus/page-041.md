@@ -1,9 +1,0 @@
-<!-- page: 041 -->
-
-dans laquelle il nous donne le texte et la traduction de XX, XXIV et XXI[^1]. Se fondant sur les travaux de Raynouard, Rochegude et L. Constans, Jean Audiau et René Lavaud nous donnent le texte de XX, ainsi qu'une traduction et des notes[^2] ; il en va de même pour XXXI, texte pour lequel ils ont recours à la *Chrestomathie* de Carl Appel et à l'éd. Kolsen de Giraud de Bornehl. En 1928, Carl Appel se prononce en faveur de l'attribution de la *carta* à Raimbaut d'Orange et nous en donne le texte (d'après le manuscrit unique G), accompagné de notes[^3]. Avant cela, cependant, la même année 1928, Carl Appel avait déjà publié le premier ouvrage d'importance consacré intégralement à Raimbaut d'Orange. On y trouvait, outre un chapitre consacré à la biographie de Raimbaut et un autre traitant de sa personnalité telle qu'on pouvait tenter de la définir à travers son oeuvre, plus de 70 pages traitant de ses poèmes : les genres pratiqués par Raimbaut, les formes strophiques, ses schémas de rimes (comparés à ceux des premiers troubadours), ses rimes et leur utilisation ainsi que leurs particularités (rimes intérieures, grammaticales, mots à la rime), le *trobar clus* et, finalement, quelques pages consacrées à la valeur de la poésie de Raimbaut. D'autre part, Appel y fait également
-
-[^1]: La seule édition que nous ayons pu consulter de cette anthologie, est celle de 1974 : Alfred JEANROY, *Anthologie des troubadours. XII^me^-XIII^me^ siècles*. Edition refondue. *Textes, notes, traductions par J. BOECKEL*, Paris, Nizet, 1974, pp. 141-146; pp. 147-151; pp. 181-185 (les textes sont ici ceux de [RO]{.underline}).
-
-[^2]: Jean AUDIAU et René LAVAUD, *Nouvelle anthologie des troubadours*, Paris, Libr. Delagrave, 1928, pp. 107-110 et 341-342; pp. 191-194 et 357.
-
-[^3]: Carl APPEL, *Der Liebesbrief Raimbauts von Orange*, dans *Mélanges Jeanroy*, Genève, Slatkine Reprints, 1972 (réimpr. de l'éd. de Paris, 1928), pp. 361-374.

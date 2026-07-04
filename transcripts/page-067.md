@@ -1,9 +1,0 @@
-<!-- page: 067 -->
-
-En effet, la suite du vers nous confronte directement à une métaphore ressortissant au domaine militaire : *eee fuec genzesc*. Littéralement donc, 'sans feu grégeois', ce que Carl Appel interprète par "ohne Anwendunug besonderer Mittel" ([RvO]{.underline},93) et Pattison par "without deceit" puisque, fait-il remarquer, le feu grégeois était considéré comme un moyen particulièrement déloyal de faire la guerre ([RO]{.underline},68). D'autre part, si nous savons que les seuls exemples de *genhz* (au pluriel) sont ceux où le mot doit être compris dans son sens concret d' "engins de guerre" ([LR]{.underline},III,454-5; [SM]{.underline},IV,103-4 et [FEM]{.underline},IV,685), n'aurions-nous pas là une explication de cet emploi particulier de *genhz* qui, tout en gardant le sens du mot au singulier ('conduite') renverrait également, anticipativement en quelque sorte, au domaine évoqué plus concrètement par ce qui suit ?[^1]
-
-*v.v.19sv.*
-
-L'objet de cette troisième strophe est, de toute évidence, la création poétique elle-même; ce qui est indiqué d'emblée par le v.19 et, surtout, par la présence dans ce vers de la forme verbale *entrebese*. Le verbe *ertrebesc* n'est certes pas un terme neutre en cette ma-
-
-[^1]: On pourrait également prendre *genhz* pour une forme avec aphérèse d'*engenhz*, bien attestée en ancien occitan (voir [ANG]{.underline},115), ce qui nous permettrait de traduire alors: 'Je nourris et j'élève de précieuses joies et des esprits sans fausseté...'. Le problème ayant été soumis à J.H.Marshall, celui-ci se prononce cependant pour la première solution: "v.10. Même observation (que pour le v.6): *genhz* sont à la fois 'sortes de conduite' et 'engins de guerre'. Raimbaut est plus subtil que je ne l'étais en 1967!" (lettre du 29 décembre 1980).

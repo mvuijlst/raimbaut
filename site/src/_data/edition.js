@@ -1,7 +1,7 @@
 // Eleventy global data: parse the assembled edition (book.md) + apparatus JSONs
 // into rendered sections the templates paginate over.
 //
-// Segmentation is driven by manifest_v2 (reading order + kind) and chansons.json
+// Segmentation is driven by manifest (reading order + kind) and chansons.json
 // (exact pageid ranges), NOT by heading text — the typescript's headings are too
 // irregular. Two passes: (1) assign every page to a section descriptor and build
 // a pageid->section map; (2) render each section's markdown, so back-references
@@ -120,7 +120,7 @@ const POETIQUE_PARTS = [
 
 export default function () {
   const book = read("book.md");
-  const manifest = readJSON("manifest_v2.json");
+  const manifest = readJSON("manifest.json");
   const chansons = readJSON("chansons.json");
   const citations = readJSON("citations.json");
   const bibliography = readJSON("bibliography.json");

@@ -334,8 +334,6 @@ d'un certain succès, que l'on retrouve également dans la tradition manuscrite 
 
 ⁂
 
-+ +
-
 Compte tenu de ce qui précède, il n'en est que plus étonnant de constater que Raimbaut d'Orange ne devait pas atteindre, et de loin, la renommée qui, ultérieurement, échut à certains autres troubadours. Et à cet égard, il est significatif de voir que certains troubadours, tels que Peire d'Auvergne, Arnaut Daniel ou Giraut de Bornelh, ont reçu un tout autre traitement de la part de la critique moderne que Raimbaut. Etat de fait qui serait dû, d'après Walter T. Pattison, à ce que — contrairement aux trois troubadours que nous venons de citer en exemple — Raimbaut n'a jamais eu pour lui quelque haute autorité médiévale ayant déclaré son importance et sa valeur[^v1p031-1]. Quoi qu'il en soit, il reste qu'aujourd'hui encore, Raimbaut d'Orange demeure un troubadour relativement peu étudié et, par voie de conséquence, mal connu.
 
 [^v1p031-1]: [RO]{.underline}, pp. 61-62
@@ -472,7 +470,7 @@ Aux exemples de *siure* cités par Pattison[^v1p043-2], nous pourrions égalemen
 
 v.6
 
-Pattison relie ce vers à ce qui suit et non à ce qui précède, ce qui de toute évidence est fondé sur une erreur d'interprétation. Toutefois, si Marshall a raison de s'élever contre la lecture de Pattison, il nous semble plus hasardeux de le suivre.
+Pattison relie ce vers à ce qui suit et non à ce qui précède, ce qui de toute évidence est fondé sur une erreur d'interprétation. Toutefois, si Marshall a raison de s'élever contre la lecture de Pattison, il nous semble plus hasardeux de le suivre
 
 [^v1p043-1]: Ne pourrait-on pas dire que cette connaissance "livresque" soit la *conditio sine qua non* de la parfaite courtoisie de Guillaume ? Du moins à cet endroit du roman: on sait que dans sa première partie *Flamenca* est surtout un roman courtois, où l'amour vrai est l'amour idéal. Ce n'est que dans sa seconde partie (à partir du v.6655, environ) qu'apparaît ce que René Nelli appelle la "tendance chevaleresque" de l'érotique provençale, les deux éléments finissant par se concilier en Guillaume qui est tout à la fois clerc et chevalier (voir à ce propos René NELLI, *Le roman de Flamenca. Un art d'aimer occitan du XIII^e^ siècle*, Toulouse, I.E.O, 1963, p.11).
 
@@ -8704,9 +8702,9 @@ Il convient bien qu'en bonne cour chante celui qui sait chanter
 Comment pourrait-il d'ailleurs en être autrement, dans la mesure où sa motivation comme les moyens de son art lui
 
 [^v2p116-1]: Pierre BEC, *Nouvelle anthologie*, p.62.
-[^v2p116-2]: Erich KÜHLER, *art.cité*, p.46.
+[^v2p116-2]: Erich KÖHLER, *art.cité*, p.46.
 [^v2p116-3]: N. DE PAEPE, 'Over het wezen van de troubadoursminne. Een probleemstelling en een stellingname', dans *Spiegel der Letteren*, VII (1963-1964), p.22.
-[^v2p116-4]: Erich KÜHLER, *loc.cit.*
+[^v2p116-4]: Erich KÖHLER, *loc.cit.*
 
 <!-- page: v2p117 -->
 

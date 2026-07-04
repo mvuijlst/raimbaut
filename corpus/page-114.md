@@ -1,9 +1,0 @@
-<!-- page: 114 -->
-
-Pour Pattison, *eom* est un adverbe qu'il traduit par 'flimsy' ([RO]{.underline},82), se fondant pour ce faire sur l'expression *de eom en som 'summarisch'* et sur l'adverbe *eomadamen* 'kurz' ([SW]{.underline},VII,799 et 801; voir aussi [FEW]{.underline} XII,427). A cet argument, Pattison ajoute un exemple emprunté au poème IX d'Arnaut Daniel (*L'aura amara*) où, dit-il, Canel'lo relève au vers 109 le même mot *eom* qu'il considère également comme un adverbe et qu'il traduit par 'lievemente'([RO]{.underline},82).
-
-Commençons par remarquer que dans l'édition de Canello il ne s'agit pas de *som*, mais bien de *soma*, adjectif et non adverbe[^1]. En outre, les autres éditeurs d'Arnaut Daniel, tant René Lavaud que Gianluigi Toja, voient en *soma* non plus un adjectif mais bien un substantif. Et à ce propos, on peut lire chez Toja: "Il Canello legge *ententa soma* e pensa que *soma* possa essere aggettivo - 'superficiale, lieve' o sostantivo - 'cima' (come nella frase en *som*). Egli traduce poi alquanto vagamente: ad altra persona *ben poco io rivolgo il pensiero*. L'Appel, *Chrest.*, *Lex.*, intende *esser a soma* equivalente a *essere alla fine*"; Koschwitz e Lavaud intendono *soma* come sostantivo. E'la lezione più convincente e meglio rispondente al contesto[^2]. Personnellement, le seul exemple de *eom* (employé comme adverbe) que nous ayons pu trouver, est
-
-[^1]: U.A.CANELLO, *La vita e le opere del trovatore Arnaldo Daniello*, Halle, Max Niemeyer, 1883, p.217: *Qu'en autr'albir/ n'le fort m'ententa soma* (IX,108-109).
-
-[^2]: Ed.Toja, p.267. - Voir aussi René LAVAUD, *Les poésies d'Arnaut Daniel, réédition critique d'après Canello*, Genève, Slatkine Reprints, 1973 (réimpr. de l'éd.de Toulouse-Périgueux, 1910), p.59. - Voir aussi James J.WILHELM, *The Poetry of Arnaut Daniel*, New York-Londres, Garland Publishing, 1981, p.99: "*Soma*: either substantive (top, end, limit) or adjective (highest, final)".

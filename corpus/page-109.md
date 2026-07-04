@@ -1,9 +1,0 @@
-<!-- page: 109 -->
-
-Reste que cette traduction appelle quelques remarques importantes. Signalons d'abord que cette interprétation de Pattison impose une assimilation de *vol* (v.14) à une première personne de l'indicatif présent de *voler* ('I wish'), alors que celle-ci est normalement *vueilh, vuoih, vuoil, vqlh...*[^1] Dans les cas où *vol* (dans les manuscrits) est indubitablement une première personne, la forme est soit corrigée par l'éditeur du texte[^2], soit contredite par les variantes des autres manuscrits[^3], ce qui manifestement n'est pas le cas ici. D'autre part, la fonction grammaticale de *Salomoe ni Marcole* (qui, de toute façon, sont des cas sujets dans le texte qui nous occupe) est pour le moins ambiguë dans la traduction même de Pattison. En effet, faut-il comprendre: '...elle (...) sait qu'en cette matière je désire davantage suivre ses paroles que [*ne le veulent*] Salomon et Marcol' ? Mais si cette interprétation respecte les cas du provençal en assignant une fonction sujet à Salomon et Marcol, elle n'offre, en revanche, aucun sens satisfaisant. Ou s'agit-il alors de: '...elle (...) sait qu'en cette matière je désire davantage suivre ses paroles que [*celles de*] Salomon et [*de*] Marcol' ? Ce qui serait plus normal du point de vue du sens, mais grammaticalement incorrect. De même, on pourrait également se demander pourquoi Pattison fait de *maiz* un adverbe modifiant *vol*, alors que, dans
-
-[^1]: Voir e.a. Charles H. GRANDGENT, *An outline of the Phonology and Morphology of Old Provençal*, Boston-New York-Chicago, D.C. Heath & Co., 1905, § 159 (2) et § 160; *Elem.*, pp. 97 et 105; ANG, 352.
-
-[^2]: Voir, par exemple, *Flamenca*, v.131 (éd. Gschwind, p.26).
-
-[^3]: Voir, par exemple, *Ges non pucero*, v.59 de Peire Rogier, où on trouve sans doute *vol*, mais *v(ol)oil* dans les variantes de S et de A (éd. Nicholson, ch. VI, p. 93).

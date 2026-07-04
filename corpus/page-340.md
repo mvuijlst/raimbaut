@@ -1,7 +1,0 @@
-<!-- page: 340 -->
-
-d'Agramunt en Catalogne, ne nous semble pas pour autant une raison suffisante pour abandonner l'hypothèse de Pattison selon laquelle le mariage d'Aliénor Plantagenêt (1170) avait donné lieu à cette réunion: celle-ci aurait tout aussi bien pu avoir lieu en Catalogne qu'à Puivert d'Aude. D'autre part, et cela nous semble plus important encore, faut-il vraiment accoler ce poème à un événement quelconque ? Et ce d'autant plus que le texte même n'y fait pas la moindre allusion ? Quoi qu'il en soit, d'un point de vue strictement littéraire, ce texte se présente comme une "spécularisation" d'un certain nombre d'autres textes de troubadours[^1], et plus particulièrement de Raimbaut d'Orange. C'est là le seul point dont on ne peut douter: nous croyons l'avoir montré à suffisance. Or, à vouloir absolument placer la satire de Peire d'Auvergne en 1161, Rita Lejeune se trouve confrontée à un problème d'interférences textuelles. En effet, en 1161, Raimbaut d'Orange commence à peine à écrire: il n'a à ce moment-là que 14 ans, et Pattison date son premier poème de 1162, à peine[^2]. Dès lors, s'il faut vraiment retenir cette date de 1161, comment expliquer la présence de ce tout jeune Raimbaut, troubadour débutant, auprès d'aînés chevronnés tels que Giraut de Bornelh, Peire Rogier, Bernard de Ventadour... ? Comment, surtout, expliquer le jeu sur son nom dont nous parlions plus haut ?
-
-[^1]: Voir A. DEL MONTE, *loc. cit.* et Walter T. PATTISON, *art. cité*.
-
-[^2]: [RO]{.underline}, 36-37.

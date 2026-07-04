@@ -160,3 +160,8 @@ pages - Copy/
 # Temp / analysis dumps (belong in scratchpad, not the repo)
 scratchpad_*.txt
 *.stackdump
+
+# Regenerated build logs/reports (the audit trail lives in git history)
+corrections-crosspage-hyphen.csv
+corrections-reflow.csv
+footnote-issues.md

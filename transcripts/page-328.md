@@ -1,9 +1,0 @@
-<!-- page: 328 -->
-
-moins l'avantage de ne pas s'écarter autant du sens premier du verbe, que celle que donne Patti- son ('to challenge'). De la sorte, nous pourrions proposer la traduction suivante : '... car j'aime la plus belle qui soit de Luc (?) à Auch[^1] et j'en méprise tout homme qui, par folie, en a (=aime) une autre ; car avec elle (=celle que j'aime) naît facilement la joie'.
-
-Quant au seul problème qui nous restait, celui de *fadesa*, nous croyons qu'ici nous pouvons raisonnablement supposer qu'il s'agit en effet d'un substantif signifiant 'folie' et formé sur *fadeza*. C'est que même si nous ne disposons d'aucun autre exemple d'une telle forme *fadesa* dans la littérature occitane[^2], nous ne voyons que fort mal quelle autre signification ou valeur il faudrait y donner dans ce contexte. En effet, un des motifs constitutifs du poème, est l'antithèse entre le comportement extérieur du poète et ses véritables sentiments. D'une part, il va faire un *gap*, participer à un *bezort* de jongleurs, porter *la gran corona de drap*... Mais, et c'est là que s'opère le revirement : *ieu non sui eel que parese / q'en autre sen m'entrebece* (vv.20-21). Divorce donc entre l'être et le paraître, divorce qui est encore accentué au moment où il écrit qu'il surpasse tous les autres en ne pé-
-
-[^1]: Comme le signale Pattison ([RO]{.underline},141), "The place name Luc can be found scattered all over southern France, but there is only one Auch (dép. Gers)". De là que Charles ROTH, *art. cité*, p.464 en déduit qu'il y a ici une ambiguïté voulue qui "transforme le 'renseignement' donné par Raimbaut en devinette sans réponse".
-
-[^2]: On remarquera cependant que Edward L. ADAMS, *op. cité*, p. 186, donne dans la liste des substantifs formés avec le suffixe *-eza* une forme *fadece* 'folly', apparemment formée sur *fat* 'fool'; ceci toutefois sans aucune référence à quelque texte que ce soit.

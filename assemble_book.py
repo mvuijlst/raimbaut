@@ -1,144 +1,132 @@
 """
-Stitch the corpus into one document in reading order (book.md).
+Stitch corpus into one document in reading order (book.md), for the 2026 edition.
 
-Per-page footnotes all restart at [^1], so naive concatenation collides. We
-namespace every footnote label with its page key ([^1] on page-016 -> [^016-1]).
-Markdown renderers still number footnotes sequentially by order of appearance,
-so the reader sees a continuous 1,2,3… while labels stay unique and traceable.
+Handles three things:
+1. Per-page footnotes all restart at [^1]; namespace each label with its pageid
+   ([^1] on v1p092 -> [^v1p092-1]) so renderers still number 1,2,3… but labels
+   stay unique/traceable.
+2. Page-overflow footnotes: a dangling ref at the foot of page N pairs with an
+   orphan def (renumbered [^1]) atop page N+1; reunite them under one label.
+3. CROSS-PAGE WORD SPLITS: a page's body ends mid-word on a soft hyphen (letter-),
+   the word finishing atop the next page. We pull the continuation token onto the
+   previous page and drop the hyphen. (Within-page soft hyphens were already healed
+   by normalize_typography; these 45-odd are the boundary cases it couldn't reach.)
 
-Two wrinkles this handles:
+Each page keeps its <!-- page: … --> anchor (not rendered; provenance).
 
-1. A [^N] marker in running text can be immediately followed by a literal colon
-   (e.g. "le classement suivant[^1]:" introducing a table). A definition is ONLY
-   a [^N]: at the START of a line — so we classify by position, not by a naive
-   look-ahead. (The old heuristic mis-flagged these as page-spanning.)
-
-2. A footnote whose text overflows the page: the marker sits at the bottom of
-   page N's running text (a "dangling" ref, defined nowhere on N) while its text
-   lands atop page N+1's footnote block, renumbered to [^1] (an "orphan" def,
-   referenced nowhere on N+1). We pair dangling refs on N with orphan defs on
-   N+1 in order and relabel the overflowed definition to its reference's page
-   key, so ref and def reunite under one label. Every join is logged.
-
-Output:
-  book.md            the stitched edition (footnotes reunited)
-  footnote-issues.md joins performed + any residue still to reconcile by hand
+Output: book.md, footnote-issues.md, corrections-crosspage-hyphen.csv
 """
-
+import csv
 import json
 import re
-from pathlib import Path
 
-MANIFEST = json.loads(Path("manifest.json").read_text(encoding="utf-8"))
-OUT = Path("book.md")
-ISSUES = Path("footnote-issues.md")
-
-DEF_LINE = re.compile(r"^\[\^([^\]]+)\]:", re.M)   # definition: [^x]: at line start
-TOKEN = re.compile(r"\[\^([^\]]+)\]")              # any footnote token [^x]
-
-
-def key(stem):
-    return stem[len("page-"):]
+MANIFEST = json.load(open("manifest.json", encoding="utf-8"))
+DEF_LINE = re.compile(r"^\[\^([^\]]+)\]:", re.M)
+TOKEN = re.compile(r"\[\^([^\]]+)\]")
+ANCHOR = re.compile(r"^<!-- page:.*-->$", re.M)
+SOFT_END = re.compile(r"[0-9A-Za-zà-ÿÀ-ß]-$")
+HEADERISH = re.compile(r"^(CHANSON\b|:::|#|[IVX]+\.|[A-Z]\.\s|⁂|B\s?I\s?B|I\s?N\s?D)", re.I)
 
 
-# ---- pass 1: parse each page into ordered refs / defs ----------------------
+def split_page(text):
+    """(anchor_line, body_lines[], footnote_lines[])."""
+    lines = text.split("\n")
+    anchor = ""
+    if lines and lines[0].startswith("<!-- page:"):
+        anchor = lines[0]; lines = lines[1:]
+    fn_start = next((i for i, l in enumerate(lines) if DEF_LINE.match(l)), len(lines))
+    body = lines[:fn_start]
+    foot = lines[fn_start:]
+    return anchor, body, foot
+
+
 pages = []
 for m in MANIFEST:
-    text = Path(m["file"]).read_text(encoding="utf-8")
-    def_starts = {mo.start() for mo in DEF_LINE.finditer(text)}
+    anchor, body, foot = split_page(open(m["file"], encoding="utf-8").read())
+    pages.append({**m, "anchor": anchor, "body": body, "foot": foot})
+
+# ---- footnote namespacing + overflow joins (BEFORE word-split healing) -----
+# Namespacing must run first: the cross-page word-split heal below can drag a
+# footnote marker across a page boundary (e.g. "sous-|entendu[^1]"). If that
+# marker were still bare when moved, it would be namespaced under the WRONG
+# page and orphan its definition. So we resolve every label to pageid-N here,
+# then heal word-splits on already-namespaced text where tokens are inert.
+def refs_defs(body, foot):
+    text = "\n".join(body + foot)
+    defstart = {mo.start() for mo in DEF_LINE.finditer(text)}
     refs, defs = [], []
     for mo in TOKEN.finditer(text):
-        (defs if mo.start() in def_starts else refs).append(mo.group(1))
-    refset, defset = set(refs), set(defs)
-    pages.append({**m, "text": text, "k": key(m["stem"]),
-                  "refs": refs, "defs": defs,
-                  "dangling": [r for r in refs if r not in defset],   # ref here, def elsewhere
-                  "orphan":   [d for d in defs if d not in refset]})  # def here, ref elsewhere
+        (defs if mo.start() in defstart else refs).append(mo.group(1))
+    return refs, defs
 
-# ---- pass 2: default namespacing + cross-page overflow joins ---------------
-remap = []
 for p in pages:
-    remap.append({X: f"{p['k']}-{X}" for X in set(p["refs"]) | set(p["defs"])})
+    r, d = refs_defs(p["body"], p["foot"])
+    p["refs"], p["defs"] = r, d
+    ds = set(d); rs = set(r)
+    p["dangling"] = [x for x in r if x not in ds]
+    p["orphan"] = [x for x in d if x not in rs]
 
-joins, residue_dangling, residue_orphan = [], [], []
+remap = [{X: f"{p['pageid']}-{X}" for X in set(p["refs"]) | set(p["defs"])} for p in pages]
+joins = []
 for i in range(len(pages) - 1):
-    dang = sorted(pages[i]["dangling"])
-    orph = sorted(pages[i + 1]["orphan"])
-    n = min(len(dang), len(orph))
-    for r, d in zip(dang[:n], orph[:n]):
-        # the overflowed definition on the next page adopts this page's ref label
-        remap[i + 1][d] = f"{pages[i]['k']}-{r}"
-        joins.append((pages[i]["label"], pages[i]["stem"], r,
-                      pages[i + 1]["label"], pages[i + 1]["stem"], d))
+    dang, orph = sorted(pages[i]["dangling"]), sorted(pages[i + 1]["orphan"])
+    for r, d in zip(dang, orph[:len(dang)]):
+        remap[i + 1][d] = f"{pages[i]['pageid']}-{r}"
+        joins.append((pages[i]["pageid"], r, pages[i + 1]["pageid"], d))
 
-# ---- apply the remap and write book.md -------------------------------------
-parts = []
+# apply the remap in place so each page's tokens now carry their final label
 for i, p in enumerate(pages):
     rm = remap[i]
-    text = TOKEN.sub(lambda mo: f"[^{rm[mo.group(1)]}]", p["text"])
+    sub = lambda mo: f"[^{rm.get(mo.group(1), mo.group(1))}]"
+    p["body"] = [TOKEN.sub(sub, l) for l in p["body"]]
+    p["foot"] = [TOKEN.sub(sub, l) for l in p["foot"]]
+
+# ---- cross-page word-split joins (on already-namespaced text) --------------
+hyjoins = []
+for i in range(len(pages) - 1):
+    body = pages[i]["body"]
+    # last non-empty body line
+    li = next((k for k in range(len(body) - 1, -1, -1) if body[k].strip()), None)
+    if li is None or not SOFT_END.search(body[li].rstrip()):
+        continue
+    nxt = pages[i + 1]
+    nb = nxt["body"]
+    fi = next((k for k in range(len(nb)) if nb[k].strip()), None)
+    if fi is None or HEADERISH.match(nb[fi].strip()):
+        continue
+    first = nb[fi].lstrip()
+    tok = first.split(" ", 1)
+    cont, remainder = tok[0], (tok[1] if len(tok) > 1 else "")
+    stub = body[li].rstrip()[:-1]           # drop hyphen
+    pages[i]["body"][li] = stub + cont       # heal onto previous page
+    nxt["body"][fi] = remainder
+    hyjoins.append((pages[i]["pageid"], stub[-18:] + "|" + cont, nxt["pageid"]))
+
+parts = []
+for p in pages:
+    text = "\n".join([p["anchor"]] + p["body"] + p["foot"]) if p["anchor"] else "\n".join(p["body"] + p["foot"])
     parts.append(text.strip())
-OUT.write_text("\n\n".join(parts) + "\n", encoding="utf-8")
+open("book.md", "w", encoding="utf-8").write("\n\n".join(parts) + "\n")
 
-# ---- verify globally: any label left with a ref but no def (or vice versa) --
-book = OUT.read_text(encoding="utf-8")
-b_def_starts = {mo.start() for mo in DEF_LINE.finditer(book)}
-b_refs, b_defs = set(), set()
+# ---- verify globally -------------------------------------------------------
+book = open("book.md", encoding="utf-8").read()
+defstart = {mo.start() for mo in DEF_LINE.finditer(book)}
+brefs, bdefs = set(), set()
 for mo in TOKEN.finditer(book):
-    (b_defs if mo.start() in b_def_starts else b_refs).add(mo.group(1))
-still_dangling = sorted(b_refs - b_defs)   # referenced, never defined
-still_orphan = sorted(b_defs - b_refs)     # defined, never referenced
+    (bdefs if mo.start() in defstart else brefs).add(mo.group(1))
+dangling, orphan = sorted(brefs - bdefs), sorted(bdefs - brefs)
 
-# ---- report ----------------------------------------------------------------
-# For hand recovery it helps to see WHICH footnote each residue is, so we pull
-# the definition text (orphans) / the marker's sentence (dangling) from source.
-def def_text(stem, label):
-    txt = next(p["text"] for p in pages if p["stem"] == stem)
-    m = re.search(r"^\[\^" + re.escape(label) + r"\]:[ \t]*(.+)", txt, re.M)
-    return re.sub(r"\s+", " ", m.group(1)).strip()[:110] if m else ""
+with open("corrections-crosspage-hyphen.csv", "w", newline="", encoding="utf-8") as fh:
+    w = csv.writer(fh); w.writerow(["prev_page", "stub|cont", "next_page"]); w.writerows(hyjoins)
+with open("footnote-issues.md", "w", encoding="utf-8") as f:
+    f.write(f"# Footnote reconciliation (v2)\n\n{len(joins)} page-overflow joins.\n\n")
+    f.write(f"residual: {len(dangling)} refs without def, {len(orphan)} defs without ref\n\n")
+    if dangling: f.write("dangling: " + ", ".join(dangling) + "\n\n")
+    if orphan: f.write("orphan: " + ", ".join(orphan) + "\n")
 
-def ref_context(stem, label):
-    txt = next(p["text"] for p in pages if p["stem"] == stem)
-    m = re.search(r"(.{0,70})\[\^" + re.escape(label) + r"\]", txt)
-    return re.sub(r"\s+", " ", m.group(1)).strip()[-70:] if m else ""
-
-orphan_by_page = [(p["label"], p["stem"], d) for p in pages for d in p["orphan"]
-                  if f"{p['k']}-{d}" in still_orphan]
-dangling_by_page = [(p["label"], p["stem"], r) for p in pages for r in p["dangling"]
-                    if f"{p['k']}-{r}" in still_dangling]
-
-with ISSUES.open("w", encoding="utf-8") as f:
-    f.write("# Footnote reconciliation report\n\n")
-    f.write(f"**{len(joins)} page-spanning footnote(s) auto-joined** — a marker "
-            "at the foot of one page whose text overflowed (renumbered) onto the "
-            "next; ref and def reunited under one label.\n\n")
-    f.write("| ref page | ref | ← def page | def was | def text |\n|---|---|---|---|---|\n")
-    for rl, rs, r, dl, ds, d in joins:
-        f.write(f"| {rl} | [^{r}] | {dl} | [^{d}] | {def_text(ds, d)} |\n")
-
-    f.write("\n## Dropped markers — definition present, superscript missing from body\n\n")
-    f.write("The transcription kept the footnote text at the page foot but dropped "
-            "the reference numeral in the running text. The marker must be placed "
-            "against the original scan. Each row shows the orphaned definition.\n\n")
-    f.write("| page | note | definition text (to locate in scan) |\n|---|---|---|\n")
-    for lbl, stem, d in orphan_by_page:
-        f.write(f"| {lbl} | [^{d}] | {def_text(stem, d)} |\n")
-
-    f.write("\n## Dropped / overflowed definitions — marker present, text missing\n\n")
-    f.write("The reference survives in the body but no definition text was "
-            "transcribed on the page (or an adjacent page). Recover the note text "
-            "from the scan.\n\n")
-    f.write("| page | ref | marker context (…precedes the marker) |\n|---|---|---|\n")
-    for lbl, stem, r in dangling_by_page:
-        f.write(f"| {lbl} | [^{r}] | …{ref_context(stem, r)} |\n")
-
-    f.write(f"\n---\n*{len(orphan_by_page)} dropped markers, "
-            f"{len(dangling_by_page)} dropped definitions to recover from scans.*\n")
-
-total_def = len(b_defs)
-print(f"book.md: {len(MANIFEST)} pages, {OUT.stat().st_size // 1024} KB, {total_def} footnote labels")
-print(f"joins performed: {len(joins)}")
-print(f"residue: {len(still_dangling)} refs w/o def, {len(still_orphan)} defs w/o ref")
-if still_dangling:
-    print("  dangling:", ", ".join(still_dangling))
-if still_orphan:
-    print("  orphan:  ", ", ".join(still_orphan))
+kb = len(book.encode("utf-8")) // 1024
+print(f"book.md: {len(pages)} pages, {kb} KB, {len(bdefs)} footnote labels")
+print(f"cross-page hyphen joins: {len(hyjoins)}   footnote overflow joins: {len(joins)}")
+print(f"residual footnotes: {len(dangling)} dangling, {len(orphan)} orphan")
+if dangling[:12]: print("  dangling:", ", ".join(dangling[:12]))
+if orphan[:12]: print("  orphan:  ", ", ".join(orphan[:12]))
