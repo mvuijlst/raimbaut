@@ -9,152 +9,190 @@ eleventyComputed:
   title: "Chanson {{ ch.roman }} · {{ ch.incipit }}"
 ---
 {% set pn = pagination.pageNumber %}
-<div class="study" id="study" data-mode="etude">
+<div class="chanson-page" id="study" data-view="web" data-livre="continue">
 
-  <nav class="study-rail" aria-label="Sommaire de la chanson">
-    <div class="rail-group">
-      <span class="rail-label">Strophes</span>
-      <ol>
-        {% for st in ch.strophes %}
-        <li><a href="#s{{ st.i }}">{{ st.i + 1 }}
-          {%- set ndots = 0 -%}
-          {%- for ln in st.lines %}{% if ln.marks.length %}{% set ndots = ndots + 1 %}{% endif %}{% endfor -%}
-          {%- if ndots > 0 %} <span class="dots">{% for k in range(0, ndots) %}·{% endfor %}</span>{% endif -%}
-        </a></li>
-        {% endfor %}
-      </ol>
-    </div>
-    {% if ch.remarques.entries.length %}
-    <div class="rail-group lemmas">
-      <span class="rail-label">Remarques</span>
-      <ol>
-        {% for e in ch.remarques.entries %}
-        <li><a href="#{{ e.id }}">{{ e.label }}</a></li>
-        {% endfor %}
-      </ol>
-    </div>
-    {% endif %}
-  </nav>
+  <header class="ch-head">
+    <p class="u-eyebrow"><a href="/chansons/">Les chansons</a></p>
+    <h1>
+      <span class="ch-roman">{{ ch.roman }}</span>
+      <span class="ch-incipit" lang="oc">{{ ch.incipit }}</span>
+    </h1>
 
-  <main class="study-main">
-    <header class="ch-head">
-      <p class="u-eyebrow"><a href="/chansons/">Les chansons</a></p>
-      <h1>
-        <span class="ch-roman">{{ ch.roman }}</span>
-        <span class="ch-incipit" lang="oc">{{ ch.incipit }}</span>
-      </h1>
-      <div class="ch-meta">
-        <div class="mode-toggle" role="group" aria-label="Mode de lecture" hidden>
-          <button type="button" data-setmode="lecture" aria-pressed="false">Lecture</button>
-          <button type="button" data-setmode="etude" aria-pressed="true">Étude</button>
-          <a href="/{{ ch.livreSlug }}/" title="La chanson dans l'ordre du livre imprimé">Livre</a>
-        </div>
-        <nav class="ch-pager" aria-label="Chanson précédente ou suivante">
-          {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← {{ edition.studies[pn - 1].roman }}</a>{% endif %}
-          {% if pagination.href.next %}<a href="{{ pagination.href.next }}">{{ edition.studies[pn + 1].roman }} →</a>{% endif %}
-        </nav>
-      </div>
-      {% if ch.tradition %}
-      <details class="tradition">
-        <summary>Tradition manuscrite &amp; éditions</summary>
-        <div class="trad-body">
-          {% if ch.tradition.manuscrits %}
-          <h4>Manuscrits</h4>
-          <p>{{ ch.tradition.manuscrits | mdInline | safe }}</p>
-          {% endif %}
-          {% if ch.tradition.editions.length %}
-          <h4>Éditions &amp; études</h4>
-          {% for ed in ch.tradition.editions %}
-          <p>{{ ed | mdInline | safe }}</p>
-          {% endfor %}
-          {% endif %}
-        </div>
-      </details>
-      {% endif %}
-      {% if ch.manuscripts.length %}
-      <details class="tradition ms-gallery">
-        <summary>Le manuscrit</summary>
-        <div class="trad-body ms-figures">
-          {% for w in ch.manuscripts %}
-            {% for img in w.images %}
-            <figure>
-              <a href="{{ img.href }}" target="_blank" rel="noopener">
-                <img src="{{ img.href }}" loading="lazy"
-                     alt="Chanson {{ ch.roman }}{% if w.siglum %}, manuscrit {{ w.siglum }}{% endif %}{% if img.folio %}, feuillet {{ img.folio }}{% endif %}">
-              </a>
-              <figcaption>
-                {% if w.siglum %}Ms. <span class="sc">{{ w.siglum }}</span>{% endif %}
-                {% if img.folio %} · f°&nbsp;{{ img.folio }}{% endif %}
-                {% if w.source %} · {{ w.source }}{% endif %}
-                {% if img.note %} — {{ img.note }}{% endif %}
-                {% if img.shared.length %} — feuillet partagé avec {% for r in img.shared %}<a href="/chansons/{{ edition.romanToNum[r] }}/">{{ r }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
-              </figcaption>
-            </figure>
-            {% endfor %}
-          {% endfor %}
-        </div>
-      </details>
-      {% endif %}
-    </header>
-
-    <section class="texte" aria-label="Texte et traduction">
-      {% for item in ch.layout %}
-        {% if item.t == "pair" or item.t == "strophe" %}
-        <div class="strophe-row{% if item.t == 'strophe' %} solo{% endif %}" id="s{{ item.strophe.i }}">
-          <div class="oc" lang="oc">
-            {% for ln in item.strophe.lines %}
-            <p class="vline{% if ln.no % 5 == 0 %} q5{% endif %}{% if ln.marks.length %} marked{% endif %}" id="v{{ ln.no }}"{% if ln.marks.length %} data-rem="{{ ln.marks[0].id }}"{% endif %}>
-              <span class="lno" aria-hidden="true">{{ ln.no }}</span>
-              {%- if ln.marks.length -%}
-              <a class="vmark" href="#{{ ln.marks[0].id }}" title="Remarque sur le {{ ln.marks[0].label }}" aria-label="Remarque sur le {{ ln.marks[0].label }}"></a>
-              {%- endif -%}
-              <span class="vtext">{{ ln.html | safe }}</span>
-            </p>
-            {% endfor %}
-          </div>
-          {% if item.t == "pair" %}
-          <div class="fr" lang="fr">{{ item.trad.html | safe }}</div>
-          {% endif %}
-        </div>
-        {% for a in item.asides %}
-          {% if a.t == "source" %}<p class="source-note">{{ a.html | safe }}</p>
-          {% elif a.t == "star" %}<p class="hand-aside">* {{ a.html | safe }}</p>
-          {% else %}<p class="hand-aside"><span class="hand">{{ a.html | safe }}</span></p>
-          {% endif %}
-        {% endfor %}
-        {% elif item.t == "trad" %}
-        <div class="trad-solo fr" lang="fr">{{ item.trad.html | safe }}</div>
+    {% if ch.tradition %}
+    <details class="tradition">
+      <summary>Tradition manuscrite &amp; éditions</summary>
+      <div class="trad-body">
+        {% if ch.tradition.manuscrits %}
+        <h4>Manuscrits</h4>
+        <p>{{ ch.tradition.manuscrits | mdInline | safe }}</p>
         {% endif %}
-      {% endfor %}
-    </section>
-  </main>
+        {% if ch.tradition.editions.length %}
+        <h4>Éditions &amp; études</h4>
+        {% for ed in ch.tradition.editions %}
+        <p>{{ ed | mdInline | safe }}</p>
+        {% endfor %}
+        {% endif %}
+      </div>
+    </details>
+    {% endif %}
+    {% if ch.manuscripts.length %}
+    <details class="tradition ms-gallery">
+      <summary>Le manuscrit</summary>
+      <div class="trad-body ms-figures">
+        {% for w in ch.manuscripts %}
+          {% for img in w.images %}
+          <figure>
+            <a href="{{ img.href }}" target="_blank" rel="noopener">
+              <img src="{{ img.href }}" loading="lazy"
+                   alt="Chanson {{ ch.roman }}{% if w.siglum %}, manuscrit {{ w.siglum }}{% endif %}{% if img.folio %}, feuillet {{ img.folio }}{% endif %}">
+            </a>
+            <figcaption>
+              {% if w.siglum %}Ms. <span class="sc">{{ w.siglum }}</span>{% endif %}
+              {% if img.folio %} · f°&nbsp;{{ img.folio }}{% endif %}
+              {% if w.source %} · {{ w.source }}{% endif %}
+              {% if img.note %} — {{ img.note }}{% endif %}
+              {% if img.shared.length %} — feuillet partagé avec {% for r in img.shared %}<a href="/chansons/{{ edition.romanToNum[r] }}/">{{ r }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
+            </figcaption>
+          </figure>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </details>
+    {% endif %}
+  </header>
 
-  <aside class="study-panel" id="panel" aria-label="Remarques">
-    <header class="panel-head">
-      <span>Remarques</span>
-      <button type="button" class="resync" id="resync" hidden>⟲ suivre le texte</button>
-    </header>
-    <div class="panel-scroll" id="panel-scroll">
-      {% if ch.remarques.heading %}
-      <p class="rem-heading">{{ ch.remarques.heading | safe }}</p>
+  {# ===================================================== VERSION WEB (étude) #}
+  <div class="cx-view cx-web study" data-mode="etude">
+    <nav class="study-rail" aria-label="Sommaire de la chanson">
+      <div class="rail-group">
+        <span class="rail-label">Strophes</span>
+        <ol>
+          {% for st in ch.strophes %}
+          <li><a href="#s{{ st.i }}">{{ st.i + 1 }}
+            {%- set ndots = 0 -%}
+            {%- for ln in st.lines %}{% if ln.marks.length %}{% set ndots = ndots + 1 %}{% endif %}{% endfor -%}
+            {%- if ndots > 0 %} <span class="dots">{% for k in range(0, ndots) %}·{% endfor %}</span>{% endif -%}
+          </a></li>
+          {% endfor %}
+        </ol>
+      </div>
+      {% if ch.remarques.entries.length %}
+      <div class="rail-group lemmas">
+        <span class="rail-label">Remarques</span>
+        <ol>
+          {% for e in ch.remarques.entries %}
+          <li><a href="#{{ e.id }}">{{ e.label }}</a></li>
+          {% endfor %}
+        </ol>
+      </div>
       {% endif %}
-      {% if ch.remarques.headnote %}
-      <div class="headnote">{{ ch.remarques.headnote | safe }}</div>
-      {% endif %}
-      {% for e in ch.remarques.entries %}
-      <section class="lemma" id="{{ e.id }}" data-from="{{ e.from }}" data-to="{{ e.to or e.from }}">
-        <h3 class="lemma-head">
-          <a class="lemma-anchor" href="#v{{ e.from }}" data-from="{{ e.from }}" data-to="{{ e.to or e.from }}">{{ e.label }}</a>
-          {% if e.quote %}<span class="lemma-quote" lang="oc">{{ e.quote }}</span>{% endif %}
-        </h3>
-        {{ e.html | safe }}
-        <p><a class="backtov" href="#v{{ e.from }}">↩ au vers {{ e.from }}</a></p>
+    </nav>
+
+    <main class="study-main">
+      <section class="texte" aria-label="Texte et traduction">
+        {% for item in ch.layout %}
+          {% if item.t == "pair" or item.t == "strophe" %}
+          <div class="strophe-row{% if item.t == 'strophe' %} solo{% endif %}" id="s{{ item.strophe.i }}">
+            <div class="oc" lang="oc">
+              {% for ln in item.strophe.lines %}
+              <p class="vline{% if ln.no % 5 == 0 %} q5{% endif %}{% if ln.marks.length %} marked{% endif %}" id="v{{ ln.no }}"{% if ln.marks.length %} data-rem="{{ ln.marks[0].id }}"{% endif %}>
+                <span class="lno" aria-hidden="true">{{ ln.no }}</span>
+                {%- if ln.marks.length -%}
+                <a class="vmark" href="#{{ ln.marks[0].id }}" title="Remarque sur le {{ ln.marks[0].label }}" aria-label="Remarque sur le {{ ln.marks[0].label }}"></a>
+                {%- endif -%}
+                <span class="vtext">{{ ln.html | safe }}</span>
+              </p>
+              {% endfor %}
+            </div>
+            {% if item.t == "pair" %}
+            <div class="fr" lang="fr">{{ item.trad.html | safe }}</div>
+            {% endif %}
+          </div>
+          {% for a in item.asides %}
+            {% if a.t == "source" %}<p class="source-note">{{ a.html | safe }}</p>
+            {% elif a.t == "star" %}<p class="hand-aside">* {{ a.html | safe }}</p>
+            {% else %}<p class="hand-aside"><span class="hand">{{ a.html | safe }}</span></p>
+            {% endif %}
+          {% endfor %}
+          {% elif item.t == "trad" %}
+          <div class="trad-solo fr" lang="fr">{{ item.trad.html | safe }}</div>
+          {% endif %}
+        {% endfor %}
       </section>
-      {% endfor %}
-      {% if not ch.remarques.entries.length and not ch.remarques.headnote %}
-      <p class="panel-empty">Cette chanson ne comporte pas de remarques dans la thèse&nbsp;: le texte suit immédiatement.</p>
-      {% endif %}
-    </div>
-  </aside>
+    </main>
+
+    <aside class="study-panel" aria-label="Remarques">
+      <header class="panel-head">
+        <span>Remarques</span>
+        <button type="button" class="resync" hidden>⟲ suivre le texte</button>
+      </header>
+      <div class="panel-scroll">
+        {% if ch.remarques.heading %}
+        <p class="rem-heading">{{ ch.remarques.heading | safe }}</p>
+        {% endif %}
+        {% if ch.remarques.headnote %}
+        <div class="headnote">{{ ch.remarques.headnote | safe }}</div>
+        {% endif %}
+        {% for e in ch.remarques.entries %}
+        <section class="lemma" id="{{ e.id }}" data-from="{{ e.from }}" data-to="{{ e.to or e.from }}">
+          <h3 class="lemma-head">
+            <a class="lemma-anchor" href="#v{{ e.from }}" data-from="{{ e.from }}" data-to="{{ e.to or e.from }}">{{ e.label }}</a>
+            {% if e.quote %}<span class="lemma-quote" lang="oc">{{ e.quote }}</span>{% endif %}
+          </h3>
+          {{ e.html | safe }}
+          <p><a class="backtov" href="#v{{ e.from }}">↩ au vers {{ e.from }}</a></p>
+        </section>
+        {% endfor %}
+        {% if not ch.remarques.entries.length and not ch.remarques.headnote %}
+        <p class="panel-empty">Cette chanson ne comporte pas de remarques dans la thèse&nbsp;: le texte suit immédiatement.</p>
+        {% endif %}
+      </div>
+    </aside>
+  </div>
+
+  {# ======================================== VERSION LIVRE — lecture continue #}
+  {% if ch.livre %}
+  <div class="cx-view cx-livre study prose-study is-livre{% if not ch.livre.notes.length %} no-notes{% endif %}">
+    <main class="study-main">
+      <article class="prose">
+        <section class="edition-body">
+          {{ ch.livre.html | safe }}
+        </section>
+      </article>
+    </main>
+    {% if ch.livre.notes.length %}
+    <aside class="study-panel" aria-label="Notes">
+      <header class="panel-head"><span>Notes</span></header>
+      <div class="panel-scroll">
+        {% for n in ch.livre.notes %}
+        <div class="fnote" id="fn-{{ n.label }}">
+          <a class="fnote-n" href="#fnref-{{ n.label }}" aria-label="Retour à l'appel de note {{ n.n }}">{{ n.n }}</a>
+          <span>{{ n.html | safe }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </aside>
+    {% endif %}
+  </div>
+
+  {# ======================================= VERSION LIVRE — fac-similé paginé #}
+  {% if ch.livre.facsimile.length %}
+  <section class="cx-view cx-facsimile facsimile-body is-livre" aria-label="Fac-similé du tapuscrit">
+    {% for pg in ch.livre.facsimile %}
+    <article class="fx-page">
+      <div class="fx-sheet">
+        <div class="fx-content">{{ pg.html | safe }}</div>
+        {% if pg.notes.length %}
+        <div class="fx-notes">
+          {% for n in pg.notes %}<p class="fx-note"><span class="fx-n">{{ n.n }}</span>{{ n.html | safe }}</p>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if pg.folio %}<div class="fx-folio">{{ pg.folio }}.</div>{% endif %}
+    </article>
+    {% endfor %}
+  </section>
+  {% endif %}
+  {% endif %}
 
 </div>

@@ -16,7 +16,7 @@
   {% set u = page.url %}
   {% set active = "" %}
   {% if u == "/introduction/" or u.startsWith("/avant-propos") %}{% set active = "intro" %}
-  {% elif u.startsWith("/chansons") or u.startsWith("/chanson-") %}{% set active = "chansons" %}
+  {% elif u.startsWith("/chansons") %}{% set active = "chansons" %}
   {% elif u.startsWith("/poetique") or u == "/conclusion/" %}{% set active = "poetique" %}
   {% elif u.startsWith("/bibliographie") or u.startsWith("/abbreviations") or u.startsWith("/index-") %}{% set active = "biblio" %}
   {% endif %}
@@ -28,7 +28,41 @@
   </nav>
   <button type="button" class="theme-btn" id="theme-btn" aria-label="Thème clair ou sombre" title="Thème : automatique">◐</button>
 </header>
+{% set here = edition.here[page.url] %}
+{% if here %}
+<div class="subnav">
+  <div class="subnav-inner">
+    <p class="sn-here">
+      <span class="sn-label">{{ here.label }}</span>
+      {% if here.incipit %}<span class="sn-incipit" lang="oc">{{ here.incipit }}</span>{% endif %}
+    </p>
+    {% if here.hasViews %}
+    <div class="view-control" role="group" aria-label="Version de lecture" hidden>
+      <div class="vc-primary">
+        <button type="button" data-view="web" aria-pressed="true">Version web</button>
+        <button type="button" data-view="livre" aria-pressed="false">Version livre</button>
+      </div>
+      {% if here.hasFacsimile %}
+      <div class="vc-secondary" hidden>
+        <button type="button" data-livre="continue" aria-pressed="true">Lecture continue</button>
+        <button type="button" data-livre="facsimile" aria-pressed="false">Fac-similé paginé</button>
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
 {{ content | safe }}
+{% set bpp = edition.pager[page.url] %}
+{% if bpp %}
+<nav class="book-pager" aria-label="Navigation séquentielle">
+  <div class="bp-inner">
+    {% if bpp.prevUrl %}<a class="bp-prev" href="{{ bpp.prevUrl }}"><span class="bp-dir" aria-hidden="true">←</span><span class="bp-label">{{ bpp.prevLabel }}</span></a>{% else %}<span></span>{% endif %}
+    {% if bpp.nextUrl %}<a class="bp-next" href="{{ bpp.nextUrl }}"><span class="bp-label">{{ bpp.nextLabel }}</span><span class="bp-dir" aria-hidden="true">→</span></a>{% else %}<span></span>{% endif %}
+  </div>
+</nav>
+{% endif %}
 <footer class="colophon">
   <p>Raimbaut d'Orange, édition électronique · <a href="/colophon/">Colophon</a></p>
 </footer>

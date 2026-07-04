@@ -11,7 +11,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   makeMd, collectFootnoteDefs, makeSiglumIndex, renderSection,
-  collectAuthorSurnames,
+  collectAuthorSurnames, renderFacsimilePage, facsimilePageMeta,
 } from "../../lib/render.js";
 import { parseChanson } from "../../lib/chanson.js";
 import {
@@ -257,8 +257,14 @@ export default function () {
   }
 
   // ---- pageid -> section slug (for back-reference links) ---------------------
+  // chanson pages resolve to the merged study URL (/chansons/N/), where the
+  // faithful "Version livre" body carries the #page-… anchors that back-refs and
+  // cross-refs target; other sections keep their own slug.
   const pageToSection = new Map();
-  for (const d of descriptors) for (const p of d.pages) pageToSection.set(p, d.slug);
+  for (const d of descriptors) {
+    const slug = d.kind === "chanson" ? "chansons/" + d.num : d.slug;
+    for (const p of d.pages) pageToSection.set(p, slug);
+  }
 
   // ---- references keyed by page|note ----------------------------------------
   const refIndex = new Map();
@@ -268,25 +274,61 @@ export default function () {
     refIndex.get(k).push(r);
   }
 
+  // ---- cross-reference maps (internal "infra/supra, p. N" + "à ROMAN,verse") -
+  // printed page number -> pageid (printed numbers are unique across the edition);
+  // chanson roman -> num, for verse links into the study views.
+  const printedToPage = new Map();
+  for (const [pid, pr] of printedOf) if (pr && /^\d+$/.test(String(pr))) printedToPage.set(String(pr), pid);
+  const romanToNum = Object.fromEntries(chansons.map((c) => [c.roman, c.num]));
+
   // ================= PASS 2: render ==========================================
   const ctx = { md, defs, sigla, surnames, siglaCodes, footnoteNorm,
-    sidenoteCounter: { n: 0 }, refIndex, pageToSection };
+    sidenoteCounter: { n: 0 }, refIndex, pageToSection, printedToPage, romanToNum };
   const renderPages = (pids) => renderSection(pids.map(pageText).join("\n\n"), ctx);
 
   // linear sections collect their footnotes into a synced notes panel.
   // Footnote references are NORMALIZED everywhere except the faithful Livre chanson
   // pages (kind === "chanson", served at /chanson-N/), which keep the printed text.
+  // per-page facsimile of the typescript (Livre view toggle): only the faithful
+  // chanson pages, which already keep the printed text. Each page is discrete,
+  // with its footnotes gathered at the foot and its printed folio in the corner.
+  // Two passes so a sentence that runs across a page boundary reads as continuous:
+  // the page it runs ONTO drops the new-paragraph indent (contFrom) when the
+  // previous page ended mid-sentence. The last line of a page is left as typed.
+  const facsimileOf = (pids) => {
+    const kept = pids.filter((pid) =>
+      kindOf.get(pid) !== "plate-or-divider" && !/RIJKSUNIVERSITEIT/i.test(bodyText(pid)));
+    const metas = kept.map((pid) => facsimilePageMeta(pageText(pid)));
+    return kept
+      .map((pid, i) => {
+        const contFrom = i > 0 && metas[i - 1].lastOpen && metas[i].firstIsPara;
+        return { folio: printedOf.get(pid) || "", ...renderFacsimilePage(pageText(pid), ctx, { contFrom }) };
+      })
+      .filter((pg) => pg.html.trim() || pg.notes.length);
+  };
+
   const sections = descriptors.map((d) => {
     ctx.notesOut = [];
     ctx.noteN = 0;
-    ctx.normalize = (d.kind !== "chanson");
+    // EVERY continuous body is a reading view now (sigla tooltips, op./art. cité
+    // + ibid. back-ref links, footnote normalization) — including the chanson
+    // "Lecture continue" (Version livre). The faithful printed text survives only
+    // in the "Fac-similé paginé" sub-view, rendered separately by
+    // renderFacsimilePage (spartan; ignores ctx.normalize).
+    ctx.normalize = true;
     const html = d.md != null ? renderSection(d.md, ctx) : renderPages(d.pages);
     const notes = ctx.notesOut;
     ctx.notesOut = null;
-    return { ...d, printed: printedRange(d.pages), html, notes };
+    const facsimile = d.kind === "chanson" ? facsimileOf(d.pages) : null;
+    return { ...d, printed: printedRange(d.pages), html, notes, facsimile };
   });
   ctx.notesOut = null; // studies keep in-place note disclosures
   ctx.normalize = true; // /chansons/N/ study views are a reading view
+  // the study (web) view must NOT emit #page-… anchors: the same page ids live
+  // in the faithful Livre body on the same merged page, and duplicate ids would
+  // shadow the back-ref targets. The Livre bodies were rendered above with
+  // anchors on (default).
+  ctx.pageAnchors = false;
 
   const nav = sections.map((s) => ({
     slug: s.slug, title: s.title, subtitle: s.subtitle, kind: s.kind, printed: s.printed,
@@ -303,23 +345,80 @@ export default function () {
 
   const manuscripts = loadManuscripts();
 
+  // the faithful "Version livre" bodies (continuous rendering + per-page
+  // facsimilé) are the chanson-kind linear sections; key them by num so each
+  // study can carry all three views (web / livre-continue / facsimilé) on one page.
+  const livreByNum = new Map(
+    sections.filter((s) => s.kind === "chanson").map((s) => [s.num, s]));
+
   const studies = chansons
     .filter((c) => tpages(c).length)
     .map((c) => {
       const parsed = parseChanson(c, { pageText, ctx, skipPage, roman: c.roman });
+      const L = livreByNum.get(c.num);
       return {
         num: c.num, roman: c.roman,
         incipit: (c.incipit || "").trim(),
         printed: printedRange([...rpages(c), ...tpages(c)]),
         livreSlug: "chanson-" + c.num,
+        livre: L ? { html: L.html, notes: L.notes, facsimile: L.facsimile } : null,
         tradition: parChanson.get(c.roman) || null,
         manuscripts: manuscripts.get(c.roman) || [],
         ...parsed,
       };
     });
 
+  // ================= unified whole-book reading spine + pager ================
+  // A single sequence walked by the sticky pager on every reading page:
+  //   Avant-propos → Introduction → Chansons I–XXXIX → Poétique → Conclusion
+  //   → Bibliographie → Indices.
+  // Chansons resolve to their merged study URL; the bibliographie (a standalone
+  // template, not a linear section) is spliced in just before the indices.
+  const studyNums = new Set(studies.map((s) => s.num));
+  const spine = [];
+  let bibInserted = false;
+  for (const s of sections) {
+    if (!bibInserted && s.kind === "index") {
+      spine.push({ url: "/bibliographie/", label: "Bibliographie" });
+      bibInserted = true;
+    }
+    if (s.kind === "chanson") {
+      if (studyNums.has(s.num)) spine.push({ url: "/chansons/" + s.num + "/", label: "Chanson " + s.roman });
+    } else {
+      spine.push({ url: "/" + s.slug + "/", label: s.title });
+    }
+  }
+  if (!bibInserted) spine.push({ url: "/bibliographie/", label: "Bibliographie" });
+
+  const pager = {};
+  spine.forEach((it, i) => {
+    pager[it.url] = {
+      prevUrl: i > 0 ? spine[i - 1].url : null,
+      prevLabel: i > 0 ? spine[i - 1].label : null,
+      nextUrl: i < spine.length - 1 ? spine[i + 1].url : null,
+      nextLabel: i < spine.length - 1 ? spine[i + 1].label : null,
+    };
+  });
+
+  // "you are here" map for the sticky sub-bar: the current page's own label +
+  // (for chansons) its incipit and which views its layout switch should offer.
+  const here = {};
+  for (const it of spine) here[it.url] = { label: it.label };
+  for (const st of studies) {
+    here["/chansons/" + st.num + "/"] = {
+      label: "Chanson " + st.roman,
+      incipit: st.incipit,
+      hasViews: true,
+      hasFacsimile: !!(st.livre && st.livre.facsimile && st.livre.facsimile.length),
+    };
+  }
+
+  // section.njk paginates the linear prose sections only — chanson-kind sections
+  // are now served (merged) by chanson.njk at /chansons/N/, so exclude them here.
+  const linearSections = sections.filter((s) => s.kind !== "chanson");
+
   return {
-    sections, nav, chansons, studies,
+    sections, linearSections, nav, chansons, studies, readingOrder: spine, pager, here,
     romanToNum: Object.fromEntries(chansons.map((c) => [c.roman, c.num])),
     abbreviations: (citations.abbreviations || []).slice().sort((a, b) => a.siglum.localeCompare(b.siglum)),
     unresolvedSigla: citations.unresolved || [],

@@ -28,8 +28,10 @@ const HAND = /^\[\[hand:\s*(.+?)\]\]\s*$/;
 const LINE_NO = /^(\d+)\s*[.·]\s+(.*)$/;
 const CH_HEADING = /^CHANSON\b/; // uppercase only: prose "chanson XXXIX…" is not a heading
 
+// the study (web) view keeps page provenance but WITHOUT the #page-… id: the
+// merged page's faithful Livre body owns those ids as the back-ref targets.
 const anchorSpan = (pid) =>
-  `<span class="page-anchor" id="page-${pid}" data-page="${pid}"></span>`;
+  `<span class="page-anchor" data-page="${pid}"></span>`;
 
 // transcription records of handwritten marginalia -> quiet styled spans
 const inlineHands = (s) =>

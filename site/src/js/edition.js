@@ -116,30 +116,75 @@
     });
   }
 
+  // ----- reading-view sigla: typeset tooltip on hover/focus (no navigation) --
+  // The definition rides along in each ref's hidden .siglum-pop; we render a
+  // single floating copy positioned with position:fixed so it escapes the
+  // notes panel's scroll clipping and never overflows the viewport.
+  (function () {
+    let float = null, hideTimer = 0, current = null;
+    const ensure = () => {
+      if (float) return float;
+      float = document.createElement("div");
+      float.className = "siglum-pop-float";
+      document.body.appendChild(float);
+      float.addEventListener("pointerenter", () => clearTimeout(hideTimer));
+      float.addEventListener("pointerleave", scheduleHide);
+      return float;
+    };
+    const place = (ref) => {
+      const src = ref.querySelector(".siglum-pop");
+      if (!src) return;
+      const f = ensure();
+      clearTimeout(hideTimer);
+      current = ref;
+      f.innerHTML = src.innerHTML;
+      f.classList.add("show");
+      f.style.left = "0px"; f.style.top = "0px"; // reset before measuring
+      const r = ref.getBoundingClientRect();
+      const fr = f.getBoundingClientRect();
+      const pad = 12;
+      let left = r.left + r.width / 2 - fr.width / 2;
+      left = Math.max(pad, Math.min(left, window.innerWidth - fr.width - pad));
+      let top = r.bottom + 8;
+      if (top + fr.height > window.innerHeight - pad) top = r.top - fr.height - 8;
+      f.style.left = left + "px";
+      f.style.top = Math.max(pad, top) + "px";
+    };
+    const hideNow = () => { if (float) float.classList.remove("show"); current = null; };
+    const scheduleHide = () => { clearTimeout(hideTimer); hideTimer = setTimeout(hideNow, 140); };
+    document.addEventListener("pointerover", (ev) => {
+      const ref = ev.target.closest(".siglum-ref");
+      if (ref) place(ref);
+    });
+    document.addEventListener("pointerout", (ev) => {
+      const ref = ev.target.closest(".siglum-ref");
+      if (ref && ref === current) scheduleHide();
+    });
+    document.addEventListener("focusin", (ev) => {
+      const ref = ev.target.closest(".siglum-ref");
+      if (ref) place(ref);
+    });
+    document.addEventListener("focusout", (ev) => {
+      if (ev.target.closest(".siglum-ref")) scheduleHide();
+    });
+    // touch / click: toggle in place; a tap elsewhere dismisses.
+    document.addEventListener("click", (ev) => {
+      const ref = ev.target.closest(".siglum-ref");
+      if (ref) { ev.preventDefault(); (ref === current && float && float.classList.contains("show")) ? hideNow() : place(ref); }
+      else if (!ev.target.closest(".siglum-pop-float")) hideNow();
+    });
+    document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") hideNow(); });
+    window.addEventListener("scroll", hideNow, { passive: true, capture: true });
+    window.addEventListener("resize", hideNow);
+  })();
+
   const study = document.getElementById("study");
   if (!study) return;
 
-  const panelScroll = document.getElementById("panel-scroll");
-  const resyncBtn = document.getElementById("resync");
   const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const hashId = (h) => { try { return decodeURIComponent(h.slice(1)); } catch { return h.slice(1); } };
 
-  // ----- reading mode (lecture / étude), remembered per device -------------
-  const toggle = study.querySelector(".mode-toggle");
-  if (toggle) {
-    toggle.hidden = false;
-    const buttons = toggle.querySelectorAll("button[data-setmode]");
-    const setMode = (mode) => {
-      study.dataset.mode = mode;
-      buttons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.setmode === mode)));
-      try { localStorage.setItem("rb-mode", mode); } catch {}
-    };
-    buttons.forEach((b) => b.addEventListener("click", () => setMode(b.dataset.setmode)));
-    let saved = null;
-    try { saved = localStorage.getItem("rb-mode"); } catch {}
-    if (saved === "lecture" || saved === "etude") setMode(saved);
-  }
-
-  // ----- pulse helper -------------------------------------------------------
+  // ----- pulse helpers ------------------------------------------------------
   const pulse = (el) => {
     if (!el) return;
     el.classList.remove("pulse");
@@ -151,34 +196,100 @@
     for (let n = from; n <= to; n++) pulse(document.getElementById("v" + n));
   };
 
-  // ----- sync state ---------------------------------------------------------
-  let syncOn = true;
+  // ----- scroll a target into its own panel (or the page) -------------------
+  // Each view (web / livre) owns its own .panel-scroll; a target knows which by
+  // being inside it, so we never depend on a single global panel element.
   let programmaticPanelScroll = 0;
-  const setSync = (on) => {
-    syncOn = on;
-    if (resyncBtn) resyncBtn.hidden = on;
-  };
-
-  const panelIsColumn = () =>
-    panelScroll && getComputedStyle(panelScroll).overflowY !== "visible";
-
+  const isColumn = (ps) => ps && getComputedStyle(ps).overflowY !== "visible";
   const scrollPanelTo = (el) => {
-    if (!panelScroll || !el) return;
-    if (panelIsColumn()) {
+    if (!el) return;
+    const ps = el.closest(".panel-scroll");
+    if (isColumn(ps)) {
       programmaticPanelScroll = Date.now();
-      panelScroll.scrollTo({
-        top: el.offsetTop - panelScroll.offsetTop - 8,
-        behavior: reduced ? "auto" : "smooth",
-      });
+      ps.scrollTo({ top: el.offsetTop - ps.offsetTop - 8, behavior: reduced ? "auto" : "smooth" });
     } else {
       el.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" });
     }
   };
 
-  // ----- markers: text -> panel (verse markers and note calls alike) --------
+  // ----- view control: Version web / Version livre (+ continue / fac-similé) --
+  // On a chanson page the three views live in the DOM at once; inactive ones
+  // carry [hidden]. Elsewhere (prose sections) there is no control and #study
+  // is itself the single view.
+  const views = study.querySelectorAll(".cx-view").length
+    ? {
+        web: study.querySelector(".cx-web"),
+        livre: study.querySelector(".cx-livre"),
+        facsimile: study.querySelector(".cx-facsimile"),
+      }
+    : null;
+
+  let onViewChange = () => {};
+  // the view control now lives in the sticky sub-bar (outside #study), so look it
+  // up globally; it still drives the views inside #study.
+  const vc = document.querySelector(".view-control");
+  if (vc && views) {
+    vc.hidden = false;
+    const primary = vc.querySelectorAll("[data-view]");
+    const secondary = vc.querySelectorAll("[data-livre]");
+    const secWrap = vc.querySelector(".vc-secondary");
+
+    const refresh = () => {
+      const v = study.dataset.view;
+      const l = study.dataset.livre;
+      let active = "web";
+      if (v === "livre") active = (l === "facsimile" && views.facsimile) ? "facsimile" : "livre";
+      for (const key of ["web", "livre", "facsimile"]) {
+        if (views[key]) views[key].hidden = key !== active;
+      }
+      primary.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === v)));
+      secondary.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.livre === l)));
+      if (secWrap) secWrap.hidden = v !== "livre";
+      onViewChange();
+    };
+    const setView = (v) => {
+      study.dataset.view = v;
+      try { localStorage.setItem("rb-view", v); } catch {}
+      refresh();
+    };
+    const setLivre = (m) => {
+      study.dataset.livre = m;
+      try { localStorage.setItem("rb-livre", m); } catch {}
+      refresh();
+    };
+    primary.forEach((b) => b.addEventListener("click", () => setView(b.dataset.view)));
+    secondary.forEach((b) => b.addEventListener("click", () => setLivre(b.dataset.livre)));
+
+    let sv = null, sl = null;
+    try { sv = localStorage.getItem("rb-view"); sl = localStorage.getItem("rb-livre"); } catch {}
+    if (sl === "continue" || sl === "facsimile") study.dataset.livre = sl;
+    if (sv === "web" || sv === "livre") study.dataset.view = sv;
+    // a deep link to a printed-page anchor implies the faithful continuous view
+    if (/^#page-/.test(location.hash)) { study.dataset.view = "livre"; study.dataset.livre = "continue"; }
+    refresh();
+
+    // a back-ref / cross-ref to a #page-… anchor on THIS page: the target id
+    // lives in the Livre body, so switch to it before scrolling.
+    document.addEventListener("click", (ev) => {
+      const a = ev.target.closest("a.backref, a.xref");
+      if (!a) return;
+      const url = new URL(a.getAttribute("href"), location.href);
+      if (url.pathname !== location.pathname || !/^#page-/.test(url.hash)) return;
+      ev.preventDefault();
+      study.dataset.view = "livre"; study.dataset.livre = "continue";
+      refresh();
+      history.replaceState(null, "", url.hash);
+      const target = document.getElementById(hashId(url.hash));
+      if (target) requestAnimationFrame(() => target.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" }));
+    });
+  }
+
+  // ----- panel jumps: markers -> panel, panel -> text -----------------------
+  let setSync = () => {};
+
   document.querySelectorAll(".vmark, .study-main .fnref").forEach((mk) => {
     mk.addEventListener("click", (ev) => {
-      const target = document.getElementById(mk.hash.slice(1));
+      const target = document.getElementById(hashId(mk.hash));
       if (!target) return;
       ev.preventDefault();
       history.replaceState(null, "", mk.hash);
@@ -187,11 +298,9 @@
       setSync(true);
     });
   });
-
-  // ----- panel note numbers -> back to the reference in the text ------------
   document.querySelectorAll(".fnote-n").forEach((a) => {
     a.addEventListener("click", (ev) => {
-      const target = document.getElementById(a.hash.slice(1));
+      const target = document.getElementById(hashId(a.hash));
       if (!target) return;
       ev.preventDefault();
       history.replaceState(null, "", a.hash);
@@ -199,11 +308,9 @@
       pulse(target.closest("p") || target);
     });
   });
-
-  // ----- lemma heads: panel -> poem ----------------------------------------
   document.querySelectorAll(".lemma-anchor, .backtov").forEach((a) => {
     a.addEventListener("click", (ev) => {
-      const target = document.getElementById(a.hash.slice(1));
+      const target = document.getElementById(hashId(a.hash));
       if (!target) return;
       ev.preventDefault();
       history.replaceState(null, "", a.hash);
@@ -214,48 +321,63 @@
     });
   });
 
-  // ----- scroll-sync: the text drives the panel ------------------------------
-  // anchors: verse lines with a remarque (study view) OR note calls (prose
-  // sections) — each knows the panel element it points at.
-  const anchors = [
-    ...Array.from(document.querySelectorAll(".vline.marked"))
-      .map((el) => ({ el, id: el.dataset.rem })),
-    ...Array.from(document.querySelectorAll(".study-main .fnref"))
-      .map((a) => ({ el: a, id: a.hash.slice(1) })),
-  ];
-  if (anchors.length && panelScroll) {
-    let ticking = false;
-    let syncedId = null;
-    const follow = () => {
-      ticking = false;
-      if (!syncOn || study.dataset.mode === "lecture" || !panelIsColumn()) return;
-      const fold = window.innerHeight * 0.38;
-      let current = null;
-      for (const a of anchors) {
-        const r = a.el.getBoundingClientRect();
-        if (r.top <= fold) current = a;
-        else break;
-      }
-      if (!current) current = anchors[0];
-      if (current.id !== syncedId) {
-        syncedId = current.id;
-        scrollPanelTo(document.getElementById(current.id));
-      }
-    };
+  // ----- scroll-sync: the text drives the active view's panel ----------------
+  // Precompute anchors + panel per view; on scroll, follow whichever view is
+  // visible. anchors: verse lines with a remarque (web) OR note calls (livre).
+  const roots = views ? [views.web, views.livre].filter(Boolean) : [study];
+  const syncData = roots.map((root) => ({
+    root,
+    panelScroll: root.querySelector(".panel-scroll"),
+    resyncBtn: root.querySelector(".resync"),
+    anchors: [
+      ...Array.from(root.querySelectorAll(".vline.marked")).map((el) => ({ el, id: el.dataset.rem })),
+      ...Array.from(root.querySelectorAll(".study-main .fnref")).map((a) => ({ el: a, id: hashId(a.hash) })),
+    ],
+  }));
+  const activeRoot = () => (views ? (study.dataset.view === "livre" ? views.livre : views.web) : study);
+  const curData = () => syncData.find((d) => d.root === activeRoot()) || syncData[0];
+
+  let syncOn = true;
+  let ticking = false;
+  let syncedId = null;
+  setSync = (on) => {
+    syncOn = on;
+    const d = curData();
+    if (d && d.resyncBtn) d.resyncBtn.hidden = on;
+  };
+  onViewChange = () => { syncedId = null; setSync(true); };
+
+  const follow = () => {
+    ticking = false;
+    if (!syncOn) return;
+    const d = curData();
+    if (!d || !d.anchors.length || !isColumn(d.panelScroll)) return;
+    const fold = window.innerHeight * 0.38;
+    let current = null;
+    for (const a of d.anchors) {
+      if (a.el.getBoundingClientRect().top <= fold) current = a;
+      else break;
+    }
+    if (!current) current = d.anchors[0];
+    if (current.id !== syncedId) {
+      syncedId = current.id;
+      scrollPanelTo(document.getElementById(current.id));
+    }
+  };
+  if (syncData.some((d) => d.anchors.length && d.panelScroll)) {
     window.addEventListener("scroll", () => {
       if (!ticking) { ticking = true; requestAnimationFrame(follow); }
     }, { passive: true });
-
-    // manual panel scrolling breaks the coupling — visibly
-    const breakSync = () => {
-      if (Date.now() - programmaticPanelScroll > 600) setSync(false);
-    };
-    panelScroll.addEventListener("wheel", breakSync, { passive: true });
-    panelScroll.addEventListener("touchmove", breakSync, { passive: true });
-    if (resyncBtn) resyncBtn.addEventListener("click", () => { setSync(true); syncedId = null; follow(); });
+    const breakSync = () => { if (Date.now() - programmaticPanelScroll > 600) setSync(false); };
+    for (const d of syncData) {
+      if (!d.panelScroll) continue;
+      d.panelScroll.addEventListener("wheel", breakSync, { passive: true });
+      d.panelScroll.addEventListener("touchmove", breakSync, { passive: true });
+      if (d.resyncBtn) d.resyncBtn.addEventListener("click", () => { setSync(true); syncedId = null; follow(); });
+    }
   }
 
-  // ----- keyboard: n/p next-previous lemma, j/k strophe ---------------------
+  // ----- keyboard: n/p next-previous lemma, j/k strophe (web view only) ------
   const lemmas = Array.from(document.querySelectorAll(".lemma"));
   const strophes = Array.from(document.querySelectorAll(".strophe-row"));
   const nearestIndex = (els) => {
@@ -265,6 +387,7 @@
   };
   document.addEventListener("keydown", (ev) => {
     if (ev.target.closest("input, textarea, select") || ev.metaKey || ev.ctrlKey || ev.altKey) return;
+    if (views && study.dataset.view === "livre") return; // poem nav is the web view
     if (ev.key === "j" || ev.key === "k") {
       const i = nearestIndex(strophes) + (ev.key === "j" ? 1 : -1);
       const t = strophes[Math.max(0, Math.min(strophes.length - 1, i))];
@@ -283,7 +406,7 @@
   });
 
   // ----- arriving on a #fragment: position both panes -----------------------
-  const initial = location.hash && document.getElementById(location.hash.slice(1));
+  const initial = location.hash && document.getElementById(hashId(location.hash));
   if (initial) {
     if (initial.classList.contains("lemma")) {
       setTimeout(() => { scrollPanelTo(initial); pulse(initial); }, 60);

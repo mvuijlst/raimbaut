@@ -1,0 +1,21 @@
+---
+pagination:
+  data: edition.studies
+  size: 1
+  alias: ch
+permalink: "/chanson-{{ ch.num }}/"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Chanson {{ ch.roman }} — Raimbaut d'Orange</title>
+<link rel="canonical" href="/chansons/{{ ch.num }}/">
+<meta http-equiv="refresh" content="0; url=/chansons/{{ ch.num }}/">
+<meta name="robots" content="noindex">
+</head>
+<body>
+<p>Cette page a été fusionnée. Rendez-vous sur <a href="/chansons/{{ ch.num }}/">Chanson {{ ch.roman }}</a>.</p>
+</body>
+</html>

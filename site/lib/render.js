@@ -108,11 +108,20 @@ const IS_SURNAME = new RegExp(`^[${UC}][${UC}'’]*(?:-[${UC}][${UC}'’]*)*$`);
 // initial MUST carry a period, else a lone Roman numeral ("CHANSON I : …") would
 // masquerade as one. A leading elision ("d'Yves", "l'Auteur") is stripped first.
 const IS_INITIAL = new RegExp(`^[${UC}](?:\\.[${UC}])*\\.$`);
+// honorifics that flag a following all-caps word as a personal surname even
+// with no initial ("MM. d'AGUILAR et d'ESCOULOUBRE"). "M." already matches
+// IS_INITIAL; the plural "MM." and the feminine forms do not.
+const HONORIFIC = new Set(["MM.", "Mme", "Mme.", "Mlle", "Mlle.", "Mgr", "Dr", "Pr"]);
 const IS_FIRST = new RegExp(`^[${UC}][${LC}]+(?:-[${UC}]?[${LC}]+)*\\.?$`);
 const ELISION = new RegExp(`^[${LC}]['’]`);
 // initials glued to a surname by a period ("E.HOEPFFNER", "G.B.PELLEGRINI") —
 // re-separated with a space so the surname stands alone and the initials stay caps.
 const GLUED_INITIALS = new RegExp(`([${UC}](?:\\.[${UC}])*\\.)([${UC}][${UC}'’-]{2,})`, "g");
+// initials glued to a TITLE-CASE surname ("C.Appel", "W.T.Pattison", "M.Chambers").
+// Only the first letter of the name is captured + re-emitted, so the rest stays
+// attached: "W.T.Pattison" -> "W.T. Pattison". Roman numerals ("XII.La") never
+// match, since the initials group needs a period between each capital.
+const GLUED_INIT_TC = new RegExp(`([${UC}](?:\\.[${UC}])*\\.)([${UC}][${LC}])`, "g");
 // trailing punctuation kept outside the small-caps span
 const NAME_TAIL = /[.,;:!?)\]»”"'’]+$/;
 const nameCore = (w) => w.replace(NAME_TAIL, "");
@@ -166,17 +175,35 @@ export function wrapAuthorNames(html, surnames, sigla) {
     chunk[0] === "<" ? chunk : wrapNamesText(chunk, surnames, sigla));
 }
 
+// strip a leading elision ("d'AGUILAR" -> "AGUILAR", "l'Auteur" -> "Auteur")
+const stripEl = (w) => w.replace(ELISION, "");
+// title-case surnames that are also common publisher/place words: only wrapped
+// as a name when an initial (not merely a given name) precedes them.
+const AMBIG_TC = new Set(["Press"]);
 function wrapNamesText(text, surnames, sigla) {
   text = text.replace(GLUED_INITIALS, "$1 $2");       // "E.HOEPFFNER" -> "E. HOEPFFNER"
+  text = text.replace(GLUED_INIT_TC, "$1 $2");        // "C.Appel" -> "C. Appel"
   const toks = [];
   for (let m; (m = WORD_RE.exec(text)); ) toks.push({ w: m[0], i: m.index, end: m.index + m[0].length });
 
+  // an all-caps surname, allowing a leading elision ("d'AGUILAR") which the
+  // renderer keeps lowercase before the small-capped core.
   const isSurnameTok = (w) => {
-    const c = nameCore(w);
+    const c = nameCore(stripEl(w));
     return IS_SURNAME.test(c) && c.replace(/[-'’]/g, "").length >= 3
       // reject a Roman numeral or a numeral range ("VIII", "VII-VIII")
       && !c.split("-").every((p) => ROMAN.test(p))
       && !(sigla && sigla.has(c));
+  };
+  // a title-cased token whose upper-case form is a KNOWN surname ("Appel" ->
+  // "APPEL"): only ever wrapped when an initial flags it as a personal name
+  // (see below), so given names that happen to match ("Frank M. Chambers")
+  // are left alone.
+  const isKnownTCName = (w) => {
+    const c = nameCore(stripEl(w));
+    return IS_FIRST.test(c) && !c.endsWith(".")
+      && surnames && surnames.has(c.toUpperCase())
+      && !(sigla && sigla.has(c.toUpperCase()));
   };
   // a particle is only absorbed when it is itself all-caps — i.e. part of the
   // name run ("DE BRUYNE", "AGULIO I FUSTER"), never a lowercase preposition
@@ -187,28 +214,47 @@ function wrapNamesText(text, surnames, sigla) {
   let out = "", cursor = 0;
   for (let j = 0; j < toks.length; j++) {
     const t = toks[j];
-    if (t.i < cursor || !isSurnameTok(t.w)) continue;
-    // wrap when the surname is either known, or flagged by a preceding
-    // given-name / initial (so cited authors absent from the bibliography — the
-    // vast majority in the notes — are still caught).
+    if (t.i < cursor) continue;
+    const caps = isSurnameTok(t.w);
+    const tc = !caps && isKnownTCName(t.w);
+    if (!caps && !tc) continue;
     const prev = toks[j - 1];
     const pw = prev ? prev.w.replace(ELISION, "") : "";       // "d'Yves" -> "Yves"
     const adjacent = prev && /^\s*$/.test(text.slice(prev.end, t.i)); // no punctuation between
-    const signalled = adjacent && (IS_INITIAL.test(pw) || IS_FIRST.test(pw));
-    if (!surnames.has(nameCore(t.w)) && !signalled) continue;
+    if (caps) {
+      // wrap when the surname is known, flagged by a preceding given-name /
+      // initial / honorific (so cited authors absent from the bibliography are
+      // still caught), or itself carries an elision ("de/d'" + CAPS = a name).
+      const signalled = adjacent && (IS_INITIAL.test(pw) || IS_FIRST.test(pw) || HONORIFIC.has(pw));
+      const elided = ELISION.test(t.w);
+      if (!surnames.has(nameCore(stripEl(t.w))) && !signalled && !elided) continue;
+    } else {
+      // a title-cased known surname is a name when an initial or a given name
+      // precedes it adjacently ("C. Appel", "W.T. Pattison", "Carl Appel").
+      // Publisher/place homographs that are also real surnames ("Press" — as in
+      // Alan Press) need the stricter initial signal, so "Minnesota Press" and
+      // "University Press" stay roman.
+      const strict = AMBIG_TC.has(nameCore(stripEl(t.w)));
+      const ok = adjacent && (IS_INITIAL.test(pw) || (!strict && IS_FIRST.test(pw)));
+      if (!ok) continue;
+    }
     // grow the run over compound surnames and interior/leading particles, but
     // only across plain whitespace — a comma ("LEFEVRE, I)") ends the name.
     const spaced = (a, b) => /^\s*$/.test(text.slice(a.end, b.i));
     let s = j, e = j;
-    while (s - 1 >= 0 && isPartTok(toks[s - 1].w) && spaced(toks[s - 1], toks[s])) s--;
-    while (e + 1 < toks.length && (isSurnameTok(toks[e + 1].w) || isPartTok(toks[e + 1].w))
-      && spaced(toks[e], toks[e + 1])) e++;
+    if (caps) {
+      while (s - 1 >= 0 && isPartTok(toks[s - 1].w) && spaced(toks[s - 1], toks[s])) s--;
+      while (e + 1 < toks.length && (isSurnameTok(toks[e + 1].w) || isPartTok(toks[e + 1].w))
+        && spaced(toks[e], toks[e + 1])) e++;
+    }
     const from = toks[s].i, to = toks[e].end;
     const slice = text.slice(from, to);
     const tail = (slice.match(NAME_TAIL) || [""])[0];
-    out += text.slice(cursor, from)
-      + `<span class="sc">${esc(titleCaseName(slice.slice(0, slice.length - tail.length)))}</span>`
-      + tail;
+    let core = slice.slice(0, slice.length - tail.length);
+    const el = (core.match(ELISION) || [""])[0];             // keep "d'" lowercase, outside the caps
+    if (el) core = core.slice(el.length);
+    out += text.slice(cursor, from) + el
+      + `<span class="sc">${esc(titleCaseName(core))}</span>` + tail;
     cursor = to;
   }
   return out + text.slice(cursor);
@@ -399,12 +445,45 @@ function parseBlocks(lines) {
   return blocks;
 }
 
+// Internal cross-references, resolved only in the modernised reading views:
+//   "infra/supra (…) p. N"   -> the anchor of printed page N (unique across the
+//                               edition), in whatever section now holds it;
+//   "à ROMAN,verse"          -> the chanson study view at that verse.
+// Both link within the site; the printed Livre view keeps the bare text.
+const XREF_PAGE = new RegExp(
+  `(<em>(?:infra|supra|ci-dessous|ci-dessus)</em>[^<.]{0,20}?)\\bp(p?)\\.\\s*(\\d+)((?:\\s*[-–]\\s*\\d+)?)`, "gi");
+// \b is ASCII-only, so "\bà" never matches after a space (à is not a word char);
+// use a Unicode letter lookbehind instead.
+const XREF_CHANSON = /(?<![\p{L}])(à|au)\s+([IVXLC]{1,6})\s*,\s*(\d{1,3})(?![\d])/gu;
+const NNBSP2 = " ";
+function linkCrossRefs(html, ctx) {
+  if (ctx.printedToPage && ctx.pageToSection) {
+    html = html.replace(XREF_PAGE, (whole, lead, pp, n, range) => {
+      const pid = ctx.printedToPage.get(n);
+      const slug = pid && ctx.pageToSection.get(pid);
+      if (!slug) return whole;
+      return `${lead}<a class="xref" href="/${slug}/#page-${pid}">p${pp}.${NNBSP2}${n}${range}</a>`;
+    });
+  }
+  if (ctx.romanToNum) {
+    html = html.replace(XREF_CHANSON, (whole, prep, roman, verse) => {
+      const num = ctx.romanToNum[roman];
+      if (!num || +verse < 1 || +verse > 160) return whole; // guard journal vols
+      return `${prep} <a class="xref" href="/chansons/${num}/#v${verse}">${roman},${verse}</a>`;
+    });
+  }
+  return html;
+}
+
 function renderPara(raw, ctx) {
   const { md, sigla } = ctx;
   let html = md.render(raw);
   html = injectSidenotes(html, ctx);
-  html = linkSigla(html, sigla);
-  return wrapAuthorNames(html, ctx.surnames, ctx.sigla);
+  // reading views: sigla open the typeset tooltip; the faithful Livre view keeps
+  // the click-to-expand disclosure.
+  html = ctx.normalize ? renderSiglaAbbr(html, sigla, ctx) : linkSigla(html, sigla);
+  html = wrapAuthorNames(html, ctx.surnames, ctx.sigla);
+  return ctx.normalize ? linkCrossRefs(html, ctx) : html;
 }
 
 // --- exports used by the chanson study parser (lib/chanson.js) ---------------
@@ -412,10 +491,96 @@ export function renderProse(raw, ctx) { return renderPara(raw, ctx); }
 export function renderInlineApparatus(raw, ctx) {
   let h = ctx.md.renderInline(raw);
   h = injectSidenotes(h, ctx);
-  h = linkSigla(h, ctx.sigla);
-  return wrapAuthorNames(h, ctx.surnames, ctx.sigla);
+  h = ctx.normalize ? renderSiglaAbbr(h, ctx.sigla, ctx) : linkSigla(h, ctx.sigla);
+  h = wrapAuthorNames(h, ctx.surnames, ctx.sigla);
+  return ctx.normalize ? linkCrossRefs(h, ctx) : h;
 }
 export { endsTerminal, mergeable, isHeading, stripTags };
+
+// ======================================================= facsimile rendering
+// A deliberately spartan render of a single typescript page, for the Livre
+// view's "facsimilé" toggle: no colour, no small-caps, no sigla tooltips — the
+// text is kept exactly as it was typed (full-caps authors, underlined sigla),
+// footnote calls become plain superscripts and the notes are gathered at the
+// foot of the page, numbered as in the typescript (the suffix of the label,
+// "v1p009-3" -> 3). It never touches the reading-view counters or context.
+function fxNoteInner(def, ctx) {
+  // notes keep the printed look; only footnote calls nested in a note (rare)
+  // collapse to a bare superscript so nothing dangles.
+  let h = ctx.md.renderInline(def).replace(FN_PUNCT, "$2[^$1]");
+  return h.replace(FN_REF, (whole, label) => `<sup>${splitLabel(label)[1] || "*"}</sup>`);
+}
+function fxSidenotes(html, ctx, nm) {
+  html = html.replace(FN_PUNCT, "$2[^$1]");
+  return html.replace(FN_REF, (whole, label) => {
+    const n = splitLabel(label)[1] || "*";
+    const def = ctx.defs[label];
+    if (def !== undefined && !nm.seen.has(label)) {
+      nm.seen.add(label);
+      nm.notes.push({ n, html: fxNoteInner(def, ctx) });
+    }
+    return `<sup class="fx-ref">${n}</sup>`;
+  });
+}
+function fxDiv(cls, attr, inner, ctx, nm) {
+  const classAttr = cls.length ? ` class="${cls.join(" ")}"` : "";
+  const langAttr = attr.lang ? ` lang="${attr.lang}"` : "";
+  const isVerse = cls.includes("verse") || !!attr.lang;
+  const nonEmpty = inner.filter((l) => l.trim());
+  const indent = nonEmpty.length ? Math.min(...nonEmpty.map((l) => l.match(/^ */)[0].length)) : 0;
+  const dedent = (l) => l.slice(indent);
+  if (isVerse) {
+    const lines = [...inner];
+    while (lines.length && !lines[0].trim()) lines.shift();
+    while (lines.length && !lines.at(-1).trim()) lines.pop();
+    const body = lines.map((l) => l.trim() ? fxSidenotes(ctx.md.renderInline(dedent(l)), ctx, nm) : "").join("\n");
+    return `<div${classAttr}${langAttr} data-verse>${body}</div>`;
+  }
+  return `<div${classAttr}${langAttr}>\n${fxSidenotes(ctx.md.render(inner.map(dedent).join("\n")), ctx, nm)}\n</div>`;
+}
+
+// First/last-block shape of a facsimile page, for cross-page continuation
+// detection. lastOpen = the last block is a paragraph not ending on terminal
+// punctuation (a sentence runs off the foot); firstIsPara = the page opens on a
+// plain paragraph (so it can be a continuation, not a fresh heading/verse block).
+export function facsimilePageMeta(rawText) {
+  const lines = rawText.split(String.fromCharCode(10)).filter((l) => !PAGE_ANCHOR.test(l));
+  // footnote definitions sit at the page foot; ignore them (and anything after the
+  // first one) so first/last blocks reflect the BODY text that flows page-to-page.
+  // Otherwise the last block is a note def (ends with a period ⇒ looks terminal),
+  // and the next page's continuation never loses its new-paragraph indent.
+  const isDef = (l) => { const t = l.trimStart(); return t.startsWith("[^") && t.indexOf("]:") > 2; };
+  const cut = lines.findIndex(isDef);
+  const blocks = parseBlocks(cut >= 0 ? lines.slice(0, cut) : lines);
+  const first = blocks[0];
+  const last = blocks.at(-1);
+  const lastIsPara = !!(last && last.type === "para" && !last.heading);
+  return {
+    firstIsPara: !!(first && first.type === "para" && !first.heading),
+    lastOpen: lastIsPara && !endsTerminal(last.text),
+  };
+}
+
+// Render one page's raw markdown into { html, notes } for the facsimile view.
+// opts.contFrom: this page's first paragraph continues the previous page, so it
+// drops the new-paragraph indent (the last line of a page is left as typed).
+export function renderFacsimilePage(rawText, ctx, opts = {}) {
+  const lines = rawText.split("\n").filter((l) => !PAGE_ANCHOR.test(l));
+  const blocks = parseBlocks(lines);
+  const nm = { notes: [], seen: new Set() };
+  const parts = [];
+  for (const b of blocks) {
+    if (b.type === "div") parts.push(fxDiv(b.cls, b.attr, b.inner, ctx, nm));
+    else if (b.type === "asterism") parts.push('<p class="fx-ast">* * *</p>');
+    else if (b.heading) parts.push(`<p class="fx-h">${fxSidenotes(ctx.md.renderInline(b.text), ctx, nm)}</p>`);
+    else parts.push(`<p>${fxSidenotes(ctx.md.render(b.text), ctx, nm).replace(/^<p>|<\/p>\s*$/g, "")}</p>`);
+  }
+  // continuation tags: plain paragraphs render as "<p>…", headings/verse/asterism
+  // carry a class, so a leading "<p>" identifies the plain body paragraphs.
+  const firstPlain = parts.findIndex((p) => p.startsWith("<p>"));
+  if (opts.contFrom && firstPlain >= 0) parts[firstPlain] = parts[firstPlain].replace("<p>", '<p class="fx-cont-from">');
+  return { html: parts.join(String.fromCharCode(10)), notes: nm.notes };
+}
 
 // Render one section's markdown to HTML, merging paragraphs that a page boundary
 // split (the next page's anchor is kept inline so back-ref links still resolve).
@@ -424,6 +589,9 @@ export function renderSection(markdown, ctx) {
   const pages = splitPages(markdown);
   const out = [];
   let carry = null; // { raw } — an unfinished paragraph continuing onto the next page
+  // the study (web) view suppresses page anchors (ctx.pageAnchors === false) so
+  // it never duplicates the #page-… ids the faithful Livre body already carries.
+  const anchor = (pid) => (ctx.pageAnchors === false ? "" : anchorSpan(pid));
 
   const flushCarry = () => { if (carry) { out.push(renderPara(carry.raw, ctx)); carry = null; } };
 
@@ -433,13 +601,13 @@ export function renderSection(markdown, ctx) {
     const b0 = blocks[0];
     if (carry && b0 && b0.type === "para" && !b0.heading && mergeable(carry.raw, b0.text)) {
       // continue the carried paragraph across the page boundary; anchor goes inline
-      const merged = `${carry.raw} ${pg.pid ? anchorSpan(pg.pid) : ""} ${b0.text}`;
+      const merged = `${carry.raw} ${pg.pid ? anchor(pg.pid) : ""} ${b0.text}`;
       if (blocks.length === 1 && !endsTerminal(b0.text)) carry = { raw: merged };
       else { out.push(renderPara(merged, ctx)); carry = null; }
       start = 1;
     } else {
       flushCarry();
-      if (pg.pid) out.push(anchorSpan(pg.pid));
+      if (pg.pid) out.push(anchor(pg.pid));
     }
     for (let k = start; k < blocks.length; k++) {
       const b = blocks[k];
@@ -596,13 +764,23 @@ function normalizeNoteTypography(def) {
     .replace(/\bp\.\s*(?=[\dixvlcIXVLC])/g, "p." + NNBSP);
 }
 
-// rule 10: render a siglum as <abbr title="full ref"><a href=conspectus>siglum</a></abbr>
-// (canonical casing, dotted border via .siglum-abbr). rule 9 double-duty: a siglum
-// used as a PAGE reference (siglum + p.) is spelled out as a short cite instead of
-// the bare code; a siglum used for NUMBERING (siglum + catalogue number) keeps the code.
-function siglumAbbr(hit, tok) {
-  return `<abbr class="siglum-abbr" title="${esc(stripMd(stripTags(hit.definition)))}">` +
-    `<a href="${hit.href}">${tok}</a></abbr>`;
+// rule 10: render a siglum as an in-place reference that opens a richly typeset
+// tooltip (the full citation, with author small-caps and italic titles) on
+// hover/focus — it does NOT navigate. A discreet link to the conspectus lives
+// inside the tooltip for readers who want the full apparatus. rule 9 double-duty:
+// a siglum used as a PAGE reference (siglum + p.) is spelled out as a short cite
+// instead of the code; a siglum used for NUMBERING keeps the code.
+// The outer element is an <abbr> on purpose: renderSiglaAbbr's plain-text pass
+// skips anything inside <a>/<abbr>, so the visible code and the definition inside
+// the tooltip are never re-scanned (and never double-wrapped) as sigla.
+function siglumRef(hit, tok, ctx) {
+  const def = wrapAuthorNames(hit.defHtml, ctx && ctx.surnames, ctx && ctx.siglaCodes);
+  return `<abbr class="siglum-ref" tabindex="0" ` +
+    `aria-label="${esc(stripMd(stripTags(hit.definition)))}"><span class="sr-code">${tok}</span>` +
+    `<span class="siglum-pop"><span class="sp-code">${esc(hit.siglum)}</span>` +
+    `<span class="sp-def">${def}</span>` +
+    `<a class="sp-link" href="${hit.href}" tabindex="-1">Sigles &amp; abréviations →</a>` +
+    `</span></abbr>`;
 }
 // rule 9 applies ONLY to sigla with a double duty (catalogue/numbering AND the
 // physical book): P.-C. = Pillet-Carstens Bibliographie ("P.-C. 389,1" numbering
@@ -623,10 +801,10 @@ function renderSiglaAbbr(html, sigla, ctx) {
       const ps = pageSpell(tok);
       return ps ? ps + tail : whole;
     });
-  // B) any remaining underlined siglum -> linked abbr (numbering use / standalone)
+  // B) any remaining underlined siglum -> reference tooltip (numbering / standalone)
   html = html.replace(/<span class="underline">([^<]+)<\/span>/g, (whole, tok) => {
     const hit = sigla.get(tok.trim());
-    return hit ? siglumAbbr(hit, tok) : whole; // ms. siglum / emphasis stays underlined
+    return hit ? siglumRef(hit, tok, ctx) : whole; // ms. siglum / emphasis stays underlined
   });
   if (!ctx.siglaCodes) return html;
   // C) plain-text sigla (e.g. "P.-C.", "BdT", "RS"), longest-first so "P.-C." wins.
@@ -642,9 +820,12 @@ function renderSiglaAbbr(html, sigla, ctx) {
       const ps = pageSpell(k);
       return ps ? ps + tail : mm;
     })
-    .replace(bareRe, (mm, k) => {                // numbering use / standalone -> abbr
+    .replace(bareRe, (mm, k, offset, whole) => { // numbering use / standalone -> ref
+      // a bare siglum directly followed by an elided continuation is part of a
+      // longer italic title ("Leys d'Amors"), not the abbreviation — leave it.
+      if (/^\s+[a-zà-ÿ]['’]/.test(whole.slice(offset + mm.length))) return mm;
       const h = sigla.get(k);
-      return h ? siglumAbbr(h, k) : mm;
+      return h ? siglumRef(h, k, ctx) : mm;
     });
   let depth = 0, out = "";
   const tok = /<\/?(?:a|abbr)\b[^>]*>|<[^>]+>|[^<]+/gi;

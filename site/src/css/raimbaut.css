@@ -36,6 +36,18 @@
   src: url("/fonts/AlegreyaSans-400i.woff2") format("woff2");
   font-weight: 400; font-style: italic; font-display: swap;
 }
+/* IBM Plex Mono — a nod to the IBM Selectric the thesis was typed on. Used only
+   in the facsimile view. */
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-Regular.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-Italic.woff2") format("woff2");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
 
 /* ---------------------------------------------------------------- tokens */
 :root {
@@ -54,6 +66,10 @@
   --serif: "Junicode", "Iowan Old Style", Georgia, serif;
   --sans: "Alegreya Sans", "Gill Sans", "Segoe UI", sans-serif;
   --masthead-h: 3.4rem;
+  --subnav-h: 2.7rem;
+  /* top of the sticky reading columns: below the masthead + the contextual
+     sub-bar (current location + layout switch), which appears on reading pages. */
+  --reading-top: calc(var(--masthead-h) + var(--subnav-h));
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -91,7 +107,7 @@
 html {
   font-size: 19px;
   scroll-behavior: smooth;
-  scroll-padding-top: calc(var(--masthead-h) + 1rem);
+  scroll-padding-top: calc(var(--reading-top) + 1rem);
 }
 @media (max-width: 700px) { html { font-size: 17px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
@@ -171,6 +187,35 @@ a:hover { color: var(--rubric); }
 @media (max-width: 900px) {
   .masthead { gap: 1rem; padding: 0 1rem; overflow-x: auto; }
   .masthead nav { gap: 1rem; }
+}
+
+/* ---- contextual sub-bar: current location + layout switch, sticky below the
+   masthead on reading pages ---- */
+.subnav {
+  position: sticky; top: var(--masthead-h); z-index: 35;
+  background: color-mix(in srgb, var(--paper) 90%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+.subnav-inner {
+  max-width: 96rem; margin: 0 auto; min-height: var(--subnav-h);
+  padding: 0.35rem 2rem; display: flex; align-items: center; gap: 1.5rem;
+}
+.sn-here { display: flex; align-items: baseline; gap: 0.7rem; min-width: 0; margin: 0; }
+.sn-label {
+  font-family: var(--sans); font-size: 0.68rem; font-weight: 500;
+  letter-spacing: 0.13em; text-transform: uppercase; color: var(--ink-soft);
+  white-space: nowrap;
+}
+.sn-incipit {
+  font-style: italic; color: var(--muted); font-size: 0.86rem;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.subnav .view-control { margin-left: auto; flex: none; }
+@media (max-width: 700px) {
+  .subnav-inner { flex-wrap: wrap; gap: 0.5rem 1rem; }
+  .sn-incipit { display: none; }
+  .subnav .view-control { margin-left: 0; }
 }
 
 /* -------------------------------------------------------------- colophon */
@@ -279,7 +324,10 @@ input.margin-toggle { display: none; }
   padding: 0 2rem;
 }
 @media (min-width: 1740px) {
-  .study { grid-template-columns: 10rem minmax(0, 1fr) 26rem; gap: 3rem; }
+  /* only the étude/web view has the strophe rail as a third column; the 2-column
+     views (Livre continue, and the prose sections) must NOT inherit it, or their
+     main column collapses into the 10rem rail slot on very wide screens. */
+  .study[data-mode="etude"] { grid-template-columns: 10rem minmax(0, 1fr) 26rem; gap: 3rem; }
 }
 .study-main { padding: 2.4rem 0 4rem; min-width: 0; }
 
@@ -294,19 +342,6 @@ input.margin-toggle { display: none; }
 }
 .ch-incipit { font-size: 1.7rem; font-style: italic; font-weight: 380; }
 .ch-meta { display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap; margin-top: 0.9rem; }
-
-.mode-toggle { display: inline-flex; border: 1px solid var(--rule); }
-.mode-toggle button, .mode-toggle a {
-  font: inherit; letter-spacing: inherit; text-transform: inherit;
-  background: none; border: 0; color: var(--muted);
-  padding: 0.32rem 0.75rem; cursor: pointer; text-decoration: none;
-}
-.mode-toggle [aria-pressed="true"] { background: var(--rubric); color: var(--paper); }
-.mode-toggle button + button, .mode-toggle a { border-left: 1px solid var(--rule); }
-
-.ch-pager { margin-left: auto; display: flex; gap: 0.9rem; font-family: var(--sans); font-size: 0.78rem; }
-.ch-pager a { text-decoration: none; color: var(--muted); }
-.ch-pager a:hover { color: var(--rubric); }
 
 .tradition { max-width: 42rem; margin-top: 1.3rem; font-size: 0.82rem; }
 .tradition summary {
@@ -408,9 +443,9 @@ p.hand-aside { max-width: 27rem; font-size: 0.78rem; margin: -0.9rem 0 1.6rem; }
 
 /* ============================================================== the panel */
 .study-panel {
-  position: sticky; top: var(--masthead-h);
+  position: sticky; top: var(--reading-top);
   align-self: start;
-  height: calc(100vh - var(--masthead-h));
+  height: calc(100vh - var(--reading-top));
   display: flex; flex-direction: column;
   border-left: 1px solid var(--rule);
   background: linear-gradient(to right, var(--paper-deep), var(--paper) 14rem);
@@ -495,15 +530,56 @@ a.fnref:hover sup { text-decoration: underline; }
 }
 .siglum-def[hidden] { display: none; }
 
-/* reading view: sigla are <abbr> linked to the conspectus (rule 10). Canonical
-   casing kept as letters; small-caps is a font treatment; dotted border only. */
-abbr.siglum-abbr { text-decoration: none; border: 0; }
-abbr.siglum-abbr > a {
-  text-decoration: none; color: var(--rubric);
-  font-feature-settings: "smcp" 1; letter-spacing: 0.05em;
+/* reading view: a siglum is an in-place reference that opens a typeset tooltip
+   on hover/focus (rule 10) — it does not navigate. Canonical casing kept as
+   letters; small-caps is a font treatment; dotted rubric underline. */
+abbr.siglum-ref {
+  text-decoration: none; border: 0; cursor: help;
+  white-space: nowrap;
+}
+abbr.siglum-ref > .sr-code {
+  color: var(--rubric);
+  font-feature-settings: "smcp" 1; letter-spacing: 0.05em; font-style: normal;
   border-bottom: 1px dotted color-mix(in srgb, var(--rubric) 60%, transparent);
 }
-abbr.siglum-abbr > a:hover { border-bottom-color: var(--rubric); }
+abbr.siglum-ref:hover > .sr-code,
+abbr.siglum-ref:focus-visible > .sr-code { border-bottom-color: var(--rubric); }
+/* the definition travels in the DOM but is only ever shown via the floating
+   copy positioned by JS (edition.js), so it clears any scroll container. */
+abbr.siglum-ref > .siglum-pop { display: none; }
+
+.siglum-pop-float {
+  position: fixed; z-index: 60; left: 0; top: 0;
+  max-width: 23rem; padding: 0.72rem 0.9rem 0.62rem;
+  background: var(--paper-card); color: var(--ink);
+  border: 1px solid var(--rule);
+  box-shadow: 0 1px 0 var(--rule-soft), 0 10px 30px -8px rgba(20, 15, 8, 0.32);
+  font-family: var(--serif); font-weight: 390; font-size: 0.82rem; line-height: 1.5;
+  font-feature-settings: "onum" 1, "pnum" 1, "liga" 1; font-style: normal;
+  text-align: left; text-indent: 0;
+  opacity: 0; visibility: hidden; transform: translateY(-3px);
+  transition: opacity 130ms ease, transform 130ms ease;
+  pointer-events: none;
+}
+.siglum-pop-float.show { opacity: 1; visibility: visible; transform: none; pointer-events: auto; }
+.siglum-pop-float .sp-code {
+  display: block; margin-bottom: 0.2rem;
+  font-feature-settings: "smcp" 1; letter-spacing: 0.07em;
+  font-weight: 500; font-size: 0.74rem; color: var(--rubric);
+}
+.siglum-pop-float .sp-def { display: block; color: var(--ink-soft); }
+.siglum-pop-float .sp-def em { font-style: italic; }
+.siglum-pop-float .sp-def .sc { font-feature-settings: "smcp" 1; letter-spacing: 0.03em; }
+.siglum-pop-float .sp-link {
+  display: block; margin-top: 0.5rem;
+  font-family: var(--sans); font-weight: 500; font-size: 0.6rem;
+  letter-spacing: 0.13em; text-transform: uppercase;
+  color: var(--muted); text-decoration: none;
+}
+.siglum-pop-float .sp-link:hover { color: var(--rubric); }
+@media (prefers-reduced-motion: reduce) {
+  .siglum-pop-float { transition: none; transform: none; }
+}
 
 /* tables (reconstructed from the typescript) */
 .edition-body table {
@@ -563,43 +639,6 @@ figure.chart figcaption, figure.portrait figcaption {
 figure.portrait { margin: 0 0 1.4rem; max-width: 42rem; }
 figure.portrait img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); }
 
-/* poétique part navigation — a compact sticky strip */
-.poetique-bar {
-  position: sticky; top: var(--masthead-h); z-index: 20;
-  display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap;
-  margin: 0 0 2rem; padding: 0.6rem 0;
-  background: color-mix(in srgb, var(--paper) 92%, transparent);
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid var(--rule);
-  font-family: var(--sans);
-}
-.poetique-bar .pb-here {
-  font-size: 0.82rem; color: var(--ink); font-weight: 500; white-space: nowrap;
-}
-.poetique-bar .pb-here .pb-kicker {
-  display: block; font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase;
-  color: var(--muted); font-weight: 500;
-}
-.poetique-bar ol {
-  display: flex; gap: 0.4rem; align-items: center; margin: 0 0 0 auto; padding: 0;
-  list-style: none; flex-wrap: wrap;
-}
-.poetique-bar li a {
-  display: inline-flex; align-items: center; justify-content: center;
-  min-width: 1.7rem; height: 1.7rem; padding: 0 0.35rem;
-  border: 1px solid var(--rule); border-radius: 999px;
-  font-size: 0.74rem; text-decoration: none; color: var(--ink-soft);
-}
-.poetique-bar li a:hover { border-color: var(--rubric); color: var(--rubric); }
-.poetique-bar li a[aria-current="true"] {
-  background: var(--rubric); border-color: var(--rubric); color: var(--paper); font-weight: 500;
-}
-@media (max-width: 700px) {
-  .poetique-bar { gap: 0.5rem; }
-  .poetique-bar .pb-here { flex: 1 1 100%; }
-  .poetique-bar ol { margin-left: 0; }
-}
-
 /* verse-reference labels never break */
 .lemma-anchor, .backtov, .study-rail .lemmas a { white-space: nowrap; }
 
@@ -623,6 +662,14 @@ dialog.lightbox::backdrop { background: transparent; }
   padding: 0.7rem 1.2rem; text-align: center;
   font-family: var(--sans); font-size: 0.75rem; color: #cfc8b8;
 }
+/* internal cross-references ("infra, p. 141", "à II,17") */
+a.xref {
+  text-decoration: none; color: inherit;
+  border-bottom: 1px dotted color-mix(in srgb, var(--rubric) 50%, transparent);
+  white-space: nowrap;
+}
+a.xref:hover { color: var(--rubric); border-bottom-color: var(--rubric); }
+
 a.backref { text-decoration: none; color: inherit; font-style: italic;
   border-bottom: 1px dotted var(--muted); }
 a.backref:hover { color: var(--rubric); border-color: var(--rubric); }
@@ -634,9 +681,9 @@ a.backref[data-conf="low"], a.backref[data-conf="medium"] { border-bottom-style:
 /* ================================================================== rail */
 .study-rail {
   display: none;
-  position: sticky; top: var(--masthead-h);
+  position: sticky; top: var(--reading-top);
   align-self: start;
-  max-height: calc(100vh - var(--masthead-h));
+  max-height: calc(100vh - var(--reading-top));
   overflow-y: auto;
   padding: 2.6rem 0 2rem;
   font-family: var(--sans); font-size: 0.75rem;
@@ -651,20 +698,6 @@ a.backref[data-conf="low"], a.backref[data-conf="medium"] { border-bottom-style:
 .study-rail .dots { color: var(--rubric); font-size: 0.55rem; letter-spacing: 0.1em; }
 .study-rail .lemmas a { font-variant-numeric: lining-nums tabular-nums; }
 .study-rail a.active { color: var(--rubric); }
-
-/* ======================================================== mode: lecture */
-.study[data-mode="lecture"] { grid-template-columns: minmax(0, 1fr); max-width: 72rem; }
-.study[data-mode="lecture"] .study-rail,
-.study[data-mode="lecture"] .study-panel,
-.study[data-mode="lecture"] .vmark,
-.study[data-mode="lecture"] .hand,
-.study[data-mode="lecture"] p.hand-aside { display: none; }
-.study[data-mode="lecture"] .strophe-row { grid-template-columns: minmax(0, 27rem) minmax(0, 30rem); justify-content: center; }
-.study[data-mode="lecture"] .ch-head { text-align: center; }
-.study[data-mode="lecture"] .ch-head h1 { justify-content: center; }
-.study[data-mode="lecture"] .ch-meta { justify-content: center; }
-.study[data-mode="lecture"] .ch-pager { margin-left: 0; }
-.study[data-mode="lecture"] .tradition { margin-left: auto; margin-right: auto; }
 
 /* ============================================================ responsive */
 @media (max-width: 1420px) {
@@ -687,11 +720,9 @@ a.backref[data-conf="low"], a.backref[data-conf="medium"] { border-bottom-style:
   .lemma-head { position: static; margin: 0 0 0.5rem; padding: 0.3rem 0; background: none; }
   .panel-head { padding: 1.2rem 0 0.5rem; }
   .panel-head .resync { display: none; }
-  .study[data-mode="lecture"] .strophe-row { justify-content: start; }
 }
 @media (max-width: 760px) {
   .strophe-row { grid-template-columns: minmax(0, 1fr); gap: 0.9rem; margin-bottom: 2.2rem; }
-  .study[data-mode="lecture"] .strophe-row { grid-template-columns: minmax(0, 1fr); }
   .fr { border-left: 0; padding-left: 2.6rem; font-size: 0.86rem; }
   .ch-roman { font-size: 2.4rem; }
   .ch-incipit { font-size: 1.35rem; }
@@ -701,6 +732,66 @@ a.backref[data-conf="low"], a.backref[data-conf="medium"] { border-bottom-style:
 .lemma .backtov { font-family: var(--sans); font-size: 0.68rem; letter-spacing: 0.1em;
   text-transform: uppercase; text-decoration: none; color: var(--muted); }
 .lemma .backtov:hover { color: var(--rubric); }
+
+/* ============================================= merged chanson page (views) */
+/* One page carries three views: Version web (étude), and Version livre with a
+   Lecture continue / Fac-similé paginé sub-toggle. Inactive views carry the
+   [hidden] attribute, so the active one keeps its natural .study grid and
+   responsive behaviour instead of a high-specificity override fighting it. */
+.chanson-page { max-width: 96rem; margin: 0 auto; padding: 0 2rem; }
+.chanson-page > .ch-head { margin: 0 0 2.6rem; padding: 2.4rem 0 0; }
+.chanson-page .study { max-width: none; margin: 0; padding: 0; }
+
+.cx-view[hidden] { display: none !important; }
+.cx-facsimile:not([hidden]) { display: block; }
+
+/* two-level version control (Version web / Version livre → continue / fac-similé).
+   Deliberately quiet: plain text, no boxes or fills, so it recedes below the
+   title — the active choice is marked only by rubric ink + a thin underline,
+   echoing the masthead's active tab. */
+.view-control {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 1.1rem;
+  font-family: var(--sans); font-size: 0.64rem; font-weight: 500;
+  letter-spacing: 0.14em; text-transform: uppercase;
+}
+.vc-primary, .vc-secondary { display: inline-flex; gap: 0.95rem; }
+.vc-secondary { border-left: 1px solid var(--rule); padding-left: 1.1rem; }
+.vc-secondary[hidden] { display: none; }
+.view-control button {
+  font: inherit; letter-spacing: inherit; text-transform: inherit;
+  background: none; border: 0; padding: 0.1rem 0; cursor: pointer;
+  color: var(--muted); position: relative;
+}
+.view-control button:hover { color: var(--ink-soft); }
+.view-control [aria-pressed="true"] { color: var(--rubric); }
+.view-control [aria-pressed="true"]::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 1.5px;
+  background: var(--rubric);
+}
+
+/* ===================================== unified sticky whole-book pager */
+/* One sequential nav for the entire edition, pinned to the foot of the
+   viewport; replaces the old per-template .section-pager / .ch-pager /
+   .poetique-bar. Renders only on reading-spine pages (edition.pager lookup). */
+.book-pager {
+  position: sticky; bottom: 0; z-index: 30;
+  background: color-mix(in srgb, var(--paper) 86%, transparent);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--rule);
+}
+.book-pager .bp-inner {
+  max-width: 96rem; margin: 0 auto; padding: 0.65rem 2rem;
+  display: flex; justify-content: space-between; align-items: center; gap: 1.5rem;
+  font-family: var(--sans); font-size: 0.76rem;
+}
+.book-pager a {
+  display: inline-flex; align-items: baseline; gap: 0.5rem; min-width: 0;
+  max-width: 47%; text-decoration: none; color: var(--ink-soft);
+}
+.book-pager a:hover { color: var(--rubric); }
+.book-pager .bp-next { margin-left: auto; text-align: right; }
+.book-pager .bp-dir { color: var(--muted); flex: none; }
+.book-pager .bp-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 /* ========================================================= chansons index */
 .ch-index { max-width: 56rem; margin: 0 auto; padding: 2.6rem 2rem 3rem; }
@@ -735,16 +826,6 @@ table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
 .index-body { font-size: 0.88rem; }
 .index-body [data-verse], .index-body p { white-space: pre-wrap; }
 
-/* pager on linear pages */
-.section-pager {
-  max-width: 42rem; margin: 3rem 0 0; padding-top: 1.1rem;
-  border-top: 1px solid var(--rule);
-  display: flex; justify-content: space-between; gap: 2rem;
-  font-size: 0.85rem;
-}
-.section-pager a { text-decoration: none; color: var(--ink-soft); }
-.section-pager a:hover { color: var(--rubric); }
-
 .view-links { font-family: var(--sans); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; }
 .view-links a { text-decoration: none; color: var(--muted); }
 .view-links a:hover { color: var(--rubric); }
@@ -759,6 +840,75 @@ table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
 .livre-only { display: none; }
 .is-livre .livre-only { display: revert; }
 .is-livre .reading-only { display: none; }
+
+/* ============================================ facsimile (typescript) view */
+/* The "Fac-similé paginé" sub-view of Version livre: a spartan reproduction of
+   the typewritten page — monospaced, black on white, 1.5-spaced, paginated,
+   with footnotes gathered at the foot of each sheet. Shown by the merged
+   chanson page's view control (.cx-facsimile). */
+.facsimile-body { display: none; max-width: none; margin: 1.5rem auto 0; }
+
+.fx-page {
+  position: relative;
+  /* hug the sheet so the folio (positioned against .fx-page) stays at its edge */
+  width: fit-content; max-width: 100%; margin: 0 auto 2.4rem;
+}
+.fx-sheet {
+  background: #fff; color: #111;
+  border: 1px solid #d8d2c4;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 14px 34px -18px rgba(0,0,0,0.4);
+  padding: 4.2rem 4rem 3.2rem;
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.82rem; line-height: 1.5;
+  font-feature-settings: normal; font-variant-numeric: normal;
+  hyphens: none; text-align: left;
+  /* cap the typewriter measure at ~62 monospace characters (ch is measured in
+     this element's mono font); +8rem = the 4rem × 2 horizontal padding
+     (box-sizing: border-box, so max-width includes it). */
+  max-width: calc(62ch + 8rem);
+}
+.fx-content > :first-child { margin-top: 0; }
+.fx-content p { margin: 0 0 1.5em; text-indent: 2.2em; }
+.fx-content p.fx-h { text-indent: 0; text-align: center; text-transform: uppercase; letter-spacing: 0.12em; }
+.fx-content p.fx-ast { text-indent: 0; text-align: center; letter-spacing: 0.5em; }
+/* cross-page sentence flow: a paragraph continuing FROM the previous page keeps no
+   new-paragraph indent (so it doesn't read as a fresh paragraph). The last line of
+   a page is left exactly as typed — no justification. */
+.fx-content p.fx-cont-from { text-indent: 0; }
+.fx-content em, .fx-content i { font-style: italic; }
+.fx-content .underline { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.fx-content [data-verse] {
+  white-space: pre-wrap; text-indent: 0;
+  margin: 1.5em 0 1.5em 2.2em; line-height: 1.5;
+}
+.fx-content .fx-ref { font-size: 0.8em; line-height: 0; vertical-align: super; }
+.fx-content sup { font-size: 0.8em; line-height: 0; }
+
+/* footnotes at the foot of the sheet, under a short rule as in the typescript */
+.fx-notes {
+  margin-top: 2.2rem; padding-top: 0.6rem;
+  border-top: 1px solid transparent;
+  position: relative;
+  font-size: 0.76rem; line-height: 1.5;
+}
+.fx-notes::before {
+  content: ""; position: absolute; top: 0; left: 0;
+  width: 8rem; border-top: 1px solid #111;
+}
+/* hanging indent = the number-column width (.fx-n min-width 1.2em × its 0.8em
+   font ≈ 0.9em here), so wrapped lines align under the first line's text. */
+.fx-note { margin: 0 0 0.7em; padding-left: 0.9em; text-indent: -0.9em; }
+.fx-note .fx-n { display: inline-block; min-width: 1.2em; vertical-align: super; font-size: 0.8em; }
+.fx-note .underline { text-decoration: underline; }
+
+.fx-folio {
+  position: absolute; top: 1.2rem; right: 3.2rem;
+  font-family: "IBM Plex Mono", monospace; font-size: 0.82rem; color: #111;
+}
+@media (max-width: 700px) {
+  .fx-sheet { padding: 2rem 1.4rem 1.6rem; font-size: 0.76rem; }
+  .fx-folio { right: 1.4rem; top: 0.8rem; }
+}
 
 /* ------------------------------------------------------------------ print */
 @media print {
