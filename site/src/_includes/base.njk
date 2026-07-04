@@ -24,7 +24,7 @@
     <nav aria-label="Navigation principale">
       <a href="/introduction/"{% if active == "intro" %} aria-current="page"{% endif %}>Introduction</a>
       <a href="/chansons/"{% if active == "chansons" %} aria-current="page"{% endif %}>Chansons</a>
-      <a href="/poetique-1/"{% if active == "poetique" %} aria-current="page"{% endif %}>Poétique</a>
+      <a href="/poetique/"{% if active == "poetique" %} aria-current="page"{% endif %}>Poétique</a>
       <a href="/bibliographie/"{% if active == "biblio" %} aria-current="page"{% endif %}>Bibliographie</a>
     </nav>
     <button type="button" class="theme-btn" id="theme-btn" aria-label="Thème clair ou sombre" title="Thème : automatique">◐</button>
@@ -38,6 +38,13 @@
       <span class="sn-label">{{ here.label }}</span>
       {% if here.incipit %}<span class="sn-incipit" lang="oc">{{ here.incipit }}</span>{% endif %}
     </p>
+    {% if here.chapters %}
+    <nav class="sn-chapters" aria-label="Chapitres de la poétique">
+      {% for c in here.chapters %}
+      <a href="{{ c.url }}"{% if page.url == c.url %} aria-current="page"{% endif %} title="{{ c.title }}">{{ c.short }}</a>
+      {% endfor %}
+    </nav>
+    {% endif %}
     {% if here.hasViews %}
     <div class="view-control" role="group" aria-label="Version de lecture" hidden>
       <div class="vc-primary">
@@ -60,8 +67,14 @@
 {% if bpp %}
 <nav class="book-pager" aria-label="Navigation séquentielle">
   <div class="bp-inner">
-    {% if bpp.prevUrl %}<a class="bp-prev" href="{{ bpp.prevUrl }}"><span class="bp-dir" aria-hidden="true">←</span><span class="bp-label">{{ bpp.prevLabel }}</span></a>{% else %}<span></span>{% endif %}
-    {% if bpp.nextUrl %}<a class="bp-next" href="{{ bpp.nextUrl }}"><span class="bp-label">{{ bpp.nextLabel }}</span><span class="bp-dir" aria-hidden="true">→</span></a>{% else %}<span></span>{% endif %}
+    {% if bpp.prevUrl %}<a class="bp-prev" href="{{ bpp.prevUrl }}" rel="prev">
+      <span class="bp-k"><span class="bp-dir" aria-hidden="true">←</span> Précédent</span>
+      <span class="bp-label">{{ bpp.prevLabel }}</span>
+    </a>{% else %}<span></span>{% endif %}
+    {% if bpp.nextUrl %}<a class="bp-next" href="{{ bpp.nextUrl }}" rel="next">
+      <span class="bp-k">Suivant <span class="bp-dir" aria-hidden="true">→</span></span>
+      <span class="bp-label">{{ bpp.nextLabel }}</span>
+    </a>{% else %}<span></span>{% endif %}
   </div>
 </nav>
 {% endif %}

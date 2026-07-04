@@ -225,10 +225,27 @@ a:hover { color: var(--rubric); }
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .subnav .view-control { margin-left: auto; flex: none; }
+/* sibling-chapter switcher (Poétique): same quiet voice as the view control,
+   active chapter marked with the rubric dot — never the masthead underline. */
+.sn-chapters {
+  margin-left: auto; flex: none;
+  display: flex; align-items: center; gap: 0.95rem;
+  font-family: var(--sans); font-size: 0.64rem; font-weight: 500;
+  letter-spacing: 0.14em; text-transform: uppercase;
+}
+.sn-chapters a { text-decoration: none; color: var(--muted); position: relative; padding: 0.1rem 0; }
+.sn-chapters a:hover { color: var(--ink-soft); }
+.sn-chapters a[aria-current] { color: var(--rubric); }
+.sn-chapters a[aria-current]::after {
+  content: ""; position: absolute; left: 50%; bottom: -0.45rem;
+  width: 3px; height: 3px; margin-left: -1.5px; border-radius: 50%;
+  background: var(--rubric);
+}
 @media (max-width: 700px) {
   .subnav-inner { flex-wrap: wrap; gap: 0.5rem 1rem; }
   .sn-incipit { display: none; }
   .subnav .view-control { margin-left: 0; }
+  .sn-chapters { margin-left: 0; }
 }
 
 /* -------------------------------------------------------------- colophon */
@@ -782,29 +799,27 @@ a.backref[data-conf="low"], a.backref[data-conf="medium"] { border-bottom-style:
   background: var(--rubric);
 }
 
-/* ===================================== unified sticky whole-book pager */
-/* One sequential nav for the entire edition, pinned to the foot of the
-   viewport; replaces the old per-template .section-pager / .ch-pager /
-   .poetique-bar. Renders only on reading-spine pages (edition.pager lookup). */
-.book-pager {
-  position: sticky; bottom: 0; z-index: 30;
-  background: color-mix(in srgb, var(--paper) 86%, transparent);
-  backdrop-filter: blur(8px);
-  border-top: 1px solid var(--rule);
-}
+/* ======================================= whole-book pager (end of text) */
+/* One sequential nav for the entire edition (Avant-propos → … → Indices),
+   rendered in the reading flow at the foot of each page like a page turn —
+   not pinned chrome. Plain ←/→ keys follow the same links (edition.js).
+   Renders only on reading-spine pages (edition.pager lookup). */
+.book-pager { max-width: 72rem; margin: 4.5rem auto 0; padding: 0 2rem; }
 .book-pager .bp-inner {
-  max-width: 96rem; margin: 0 auto; padding: 0.65rem 2rem;
-  display: flex; justify-content: space-between; align-items: center; gap: 1.5rem;
-  font-family: var(--sans); font-size: 0.76rem;
+  border-top: 1px solid var(--rule); padding-top: 1.5rem;
+  display: flex; justify-content: space-between; gap: 2rem;
 }
 .book-pager a {
-  display: inline-flex; align-items: baseline; gap: 0.5rem; min-width: 0;
-  max-width: 47%; text-decoration: none; color: var(--ink-soft);
+  display: flex; flex-direction: column; gap: 0.4rem;
+  max-width: 46%; min-width: 0; text-decoration: none;
 }
-.book-pager a:hover { color: var(--rubric); }
-.book-pager .bp-next { margin-left: auto; text-align: right; }
-.book-pager .bp-dir { color: var(--muted); flex: none; }
-.book-pager .bp-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.book-pager .bp-k {
+  font-family: var(--sans); font-size: 0.64rem; font-weight: 500;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+}
+.book-pager .bp-label { font-style: italic; font-size: 1.12rem; color: var(--ink-soft); }
+.book-pager a:hover .bp-label, .book-pager a:hover .bp-k { color: var(--rubric); }
+.book-pager .bp-next { margin-left: auto; align-items: flex-end; text-align: right; }
 
 /* ========================================================= chansons index */
 .ch-index { max-width: 56rem; margin: 0 auto; padding: 2.6rem 2rem 3rem; }
@@ -817,6 +832,7 @@ table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
   font-variant-numeric: lining-nums; letter-spacing: 0.06em; }
 .ch-table .t-roman a { color: inherit; text-decoration: none; }
 .ch-table .t-incipit a { text-decoration: none; font-style: italic; font-size: 1.04rem; }
+.ch-table .t-chapter a { font-style: normal; } /* chapter titles are not incipits */
 .ch-table .t-incipit a:hover { color: var(--rubric); }
 .ch-table .t-n { text-align: right; font-size: 0.72rem; color: var(--muted);
   font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
@@ -925,7 +941,7 @@ table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
 
 /* ------------------------------------------------------------------ print */
 @media print {
-  .masthead, .study-rail, .mode-toggle, .ch-pager, .panel-head .resync, .vmark { display: none !important; }
+  .masthead, .subnav, .book-pager, .study-rail, .mode-toggle, .panel-head .resync, .vmark { display: none !important; }
   .study { display: block; }
   .study-panel { position: static; height: auto; border: 0; background: none; }
   .panel-scroll { overflow: visible; padding: 0; }

@@ -45,6 +45,21 @@
     }, { rootMargin: `-${stuckBottom}px 0px 0px 0px` }).observe(h1);
   })();
 
+  // ----- spine keyboard nav: plain ←/→ step through the whole-book pager -----
+  (function () {
+    const prev = document.querySelector(".book-pager a.bp-prev");
+    const next = document.querySelector(".book-pager a.bp-next");
+    if (!prev && !next) return;
+    document.addEventListener("keydown", (ev) => {
+      if (ev.key !== "ArrowLeft" && ev.key !== "ArrowRight") return;
+      if (ev.metaKey || ev.ctrlKey || ev.altKey || ev.shiftKey) return;
+      if (ev.target.closest("input, textarea, select, [contenteditable]")) return;
+      if (document.querySelector("dialog[open]")) return; // lightbox owns the keys
+      const a = ev.key === "ArrowLeft" ? prev : next;
+      if (a) location.href = a.href;
+    });
+  })();
+
   // ----- sigla: click to expand the full citation in place -------------------
   const siglumToggle = (s) => {
     let d = s.nextElementSibling;

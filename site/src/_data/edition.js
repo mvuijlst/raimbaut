@@ -413,12 +413,29 @@ export default function () {
     };
   }
 
+  // the Poétique's own spine: 5 chapters + Conclusion, in reading order — feeds
+  // the /poetique/ hub and the sibling-chapter switcher in the sticky sub-bar.
+  const poetique = sections
+    .filter((s) => s.kind === "conclusion")
+    .map((s) => {
+      const m = s.title.match(/^(\d)\.\s*(.*)$/);
+      return {
+        url: "/" + s.slug + "/",
+        title: s.title,
+        short: m ? m[1] : "Conclusion",
+        name: m ? m[2] : s.title,
+      };
+    });
+  for (const chap of poetique) {
+    if (here[chap.url]) here[chap.url].chapters = poetique;
+  }
+
   // section.njk paginates the linear prose sections only — chanson-kind sections
   // are now served (merged) by chanson.njk at /chansons/N/, so exclude them here.
   const linearSections = sections.filter((s) => s.kind !== "chanson");
 
   return {
-    sections, linearSections, nav, chansons, studies, readingOrder: spine, pager, here,
+    sections, linearSections, nav, chansons, studies, poetique, readingOrder: spine, pager, here,
     romanToNum: Object.fromEntries(chansons.map((c) => [c.roman, c.num])),
     abbreviations: (citations.abbreviations || []).slice().sort((a, b) => a.siglum.localeCompare(b.siglum)),
     unresolvedSigla: citations.unresolved || [],

@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: Vers une poétique de Raimbaut d'Orange
+permalink: /poetique/
+---
+<div class="ch-index">
+<header class="section-head">
+  <span class="u-eyebrow">Troisième partie</span>
+  <h1>Vers une poétique de Raimbaut d'Orange</h1>
+  <p class="home-sub" style="color:var(--ink-soft)">L'étude conclusive&nbsp;: le
+  <em>trobar</em> de Raimbaut en cinq chapitres, et la conclusion de la thèse.</p>
+</header>
+
+<table class="ch-table">
+  <tbody>
+  {% for c in edition.poetique %}
+  <tr>
+    <td class="t-roman">{% if c.name != c.title %}<a href="{{ c.url }}">{{ c.short }}</a>{% endif %}</td>
+    <td class="t-incipit t-chapter"><a href="{{ c.url }}">{{ c.name }}</a></td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
