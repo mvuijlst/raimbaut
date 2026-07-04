@@ -1,0 +1,5244 @@
+{
+ "_note": "Consumed by site/lib/render.js applyFootnoteNorm() in reading views only.",
+ "stats": {
+  "notes": 1257,
+  "backrefs": 479,
+  "auto": 268,
+  "ibid_resolved": 156,
+  "flagged": 125,
+  "titles": 27
+ },
+ "subs": {
+  "v1p006|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "BRUYNE, *Etudes d'esthétique médiévales*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p008|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. JEANROY, *La poésie lyrique des troubadours*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p008|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. JEANROY, *La poésie lyrique des troubadours*, p. 42",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p010|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Poésies*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p011|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-bare",
+     "to": "I. FRANK, *Répertoire métrique de la poésie des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p012|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "I. FRANK, *Répertoire métrique de la poésie des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p012|2": {
+   "titles": [
+    {
+     "from": "'Der Liebesbrief Raimbauts von Orange'",
+     "to": "« Der Liebesbrief Raimbauts von Orange »"
+    }
+   ]
+  },
+  "v1p014|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*The Poems of the troubadour Peire…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p014|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*The Poems of the troubadour Peire…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p014|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "NICHOLSON, *The Poems of the troubadour Peire…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p015|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Recherches sur les connaissances…*",
+     "conf": "medium"
+    }
+   ],
+   "titles": [
+    {
+     "from": "'Les plus anciens troubadours et la légende amoureuse de Tristan et Iseut'",
+     "to": "« Les plus anciens troubadours et la légende amoureuse de Tristan et Iseut »"
+    },
+    {
+     "from": "'De Ventadorn à Barjols. Les troubadours limousins en Provence de 1150 à 1250'",
+     "to": "« De Ventadorn à Barjols. Les troubadours limousins en Provence de 1150 à 1250 »"
+    }
+   ]
+  },
+  "v1p016|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*Les senhals littéraires désignant…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p016|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Girautz von Bornelh*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p016|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Giraldo di Bornelh*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p017|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Peire Vidal. Poesie*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p017|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p018|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. S. AVALLE, *La letteratura medievale in lingua…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p024|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*La letteratura medievale in lingua…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p026|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "A. S. AVALLE, *La letteratura medievale in lingua…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p038|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-bare",
+     "to": "E. LEVY, *Provenzalisches Supplement…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p038|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "E. LEVY, *Provenzalisches Supplement…*, p. 665-666",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p041|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*La technique poétique des trouvères…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p041|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p041|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*Did the poets \"feign\" or \"fashion\"?*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p041|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "A.H. SCHUTZ, *Did the poets \"feign\" or \"fashion\"?*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p042|1": {
+   "titles": [
+    {
+     "from": "'Zur Kritik und Interpretation romanischer Texte'",
+     "to": "« Zur Kritik und Interpretation romanischer Texte »"
+    }
+   ]
+  },
+  "v1p044|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*On the text and interpretation of a…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p044|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "M. RAYNOUARD, *Lexique roman ou Dictionnaire de la…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p045|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. TOBLER-LOMMATZSCH, *Altfranzösisches Wörterbuch*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p047|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-bare",
+     "to": "W. BERNHARDT, *Die Werke des Trobadors N'At de Mons*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p047|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p047|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p048|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*On the text and interpretation of a…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p048|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Trobar clus — Trobar leu. Studien zur…*",
+     "conf": "high"
+    }
+   ],
+   "titles": [
+    {
+     "from": "'*Entrebesecar los motz*'",
+     "to": "« *Entrebesecar los motz* »"
+    },
+    {
+     "from": "'Topic and Tropeic: two types of syntagmatic development in the Old Provençal Canso'",
+     "to": "« Topic and Tropeic: two types of syntagmatic development in the Old Provençal Canso »"
+    }
+   ]
+  },
+  "v1p049|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*On the text and interpretation of a…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p049|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Studi per una triplice esperienza…*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p050|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*On the text and interpretation of a…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p053|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Trobar clus — Trobar leu. Studien zur…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p053|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Trobar clus — Trobar leu. Studien zur…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p054|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "U. MÖLK, *Trobar clus — Trobar leu. Studien zur…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p054|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "U. MÖLK, *Trobar clus — Trobar leu. Studien zur…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p058|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Trobar clus — Trobar leu. Studien zur…*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "U. MÖLK, *Trobar clus — Trobar leu. Studien zur…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p058|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "U. MÖLK, *Trobar clus — Trobar leu. Studien zur…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p061|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. VAYSSIER, *Dictionnaire Patois-Français du…*, p. 249",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p061|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. VAYSSIER, *Dictionnaire Patois-Français du…*, p. 249",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p062|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-bare",
+     "to": "ADAMS, *Word-formation in Provençal*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p064|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*L'érotique des troubadours*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p065|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "CRESCINI, *Manuale per l'avviamento agli studi…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p069|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Anthology of Troubadour Lyric Poetry*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p070|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "PRESS, *Anthology of Troubadour Lyric Poetry*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p071|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "A. CAVALIERE, *Le poesie di Peire Raimon de Tolosa*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p071|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p072|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Répertoire métrique de la poésie des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p073|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Le Roman de Flamenca. Nouvelle…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p073|4": {
+   "titles": [
+    {
+     "from": "'*Aïzi* et *Aïzimen* chez les plus anciens troubadours'",
+     "to": "« *Aïzi* et *Aïzimen* chez les plus anciens troubadours »"
+    }
+   ]
+  },
+  "v1p074|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Did the poets \"feign\" or \"fashion\"?*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p074|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Anthology of Troubadour Lyric Poetry*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p075|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Provenzalische Inedita aus Pariser…*, p. 265",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p076|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit",
+     "kind": "short-named",
+     "to": "*Provenzalische Inedita aus Pariser…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p077|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*The Origin and Meaning of courtly…*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Troubadour and Love*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p077|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*Zur Synonymendopplung vom Typ plankh…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p077|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "ELWERT, *Zur Synonymendopplung vom Typ plankh…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p082|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Grammaire de l'ancien provençal ou…*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Altprovenzalisches Elementarbuch*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p082|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Le Roman de Flamenca. Nouvelle…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p085|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "A. KOLSEN, *Dichtungen der Trobadors*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p085|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid",
+     "kind": "short-ibid",
+     "to": "A. KOLSEN, *Dichtungen der Trobadors*, p. 229",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Words and descriptive terms for…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p085|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit",
+     "kind": "flag",
+     "to": "*loc.cit*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p086|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Die Onomasiologie der Dummheit.…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p087|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-bare",
+     "to": "C. BRUNEL, *Recettes médicales*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p088|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "C. BRUNEL, *Recettes médicales*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p089|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Les poésies d'Arnaut Daniel*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*La vita e le opere del trovatore…*",
+     "conf": "high"
+    },
+    {
+     "idx": 2,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Manuale per l'avviamento agli studi…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p090|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p096|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Grammaire de l'ancien provençal ou…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p098|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Aïzi et Aïzimen chez les plus anciens…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p099|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p099|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p102|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Peire Rogier*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p102|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "NICHOLSON, *Peire Rogier*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p103|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "NICHOLSON, *Peire Rogier*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p103|5": {
+   "titles": [
+    {
+     "from": "'I Siciliani. Alcune propose di lettura'",
+     "to": "« I Siciliani. Alcune propose di lettura »"
+    }
+   ]
+  },
+  "v1p104|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "R. BLOMME, *I Siciliani. Alcune propose di lettura*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p106|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*L'érotique des troubadours*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p107|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Dictionnaire de Poétique et de…*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p108|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Technique poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p108|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "R. DRAGONETTI, *Technique poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p108|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Peire Rogier*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p109|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "NICHOLSON, *Peire Rogier*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p109|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Syntaxe de l'ancien français*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p109|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*C.R.*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "O. SCHULTZ-GORA, *C.R.*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p109|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. W. CARROL, *Medieval Paleography: a brief…*, p. 67",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p110|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p110|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "C. W. CARROL, *Medieval Paleography: a brief…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p110|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. W. CARROL, *Medieval Paleography: a brief…*, p. 67",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p111|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Peire Rogier*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p111|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Peire Rogier*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p115|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. JEANROY, *Poésie lyrique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p115|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "R. ZENKER, *Peire d'Auvergne. Die Lieder.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p116|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Histoire de la langue provençale à…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p117|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "F. MISTRAL, *Lou Tresor dóu Felibrige ou…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p118|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*The songs of Jaufre Rudel*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p119|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "**",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p121|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p124|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p124|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "H. LAUSBERG, *Handbuch der literarischen Rhetorik*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p125|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. BOYDE, *Dante's style in his lyric poetry*, p. 253",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Figures of repetition in the old…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p125|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p125|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Figures of repetition in the old…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p125|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Dictionnaire de Poétique et de…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p126|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-bare",
+     "to": "V. L.T. TOPSFIELD, *Les poésies de Raimon de Miraval*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p126|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "V. L.T. TOPSFIELD, *Les poésies de Raimon de Miraval*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p127|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p127|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p127|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p128|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. LEUBE-FEY, *Bild und Funktion der dompna in der…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p128|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. LEUBE-FEY, *Bild und Funktion der dompna in der…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p128|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. LEUBE-FEY, *Bild und Funktion der dompna in der…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p128|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p128|7": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p128|8": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p131|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p132|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p132|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p134|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p135|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Grammaire de l'ancien provençal ou…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p135|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "J. ANGLADE, *Grammaire de l'ancien provençal ou…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p136|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A.F. MAHN, *Grammatik und Woerterbuch der…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p136|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A.F. MAHN, *Grammatik und Woerterbuch der…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p137|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A.F. MAHN, *Grammatik und Woerterbuch der…*, p. 350",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p137|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A.F. MAHN, *Grammatik und Woerterbuch der…*, p. 350",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p137|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Words and descriptive terms for…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p138|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Words and descriptive terms for…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p138|5": {
+   "titles": [
+    {
+     "from": "'Der Trobador Raimbaut von Vaqueiras'",
+     "to": "« Der Trobador Raimbaut von Vaqueiras »"
+    }
+   ]
+  },
+  "v1p139|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "K. M. FASSBINDER, *Der Trobador Raimbaut von Vaqueiras*, p. 464",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p139|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*\"Trobar clus\". Bibelexegese und…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p139|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "K. M. FASSBINDER, *Der Trobador Raimbaut von Vaqueiras*, p. 464",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p139|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*\"Trobar clus\". Bibelexegese und…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p140|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "K. M. FASSBINDER, *Der Trobador Raimbaut von Vaqueiras*, p. 464",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p141|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "K. M. FASSBINDER, *Der Trobador Raimbaut von Vaqueiras*, p. 464",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p145|1": {
+   "titles": [
+    {
+     "from": "'Le chansonnier de Bernart Amoros'",
+     "to": "« Le chansonnier de Bernart Amoros »"
+    }
+   ]
+  },
+  "v1p145|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "O. SCHULTZ-GORA, *C.R. de RvO*, p. 300-301",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p146|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p147|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "O. SCHULTZ-GORA, *C.R. de RvO*, p. 300-301",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p147|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "H. LAUSBERG, *Handbuch der literarischen Rhetorik*",
+     "conf": "medium"
+    },
+    {
+     "idx": 2,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Dante's style in his lyric poetry*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p148|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*C.R. de RvO*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p148|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*LOCAL PERSONNEL DES TRAINS - Quelques…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p149|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*LOCAL PERSONNEL DES TRAINS - Quelques…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p149|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-bare",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p152|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Mezura*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Technique poétique*",
+     "conf": "medium"
+    },
+    {
+     "idx": 2,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    },
+    {
+     "idx": 3,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "R. GAY-CROSSIER, *Religious elements in the secular…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p153|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "R. GAY-CROSSIER, *Religious elements in the secular…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p157|1": {
+   "titles": [
+    {
+     "from": "'Drei Lieder von Raimbaut von Orange'",
+     "to": "« Drei Lieder von Raimbaut von Orange »"
+    }
+   ]
+  },
+  "v1p157|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Drei Lieder von Raimbaut von Orange*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p157|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p158|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p158|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p158|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p161|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    },
+    {
+     "idx": 2,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p163|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Words and descriptive terms for…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p164|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "MOK, *Manuel pratique de morphologie…*, p. 35",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p164|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Dichtungen der Trobadors*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "R. LAVAUD, *Peire Cardenal...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p164|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Elementarbuch*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p165|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Appunti di grammatica storica del…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p168|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "A. THOMAS, *Poésies complètes de Bertran de Born*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p171|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-bare",
+     "to": "E. LOMMATZSCH, *Altfranzösisches Wörterbuch*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p171|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p172|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Reimwörterbuch der Trobadors*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p172|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*LOCAL PERSONNEL DES TRAINS - Quelques…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p172|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit",
+     "kind": "short-named",
+     "to": "*C.R. de RO...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p175|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A.H. SCHUTZ, *C.R. de RO...*, p. 420",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p176|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Technique poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p177|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Dichtungen...*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p177|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "A. KOLSEN, *Dichtungen...*, p. 235",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p178|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*LOCAL PERSONNEL DES TRAINS - Quelques…*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 462",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p179|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Technique poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p180|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*LOCAL PERSONNEL DES TRAINS - Quelques…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p180|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 462",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p183|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p184|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p184|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Anthology of Troubadour Lyric Poetry*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p184|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Peire Cardenal...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p185|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "R. LAVAUD, *Peire Cardenal...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p185|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Anthology of Troubadour Lyric Poetry*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p186|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. H. SCHUTZ, *The Romance of Daude de Pradas*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p191|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Trobar clus — Trobar leu. Studien zur…*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*\"Trobar clus\". Bibelexegese und…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p192|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*LOCAL PERSONNEL DES TRAINS - Quelques…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p192|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 462",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p193|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Dichtungen der Trobadors*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p199|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Dichtungen der Trobadors*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p200|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "A. KOLSEN, *Dichtungen der Trobadors*, p. 70",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p202|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Technique poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p205|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Grammaire des langues romanes*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Grammaire istorique [sic!] des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p206|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid",
+     "kind": "short-ibid",
+     "to": "J. RONJAT, *Grammaire istorique [sic!] des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p208|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A.H. SCHUTZ, *C.R.*, p. 420",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p214|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p214|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p215|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p222|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "F. M. CHAMBERS, *Proper names in the lyrics of the…*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "R.-L. WAGNER, *Les phrases hypothétiques commençant…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p228|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Peire Cardenal...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p228|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Anthologie des troubadours*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p229|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Anthologie des troubadours*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Anthologie des troubadours*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p229|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Nouvelle anthologie des troubadours*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Peire Cardenal...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p232|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "flag",
+     "to": "*ouv.cité*",
+     "conf": "flag"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "flag",
+     "to": "*ouv.cité*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p233|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p234|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Manuel pratique de morphologie…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p234|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Beiträge zur Lexicographie des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p235|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p237|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "PUITSPELU, *Dictionnaire étymologique du patois…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p239|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Peire d'Alvernhe...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p239|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Peire d'Auvergne. Die Lieder.…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p239|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Peire d'Alvernhe...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p241|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "R. DRAGONETTI, *La vie de la lettre au moyen âge*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p243|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p244|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Peire d'Alvernhe...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p244|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "R. LEJEUNE, *La \"Galerie littéraire\" du troubadour…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p245|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "R. LEJEUNE, *Le troubadour lombard de la 'Galerie…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p246|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*The background of Peire d*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p247|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Le troubadour lombard de la 'Galerie…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p247|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Le troubadour lombard de la 'Galerie…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p250|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p251|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p251|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p252|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Words and descriptive terms for…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p253|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. GUIRAUD, *Les structures étymologiques du Trobar*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p253|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Les structures étymologiques du Trobar*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p254|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. GUIRAUD, *Les structures étymologiques du Trobar*, p. 425",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p255|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Les phrases hypothétiques en ancien…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p255|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A.J. HENRICHSEN, *Les phrases hypothétiques en ancien…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p255|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p256|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Manuale per l'avviamento agli studi…*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Grammaire istorique [sic!] des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p256|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Elementarbuch*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p258|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "SCHULTZ-GORA, *Elementarbuch*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p258|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*C.R. de Rv0*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p261|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p262|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "C. CREMONESI, *Nozioni di Grammatica storica…*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "C. CREMONESI, *Nozioni di Grammatica storica…*",
+     "conf": "medium"
+    },
+    {
+     "idx": 2,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "C. CREMONESI, *Nozioni di Grammatica storica…*",
+     "conf": "medium"
+    },
+    {
+     "idx": 3,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "C. CREMONESI, *Nozioni di Grammatica storica…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p262|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "VIDAL, *Razos de trobar*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p262|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "VIDAL, *Razos de trobar*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p262|7": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "VIDAL, *Razos de trobar*, p. 18",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p262|8": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "VIDAL, *Razos de trobar*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p263|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "VIDAL, *Razos de trobar*, p. 18",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "VIDAL, *Razos de trobar*",
+     "conf": "medium"
+    }
+   ],
+   "titles": [
+    {
+     "from": "'Ueber einige Satzdoppelformen der französische Sprache'",
+     "to": "« Ueber einige Satzdoppelformen der französische Sprache »"
+    }
+   ]
+  },
+  "v1p263|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "L. MOURIN, *Morphologie du verbe en ancien…*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Manuale per l'avviamento agli studi…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p263|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Die altprovenzalische Praesens- und…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p263|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. HARNISCH, *Die altprovenzalische Praesens- und…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p264|2": {
+   "titles": [
+    {
+     "from": "'Jeu parti et roman breton'",
+     "to": "« Jeu parti et roman breton »"
+    }
+   ]
+  },
+  "v1p264|3": {
+   "titles": [
+    {
+     "from": "'Der Liebesbrief Raimbaut von Orange'",
+     "to": "« Der Liebesbrief Raimbaut von Orange »"
+    }
+   ]
+  },
+  "v1p265|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Der Liebesbrief Raimbaut von Orange*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p266|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Der Liebesbrief Raimbaut von Orange*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p266|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Der Liebesbrief Raimbaut von Orange*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p266|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Die altprovenzalische Praesens- und…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p266|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. HARNISCH, *Die altprovenzalische Praesens- und…*, p. 198",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p267|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p268|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Provenzalische Inedita aus Pariser…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p268|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Provenzalische Inedita aus Pariser…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p268|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Provenzalische Inedita aus Pariser…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p269|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p269|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Les phrases hypothétiques en ancien…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p269|7": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Provenzalische Inedita aus Pariser…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p270|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*Provenzalische Inedita aus Pariser…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p270|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Appunti di grammatica storica del…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p276|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Loc. cit.",
+     "kind": "flag",
+     "to": "*Loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p276|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*C.R.*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p277|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p277|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Anthologie*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p281|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Anthologie...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p281|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Words and descriptive terms for…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p281|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p282|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-bare",
+     "to": "STIMMING, *Bertran de Born...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p282|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "STIMMING, *Bertran de Born...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p282|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p283|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*An outline of the phonology and…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p283|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "C.H. GRANDGENT, *An outline of the phonology and…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p283|7": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*La Lírica de los trovadores.…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p284|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*La Lírica de los trovadores.…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p285|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-bare",
+     "to": "RIQUER, *La Lírica de los trovadores.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p285|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "L. ALIBERT, *Dictionnaire Occitan-français*, p. 599",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p286|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Anthologie...*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "art.cité",
+     "kind": "short-bare",
+     "to": "A. JEANROY, *Anthologie...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p286|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p286|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Les chansons de Béatrice de Die*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p287|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Die Provenzalische Dichterinnen.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p287|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "flag",
+     "to": "*art. cité*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p288|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Les chansons de Béatrice de Die*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p292|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "G. KUSSLER-RÂTYE, *Les chansons de Béatrice de Die*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p292|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. KUSSLER-RÂTYE, *Les chansons de Béatrice de Die*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v1p294|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v1p295|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Reimwörterbuch der Trobadors*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v1p295|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Lanfranco Cigala — Liriche*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p001|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*LOCAL PERSONNEL DES TRAINS - Quelques…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p001|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p004|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 462",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p005|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p005|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p010|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid",
+     "kind": "short-ibid",
+     "to": "K. LEWENT, *On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p010|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-bare",
+     "to": "K. LEWENT, *On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p010|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p011|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "K. LEWENT, *On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p011|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p012|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p013|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p013|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "K. LEWENT, *On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p013|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p014|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Dictionnaire de Poétique et de…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p015|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p015|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p015|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "K. LEWENT, *On the text of two troubadour poems.…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p022|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*The Medieval Provençal tenson:…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p022|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*The Medieval Provençal tenson:…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p022|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. HAGAN, *The Medieval Provençal tenson:…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p022|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. HAGAN, *The Medieval Provençal tenson:…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p023|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "J. MOUZAT, *Les poèmes de Gaucelm Faidit*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p023|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p024|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p024|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p024|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p024|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p024|7": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p028|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "**",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p028|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*La critique textuelle et les…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p028|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. RONCAGLIA, *La critique textuelle et les…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p029|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. RONCAGLIA, *La critique textuelle et les…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p031|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "E. KÖHLER, *Trobadorlyrik und höfisches Roman*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p032|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Trobadorlyrik und höfisches Roman*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p032|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "E. KÖHLER, *Trobadorlyrik und höfisches Roman*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p033|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Sämtliche Lieder des Trobadors Giraut…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p033|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Giraut de Bornelh et la poésie obscure*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p033|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Sämtliche Lieder des Trobadors Giraut…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p036|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Les Troubadours*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p037|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Sämtliche Lieder des Trobadors Giraut…*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Nouvelle anthologie ...*",
+     "conf": "medium"
+    },
+    {
+     "idx": 2,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Antología*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p037|2": {
+   "titles": [
+    {
+     "from": "'Postille a testi provenzali'",
+     "to": "« Postille a testi provenzali »"
+    }
+   ]
+  },
+  "v2p038|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Sämtliche Lieder des Trobadors Giraut…*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Antología*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p038|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*Postille a testi provenzali*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p038|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "E. VUOLO, *Postille a testi provenzali*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p038|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "E. VUOLO, *Postille a testi provenzali*, p. 611",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p041|3": {
+   "titles": [
+    {
+     "from": "'Drei Lieder von Raïmbaut von Orange'",
+     "to": "« Drei Lieder von Raïmbaut von Orange »"
+    }
+   ]
+  },
+  "v2p042|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-bare",
+     "to": "C. APPEL, *Drei Lieder von Raïmbaut von Orange*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p044|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-bare",
+     "to": "C. APPEL, *Drei Lieder von Raïmbaut von Orange*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p047|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Drei Lieder von Raïmbaut von Orange*, p. 479",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p047|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p048|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "MARSHALL, *The Donatz...*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-bare",
+     "to": "C. APPEL, *Provenzalische Chrestomathie*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p049|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Les phrases hypothétiques en ancien…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p050|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*No saï que s'es...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p051|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "III, *S'ieu fos amatz o amés*, p. 22",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p051|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Reimwörterbuch der Trobadors*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p052|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p052|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Reimwörterbuch der Trobadors*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p052|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p052|7": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "J. COROMINAS, *Diccionario*, p. 978",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p053|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "J. COROMINAS, *Diccionario*, p. 978",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p053|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Reimwörterbuch der Trobadors*",
+     "conf": "high"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Reimwörterbuch der Trobadors*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p053|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p054|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p054|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "E. ERDMANNSDÖRFER, *Reimwörterbuch der Trobadors*, p. 189",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p055|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-bare",
+     "to": "E. ERDMANNSDÖRFER, *Reimwörterbuch der Trobadors*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p058|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p059|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Les phrases hypothétiques en ancien…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p060|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A.J. HENRICHSEN, *Les phrases hypothétiques en ancien…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p062|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "F. M. CHAMBERS, *Proper names...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p062|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "F. M. CHAMBERS, *Proper names...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p064|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p064|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Provenzalische Inedita...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p065|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "short-named",
+     "to": "*Provenzalische Inedita...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p070|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-bare",
+     "to": "M. DUMITRESCU, *Aimeric de Belenoi*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p071|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Folquet de Marseille*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p071|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "STRONSKI, *Folquet de Marseille*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p078|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Aimeric de Belenoi*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "M. DUMITRESCU, *Aimeric de Belenoi*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p078|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "P. BEC, *Les saluts d'amour du troubadour…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p079|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*Raïmbaut d*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p079|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Raïmbaut d*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p083|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    },
+    {
+     "idx": 1,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p083|7": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Raïmbaut d*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p083|8": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "C. APPEL, *Raïmbaut d*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p084|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p088|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "flag",
+     "to": "*loc.cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p088|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Il Mare Amoroso*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p089|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. CHERCHI, *Il Mare Amoroso*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p089|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*La littérature européenne et le moyen…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p089|3": {
+   "titles": [
+    {
+     "from": "'Notes étymologiques et lexicographiques'",
+     "to": "« Notes étymologiques et lexicographiques »"
+    }
+   ]
+  },
+  "v2p090|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*Cat. anc. conglap*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p090|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Antología*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p091|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "R. LAFONT, *Trobar*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p091|6": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Antología*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Anthology of Troubadour Lyric Poetry*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p092|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "PRESS, *Anthology of Troubadour Lyric Poetry*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p092|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc. cit.",
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p094|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "flag",
+     "to": "*ouv.cité*",
+     "conf": "flag"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "flag",
+     "to": "*ouv.cité*",
+     "conf": "flag"
+    },
+    {
+     "idx": 2,
+     "from": "ouv.cité",
+     "kind": "flag",
+     "to": "*ouv.cité*",
+     "conf": "flag"
+    },
+    {
+     "idx": 3,
+     "from": "ouv.cité",
+     "kind": "flag",
+     "to": "*ouv.cité*",
+     "conf": "flag"
+    },
+    {
+     "idx": 4,
+     "from": "ouv.cité",
+     "kind": "flag",
+     "to": "*ouv.cité*",
+     "conf": "flag"
+    }
+   ]
+  },
+  "v2p095|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Le più belle pagine delle letteratura…*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Antologia trobadorica*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p101|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "J. BOUTIERE et A.H. SCHUTZ, *Biographies des troubadours*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "J. BOUTIERE et A.H. SCHUTZ, *Biographies des troubadours*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p103|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*La poésie des troubadours*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p103|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "F. DIEZ, *La poésie des troubadours*, p. 325",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p103|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Histoire sommaire de la poésie…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p103|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "A. JEANROY, *Histoire sommaire de la poésie…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p104|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "A. JEANROY, *Poésie*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p104|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*La littérature provençale au moyen âge*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p104|4": {
+   "titles": [
+    {
+     "from": "'La référence géographique chez Peire Cardenal'",
+     "to": "« La référence géographique chez Peire Cardenal »"
+    }
+   ]
+  },
+  "v2p105|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art. cité",
+     "kind": "short-named",
+     "to": "*Observations historiques et…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p106|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Biographies des troubadours*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p107|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Bernard de Ventadour*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p107|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Bernard de Ventadour*",
+     "conf": "medium"
+    }
+   ],
+   "titles": [
+    {
+     "from": "'Le coeur dans les poésies de Bernard de Ventadour'",
+     "to": "« Le coeur dans les poésies de Bernard de Ventadour »"
+    }
+   ]
+  },
+  "v2p108|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Le vocabulaire courtois des…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p109|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p110|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "M.L. DEJEANNE, *Poésies complètes du troubadour…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p114|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "D. RIEGER, *Gattungen und Gattungsbezeichnungen…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p114|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Observations historiques et…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p115|2": {
+   "titles": [
+    {
+     "from": "'vers une lecture de *Cars, douz e fenhz...*'",
+     "to": "« vers une lecture de *Cars, douz e fenhz...* »"
+    }
+   ]
+  },
+  "v2p116|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Observations historiques et…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p116|3": {
+   "titles": [
+    {
+     "from": "'Over het wezen van de troubadoursminne. Een probleemstelling en een stellingname'",
+     "to": "« Over het wezen van de troubadoursminne. Een probleemstelling en een stellingname »"
+    }
+   ]
+  },
+  "v2p116|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "loc.cit.",
+     "kind": "short-named",
+     "to": "*Observations historiques et…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p117|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Technique poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p117|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*D'une poésie formelle en France au…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p117|5": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Technique poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p118|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "R. DRAGONETTI, *Technique poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p118|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "art.cité",
+     "kind": "short-named",
+     "to": "*Observations historiques et…*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p119|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. ZUMTHOR, *Essai*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p121|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Essai*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Technique poétique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p121|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Essai*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p121|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. ZUMTHOR, *Essai*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p122|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. ZUMTHOR, *Essai*, p. 214-215",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p122|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. ZUMTHOR, *Langue et technique poétiques*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p125|1": {
+   "titles": [
+    {
+     "from": "'La douleur et son univers poétique chez Bernard de Ventadour'",
+     "to": "« La douleur et son univers poétique chez Bernard de Ventadour »"
+    }
+   ]
+  },
+  "v2p125|2": {
+   "titles": [
+    {
+     "from": "'Sémiologie des messages visuels'",
+     "to": "« Sémiologie des messages visuels »"
+    }
+   ]
+  },
+  "v2p126|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Essai*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p127|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Essai*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p132|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Essai*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p132|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. ZUMTHOR, *Essai*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p132|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "P. ZUMTHOR, *Essai*, p. 80",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p132|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*The Medieval Provençal tenson:…*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p135|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "L. POLLMANN, *Trobar clus*, p. 44-45",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p136|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "L. POLLMANN, *Trobar clus*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p136|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "U. MÖLK, *Trobar clus...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p136|4": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "U. MÖLK, *Trobar clus...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p137|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "U. MÖLK, *Trobar clus...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p141|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Trobar clus*",
+     "conf": "medium"
+    },
+    {
+     "idx": 1,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Poésies complètes du troubadour…*",
+     "conf": "high"
+    }
+   ],
+   "titles": [
+    {
+     "from": "'Three Levels of love in the poetry of the early troubadours, Guilhem IX, Marcabru and Jaufre Rudel'",
+     "to": "« Three Levels of love in the poetry of the early troubadours, Guilhem IX, Marcabru and Jaufre Rudel »"
+    }
+   ]
+  },
+  "v2p142|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*Trobar clus...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p142|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-bare",
+     "to": "U. MÖLK, *Trobar clus...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p143|2": {
+   "titles": [
+    {
+     "from": "'Une métaphore du sens propre dans *Le Roman de la Rose*'",
+     "to": "« Une métaphore du sens propre dans *Le Roman de la Rose* »"
+    }
+   ]
+  },
+  "v2p143|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "R. DRAGONETTI, *Une métaphore du sens propre dans Le…*, p. 72",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p144|3": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Figures of repetition...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p150|1": {
+   "titles": [
+    {
+     "from": "'Bibliographie de la syntaxe occitane'",
+     "to": "« Bibliographie de la syntaxe occitane »"
+    }
+   ]
+  },
+  "v2p152|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv. cité",
+     "kind": "short-named",
+     "to": "*La structure du texte artistique*",
+     "conf": "high"
+    }
+   ]
+  },
+  "v2p152|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "I. LOTMAN, *La structure du texte artistique*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p153|1": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ouv.cité",
+     "kind": "short-named",
+     "to": "*Essai...*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p154|1": {
+   "titles": [
+    {
+     "from": "'Le mot, unité de texte et unité de lexique en statistique lexicologique'",
+     "to": "« Le mot, unité de texte et unité de lexique en statistique lexicologique »"
+    }
+   ]
+  },
+  "v2p154|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "ibid.",
+     "kind": "short-ibid",
+     "to": "C. MULLER, *Le mot*",
+     "conf": "medium"
+    }
+   ]
+  },
+  "v2p165|2": {
+   "backrefs": [
+    {
+     "idx": 0,
+     "from": "Ibid.",
+     "kind": "short-ibid",
+     "to": "E. LEVY, *Le Troubadour P. de M.*",
+     "conf": "medium"
+    }
+   ]
+  }
+ }
+}

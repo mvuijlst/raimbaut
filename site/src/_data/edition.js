@@ -1,0 +1,336 @@
+// Eleventy global data: parse the assembled edition (book.md) + apparatus JSONs
+// into rendered sections the templates paginate over.
+//
+// Segmentation is driven by manifest_v2 (reading order + kind) and chansons.json
+// (exact pageid ranges), NOT by heading text — the typescript's headings are too
+// irregular. Two passes: (1) assign every page to a section descriptor and build
+// a pageid->section map; (2) render each section's markdown, so back-references
+// (op./art. cité) can link to the section+page anchor of their target.
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import {
+  makeMd, collectFootnoteDefs, makeSiglumIndex, renderSection,
+  collectAuthorSurnames,
+} from "../../lib/render.js";
+import { parseChanson } from "../../lib/chanson.js";
+import {
+  troubadourChart, factorRankingTable, frequencyTable, groupingTable,
+} from "../../lib/figures.js";
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../..");
+// normalise CRLF -> LF: book.md is Python-written in text mode on Windows, and a
+// trailing \r otherwise breaks our ^…$ line regexes (anchors, footnotes).
+const read = (f) => fs.readFileSync(path.join(ROOT, f), "utf-8").replace(/\r\n?/g, "\n");
+const readJSON = (f) => JSON.parse(read(f));
+
+// ---- manuscript photographs (manuscripts/ at the repo root) -----------------
+// Filename convention: "ROMAN - Ms. SIGLUM - f° FOLIO - source.jpg" (parts after
+// the roman numeral optional). A chanson spanning several folios has several
+// files; a folio shared by two chansons appears once per chanson and is
+// cross-noted automatically. Optional manuscripts/regions.json adds a caption
+// note per file for folios where only part of the page belongs to the chanson:
+//   { "<filename>": { "note": "colonne b, en bas du feuillet" } }
+function loadManuscripts() {
+  const dir = path.join(ROOT, "manuscripts");
+  const byChanson = new Map();
+  if (!fs.existsSync(dir)) return byChanson;
+  let regions = {};
+  const regionsFile = path.join(dir, "regions.json");
+  if (fs.existsSync(regionsFile)) regions = JSON.parse(fs.readFileSync(regionsFile, "utf-8"));
+
+  const files = fs.readdirSync(dir).filter((f) => /\.(jpe?g|png|webp|avif)$/i.test(f));
+  const entries = [];
+  for (const file of files) {
+    const base = file.replace(/\.[^.]+$/, "");
+    const roman = (base.match(/^([IVXL]+)\b/) || [])[1];
+    if (!roman) continue;
+    const siglum = (base.match(/Ms\.?\s*([A-Za-z]['’]?\d*)/) || [])[1] || null;
+    const folio = (base.match(/f[°o]\s*(\d+\s*(?:bis)?\s*[rv]?)/i) || [])[1] || null;
+    const source = (base.match(/(Vat\.?\s*lat\.?\s*\d+)/i) || [])[1] || null;
+    entries.push({ file, roman, siglum, folio: folio && folio.replace(/\s+/g, ""), source });
+  }
+  // a folio shared by several chansons: same witness siglum + same folio
+  // (falls back to the source-image tail when the filename has neither)
+  const shareKey = (e) => (e.siglum && e.folio)
+    ? e.siglum + "|" + e.folio
+    : e.file.split(" - ").pop().trim();
+  const sharedWith = (e) => [...new Set(entries
+    .filter((o) => o !== e && shareKey(o) === shareKey(e) && o.roman !== e.roman)
+    .map((o) => o.roman))];
+
+  for (const e of entries) {
+    if (!byChanson.has(e.roman)) byChanson.set(e.roman, []);
+    let witness = byChanson.get(e.roman).find((w) => w.siglum === e.siglum);
+    if (!witness) {
+      witness = { siglum: e.siglum, source: e.source, images: [] };
+      byChanson.get(e.roman).push(witness);
+    }
+    if (!witness.source && e.source) witness.source = e.source;
+    witness.images.push({
+      href: "/manuscrits/" + encodeURIComponent(e.file),
+      folio: e.folio,
+      shared: sharedWith(e),
+      note: (regions[e.file] || {}).note || null,
+    });
+  }
+  for (const list of byChanson.values())
+    for (const w of list)
+      w.images.sort((a, b) => String(a.folio).localeCompare(String(b.folio), "fr", { numeric: true }));
+  return byChanson;
+}
+
+const CONCLUSION_HDR = /VERS UNE PO[EÉ]TIQUE/i;
+const INDEX_HDR = /^I\s*N\s*D\s*E\s*X/i;
+const TDM_HDR = /TABLE\s+DES\s+MATI|^BIBLIOGRAPHIE\.{3,}/i;
+
+// The typescript's hand-drawn figures, reconstructed from their own data at
+// the exact spot where the original page carried them.
+const PAGE_PATCHES = {
+  // p. 20: the three per-factor rankings (three running lists -> one table)
+  v1p020: (t) => t.replace(
+    /1\. Nombre de chansons par troubadour:[\s\S]*?764\)\./,
+    "\n" + factorRankingTable() + "\n"),
+  // p. 21: the hand-drawn "classement par position" graph -> slopegraph
+  v1p021: (t) => t.replace(
+    /- \[Gu\]\{\.underline\}[\s\S]*?occurrences de chansons\]\{\.underline\}\s*/,
+    "\n" + troubadourChart() + "\n\n"),
+  // p. 27: mean frequency of apparition (reflowed pipe text -> real table)
+  v1p027: (t) => t.replace(
+    /\| Bernard de Ventadour \| 11,09 \|[\s\S]*?\| Bernart Marti \| 1,33 \|/,
+    "\n" + frequencyTable() + "\n"),
+  // p. 29: the banded "Classement / Regroupements" comparison table
+  v1p029: (t) => t.replace(
+    /\| Classement d'après la fréquence[\s\S]*Marcabru \|/,
+    "\n" + groupingTable() + "\n"),
+};
+
+// "Vers une poétique…" has real internal sections (per the thesis's table des
+// matières); segment on their heading lines, not on arbitrary page counts.
+const normHead = (s) => s.replace(/^#{1,6}\s*/, "").replace(/[[\]*]/g, "")
+  .replace(/\{[^}]*\}/g, "").replace(/\s+/g, " ").trim().toLowerCase();
+const POETIQUE_PARTS = [
+  { slug: "poetique-1", title: "1. Sincérité et originalité", match: (s) => normHead(s).startsWith("1. sincérité") },
+  { slug: "poetique-2", title: "2. Contrainte et dynamisme de la tradition", match: (s) => normHead(s).startsWith("2. contrainte") },
+  { slug: "poetique-3", title: "3. La question des trobar", match: (s) => normHead(s).startsWith("3. la question des trobar") },
+  { slug: "poetique-4", title: "4. Poésie et langue naturelle", match: (s) => normHead(s).startsWith("4. poésie et langue") },
+  { slug: "poetique-5", title: "5. Le lexique de Raimbaut d'Orange", match: (s) => normHead(s).startsWith("5. le lexique") },
+  { slug: "conclusion", title: "Conclusion", match: (s) => s.replace(/\s+/g, "") === "CONCLUSION" },
+];
+
+export default function () {
+  const book = read("book.md");
+  const manifest = readJSON("manifest_v2.json");
+  const chansons = readJSON("chansons.json");
+  const citations = readJSON("citations.json");
+  const bibliography = readJSON("bibliography.json");
+  const references = readJSON("references.json");
+  // footnote-reference normalization for the READING views (livre view = printed).
+  // Map note_key ("v1p010-2") -> { backrefs:[…], titles:[…] }. Optional artifact.
+  const footnoteNorm = new Map();
+  try {
+    const fn = readJSON("footnote-normalization.json");
+    for (const [k, v] of Object.entries(fn.subs || {})) {
+      footnoteNorm.set(k.replace("|", "-"), v);
+    }
+  } catch { /* not built yet: reading view falls back to printed text */ }
+
+  const md = makeMd();
+  const defs = collectFootnoteDefs(book);
+  const sigla = makeSiglumIndex(citations, md);
+  const siglaCodes = new Set((citations.abbreviations || []).map((a) => a.siglum));
+  const surnames = collectAuthorSurnames({ bibliography, citations, references }, siglaCodes);
+
+  // ---- per-page blocks keyed by pageid --------------------------------------
+  const blocks = {};
+  let cur = null;
+  for (const line of book.split("\n")) {
+    const m = line.match(/^<!--\s*page:\s*([^\s]+)\s*-->$/);
+    if (m) { cur = m[1]; blocks[cur] = [line]; }
+    else if (cur) blocks[cur].push(line);
+  }
+  const pageTextRaw = (pid) => (blocks[pid] ? blocks[pid].join("\n") : "");
+  const pageText = (pid) =>
+    PAGE_PATCHES[pid] ? PAGE_PATCHES[pid](pageTextRaw(pid)) : pageTextRaw(pid);
+  const bodyText = (pid) =>
+    (blocks[pid] || []).filter((l) => !l.startsWith("<!--")).join("\n").trim();
+
+  const order = new Map(manifest.map((m) => [m.pageid, m.order]));
+  const printedOf = new Map(manifest.map((m) => [m.pageid, m.printed]));
+  const byOrder = [...manifest].sort((a, b) => a.order - b.order);
+  const kindOf = new Map(manifest.map((m) => [m.pageid, m.kind]));
+
+  const rpages = (c) => (c.remarques && c.remarques.pages) || [];
+  const tpages = (c) => (c.texte && c.texte.pages) || [];
+  const printedRange = (pids) => {
+    const nums = pids.map((p) => printedOf.get(p)).filter((x) => x && /\d/.test(x));
+    return nums.length ? [nums[0], nums[nums.length - 1]] : null;
+  };
+
+  const firstChansonPage = rpages(chansons[0])[0];
+  const firstChOrder = order.get(firstChansonPage);
+
+  // concluding chapter boundary (the catalogue caps XXXIX here too; belt & braces)
+  const conclusionStart = byOrder.find(
+    (m) => m.order > firstChOrder && CONCLUSION_HDR.test(bodyText(m.pageid)));
+  const bibStart = byOrder.find((m) => m.kind === "bibliographie");
+  const conclOrder = conclusionStart ? order.get(conclusionStart.pageid) : Infinity;
+  const bibOrder = bibStart ? order.get(bibStart.pageid) : byOrder.length;
+
+  const lastChanson = chansons[chansons.length - 1];
+  if (lastChanson.texte)
+    lastChanson.texte.pages = tpages(lastChanson).filter((p) => order.get(p) < conclOrder);
+
+  // ================= PASS 1: build section descriptors =======================
+  const descriptors = [];
+
+  const frontPages = byOrder.filter((m) => m.order < firstChOrder).map((m) => m.pageid);
+  const introIdx = frontPages.findIndex((p) => kindOf.get(p) === "introduction");
+  const preIntro = introIdx > 0 ? frontPages.slice(0, introIdx) : [];
+  const introPages = frontPages.filter(
+    (p) => !preIntro.includes(p) && kindOf.get(p) !== "plate-or-divider");
+
+  if (preIntro.length)
+    descriptors.push({ slug: "avant-propos", kind: "front", title: "Avant-propos", subtitle: "", pages: preIntro });
+  if (introPages.length)
+    descriptors.push({ slug: "introduction", kind: "intro", title: "Introduction", subtitle: "", pages: introPages });
+
+  for (const c of chansons) {
+    const pids = [...rpages(c), ...tpages(c)];
+    if (!pids.length) continue;
+    descriptors.push({
+      slug: "chanson-" + c.num, kind: "chanson", num: c.num, roman: c.roman,
+      title: "Chanson " + c.roman, subtitle: (c.incipit || "").trim(), pages: pids,
+    });
+  }
+
+  // concluding chapter, segmented at its real section headings
+  if (conclusionStart) {
+    const conclPages = byOrder
+      .filter((m) => m.order >= conclOrder && m.order < bibOrder).map((m) => m.pageid);
+    const lines = conclPages.map(pageText).join("\n\n").split("\n");
+    const segments = POETIQUE_PARTS.map((p) => ({ ...p, lines: [] }));
+    let cur = -1; // preamble before the first heading joins part 1
+    const preamble = [];
+    let expect = 0;
+    for (const line of lines) {
+      if (expect < POETIQUE_PARTS.length && POETIQUE_PARTS[expect].match(line.trim())) {
+        cur = expect;
+        expect += 1;
+        continue; // the heading line itself becomes the page <h1>
+      }
+      // drop the letter-spaced part title (redundant with the chrome)
+      if (cur === -1 && /^VERSUNEPO/i.test(line.replace(/\s+/g, ""))) continue;
+      if (cur === -1) preamble.push(line);
+      else segments[cur].lines.push(line);
+    }
+    segments[0].lines = [...preamble, ...segments[0].lines];
+    for (const seg of segments) {
+      const md = seg.lines.join("\n");
+      const pids = [...md.matchAll(/<!--\s*page:\s*(\S+)\s*-->/g)].map((m) => m[1]);
+      descriptors.push({
+        slug: seg.slug, kind: "conclusion", title: seg.title, subtitle: "",
+        pages: pids.length ? pids : [conclPages[0]], md,
+      });
+    }
+  }
+
+  // the three indices (each heading page -> next heading, capped before the TdM)
+  const indexHeads = byOrder.filter(
+    (m) => m.order > bibOrder && INDEX_HDR.test(bodyText(m.pageid)));
+  const tdm = byOrder.find(
+    (m) => indexHeads.length && m.order > indexHeads[0].order && TDM_HDR.test(bodyText(m.pageid)));
+  const indexEnd = tdm ? order.get(tdm.pageid) : byOrder.length;
+  const indexTitle = (pid) => {
+    const n = bodyText(pid).slice(0, 90).replace(/\s+/g, "").toUpperCase();
+    if (n.includes("MOTS")) return ["index-mots", "Index des mots"];
+    if (n.includes("OEUVRES") || n.includes("ŒUVRES") || n.includes("AUTEURS"))
+      return ["index-oeuvres", "Index des œuvres et des auteurs occitans cités"];
+    return ["index-noms", "Index des noms propres"];
+  };
+  for (let h = 0; h < indexHeads.length; h++) {
+    const startO = indexHeads[h].order;
+    const endO = (h + 1 < indexHeads.length ? indexHeads[h + 1].order : indexEnd) - 1;
+    const pids = byOrder.filter((m) => m.order >= startO && m.order <= endO).map((m) => m.pageid);
+    const [slug, title] = indexTitle(indexHeads[h].pageid);
+    descriptors.push({ slug, kind: "index", title, subtitle: "", pages: pids });
+  }
+
+  // ---- pageid -> section slug (for back-reference links) ---------------------
+  const pageToSection = new Map();
+  for (const d of descriptors) for (const p of d.pages) pageToSection.set(p, d.slug);
+
+  // ---- references keyed by page|note ----------------------------------------
+  const refIndex = new Map();
+  for (const r of references.resolved || []) {
+    const k = r.page + "|" + r.note;
+    if (!refIndex.has(k)) refIndex.set(k, []);
+    refIndex.get(k).push(r);
+  }
+
+  // ================= PASS 2: render ==========================================
+  const ctx = { md, defs, sigla, surnames, siglaCodes, footnoteNorm,
+    sidenoteCounter: { n: 0 }, refIndex, pageToSection };
+  const renderPages = (pids) => renderSection(pids.map(pageText).join("\n\n"), ctx);
+
+  // linear sections collect their footnotes into a synced notes panel.
+  // Footnote references are NORMALIZED everywhere except the faithful Livre chanson
+  // pages (kind === "chanson", served at /chanson-N/), which keep the printed text.
+  const sections = descriptors.map((d) => {
+    ctx.notesOut = [];
+    ctx.noteN = 0;
+    ctx.normalize = (d.kind !== "chanson");
+    const html = d.md != null ? renderSection(d.md, ctx) : renderPages(d.pages);
+    const notes = ctx.notesOut;
+    ctx.notesOut = null;
+    return { ...d, printed: printedRange(d.pages), html, notes };
+  });
+  ctx.notesOut = null; // studies keep in-place note disclosures
+  ctx.normalize = true; // /chansons/N/ study views are a reading view
+
+  const nav = sections.map((s) => ({
+    slug: s.slug, title: s.title, subtitle: s.subtitle, kind: s.kind, printed: s.printed,
+  }));
+
+  // ================= study views (/chansons/N/) ==============================
+  // vol-boundary title pages that leaked into a texte range (e.g. XXVI) are
+  // not chanson content — skip them
+  const skipPage = (pid) =>
+    kindOf.get(pid) === "plate-or-divider" || /RIJKSUNIVERSITEIT/i.test(bodyText(pid));
+
+  const parChanson = new Map(
+    (bibliography.par_chanson || []).map((b) => [b.chanson, b]));
+
+  const manuscripts = loadManuscripts();
+
+  const studies = chansons
+    .filter((c) => tpages(c).length)
+    .map((c) => {
+      const parsed = parseChanson(c, { pageText, ctx, skipPage, roman: c.roman });
+      return {
+        num: c.num, roman: c.roman,
+        incipit: (c.incipit || "").trim(),
+        printed: printedRange([...rpages(c), ...tpages(c)]),
+        livreSlug: "chanson-" + c.num,
+        tradition: parChanson.get(c.roman) || null,
+        manuscripts: manuscripts.get(c.roman) || [],
+        ...parsed,
+      };
+    });
+
+  return {
+    sections, nav, chansons, studies,
+    romanToNum: Object.fromEntries(chansons.map((c) => [c.roman, c.num])),
+    abbreviations: (citations.abbreviations || []).slice().sort((a, b) => a.siglum.localeCompare(b.siglum)),
+    unresolvedSigla: citations.unresolved || [],
+    manuscriptSigla: citations.manuscript_sigla || {},
+    bibliography,
+    referenceStats: references.stats,
+    counts: {
+      sections: sections.length, chansons: chansons.length,
+      footnotes: Object.keys(defs).length,
+      abbreviations: (citations.abbreviations || []).length,
+      backrefs: (references.resolved || []).length,
+    },
+  };
+}

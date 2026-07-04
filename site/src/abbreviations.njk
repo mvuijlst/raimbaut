@@ -1,0 +1,39 @@
+---
+layout: base.njk
+title: Abréviations et sigles
+permalink: /abbreviations/
+---
+<article class="prose">
+<header class="section-head">
+  <span class="u-eyebrow">Apparat</span>
+  <h1>Abréviations &amp; sigles</h1>
+  <p class="subtitle">Les sigles bibliographiques employés dans les notes.</p>
+</header>
+
+<dl class="abbrev-list">
+  {% for a in edition.abbreviations %}
+  <dt id="{{ a.siglum }}">{{ a.siglum }}</dt>
+  <dd>
+    {{ a.definition | mdInline | safe }}
+    {% if a.bibliography %}<span class="bib-link"> — voir la bibliographie
+      ({{ a.bibliography.author }}{% if a.bibliography.page %}, p. {{ a.bibliography.page }}{% endif %}).</span>{% endif %}
+  </dd>
+  {% endfor %}
+</dl>
+
+{% if edition.manuscriptSigla.singletons %}
+<section class="ms-sigla">
+  <h2>Sigles de manuscrits</h2>
+  <p>Les lettres isolées désignent les chansonniers médiévaux collationnés
+  (conventions Pillet-Carstens) : {{ edition.manuscriptSigla.singletons | join(", ") }}.</p>
+</section>
+{% endif %}
+
+{% if edition.unresolvedSigla.length %}
+<section class="unresolved">
+  <h2>Sigles non résolus</h2>
+  <p>Employés dans le texte mais sans définition explicite :
+  {{ edition.unresolvedSigla | join(", ") }}.</p>
+</section>
+{% endif %}
+</article>

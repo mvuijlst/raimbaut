@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} — Raimbaut d'Orange</title>
+  <script>try{var t=localStorage.getItem("rb-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="preload" href="/fonts/JunicodeVF-Roman.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/JunicodeVF-Italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/raimbaut.css">
+  <meta name="description" content="Édition électronique du chansonnier de Raimbaut d'Orange, troubadour provençal du XIIe siècle : texte occitan, traduction française, remarques et apparat critique.">
+</head>
+<body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+<header class="masthead">
+  <a href="/" class="brand">Raimbaut <span class="amp">d'</span>Orange</a>
+  {% set u = page.url %}
+  {% set active = "" %}
+  {% if u == "/introduction/" or u.startsWith("/avant-propos") %}{% set active = "intro" %}
+  {% elif u.startsWith("/chansons") or u.startsWith("/chanson-") %}{% set active = "chansons" %}
+  {% elif u.startsWith("/poetique") or u == "/conclusion/" %}{% set active = "poetique" %}
+  {% elif u.startsWith("/bibliographie") or u.startsWith("/abbreviations") or u.startsWith("/index-") %}{% set active = "biblio" %}
+  {% endif %}
+  <nav aria-label="Navigation principale">
+    <a href="/introduction/"{% if active == "intro" %} aria-current="page"{% endif %}>Introduction</a>
+    <a href="/chansons/"{% if active == "chansons" %} aria-current="page"{% endif %}>Chansons</a>
+    <a href="/poetique-1/"{% if active == "poetique" %} aria-current="page"{% endif %}>Poétique</a>
+    <a href="/bibliographie/"{% if active == "biblio" %} aria-current="page"{% endif %}>Bibliographie</a>
+  </nav>
+  <button type="button" class="theme-btn" id="theme-btn" aria-label="Thème clair ou sombre" title="Thème : automatique">◐</button>
+</header>
+{{ content | safe }}
+<footer class="colophon">
+  <p>Raimbaut d'Orange, édition électronique · <a href="/colophon/">Colophon</a></p>
+</footer>
+<script src="/js/edition.js" defer></script>
+</body>
+</html>

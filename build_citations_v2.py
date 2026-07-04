@@ -61,6 +61,39 @@ CURATED_V2 = {
 }
 
 
+# ---- hand-curated canonical siglum definitions ----------------------------
+# The ci-après harvest captures everything before "(ci-après X)", so a definition
+# inherits the incidental page range cited at first use (RO "pp.3-30", RvO
+# "pp.62-98", P.-C. "pp.XXIX-XXXV" …), plus the odd OCR typo (RO "PATTERSON" for
+# Pattison) or truncation artifact (GOD trailing "[", PDL "p.54 (*"). A siglum
+# stands for the WORK, not for those pages, so these are hand-cleaned. Only the
+# displayed `definition` string is replaced; the bibliography cross-link (set from
+# the surname, which was already correct) is kept. Substance/works unchanged —
+# incidental locators dropped, names spelled correctly.
+CURATED_DEFS = {
+    "RO":   "Walter T. PATTISON, *The Life and Works of the Troubadour Raimbaut "
+            "d'Orange*, Minneapolis, The University of Minnesota Press, 1952.",
+    "RvO":  "Carl APPEL, *Raimbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928.",
+    "P.-C.": "A. PILLET et H. CARSTENS, *Bibliographie der Troubadours*, Halle, 1933.",
+    "PAT":  "Linda M. PATERSON, *Troubadours and Eloquence*, Oxford, At The Clarendon "
+            "Press, 1975.",
+    "LR":   "M. RAYNOUARD, *Lexique roman ou Dictionnaire de la langue des troubadours "
+            "comparée avec les autres langues romanes*, Paris, 1836-1845 (réimpr. "
+            "Heidelberg, Carl Winter).",
+    "Leys": "*Las Flors del Gay Saber, estier dichas La Leys d'Amors*, traduction de "
+            "MM. d'AGUILAR et d'ESCOULOUBRE, revue et complétée par M. GATIEN-ARNOULT, "
+            "Toulouse, J.B. Paya, 1841-1843, 3 vols.",
+    "PDL":  "Emil LEVY, *Petit Dictionnaire provençal-français*, Heidelberg, Carl "
+            "Winter Verlag — Universitätsverlag, 1966 (4e éd.).",
+    "TOB":  "A. TOBLER et E. LOMMATZSCH, *Altfranzösisches Wörterbuch*.",
+    "GOD":  "Frédéric GODEFROY, *Dictionnaire de l'ancienne langue française et de "
+            "tous ses dialectes du IXe au XVe siècle*, Vaduz, Kraus Reprint, 1965 "
+            "(réimpr. de la 1re éd., Paris, 1880-1902).",
+    "REW":  "Wilhelm MEYER-LÜBKE, *Romanisches Etymologisches Wörterbuch*, Heidelberg, "
+            "1930-1932 (3e éd.).",
+}
+
+
 def keyify(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]", "", s.lower())
@@ -159,6 +192,12 @@ for a in abbr.values():
     tgt = link_bibliography(a["definition"], a["siglum"])
     if tgt:
         a["bibliography"] = tgt
+
+# apply hand-curated definitions (override the noisy ci-après snapshot; keep the link)
+for sig, defn in CURATED_DEFS.items():
+    if sig in abbr:
+        abbr[sig]["definition"] = defn
+        abbr[sig]["curated_definition"] = True
 
 # ---- fold curated overrides for sigla ci-après didn't reach ---------------
 # Only apply an override if the siglum is actually USED in v2 and not already

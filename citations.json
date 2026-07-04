@@ -21,7 +21,7 @@
       "bibliography": {
         "section": "general",
         "author": "ANGLADE",
-        "title": "Grammaire de l'ancien provençal ou ancienne langue d'oc — Phonétique et Morphologie",
+        "title": "ancien provençal ou ancienne langue d",
         "page": 478
       }
     },
@@ -60,7 +60,7 @@
     },
     {
       "siglum": "GOD",
-      "definition": "Frédéric GODEFROY, *Dictionnaire de l'ancienne langue française et de tous ses dialectes du IXe au XVe siècle*, Vaduz., Kraus Reprint, 1965 (réimpr. de 1^re^ éd. de Paris, 1880-1902), [",
+      "definition": "Frédéric GODEFROY, *Dictionnaire de l'ancienne langue française et de tous ses dialectes du IXe au XVe siècle*, Vaduz, Kraus Reprint, 1965 (réimpr. de la 1re éd., Paris, 1880-1902).",
       "defined_on_page": "v1p116",
       "printed": "111",
       "source": "ci-après",
@@ -69,11 +69,12 @@
         "author": "GODEFROY",
         "title": "Dictionnaire de l'ancienne langue française et de tous ses dialectes du IXe au XVe siècle",
         "page": 476
-      }
+      },
+      "curated_definition": true
     },
     {
       "siglum": "LR",
-      "definition": "M. RAYNOUARD, *Lexique roman ou Dictionnaire de la langue des troubadours comparée avec les autres langues romanes. Réimpression de l'original publiée à Paris, 1836-1845, Heidelberg, Carl Winterverlag, t.V, p.11",
+      "definition": "M. RAYNOUARD, *Lexique roman ou Dictionnaire de la langue des troubadours comparée avec les autres langues romanes*, Paris, 1836-1845 (réimpr. Heidelberg, Carl Winter).",
       "defined_on_page": "v1p044",
       "printed": "39",
       "source": "ci-après",
@@ -82,7 +83,8 @@
         "author": "RAYNOUARD",
         "title": "Lexique roman ou Dict. de la langue des troubadours comparée avec les langues romanes",
         "page": 481
-      }
+      },
+      "curated_definition": true
     },
     {
       "siglum": "LTF",
@@ -99,10 +101,11 @@
     },
     {
       "siglum": "Leys",
-      "definition": "*Las Flors del Gay Saber, estier dichas La Leys d'Amors*, traduction de MM. d'AGUILAR et d'ESCOULOUBRE, revue et complétée par M. GATIEN-ARNOULT, Toulouse, J.B. Paya, 1841-1843, 3 vols., t.I, pp.265-273",
+      "definition": "*Las Flors del Gay Saber, estier dichas La Leys d'Amors*, traduction de MM. d'AGUILAR et d'ESCOULOUBRE, revue et complétée par M. GATIEN-ARNOULT, Toulouse, J.B. Paya, 1841-1843, 3 vols.",
       "defined_on_page": "v1p009",
       "printed": "5",
-      "source": "ci-après"
+      "source": "ci-après",
+      "curated_definition": true
     },
     {
       "siglum": "MG",
@@ -113,7 +116,7 @@
       "bibliography": {
         "section": "general",
         "author": "MAHN",
-        "title": "Grammatik und Woerterbuch der altprovenzalischen Sprache. Vol. I : Lautlehre und Wortbiegungslehre",
+        "title": "Grammatik und Woerterbuch der altprovenzalischen Sprache. Vol. I : Lautlehre und Wortbiegungslehre",
         "page": 480
       }
     },
@@ -134,13 +137,13 @@
       "bibliography": {
         "section": "general",
         "author": "MAHN",
-        "title": "Grammatik und Woerterbuch der altprovenzalischen Sprache. Vol. I : Lautlehre und Wortbiegungslehre",
+        "title": "Grammatik und Woerterbuch der altprovenzalischen Sprache. Vol. I : Lautlehre und Wortbiegungslehre",
         "page": 480
       }
     },
     {
       "siglum": "P.-C.",
-      "definition": "A.PILLET et H.CARSTENS, *Bibliographie der Troubadours*, Halle, 1933, pp.XXIX-XXXV",
+      "definition": "A. PILLET et H. CARSTENS, *Bibliographie der Troubadours*, Halle, 1933.",
       "defined_on_page": "v1p019",
       "printed": "15",
       "source": "ci-après",
@@ -149,11 +152,12 @@
         "author": "PILLET",
         "title": "Bibliographie der Troubadours",
         "page": 491
-      }
+      },
+      "curated_definition": true
     },
     {
       "siglum": "PAT",
-      "definition": "Linda M. PATERSON, *Troubadours and Eloquence*, Oxford, At The Clarendon Press, 1975, pp.213-220",
+      "definition": "Linda M. PATERSON, *Troubadours and Eloquence*, Oxford, At The Clarendon Press, 1975.",
       "defined_on_page": "v1p009",
       "printed": "5",
       "source": "ci-après",
@@ -162,24 +166,26 @@
         "author": "PATERSON",
         "title": "Troubadour and Eloquence",
         "page": 491
-      }
+      },
+      "curated_definition": true
     },
     {
       "siglum": "PDL",
-      "definition": "Emil LEVY, *Petit Dictionnaire provençal-français*, Heidelberg, Carl Winter Verlag — Universitätsverlag, 1966, 4e éd., p.54 (*",
+      "definition": "Emil LEVY, *Petit Dictionnaire provençal-français*, Heidelberg, Carl Winter Verlag — Universitätsverlag, 1966 (4e éd.).",
       "defined_on_page": "v1p048",
       "printed": "43",
       "source": "ci-après",
       "bibliography": {
         "section": "general",
         "author": "LEVY",
-        "title": "Provenzalisches Supplement Wörterbuch. Berichtigungen und Ergänzungen zu Raynouards \"Lexique Roman\"",
+        "title": "Petit dictionnaire provençal — français",
         "page": 480
-      }
+      },
+      "curated_definition": true
     },
     {
       "siglum": "REW",
-      "definition": "Wilhelm MEYER-LUBKE, *Romanisches Etymologisches Wörterbuch*, Heidelberg, 1930-32, 3e éd",
+      "definition": "Wilhelm MEYER-LÜBKE, *Romanisches Etymologisches Wörterbuch*, Heidelberg, 1930-1932 (3e éd.).",
       "defined_on_page": "v1p134",
       "printed": "129",
       "source": "ci-après",
@@ -188,7 +194,8 @@
         "author": "MEYER-LUBKE",
         "title": "Romanisches Etymologisches Wörterbuch",
         "page": 477
-      }
+      },
+      "curated_definition": true
     },
     {
       "siglum": "RLR",
@@ -199,7 +206,7 @@
     },
     {
       "siglum": "RO",
-      "definition": "Walter T. PATTERSON, *The Life and Works of the Troubadour Raimbaut d'Orange*, Minneapolis, The University of Minnesota Press, 1952, pp.3-30",
+      "definition": "Walter T. PATTISON, *The Life and Works of the Troubadour Raimbaut d'Orange*, Minneapolis, The University of Minnesota Press, 1952.",
       "defined_on_page": "v1p005",
       "printed": "1",
       "source": "ci-après",
@@ -208,7 +215,8 @@
         "author": "PATTISON",
         "title": "The Life and Works of the Troubadour Raimbaut d'Orange",
         "page": 514
-      }
+      },
+      "curated_definition": true
     },
     {
       "siglum": "RPh",
@@ -220,16 +228,17 @@
     },
     {
       "siglum": "RvO",
-      "definition": "Carl APPEL, *Raimbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928, pp. 62-98",
+      "definition": "Carl APPEL, *Raimbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928.",
       "defined_on_page": "v1p006",
       "printed": "2",
       "source": "ci-après",
       "bibliography": {
         "section": "raimbaut",
         "author": "APPEL",
-        "title": "Poésies provençales inédites tirées des mss. d",
+        "title": "Raïmbaut von Orange",
         "page": 512
-      }
+      },
+      "curated_definition": true
     },
     {
       "siglum": "SW",
@@ -246,7 +255,7 @@
     },
     {
       "siglum": "TOB",
-      "definition": "A. TOBLER-LOMMATZSCH, *Altfranzösisches Wörterbuch*, t.II, p.626, l.3-7",
+      "definition": "A. TOBLER et E. LOMMATZSCH, *Altfranzösisches Wörterbuch*.",
       "defined_on_page": "v1p045",
       "printed": "40",
       "source": "ci-après",
@@ -255,7 +264,8 @@
         "author": "TOBLER",
         "title": "Altfranzösisches Wörterbuch",
         "page": 477
-      }
+      },
+      "curated_definition": true
     },
     {
       "siglum": "ZFSL",

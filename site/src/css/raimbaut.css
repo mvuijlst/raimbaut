@@ -1,0 +1,771 @@
+/* ==========================================================================
+   Raimbaut d'Orange — édition électronique
+   Type: Junicode 2 (Peter S. Baker, SIL OFL) — the medievalists' typeface,
+         cut after the 17th-c. Oxford types; variable, true small caps,
+         old-style figures. UI chrome: Alegreya Sans (Juan Pablo del Peral).
+   ========================================================================== */
+
+@font-face {
+  font-family: "Junicode";
+  src: url("/fonts/JunicodeVF-Roman.woff2") format("woff2-variations");
+  font-weight: 300 700;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Junicode";
+  src: url("/fonts/JunicodeVF-Italic.woff2") format("woff2-variations");
+  font-weight: 300 700;
+  font-stretch: 75% 125%;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url("/fonts/AlegreyaSans-400.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url("/fonts/AlegreyaSans-500.woff2") format("woff2");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url("/fonts/AlegreyaSans-400i.woff2") format("woff2");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+
+/* ---------------------------------------------------------------- tokens */
+:root {
+  --paper: #f9f5eb;
+  --paper-deep: #f2ecdd;
+  --paper-card: #fdfaf3;
+  --ink: #26211c;
+  --ink-soft: #574e44;
+  --muted: #8d8272;
+  --rule: #ded5c2;
+  --rule-soft: #e9e2d2;
+  --rubric: #a03123;
+  --rubric-deep: #7c251b;
+  --rubric-wash: rgba(160, 49, 35, 0.09);
+  --gold-wash: rgba(178, 141, 63, 0.12);
+  --serif: "Junicode", "Iowan Old Style", Georgia, serif;
+  --sans: "Alegreya Sans", "Gill Sans", "Segoe UI", sans-serif;
+  --masthead-h: 3.4rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #1c1915;
+    --paper-deep: #221e19;
+    --paper-card: #26221c;
+    --ink: #e9e2d3;
+    --ink-soft: #c9bfae;
+    --muted: #92897b;
+    --rule: #3b352c;
+    --rule-soft: #2e2922;
+    --rubric: #cf6a52;
+    --rubric-deep: #e08a72;
+    --rubric-wash: rgba(207, 106, 82, 0.14);
+    --gold-wash: rgba(178, 141, 63, 0.16);
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #1c1915;
+  --paper-deep: #221e19;
+  --paper-card: #26221c;
+  --ink: #e9e2d3;
+  --ink-soft: #c9bfae;
+  --muted: #92897b;
+  --rule: #3b352c;
+  --rule-soft: #2e2922;
+  --rubric: #cf6a52;
+  --rubric-deep: #e08a72;
+  --rubric-wash: rgba(207, 106, 82, 0.14);
+  --gold-wash: rgba(178, 141, 63, 0.16);
+}
+
+/* ------------------------------------------------------------------ base */
+* { box-sizing: border-box; }
+html {
+  font-size: 19px;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--masthead-h) + 1rem);
+}
+@media (max-width: 700px) { html { font-size: 17px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-weight: 390;
+  line-height: 1.62;
+  font-feature-settings: "onum" 1, "pnum" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+  counter-reset: sidenote;
+}
+::selection { background: var(--rubric-wash); }
+
+p { margin: 0 0 0.9em; }
+em, i { font-style: italic; }
+sup { font-size: 0.68em; line-height: 0; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem auto; width: 8rem; }
+
+h1, h2, h3, h4 { font-weight: 430; line-height: 1.2; margin: 0 0 0.6em; }
+
+a { color: inherit; text-decoration-color: color-mix(in srgb, var(--rubric) 55%, transparent); text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
+a:hover { color: var(--rubric); }
+:focus-visible { outline: 2px solid var(--rubric); outline-offset: 2px; border-radius: 1px; }
+
+.u-eyebrow, .rail-label, .panel-head, .mode-toggle, .masthead nav {
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 0.66rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.sc { font-feature-settings: "smcp" 1; letter-spacing: 0.05em; }
+
+[lang="oc"] { font-style: inherit; }
+
+/* -------------------------------------------------------------- masthead */
+.masthead {
+  position: sticky; top: 0; z-index: 40;
+  height: var(--masthead-h);
+  display: flex; align-items: center; gap: 2rem;
+  padding: 0 1.6rem;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--rule);
+}
+.masthead .brand {
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  font-weight: 470;
+  letter-spacing: 0.05em;
+  font-feature-settings: "smcp" 1;
+  text-decoration: none;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.masthead .brand .amp { color: var(--rubric); font-feature-settings: normal; font-style: italic; }
+.masthead nav { display: flex; gap: 1.5rem; margin-left: auto; }
+.masthead nav a { text-decoration: none; color: var(--muted); padding: 0.25rem 0; position: relative; }
+.masthead nav a:hover { color: var(--rubric); }
+.masthead nav a[aria-current] { color: var(--rubric); }
+.masthead nav a[aria-current]::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -2px;
+  height: 1.5px; background: var(--rubric);
+}
+.theme-btn {
+  font: inherit; font-size: 0.95rem; line-height: 1;
+  background: none; border: 0; color: var(--muted);
+  cursor: pointer; padding: 0.3rem 0.1rem;
+}
+.theme-btn:hover { color: var(--rubric); }
+@media (max-width: 900px) {
+  .masthead { gap: 1rem; padding: 0 1rem; overflow-x: auto; }
+  .masthead nav { gap: 1rem; }
+}
+
+/* -------------------------------------------------------------- colophon */
+.colophon {
+  max-width: 72rem; margin: 4rem auto 0; padding: 1.2rem 2rem 2.4rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.78rem; color: var(--muted);
+}
+
+/* ==================================================================== home */
+.home-hero {
+  max-width: 46rem; margin: 4.5rem auto 3rem; padding: 0 2rem; text-align: center;
+}
+.home-hero .u-eyebrow { display: block; margin-bottom: 1.4rem; }
+.home-hero h1 {
+  font-size: 3.4rem; font-weight: 380; letter-spacing: 0.01em; margin-bottom: 0.35em;
+}
+.home-hero .home-sub { font-size: 1.05rem; color: var(--ink-soft); font-style: italic; }
+.home-epigraph {
+  max-width: 30rem; margin: 3rem auto; padding: 0 2rem;
+  text-align: center; font-size: 1.15rem; line-height: 1.8;
+}
+.home-epigraph .verse-lines { display: block; }
+.home-epigraph cite {
+  display: block; margin-top: 0.9rem; font-style: normal;
+  font-size: 0.72rem; color: var(--muted);
+  font-family: var(--sans); letter-spacing: 0.14em; text-transform: uppercase;
+}
+.home-epigraph a { text-decoration: none; }
+.asterism { text-align: center; color: var(--rubric); font-size: 1.1rem; margin: 2.2rem 0; letter-spacing: 0.3em; }
+/* beat the justified-paragraph rule (.prose .edition-body > p) */
+.prose .edition-body .asterism, .edition-body p.asterism { text-align: center; text-indent: 0; }
+
+.home-doors {
+  max-width: 60rem; margin: 0 auto 3rem; padding: 0 2rem;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem;
+}
+.door {
+  display: block; padding: 1.15rem 1.3rem 1.25rem;
+  background: var(--paper-card); border: 1px solid var(--rule);
+  text-decoration: none;
+}
+.door:hover { border-color: var(--rubric); }
+.door .door-kicker { display: block; font-family: var(--sans); font-size: 0.62rem;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--rubric); margin-bottom: 0.4rem; }
+.door .door-title { font-size: 1.12rem; font-weight: 450; }
+.door .door-note { display: block; margin-top: 0.3rem; font-size: 0.8rem; color: var(--muted); }
+
+/* ============================================================ prose pages */
+.prose {
+  max-width: 74rem; margin: 0 auto; padding: 2.6rem 2rem 3rem;
+}
+.prose .section-head { max-width: 42rem; margin-bottom: 2.4rem; }
+.prose .section-head h1 { font-size: 2rem; font-weight: 420; }
+.prose .section-head .incipit { font-size: 1.15rem; color: var(--ink-soft); }
+.prose .section-head .printed-range,
+.study .printed-range { font-family: var(--sans); font-size: 0.68rem;
+  letter-spacing: 0.13em; text-transform: uppercase; color: var(--muted); }
+.prose .edition-body > * { max-width: 42rem; }
+.prose .edition-body { hyphens: auto; }
+.prose .edition-body > p { text-align: justify; text-justify: inter-character; }
+
+/* verse blocks on linear (livre) pages */
+[data-verse] {
+  white-space: pre-wrap;
+  margin: 1.4rem 0 1.4rem 1.6rem;
+  line-height: 1.7;
+}
+
+/* ------------------------------------------------- sidenotes (livre view) */
+label.sidenote-number { cursor: pointer; }
+label.sidenote-number::after {
+  counter-increment: sidenote;
+  content: counter(sidenote);
+  font-size: 0.66em; vertical-align: super; line-height: 0;
+  color: var(--rubric); font-weight: 500; padding: 0 0.08em;
+}
+input.margin-toggle { display: none; }
+.sidenote {
+  display: block;
+  float: right; clear: right;
+  width: 24rem; margin-right: -28rem; margin-bottom: 0.9rem;
+  font-size: 0.78rem; line-height: 1.5; color: var(--ink-soft);
+}
+.sidenote::before {
+  counter-increment: none;
+  content: counter(sidenote) ". ";
+  color: var(--rubric); font-weight: 500;
+}
+@media (max-width: 1360px) {
+  .prose .sidenote {
+    display: none; float: none; width: auto; margin: 0.6rem 0 0.9rem;
+    padding: 0.7rem 0.9rem; border-left: 2px solid var(--rubric);
+    background: var(--paper-deep);
+  }
+  .prose input.margin-toggle:checked + .sidenote { display: block; }
+}
+
+/* ============================================================= study page */
+.study {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 24rem;
+  gap: 2.6rem;
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+@media (min-width: 1740px) {
+  .study { grid-template-columns: 10rem minmax(0, 1fr) 26rem; gap: 3rem; }
+}
+.study-main { padding: 2.4rem 0 4rem; min-width: 0; }
+
+/* ---- header ---- */
+.ch-head { margin-bottom: 2.6rem; }
+.ch-head .u-eyebrow a { text-decoration: none; color: inherit; }
+.ch-head .u-eyebrow a:hover { color: var(--rubric); }
+.ch-head h1 { display: flex; align-items: baseline; gap: 1.1rem; margin: 0.55rem 0 0.4rem; flex-wrap: wrap; }
+.ch-roman {
+  font-size: 3.1rem; font-weight: 340; letter-spacing: 0.04em;
+  color: var(--rubric); line-height: 1;
+}
+.ch-incipit { font-size: 1.7rem; font-style: italic; font-weight: 380; }
+.ch-meta { display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap; margin-top: 0.9rem; }
+
+.mode-toggle { display: inline-flex; border: 1px solid var(--rule); }
+.mode-toggle button, .mode-toggle a {
+  font: inherit; letter-spacing: inherit; text-transform: inherit;
+  background: none; border: 0; color: var(--muted);
+  padding: 0.32rem 0.75rem; cursor: pointer; text-decoration: none;
+}
+.mode-toggle [aria-pressed="true"] { background: var(--rubric); color: var(--paper); }
+.mode-toggle button + button, .mode-toggle a { border-left: 1px solid var(--rule); }
+
+.ch-pager { margin-left: auto; display: flex; gap: 0.9rem; font-family: var(--sans); font-size: 0.78rem; }
+.ch-pager a { text-decoration: none; color: var(--muted); }
+.ch-pager a:hover { color: var(--rubric); }
+
+.tradition { max-width: 42rem; margin-top: 1.3rem; font-size: 0.82rem; }
+.tradition summary {
+  cursor: pointer; list-style: none; display: inline-block;
+  font-family: var(--sans); font-size: 0.66rem; font-weight: 500;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+  border-bottom: 1px dotted var(--muted); padding-bottom: 1px;
+}
+.tradition summary::-webkit-details-marker { display: none; }
+.tradition summary:hover { color: var(--rubric); border-color: var(--rubric); }
+.tradition[open] summary { color: var(--rubric); }
+.tradition .trad-body { margin-top: 0.8rem; padding: 0.9rem 1.1rem; background: var(--paper-deep); border-left: 2px solid var(--rule); }
+.tradition .trad-body h4 { font-size: 0.72rem; font-family: var(--sans); letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--muted); margin: 0.7rem 0 0.25rem; font-weight: 500; }
+.tradition .trad-body h4:first-child { margin-top: 0; }
+.source-note { font-size: 0.8rem; color: var(--muted); font-style: italic; margin-top: 0.8rem; }
+
+.ms-figures { display: flex; flex-wrap: wrap; gap: 1.2rem; align-items: flex-start; }
+.ms-figures figure { margin: 0; max-width: 17rem; }
+.ms-figures img {
+  display: block; max-width: 100%; max-height: 24rem; width: auto;
+  border: 1px solid var(--rule);
+}
+.ms-figures a { display: inline-block; }
+.ms-figures figcaption {
+  margin-top: 0.4rem; font-size: 0.72rem; color: var(--muted); line-height: 1.45;
+}
+:root[data-theme="dark"] .ms-figures img { opacity: 0.92; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .ms-figures img { opacity: 0.92; }
+}
+
+/* ---- the poem ---- */
+.strophe-row {
+  display: grid;
+  grid-template-columns: minmax(0, 27rem) minmax(14rem, 1fr);
+  gap: 2.4rem;
+  margin-bottom: 1.9rem;
+  align-items: start;
+}
+.strophe-row.solo { grid-template-columns: minmax(0, 27rem); }
+.trad-solo { max-width: 34rem; margin-bottom: 1.4rem; }
+
+.oc { font-size: 1.06rem; line-height: 1.66; }
+.vline { position: relative; margin: 0; padding-left: 2.6rem; }
+.vline .lno {
+  position: absolute; left: 0; top: 0.14em; width: 1.7rem; text-align: right;
+  font-size: 0.66rem; line-height: 1.9;
+  font-variant-numeric: lining-nums tabular-nums;
+  color: var(--muted); opacity: 0;
+  user-select: none;
+}
+.vline.q5 .lno { opacity: 0.85; }
+.oc:hover .vline .lno { opacity: 0.5; }
+.oc:hover .vline.q5 .lno { opacity: 0.95; }
+
+.vmark {
+  position: absolute; left: 0.05rem; top: 0.62em;
+  width: 0.42rem; height: 0.42rem;
+  background: var(--rubric); border-radius: 50%;
+  text-decoration: none;
+  transition: transform 120ms ease;
+}
+.vmark::after { content: ""; position: absolute; inset: -12px; }
+.vmark:hover { transform: scale(1.5); }
+.caesura { display: inline-block; min-width: 1.3em; }
+
+.pulse { animation: pulse-bg 2s ease-out; }
+@keyframes pulse-bg {
+  0% { background: var(--rubric-wash); box-shadow: 0 0 0 6px var(--rubric-wash); }
+  100% { background: transparent; box-shadow: 0 0 0 6px transparent; }
+}
+@media (prefers-reduced-motion: reduce) { .pulse { animation: none; background: var(--rubric-wash); } }
+
+/* ---- translation ---- */
+.fr {
+  font-size: 0.9rem; line-height: 1.6; color: var(--ink-soft);
+  border-left: 1px solid var(--rule);
+  padding-left: 1.4rem;
+  hyphens: auto;
+}
+.fr p { margin: 0 0 0.7em; }
+.fr p:last-child { margin-bottom: 0; }
+
+/* footnote calls inside translation + panel become in-place disclosures */
+.fr .sidenote, .study-panel .sidenote, .lemma .sidenote {
+  display: none; float: none; width: auto; margin: 0.55rem 0 0.8rem;
+  padding: 0.6rem 0.8rem; border-left: 2px solid var(--rubric);
+  background: var(--paper-card);
+  font-size: 0.78rem; line-height: 1.5; color: var(--ink-soft);
+}
+.fr input.margin-toggle:checked + .sidenote,
+.study-panel input.margin-toggle:checked + .sidenote { display: block; }
+
+/* ---- hand marginalia records ---- */
+.hand { font-style: italic; color: var(--muted); font-size: 0.82em; }
+.hand::before { content: "✎\00a0"; opacity: 0.7; }
+p.hand-aside { max-width: 27rem; font-size: 0.78rem; margin: -0.9rem 0 1.6rem; }
+
+/* ============================================================== the panel */
+.study-panel {
+  position: sticky; top: var(--masthead-h);
+  align-self: start;
+  height: calc(100vh - var(--masthead-h));
+  display: flex; flex-direction: column;
+  border-left: 1px solid var(--rule);
+  background: linear-gradient(to right, var(--paper-deep), var(--paper) 14rem);
+}
+.panel-head {
+  display: flex; align-items: center; gap: 0.8rem;
+  padding: 1.1rem 1.4rem 0.7rem;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.panel-head .resync {
+  margin-left: auto; font: inherit; letter-spacing: inherit; text-transform: inherit;
+  background: none; border: 1px solid var(--rule); color: var(--rubric);
+  padding: 0.15rem 0.55rem; cursor: pointer;
+}
+.panel-scroll { overflow-y: auto; overscroll-behavior: contain; flex: 1; padding: 1.1rem 1.4rem 40vh; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { .panel-scroll { scroll-behavior: auto; } }
+
+.panel-scroll { font-size: 0.84rem; line-height: 1.58; }
+.panel-scroll .rem-heading { font-size: 0.72rem; color: var(--muted); font-feature-settings: "smcp" 1; letter-spacing: 0.08em; margin-bottom: 1rem; }
+.panel-scroll .headnote p { text-align: left; }
+
+.lemma { margin: 1.6rem 0 0; padding-top: 0.2rem; }
+.lemma-head {
+  position: sticky; top: -1.1rem; z-index: 2;
+  margin: 0 -0.5rem 0.5rem; padding: 0.45rem 0.5rem 0.35rem;
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  backdrop-filter: blur(4px);
+  font-size: 0.8rem; font-weight: 500;
+  display: flex; align-items: baseline; gap: 0.7rem;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.lemma-head a.lemma-anchor {
+  color: var(--rubric); text-decoration: none;
+  font-variant-numeric: lining-nums;
+  letter-spacing: 0.03em;
+}
+.lemma-head a.lemma-anchor::before { content: "◆"; font-size: 0.6em; margin-right: 0.45em; vertical-align: 0.2em; }
+.lemma-head a.lemma-anchor:hover { color: var(--rubric-deep); }
+.lemma-quote {
+  font-style: italic; color: var(--muted); font-size: 0.8rem;
+  margin: 0.1rem 0 0.55rem;
+}
+.lemma-quote::before { content: "«\202f"; }
+.lemma-quote::after { content: "\202f»"; }
+.panel-empty { color: var(--muted); font-style: italic; }
+
+/* ---- prose sections with a synced notes panel ---- */
+.prose-study.no-notes { display: block; }
+.prose-study .prose { max-width: none; margin: 0; padding: 2.4rem 0 3rem; }
+.prose-study.no-notes .prose { max-width: 74rem; margin: 0 auto; padding: 2.4rem 2rem 3rem; }
+
+a.fnref { text-decoration: none; color: var(--rubric); font-weight: 500; }
+a.fnref sup { font-size: 0.66em; padding: 0 0.06em; }
+a.fnref:hover sup { text-decoration: underline; }
+
+.fnote {
+  position: relative; padding-left: 1.7rem; margin: 0 0 0.9rem;
+  line-height: 1.5; color: var(--ink-soft);
+}
+.fnote .fnote-n {
+  position: absolute; left: 0; top: 0;
+  color: var(--rubric); text-decoration: none; font-weight: 500;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.fnote .fnote-n:hover { text-decoration: underline; }
+
+/* compact expansion after a siglum's first occurrence in a note */
+.siglum-x { color: var(--muted); font-style: normal; font-size: 0.92em; }
+
+/* apparatus: sigla are in-place disclosures (click = expand full citation) */
+.siglum {
+  cursor: pointer;
+  color: var(--rubric);
+  font-feature-settings: "smcp" 1; letter-spacing: 0.05em; font-style: normal;
+  border-bottom: 1px dotted color-mix(in srgb, var(--rubric) 60%, transparent);
+}
+.siglum:hover, .siglum[aria-expanded="true"] { border-bottom-style: solid; }
+.siglum-def {
+  display: block; margin: 0.4em 0 0.6em; padding: 0.5em 0.8em;
+  border-left: 2px solid var(--rule); background: var(--paper-deep);
+  font-size: 0.9em; font-style: normal; color: var(--ink-soft);
+}
+.siglum-def[hidden] { display: none; }
+
+/* reading view: sigla are <abbr> linked to the conspectus (rule 10). Canonical
+   casing kept as letters; small-caps is a font treatment; dotted border only. */
+abbr.siglum-abbr { text-decoration: none; border: 0; }
+abbr.siglum-abbr > a {
+  text-decoration: none; color: var(--rubric);
+  font-feature-settings: "smcp" 1; letter-spacing: 0.05em;
+  border-bottom: 1px dotted color-mix(in srgb, var(--rubric) 60%, transparent);
+}
+abbr.siglum-abbr > a:hover { border-bottom-color: var(--rubric); }
+
+/* tables (reconstructed from the typescript) */
+.edition-body table {
+  border-collapse: collapse; margin: 1.5rem 0; width: 100%;
+  font-size: 0.86rem; font-variant-numeric: lining-nums tabular-nums;
+}
+.edition-body th {
+  font-weight: 500; text-align: left; padding: 0.3rem 1.1rem 0.35rem 0;
+  border-bottom: 1px solid var(--ink-soft); color: var(--muted);
+}
+.edition-body td { padding: 0.28rem 1.1rem 0.28rem 0; border-top: 1px solid var(--rule-soft); vertical-align: top; }
+.edition-body td.num, .edition-body th.num { text-align: right; }
+.edition-body .ro-cell { color: var(--rubric); }
+.edition-body tr.ro-cell td { color: var(--rubric); }
+
+/* per-factor ranking table (p. 20): the printed cote as a hanging rank */
+.cote-table td { width: 33.33%; }
+/* hanging indent: cote in a fixed gutter, wrapped names align under the name */
+.cote-table .cote {
+  float: left; width: 2em; margin-right: 0.5em; text-align: right;
+  color: var(--muted); font-size: 0.82em; font-variant-numeric: tabular-nums;
+}
+.cote-table .lbl { display: block; overflow: hidden; }
+.cote-table .val { color: var(--muted); font-size: 0.88em; white-space: nowrap; }
+.cote-table tr.ro-cell .val, .cote-table .ro-cell .val { color: inherit; }
+
+/* frequency table (p. 27) */
+.freq-table { max-width: 30rem; }
+
+/* banded "Classement / Regroupements" comparison (p. 29) */
+.grouping-table td { width: 50%; border: 1px solid var(--rule); padding: 0.7rem 1rem; }
+.grouping-table thead th { border: 1px solid var(--rule); padding: 0.5rem 1rem; vertical-align: top; }
+.grouping-table .grp-l {
+  float: left; margin-right: 0.6rem; font-weight: 500; color: var(--muted);
+}
+.grouping-table ul { list-style: none; margin: 0; padding: 0; overflow: hidden; }
+.grouping-table li { margin: 0.05rem 0; }
+.grouping-table .moved {
+  border-bottom: 1.5px solid var(--rubric); color: var(--rubric); font-weight: 500;
+}
+
+/* reconstructed figures */
+figure.chart { margin: 1.8rem 0; }
+.edition-body > figure.chart { max-width: 52rem; }
+.edition-body > figure.chart.slope { max-width: 52rem; }
+.edition-body > figure.chart:has(.cote-table),
+.edition-body > figure.chart:has(.grouping-table) { max-width: 46rem; }
+figure.chart .tline:hover polyline { stroke: var(--ink); opacity: 1; }
+figure.chart .tline:hover circle { fill: var(--ink); }
+figure.chart .tline.ro:hover polyline { stroke: var(--rubric); }
+figure.chart .tline.ro:hover circle { fill: var(--rubric); }
+figure.chart figcaption, figure.portrait figcaption {
+  margin-top: 0.5rem; font-size: 0.75rem; color: var(--muted); line-height: 1.5;
+}
+
+/* portrait (colophon) */
+figure.portrait { margin: 0 0 1.4rem; max-width: 42rem; }
+figure.portrait img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); }
+
+/* poétique part navigation — a compact sticky strip */
+.poetique-bar {
+  position: sticky; top: var(--masthead-h); z-index: 20;
+  display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap;
+  margin: 0 0 2rem; padding: 0.6rem 0;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans);
+}
+.poetique-bar .pb-here {
+  font-size: 0.82rem; color: var(--ink); font-weight: 500; white-space: nowrap;
+}
+.poetique-bar .pb-here .pb-kicker {
+  display: block; font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--muted); font-weight: 500;
+}
+.poetique-bar ol {
+  display: flex; gap: 0.4rem; align-items: center; margin: 0 0 0 auto; padding: 0;
+  list-style: none; flex-wrap: wrap;
+}
+.poetique-bar li a {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 1.7rem; height: 1.7rem; padding: 0 0.35rem;
+  border: 1px solid var(--rule); border-radius: 999px;
+  font-size: 0.74rem; text-decoration: none; color: var(--ink-soft);
+}
+.poetique-bar li a:hover { border-color: var(--rubric); color: var(--rubric); }
+.poetique-bar li a[aria-current="true"] {
+  background: var(--rubric); border-color: var(--rubric); color: var(--paper); font-weight: 500;
+}
+@media (max-width: 700px) {
+  .poetique-bar { gap: 0.5rem; }
+  .poetique-bar .pb-here { flex: 1 1 100%; }
+  .poetique-bar ol { margin-left: 0; }
+}
+
+/* verse-reference labels never break */
+.lemma-anchor, .backtov, .study-rail .lemmas a { white-space: nowrap; }
+
+/* manuscript lightbox */
+dialog.lightbox {
+  border: 0; padding: 0; width: 100vw; height: 100vh;
+  max-width: 100vw; max-height: 100vh;
+  background: rgba(18, 15, 12, 0.94); overflow: hidden;
+}
+dialog.lightbox::backdrop { background: transparent; }
+.lb-stage { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; cursor: grab; }
+.lb-stage.panning { cursor: grabbing; }
+.lb-stage img { max-width: 92vw; max-height: 92vh; user-select: none; -webkit-user-drag: none; }
+.lb-close {
+  position: absolute; top: 0.8rem; right: 1rem; z-index: 2;
+  font: 500 1.4rem/1 var(--sans); color: #e9e2d3;
+  background: none; border: 0; cursor: pointer; padding: 0.4rem;
+}
+.lb-caption {
+  position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+  padding: 0.7rem 1.2rem; text-align: center;
+  font-family: var(--sans); font-size: 0.75rem; color: #cfc8b8;
+}
+a.backref { text-decoration: none; color: inherit; font-style: italic;
+  border-bottom: 1px dotted var(--muted); }
+a.backref:hover { color: var(--rubric); border-color: var(--rubric); }
+a.backref[data-conf="low"], a.backref[data-conf="medium"] { border-bottom-style: dashed; }
+.underline { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.14em; }
+.unclear { text-decoration: underline wavy color-mix(in srgb, var(--muted) 60%, transparent); text-decoration-thickness: 1px; cursor: help; }
+.sidenote-missing { color: var(--rubric); }
+
+/* ================================================================== rail */
+.study-rail {
+  display: none;
+  position: sticky; top: var(--masthead-h);
+  align-self: start;
+  max-height: calc(100vh - var(--masthead-h));
+  overflow-y: auto;
+  padding: 2.6rem 0 2rem;
+  font-family: var(--sans); font-size: 0.75rem;
+}
+@media (min-width: 1740px) { .study-rail { display: block; } }
+.rail-group { margin-bottom: 1.6rem; }
+.rail-label { display: block; margin-bottom: 0.5rem; }
+.study-rail ol { list-style: none; margin: 0; padding: 0; }
+.study-rail li { margin: 0.12rem 0; }
+.study-rail a { text-decoration: none; color: var(--ink-soft); display: flex; align-items: baseline; gap: 0.45rem; padding: 0.06rem 0; }
+.study-rail a:hover { color: var(--rubric); }
+.study-rail .dots { color: var(--rubric); font-size: 0.55rem; letter-spacing: 0.1em; }
+.study-rail .lemmas a { font-variant-numeric: lining-nums tabular-nums; }
+.study-rail a.active { color: var(--rubric); }
+
+/* ======================================================== mode: lecture */
+.study[data-mode="lecture"] { grid-template-columns: minmax(0, 1fr); max-width: 72rem; }
+.study[data-mode="lecture"] .study-rail,
+.study[data-mode="lecture"] .study-panel,
+.study[data-mode="lecture"] .vmark,
+.study[data-mode="lecture"] .hand,
+.study[data-mode="lecture"] p.hand-aside { display: none; }
+.study[data-mode="lecture"] .strophe-row { grid-template-columns: minmax(0, 27rem) minmax(0, 30rem); justify-content: center; }
+.study[data-mode="lecture"] .ch-head { text-align: center; }
+.study[data-mode="lecture"] .ch-head h1 { justify-content: center; }
+.study[data-mode="lecture"] .ch-meta { justify-content: center; }
+.study[data-mode="lecture"] .ch-pager { margin-left: 0; }
+.study[data-mode="lecture"] .tradition { margin-left: auto; margin-right: auto; }
+
+/* ============================================================ responsive */
+@media (max-width: 1420px) {
+  .study { grid-template-columns: minmax(0, 1fr) 23rem; gap: 2.2rem; }
+  /* étude: the poem keeps its measure; the translation tucks below, aligned
+     with the verse gutter — the strophe stays the pairing unit */
+  .study[data-mode="etude"] .strophe-row { grid-template-columns: minmax(0, 29rem); gap: 0.5rem; }
+  .study[data-mode="etude"] .strophe-row .fr {
+    border-left: 0; padding-left: 2.6rem; max-width: 31rem;
+  }
+}
+@media (max-width: 1080px) {
+  .study { display: block; }
+  .study-panel {
+    position: static; height: auto; border-left: 0;
+    border-top: 1px solid var(--rule); margin-top: 2rem;
+    background: none;
+  }
+  .panel-scroll { overflow: visible; padding: 1.2rem 0 2rem; }
+  .lemma-head { position: static; margin: 0 0 0.5rem; padding: 0.3rem 0; background: none; }
+  .panel-head { padding: 1.2rem 0 0.5rem; }
+  .panel-head .resync { display: none; }
+  .study[data-mode="lecture"] .strophe-row { justify-content: start; }
+}
+@media (max-width: 760px) {
+  .strophe-row { grid-template-columns: minmax(0, 1fr); gap: 0.9rem; margin-bottom: 2.2rem; }
+  .study[data-mode="lecture"] .strophe-row { grid-template-columns: minmax(0, 1fr); }
+  .fr { border-left: 0; padding-left: 2.6rem; font-size: 0.86rem; }
+  .ch-roman { font-size: 2.4rem; }
+  .ch-incipit { font-size: 1.35rem; }
+}
+
+/* back-to-verse link at the end of each lemma */
+.lemma .backtov { font-family: var(--sans); font-size: 0.68rem; letter-spacing: 0.1em;
+  text-transform: uppercase; text-decoration: none; color: var(--muted); }
+.lemma .backtov:hover { color: var(--rubric); }
+
+/* ========================================================= chansons index */
+.ch-index { max-width: 56rem; margin: 0 auto; padding: 2.6rem 2rem 3rem; }
+.ch-index .section-head { margin-bottom: 2rem; }
+.ch-index h1 { font-size: 2rem; font-weight: 420; }
+table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.ch-table td { padding: 0.5rem 0.8rem; border-top: 1px solid var(--rule-soft); vertical-align: baseline; }
+.ch-table tr:hover td { background: var(--gold-wash); }
+.ch-table .t-roman { width: 4.2rem; text-align: right; color: var(--rubric);
+  font-variant-numeric: lining-nums; letter-spacing: 0.06em; }
+.ch-table .t-roman a { color: inherit; text-decoration: none; }
+.ch-table .t-incipit a { text-decoration: none; font-style: italic; font-size: 1.04rem; }
+.ch-table .t-incipit a:hover { color: var(--rubric); }
+.ch-table .t-n { text-align: right; font-size: 0.72rem; color: var(--muted);
+  font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
+.ch-table .t-livre { text-align: right; }
+.ch-table .t-livre a { font-family: var(--sans); font-size: 0.66rem; letter-spacing: 0.12em;
+  text-transform: uppercase; text-decoration: none; color: var(--muted); }
+.ch-table .t-livre a:hover { color: var(--rubric); }
+
+/* ================================================== bibliography, sigles */
+.abbrev-list dt { font-weight: 500; font-feature-settings: "smcp" 1; letter-spacing: 0.06em;
+  margin-top: 1rem; color: var(--rubric); }
+.abbrev-list dd { margin: 0.1rem 0 0.5rem; max-width: 42rem; }
+.abbrev-list .bib-link { color: var(--muted); font-size: 0.85rem; }
+.bib-list { list-style: none; padding: 0; max-width: 46rem; }
+.bib-list li { margin: 0 0 0.7rem; padding-left: 1.6rem; text-indent: -1.6rem; font-size: 0.92rem; }
+.siglum-tag { font-feature-settings: "smcp" 1; font-weight: 500; color: var(--rubric); }
+.parchanson { max-width: 46rem; }
+
+/* index pages keep their printed line layout */
+.index-body { font-size: 0.88rem; }
+.index-body [data-verse], .index-body p { white-space: pre-wrap; }
+
+/* pager on linear pages */
+.section-pager {
+  max-width: 42rem; margin: 3rem 0 0; padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+  display: flex; justify-content: space-between; gap: 2rem;
+  font-size: 0.85rem;
+}
+.section-pager a { text-decoration: none; color: var(--ink-soft); }
+.section-pager a:hover { color: var(--rubric); }
+
+.view-links { font-family: var(--sans); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; }
+.view-links a { text-decoration: none; color: var(--muted); }
+.view-links a:hover { color: var(--rubric); }
+
+/* page anchors are invisible provenance markers */
+.page-anchor { display: inline-block; width: 0; height: 0; overflow: hidden; }
+
+/* Conditional content by view. `.livre-only` is preserved in the source and
+   shown only in the faithful "Livre" reproduction (the page carries .is-livre);
+   it is hidden in every modernised reading view. `.reading-only` is the mirror.
+   Works on inline spans ([x]{.livre-only}) and block divs (::: {.livre-only}). */
+.livre-only { display: none; }
+.is-livre .livre-only { display: revert; }
+.is-livre .reading-only { display: none; }
+
+/* ------------------------------------------------------------------ print */
+@media print {
+  .masthead, .study-rail, .mode-toggle, .ch-pager, .panel-head .resync, .vmark { display: none !important; }
+  .study { display: block; }
+  .study-panel { position: static; height: auto; border: 0; background: none; }
+  .panel-scroll { overflow: visible; padding: 0; }
+  body { background: white; color: black; }
+  .sidenote { display: block; float: none; width: auto; margin: 0.4rem 0; }
+}

@@ -1,0 +1,46 @@
+---
+layout: base.njk
+title: Bibliographie
+permalink: /bibliographie/
+---
+<article class="prose">
+<header class="section-head">
+  <span class="u-eyebrow">Apparat</span>
+  <h1>Bibliographie</h1>
+  <p class="subtitle">D'après la bibliographie du volume II de la thèse.</p>
+  <p class="view-links"><a href="/abbreviations/">Sigles &amp; abréviations →</a></p>
+</header>
+
+<section>
+  <h2>Ouvrages et articles sur Raimbaut d'Orange</h2>
+  <ul class="bib-list">
+    {% for e in edition.bibliography.raimbaut %}
+    <li>{% if e.siglum %}<span class="siglum-tag">[{{ e.siglum }}]</span> {% endif %}{{ e.text | mdInline | safe }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Bibliographie générale</h2>
+  <ul class="bib-list">
+    {% for e in edition.bibliography.general %}
+    <li>{% if e.siglum %}<span class="siglum-tag">[{{ e.siglum }}]</span> {% endif %}{{ e.text | mdInline | safe }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Bibliographie par chanson</h2>
+  {% for c in edition.bibliography.par_chanson %}
+  <div class="parchanson">
+    <h3>Chanson {{ c.chanson }}</h3>
+    {% if c.manuscrits %}<p><strong>Manuscrits.</strong> {{ c.manuscrits | mdInline | safe }}</p>{% endif %}
+    {% if c.editions.length %}
+    <ul class="bib-list">
+      {% for ed in c.editions %}<li>{{ ed | mdInline | safe }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+</article>

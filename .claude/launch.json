@@ -2,11 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "edition",
+      "name": "raimbaut",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "site", "run", "serve", "--", "--port=8213"],
-      "port": 8213,
-      "autoPort": false
+      "runtimeArgs": ["--prefix", "site", "run", "serve", "--", "--port", "8099"],
+      "port": 8099
     }
   ]
 }

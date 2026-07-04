@@ -1,10 +1,10 @@
 {
   "stats": {
-    "resolved": 472,
-    "unresolved": 5,
-    "high_conf": 126,
-    "medium_conf": 345,
-    "low_conf": 1,
+    "resolved": 473,
+    "unresolved": 4,
+    "high_conf": 125,
+    "medium_conf": 348,
+    "low_conf": 0,
     "via_bibliography": 9
   },
   "resolved": [
@@ -1469,7 +1469,7 @@
       "author": "M.L. DEJEANNE",
       "target": {
         "author": "DEJEANNE",
-        "title": "Poésies complètes du troubadour Marcabru",
+        "title": "",
         "page": 504,
         "source": "bibliography",
         "section": "general"
@@ -4631,12 +4631,12 @@
       "author": "Frank R. HAMLIN, Peter T. RICKETTS et John HATHAWAY",
       "target": {
         "author": "HAMLIN",
-        "title": "Introduction à l'étude de l'ancien provençal. Textes d'étude",
+        "title": "",
         "page": 498,
         "source": "bibliography",
         "section": "general"
       },
-      "confidence": "high",
+      "confidence": "medium",
       "note_hint": "resolved via bibliography (not previously cited in a footnote)"
     },
     {
@@ -5922,18 +5922,31 @@
     },
     {
       "page": "v2p116",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Erich KÖHLER",
+      "author": "Erich KÖHLER",
+      "target": {
+        "author": "Erich KÖHLER",
+        "title": "Observations historiques et sociologiques sur la poésie des troubadours",
+        "page": "v2p103",
+        "note": "5"
+      },
+      "confidence": "medium"
+    },
+    {
+      "page": "v2p116",
       "note": "4",
       "kind": "named",
-      "phrase": "Erich KÜHLER",
-      "author": "Erich KÜHLER",
+      "phrase": "Erich KÖHLER",
+      "author": "Erich KÖHLER",
       "target": {
-        "author": "Erich KÜHLER",
-        "title": "(reference on this page)",
-        "page": "v2p116",
-        "note": "2"
+        "author": "Erich KÖHLER",
+        "title": "Observations historiques et sociologiques sur la poésie des troubadours",
+        "page": "v2p103",
+        "note": "5"
       },
-      "confidence": "low",
-      "loose": "points to prior mention; full citation not parsed"
+      "confidence": "medium"
     },
     {
       "page": "v2p117",
@@ -6426,14 +6439,6 @@
       "kind": "named",
       "phrase": "Frank R. HAMITN...",
       "author": "Frank R. HAMITN...",
-      "reason": "author not previously cited"
-    },
-    {
-      "page": "v2p116",
-      "note": "2",
-      "kind": "named",
-      "phrase": "Erich KÜHLER",
-      "author": "Erich KÜHLER",
       "reason": "author not previously cited"
     }
   ]

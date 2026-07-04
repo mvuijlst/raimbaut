@@ -238,7 +238,13 @@ Bien sûr, tel quel ce tableau ne se laisse que fort difficilement interpréter,
 
 <!-- page: v1p021 -->
 
-Dans ce tableau nous donnons, pour chaque troubadour considéré, sa position respective suivie, entre parenthèses, du nombre exact de chansons (de mss., d'occurrences). Les sigles correspondant à chaque troubadour se traduisent comme suit: [Gu]{.underline}= Guillaume IX; [JR]{.underline}= Jaufre Rudel; [Ma]{.underline}= Marcabru; [Ce]{.underline}= Cercamon; [BM]{.underline}= Bernard Marti; [RB]{.underline}= Rigaut de Barbézieux; [BV]{.underline}= Bernard de Ventadour; [PA]{.underline}= Peire d'Auvergne; [GB]{.underline}= Giraut de Bornelh; [AM]{.underline}= Arnaut de Mareuil; [GD]{.underline}= Guilhem de Saint-Didier; [PR]{.underline}= Peire Rogier; [RO]{.underline}= Raimbaut d'Orange. Cela étant, si l'on reproduit graphiquement et simultanément, ce classement "par position", on obtient le tableau suivant:
+Dans ce tableau nous donnons, pour chaque troubadour considéré, sa position respective suivie, entre parenthèses, du nombre exact de chansons (de mss., d'occurrences).
+
+::: {.livre-only}
+Les sigles correspondant à chaque troubadour se traduisent comme suit: [Gu]{.underline}= Guillaume IX; [JR]{.underline}= Jaufre Rudel; [Ma]{.underline}= Marcabru; [Ce]{.underline}= Cercamon; [BM]{.underline}= Bernard Marti; [RB]{.underline}= Rigaut de Barbézieux; [BV]{.underline}= Bernard de Ventadour; [PA]{.underline}= Peire d'Auvergne; [GB]{.underline}= Giraut de Bornelh; [AM]{.underline}= Arnaut de Mareuil; [GD]{.underline}= Guilhem de Saint-Didier; [PR]{.underline}= Peire Rogier; [RO]{.underline}= Raimbaut d'Orange.
+:::
+
+Cela étant, si l'on reproduit graphiquement et simultanément, ce classement "par position", on obtient le tableau suivant:
 
 - [Gu]{.underline} [JR]{.underline} [Ma]{.underline} [Ce]{.underline} [BM]{.underline} [RB]{.underline} [BV]{.underline} [PA]{.underline} [GB]{.underline} [AM]{.underline} [GD]{.underline} [PR]{.underline} [RO]{.underline}
 
@@ -278,7 +284,7 @@ Il en va de même du second cas particulier que nous avons rencontré et que, fa
 
 <!-- page: v1p026 -->
 
-soit personnelles, de reprendre de larges parties de l'oeuvre du troubadour plutôt que quelques poèmes isolés. Il est clair que nous avons là également une façon de faire révélatrice de la faveur dont devait jouir le troubadour auprès de son public. Ce n'est là qu'une hypothèse, bien entendu, mais qui trouve quand même quelque confirmation lorsqu'on voit que, chez Mar- cabru, 7 manuscrits sur 15 reprennent de 31 à 68 % de sa production, tandis que chez Giraud de Bornelh, 14 manuscrits sur 28 nous fournissent de 33 à 82 % de ses 79 chansons conservées[^v1p026-1].
+soit personnelles, de reprendre de larges parties de l'oeuvre du troubadour plutôt que quelques poèmes isolés. Il est clair que nous avons là également une façon de faire révélatrice de la faveur dont devait jouir le troubadour auprès de son public. Ce n'est là qu'une hypothèse, bien entendu, mais qui trouve quand même quelque confirmation lorsqu'on voit que, chez Marcabru, 7 manuscrits sur 15 reprennent de 31 à 68% de sa production, tandis que chez Giraud de Bornelh, 14 manuscrits sur 28 nous fournissent de 33 à 82 % de ses 79 chansons conservées[^v1p026-1].
 
 Cela étant, si notre analyse nous a mis en mesure de découvrir dans la tradition manuscrite des tendances permettant de supposer — dans l'absolu — que certains troubadours ont dû avoir un certain succès, il reste toutefois difficile de procéder à des comparaisons, de troubadour à troubadour. Et, surtout, d'évaluer de quel- que manière que ce soit la place qu'occupe, de ce point de vue, Raimbaut d'Orange. En effet, et notre graphique est là pour le montrer, les positions attribuées à Raim- baut ne nous permettent guère d'en arriver à des conclusions vraiment pertinentes, si ce n'est que son cas n'est pas sans montrer quelque analogie avec celui de Marcabru ou de Giraud de Bornelh: en septième position pour le nombre de ses chansons et en neuvième pour pour celui de leurs occurrences, il n'obtient que la sixième place pour le nombre de manuscrits dans lesquels apparaissent ces tex- tes. Quoique cette tendance ne soit pas aussi prononcée
 
@@ -1366,7 +1372,7 @@ Pour Pattison, *som* est un adverbe qu'il traduit par 'flimsy', se fondant pour 
 Commençons par remarquer que dans l'édition de Canello il ne s'agit pas de *som* mais bien de *soma*, adjectif et non adverbe[^v1p086-5]. En outre, les autres éditeurs d'Arnaut Daniel, tant René Lavaud que Gianluigi Toja, voient en *soma* non plus un adjectif mais bien un substantif. Et à ce propos, on peut lire chez Toja: "Il Canello legge *ententa soma* e pensa que *soma* possa essere aggettivo = superficiale, lieve, o sostantivo = cima (come nella
 
 [^v1p086-1]: Voir [REW]{.underline}, § 1316.
-[^v1p086-2]: *Brètol / Brètzu Z* : 'pillo, dolent' (AGUILO I FUSTER, Marian, *Diccionari Aguilo*, Barcelone, Instituto d'Estudis Catalans, 1915, t.I, p.282); 'home dolent, brutal, ferotge, murri' (A.GRIERA, *Tresor de la Llengua de les Tradicions i de la Cultura popular de Catalunya*, Barcelone, Ed.Catalunya, 1935, t.I, p.271); 'home sense escrupol capaç de qualsevol mala accio' (Pompeu FABRA, *Diccionari general de la llengua catalana*, Barcelone, A.Lopez Llausas ed., 1962, p.271); 'malcriat, desvergonyat' (A.M.ALCOVER-F.de B. MOLL, *Diccionari català-valencià-balear*, Palma de Majorca, 1930: cité par Harri MEIER, *ouv.cité*, p.30, note 31).
+[^v1p086-2]: *Brètol / Brètzu Z* : 'pillo, dolent' (AGUILÓ I FUSTER, Marian, *Diccionari Aguiló*, Barcelone, Instituto d'Estudis Catalans, 1915, t.I, p.282); 'home dolent, brutal, ferotge, murri' (A.GRIERA, *Tresor de la Llengua de les Tradicions i de la Cultura popular de Catalunya*, Barcelone, Ed.Catalunya, 1935, t.I, p.271); 'home sense escrupol capaç de qualsevol mala accio' (Pompeu FABRA, *Diccionari general de la llengua catalana*, Barcelone, A.Lopez Llausas ed., 1962, p.271); 'malcriat, desvergonyat' (A.M.ALCOVER-F.de B. MOLL, *Diccionari català-valencià-balear*, Palma de Majorca, 1930: cité par Harri MEIER, *ouv.cité*, p.30, note 31).
 [^v1p086-3]: Voir aussi [SW]{.underline}, t.VII, p.799 et p.801.
 [^v1p086-4]: U.A.CANELLO, *La vita e le opere del trovatore Arnaldo Daniello*, Halle, M.Niemeyer, 1883, p.277: "Quien au tralbir l'iv'es fort m'ententa soma (IX, vv.108-109).
 [^v1p086-5]:
@@ -9674,7 +9680,7 @@ Dir. Umberto Bosco, Roma, Istituto della E.D., 6 vols. 1970 sv.
 
 B. *Langue*
 
-- AGULIO I FUSTER, Marian, *Diccionari Aguiló*, Barcelona, Instituto d'Estudis Catalans, 1915 — 1934, (8 tomes), Bibl. filologica de L'I. D'E^C^.
+- AGUILÓ I FUSTER, Marian, *Diccionari Aguiló*, Barcelona, Instituto d'Estudis Catalans, 1915 — 1934, (8 tomes), Bibl. filologica de L'I. D'E^C^.
 
 - ALCOVER, A.M.-MOLL, F.de B., *Diccionari català-valenci-baleà*, Palma de Majorca, 10 vols., 1953 sv.
 

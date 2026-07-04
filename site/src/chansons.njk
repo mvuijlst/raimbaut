@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: Les chansons
+permalink: /chansons/
+---
+<div class="ch-index">
+<header class="section-head">
+  <span class="u-eyebrow">Deuxième partie</span>
+  <h1>Les chansons</h1>
+  <p class="home-sub" style="color:var(--ink-soft)">Les 39 pièces de Raimbaut d'Orange&nbsp;:
+  texte, traduction et remarques en regard.</p>
+</header>
+
+<table class="ch-table">
+  <tbody>
+  {% for s in edition.studies %}
+  <tr>
+    <td class="t-roman"><a href="/chansons/{{ s.num }}/">{{ s.roman }}</a></td>
+    <td class="t-incipit"><a href="/chansons/{{ s.num }}/" lang="oc">{{ s.incipit }}</a></td>
+    <td class="t-n">{{ s.verseCount }} v.{% if s.remarques.entries.length %} · {{ s.remarques.entries.length }} rem.{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>

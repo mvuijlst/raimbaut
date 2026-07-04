@@ -20,7 +20,31 @@
       "author": "BLOMME",
       "title": "I Siciliani. Alcune proposte di lettura",
       "siglum": "",
-      "text": "BLOMME, Raoul, 'I Siciliani. Alcune proposte di lettura', dans *Romanica Gandensia*, XIV (1973), pp. 13 — 29. 'La tenzone dantesca del *Duol d'amore* *ibid.*, XVI (1976), pp. 205 — 248. *Studi per una triplice esperienza poetica del Dante minore*, Gent, 1978, (Werken uitgegeven door de Fac. van de Letteren en Wijsbegeerte, 164). 'Annominatio', dans *Lexicon des Mittelalters*, München und Zürich, Artemis Verlag, 1979, I, 4, pp. 668 — 669.",
+      "text": "BLOMME, Raoul, \"I Siciliani. Alcune proposte di lettura\", dans *Romanica Gandensia*, XIV (1973), pp. 13 — 29.",
+      "page": 470,
+      "category": "general"
+    },
+    {
+      "author": "BLOMME",
+      "title": "La tenzone dantesca del *Duol d",
+      "siglum": "",
+      "text": "BLOMME, Raoul, 'La tenzone dantesca del *Duol d'amore* dans *Romanica Gandensia*, XVI (1976), pp. 205 — 248.",
+      "page": 470,
+      "category": "general"
+    },
+    {
+      "author": "BLOMME",
+      "title": "Studi per una triplice esperienza poetica del Dante minore",
+      "siglum": "",
+      "text": "BLOMME, Raoul, *Studi per una triplice esperienza poetica del Dante minore*, Gent, 1978, (Werken uitgegeven door de Fac. van de Letteren en Wijsbegeerte, 164).",
+      "page": 470,
+      "category": "general"
+    },
+    {
+      "author": "BLOMME",
+      "title": "Annominatio",
+      "siglum": "",
+      "text": "BLOMME, Raoul, \"Annominatio\", dans *Lexicon des Mittelalters*, München und Zürich, Artemis Verlag, 1979, I, 4, pp. 668 — 669.",
       "page": 470,
       "category": "general"
     },
@@ -28,7 +52,7 @@
       "author": "BLONDHEIM",
       "title": "Notes étymologiques et lexicographiques",
       "siglum": "",
-      "text": "BLONDHEIM, D.S., 'Notes étymologiques et lexicographiques', dans *Mélanges de linguistique et de littérature offerts à Alfred Jeanroy*, Genève, Slatkine Reprints, 1972 (réimpr. de l'éd. de Paris, 1928), pp. 77 — 78.",
+      "text": "BLONDHEIM, D.S., \"Notes étymologiques et lexicographiques\", dans *Mélanges de linguistique et de littérature offerts à Alfred Jeanroy*, Genève, Slatkine Reprints, 1972 (réimpr. de l'éd. de Paris, 1928), pp. 77 — 78.",
       "page": 470,
       "category": "general"
     },
@@ -52,7 +76,7 @@
       "author": "CHENERIE",
       "title": "Le motif de la *merci* dans les romans arthuriens des XII^e^ et XIII^e^ siècles",
       "siglum": "",
-      "text": "CHENERIE, Marie-Luce, 'Le motif de la *merci* dans les romans arthuriens des XII^e^ et XIII^e^ siècles', dans *Le Moyen Age*, LXXXIII (1977), pp. 5 — 52.",
+      "text": "CHENERIE, Marie-Luce, \"Le motif de la *merci* dans les romans arthuriens des XII^e^ et XIII^e^ siècles\", dans *Le Moyen Age*, LXXXIII (1977), pp. 5 — 52.",
       "page": 471,
       "category": "general"
     },
@@ -60,7 +84,15 @@
       "author": "CURTIUS",
       "title": "La littérature européenne et le moyen âge latin",
       "siglum": "",
-      "text": "CURTIUS, Ernst Robert, *La littérature européenne et le moyen âge latin*, traduit de l'Allemand par Jean Bréjoux, Paris, Presses Universitaires de France, 1956, XV + 738 pp. *Gesammelte Aufsätze zur romanischen Philologie*, Bern, 1960.",
+      "text": "CURTIUS, Ernst Robert, *La littérature européenne et le moyen âge latin*, traduit de l'Allemand par Jean Bréjoux, Paris, Presses Universitaires de France, 1956, XV + 738 pp.",
+      "page": 471,
+      "category": "general"
+    },
+    {
+      "author": "CURTIUS",
+      "title": "Gesammelte Aufsätze zur romanischen Philologie",
+      "siglum": "",
+      "text": "CURTIUS, Ernst Robert, *Gesammelte Aufsätze zur romanischen Philologie*, Bern, 1960.",
       "page": 471,
       "category": "general"
     },
@@ -74,9 +106,9 @@
     },
     {
       "author": "DE BRUYNE",
-      "title": "Etudes d'esthétique médiévale",
+      "title": "esthétique médiévale*, I, *De Boèce à Jean Scot Origène* ; II, *L",
       "siglum": "",
-      "text": "DE BRUYNE, Edgar, *Etudes d'esthétique médiévale*, I, *De Boèce à Jean Scot Origène* ; II, *L'époque romane* ; III, *Le XII^e^ siècle*, Brugge, De Tempel, 1946, XVI + 371 pp., X + 420 pp. et X + 400 pp. (Rijksuniversiteit te Gent. Werken uitgegeven door de Faculteit van de Letteren en de Wijsbegeerte, 97-98-99).",
+      "text": "DE BRUYNE, Edgar, *Etudes d'esthétique médiévale*, I, *De Boèce à Jean Scot Origène* ; II, *L'époque romane* ; III, *Le XII^e^ siècle*, Brugge, De Tempel, 1946, XVI + 371 pp., X + 420 pp. et X + 400 pp. (Rijksuniversiteit te Gent. Werken uitgegeven door de Faculteit van de Letteren en de Wijsbegeerte, 97-98-99).",
       "page": 471,
       "category": "general"
     },
@@ -89,18 +121,34 @@
       "category": "general"
     },
     {
-      "author": "",
-      "title": "HEUR, J.M.,",
+      "author": "D'HEUR",
+      "title": "Gonçal",
       "siglum": "",
-      "text": "D'HEUR, J.M., 'Gonçal' Eanes do Vinhal, ses \"chansons de Cornouailles\" et le respect de l'art poétique', ds. *Mélanges de langues et de Litt. romanes offerts à Ch.H. Gossen*, Bern — Liège, Francke — Association des rom. de l'Univ. de Liège, 1976, t. I, pp. 188^v^.",
+      "text": "D'HEUR, J.M., \"Gonçal' Eanes do Vinhal, ses \"chansons de Cornouailles\" et le respect de l'art poétique\", ds. *Mélanges de langues et de Litt. romanes offerts à Ch.H. Gossen*, Bern — Liège, Francke — Association des rom. de l'Univ. de Liège, 1976, t. I, pp. 188^v^.",
       "page": 471,
       "category": "general"
     },
     {
       "author": "DRAGONETTI",
       "title": "La technique poétique des trouvères dans la chanson courtoise. Contribution à l'étude de la rhétorique médiévale",
+      "siglum": "",
+      "text": "DRAGONETTI, Roger, *La technique poétique des trouvères dans la chanson courtoise. Contribution à l'étude de la rhétorique médiévale*, Brugge, De Tempel, 1960, 702 pp. (Rijksuniversiteit te Gent. Werken uitgegeven door de Faculteit van de Letteren en Wijsbegeerte, 127).",
+      "page": 472,
+      "category": "general"
+    },
+    {
+      "author": "DRAGONETTI",
+      "title": "Une métaphore du sens propre dans *Le Roman de la Rose*",
       "siglum": "Digraphe",
-      "text": "DRAGONETTI, Roger, *La technique poétique des trouvères dans la chanson courtoise. Contribution à l'étude de la rhétorique médiévale*, Brugge, De Tempel, 1960, 702 pp. (Rijksuniversiteit te Gent. Werken uitgegeven door de Faculteit van de Letteren en Wijsbegeerte, 127). 'Une métaphore du sens propre dans *Le Roman de la Rose*', dans [Digraphe]{.underline}, XXI, 1979, pp. 69 — 85. *La vie de la lettre au moyen âge*, Paris, éd. du Seuil, 1980 (Connexions du champ freudien), 281 pp.",
+      "text": "DRAGONETTI, Roger, \"Une métaphore du sens propre dans *Le Roman de la Rose*\", dans [Digraphe]{.underline}, XXI, 1979, pp. 69 — 85.",
+      "page": 472,
+      "category": "general"
+    },
+    {
+      "author": "DRAGONETTI",
+      "title": "La vie de la lettre au moyen âge",
+      "siglum": "",
+      "text": "DRAGONETTI, Roger, *La vie de la lettre au moyen âge*, Paris, éd. du Seuil, 1980 (Connexions du champ freudien), 281 pp.",
       "page": 472,
       "category": "general"
     },
@@ -115,8 +163,8 @@
     {
       "author": "ECO",
       "title": "Sémiologie des messages visuels",
-      "siglum": "Communications",
-      "text": "ECO, Umberto, 'Sémiologie des messages visuels', dans [Communications]{.underline}, XV (1970), pp. 11 — 51.",
+      "siglum": "",
+      "text": "ECO, Umberto, \"Sémiologie des messages visuels\", dans [Communications]{.underline}, XV (1970), pp. 11 — 51.",
       "page": 472,
       "category": "general"
     },
@@ -132,7 +180,7 @@
       "author": "GUIETTE",
       "title": "une poésie formelle en France au moyen âge",
       "siglum": "",
-      "text": "GUIETTE, Robert, 'D'une poésie formelle en France au moyen âge', dans *Questions de littérature*, Gand, 1960, 159 pp. (Romanica Gandensia VIII), pp. 9 — 32.",
+      "text": "GUIETTE, Robert, \"D'une poésie formelle en France au moyen âge\", dans *Questions de littérature*, Gand, 1960, 159 pp. (Romanica Gandensia VIII), pp. 9 — 32.",
       "page": 472,
       "category": "general"
     },
@@ -162,7 +210,7 @@
     },
     {
       "author": "LOTMAN",
-      "title": "La structure du texte artistique",
+      "title": "Henri Meschonnic. Préface d",
       "siglum": "",
       "text": "LOTMAN, Iouri, *La structure du texte artistique*. Traduit du russe par Anne Fournier, Bernard Kreise, Eve Malleret et Joëlle Yong sous la direction d'Henri Meschonnic. Préface d'Henri Meschonnic, Paris, Éd. Gallimard, 1973, 415 pp. (Bibliothèque des sciences humaines).",
       "page": 473,
@@ -220,7 +268,7 @@
       "author": "REMY",
       "title": "Jeu parti et roman breton",
       "siglum": "",
-      "text": "REMY, Paul, 'Jeu parti et roman breton', dans *Mélanges de linguistique romane et de philologie médiévale offerts à M. Maurice Delbouille*, Gembloux, éd. J. Duculot, 1964, t.II, pp. 545 — 561.",
+      "text": "REMY, Paul, \"Jeu parti et roman breton\", dans *Mélanges de linguistique romane et de philologie médiévale offerts à M. Maurice Delbouille*, Gembloux, éd. J. Duculot, 1964, t.II, pp. 545 — 561.",
       "page": 473,
       "category": "general"
     },
@@ -244,15 +292,39 @@
       "author": "ZUMTHOR",
       "title": "Histoire littéraire de la France médiévale (VI^e^ — XIV^e^ siècles)",
       "siglum": "",
-      "text": "ZUMTHOR, Paul, *Histoire littéraire de la France médiévale (VI^e^ — XIV^e^ siècles)*, Genève, Slatkine Reprints, 1973, (Réimpr. de l'éd. de Paris, 1954), VII + 244 pp. *Langue et techniques poétiques à l'époque romane (XI^e^ — XIII^e^ siècles)*, Paris, Librairie Klincksieck, 1963, 225 pp. (Bibliothèque française et romane, Série C. Etudes littéraires, 6). *Essai de poétique médiévale*, Paris, Ed. du Seuil, 1972, 518 pp. (Collection \"Poétique\"). *Langue, Texte, Enigme*, Paris, Ed. du Seuil, 1975, 270 pp. (Collection \"Poétique\").",
+      "text": "ZUMTHOR, Paul, *Histoire littéraire de la France médiévale (VI^e^ — XIV^e^ siècles)*, Genève, Slatkine Reprints, 1973, (Réimpr. de l'éd. de Paris, 1954), VII + 244 pp.",
       "page": 474,
       "category": "general"
     },
     {
-      "author": "AGULIO I FUSTER",
-      "title": "Diccionari Aguiló",
+      "author": "ZUMTHOR",
+      "title": "Langue et techniques poétiques à l'époque romane (XI^e^ — XIII^e^ siècles)",
       "siglum": "",
-      "text": "AGULIO I FUSTER, Marian, *Diccionari Aguiló*, Barcelona, Instituto d'Estudis Catalans, 1915 — 1934, (8 tomes), Bibl. filologica de L'I. D'E^C^.",
+      "text": "ZUMTHOR, Paul, *Langue et techniques poétiques à l'époque romane (XI^e^ — XIII^e^ siècles)*, Paris, Librairie Klincksieck, 1963, 225 pp. (Bibliothèque française et romane, Série C. Etudes littéraires, 6).",
+      "page": 474,
+      "category": "general"
+    },
+    {
+      "author": "ZUMTHOR",
+      "title": "Essai de poétique médiévale",
+      "siglum": "",
+      "text": "ZUMTHOR, Paul, *Essai de poétique médiévale*, Paris, Ed. du Seuil, 1972, 518 pp. (Collection \"Poétique\").",
+      "page": 474,
+      "category": "general"
+    },
+    {
+      "author": "ZUMTHOR",
+      "title": "Langue, Texte, Enigme",
+      "siglum": "",
+      "text": "ZUMTHOR, Paul, *Langue, Texte, Enigme*, Paris, Ed. du Seuil, 1975, 270 pp. (Collection \"Poétique\").",
+      "page": 474,
+      "category": "general"
+    },
+    {
+      "author": "AGUILÓ I FUSTER",
+      "title": "Estudis Catalans, 1915 — 1934, (8 tomes), Bibl. filologica de L",
+      "siglum": "",
+      "text": "AGUILÓ I FUSTER, Marian, *Diccionari Aguiló*, Barcelona, Instituto d'Estudis Catalans, 1915 — 1934, (8 tomes), Bibl. filologica de L'I. D'E^C^.",
       "page": 475,
       "category": "general"
     },
@@ -292,7 +364,7 @@
       "author": "COLOM I DOMENECH",
       "title": "Cat. anc. *conglap*,",
       "siglum": "",
-      "text": "COLOM I DOMENECH, G., 'Cat. anc. *conglap*, 'calamarsa' ', dans *Estudis Romanics*, III (1951 — 52), pp. 231 — 235.",
+      "text": "COLOM I DOMENECH, G., \"Cat. anc. *conglap*, 'calamarsa' \", dans *Estudis Romanics*, III (1951 — 52), pp. 231 — 235.",
       "page": 475,
       "category": "general"
     },
@@ -308,7 +380,15 @@
       "author": "DIEZ",
       "title": "Grammatik der romanischen Sprachen",
       "siglum": "",
-      "text": "DIEZ, Friedrich, *Grammatik der romanischen Sprachen*, Bonn, Eduard Weber's Verlag, 3 vols, 1876 sv. *Etymologisches Wörterbuch der romanischen Sprachen*, Berlin, Addf Marcus, 1887, XXVI + 866 pp.",
+      "text": "DIEZ, Friedrich, *Grammatik der romanischen Sprachen*, Bonn, Eduard Weber's Verlag, 3 vols, 1876 sv.",
+      "page": 475,
+      "category": "general"
+    },
+    {
+      "author": "DIEZ",
+      "title": "Etymologisches Wörterbuch der romanischen Sprachen",
+      "siglum": "",
+      "text": "DIEZ, Friedrich, *Etymologisches Wörterbuch der romanischen Sprachen*, Berlin, Addf Marcus, 1887, XXVI + 866 pp.",
       "page": 475,
       "category": "general"
     },
@@ -322,7 +402,7 @@
     },
     {
       "author": "DUBOIS",
-      "title": "et al.",
+      "title": "Dictionnaire de linguistique",
       "siglum": "",
       "text": "DUBOIS, Jean *et al.*, *Dictionnaire de linguistique*, Paris, Lib. Larousse, 1973.",
       "page": 475,
@@ -340,7 +420,7 @@
       "author": "GAMILLSCHEG",
       "title": "\"Historia linguistica de los Visigodos\"",
       "siglum": "",
-      "text": "GAMILLSCHEG, Ernest *\"Historia linguistica de los Visigodos\"*, dans *Revista de Filologia Espanola*, XIX (1932), pp. 229 — 260.",
+      "text": "GAMILLSCHEG, Ernest, *\"Historia linguistica de los Visigodos\"*, dans *Revista de Filologia Espanola*, XIX (1932), pp. 229 — 260.",
       "page": 476,
       "category": "general"
     },
@@ -362,9 +442,17 @@
     },
     {
       "author": "HALLIG",
+      "title": "",
+      "siglum": "",
+      "text": "HALLIG, Rudolf — VON WARTBURG, Walther,",
+      "page": 476,
+      "category": "general"
+    },
+    {
+      "author": "HALLIG",
       "title": "Système raisonné des concepts pour servir de base à la lexicographie. Essai d'un schéma de classement",
       "siglum": "",
-      "text": "HALLIG, Rudolf — VON WARTBURG, Walther, *Système raisonné des concepts pour servir de base à la lexicographie. Essai d'un schéma de classement*, 2e éd., Berlin, Akademie Verlag, 1963, 316 pp.",
+      "text": "HALLIG, Rudolf — VON WARTBURG, *Système raisonné des concepts pour servir de base à la lexicographie. Essai d'un schéma de classement*, 2e éd., Berlin, Akademie Verlag, 1963, 316 pp.",
       "page": 476,
       "category": "general"
     },
@@ -394,7 +482,7 @@
     },
     {
       "author": "MÉNARD",
-      "title": "Syntaxe de l'ancien français",
+      "title": "ancien français*, Bordeaux, SODBOI, 1976 (nouv. éd.), 320 pp. (Manuel du français du moyen âge, sous la direction d",
       "siglum": "",
       "text": "MÉNARD, Philippe, *Syntaxe de l'ancien français*, Bordeaux, SODBOI, 1976 (nouv. éd.), 320 pp. (Manuel du français du moyen âge, sous la direction d'Yves LEFEVRE, 1).",
       "page": 476,
@@ -428,7 +516,23 @@
       "author": "MULLER",
       "title": "Le mot, unité de texte et unité de lexique en statistique lexicologique",
       "siglum": "",
-      "text": "MULLER, Charles, 'Le mot, unité de texte et unité de lexique en statistique lexicologique', dans *Travaux de Linguistique et de littérature*, 1 (1963), pp. 155 — 173. *Essai de statistique lexicale, L'illusion comique de Pierre Corneille*, Paris, Klincksieck, 1964, 203 pp., (Bibliothèque française et romane, A7). *Initiation à la statistique linguistique*, Paris, Larousse, 1968.",
+      "text": "MULLER, Charles, \"Le mot, unité de texte et unité de lexique en statistique lexicologique\", dans *Travaux de Linguistique et de littérature*, 1 (1963), pp. 155 — 173.",
+      "page": 477,
+      "category": "general"
+    },
+    {
+      "author": "MULLER",
+      "title": "Essai de statistique lexicale, L'illusion comique de Pierre Corneille",
+      "siglum": "",
+      "text": "MULLER, Charles, *Essai de statistique lexicale, L'illusion comique de Pierre Corneille*, Paris, Klincksieck, 1964, 203 pp., (Bibliothèque française et romane, A7).",
+      "page": 477,
+      "category": "general"
+    },
+    {
+      "author": "MULLER",
+      "title": "Initiation à la statistique linguistique",
+      "siglum": "",
+      "text": "MULLER, Charles, *Initiation à la statistique linguistique*, Paris, Larousse, 1968.",
       "page": 477,
       "category": "general"
     },
@@ -436,7 +540,7 @@
       "author": "NEUMANN",
       "title": "Ueber einige Satzdoppelformen der französische Sprache",
       "siglum": "",
-      "text": "NEUMANN, F., 'Ueber einige Satzdoppelformen der französische Sprache', dans *Zeitschrift für Romanische Philologie*, VIII (18), pp. 385 sv.",
+      "text": "NEUMANN, F., \"Ueber einige Satzdoppelformen der französische Sprache\", dans *Zeitschrift für Romanische Philologie*, VIII (18), pp. 385 sv.",
       "page": 477,
       "category": "general"
     },
@@ -450,9 +554,9 @@
     },
     {
       "author": "SCHUTZ",
-      "title": "Did the poets \"feign\" or \"fashion\" ?",
+      "title": "Did the poets \"feign\" or \"fashion\" ?",
       "siglum": "",
-      "text": "SCHUTZ, A.H., 'Did the poets \"feign\" or \"fashion\" ?', dans *Symposium*, XI, 1957, pp. 117-122.",
+      "text": "SCHUTZ, A.H., \"Did the poets \"feign\" or \"fashion\" ?\", dans *Symposium*, XI, 1957, pp. 117-122.",
       "page": 477,
       "category": "general"
     },
@@ -476,8 +580,40 @@
       "author": "WAGNER",
       "title": "Les phrases hypothétiques commençant par \"si\" dans la langue française, des origines à la fin du XVI^e^ siècle",
       "siglum": "",
-      "text": "WAGNER, Robert-Léon, *Les phrases hypothétiques commençant par \"si\" dans la langue française, des origines à la fin du XVI^e^ siècle*, Paris, Droz, 1939, 552 pp. 478. ## II. OCCITAN --- ### A. *Langue*",
+      "text": "WAGNER, Robert-Léon, *Les phrases hypothétiques commençant par \"si\" dans la langue française, des origines à la fin du XVI^e^ siècle*, Paris, Droz, 1939, 552 pp.",
       "page": 477,
+      "category": "general"
+    },
+    {
+      "author": "WAGNER",
+      "title": "",
+      "siglum": "",
+      "text": "WAGNER, Robert-Léon, 478.",
+      "page": 478,
+      "category": "general"
+    },
+    {
+      "author": "WAGNER",
+      "title": "",
+      "siglum": "",
+      "text": "WAGNER, Robert-Léon, ## II. OCCITAN",
+      "page": 478,
+      "category": "general"
+    },
+    {
+      "author": "WAGNER",
+      "title": "",
+      "siglum": "",
+      "text": "WAGNER, Robert-Léon, ---",
+      "page": 478,
+      "category": "general"
+    },
+    {
+      "author": "WAGNER",
+      "title": "Langue",
+      "siglum": "",
+      "text": "WAGNER, Robert-Léon, ### A. *Langue*",
+      "page": 478,
       "category": "general"
     },
     {
@@ -498,7 +634,7 @@
     },
     {
       "author": "ANGLADE",
-      "title": "Grammaire de l'ancien provençal ou ancienne langue d'oc — Phonétique et Morphologie",
+      "title": "ancien provençal ou ancienne langue d",
       "siglum": "",
       "text": "ANGLADE, Josep, *Grammaire de l'ancien provençal ou ancienne langue d'oc — Phonétique et Morphologie*, Paris, éd. Klincksieck, 1921, XXXVII + 448 pp. — (ANG).",
       "page": 478,
@@ -506,7 +642,7 @@
     },
     {
       "author": "ALIBERT",
-      "title": "Dictionnaire occitan — français, d'après les parlers languedociens",
+      "title": "après les parlers languedociens*, Toulouse, Institut d",
       "siglum": "",
       "text": "ALIBERT, Louis, *Dictionnaire occitan — français, d'après les parlers languedociens*, Toulouse, Institut d'Etudes Occitanes, 1965, 700 pp.",
       "page": 478,
@@ -538,7 +674,7 @@
     },
     {
       "author": "CHAMBERS",
-      "title": "'Old Provençal: bederesc', dans Modern Language Notes, LX, 1945, pp. 475-477.",
+      "title": "Old Provençal: bederesc",
       "siglum": "",
       "text": "CHAMBERS, F.M., *'Old Provençal: bederesc', dans Modern Language Notes, LX, 1945, pp. 475-477.*",
       "page": 478,
@@ -610,7 +746,7 @@
     },
     {
       "author": "KELLER",
-      "title": "'La linguistique occitane aujourd'hui et demain', dans Revue de Linguistique romane",
+      "title": "La linguistique occitane aujourd",
       "siglum": "",
       "text": "KELLER, Hans Erich, *'La linguistique occitane aujourd'hui et demain', dans Revue de Linguistique romane*, XXXIV; 1970, pp. 263-279.",
       "page": 479,
@@ -627,16 +763,24 @@
     {
       "author": "LEVY",
       "title": "Provenzalisches Supplement Wörterbuch. Berichtigungen und Ergänzungen zu Raynouards \"Lexique Roman\"",
+      "siglum": "",
+      "text": "LEVY, Emil, *Provenzalisches Supplement Wörterbuch. Berichtigungen und Ergänzungen zu Raynouards \"Lexique Roman\"*, Leipzig, O.R. Raisland, 1894 — 1924, T. I-VIII, (SW).",
+      "page": 480,
+      "category": "general"
+    },
+    {
+      "author": "LEVY",
+      "title": "Petit dictionnaire provençal — français",
       "siglum": "PDL",
-      "text": "LEVY, Emil, *Provenzalisches Supplement Wörterbuch. Berichtigungen und Ergänzungen zu Raynouards \"Lexique Roman\"*, Leipzig, O.R. Raisland, 1894 — 1924, T. I-VIII, (SW). *Petit dictionnaire provençal — français*, Heidelberg, Carl Winter Verlag, Universitätsverlag, 1966, 4^e^ éd., VIII + 388pp. ([PDL]{.underline})",
+      "text": "LEVY, Emil, *Petit dictionnaire provençal — français*, Heidelberg, Carl Winter Verlag, Universitätsverlag, 1966, 4^e^ éd., VIII + 388pp. ([PDL]{.underline})",
       "page": 480,
       "category": "general"
     },
     {
       "author": "MAHN",
-      "title": "Grammatik und Woerterbuch der altprovenzalischen Sprache. Vol. I : Lautlehre und Wortbiegungslehre",
+      "title": "Grammatik und Woerterbuch der altprovenzalischen Sprache. Vol. I : Lautlehre und Wortbiegungslehre",
       "siglum": "",
-      "text": "MAHN, C.A.F., *Grammatik und Woerterbuch der altprovenzalischen Sprache. Vol. I : Lautlehre und Wortbiegungslehre*, Koethen, 1885.",
+      "text": "MAHN, C.A.F., *Grammatik und Woerterbuch der altprovenzalischen Sprache. Vol. I : Lautlehre und Wortbiegungslehre*, Koethen, 1885.",
       "page": 480,
       "category": "general"
     },
@@ -666,9 +810,9 @@
     },
     {
       "author": "MOURIN",
-      "title": "'Morphologie du verbe en ancien provençal : quelques explications', dans Studia Occitanica in memoriam Paul Remy",
+      "title": "Morphologie du verbe en ancien provençal : quelques explications",
       "siglum": "",
-      "text": "MOURIN, Louis, *'Morphologie du verbe en ancien provençal : quelques explications', dans Studia Occitanica in memoriam Paul Remy*, Kalamazoo, University of Toronto Press (à paraître).",
+      "text": "MOURIN, Louis, *'Morphologie du verbe en ancien provençal : quelques explications', dans Studia Occitanica in memoriam Paul Remy*, Kalamazoo, University of Toronto Press (à paraître).",
       "page": 480,
       "category": "general"
     },
@@ -700,7 +844,7 @@
       "author": "PRICE",
       "title": "Bibliographie de la syntaxe occitane",
       "siglum": "",
-      "text": "PRICE, G., 'Bibliographie de la syntaxe occitane', dans *Studia Neophilologica*, XXXVII 1965, pp. 279 — 300.",
+      "text": "PRICE, G., \"Bibliographie de la syntaxe occitane\", dans *Studia Neophilologica*, XXXVII 1965, pp. 279 — 300.",
       "page": 481,
       "category": "general"
     },
@@ -722,7 +866,7 @@
     },
     {
       "author": "ROCHEGUDE",
-      "title": "Essai d'un glossaire occitanien",
+      "title": "un glossaire occitanien*, Genève, Slatkine Reprints, 1975, (réimpr. de l",
       "siglum": "",
       "text": "ROCHEGUDE, P. de, *Essai d'un glossaire occitanien*, Genève, Slatkine Reprints, 1975, (réimpr. de l'éd. de Toulouse, 1819), LIV (4) + 334 pp.",
       "page": 481,
@@ -748,7 +892,7 @@
       "author": "SCHUTZ",
       "title": "The Provençal expression *Pretz e Valor*",
       "siglum": "",
-      "text": "SCHUTZ, A.H., 'The Provençal expression *Pretz e Valor*', dans *Speculum*, XIX, 1944, pp. 492 — 493.",
+      "text": "SCHUTZ, A.H., \"The Provençal expression *Pretz e Valor*\", dans *Speculum*, XIX, 1944, pp. 492 — 493.",
       "page": 481,
       "category": "general"
     },
@@ -762,15 +906,15 @@
     },
     {
       "author": "STIMM",
-      "title": "'Rapport sur l'état de la recherche en domaine occitan : Lexicologie médiévale'",
+      "title": "Rapport sur l",
       "siglum": "",
-      "text": "STIMM, Helmut, *'Rapport sur l'état de la recherche en domaine occitan : Lexicologie médiévale'*, dans *Colloque International sur la recherche en domaine occitan, [Béziers, 28-30 août 1974]*, Montpellier, Centre d'Estudis Occitans — Universitat de Montpelhier III, 1975, 147pp. (pp. 39 — 57).",
+      "text": "STIMM, Helmut, *'Rapport sur l'état de la recherche en domaine occitan : Lexicologie médiévale'*, dans *Colloque International sur la recherche en domaine occitan, [Béziers, 28-30 août 1974]*, Montpellier, Centre d'Estudis Occitans — Universitat de Montpelhier III, 1975, 147pp. (pp. 39 — 57).",
       "page": 482,
       "category": "general"
     },
     {
       "author": "VAYSSIER",
-      "title": "Dictionnaire Patois-Français du département de l'Aveyron",
+      "title": "Aveyron*, Genève, Slatkine Reprints, 1971, (réimpr. de l",
       "siglum": "",
       "text": "VAYSSIER, Aimé, *Dictionnaire Patois-Français du département de l'Aveyron*, Genève, Slatkine Reprints, 1971, (réimpr. de l'éd. de Rodez, 1879), XVIII + 656 pp.",
       "page": 482,
@@ -778,7 +922,7 @@
     },
     {
       "author": "AJALBERT",
-      "title": "Les troubadours d",
+      "title": "Le Mercure de France",
       "siglum": "",
       "text": "AJALBERT, J. 'Les troubadours d'Auvergne', dans *Le Mercure de France*, CXXXVII, janvier — février 1920.",
       "page": 483,
@@ -788,13 +932,21 @@
       "author": "ANGLADE",
       "title": "Histoire sommaire de la littérature méridionale. Des origines à la fin du XVe siècle",
       "siglum": "",
-      "text": "ANGLADE, Joseph, *Histoire sommaire de la littérature méridionale. Des origines à la fin du XVe siècle*, Paris, De Boccard, 1921, 274 pp. *Les troubadours, leurs vies, leurs oeuvres, leurs influences*, Paris, Armand Colin, 4e éd., 1929, VIII + 328 pp.",
+      "text": "ANGLADE, Joseph, *Histoire sommaire de la littérature méridionale. Des origines à la fin du XVe siècle*, Paris, De Boccard, 1921, 274 pp.",
+      "page": 483,
+      "category": "general"
+    },
+    {
+      "author": "ANGLADE",
+      "title": "Les troubadours, leurs vies, leurs oeuvres, leurs influences",
+      "siglum": "",
+      "text": "ANGLADE, Joseph, *Les troubadours, leurs vies, leurs oeuvres, leurs influences*, Paris, Armand Colin, 4e éd., 1929, VIII + 328 pp.",
       "page": 483,
       "category": "general"
     },
     {
       "author": "AVALLE",
-      "title": "Arco Silvio *La letteratura medievale in lingua d",
+      "title": "",
       "siglum": "",
       "text": "AVALLE, D'Arco Silvio *La letteratura medievale in lingua d'oc nella sua tradizione manoscritta, Problemi di critica testuale*, Torino, Giulio Einaudi ed., 1961, 228 pp.",
       "page": 483,
@@ -812,7 +964,23 @@
       "author": "BEC",
       "title": "La douleur et son univers poétique chez Bernard de Ventadour. Essai d",
       "siglum": "",
-      "text": "BEC, Pierre, 'La douleur et son univers poétique chez Bernard de Ventadour. Essai d'analyse systématique', dans *Cahiers de Civilisation Médiévale*, XI, 1968, pp. 545-571 et XII, 1969, pp. 25-33. 'L'antithèse poétique chez Bernard de Ventadour', dans *Mélanges de Philologie romane dédiés à la mémoire de Jean Boutière*, Liège, Soledi s.a., 1971, t. I, pp. 107-137. *La lyrique francaise au moyen-âge (XII^e^ — XIII^e^ siècles). Contribution à une typologie des genres poétiques médiévaux*. Vol. I : *Etudes*, Paris, A. et J. Picard, 1977, 248 p. (Publications du *Centre d'Etudes Supérieures de Civilisation Médiévale de l'Université de Poitiers*, 6).",
+      "text": "BEC, Pierre, \"La douleur et son univers poétique chez Bernard de Ventadour. Essai d'analyse systématique\", dans *Cahiers de Civilisation Médiévale*, XI, 1968, pp. 545-571 et XII, 1969, pp. 25-33.",
+      "page": 483,
+      "category": "general"
+    },
+    {
+      "author": "BEC",
+      "title": "antithèse poétique chez Bernard de Ventadour",
+      "siglum": "",
+      "text": "BEC, Pierre, \"L'antithèse poétique chez Bernard de Ventadour\", dans *Mélanges de Philologie romane dédiés à la mémoire de Jean Boutière*, Liège, Soledi s.a., 1971, t. I, pp. 107-137.",
+      "page": 483,
+      "category": "general"
+    },
+    {
+      "author": "BEC",
+      "title": "Etudes Supérieures de Civilisation Médiévale de l",
+      "siglum": "",
+      "text": "BEC, Pierre, *La lyrique francaise au moyen-âge (XII^e^ — XIII^e^ siècles). Contribution à une typologie des genres poétiques médiévaux*. Vol. I : *Etudes*, Paris, A. et J. Picard, 1977, 248 p. (Publications du *Centre d'Etudes Supérieures de Civilisation Médiévale de l'Université de Poitiers*, 6).",
       "page": 483,
       "category": "general"
     },
@@ -860,7 +1028,7 @@
       "author": "CHAILLEY",
       "title": "Les premiers troubadours et les *versus* de l",
       "siglum": "",
-      "text": "CHAILLEY, Jacques, 'Les premiers troubadours et les *versus* de l'école d'Aquitaine', dans *Romania* LXXVI, 1955, pp. 212-239.",
+      "text": "CHAILLEY, Jacques, \"Les premiers troubadours et les *versus* de l'école d'Aquitaine\", dans *Romania* LXXVI, 1955, pp. 212-239.",
       "page": 484,
       "category": "general"
     },
@@ -874,7 +1042,7 @@
     },
     {
       "author": "CHAYTOR",
-      "title": "The Troubadours of Dante",
+      "title": "éd. d",
       "siglum": "",
       "text": "CHAYTOR, Henry J., *The Troubadours of Dante*, Genève, Slatkine Reprints, 1974 (réimpr. de l'éd. d'Oxford, 1902), VII + 242 pp.",
       "page": 484,
@@ -884,7 +1052,7 @@
       "author": "CLUZEL",
       "title": "Les plus anciens troubadours et la légende amoureuse de Tristan et d",
       "siglum": "",
-      "text": "CLUZEL, Irénée, 'Les plus anciens troubadours et la légende amoureuse de Tristan et d'Iseut', dans *Mélanges de linguistique et de philologie romanes à la mémoire d'Istvan Frank*, Universität des Saarlandes, 9157, pp. 155 — 170.",
+      "text": "CLUZEL, Irénée, \"Les plus anciens troubadours et la légende amoureuse de Tristan et d'Iseut\", dans *Mélanges de linguistique et de philologie romanes à la mémoire d'Istvan Frank*, Universität des Saarlandes, 9157, pp. 155 — 170.",
       "page": 484,
       "category": "general"
     },
@@ -898,9 +1066,17 @@
     },
     {
       "author": "CRESCINI",
-      "title": "No saï que s'es...",
+      "title": "es...*\", dans *Mélanges Chabaneau*, Genève, Slatkine Reprints, 1973, (réimpr. de l",
       "siglum": "",
-      "text": "CRESCINI, Vincenze, \"*No saï que s'es...*\", dans *Mélanges Chabaneau*, Genève, Slatkine Reprints, 1973, (réimpr. de l'éd. d'Erlangen, 1907), pp. 315-319. *Le caricature trobadoriche di Pietro d'Alvernhe. Terza e ultima nota, dans Atti del Reale Instituto Veneto*, LXXXVI, 1927, pp. 1236 sv.",
+      "text": "CRESCINI, Vincenze, \"*No saï que s'es...*\", dans *Mélanges Chabaneau*, Genève, Slatkine Reprints, 1973, (réimpr. de l'éd. d'Erlangen, 1907), pp. 315-319.",
+      "page": 485,
+      "category": "general"
+    },
+    {
+      "author": "CRESCINI",
+      "title": "Le caricature trobadoriche di Pietro d'Alvernhe. Terza e ultima nota, dans Atti del Reale Instituto Veneto",
+      "siglum": "",
+      "text": "CRESCINI, Vincenze, *Le caricature trobadoriche di Pietro d'Alvernhe. Terza e ultima nota, dans Atti del Reale Instituto Veneto*, LXXXVI, 1927, pp. 1236 sv.",
       "page": 485,
       "category": "general"
     },
@@ -908,7 +1084,7 @@
       "author": "DE PAEPE",
       "title": "Over het wezen van de troubadoursminne. Een probleemstelling en een stellingname",
       "siglum": "",
-      "text": "DE PAEPE, N., 'Over het wezen van de troubadoursminne. Een probleemstelling en een stellingname', dans *Spiegel der Letteren*, 1963-1964, VII, pp. 17-43.",
+      "text": "DE PAEPE, N., \"Over het wezen van de troubadoursminne. Een probleemstelling en een stellingname\", dans *Spiegel der Letteren*, 1963-1964, VII, pp. 17-43.",
       "page": 485,
       "category": "general"
     },
@@ -924,79 +1100,87 @@
       "author": "DRAGONETTI",
       "title": "Aïzi et Aizimen chez les plus anciens troubadours",
       "siglum": "",
-      "text": "DRAGONETTI, Roger, 'Aïzi et Aizimen chez les plus anciens troubadours', dans *Mélanges de linguistique romane et de philologie médiévale offerts à M. Maurice Delbouille*, Gembloux, éd. Duculot, 1964, t. II, pp. 127-153.",
+      "text": "DRAGONETTI, Roger, \"Aïzi et Aizimen chez les plus anciens troubadours\", dans *Mélanges de linguistique romane et de philologie médiévale offerts à M. Maurice Delbouille*, Gembloux, éd. Duculot, 1964, t. II, pp. 127-153.",
       "page": 485,
       "category": "general"
     },
     {
       "author": "ELWERT",
       "title": "La dittologia sinonimica nella poesia lirica romanza delle origine e nella scuolo siciliana",
-      "siglum": "Archiv",
-      "text": "ELWERT, W.Th., 'La dittologia sinonimica nella poesia lirica romanza delle origine e nella scuolo siciliana', dans *Bollettino del Centro di Studi filologici e linguistici siciliani*, V, 1954, p. 152-177. 'Zur Synonymendopplung vom Typ *plann e sospir*, *chan e plor*, ds. [Archiv]{.underline} für das Studium der neueren Sprachen, CXCIII, 1956, pp. 40.",
+      "siglum": "",
+      "text": "ELWERT, W.Th., \"La dittologia sinonimica nella poesia lirica romanza delle origine e nella scuolo siciliana\", dans *Bollettino del Centro di Studi filologici e linguistici siciliani*, V, 1954, p. 152-177.",
       "page": 485,
       "category": "general"
     },
     {
-      "author": "",
+      "author": "ELWERT",
+      "title": "plann e sospir",
+      "siglum": "Archiv",
+      "text": "ELWERT, W.Th., 'Zur Synonymendopplung vom Typ *plann e sospir*, *chan e plor*, ds. [Archiv]{.underline} für das Studium der neueren Sprachen, CXCIII, 1956, pp. 40.",
+      "page": 485,
+      "category": "general"
+    },
+    {
+      "author": "ERDMANNSDÖRFER",
       "title": "Reimwörterbuch der Trobadors",
-      "siglum": "ERDMANNSDÖRFER",
-      "text": "[ERDMANNSDÖRFER]{.underline}, E., *Reimwörterbuch der Trobadors*, Nendeln-Liechtenstein, Kraus Reprint, 1967, réimpr. de l'éd. de Berlin, 1897, (Romanische Studien, Hft. II), VII + 199 pp.",
+      "siglum": "",
+      "text": "ERDMANNSDÖRFER, E., *Reimwörterbuch der Trobadors*, Nendeln-Liechtenstein, Kraus Reprint, 1967, réimpr. de l'éd. de Berlin, 1897, (Romanische Studien, Hft. II), VII + 199 pp.",
       "page": 486,
       "category": "general"
     },
     {
-      "author": "",
+      "author": "FERNANDEZ-PEREIRO",
       "title": "Originalidad y sinceridad en la poesía de amor trovadoresca",
-      "siglum": "FERNANDEZ-PEREIRO",
-      "text": "[FERNANDEZ-PEREIRO]{.underline}, Nydia G.B. de-, *Originalidad y sinceridad en la poesía de amor trovadoresca*, La Plata, Instituto de Filología, 1968.",
+      "siglum": "",
+      "text": "FERNANDEZ-PEREIRO, Nydia G.B. de-, *Originalidad y sinceridad en la poesía de amor trovadoresca*, La Plata, Instituto de Filología, 1968.",
       "page": 486,
       "category": "general"
     },
     {
-      "author": "",
+      "author": "FRANk",
       "title": "Répertoire métrique de la poésie des troubadours",
       "siglum": "FRANk",
-      "text": "[FRANk]{.underline}, Istvan, *Répertoire métrique de la poésie des troubadours*, 2 vols., Paris, H. Champion, 1953 et 1957 (Bibliothèque de l'école des hautes études, 302 et 303), t. I : Introduction et répertoire, L + 196 pp. ; t. II : Répertoire (suite) et index bibliographique, 234 pp.",
+      "text": "FRANk, Istvan, *Répertoire métrique de la poésie des troubadours*, 2 vols., Paris, H. Champion, 1953 et 1957 (Bibliothèque de l'école des hautes études, 302 et 303), t. I : Introduction et répertoire, L + 196 pp. ; t. II : Répertoire (suite) et index bibliographique, 234 pp.",
       "page": 486,
       "category": "general"
     },
     {
-      "author": "",
+      "author": "GAY-CROSSIER",
       "title": "Religious elements in the secular lyrics of the troubadours",
-      "siglum": "GAY-CROSSIER",
-      "text": "[GAY-CROSSIER]{.underline}, Raymond, *Religious elements in the secular lyrics of the troubadours*, Chapel Hill, The University of North-Carolina Press, 1971, 109 pp. (Studies in the Romance Languages and Literatures, 111)",
+      "siglum": "",
+      "text": "GAY-CROSSIER, Raymond, *Religious elements in the secular lyrics of the troubadours*, Chapel Hill, The University of North-Carolina Press, 1971, 109 pp. (Studies in the Romance Languages and Literatures, 111)",
       "page": 486,
       "category": "general"
     },
     {
-      "author": "",
-      "title": "Topic and Tropeic : two types of syntagmatic development in the old Prov. canso",
+      "author": "GHIL",
+      "title": "Topic and Tropeic : two types of syntagmatic development in the old Prov. canso",
       "siglum": "GHIL",
-      "text": "[GHIL]{.underline}, Eliza M., 'Topic and Tropeic : two types of syntagmatic development in the old Prov. canso', ds. *L'Esprit créateur*, XIX, 1979, pp. 54 — 69.",
+      "text": "GHIL, Eliza M., \"Topic and Tropeic : two types of syntagmatic development in the old Prov. canso\", ds. *L'Esprit créateur*, XIX, 1979, pp. 54 — 69.",
       "page": 486,
       "category": "general"
     },
     {
-      "author": "",
+      "author": "GRUBER",
       "title": "Laura und das trobar car. Studien zur stilistischen Funktion des Enjambement in der provenzalischen und italienischen Lyrik von den Anfängen bis Francesco Petrarca",
       "siglum": "GRUBER",
-      "text": "[GRUBER]{.underline}, Jörn, *Laura und das trobar car. Studien zur stilistischen Funktion des Enjambement in der provenzalischen und italienischen Lyrik von den Anfängen bis Francesco Petrarca*, Hamburg, Helmut Buske Verlag, 1976, 220 pp. (Romanistik in Geschichte und Gegenwart, 3).",
+      "text": "GRUBER, Jörn, *Laura und das trobar car. Studien zur stilistischen Funktion des Enjambement in der provenzalischen und italienischen Lyrik von den Anfängen bis Francesco Petrarca*, Hamburg, Helmut Buske Verlag, 1976, 220 pp. (Romanistik in Geschichte und Gegenwart, 3).",
       "page": 486,
       "category": "general"
     },
     {
-      "author": "",
+      "author": "GUIRAUD",
       "title": "Les structures étymologiques du trobar",
       "siglum": "GUIRAUD",
-      "text": "[GUIRAUD]{.underline}, Pierre, 'Les structures étymologiques du trobar', dans *Poétique*, VIII, 1971, pp. 417-426.",
+      "text": "GUIRAUD, Pierre, \"Les structures étymologiques du trobar\", dans *Poétique*, VIII, 1971, pp. 417-426.",
       "page": 486,
       "category": "general"
     },
     {
       "author": "HAGAN",
-      "title": "The Medieval Provençal tenson : contribution to the study of the dialogue genre",
+      "title": "The Medieval Provençal tenson : contribution to the study of the dialogue genre",
       "siglum": "",
-      "text": "HAGAN, Patricia, *The Medieval Provençal tenson : contribution to the study of the dialogue genre*, Ann Arbor, University Microfilms International, 1977, 75-24, 545 (Univ. of Yale, Ph.D., 1975), pp. 243.",
+      "text": "HAGAN, Patricia, *The Medieval Provençal tenson : contribution to the study of the dialogue genre*, Ann Arbor, University Microfilms International, 1977, 75-24, 545 (Univ. of Yale, Ph.D., 1975), pp. 243.",
       "page": 487,
       "category": "general"
     },
@@ -1004,15 +1188,15 @@
       "author": "HARRIS-STABLEIN",
       "title": "La signification de Gand dans la cartologie poétique d",
       "siglum": "",
-      "text": "HARRIS-STABLEIN, Patricia, 'La signification de Gand dans la cartologie poétique d'un troubadour du XII^e^ siècle : Bertrand de Born', dans *Résumé des Communications du Congrès International \"Gent in de Literatuur\"* (Gent, 13-17 nov. 1978).",
+      "text": "HARRIS-STABLEIN, Patricia, \"La signification de Gand dans la cartologie poétique d'un troubadour du XII^e^ siècle : Bertrand de Born\", dans *Résumé des Communications du Congrès International \"Gent in de Literatuur\"* (Gent, 13-17 nov. 1978).",
       "page": 487,
       "category": "general"
     },
     {
       "author": "HOBERG",
-      "title": "\"Heart\" and \"Love\" in the Provençal and middle high German love lyrics : contextual analyses",
+      "title": "\"Heart\" and \"Love\" in the Provençal and middle high German love lyrics : contextual analyses",
       "siglum": "",
-      "text": "HOBERG, Carol E.L., *\"Heart\" and \"Love\" in the Provençal and middle high German love lyrics : contextual analyses*, Columbia University, Ph. D., 1978 (Ann Arbor, University Microfilms International, 1979, 19, 397).",
+      "text": "HOBERG, Carol E.L., *\"Heart\" and \"Love\" in the Provençal and middle high German love lyrics : contextual analyses*, Columbia University, Ph. D., 1978 (Ann Arbor, University Microfilms International, 1979, 19, 397).",
       "page": 487,
       "category": "general"
     },
@@ -1028,7 +1212,15 @@
       "author": "JEANROY",
       "title": "La poésie lyrique des troubadours",
       "siglum": "",
-      "text": "JEANROY, Alfred, *La poésie lyrique des troubadours*, t. I & II, Genève, Slatkine Reprints, 1973 (réimpr. de l'éd. de Toulouse et Paris, 1934), VIII + 437 pp. et 375 pp. *Histoire sommaire de la poésie occitane des origines à la fin du XVIII^e^ siècle*, Toulouse-Paris, Privat-Didier, 1945, 184 pp.",
+      "text": "JEANROY, Alfred, *La poésie lyrique des troubadours*, t. I & II, Genève, Slatkine Reprints, 1973 (réimpr. de l'éd. de Toulouse et Paris, 1934), VIII + 437 pp. et 375 pp.",
+      "page": 487,
+      "category": "general"
+    },
+    {
+      "author": "JEANROY",
+      "title": "Histoire sommaire de la poésie occitane des origines à la fin du XVIII^e^ siècle",
+      "siglum": "",
+      "text": "JEANROY, Alfred, *Histoire sommaire de la poésie occitane des origines à la fin du XVIII^e^ siècle*, Toulouse-Paris, Privat-Didier, 1945, 184 pp.",
       "page": 487,
       "category": "general"
     },
@@ -1067,8 +1259,32 @@
     {
       "author": "KÖHLER",
       "title": "Trobadorlyrik und höfischer Roman. Aufsätze zur französischen und provenzalischen Literatur des Mittelalters",
-      "siglum": "Cahiers de Civilisation Médiévale",
-      "text": "KÖHLER, Erich, *Trobadorlyrik und höfischer Roman. Aufsätze zur französischen und provenzalischen Literatur des Mittelalters*, Berlin, Rütten & Loening, 1962, 304 pp. (Neue Beiträge zur Literaturwissenschaft, 15). *'Observations historiques et sociologiques sur la poésie des troubadours'*, ds. [Cahiers de Civilisation Médiévale]{.underline}, VII, 1964, pp. 27 — 51. *'No sai qui s'es — No sai que s'es'*, dans, [Mélanges (...) M. Maurice DELBOUILLE]{.underline}, 1964, pp. 349-366. *'Trobar clus — discussione aperta. Marcabru und die beiden \"Schulen\"'*, dans [Cultura Neolatina]{.underline}, XXX, 1970, pp. 300 — 314.",
+      "siglum": "",
+      "text": "KÖHLER, Erich, *Trobadorlyrik und höfischer Roman. Aufsätze zur französischen und provenzalischen Literatur des Mittelalters*, Berlin, Rütten & Loening, 1962, 304 pp. (Neue Beiträge zur Literaturwissenschaft, 15).",
+      "page": 488,
+      "category": "general"
+    },
+    {
+      "author": "KÖHLER",
+      "title": "Observations historiques et sociologiques sur la poésie des troubadours",
+      "siglum": "",
+      "text": "KÖHLER, Erich, *'Observations historiques et sociologiques sur la poésie des troubadours'*, ds. [Cahiers de Civilisation Médiévale]{.underline}, VII, 1964, pp. 27 — 51.",
+      "page": 488,
+      "category": "general"
+    },
+    {
+      "author": "KÖHLER",
+      "title": "No sai qui s",
+      "siglum": "",
+      "text": "KÖHLER, Erich, *'No sai qui s'es — No sai que s'es'*, dans, [Mélanges (...) M. Maurice DELBOUILLE]{.underline}, 1964, pp. 349-366.",
+      "page": 488,
+      "category": "general"
+    },
+    {
+      "author": "KÖHLER",
+      "title": "Trobar clus — discussione aperta. Marcabru und die beiden \"Schulen\"",
+      "siglum": "",
+      "text": "KÖHLER, Erich, *'Trobar clus — discussione aperta. Marcabru und die beiden \"Schulen\"'*, dans [Cultura Neolatina]{.underline}, XXX, 1970, pp. 300 — 314.",
       "page": 488,
       "category": "general"
     },
@@ -1082,55 +1298,23 @@
     },
     {
       "author": "KOLSEN",
-      "title": "'Altprovenzalisches'",
-      "siglum": "Zeitschrift für romanische Philologie",
+      "title": "Altprovenzalisches",
+      "siglum": "",
       "text": "KOLSEN, A., *'Altprovenzalisches'*, dans [Zeitschrift für romanische Philologie]{.underline}, XL, 1920, pp. 589 sv.",
       "page": 488,
       "category": "general"
     },
     {
       "author": "LAFONT",
-      "title": "Nouvelle histoire de la littérature occitane",
+      "title": "Institut d",
       "siglum": "",
       "text": "LAFONT, Robert, ANATOLE, Christian, *Nouvelle histoire de la littérature occitane*, Paris, Presses universitaires de France, 1970, 2 vols. 847 pp. (Publications de l'Institut d'Etudes Occitanes).",
       "page": 488,
       "category": "general"
     },
     {
-      "author": "LASSALE",
-      "title": "",
-      "siglum": "",
-      "text": "LASSALE, Roger,",
-      "page": 489,
-      "category": "general"
-    },
-    {
-      "author": "LAZA",
-      "title": "",
-      "siglum": "",
-      "text": "LAZA, Moshé,",
-      "page": 489,
-      "category": "general"
-    },
-    {
-      "author": "LEJEUNE",
-      "title": "",
-      "siglum": "",
-      "text": "LEJEUNE, Rita,",
-      "page": 489,
-      "category": "general"
-    },
-    {
-      "author": "LEUBE-FEY",
-      "title": "",
-      "siglum": "",
-      "text": "LEUBE-FEY, Christiane,",
-      "page": 489,
-      "category": "general"
-    },
-    {
       "author": "MANNING",
-      "title": "'Game and earnest in the middle English and Provençal love lyrics'",
+      "title": "Game and earnest in the middle English and Provençal love lyrics",
       "siglum": "",
       "text": "MANNING, Stephen, *'Game and earnest in the middle English and Provençal love lyrics'*, ds. *Comparative Literature*, XVIII, 1966, pp. 225-241.",
       "page": 490,
@@ -1138,23 +1322,23 @@
     },
     {
       "author": "MARSHALL",
-      "title": "'Le vers au XII^e^ siècle : genre poétique ?'",
+      "title": "Le vers au XII^e^ siècle : genre poétique ?",
       "siglum": "",
-      "text": "MARSHALL, J.H., *'Le vers au XII^e^ siècle : genre poétique ?'*, dans *Actes du IIIe Congrès International de langue et de littérature d'oc*, Bordeaux, 1965, t.II pp. 55 — 63.",
+      "text": "MARSHALL, J.H., *'Le vers au XII^e^ siècle : genre poétique ?'*, dans *Actes du IIIe Congrès International de langue et de littérature d'oc*, Bordeaux, 1965, t.II pp. 55 — 63.",
       "page": 490,
       "category": "general"
     },
     {
       "author": "MEILACH",
-      "title": "'Entrebescar los motz'",
+      "title": "Entrebescar los motz",
       "siglum": "",
-      "text": "MEILACH, M.B. *'Entrebescar los motz'*,dans *Lingvističeskie isledowanija 1972*, Moscou, 1973, t. I, pp. 348 — 356.",
+      "text": "MEILACH, M.B., *'Entrebescar los motz'*,dans *Lingvističeskie isledowanija 1972*, Moscou, 1973, t. I, pp. 348 — 356.",
       "page": 490,
       "category": "general"
     },
     {
       "author": "MENARD",
-      "title": "'Le coeur dans les poésies de Bernard de Ventadour'",
+      "title": "Le coeur dans les poésies de Bernard de Ventadour",
       "siglum": "",
       "text": "MENARD, Philippe, *'Le coeur dans les poésies de Bernard de Ventadour'*, dans *Actes du 5e Congrès International de langue et de littérature d'oc et d'études franco-provençales*, Nice, 1974, pp. 182-197.",
       "page": 490,
@@ -1178,7 +1362,7 @@
     },
     {
       "author": "MOUZAT",
-      "title": "'De Ventadorn à Barjols. Les troubadours limousins en Provence entre 1150 et 1250'",
+      "title": "De Ventadorn à Barjols. Les troubadours limousins en Provence entre 1150 et 1250",
       "siglum": "",
       "text": "MOUZAT, Jean, *'De Ventadorn à Barjols. Les troubadours limousins en Provence entre 1150 et 1250'*, dans *Mélanges de philologie romane dédiés à la mémoire de Jean Boutière (1899-1967)*, édités par I. Cluzel et Fr. Pirot, Liège, éd. Soledi, 1971, t. II, pp. 423-443.",
       "page": 490,
@@ -1186,9 +1370,9 @@
     },
     {
       "author": "MUSSAFIA",
-      "title": "'Zur Kritik und Interpretation romanischer Texte'",
+      "title": "Zur Kritik und Interpretation romanischer Texte",
       "siglum": "",
-      "text": "MUSSAFIA, A. *'Zur Kritik und Interpretation romanischer Texte'*, ds. *Sitzungsberichte der (...) Akademie der Wissenschaften*, Wien, vol. CXLV, 1903, pp. 1 — 44.",
+      "text": "MUSSAFIA, A., *'Zur Kritik und Interpretation romanischer Texte'*, ds. *Sitzungsberichte der (...) Akademie der Wissenschaften*, Wien, vol. CXLV, 1903, pp. 1 — 44.",
       "page": 490,
       "category": "general"
     },
@@ -1211,7 +1395,7 @@
     {
       "author": "PASERO",
       "title": "Devinalh, \"non-senso\" e \"interiorizzazione testuale\": osservazioni sui rapporti fra strutture formali e contenuti ideologici nella poesia provenzale",
-      "siglum": "Cultura Neolatina",
+      "siglum": "",
       "text": "PASERO, Nicolo, *Devinalh, \"non-senso\" e \"interiorizzazione testuale\": osservazioni sui rapporti fra strutture formali e contenuti ideologici nella poesia provenzale*, ds. [Cultura Neolatina]{.underline}, XXVIII, 1968, pp. 113 — 146.",
       "page": 491,
       "category": "general"
@@ -1227,8 +1411,16 @@
     {
       "author": "PATTISON",
       "title": "The background of Peire d",
-      "siglum": "Modern Philology",
-      "text": "PATTISON, Walter T., 'The background of Peire d'Alvernhe's *Chantarai d'aquesta trobadors*, dans [Modern Philology]{.underline}, XXXI, 1933, pp. 19 — 34. 'The troubadours of Peire d'Alvernhe's satire in Spain', dans [Publications of the Modern Language Association]{.underline}, L, 1935, pp. 14 — 24.",
+      "siglum": "",
+      "text": "PATTISON, Walter T., 'The background of Peire d'Alvernhe's *Chantarai d'aquesta trobadors*, dans [Modern Philology]{.underline}, XXXI, 1933, pp. 19 — 34.",
+      "page": 491,
+      "category": "general"
+    },
+    {
+      "author": "PATTISON",
+      "title": "The troubadours of Peire d",
+      "siglum": "",
+      "text": "PATTISON, Walter T., \"The troubadours of Peire d'Alvernhe's satire in Spain\", dans [Publications of the Modern Language Association]{.underline}, L, 1935, pp. 14 — 24.",
       "page": 491,
       "category": "general"
     },
@@ -1236,7 +1428,15 @@
       "author": "PAYEN",
       "title": "*Lo vers es fis e naturaus. Notes sur la poétique de Bernard de Ventadour*",
       "siglum": "",
-      "text": "PAYEN, Jean-Charles, '*Lo vers es fis e naturaus. Notes sur la poétique de Bernard de Ventadour*' dans *Mélanges d'histoire littéraire, de linguistique et de philologie romanes offerts à Charles Rostaing*, éd. par Jacques De Caluwé, Jean-Marie D'Heur et René Dumas, Liège, Association intercommunale de Mécanographie, 1974, t. II, pp. 807-817.",
+      "text": "PAYEN, Jean-Charles, \"*Lo vers es fis e naturaus. Notes sur la poétique de Bernard de Ventadour*\" dans *Mélanges d'histoire littéraire, de linguistique et de philologie romanes offerts à Charles Rostaing*, éd. par Jacques De Caluwé, Jean-Marie D'Heur et René Dumas, Liège, Association intercommunale de Mécanographie, 1974, t. II, pp. 807-817.",
+      "page": 491,
+      "category": "general"
+    },
+    {
+      "author": "PILLET",
+      "title": "",
+      "siglum": "",
+      "text": "PILLET, Alfred et CARSTENS, Henry,",
       "page": 491,
       "category": "general"
     },
@@ -1244,7 +1444,7 @@
       "author": "PILLET",
       "title": "Bibliographie der Troubadours",
       "siglum": "",
-      "text": "PILLET, Alfred et CARSTENS, Henry, *Bibliographie der Troubadours*, New York Burt Franklin, 1968, (réimpr. de l'éd. de Halle, 1933), XLIV + 518 pp.",
+      "text": "PILLET, Alfred et CARSTENS, *Bibliographie der Troubadours*, New York Burt Franklin, 1968, (réimpr. de l'éd. de Halle, 1933), XLIV + 518 pp.",
       "page": 491,
       "category": "general"
     },
@@ -1252,7 +1452,15 @@
       "author": "PIROT",
       "title": "L'idéologie des troubadours. Examen de travaux récents",
       "siglum": "",
-      "text": "PIROT, François, *L'idéologie des troubadours. Examen de travaux récents*, dans *Le Moyen Age*, LXXIV, 1968, pp. 301 — 331. *Recherches sur les connaissances littéraires des troubadours occitans et catalans des XII^e^ et XIII^e^ siècles. Les \"sirventes-ensenhamen\" de Guerau de Cabrera, Guiraut de Calanson et Bertrand de Paris*, Barcelona, Ariel S.A., 1972, pp. 656, (Memorias de la Real Academia de Buenas Letras de Barcelona, XIV).",
+      "text": "PIROT, François, *L'idéologie des troubadours. Examen de travaux récents*, dans *Le Moyen Age*, LXXIV, 1968, pp. 301 — 331.",
+      "page": 492,
+      "category": "general"
+    },
+    {
+      "author": "PIROT",
+      "title": "Recherches sur les connaissances littéraires des troubadours occitans et catalans des XII^e^ et XIII^e^ siècles. Les \"sirventes-ensenhamen\" de Guerau de Cabrera, Guiraut de Calanson et Bertrand de Paris",
+      "siglum": "",
+      "text": "PIROT, François, *Recherches sur les connaissances littéraires des troubadours occitans et catalans des XII^e^ et XIII^e^ siècles. Les \"sirventes-ensenhamen\" de Guerau de Cabrera, Guiraut de Calanson et Bertrand de Paris*, Barcelona, Ariel S.A., 1972, pp. 656, (Memorias de la Real Academia de Buenas Letras de Barcelona, XIV).",
       "page": 492,
       "category": "general"
     },
@@ -1298,17 +1506,33 @@
     },
     {
       "author": "RONCAGLIA",
-      "title": "Trobar clus : discussione aperta",
+      "title": "Trobar clus : discussione aperta",
       "siglum": "",
-      "text": "RONCAGLIA, Aurelio, *Trobar clus : discussione aperta*, *Ibid.*, XXIX, 1969, pp. 5 — 55. 'La critique textuelle et les troubadours (quelques considérations)', *Ibid.*, XXXVIII, 1978, pp. 207 — 214, (in Atti del VII Congresso Internazionale di Lingua e Letteratura d'Oc e di Studi Franco-provenzali. Sezione I: Lingua e Letteratura Medievale.",
+      "text": "RONCAGLIA, Aurelio, *Trobar clus : discussione aperta*, *Ibid.*, XXIX, 1969, pp. 5 — 55.",
+      "page": 493,
+      "category": "general"
+    },
+    {
+      "author": "RONCAGLIA",
+      "title": "La critique textuelle et les troubadours (quelques considérations)",
+      "siglum": "",
+      "text": "RONCAGLIA, Aurelio, 'La critique textuelle et les troubadours (quelques considérations)', *Ibid.*, XXXVIII, 1978, pp. 207 — 214, (in Atti del VII Congresso Internazionale di Lingua e Letteratura d'Oc e di Studi Franco-provenzali. Sezione I: Lingua e Letteratura Medievale.",
       "page": 493,
       "category": "general"
     },
     {
       "author": "SALVERDA DE GRAVE",
-      "title": "art lyrique de *Giraut de Bornelh*, Amsterdam, Noord-Hollandsche Uitgeversmaatschappij, 1938, (Mededeelingen der Koninklijke Nederlandsche Akademie van Wetenschappen, afd. Letterkunde, nieuwe reeks, deel I, no.1), pp. 130.",
+      "title": "Giraut de Bornelh",
       "siglum": "",
-      "text": "SALVERDA DE GRAVE, J.J., Observations sur l'art lyrique de *Giraut de Bornelh*, Amsterdam, Noord-Hollandsche Uitgeversmaatschappij, 1938, (Mededeelingen der Koninklijke Nederlandsche Akademie van Wetenschappen, afd. Letterkunde, nieuwe reeks, deel I, no.1), pp. 130. 'Giraut de Bornelh et la poésie obscure' dans *Mélanges de Linguistique et de philologie offerts à Jacques van Ginneken*, Paris, 1937, pp. 297 — 306.",
+      "text": "SALVERDA DE GRAVE, J.J., Observations sur l'art lyrique de *Giraut de Bornelh*, Amsterdam, Noord-Hollandsche Uitgeversmaatschappij, 1938, (Mededeelingen der Koninklijke Nederlandsche Akademie van Wetenschappen, afd. Letterkunde, nieuwe reeks, deel I, no.1), pp. 130.",
+      "page": 493,
+      "category": "general"
+    },
+    {
+      "author": "SALVERDA DE GRAVE",
+      "title": "Giraut de Bornelh et la poésie obscure",
+      "siglum": "",
+      "text": "SALVERDA DE GRAVE, J.J., \"Giraut de Bornelh et la poésie obscure\" dans *Mélanges de Linguistique et de philologie offerts à Jacques van Ginneken*, Paris, 1937, pp. 297 — 306.",
       "page": 493,
       "category": "general"
     },
@@ -1346,16 +1570,16 @@
     },
     {
       "author": "SUTHERLAND",
-      "title": "L'élément théâtral dans la canso chez les troubadours de l'époque classique",
-      "siglum": "Revue de Langue et de Littérature d'Oc",
+      "title": "élément théâtral dans la canso chez les troubadours de l",
+      "siglum": "",
       "text": "SUTHERLAND, Dorothy R., *L'élément théâtral dans la canso chez les troubadours de l'époque classique*, dans [Revue de Langue et de Littérature d'Oc]{.underline}, XII - XIII, 1962 — 1963, pp. 95 — 101.",
       "page": 494,
       "category": "general"
     },
     {
       "author": "SWITTEN",
-      "title": "Raimon de Miraval's Be m'agrada and the unrhymed refrain in troubadour poetry",
-      "siglum": "Romance Philology",
+      "title": "s Be m",
+      "siglum": "",
       "text": "SWITTEN, Margaret, *Raimon de Miraval's Be m'agrada and the unrhymed refrain in troubadour poetry*, dans [Romance Philology]{.underline}, XXII, 1969, pp. 432 — 448.",
       "page": 494,
       "category": "general"
@@ -1372,21 +1596,29 @@
       "author": "TOPSFIELD",
       "title": "Troubadours and Love",
       "siglum": "",
-      "text": "TOPSFIELD, L.T., *Troubadours and Love*, Cambridge, Cambridge University Press, 1975, pp. 296. *Three levels of love in the poetry of early troubadours : Guilhem IX, Marcabru and Jaufre Rudel*, dans *Mélanges ... Boutière*, t. I, pp. 571 — 587.",
+      "text": "TOPSFIELD, L.T., *Troubadours and Love*, Cambridge, Cambridge University Press, 1975, pp. 296.",
+      "page": 494,
+      "category": "general"
+    },
+    {
+      "author": "TOPSFIELD",
+      "title": "Three levels of love in the poetry of early troubadours : Guilhem IX, Marcabru and Jaufre Rudel",
+      "siglum": "",
+      "text": "TOPSFIELD, L.T., *Three levels of love in the poetry of early troubadours : Guilhem IX, Marcabru and Jaufre Rudel*, dans *Mélanges ... Boutière*, t. I, pp. 571 — 587.",
       "page": 494,
       "category": "general"
     },
     {
       "author": "VUIJLSTEKE",
-      "title": "Amor, dans la littérature provençale Quelques réflexions à propos d'un livre récent",
-      "siglum": "Revue belge de philologie et d'histoire",
+      "title": "un livre récent*, dans [Revue belge de philologie et d",
+      "siglum": "",
       "text": "VUIJLSTEKE, Marc, *Amor, dans la littérature provençale Quelques réflexions à propos d'un livre récent*, dans [Revue belge de philologie et d'histoire]{.underline}, LIII, 1975, pp. 805 — 814.",
       "page": 494,
       "category": "general"
     },
     {
       "author": "WETTSTEIN",
-      "title": "Mezura, l'idéal des troubadours. Son essence et ses aspects",
+      "title": "idéal des troubadours. Son essence et ses aspects*, Genève, Slatkine Reprints, 1974, (réimpr. de l",
       "siglum": "",
       "text": "WETTSTEIN, Jacques, *Mezura, l'idéal des troubadours. Son essence et ses aspects*, Genève, Slatkine Reprints, 1974, (réimpr. de l'éḍ. de Zürich, 1945), pp. 123.",
       "page": 494,
@@ -1412,8 +1644,16 @@
       "author": "ZORZI",
       "title": "Valori religiosi nella letteratura provenzale. La spiritualità trinitaria",
       "siglum": "",
-      "text": "ZORZI, Diego, *Valori religiosi nella letteratura provenzale. La spiritualità trinitaria*, Milano, Società Editrice \"Vita e Pensiero\", 1954, X + 379 pp. (Pubblicazioni dell'Università cattolica del S. Cuore, vol. XLIV) ; 496.",
+      "text": "ZORZI, Diego, *Valori religiosi nella letteratura provenzale. La spiritualità trinitaria*, Milano, Società Editrice \"Vita e Pensiero\", 1954, X + 379 pp. (Pubblicazioni dell'Università cattolica del S. Cuore, vol. XLIV) ;",
       "page": 495,
+      "category": "general"
+    },
+    {
+      "author": "ZORZI",
+      "title": "",
+      "siglum": "",
+      "text": "ZORZI, Diego, 496.",
+      "page": 496,
       "category": "general"
     },
     {
@@ -1428,13 +1668,21 @@
       "author": "APPEL",
       "title": "Provenzalische Inedita aus Pariser Handschriften",
       "siglum": "",
-      "text": "APPEL, Carl, *Provenzalische Inedita aus Pariser Handschriften*, Leipzig, R.O. Reisland, 1892, XXXII + 356 pp. *Provenzalische Chrestomathie*, Hildesheim — New York, Georg Olms Verlag, 1971, XLI + 344 pp. (réimpr. de l'éd. de Leipzig, 1930).",
+      "text": "APPEL, Carl, *Provenzalische Inedita aus Pariser Handschriften*, Leipzig, R.O. Reisland, 1892, XXXII + 356 pp.",
+      "page": 496,
+      "category": "general"
+    },
+    {
+      "author": "APPEL",
+      "title": "Provenzalische Chrestomathie",
+      "siglum": "",
+      "text": "APPEL, Carl, *Provenzalische Chrestomathie*, Hildesheim — New York, Georg Olms Verlag, 1971, XLI + 344 pp. (réimpr. de l'éd. de Leipzig, 1930).",
       "page": 496,
       "category": "general"
     },
     {
       "author": "AUDIAU",
-      "title": "Nouvelle anthologie des troubadours",
+      "title": "un index et d",
       "siglum": "",
       "text": "AUDIAU, Jean, *Nouvelle anthologie des troubadours*, revue et accompagnée d'un index et d'un glossaire par René LAVAUD, Paris, Librairie Delagrave, 1928, 398 pp. (Collection Pallas).",
       "page": 496,
@@ -1444,13 +1692,21 @@
       "author": "BARTSCH",
       "title": "Chrestomathie provençale (Xe — XVe siècles)",
       "siglum": "",
-      "text": "BARTSCH, Karl, *Chrestomathie provençale (Xe — XVe siècles)*. Sixième édition entièrement refondue par Edouard KOSCHWITZ, Genève, Slatkine Reprints, 1973, (Réimpr. de l'éd. de Marburg de 1904), VII + 662 pp. *Provenzalisches Lesebuch mit einer literarischen Einleitung und einem Wörterbuch*, Genève, Slatkine Reprints, 1974, (réimpr. de l'éd. d'Elberfeld de 1855), XXII + 242 pp.",
+      "text": "BARTSCH, Karl, *Chrestomathie provençale (Xe — XVe siècles)*. Sixième édition entièrement refondue par Edouard KOSCHWITZ, Genève, Slatkine Reprints, 1973, (Réimpr. de l'éd. de Marburg de 1904), VII + 662 pp.",
+      "page": 496,
+      "category": "general"
+    },
+    {
+      "author": "BARTSCH",
+      "title": "éd. d",
+      "siglum": "",
+      "text": "BARTSCH, Karl, *Provenzalisches Lesebuch mit einer literarischen Einleitung und einem Wörterbuch*, Genève, Slatkine Reprints, 1974, (réimpr. de l'éd. d'Elberfeld de 1855), XXII + 242 pp.",
       "page": 496,
       "category": "general"
     },
     {
       "author": "BAYLE",
-      "title": "Poésies choisies des troubadours du XIIe au XVe siècle avec la traduction littéraire en regard, précédées d'un abrégé de grammaire provençale",
+      "title": "un abrégé de grammaire provençale*, Genève, Slatkine Reprints, 1974 (réimpr. de l",
       "siglum": "",
       "text": "BAYLE, Antoine, *Poésies choisies des troubadours du XIIe au XVe siècle avec la traduction littéraire en regard, précédées d'un abrégé de grammaire provençale*, Genève, Slatkine Reprints, 1974 (réimpr. de l'éd. d'Aix de 1879), XV + 282 pp.",
       "page": 496,
@@ -1476,7 +1732,15 @@
       "author": "BERTONI",
       "title": "Antiche poesie provenzali",
       "siglum": "",
-      "text": "BERTONI, Luigi, *Antiche poesie provenzali*, Modena, Società tipografica Modenese, 1940, 106 pp. *I trovatori d'Italia*, Genève, Slatkine Reprints, 1974, (réimpr. de l'éd. de Modena, 1915), XVI + 608 pp.",
+      "text": "BERTONI, Luigi, *Antiche poesie provenzali*, Modena, Società tipografica Modenese, 1940, 106 pp.",
+      "page": 497,
+      "category": "general"
+    },
+    {
+      "author": "BERTONI",
+      "title": "Italia*, Genève, Slatkine Reprints, 1974, (réimpr. de l",
+      "siglum": "",
+      "text": "BERTONI, Luigi, *I trovatori d'Italia*, Genève, Slatkine Reprints, 1974, (réimpr. de l'éd. de Modena, 1915), XVI + 608 pp.",
       "page": 497,
       "category": "general"
     },
@@ -1492,13 +1756,21 @@
       "author": "BOGIN",
       "title": "The Women Troubadours",
       "siglum": "",
-      "text": "BOGIN, Meg, *The Women Troubadours*, New York, Paddington Press Ltd., 1976, 192 pp. C.R. par BEC, Pierre dans *Cahiers de Civilisation Médiévale*, XXII, 1979, pp. 373 — 375.",
+      "text": "BOGIN, Meg, *The Women Troubadours*, New York, Paddington Press Ltd., 1976, 192 pp.",
+      "page": 497,
+      "category": "general"
+    },
+    {
+      "author": "BOGIN",
+      "title": "Cahiers de Civilisation Médiévale",
+      "siglum": "",
+      "text": "BOGIN, Meg, C.R. par BEC, Pierre dans *Cahiers de Civilisation Médiévale*, XXII, 1979, pp. 373 — 375.",
       "page": 497,
       "category": "general"
     },
     {
       "author": "BOUTIÈRE",
-      "title": "Biographie des troubadours. Textes provençaux des XIII^e^ et XIV^e^ siècles. Deuxième édition, refondue, augmentée d'un appendice, d'un lexique, d'un glossaire et d'un index des termes concernant le \"trobar\"",
+      "title": "un appendice, d",
       "siglum": "",
       "text": "BOUTIÈRE, Jean et SCHUTZ, A.H., *Biographie des troubadours. Textes provençaux des XIII^e^ et XIV^e^ siècles. Deuxième édition, refondue, augmentée d'un appendice, d'un lexique, d'un glossaire et d'un index des termes concernant le \"trobar\"* par Jean BOUTIÈRE avec la collaboration de Irénée-Marcel CLUZEL. Traduction française des textes provençaux par I.-M. CLUZEL avec la collaboration de M. WORONOFF, Paris, Nizet, 1973, 641 pp. (Les Classiques d'Oc, 1).",
       "page": 497,
@@ -1514,7 +1786,7 @@
     },
     {
       "author": "BRUNEL",
-      "title": "'Recettes médicales' in Romania",
+      "title": "Recettes médicales",
       "siglum": "",
       "text": "BRUNEL, Clovis, *'Recettes médicales' in Romania*, LXXVIII, 1957, pp. 289 — 327.",
       "page": 498,
@@ -1524,15 +1796,47 @@
       "author": "GENNRICH",
       "title": "Der musikalische Nachlass der Troubadours. Kritische Ausgabe der Melodien",
       "siglum": "",
-      "text": "GENNRICH, Friedrich, *Der musikalische Nachlass der Troubadours. Kritische Ausgabe der Melodien*, Darmstadt, 1958, XVI + 300 pp. (Summa musicae Medii Aevi, III). *Lo gai Saber. 50 ausgewählte troubadourlieder. Melodie, Text, Kommentar, Formenlehre und Glossar*, Darmstadt, 1959, VIII + 130 pp. (Musikwissenschaftliche Studienbibliothek, 18/19). *Der Musikalische Nachlass der Troubadours. Kommentar*, Darmstadt, 1960, XIX + 214 pp. (Summa Musicae Medii Aevi, IV).",
+      "text": "GENNRICH, Friedrich, *Der musikalische Nachlass der Troubadours. Kritische Ausgabe der Melodien*, Darmstadt, 1958, XVI + 300 pp. (Summa musicae Medii Aevi, III).",
+      "page": 498,
+      "category": "general"
+    },
+    {
+      "author": "GENNRICH",
+      "title": "Lo gai Saber. 50 ausgewählte troubadourlieder. Melodie, Text, Kommentar, Formenlehre und Glossar",
+      "siglum": "",
+      "text": "GENNRICH, Friedrich, *Lo gai Saber. 50 ausgewählte troubadourlieder. Melodie, Text, Kommentar, Formenlehre und Glossar*, Darmstadt, 1959, VIII + 130 pp. (Musikwissenschaftliche Studienbibliothek, 18/19).",
+      "page": 498,
+      "category": "general"
+    },
+    {
+      "author": "GENNRICH",
+      "title": "Der Musikalische Nachlass der Troubadours. Kommentar",
+      "siglum": "",
+      "text": "GENNRICH, Friedrich, *Der Musikalische Nachlass der Troubadours. Kommentar*, Darmstadt, 1960, XIX + 214 pp. (Summa Musicae Medii Aevi, IV).",
       "page": 498,
       "category": "general"
     },
     {
       "author": "HAMLIN",
-      "title": "Introduction à l'étude de l'ancien provençal. Textes d'étude",
+      "title": "",
       "siglum": "",
-      "text": "HAMLIN, Frank R., RICKETTS, Peter et HATTAWAY, John, *Introduction à l'étude de l'ancien provençal. Textes d'étude*, Genève, Droz, 1967 (Publications romanes et françaises, 96), 312 pp.",
+      "text": "HAMLIN, Frank R., RICKETTS, Peter et HATTAWAY, John,",
+      "page": 498,
+      "category": "general"
+    },
+    {
+      "author": "HAMLIN",
+      "title": "étude de l",
+      "siglum": "",
+      "text": "HAMLIN, Frank R., *Introduction à l'étude de l'ancien provençal. Textes d'étude*, Genève, Droz, 1967 (Publications romanes et françaises, 96), 312 pp.",
+      "page": 498,
+      "category": "general"
+    },
+    {
+      "author": "HILL",
+      "title": "",
+      "siglum": "",
+      "text": "HILL, Raymond T. et BERGIN, Thomas G.,",
       "page": 498,
       "category": "general"
     },
@@ -1540,15 +1844,23 @@
       "author": "HILL",
       "title": "Anthology of the Provençal troubadours",
       "siglum": "",
-      "text": "HILL, Raymond T. et BERGIN, Thomas G., *Anthology of the Provençal troubadours*, New Haven, Yale University Press (Yale Romanic Studies, XVIII), 1941, XV, 365 pp.",
+      "text": "HILL, Raymond T. et BERGIN, *Anthology of the Provençal troubadours*, New Haven, Yale University Press (Yale Romanic Studies, XVIII), 1941, XV, 365 pp.",
       "page": 498,
       "category": "general"
     },
     {
       "author": "JEANROY",
-      "title": "'Poésies provençales inédites d'après les mss. de Paris'",
-      "siglum": "Annales du Midi",
-      "text": "JEANROY, Alfred, *'Poésies provençales inédites d'après les mss. de Paris'*, dans [Annales du Midi]{.underline}, XVII, 1905, pp. 457 — 489. *Anthologie des troubadours (XII^e^ — XIII^e^ siècles)*, éd. refondue. Textes, notes, traductions par J. BOELCKE, Paris, Nizet, 1974, (éd. refaite sur celle de Paris, 1927), pp. 413.",
+      "title": "Poésies provençales inédites d",
+      "siglum": "",
+      "text": "JEANROY, Alfred, *'Poésies provençales inédites d'après les mss. de Paris'*, dans [Annales du Midi]{.underline}, XVII, 1905, pp. 457 — 489.",
+      "page": 498,
+      "category": "general"
+    },
+    {
+      "author": "JEANROY",
+      "title": "Anthologie des troubadours (XII^e^ — XIII^e^ siècles)",
+      "siglum": "",
+      "text": "JEANROY, Alfred, *Anthologie des troubadours (XII^e^ — XIII^e^ siècles)*, éd. refondue. Textes, notes, traductions par J. BOELCKE, Paris, Nizet, 1974, (éd. refaite sur celle de Paris, 1927), pp. 413.",
       "page": 498,
       "category": "general"
     },
@@ -1563,22 +1875,30 @@
     {
       "author": "KOLSEN",
       "title": "Trobadorgedichte. Dreissig Stücke altprovenzalischer Lyrik",
-      "siglum": "C.R. par A.C. PILLET, dans Zeitschrift für romanische Philologie, XLIX, 1929, pp. 366.",
-      "text": "KOLSEN, Adolf, *Trobadorgedichte. Dreissig Stücke altprovenzalischer Lyrik*, Halle-Saale, Max Niemeyer Verlag, 1925, VI + 72 pp. (Sammlung romanischer Übungstexte, VI). [C.R. par A.C. PILLET, dans Zeitschrift für romanische Philologie, XLIX, 1929, pp. 366.]{.underline}",
+      "siglum": "",
+      "text": "KOLSEN, Adolf, *Trobadorgedichte. Dreissig Stücke altprovenzalischer Lyrik*, Halle-Saale, Max Niemeyer Verlag, 1925, VI + 72 pp. (Sammlung romanischer Übungstexte, VI).",
+      "page": 499,
+      "category": "general"
+    },
+    {
+      "author": "KOLSEN",
+      "title": "",
+      "siglum": "",
+      "text": "KOLSEN, Adolf, [C.R. par A.C. PILLET, dans Zeitschrift für romanische Philologie, XLIX, 1929, pp. 366.]{.underline}",
       "page": 499,
       "category": "general"
     },
     {
       "author": "LAFONT",
-      "title": "Trobar : XII^e^-XII^e^ siècles",
+      "title": "Trobar : XII^e^-XII^e^ siècles",
       "siglum": "",
-      "text": "LAFONT, Robert, *Trobar : XII^e^-XII^e^ siècles*, Montpellier, Centre d'Etudes Occitanes, Université de Montpellier III, 1972, V + 331 pp.",
+      "text": "LAFONT, Robert, *Trobar : XII^e^-XII^e^ siècles*, Montpellier, Centre d'Etudes Occitanes, Université de Montpellier III, 1972, V + 331 pp.",
       "page": 499,
       "category": "general"
     },
     {
       "author": "LA SALLE DE ROCHEMAURE",
-      "title": "Les Troubadours cantaliens",
+      "title": "éd. d",
       "siglum": "",
       "text": "LA SALLE DE ROCHEMAURE, *Les Troubadours cantaliens*, Genève, Slatkine Reprints, 1977, (réimpr. de l'éd. d'Aurillac, 1910), 2 vols.",
       "page": 499,
@@ -1588,7 +1908,15 @@
       "author": "LOMMATZSCH",
       "title": "Provenzalisches Liederbuch. Lieder der Troubadours met einer Auswahl biograph. Zeugnisse, Nachrichten und Singweisen zusammengestellt",
       "siglum": "",
-      "text": "LOMMATZSCH, Erhard, *Provenzalisches Liederbuch. Lieder der Troubadours met einer Auswahl biograph. Zeugnisse, Nachrichten und Singweisen zusammengestellt*, Genève, Slatkine Reprints, 1975, (réimpr. de l'éd. de Berlin, 1917), XXV + 515 pp. *Leben und Lieder der provenzalischen Troubadours. II. Lieder verschiedener Gattung*, Berlin, Akademie-Verlag, 1959, VIII + 216 pp.",
+      "text": "LOMMATZSCH, Erhard, *Provenzalisches Liederbuch. Lieder der Troubadours met einer Auswahl biograph. Zeugnisse, Nachrichten und Singweisen zusammengestellt*, Genève, Slatkine Reprints, 1975, (réimpr. de l'éd. de Berlin, 1917), XXV + 515 pp.",
+      "page": 499,
+      "category": "general"
+    },
+    {
+      "author": "LOMMATZSCH",
+      "title": "Leben und Lieder der provenzalischen Troubadours. II. Lieder verschiedener Gattung",
+      "siglum": "",
+      "text": "LOMMATZSCH, Erhard, *Leben und Lieder der provenzalischen Troubadours. II. Lieder verschiedener Gattung*, Berlin, Akademie-Verlag, 1959, VIII + 216 pp.",
       "page": 499,
       "category": "general"
     },
@@ -1596,7 +1924,15 @@
       "author": "MAHN",
       "title": "Die Werke der Troubadours, in Provenzalischer Sprache, mit einer Grammatik und einem Wörterbuch",
       "siglum": "",
-      "text": "MAHN, C.A.F., *Die Werke der Troubadours, in Provenzalischer Sprache, mit einer Grammatik und einem Wörterbuch*, Berlin, Ferd. Dümmlers Verlagsbuchhandlung — Paris, Klincksieck, 1846 — 1853, 4 vols., [LW]. *Gedichte der Troubadours, in provenzalischer Sprache. Zum ersten Mal und treu nach den Handschriften herausgegeben und mit kritischen Anmerkungen versehen*, Berlin, Ferd. Dümmler's Verlagsbuchhandlung, 1856 — 1879, 4 vols. [MG].",
+      "text": "MAHN, C.A.F., *Die Werke der Troubadours, in Provenzalischer Sprache, mit einer Grammatik und einem Wörterbuch*, Berlin, Ferd. Dümmlers Verlagsbuchhandlung — Paris, Klincksieck, 1846 — 1853, 4 vols., [LW].",
+      "page": 499,
+      "category": "general"
+    },
+    {
+      "author": "MAHN",
+      "title": "Gedichte der Troubadours, in provenzalischer Sprache. Zum ersten Mal und treu nach den Handschriften herausgegeben und mit kritischen Anmerkungen versehen",
+      "siglum": "",
+      "text": "MAHN, C.A.F., *Gedichte der Troubadours, in provenzalischer Sprache. Zum ersten Mal und treu nach den Handschriften herausgegeben und mit kritischen Anmerkungen versehen*, Berlin, Ferd. Dümmler's Verlagsbuchhandlung, 1856 — 1879, 4 vols. [MG].",
       "page": 499,
       "category": "general"
     },
@@ -1610,7 +1946,7 @@
     },
     {
       "author": "MEYER",
-      "title": "Recueil d'anciens textes bas-latins, provençaux et français, accompagnés de deux glossaires",
+      "title": "anciens textes bas-latins, provençaux et français, accompagnés de deux glossaires*, Genève, Slatkine, 1977, (réimpr. de l",
       "siglum": "",
       "text": "MEYER, Paul, *Recueil d'anciens textes bas-latins, provençaux et français, accompagnés de deux glossaires*, Genève, Slatkine, 1977, (réimpr. de l'éd. de Paris, 1874 — 1877), pp. 384.",
       "page": 500,
@@ -1618,9 +1954,9 @@
     },
     {
       "author": "NELLI",
-      "title": "Les Troubadours, t. II : Les trésors poétiques de l'Occitanie",
+      "title": "Les Troubadours, t. II : Les trésors poétiques de l'Occitanie",
       "siglum": "",
-      "text": "NELLI, René — LAVAUD, René, *Les Troubadours, t. II : Les trésors poétiques de l'Occitanie*, Bruges, Desclée de Brouwer, 1966, pp. 1095.",
+      "text": "NELLI, René — LAVAUD, René, *Les Troubadours, t. II : Les trésors poétiques de l'Occitanie*, Bruges, Desclée de Brouwer, 1966, pp. 1095.",
       "page": 500,
       "category": "general"
     },
@@ -1650,7 +1986,7 @@
     },
     {
       "author": "RAYNOUARD",
-      "title": "Choix des poésies originales des troubadours",
+      "title": "",
       "siglum": "",
       "text": "RAYNOUARD, M. *Choix des poésies originales des troubadours*, Paris, F. Didot, 1821, 6 vols.",
       "page": 500,
@@ -1658,9 +1994,9 @@
     },
     {
       "author": "RIQUER",
-      "title": "La lírica de los trovadores, t. I : Poetas del Siglo XII",
+      "title": "La lírica de los trovadores, t. I : Poetas del Siglo XII",
       "siglum": "",
-      "text": "RIQUER, Martin de-, *La lírica de los trovadores, t. I : Poetas del Siglo XII*, Barcelona, Escuela de Filología, 1948, LXII + 482 pp.",
+      "text": "RIQUER, Martin de-, *La lírica de los trovadores, t. I : Poetas del Siglo XII*, Barcelona, Escuela de Filología, 1948, LXII + 482 pp.",
       "page": 500,
       "category": "general"
     },
@@ -1674,7 +2010,7 @@
     },
     {
       "author": "RONCAGLIA",
-      "title": "Le più belle pagine della letteratura d'oc e d'oïl",
+      "title": "oc e d",
       "siglum": "",
       "text": "RONCAGLIA, Aurelio, *Le più belle pagine della letteratura d'oc e d'oïl*, Milano, Nuova Accademia Editrice, 1961, (Pagine delle letteratura di tutto il mondo), pp. 641.",
       "page": 501,
@@ -1683,14 +2019,22 @@
     {
       "author": "SCHULTZ-GORA",
       "title": "Die Provenzalischen Dichterinnen. Biographien und Texte nebst Anmerkungen und einer Einleitung",
+      "siglum": "",
+      "text": "SCHULTZ-GORA, Oscar, *Die Provenzalischen Dichterinnen. Biographien und Texte nebst Anmerkungen und einer Einleitung*, Genève, Slatkine Reprints, 1975, (réimpr. de l'éd. de Leipzig, 1888), 36 pp.",
+      "page": 501,
+      "category": "general"
+    },
+    {
+      "author": "SCHULTZ-GORA",
+      "title": "Literaturblatt",
       "siglum": "C.R.",
-      "text": "SCHULTZ-GORA, Oscar, *Die Provenzalischen Dichterinnen. Biographien und Texte nebst Anmerkungen und einer Einleitung*, Genève, Slatkine Reprints, 1975, (réimpr. de l'éd. de Leipzig, 1888), 36 pp. [C.R.]{.underline} par Emil LEVY, dans *Literaturblatt*, X, 1898, pp. 184.",
+      "text": "SCHULTZ-GORA, Oscar, [C.R.]{.underline} par Emil LEVY, dans *Literaturblatt*, X, 1898, pp. 184.",
       "page": 501,
       "category": "general"
     },
     {
       "author": "TUCHEL",
-      "title": "Die Trobadors, Leben und Lieder",
+      "title": "",
       "siglum": "",
       "text": "TUCHEL, Hans Gerd. *Die Trobadors, Leben und Lieder*, Bremen, Carl Schüneman Verlag, 1966, 2e éd., pp. XL + 354.",
       "page": 501,
@@ -1738,7 +2082,7 @@
     },
     {
       "author": "AUDIAU",
-      "title": "Les poésies des quatre troubadours d'Ussel",
+      "title": "Ussel*, Genève, Slatkine Reprints, 1973, (réimpr. de l",
       "siglum": "",
       "text": "AUDIAU, Jean, *Les poésies des quatre troubadours d'Ussel*, Genève, Slatkine Reprints, 1973, (réimpr. de l'éd. de Paris, 1922), pp. 160.",
       "page": 502,
@@ -1778,9 +2122,9 @@
     },
     {
       "author": "BONI",
-      "title": "Sordello : le poesie. Nuova edizione critica con studio introduttivo, traduzioni, note e glossario",
+      "title": "Sordello : le poesie. Nuova edizione critica con studio introduttivo, traduzioni, note e glossario",
       "siglum": "",
-      "text": "BONI, Marco, *Sordello : le poesie. Nuova edizione critica con studio introduttivo, traduzioni, note e glossario*, Bologna, Libr. Palmaverde, 1954, CCII + 311 pp., (Bibl. degli Studi Mediolatini e volgari, 1).",
+      "text": "BONI, Marco, *Sordello : le poesie. Nuova edizione critica con studio introduttivo, traduzioni, note e glossario*, Bologna, Libr. Palmaverde, 1954, CCII + 311 pp., (Bibl. degli Studi Mediolatini e volgari, 1).",
       "page": 503,
       "category": "general"
     },
@@ -1810,7 +2154,7 @@
     },
     {
       "author": "CANELLO",
-      "title": "La Vita e le Opere del Trovatore Arnaldo Daniello",
+      "title": "",
       "siglum": "",
       "text": "CANELLO, U.A. *La Vita e le Opere del Trovatore Arnaldo Daniello*, Halle, Max Niemeyer Verlag, 1883, pp. 277.",
       "page": 503,
@@ -1826,7 +2170,7 @@
     },
     {
       "author": "CARMODY",
-      "title": "Brunetto Latini, \"Li livres dou Tresor\"",
+      "title": "",
       "siglum": "",
       "text": "CARMODY, Francis J. *Brunetto Latini, \"Li livres dou Tresor\"*, éd. crit., Genève, Slatkine Reprints, 1975, (réimpr. de l'éd. de Berkeley — Los Angeles, 1948), pp. LXII + 458.",
       "page": 503,
@@ -1834,15 +2178,15 @@
     },
     {
       "author": "CORNICELIUS",
-      "title": "So fo el temps c'om era iayg : Novèlle von Raimon Vidal nach vier bisher gefundenen Handschriften zum ersten Mal herausgegeben",
+      "title": "So fo el temps c'om era iayg : Novèlle von Raimon Vidal nach vier bisher gefundenen Handschriften zum ersten Mal herausgegeben",
       "siglum": "",
-      "text": "CORNICELIUS, Max, *So fo el temps c'om era iayg : Novèlle von Raimon Vidal nach vier bisher gefundenen Handschriften zum ersten Mal herausgegeben*, Berlin, 1888, pp. 102.",
+      "text": "CORNICELIUS, Max, *So fo el temps c'om era iayg : Novèlle von Raimon Vidal nach vier bisher gefundenen Handschriften zum ersten Mal herausgegeben*, Berlin, 1888, pp. 102.",
       "page": 504,
       "category": "general"
     },
     {
       "author": "DEJEANNE",
-      "title": "Poésies complètes du troubadour Marcabru",
+      "title": "",
       "siglum": "",
       "text": "DEJEANNE, Jean-Marie-Lucien *Poésies complètes du troubadour Marcabru*, publiées avec traduction, notes et glossaire, Toulouse, Privat, 1909, pp. 297.",
       "page": 504,
@@ -1868,7 +2212,7 @@
       "author": "ERNST",
       "title": "Die Lieder der provenzalischen Trobadors Guiraut de Calanson",
       "siglum": "",
-      "text": "ERNST, Willy, 'Die Lieder der provenzalischen Trobadors Guiraut de Calanson', dans *Romanische Forschungen*, XLIV, 1930, pp. 255 — 406.",
+      "text": "ERNST, Willy, \"Die Lieder der provenzalischen Trobadors Guiraut de Calanson\", dans *Romanische Forschungen*, XLIV, 1930, pp. 255 — 406.",
       "page": 504,
       "category": "general"
     },
@@ -1884,15 +2228,15 @@
       "author": "FASSBINDER",
       "title": "Der Trobador Raimbaut de Vaqueiras",
       "siglum": "",
-      "text": "FASSBINDER, Klara M., 'Der Trobador Raimbaut de Vaqueiras', dans *Zeitschrift für romanische Philologie*, XLIX, 1929, pp. 437-472.",
+      "text": "FASSBINDER, Klara M., \"Der Trobador Raimbaut de Vaqueiras\", dans *Zeitschrift für romanische Philologie*, XLIX, 1929, pp. 437-472.",
       "page": 504,
       "category": "general"
     },
     {
       "author": "GUILHEM MOLINER",
-      "title": "Las Flors del Gay Saber estier dichas Las Leys d'Amors",
+      "title": "AGUILAR et d",
       "siglum": "",
-      "text": "GUILHEM MOLINER, *Las Flors del Gay Saber estier dichas Las Leys d'Amors*, traduction de MM. d'AGUILAR et d'ESCOULOUBRE, revue et complétée par M. GATIEN-ARNOULT, Toulouse, J.B. Paya, 1841, XIV + 365pp. t. II, 1842, III + 431 pp. ; t. III, 1843, 408 pp. (Monumens de la Littérature Romane), [feuilles]{.unclear}",
+      "text": "GUILHEM MOLINER, *Las Flors del Gay Saber estier dichas Las Leys d'Amors*, traduction de MM. d'AGUILAR et d'ESCOULOUBRE, revue et complétée par M. GATIEN-ARNOULT, Toulouse, J.B. Paya, 1841, XIV + 365pp. t. II, 1842, III + 431 pp. ; t. III, 1843, 408 pp. (Monumens de la Littérature Romane), [feuilles]{.unclear}",
       "page": 504,
       "category": "general"
     },
@@ -1908,7 +2252,7 @@
       "author": "HOEPFFNER",
       "title": "La Chanson de Sainte Foye",
       "siglum": "",
-      "text": "HOEPFFNER, Ernest et ALFARIC, P., *La Chanson de Sainte Foye*, Paris, Les Belles Lettres, 1926, t. I : pp. V + 376 ; t. II : pp. VI + 206, (Publications de la faculté des Lettres de l'Université de Strasbourg).",
+      "text": "HOEPFFNER, Ernest et ALFARIC, P., *La Chanson de Sainte Foye*, Paris, Les Belles Lettres, 1926, t. I : pp. V + 376 ; t. II : pp. VI + 206, (Publications de la faculté des Lettres de l'Université de Strasbourg).",
       "page": 505,
       "category": "general"
     },
@@ -1922,7 +2266,7 @@
     },
     {
       "author": "JEANROY",
-      "title": "Les poésies de Cercamon",
+      "title": "Les *coblae* de Bertran Carbonel",
       "siglum": "",
       "text": "JEANROY, Alfred, *Les poésies de Cercamon*, Paris, Librairie H. Champion, 1922, pp. IX + 36.(Les classiques français du moyen âge,27). 'Les *coblae* de Bertran Carbonel'; publiées d'après tous les mss. connus, dans *Annales du Midi*, XXV, 1913, pp. 137 — 188.",
       "page": 505,
@@ -1962,9 +2306,9 @@
     },
     {
       "author": "KOLSEN",
-      "title": "Sämtliche Lieder des Trobador Giraut de Bornelh. Met Uebersetzung, Kommentar und Glossar kritisch herausgegeben, Erster Band : Texte mit Varianten und Uebersetzung",
+      "title": "Sämtliche Lieder des Trobador Giraut de Bornelh. Met Uebersetzung, Kommentar und Glossar kritisch herausgegeben, Erster Band : Texte mit Varianten und Uebersetzung",
       "siglum": "",
-      "text": "KOLSEN, Adolf, *Sämtliche Lieder des Trobador Giraut de Bornelh. Met Uebersetzung, Kommentar und Glossar kritisch herausgegeben, Erster Band : Texte mit Varianten und Uebersetzung*, Halle, Max Niemeyer Verlag, 1910, XI + 496 pp. ; *Zweiter Band : Vida, Kommentar und Glossar*, Halle, Max Niemeyer Verlag, 1935, VIII + 292 pp.",
+      "text": "KOLSEN, Adolf, *Sämtliche Lieder des Trobador Giraut de Bornelh. Met Uebersetzung, Kommentar und Glossar kritisch herausgegeben, Erster Band : Texte mit Varianten und Uebersetzung*, Halle, Max Niemeyer Verlag, 1910, XI + 496 pp. ; *Zweiter Band : Vida, Kommentar und Glossar*, Halle, Max Niemeyer Verlag, 1935, VIII + 292 pp.",
       "page": 506,
       "category": "general"
     },
@@ -1972,7 +2316,7 @@
       "author": "KUSSLER-RATYE",
       "title": "Les chansons de la comtesse Béatrix de Dia",
       "siglum": "",
-      "text": "KUSSLER-RATYE, Gabrielle, 'Les chansons de la comtesse Béatrix de Dia', dans *Archivum Romanicum*, I, 1917, pp. 161 — 182.",
+      "text": "KUSSLER-RATYE, Gabrielle, \"Les chansons de la comtesse Béatrix de Dia\", dans *Archivum Romanicum*, I, 1917, pp. 161 — 182.",
       "page": 506,
       "category": "general"
     },
@@ -1986,7 +2330,7 @@
     },
     {
       "author": "LAVAUD",
-      "title": "Les poésies d'Arnaut Daniel. Réédition critique d'après Canello",
+      "title": "Arnaut Daniel. Réédition critique d",
       "siglum": "",
       "text": "LAVAUD, René, *Les poésies d'Arnaut Daniel. Réédition critique d'après Canello*, Genève, Slatkine Reprints, 1973, (réimpr. de l'éd. de Toulouse-Périgueux, 1910), 147 pp.",
       "page": 506,
@@ -2004,7 +2348,7 @@
       "author": "LEVY",
       "title": "Le troubadour Paulet de Marseille",
       "siglum": "",
-      "text": "LEVY, Emile, 'Le troubadour Paulet de Marseille', dans *Revue des Langues Romanes*, XXI pp. 262 sv.",
+      "text": "LEVY, Emile, \"Le troubadour Paulet de Marseille\", dans *Revue des Langues Romanes*, XXI pp. 262 sv.",
       "page": 506,
       "category": "general"
     },
@@ -2020,7 +2364,15 @@
       "author": "MARSHALL",
       "title": "The \"Razos de Trobar\" of Raimon Vidal and associated texts",
       "siglum": "",
-      "text": "MARSHALL, J.H., *The \"Razos de Trobar\" of Raimon Vidal and associated texts*, London, Oxford University Press, 1972, CII + 183 pp., (University of Durham Publication). *The \"Donatz Proensals\" of Uc Faidit*, London-Oxford, University Press, 1969, pp. 419.",
+      "text": "MARSHALL, J.H., *The \"Razos de Trobar\" of Raimon Vidal and associated texts*, London, Oxford University Press, 1972, CII + 183 pp., (University of Durham Publication).",
+      "page": 507,
+      "category": "general"
+    },
+    {
+      "author": "MARSHALL",
+      "title": "The \"Donatz Proensals\" of Uc Faidit",
+      "siglum": "",
+      "text": "MARSHALL, J.H., *The \"Donatz Proensals\" of Uc Faidit*, London-Oxford, University Press, 1969, pp. 419.",
       "page": 507,
       "category": "general"
     },
@@ -2082,7 +2434,7 @@
     },
     {
       "author": "RAIMON FERAUD",
-      "title": "La Vida de San Honorat",
+      "title": "éd. d",
       "siglum": "",
       "text": "RAIMON FERAUD, *La Vida de San Honorat*, Genève, Slatkine Reprints, 1974, (réimpr. de l'éd. d'A.L. SARDOU, Nice, 1874), pp. XX + 214.",
       "page": 507,
@@ -2138,9 +2490,17 @@
     },
     {
       "author": "SHEPARD",
+      "title": "",
+      "siglum": "",
+      "text": "SHEPARD, William P. — CHAMBERS, Frank M.,",
+      "page": 508,
+      "category": "general"
+    },
+    {
+      "author": "SHEPARD",
       "title": "The Poems of Aimeric de Peguilhan, edited and translated with introduction and commentary",
       "siglum": "",
-      "text": "SHEPARD, William P. — CHAMBERS, Frank M., *The Poems of Aimeric de Peguilhan, edited and translated with introduction and commentary*, Evanston, North-western University Press, 1950, VI + 254 pp., (North-western University Studies, Humanities Series, 24).",
+      "text": "SHEPARD, William P. — CHAMBERS, *The Poems of Aimeric de Peguilhan, edited and translated with introduction and commentary*, Evanston, North-western University Press, 1950, VI + 254 pp., (North-western University Studies, Humanities Series, 24).",
       "page": 508,
       "category": "general"
     },
@@ -2154,7 +2514,7 @@
     },
     {
       "author": "STRONSKI",
-      "title": "Le troubadour Folquet de Marseille. Édition critique précédée d'une étude biographique et littéraire et suivie d'une traduction, d'un commentaire historique, de notes et d'un glossaire",
+      "title": "une étude biographique et littéraire et suivie d",
       "siglum": "",
       "text": "STRONSKI, Stanislas, *Le troubadour Folquet de Marseille. Édition critique précédée d'une étude biographique et littéraire et suivie d'une traduction, d'un commentaire historique, de notes et d'un glossaire*, Cracovie, Académie des Sciences, 1910, pp. 285.",
       "page": 509,
@@ -2172,7 +2532,15 @@
       "author": "TOJA",
       "title": "Lanfranco Cigala — Liriche",
       "siglum": "",
-      "text": "TOJA, Gianluigi, *Lanfranco Cigala — Liriche*, Firenze, ed. Sansoni, 1952, pp. 75. *Arnaut Daniel. Canzoni. Edizione critica, studio introduttivo, commento e traduzione a cura di -*, Firenze, Sansoni ed., 1960, pp. 422.",
+      "text": "TOJA, Gianluigi, *Lanfranco Cigala — Liriche*, Firenze, ed. Sansoni, 1952, pp. 75.",
+      "page": 509,
+      "category": "general"
+    },
+    {
+      "author": "TOJA",
+      "title": "Arnaut Daniel. Canzoni. Edizione critica, studio introduttivo, commento e traduzione a cura di -",
+      "siglum": "",
+      "text": "TOJA, Gianluigi, *Arnaut Daniel. Canzoni. Edizione critica, studio introduttivo, commento e traduzione a cura di -*, Firenze, Sansoni ed., 1960, pp. 422.",
       "page": 509,
       "category": "general"
     },
@@ -2194,9 +2562,17 @@
     },
     {
       "author": "ZENKER",
-      "title": "Peire d'Auvergne. Die Lieder. Kritisch herausgegeben mit Einleitung, Uebersetzung, Kommentar und Glossar",
+      "title": "Auvergne. Die Lieder. Kritisch herausgegeben mit Einleitung, Uebersetzung, Kommentar und Glossar*, Genève, Slatkine Reprints, 1977 (réimpr. de l",
       "siglum": "",
-      "text": "ZENKER, Rudolf, *Peire d'Auvergne. Die Lieder. Kritisch herausgegeben mit Einleitung, Uebersetzung, Kommentar und Glossar*, Genève, Slatkine Reprints, 1977 (réimpr. de l'éd. d'Erlangen, 1900), pp. 654-924. Addendum:",
+      "text": "ZENKER, Rudolf, *Peire d'Auvergne. Die Lieder. Kritisch herausgegeben mit Einleitung, Uebersetzung, Kommentar und Glossar*, Genève, Slatkine Reprints, 1977 (réimpr. de l'éd. d'Erlangen, 1900), pp. 654-924.",
+      "page": 509,
+      "category": "general"
+    },
+    {
+      "author": "ZENKER",
+      "title": "",
+      "siglum": "",
+      "text": "ZENKER, Rudolf, Addendum:",
       "page": 509,
       "category": "general"
     },
@@ -2204,7 +2580,7 @@
       "author": "NEWCOMBE",
       "title": "The troubadour Berenger de Palazol: a critical Edition of his Poems",
       "siglum": "",
-      "text": "NEWCOMBE, Terence H., 'The troubadour Berenger de Palazol: a critical Edition of his Poems', dans *Nottingham Mediaeval Studies*, XV, 1971, pp. 54-95.",
+      "text": "NEWCOMBE, Terence H., \"The troubadour Berenger de Palazol: a critical Edition of his Poems\", dans *Nottingham Mediaeval Studies*, XV, 1971, pp. 54-95.",
       "page": 509,
       "category": "general"
     },
@@ -2220,7 +2596,15 @@
       "author": "ANGLADE",
       "title": "Berenguer de Noya et les troubadours",
       "siglum": "",
-      "text": "ANGLADE, Joseph, 'Berenguer de Noya et les troubadours', dans *Homenaje ofrecido a Menéndez Pidal, Miscelánea de estudios lingüísticos, literarios e históricos*, Madrid, Hernando, 1925, pp. 677-687.",
+      "text": "ANGLADE, Joseph, \"Berenguer de Noya et les troubadours\", dans *Homenaje ofrecido a Menéndez Pidal, Miscelánea de estudios lingüísticos, literarios e históricos*, Madrid, Hernando, 1925, pp. 677-687.",
+      "page": 510,
+      "category": "general"
+    },
+    {
+      "author": "AVALLE",
+      "title": "",
+      "siglum": "",
+      "text": "AVALLE, D'Arco Silvio et CASAMÀSSIMA, Emanuele,",
       "page": 510,
       "category": "general"
     },
@@ -2228,7 +2612,7 @@
       "author": "AVALLE",
       "title": "Il Canzoniere Provenzale Estense",
       "siglum": "Est.",
-      "text": "AVALLE, D'Arco Silvio et CASAMÀSSIMA, Emanuele, *Il Canzoniere Provenzale Estense*, riprodotto per il centenario della nascita di Giulio Bertoni, Modena, STEM-Mucchi, 1979 (Subsidia al Corpus des Troubadours), [Est.]",
+      "text": "AVALLE, D'Arco Silvio et CASAMÀSSIMA, *Il Canzoniere Provenzale Estense*, riprodotto per il centenario della nascita di Giulio Bertoni, Modena, STEM-Mucchi, 1979 (Subsidia al Corpus des Troubadours), [Est.]",
       "page": 510,
       "category": "general"
     },
@@ -2243,8 +2627,16 @@
     {
       "author": "BERTONI",
       "title": "Il canzoniere provenzale di Bernart Amoros",
+      "siglum": "BA",
+      "text": "BERTONI, Giulio, *Il canzoniere provenzale di Bernart Amoros* (sezione Riccardiana), Fribourg, O. Gschwend, 1911, pp. 180 (Collectanea Friburgensea, Publications de l'Université de Fribourg, XII). [BA]",
+      "page": 510,
+      "category": "general"
+    },
+    {
+      "author": "BERTONI",
+      "title": "Il Canzoniere Provenzale della Biblioteca Ambrosiana R 71 sup.",
       "siglum": "",
-      "text": "BERTONI, Giulio, *Il canzoniere provenzale di Bernart Amoros* (sezione Riccardiana), Fribourg, O. Gschwend, 1911, pp. 180 (Collectanea Friburgensea, Publications de l'Université de Fribourg, XII). [BA] *Il Canzoniere Provenzale della Biblioteca Ambrosiana R 71 sup.*, Dresden, Max Niemeyer Verlag, 1912, XLIII + 457 pp. (Gesellschaft für romanische Literatur, 28).",
+      "text": "BERTONI, Giulio, *Il Canzoniere Provenzale della Biblioteca Ambrosiana R 71 sup.*, Dresden, Max Niemeyer Verlag, 1912, XLIII + 457 pp. (Gesellschaft für romanische Literatur, 28).",
       "page": 510,
       "category": "general"
     },
@@ -2260,7 +2652,7 @@
       "author": "CONSTANS",
       "title": "Les manuscrits provençaux de Cheltenham",
       "siglum": "",
-      "text": "CONSTANS, L., 'Les manuscrits provençaux de Cheltenham', dans *Revue des Langues Romanes*, XIX, 1881, pp. 261 sv. et XX, 1881, pp. 105 sv.",
+      "text": "CONSTANS, L., \"Les manuscrits provençaux de Cheltenham\", dans *Revue des Langues Romanes*, XIX, 1881, pp. 261 sv. et XX, 1881, pp. 105 sv.",
       "page": 510,
       "category": "general"
     },
@@ -2268,7 +2660,7 @@
       "author": "CRESCINI",
       "title": "Il canzoniere provenzale della Marciana",
       "siglum": "",
-      "text": "CRESCINI, Vincenzi, 'Il canzoniere provenzale della Marciana', dans *Per gli studi romanzi. Saggi ed. appunti*, Padoue, Angelo Graghi, 1892, VIII + 225 pp.",
+      "text": "CRESCINI, Vincenzi, \"Il canzoniere provenzale della Marciana\", dans *Per gli studi romanzi. Saggi ed. appunti*, Padoue, Angelo Graghi, 1892, VIII + 225 pp.",
       "page": 510,
       "category": "general"
     },
@@ -2276,7 +2668,23 @@
       "author": "GRUTZMACHER",
       "title": "Die Provenzalische Liederhandschrift der S. Marcus Bibliothek in Venedig",
       "siglum": "Archiv",
-      "text": "GRUTZMACHER, 'Die Provenzalische Liederhandschrift der S. Marcus Bibliothek in Venedig', dans [Archiv]{.underline} für das Studium der neueren Sprache und Literaturen, XXXVI, 1864, pp. 379 — 455. 'Bericht an die Gesellschaft für das Studium der neueren Sprache in Berlin über die in Italien befindlichen provenzalischen Liederhandschriften, *Ibid.*, XXXIII, 1862, pp. 288 — 341 et 407 — 466. 'Die provenzalische Liederhandschrift Plut. XLI, cod. 43 der Laurenzianischen Bibliothek in Florenz, *Ibid.*, XXXV, 1864, pp. 363-463.",
+      "text": "GRUTZMACHER, \"Die Provenzalische Liederhandschrift der S. Marcus Bibliothek in Venedig\", dans [Archiv]{.underline} für das Studium der neueren Sprache und Literaturen, XXXVI, 1864, pp. 379 — 455.",
+      "page": 511,
+      "category": "general"
+    },
+    {
+      "author": "GRUTZMACHER",
+      "title": "Ibid.",
+      "siglum": "",
+      "text": "GRUTZMACHER, 'Bericht an die Gesellschaft für das Studium der neueren Sprache in Berlin über die in Italien befindlichen provenzalischen Liederhandschriften, *Ibid.*, XXXIII, 1862, pp. 288 — 341 et 407 — 466.",
+      "page": 511,
+      "category": "general"
+    },
+    {
+      "author": "GRUTZMACHER",
+      "title": "Ibid.",
+      "siglum": "",
+      "text": "GRUTZMACHER, 'Die provenzalische Liederhandschrift Plut. XLI, cod. 43 der Laurenzianischen Bibliothek in Florenz, *Ibid.*, XXXV, 1864, pp. 363-463.",
       "page": 511,
       "category": "general"
     },
@@ -2284,7 +2692,15 @@
       "author": "DE LOLLIS",
       "title": "Il Canzoniere provenzale O",
       "siglum": "",
-      "text": "DE LOLLIS, Cesare, 'Il Canzoniere provenzale O', in *Atti della reale Accademia dei Lincei*, ser. IV, Classe di Scienza morali, t. II, 1886, parte I, pp. 4 sv.",
+      "text": "DE LOLLIS, Cesare, \"Il Canzoniere provenzale O\", in *Atti della reale Accademia dei Lincei*, ser. IV, Classe di Scienza morali, t. II, 1886, parte I, pp. 4 sv.",
+      "page": 511,
+      "category": "general"
+    },
+    {
+      "author": "MEYER",
+      "title": "",
+      "siglum": "",
+      "text": "MEYER, Paul et RAYNAUD, G.,",
       "page": 511,
       "category": "general"
     },
@@ -2292,7 +2708,15 @@
       "author": "MEYER",
       "title": "Le chansonnier français de Saint-Germain des Prés",
       "siglum": "",
-      "text": "MEYER, Paul et RAYNAUD, G., *Le chansonnier français de Saint-Germain des Prés* (B.N. 20050), t. I, Paris, Didot, 1892, (SATF).",
+      "text": "MEYER, Paul et RAYNAUD, *Le chansonnier français de Saint-Germain des Prés* (B.N. 20050), t. I, Paris, Didot, 1892, (SATF).",
+      "page": 511,
+      "category": "general"
+    },
+    {
+      "author": "PAKSCHER",
+      "title": "",
+      "siglum": "",
+      "text": "PAKSCHER, A. et DE LOLLIS, C.,",
       "page": 511,
       "category": "general"
     },
@@ -2300,7 +2724,7 @@
       "author": "PAKSCHER",
       "title": "Il Canzoniere provenzale A",
       "siglum": "",
-      "text": "PAKSCHER, A. et DE LOLLIS, C., *Il Canzoniere provenzale A* (Codice Vaticano 5232), dans *Studj di Filologia Romanza*, III, 1891, XXXVI + 722 pp.",
+      "text": "PAKSCHER, A. et DE LOLLIS, *Il Canzoniere provenzale A* (Codice Vaticano 5232), dans *Studj di Filologia Romanza*, III, 1891, XXXVI + 722 pp.",
       "page": 511,
       "category": "general"
     },
@@ -2316,7 +2740,7 @@
       "author": "PILLET",
       "title": "Die altprovenzalische Liederhandschrift N° 2",
       "siglum": "Archiv",
-      "text": "PILLET, Alfred, 'Die altprovenzalische Liederhandschrift N° 2' dans [Archiv]{.underline} für das Studium der neueren Sprachen und Literaturen, CI, 1898, pp. 111 et CII, 1899, pp. 179.",
+      "text": "PILLET, Alfred, \"Die altprovenzalische Liederhandschrift N° 2\" dans [Archiv]{.underline} für das Studium der neueren Sprachen und Literaturen, CI, 1898, pp. 111 et CII, 1899, pp. 179.",
       "page": 511,
       "category": "general"
     },
@@ -2324,7 +2748,15 @@
       "author": "STENGEL",
       "title": "Le Chansonnier de Bernart Amoros",
       "siglum": "",
-      "text": "STENGEL, E., 'Le Chansonnier de Bernart Amoros', dans *Revue des Langues Romanes*, XLI, 1898, XLV, 1902.",
+      "text": "STENGEL, E., \"Le Chansonnier de Bernart Amoros\", dans *Revue des Langues Romanes*, XLI, 1898, XLV, 1902.",
+      "page": 511,
+      "category": "general"
+    },
+    {
+      "author": "TEULIE",
+      "title": "",
+      "siglum": "",
+      "text": "TEULIE, H. et ROSSI, G.,",
       "page": 511,
       "category": "general"
     },
@@ -2332,7 +2764,7 @@
       "author": "TEULIE",
       "title": "anthologie provençale de maître Ferrari de Ferrare",
       "siglum": "",
-      "text": "TEULIE, H. et ROSSI, G., 'L'anthologie provençale de maître Ferrari de Ferrare', dans *Annales du Midi*, XIII, 1901, pp. 60 sv. et XIV, 1902, pp. 102 sv.",
+      "text": "TEULIE, H. et ROSSI, \"L'anthologie provençale de maître Ferrari de Ferrare\", dans *Annales du Midi*, XIII, 1901, pp. 60 sv. et XIV, 1902, pp. 102 sv.",
       "page": 511,
       "category": "general"
     }
@@ -2341,8 +2773,48 @@
     {
       "author": "APPEL",
       "title": "Poésies provençales inédites tirées des mss. d",
+      "siglum": "",
+      "text": "APPEL, Carl, \"Poésies provençales inédites tirées des mss. d'Italie\", dans *Revue des Langues Romanes*, XL, 1897, pp. 409-414.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "APPEL",
+      "title": "Raïmbaut von Orange",
       "siglum": "RvO",
-      "text": "APPEL, Carl, 'Poésies provençales inédites tirées des mss. d'Italie', dans *Revue des Langues Romanes*, XL, 1897, pp. 409-414. *Raïmbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928, pp. 106, (Abhandlungen der Gesellschaft der Wissenschaften zu Göttingen, Philologisch-Historische Klasse, neue Folge, 21, 2) [RvO]{.underline}. BREUER, H., C.R. de [RvO]{.underline} dans *Zeitschrift für romanische Philologie*, L, 1930, pp. 121 — 124. KALEPKY, Th., C.R. de [RvO]{.underline} dans *Zeitschrift für französische Sprache und Literatur*, LIII, 9130, pp. 382 — 384. LEWENT, Kurt, C.R. de [RvO]{.underline}, *Ibid.*, LII, 1929, pp. 151 — 164. SCHULTZ-GORA, O., C.R. de [RvO]{.underline}, dans *Archiv für das Studium der neueren Sprachen und Literaturen*, CLVII, pp. 299-303.",
+      "text": "APPEL, Carl, *Raïmbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928, pp. 106, (Abhandlungen der Gesellschaft der Wissenschaften zu Göttingen, Philologisch-Historische Klasse, neue Folge, 21, 2) [RvO]{.underline}.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "BREUER",
+      "title": "Zeitschrift für romanische Philologie",
+      "siglum": "RvO",
+      "text": "BREUER, H., C.R. de [RvO]{.underline} dans *Zeitschrift für romanische Philologie*, L, 1930, pp. 121 — 124.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "KALEPKY",
+      "title": "Zeitschrift für französische Sprache und Literatur",
+      "siglum": "RvO",
+      "text": "KALEPKY, Th., C.R. de [RvO]{.underline} dans *Zeitschrift für französische Sprache und Literatur*, LIII, 9130, pp. 382 — 384.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "LEWENT",
+      "title": "Ibid.",
+      "siglum": "RvO",
+      "text": "LEWENT, Kurt, C.R. de [RvO]{.underline}, *Ibid.*, LII, 1929, pp. 151 — 164.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "SCHULTZ-GORA",
+      "title": "Archiv für das Studium der neueren Sprachen und Literaturen",
+      "siglum": "RvO",
+      "text": "SCHULTZ-GORA, O., C.R. de [RvO]{.underline}, dans *Archiv für das Studium der neueren Sprachen und Literaturen*, CLVII, pp. 299-303.",
       "page": 512,
       "category": "raimbaut"
     },
@@ -2350,7 +2822,23 @@
       "author": "APPEL",
       "title": "Der Liebesbrief Raimbauts von Orange",
       "siglum": "",
-      "text": "APPEL, Carl, 'Der Liebesbrief Raimbauts von Orange', dans *Mélanges de linguistique et de Littérature offerts à Alfred JEANROY*, Genève, Slatkine Reprints, 1972, (réimpr. de l'éd. de Paris, 1928), XVI + 680 pp., pp. 361 — 374. C.R. par O. SCHULTZ-GORA, dans *Archiv für das Studium der Neueren Sprachen*, CLVI, 1929, pp. 145 — 147. C.R. par LEWENT, Kurt, dans *Zeitschrift für romanische Philologie*, LII, 1932, pp. 615 — 624.",
+      "text": "APPEL, Carl, \"Der Liebesbrief Raimbauts von Orange\", dans *Mélanges de linguistique et de Littérature offerts à Alfred JEANROY*, Genève, Slatkine Reprints, 1972, (réimpr. de l'éd. de Paris, 1928), XVI + 680 pp., pp. 361 — 374.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "APPEL",
+      "title": "Archiv für das Studium der Neueren Sprachen",
+      "siglum": "",
+      "text": "APPEL, Carl, C.R. par O. SCHULTZ-GORA, dans *Archiv für das Studium der Neueren Sprachen*, CLVI, 1929, pp. 145 — 147.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "APPEL",
+      "title": "Zeitschrift für romanische Philologie",
+      "siglum": "",
+      "text": "APPEL, Carl, C.R. par LEWENT, Kurt, dans *Zeitschrift für romanische Philologie*, LII, 1932, pp. 615 — 624.",
       "page": 512,
       "category": "raimbaut"
     },
@@ -2358,13 +2846,37 @@
       "author": "APPEL",
       "title": "Drei Lieder von Raimbaut von Orange",
       "siglum": "",
-      "text": "APPEL, Carl, 'Drei Lieder von Raimbaut von Orange', dans *Zeitschrift für romanische Philologie*, XIX, 1929, pp. 473 — 493. 'Raïmbaut d'Aurenga und Bertran de Born', dans *Studi Medievali*, N.S. II, 1929, pp. 391 — 408. C.R. par LEWENT, Kurt, dans *Zeitschrift für romanische Philologie*, LII, 1932, pp. 617 sv. C.R. par MULLERT, dans *Litt.Blatt*, 1931, col. 212.",
+      "text": "APPEL, Carl, \"Drei Lieder von Raimbaut von Orange\", dans *Zeitschrift für romanische Philologie*, XIX, 1929, pp. 473 — 493.",
       "page": 512,
       "category": "raimbaut"
     },
     {
       "author": "APPEL",
-      "title": "'Raïmbaut d'Aurenga's joglar'",
+      "title": "Raïmbaut d",
+      "siglum": "",
+      "text": "APPEL, Carl, \"Raïmbaut d'Aurenga und Bertran de Born\", dans *Studi Medievali*, N.S. II, 1929, pp. 391 — 408.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "APPEL",
+      "title": "Zeitschrift für romanische Philologie",
+      "siglum": "",
+      "text": "APPEL, Carl, C.R. par LEWENT, Kurt, dans *Zeitschrift für romanische Philologie*, LII, 1932, pp. 617 sv.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "APPEL",
+      "title": "Litt.Blatt",
+      "siglum": "",
+      "text": "APPEL, Carl, C.R. par MULLERT, dans *Litt.Blatt*, 1931, col. 212.",
+      "page": 512,
+      "category": "raimbaut"
+    },
+    {
+      "author": "APPEL",
+      "title": "Raïmbaut d",
       "siglum": "",
       "text": "APPEL, Carl, *'Raïmbaut d'Aurenga's joglar'*, dans *Miscelânea de estudios en honra de J. Carolina Michaëlis de Vasconcellos*, Coïmbra, Imprensa da Universidade, 1933, pp. 635 — 645.",
       "page": 513,
@@ -2372,15 +2884,15 @@
     },
     {
       "author": "CHAMBERS",
-      "title": "'Completion of a text of Raïmbaut d'Aurenga'",
+      "title": "Completion of a text of Raïmbaut d",
       "siglum": "",
-      "text": "CHAMBERS, F.M. *'Completion of a text of Raïmbaut d'Aurenga'*, dans *Modern Language Notes*, LX 1945, pp. 404-406.",
+      "text": "CHAMBERS, F.M., *'Completion of a text of Raïmbaut d'Aurenga'*, dans *Modern Language Notes*, LX 1945, pp. 404-406.",
       "page": 513,
       "category": "raimbaut"
     },
     {
       "author": "CHERCHI",
-      "title": "'Il Mare Amoroso (v. 121) e la flors enversa di Raimbaut d'Aurenga'",
+      "title": "Il Mare Amoroso (v. 121) e la flors enversa di Raimbaut d",
       "siglum": "",
       "text": "CHERCHI, Paolo, *'Il Mare Amoroso (v. 121) e la flors enversa di Raimbaut d'Aurenga'* dans *Romania*, XCIII, 1972, pp. 77 — 84.",
       "page": 513,
@@ -2388,7 +2900,7 @@
     },
     {
       "author": "DELBOUILLE",
-      "title": "'Les senhals littéraires désignant Raimbaut d'Orange et la chronologie de ces témoignages'",
+      "title": "Les senhals littéraires désignant Raimbaut d",
       "siglum": "",
       "text": "DELBOUILLE, Maurice, *'Les senhals littéraires désignant Raimbaut d'Orange et la chronologie de ces témoignages'*, dans *Cultura Neolatina*, XVII, 1957, pp. 49 — 73.",
       "page": 513,
@@ -2396,7 +2908,7 @@
     },
     {
       "author": "HORRENT",
-      "title": "'Altas undas que venez suz la mar'",
+      "title": "Altas undas que venez suz la mar",
       "siglum": "",
       "text": "HORRENT, Jules, *'Altas undas que venez suz la mar'*, dans *Mélanges (...) J. Boutière*, pp. 305 — 316.",
       "page": 513,
@@ -2404,17 +2916,41 @@
     },
     {
       "author": "KOLSEN",
-      "title": "'Der Versteckname Joglar bei R. d'Aurenga'",
+      "title": "Der Versteckname Joglar bei R. d",
       "siglum": "",
-      "text": "KOLSEN, Adolf, *'Der Versteckname Joglar bei R. d'Aurenga'*, dans *Zeitschrift für romanische Philologie*, XLI, 1921, pp. 549 — 554. *'Altprovenzalisches 17. Drei Gedichte des Raimbaut d'Aurenga'*, dans *Zeitschrift für romanische Philologie*, LVII, 1938, pp. 81 — 89. *'Die Canzone des Trobadors Raimbaut d'Orange, Ara^m^ so del tot conquis (BGr. 389, 11)'*, dans *Neophilologus* XXVI, 1940, pp. 99 — 105.",
+      "text": "KOLSEN, Adolf, *'Der Versteckname Joglar bei R. d'Aurenga'*, dans *Zeitschrift für romanische Philologie*, XLI, 1921, pp. 549 — 554.",
+      "page": 513,
+      "category": "raimbaut"
+    },
+    {
+      "author": "KOLSEN",
+      "title": "Altprovenzalisches 17. Drei Gedichte des Raimbaut d",
+      "siglum": "",
+      "text": "KOLSEN, Adolf, *'Altprovenzalisches 17. Drei Gedichte des Raimbaut d'Aurenga'*, dans *Zeitschrift für romanische Philologie*, LVII, 1938, pp. 81 — 89.",
+      "page": 513,
+      "category": "raimbaut"
+    },
+    {
+      "author": "KOLSEN",
+      "title": "Die Canzone des Trobadors Raimbaut d",
+      "siglum": "",
+      "text": "KOLSEN, Adolf, *'Die Canzone des Trobadors Raimbaut d'Orange, Ara^m^ so del tot conquis (BGr. 389, 11)'*, dans *Neophilologus* XXVI, 1940, pp. 99 — 105.",
       "page": 513,
       "category": "raimbaut"
     },
     {
       "author": "LEWENT",
-      "title": "'Zu einem Liede des Raimbaut d'Aurenga'",
+      "title": "Zu einem Liede des Raimbaut d",
       "siglum": "",
-      "text": "LEWENT, Kurt, *'Zu einem Liede des Raimbaut d'Aurenga'*, dans *Neuphilologische Mitteilungen*, XLIV, 1943, pp. 127 — 142. *'On the text of two troubadour poems. I : Raïmbaut d'Aurenga Ara^m^ so del tot conquis (B.Gr. , 389, 11 ; ed. Kolsen)...'*, dans *Publications of the Modern Language Association*, LIX, 1944, pp. 605 — 613.",
+      "text": "LEWENT, Kurt, *'Zu einem Liede des Raimbaut d'Aurenga'*, dans *Neuphilologische Mitteilungen*, XLIV, 1943, pp. 127 — 142.",
+      "page": 513,
+      "category": "raimbaut"
+    },
+    {
+      "author": "LEWENT",
+      "title": "On the text of two troubadour poems. I : Raïmbaut d",
+      "siglum": "",
+      "text": "LEWENT, Kurt, *'On the text of two troubadour poems. I : Raïmbaut d'Aurenga Ara^m^ so del tot conquis (B.Gr. , 389, 11 ; ed. Kolsen)...'*, dans *Publications of the Modern Language Association*, LIX, 1944, pp. 605 — 613.",
       "page": 513,
       "category": "raimbaut"
     },
@@ -2422,7 +2958,7 @@
       "author": "LINSKILL",
       "title": "Raimbaut d",
       "siglum": "",
-      "text": "LINSKILL, J., 'Raimbaut d'Orange 389, 9 and Raimbaut de Vaqueiras, 392, 14', dans *French Studies*, XIV, 1960, pp. 239 — 241.",
+      "text": "LINSKILL, J., \"Raimbaut d'Orange 389, 9 and Raimbaut de Vaqueiras, 392, 14\", dans *French Studies*, XIV, 1960, pp. 239 — 241.",
       "page": 514,
       "category": "raimbaut"
     },
@@ -2438,7 +2974,7 @@
       "author": "MEJEAN",
       "title": "Les mots composés chez Marcabru et Raimbaut d",
       "siglum": "",
-      "text": "MEJEAN, Suzanne, 'Les mots composés chez Marcabru et Raimbaut d'Orange. Etude de quelques cas', dans *Mélanges de Linguistique et de Philologie romanes dédiés à la mémoire de Pierre Fouché (1891 — 1967)*, Paris, Klincksieck, 1970, 264 pp., (Etudes Linguistiques, 11), pp. 93 — 107.",
+      "text": "MEJEAN, Suzanne, \"Les mots composés chez Marcabru et Raimbaut d'Orange. Etude de quelques cas\", dans *Mélanges de Linguistique et de Philologie romanes dédiés à la mémoire de Pierre Fouché (1891 — 1967)*, Paris, Klincksieck, 1970, 264 pp., (Etudes Linguistiques, 11), pp. 93 — 107.",
       "page": 514,
       "category": "raimbaut"
     },
@@ -2446,7 +2982,7 @@
       "author": "MOUZAT",
       "title": "Remarques sur Linhaure et sa localisation",
       "siglum": "",
-      "text": "MOUZAT, Jean, 'Remarques sur Linhaure et sa localisation', dans *Mélanges (...) R. Lejeune*, t. I, pp. 213 — 218.",
+      "text": "MOUZAT, Jean, \"Remarques sur Linhaure et sa localisation\", dans *Mélanges (...) R. Lejeune*, t. I, pp. 213 — 218.",
       "page": 514,
       "category": "raimbaut"
     },
@@ -2454,15 +2990,79 @@
       "author": "PATTISON",
       "title": "The Life and Works of the Troubadour Raimbaut d'Orange",
       "siglum": "RO",
-      "text": "PATTISON, Walter T., *The Life and Works of the Troubadour Raimbaut d'Orange*, Minneapolis, The University of Minnesota Press, s.d. 1952, pp. 225, [RO]{.underline} BOURCIEZ, J., [C.R. de RO]{.underline}, dans *Revue des langues romanes*, LXXI, 1951, pp. 389. CHAMBERS, Frank M., [C.R. de RO]{.underline}, dans *Romance Philology*, VII, 1953, pp. 230 — 235. CREORE, A.E., [C.R. de RO]{.underline}, dans *The Romanic Review*, XLV, 1954, pp. 224. LUCAS, H.H., [C.R. de RO]{.underline}, dans *The Modern Language Review*, XLVIII, 1953, pp. 470. RIQUER, Martin de-, [C.R. de RO]{.underline}, dans *Zeitschrift für romanische Philologie*, LXII, 1956, pp. 456. SCHUTZ, A.H., [C.R. de RO]{.underline}, dans *Modern Language Notes*, LXVIII, 1953, pp. 418 — 420. SCHWARZSCHILD, L.A., [C.R. de RO]{.underline}, dans *Medium Aevum*, XXII, 1953, pp. 126 — 128. WEIDNER, A., [C.R. de RO]{.underline}, dans [Archiv für das Studium der neueren Sprachen]{.underline}, t. CXC, 1954, pp. 261.",
+      "text": "PATTISON, Walter T., *The Life and Works of the Troubadour Raimbaut d'Orange*, Minneapolis, The University of Minnesota Press, s.d. 1952, pp. 225, [RO]{.underline}",
       "page": 514,
+      "category": "raimbaut"
+    },
+    {
+      "author": "BOURCIEZ",
+      "title": "Revue des langues romanes",
+      "siglum": "",
+      "text": "BOURCIEZ, J., [C.R. de RO]{.underline}, dans *Revue des langues romanes*, LXXI, 1951, pp. 389.",
+      "page": 514,
+      "category": "raimbaut"
+    },
+    {
+      "author": "CHAMBERS",
+      "title": "Romance Philology",
+      "siglum": "",
+      "text": "CHAMBERS, Frank M., [C.R. de RO]{.underline}, dans *Romance Philology*, VII, 1953, pp. 230 — 235.",
+      "page": 514,
+      "category": "raimbaut"
+    },
+    {
+      "author": "CREORE",
+      "title": "The Romanic Review",
+      "siglum": "",
+      "text": "CREORE, A.E., [C.R. de RO]{.underline}, dans *The Romanic Review*, XLV, 1954, pp. 224.",
+      "page": 514,
+      "category": "raimbaut"
+    },
+    {
+      "author": "LUCAS",
+      "title": "The Modern Language Review",
+      "siglum": "",
+      "text": "LUCAS, H.H., [C.R. de RO]{.underline}, dans *The Modern Language Review*, XLVIII, 1953, pp. 470.",
+      "page": 514,
+      "category": "raimbaut"
+    },
+    {
+      "author": "RIQUER",
+      "title": "Zeitschrift für romanische Philologie",
+      "siglum": "",
+      "text": "RIQUER, Martin de-, [C.R. de RO]{.underline}, dans *Zeitschrift für romanische Philologie*, LXII, 1956, pp. 456.",
+      "page": 514,
+      "category": "raimbaut"
+    },
+    {
+      "author": "SCHUTZ",
+      "title": "Modern Language Notes",
+      "siglum": "",
+      "text": "SCHUTZ, A.H., [C.R. de RO]{.underline}, dans *Modern Language Notes*, LXVIII, 1953, pp. 418 — 420.",
+      "page": 514,
+      "category": "raimbaut"
+    },
+    {
+      "author": "SCHWARZSCHILD",
+      "title": "Medium Aevum",
+      "siglum": "",
+      "text": "SCHWARZSCHILD, L.A., [C.R. de RO]{.underline}, dans *Medium Aevum*, XXII, 1953, pp. 126 — 128.",
+      "page": 515,
+      "category": "raimbaut"
+    },
+    {
+      "author": "WEIDNER",
+      "title": "",
+      "siglum": "",
+      "text": "WEIDNER, A., [C.R. de RO]{.underline}, dans [Archiv für das Studium der neueren Sprachen]{.underline}, t. CXC, 1954, pp. 261.",
+      "page": 515,
       "category": "raimbaut"
     },
     {
       "author": "PATTISON",
       "title": "Some considerations on the relationship of the Provençal chansonniers",
       "siglum": "",
-      "text": "PATTISON, Walter T., 'Some considerations on the relationship of the Provençal chansonniers', dans *Mélanges (...) R. Lejeune*, t. I, pp. 229 — 233.",
+      "text": "PATTISON, Walter T., \"Some considerations on the relationship of the Provençal chansonniers\", dans *Mélanges (...) R. Lejeune*, t. I, pp. 229 — 233.",
       "page": 515,
       "category": "raimbaut"
     },
@@ -2470,7 +3070,7 @@
       "author": "RIVERS",
       "title": "Raimbaut d",
       "siglum": "",
-      "text": "RIVERS, J.E., 'Raimbaut d'Orange and the old Provençal *gap*: a reexamination', dans *Annuale Medievale*, XII, 1972, pp. 520.",
+      "text": "RIVERS, J.E., \"Raimbaut d'Orange and the old Provençal *gap*: a reexamination\", dans *Annuale Medievale*, XII, 1972, pp. 520.",
       "page": 515,
       "category": "raimbaut"
     },
@@ -2478,7 +3078,7 @@
       "author": "ROTH",
       "title": "Local personnel des trains — Quelques réflexions sur l",
       "siglum": "",
-      "text": "ROTH, Charles, 'Local personnel des trains — Quelques réflexions sur l'ambiguïté à propos de Raimbaut d'Orange', dans *Mélanges d'études romanes du moyen âge et de la renaissance offerts à M. Jean Rychner*, Strasbourg, Centre de Philologie et de Littérature romanes, 1978, 571 pp. ; pp. 455 — 467, (Travaux de Linguistique et de Littérature, XVI, 1).",
+      "text": "ROTH, Charles, \"Local personnel des trains — Quelques réflexions sur l'ambiguïté à propos de Raimbaut d'Orange\", dans *Mélanges d'études romanes du moyen âge et de la renaissance offerts à M. Jean Rychner*, Strasbourg, Centre de Philologie et de Littérature romanes, 1978, 571 pp. ; pp. 455 — 467, (Travaux de Linguistique et de Littérature, XVI, 1).",
       "page": 515,
       "category": "raimbaut"
     },
@@ -2486,7 +3086,7 @@
       "author": "SCHELUDKO",
       "title": "Anlässlich des Liedes von Raimbaut d",
       "siglum": "",
-      "text": "SCHELUDKO, D., 'Anlässlich des Liedes von Raimbaut d'Aurenga *Car douz*. Zur Fragen nach dem *trobar clus*', dans *Archivum Romanicum*, XXI, 1937, pp. 285 — 297.",
+      "text": "SCHELUDKO, D., \"Anlässlich des Liedes von Raimbaut d'Aurenga *Car douz*. Zur Fragen nach dem *trobar clus*\", dans *Archivum Romanicum*, XXI, 1937, pp. 285 — 297.",
       "page": 515,
       "category": "raimbaut"
     },
@@ -2494,7 +3094,7 @@
       "author": "SERPER",
       "title": "Guiraut de Bornelh, le \"gant\", le *trobar clus* et Linhaure",
       "siglum": "",
-      "text": "SERPER, Arié, 'Guiraut de Bornelh, le \"gant\", le *trobar clus* et Linhaure', dans *Revue des langues romanes*, LXXX, 1974, pp. 93 — 106.",
+      "text": "SERPER, Arié, \"Guiraut de Bornelh, le \"gant\", le *trobar clus* et Linhaure\", dans *Revue des langues romanes*, LXXX, 1974, pp. 93 — 106.",
       "page": 515,
       "category": "raimbaut"
     },
@@ -2502,7 +3102,7 @@
       "author": "VUIJLSTEKE",
       "title": "Vers une lecture de *Cars, douz e fenhz* de Raimbaut d",
       "siglum": "",
-      "text": "VUIJLSTEKE, Marc, 'Vers une lecture de *Cars, douz e fenhz* de Raimbaut d'Orange (P.-C., 389, 22). Notes et commentaires sur l'édition de J.H. Marshall', dans *Etudes de Philologie Romane et d'Histoire Littéraire offertes à Jules Horrent*, éditées par Jean-Marie D'HEUR et Nicoletta CHERUBINI, Liège, 1980, pp. 509-516.",
+      "text": "VUIJLSTEKE, Marc, \"Vers une lecture de *Cars, douz e fenhz* de Raimbaut d'Orange (P.-C., 389, 22). Notes et commentaires sur l'édition de J.H. Marshall\", dans *Etudes de Philologie Romane et d'Histoire Littéraire offertes à Jules Horrent*, éditées par Jean-Marie D'HEUR et Nicoletta CHERUBINI, Liège, 1980, pp. 509-516.",
       "page": 515,
       "category": "raimbaut"
     }

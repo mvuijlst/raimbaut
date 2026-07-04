@@ -1,0 +1,68 @@
+---
+layout: base.njk
+pagination:
+  data: edition.sections
+  size: 1
+  alias: section
+permalink: "/{{ section.slug }}/"
+eleventyComputed:
+  title: "{{ section.title }}"
+  bodyClass: "livre"
+---
+<div class="study prose-study{% if not section.notes.length %} no-notes{% endif %}{% if section.kind == 'chanson' %} is-livre{% endif %}" id="study">
+
+<main class="study-main">
+{% if section.kind == "conclusion" %}
+<nav class="poetique-bar" aria-label="Sommaire de la troisième partie">
+  <span class="pb-here"><span class="pb-kicker">Vers une poétique</span>{{ section.title }}</span>
+  <ol>
+    {% for s in edition.nav %}{% if s.kind == "conclusion" %}
+    {% set chip = s.slug | replace("poetique-", "") %}
+    <li><a href="/{{ s.slug }}/"{% if s.slug == section.slug %} aria-current="true"{% endif %}
+      title="{{ s.title }}">{% if chip == "conclusion" %}C{% else %}{{ chip }}{% endif %}</a></li>
+    {% endif %}{% endfor %}
+  </ol>
+</nav>
+{% endif %}
+<article class="prose">
+<header class="section-head">
+  {% if section.kind == "chanson" %}<span class="u-eyebrow">Vue livre</span>{% endif %}
+  {% if section.kind == "conclusion" %}<span class="u-eyebrow">Vers une poétique de Raimbaut d'Orange</span>{% endif %}
+  <h1>{{ section.title }}</h1>
+  {% if section.subtitle %}<p class="incipit" lang="oc"><em>{{ section.subtitle }}</em></p>{% endif %}
+  {% if section.printed and section.kind == "chanson" %}<p class="printed-range">{{ section.printed | printedLabel }}</p>{% endif %}
+  {% if section.kind == "chanson" %}
+  <p class="view-links"><a href="/chansons/{{ section.num }}/">→ Vue d'étude&nbsp;: texte, traduction et remarques en regard</a></p>
+  {% endif %}
+</header>
+
+<section class="edition-body{% if section.kind == 'index' %} index-body{% endif %}">
+{{ section.html | safe }}
+</section>
+
+<nav class="section-pager">
+  {% set pn = pagination.pageNumber %}
+  {% if pagination.href.previous %}<a class="prev" href="{{ pagination.href.previous }}">← {{ edition.sections[pn - 1].title }}</a>{% endif %}
+  {% if pagination.href.next %}<a class="next" href="{{ pagination.href.next }}">{{ edition.sections[pn + 1].title }} →</a>{% endif %}
+</nav>
+</article>
+</main>
+
+{% if section.notes.length %}
+<aside class="study-panel" id="panel" aria-label="Notes">
+  <header class="panel-head">
+    <span>Notes</span>
+    <button type="button" class="resync" id="resync" hidden>⟲ suivre le texte</button>
+  </header>
+  <div class="panel-scroll" id="panel-scroll">
+    {% for n in section.notes %}
+    <div class="fnote" id="fn-{{ n.label }}">
+      <a class="fnote-n" href="#fnref-{{ n.label }}" aria-label="Retour à l'appel de note {{ n.n }}">{{ n.n }}</a>
+      <span>{{ n.html | safe }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</aside>
+{% endif %}
+
+</div>
