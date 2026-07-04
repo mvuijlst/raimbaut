@@ -12,21 +12,23 @@
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
 <header class="masthead">
-  <a href="/" class="brand">Raimbaut <span class="amp">d'</span>Orange</a>
-  {% set u = page.url %}
-  {% set active = "" %}
-  {% if u == "/introduction/" or u.startsWith("/avant-propos") %}{% set active = "intro" %}
-  {% elif u.startsWith("/chansons") %}{% set active = "chansons" %}
-  {% elif u.startsWith("/poetique") or u == "/conclusion/" %}{% set active = "poetique" %}
-  {% elif u.startsWith("/bibliographie") or u.startsWith("/abbreviations") or u.startsWith("/index-") %}{% set active = "biblio" %}
-  {% endif %}
-  <nav aria-label="Navigation principale">
-    <a href="/introduction/"{% if active == "intro" %} aria-current="page"{% endif %}>Introduction</a>
-    <a href="/chansons/"{% if active == "chansons" %} aria-current="page"{% endif %}>Chansons</a>
-    <a href="/poetique-1/"{% if active == "poetique" %} aria-current="page"{% endif %}>Poétique</a>
-    <a href="/bibliographie/"{% if active == "biblio" %} aria-current="page"{% endif %}>Bibliographie</a>
-  </nav>
-  <button type="button" class="theme-btn" id="theme-btn" aria-label="Thème clair ou sombre" title="Thème : automatique">◐</button>
+  <div class="masthead-inner">
+    <a href="/" class="brand">Raimbaut <span class="amp">d'</span>Orange</a>
+    {% set u = page.url %}
+    {% set active = "" %}
+    {% if u == "/introduction/" or u.startsWith("/avant-propos") %}{% set active = "intro" %}
+    {% elif u.startsWith("/chansons") %}{% set active = "chansons" %}
+    {% elif u.startsWith("/poetique") or u == "/conclusion/" %}{% set active = "poetique" %}
+    {% elif u.startsWith("/bibliographie") or u.startsWith("/abbreviations") or u.startsWith("/index-") %}{% set active = "biblio" %}
+    {% endif %}
+    <nav aria-label="Navigation principale">
+      <a href="/introduction/"{% if active == "intro" %} aria-current="page"{% endif %}>Introduction</a>
+      <a href="/chansons/"{% if active == "chansons" %} aria-current="page"{% endif %}>Chansons</a>
+      <a href="/poetique-1/"{% if active == "poetique" %} aria-current="page"{% endif %}>Poétique</a>
+      <a href="/bibliographie/"{% if active == "biblio" %} aria-current="page"{% endif %}>Bibliographie</a>
+    </nav>
+    <button type="button" class="theme-btn" id="theme-btn" aria-label="Thème clair ou sombre" title="Thème : automatique">◐</button>
+  </div>
 </header>
 {% set here = edition.here[page.url] %}
 {% if here %}

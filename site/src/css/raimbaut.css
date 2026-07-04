@@ -150,14 +150,20 @@ a:hover { color: var(--rubric); }
 [lang="oc"] { font-style: inherit; }
 
 /* -------------------------------------------------------------- masthead */
+/* The bar bleeds full width, but its contents sit on the same 96rem measure
+   as the subnav and the reading columns, brand + nav grouped at the left —
+   only the theme toggle keeps the far edge. */
 .masthead {
   position: sticky; top: 0; z-index: 40;
   height: var(--masthead-h);
-  display: flex; align-items: center; gap: 2rem;
-  padding: 0 1.6rem;
   background: color-mix(in srgb, var(--paper) 92%, transparent);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--rule);
+}
+.masthead-inner {
+  max-width: 96rem; margin: 0 auto; height: 100%;
+  display: flex; align-items: center; gap: 2.4rem;
+  padding: 0 2rem;
 }
 .masthead .brand {
   font-family: var(--serif);
@@ -170,7 +176,7 @@ a:hover { color: var(--rubric); }
   white-space: nowrap;
 }
 .masthead .brand .amp { color: var(--rubric); font-feature-settings: normal; font-style: italic; }
-.masthead nav { display: flex; gap: 1.5rem; margin-left: auto; }
+.masthead nav { display: flex; gap: 1.5rem; }
 .masthead nav a { text-decoration: none; color: var(--muted); padding: 0.25rem 0; position: relative; }
 .masthead nav a:hover { color: var(--rubric); }
 .masthead nav a[aria-current] { color: var(--rubric); }
@@ -182,10 +188,12 @@ a:hover { color: var(--rubric); }
   font: inherit; font-size: 0.95rem; line-height: 1;
   background: none; border: 0; color: var(--muted);
   cursor: pointer; padding: 0.3rem 0.1rem;
+  margin-left: auto;
 }
 .theme-btn:hover { color: var(--rubric); }
 @media (max-width: 900px) {
-  .masthead { gap: 1rem; padding: 0 1rem; overflow-x: auto; }
+  .masthead { overflow-x: auto; }
+  .masthead-inner { gap: 1rem; padding: 0 1rem; }
   .masthead nav { gap: 1rem; }
 }
 
@@ -202,6 +210,11 @@ a:hover { color: var(--rubric); }
   padding: 0.35rem 2rem; display: flex; align-items: center; gap: 1.5rem;
 }
 .sn-here { display: flex; align-items: baseline; gap: 0.7rem; min-width: 0; margin: 0; }
+/* JS marks the label .sn-auto and reveals it only once the page's own h1 has
+   scrolled under the bars — at the top of the page it would merely duplicate
+   the title sitting right below. visibility keeps the bar's layout stable. */
+.sn-here.sn-auto { visibility: hidden; opacity: 0; transition: opacity 0.25s ease; }
+.sn-here.sn-auto.is-shown { visibility: visible; opacity: 1; }
 .sn-label {
   font-family: var(--sans); font-size: 0.68rem; font-weight: 500;
   letter-spacing: 0.13em; text-transform: uppercase; color: var(--ink-soft);
@@ -333,9 +346,7 @@ input.margin-toggle { display: none; }
 
 /* ---- header ---- */
 .ch-head { margin-bottom: 2.6rem; }
-.ch-head .u-eyebrow a { text-decoration: none; color: inherit; }
-.ch-head .u-eyebrow a:hover { color: var(--rubric); }
-.ch-head h1 { display: flex; align-items: baseline; gap: 1.1rem; margin: 0.55rem 0 0.4rem; flex-wrap: wrap; }
+.ch-head h1 { display: flex; align-items: baseline; gap: 1.1rem; margin: 0 0 0.4rem; flex-wrap: wrap; }
 .ch-roman {
   font-size: 3.1rem; font-weight: 340; letter-spacing: 0.04em;
   color: var(--rubric); line-height: 1;
@@ -747,8 +758,9 @@ a.backref[data-conf="low"], a.backref[data-conf="medium"] { border-bottom-style:
 
 /* two-level version control (Version web / Version livre → continue / fac-similé).
    Deliberately quiet: plain text, no boxes or fills, so it recedes below the
-   title — the active choice is marked only by rubric ink + a thin underline,
-   echoing the masthead's active tab. */
+   title. The active choice is marked by rubric ink + a small dot — NOT the
+   red underline, which is reserved for the masthead ("where you are in the
+   edition" vs "how you're reading it"). */
 .view-control {
   display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 1.1rem;
   font-family: var(--sans); font-size: 0.64rem; font-weight: 500;
@@ -765,7 +777,8 @@ a.backref[data-conf="low"], a.backref[data-conf="medium"] { border-bottom-style:
 .view-control button:hover { color: var(--ink-soft); }
 .view-control [aria-pressed="true"] { color: var(--rubric); }
 .view-control [aria-pressed="true"]::after {
-  content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 1.5px;
+  content: ""; position: absolute; left: 50%; bottom: -0.45rem;
+  width: 3px; height: 3px; margin-left: -1.5px; border-radius: 50%;
   background: var(--rubric);
 }
 

@@ -28,6 +28,23 @@
     });
   }
 
+  // ----- subnav location label: appears only once the page's h1 is gone ------
+  // At the top of the page the sticky bar's "Chanson XV — incipit" would sit
+  // directly above the identical h1; hold it back until the title has scrolled
+  // under the bars, then fade it in as the "you are here" reminder.
+  (function () {
+    const snHere = document.querySelector(".subnav .sn-here");
+    const h1 = document.querySelector("h1");
+    if (!snHere || !h1 || !("IntersectionObserver" in window)) return;
+    const bar = snHere.closest(".subnav");
+    snHere.classList.add("sn-auto");
+    const stuckBottom = Math.max(0, Math.ceil(bar.getBoundingClientRect().bottom));
+    new IntersectionObserver(([e]) => {
+      const above = !e.isIntersecting && e.boundingClientRect.top < stuckBottom;
+      snHere.classList.toggle("is-shown", above);
+    }, { rootMargin: `-${stuckBottom}px 0px 0px 0px` }).observe(h1);
+  })();
+
   // ----- sigla: click to expand the full citation in place -------------------
   const siglumToggle = (s) => {
     let d = s.nextElementSibling;
