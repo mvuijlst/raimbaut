@@ -1,0 +1,4 @@
+page,source_layer,before,after,note
+v1p005,transcripts-v2,manife-,manifes-,"page-break hyphenation lost the 's' (manife-/te -> manifete); restored so heal yields manifeste"
+v1p051,transcripts-v2-claude,bâteau,bateau,"spurious circumflex in the French translation of the verse"
+v2p012,transcripts-v2,"'appat,","'appât,","missing circumflex in a French gloss of Occitan cymbalum"

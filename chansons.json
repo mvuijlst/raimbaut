@@ -1,310 +1,1171 @@
 [
   {
-    "chanson": "I",
-    "number": 1,
-    "pc": "389,22",
-    "incipit": "Cans, dous e fenhs del bedenes",
-    "sections": {
-      "incipit": "page-056",
-      "remarques": "page-057",
-      "texte": "page-072"
+    "num": 1,
+    "roman": "I",
+    "incipit": "Cars, douz e fenhz  del bederesc",
+    "remarques": {
+      "pages": [
+        "v1p038",
+        "v1p039",
+        "v1p040",
+        "v1p041",
+        "v1p042",
+        "v1p043",
+        "v1p044",
+        "v1p045",
+        "v1p046",
+        "v1p047",
+        "v1p048",
+        "v1p049",
+        "v1p050"
+      ],
+      "printed_range": [
+        "33",
+        "45"
+      ]
     },
-    "page_start": "page-056",
-    "page_end": "page-074",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p051",
+        "v1p052"
+      ],
+      "printed_range": [
+        "46",
+        "47"
+      ]
+    }
   },
   {
-    "chanson": "II",
-    "number": 2,
-    "pc": "389,26",
+    "num": 2,
+    "roman": "II",
     "incipit": "En aital rimeta prima",
-    "sections": {
-      "incipit": "page-075",
-      "remarques": "page-076",
-      "texte": "page-088"
+    "remarques": {
+      "pages": [
+        "v1p053",
+        "v1p054",
+        "v1p055",
+        "v1p056",
+        "v1p057",
+        "v1p058",
+        "v1p059",
+        "v1p060",
+        "v1p061",
+        "v1p062",
+        "v1p063",
+        "v1p064",
+        "v1p065"
+      ],
+      "printed_range": [
+        "48",
+        "60"
+      ]
     },
-    "page_start": "page-075",
-    "page_end": "page-089",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p066",
+        "v1p067"
+      ],
+      "printed_range": [
+        "61",
+        "62"
+      ]
+    }
   },
   {
-    "chanson": "III",
-    "number": 3,
-    "pc": "389,40",
-    "incipit": "Una chansoneta fera",
-    "sections": {
-      "incipit": "page-090",
-      "remarques": "page-091",
-      "texte": "page-102"
+    "num": 3,
+    "roman": "III",
+    "incipit": "Una chansoneta fera,",
+    "remarques": {
+      "pages": [
+        "v1p068",
+        "v1p069",
+        "v1p070",
+        "v1p071",
+        "v1p072",
+        "v1p073",
+        "v1p074",
+        "v1p075",
+        "v1p076",
+        "v1p077"
+      ],
+      "printed_range": [
+        "63",
+        "72"
+      ]
     },
-    "page_start": "page-090",
-    "page_end": "page-104",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p078",
+        "v1p079"
+      ],
+      "printed_range": [
+        "73",
+        "74"
+      ]
+    }
   },
   {
-    "chanson": "IV",
-    "number": 4,
-    "pc": "389,10",
-    "incipit": "Apres mon vers vueilh sempr'ordrre",
-    "sections": {
-      "incipit": "page-105",
-      "remarques": "page-106",
-      "texte": "page-122"
+    "num": 4,
+    "roman": "IV",
+    "incipit": "Apres mon vers veuilh sempr'ordre",
+    "remarques": {
+      "pages": [
+        "v1p080",
+        "v1p081",
+        "v1p082",
+        "v1p083",
+        "v1p084",
+        "v1p085",
+        "v1p086",
+        "v1p087",
+        "v1p088",
+        "v1p089",
+        "v1p090",
+        "v1p091"
+      ],
+      "printed_range": [
+        "75",
+        "86"
+      ]
     },
-    "page_start": "page-105",
-    "page_end": "page-124",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p092",
+        "v1p093"
+      ],
+      "printed_range": [
+        "87",
+        "88"
+      ]
+    }
   },
   {
-    "chanson": "V",
-    "number": 5,
-    "pc": "389,41",
+    "num": 5,
+    "roman": "V",
     "incipit": "Un vers farai de tal mena",
-    "sections": {
-      "incipit": "page-125",
-      "remarques": "page-126",
-      "texte": "page-133"
+    "remarques": {
+      "pages": [
+        "v1p094",
+        "v1p095",
+        "v1p096",
+        "v1p097",
+        "v1p098",
+        "v1p099"
+      ],
+      "printed_range": [
+        "89",
+        "94"
+      ]
     },
-    "page_start": "page-125",
-    "page_end": "page-135",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p100",
+        "v1p101"
+      ],
+      "printed_range": [
+        "95",
+        "96"
+      ]
+    }
   },
   {
-    "chanson": "VI",
-    "number": 6,
-    "pc": "389,34",
-    "incipit": "Peire Rogier, a trassaillir",
-    "sections": {
-      "incipit": "page-136",
-      "remarques": "page-137",
-      "texte": "page-149"
+    "num": 6,
+    "roman": "VI",
+    "incipit": "Peire Rotgier, a trassaillir",
+    "remarques": {
+      "pages": [
+        "v1p102",
+        "v1p103",
+        "v1p104",
+        "v1p105",
+        "v1p106",
+        "v1p107",
+        "v1p108",
+        "v1p109",
+        "v1p110",
+        "v1p111"
+      ],
+      "printed_range": [
+        "97",
+        "106"
+      ]
     },
-    "page_start": "page-136",
-    "page_end": "page-151",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p112",
+        "v1p113"
+      ],
+      "printed_range": [
+        "107",
+        "108"
+      ]
+    }
   },
   {
-    "chanson": "VII",
-    "number": 7,
-    "pc": "389,4",
-    "incipit": "Al prim qe'il timi sorz en sue",
-    "sections": {
-      "incipit": "page-152",
-      "remarques": "page-153",
-      "texte": "page-160"
+    "num": 7,
+    "roman": "VII",
+    "incipit": "Al prim qe·il tim sorz en sus",
+    "remarques": {
+      "pages": [
+        "v1p114",
+        "v1p115",
+        "v1p116",
+        "v1p117",
+        "v1p118",
+        "v1p119"
+      ],
+      "printed_range": [
+        "109",
+        "114"
+      ]
     },
-    "page_start": "page-152",
-    "page_end": "page-161",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p120"
+      ],
+      "printed_range": [
+        "115",
+        "115"
+      ]
+    }
   },
   {
-    "chanson": "VIII",
-    "number": 8,
-    "pc": "389,21",
-    "incipit": "Braiz, chanes, qu'ieu, critz",
-    "sections": {
-      "incipit": "page-162",
-      "remarques": "page-163",
-      "texte": "page-167"
+    "num": 8,
+    "roman": "VIII",
+    "incipit": "Braiz, chans, quils, critz",
+    "remarques": {
+      "pages": [
+        "v1p121"
+      ],
+      "printed_range": [
+        "116",
+        "116"
+      ]
     },
-    "page_start": "page-162",
-    "page_end": "page-168",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p122",
+        "v1p123"
+      ],
+      "printed_range": [
+        "117",
+        "118"
+      ]
+    }
   },
   {
-    "chanson": "IX",
-    "number": 9,
-    "pc": "389,38",
-    "incipit": "Car vei qe clares",
-    "sections": {
-      "incipit": "page-169",
-      "remarques": "page-170",
-      "texte": "page-177"
+    "num": 9,
+    "roman": "IX",
+    "incipit": "Car vei qe clars",
+    "remarques": {
+      "pages": [
+        "v1p124",
+        "v1p125",
+        "v1p126",
+        "v1p127",
+        "v1p128"
+      ],
+      "printed_range": [
+        "119",
+        "123"
+      ]
     },
-    "page_start": "page-169",
-    "page_end": "page-179",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p129",
+        "v1p130"
+      ],
+      "printed_range": [
+        "124",
+        "125"
+      ]
+    }
   },
   {
-    "chanson": "X",
-    "number": 10,
-    "pc": "392,5",
+    "num": 10,
+    "roman": "X",
     "incipit": "Ar vei bru, escur, trebol cel",
-    "sections": {
-      "incipit": "page-180",
-      "remarques": "page-181",
-      "texte": "page-194"
+    "remarques": {
+      "pages": [
+        "v1p131",
+        "v1p132",
+        "v1p133",
+        "v1p134",
+        "v1p135",
+        "v1p136",
+        "v1p137",
+        "v1p138",
+        "v1p139",
+        "v1p140",
+        "v1p141"
+      ],
+      "printed_range": [
+        "126",
+        "136"
+      ]
     },
-    "page_start": "page-180",
-    "page_end": "page-196",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p142",
+        "v1p143"
+      ],
+      "printed_range": [
+        "137",
+        "138"
+      ]
+    }
   },
   {
-    "chanson": "XI",
-    "number": 11,
-    "pc": "389,13",
+    "num": 11,
+    "roman": "XI",
     "incipit": "Ar m'er tal un vers a faire",
-    "sections": {
-      "incipit": "page-197",
-      "remarques": "page-198",
-      "texte": "page-209"
+    "remarques": {
+      "pages": [
+        "v1p144",
+        "v1p145",
+        "v1p146",
+        "v1p147",
+        "v1p148",
+        "v1p149",
+        "v1p150",
+        "v1p151",
+        "v1p152",
+        "v1p153",
+        "v1p154"
+      ],
+      "printed_range": [
+        "139",
+        "149"
+      ]
     },
-    "page_start": "page-197",
-    "page_end": "page-211",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p155",
+        "v1p156"
+      ],
+      "printed_range": [
+        "150",
+        "151"
+      ]
+    }
   },
   {
-    "chanson": "XII",
-    "number": 12,
-    "pc": "389,2",
+    "num": 12,
+    "roman": "XII",
     "incipit": "Ab vergoinha part marrimentz",
-    "sections": {
-      "incipit": "page-216",
-      "remarques": "page-217",
-      "texte": "page-220"
+    "remarques": {
+      "pages": [
+        "v1p157",
+        "v1p158"
+      ],
+      "printed_range": [
+        "152",
+        "153"
+      ]
     },
-    "page_start": "page-216",
-    "page_end": "page-221",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p159",
+        "v1p160"
+      ],
+      "printed_range": [
+        "154",
+        "155"
+      ]
+    }
   },
   {
-    "chanson": "XIII",
-    "number": 13,
-    "pc": "389,15",
-    "incipit": "Er quant s'embla'l foill del fraisse",
-    "sections": {
-      "incipit": "page-222",
-      "remarques": "page-223",
-      "texte": "page-232"
+    "num": 13,
+    "roman": "XIII",
+    "incipit": "Er quant s'embla·l foill del fraisse",
+    "remarques": {
+      "pages": [
+        "v1p161",
+        "v1p162",
+        "v1p163",
+        "v1p164",
+        "v1p165",
+        "v1p166",
+        "v1p167",
+        "v1p168"
+      ],
+      "printed_range": [
+        "156",
+        "163"
+      ]
     },
-    "page_start": "page-222",
-    "page_end": "page-234",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p169",
+        "v1p170"
+      ],
+      "printed_range": [
+        "164",
+        "165"
+      ]
+    }
   },
   {
-    "chanson": "XIV",
-    "number": 14,
-    "pc": "389,12",
-    "incipit": "Ara non s'escl'a ni chanta",
-    "sections": {
-      "incipit": "page-234a",
-      "remarques": "page-235",
-      "texte": "page-241"
+    "num": 14,
+    "roman": "XIV",
+    "incipit": "Ara non siscla ni chanta",
+    "remarques": {
+      "pages": [
+        "v1p171",
+        "v1p172"
+      ],
+      "printed_range": [
+        "166",
+        "167"
+      ]
     },
-    "page_start": "page-234a",
-    "page_end": "page-243",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p173",
+        "v1p174"
+      ],
+      "printed_range": [
+        "168",
+        "169"
+      ]
+    }
   },
   {
-    "chanson": "XV",
-    "number": 15,
-    "pc": "389,27",
+    "num": 15,
+    "roman": "XV",
     "incipit": "Entre gel e vent e fanc",
-    "sections": {
-      "incipit": "page-244",
-      "remarques": "page-245",
-      "texte": "page-252"
+    "remarques": {
+      "pages": [
+        "v1p175",
+        "v1p176",
+        "v1p177",
+        "v1p178",
+        "v1p179",
+        "v1p180"
+      ],
+      "printed_range": [
+        "170",
+        "175"
+      ]
     },
-    "page_start": "page-244",
-    "page_end": "page-254",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p181",
+        "v1p182"
+      ],
+      "printed_range": [
+        "176",
+        "177"
+      ]
+    }
   },
   {
-    "chanson": "XVI",
-    "number": 16,
-    "pc": "389,37",
-    "incipit": "Pos trobare plan",
-    "sections": {
-      "incipit": "page-255",
-      "remarques": "page-256",
-      "texte": "page-262"
+    "num": 16,
+    "roman": "XVI",
+    "incipit": "Pos trobars plans",
+    "remarques": {
+      "pages": [
+        "v1p183",
+        "v1p184",
+        "v1p185",
+        "v1p186",
+        "v1p187"
+      ],
+      "printed_range": [
+        "178",
+        "182"
+      ]
     },
-    "page_start": "page-255",
-    "page_end": "page-264",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p188",
+        "v1p189"
+      ],
+      "printed_range": [
+        "183",
+        "184"
+      ]
+    }
   },
   {
-    "chanson": "XVII",
-    "number": 17,
-    "pc": "389,17",
-    "incipit": "Assaz m'ee bel",
-    "sections": {
-      "incipit": "page-265",
-      "remarques": "page-266",
-      "texte": "page-271"
+    "num": 17,
+    "roman": "XVII",
+    "incipit": "Assatz m'es bel",
+    "remarques": {
+      "pages": [
+        "v1p190",
+        "v1p191",
+        "v1p192",
+        "v1p193",
+        "v1p194"
+      ],
+      "printed_range": [
+        "185",
+        "189"
+      ]
     },
-    "page_start": "page-265",
-    "page_end": "page-273",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p195",
+        "v1p196"
+      ],
+      "printed_range": [
+        "190",
+        "191"
+      ]
+    }
   },
   {
-    "chanson": "XVIII",
-    "number": 18,
-    "pc": "389,3",
-    "incipit": "Aissei mou",
-    "sections": {
-      "incipit": "page-275",
-      "remarques": "page-276",
-      "texte": "page-291"
+    "num": 18,
+    "roman": "XVIII",
+    "incipit": "Aissi mou",
+    "remarques": {
+      "pages": [
+        "v1p197",
+        "v1p198",
+        "v1p199",
+        "v1p200",
+        "v1p201",
+        "v1p202",
+        "v1p203",
+        "v1p204",
+        "v1p205",
+        "v1p206",
+        "v1p207",
+        "v1p208",
+        "v1p209",
+        "v1p210"
+      ],
+      "printed_range": [
+        "192",
+        "205"
+      ]
     },
-    "page_start": "page-275",
-    "page_end": "page-294",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p211",
+        "v1p212",
+        "v1p213"
+      ],
+      "printed_range": [
+        "206",
+        "208"
+      ]
+    }
   },
   {
-    "chanson": "XIX",
-    "number": 19,
-    "pc": "389,8",
-    "incipit": "Amors, cum er? Que faray?",
-    "sections": {
-      "incipit": "page-295",
-      "remarques": "page-296",
-      "texte": "page-309"
+    "num": 19,
+    "roman": "XIX",
+    "incipit": "Amors, cum er ? Que faray ?",
+    "remarques": {
+      "pages": [
+        "v1p214",
+        "v1p215",
+        "v1p216",
+        "v1p217",
+        "v1p218",
+        "v1p219",
+        "v1p220",
+        "v1p221",
+        "v1p222",
+        "v1p223",
+        "v1p224",
+        "v1p225"
+      ],
+      "printed_range": [
+        "209",
+        "220"
+      ]
     },
-    "page_start": "page-295",
-    "page_end": "page-311",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p226",
+        "v1p227"
+      ],
+      "printed_range": [
+        "221",
+        "222"
+      ]
+    }
   },
   {
-    "chanson": "XX",
-    "number": 20,
-    "pc": "389,18",
-    "incipit": "Aseatz e sai d'amor ben parlar",
-    "sections": {
-      "incipit": "page-312",
-      "remarques": "page-313",
-      "texte": "page-320"
+    "num": 20,
+    "roman": "XX",
+    "incipit": "Assatz sai d'amor ben parlar",
+    "remarques": {
+      "pages": [
+        "v1p228",
+        "v1p229"
+      ],
+      "printed_range": [
+        "223",
+        "224"
+      ]
     },
-    "page_start": "page-312",
-    "page_end": "page-322",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p230",
+        "v1p231"
+      ],
+      "printed_range": [
+        "225",
+        "226"
+      ]
+    }
   },
   {
-    "chanson": "XXI",
-    "number": 21,
-    "pc": "389,20",
+    "num": 21,
+    "roman": "XXI",
     "incipit": "Ben s'eschai q'en bona cort",
-    "sections": {
-      "incipit": "page-323",
-      "remarques": "page-324",
-      "texte": "page-334"
+    "remarques": {
+      "pages": [
+        "v1p232",
+        "v1p233",
+        "v1p234",
+        "v1p235",
+        "v1p236",
+        "v1p237",
+        "v1p238",
+        "v1p239",
+        "v1p240",
+        "v1p241",
+        "v1p242",
+        "v1p243",
+        "v1p244",
+        "v1p245",
+        "v1p246",
+        "v1p247"
+      ],
+      "printed_range": [
+        "227",
+        "242"
+      ]
     },
-    "page_start": "page-323",
-    "page_end": "page-344",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p248",
+        "v1p249"
+      ],
+      "printed_range": [
+        "243",
+        "244"
+      ]
+    }
   },
   {
-    "chanson": "XXII",
-    "number": 22,
-    "pc": "389,19",
+    "num": 22,
+    "roman": "XXII",
     "incipit": "Ben sai c'a sels seria fer",
-    "sections": {
-      "incipit": "page-345",
-      "remarques": "page-346",
-      "texte": "page-356"
+    "remarques": {
+      "pages": [
+        "v1p250",
+        "v1p251",
+        "v1p252",
+        "v1p253",
+        "v1p254",
+        "v1p255",
+        "v1p256",
+        "v1p257",
+        "v1p258"
+      ],
+      "printed_range": [
+        "245",
+        "253"
+      ]
     },
-    "page_start": "page-345",
-    "page_end": "page-358",
-    "missing_sections": []
+    "texte": {
+      "pages": [
+        "v1p259",
+        "v1p260"
+      ],
+      "printed_range": [
+        "254",
+        "255"
+      ]
+    }
+  },
+  {
+    "num": 23,
+    "roman": "XXIII",
+    "incipit": "Donna, cel qe·us es bos amics,",
+    "remarques": {
+      "pages": [
+        "v1p261",
+        "v1p262",
+        "v1p263",
+        "v1p264",
+        "v1p265",
+        "v1p266",
+        "v1p267",
+        "v1p268",
+        "v1p269",
+        "v1p270"
+      ],
+      "printed_range": [
+        "256",
+        "265"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v1p271",
+        "v1p272",
+        "v1p273",
+        "v1p274",
+        "v1p275"
+      ],
+      "printed_range": [
+        "266",
+        "270"
+      ]
+    }
+  },
+  {
+    "num": 24,
+    "roman": "XXIV",
+    "incipit": "Escotatz, mas no say que s'es,",
+    "remarques": {
+      "pages": [
+        "v1p276",
+        "v1p277",
+        "v1p278"
+      ],
+      "printed_range": [
+        "271",
+        "273"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v1p279",
+        "v1p280"
+      ],
+      "printed_range": [
+        "274",
+        "275"
+      ]
+    }
+  },
+  {
+    "num": 25,
+    "roman": "XXV",
+    "incipit": "Amics, en gran cossirier",
+    "remarques": {
+      "pages": [
+        "v1p281",
+        "v1p282",
+        "v1p283",
+        "v1p284",
+        "v1p285",
+        "v1p286",
+        "v1p287",
+        "v1p288"
+      ],
+      "printed_range": [
+        "276",
+        "283"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v1p289",
+        "v1p290"
+      ],
+      "printed_range": [
+        "284",
+        "285"
+      ]
+    }
+  },
+  {
+    "num": 26,
+    "roman": "XXVI",
+    "incipit": "Dona, si m'auzes rancurar",
+    "remarques": {
+      "pages": [
+        "v1p291",
+        "v1p292",
+        "v1p293",
+        "v1p294",
+        "v1p295"
+      ],
+      "printed_range": [
+        "286",
+        "290"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v1p296",
+        "v1p297",
+        "v2p000"
+      ],
+      "printed_range": [
+        "291",
+        "292"
+      ]
+    }
+  },
+  {
+    "num": 27,
+    "roman": "XXVII",
+    "incipit": "Non chant per auzel ni per flor",
+    "remarques": {
+      "pages": [
+        "v2p001"
+      ],
+      "printed_range": [
+        "293",
+        "293"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p002",
+        "v2p003"
+      ],
+      "printed_range": [
+        "294",
+        "295"
+      ]
+    }
+  },
+  {
+    "num": 28,
+    "roman": "XXVIII",
+    "incipit": "Lonc temps ai estat cubertz,",
+    "remarques": {
+      "pages": [
+        "v2p004",
+        "v2p005",
+        "v2p006",
+        "v2p007"
+      ],
+      "printed_range": [
+        "296",
+        "299"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p008",
+        "v2p009"
+      ],
+      "printed_range": [
+        "300",
+        "301"
+      ]
+    }
+  },
+  {
+    "num": 29,
+    "roman": "XXIX",
+    "incipit": "Ara·m so del tot conquis,",
+    "remarques": {
+      "pages": [
+        "v2p010",
+        "v2p011",
+        "v2p012",
+        "v2p013",
+        "v2p014",
+        "v2p015",
+        "v2p016"
+      ],
+      "printed_range": [
+        "302",
+        "308"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p017",
+        "v2p018",
+        "v2p019"
+      ],
+      "printed_range": [
+        "309",
+        "311"
+      ]
+    }
+  },
+  {
+    "num": 30,
+    "roman": "XXX",
+    "incipit": "A mon vers dirai chansso",
+    "remarques": {
+      "pages": [
+        "v2p020",
+        "v2p021",
+        "v2p022",
+        "v2p023",
+        "v2p024"
+      ],
+      "printed_range": [
+        "312",
+        "316"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p025",
+        "v2p026"
+      ],
+      "printed_range": [
+        "317",
+        "318"
+      ]
+    }
+  },
+  {
+    "num": 31,
+    "roman": "XXXI",
+    "incipit": "Ara·m platz, Giraut de Borneill,",
+    "remarques": {
+      "pages": [
+        "v2p027",
+        "v2p028",
+        "v2p029",
+        "v2p030",
+        "v2p031",
+        "v2p032",
+        "v2p033",
+        "v2p034",
+        "v2p035",
+        "v2p036",
+        "v2p037",
+        "v2p038"
+      ],
+      "printed_range": [
+        "319",
+        "330"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p039",
+        "v2p040"
+      ],
+      "printed_range": [
+        "331",
+        "332"
+      ]
+    }
+  },
+  {
+    "num": 32,
+    "roman": "XXXII",
+    "incipit": "Si·l cors es pres, la lengua non es preza;",
+    "remarques": {
+      "pages": [
+        "v2p041",
+        "v2p042",
+        "v2p043",
+        "v2p044"
+      ],
+      "printed_range": [
+        "333",
+        "336"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p045",
+        "v2p046"
+      ],
+      "printed_range": [
+        "337",
+        "338"
+      ]
+    }
+  },
+  {
+    "num": 33,
+    "roman": "XXXIII",
+    "incipit": "Joglar, fe qed eu dei",
+    "remarques": {
+      "pages": [
+        "v2p047",
+        "v2p048",
+        "v2p049",
+        "v2p050",
+        "v2p051",
+        "v2p052",
+        "v2p053",
+        "v2p054",
+        "v2p055"
+      ],
+      "printed_range": [
+        "339",
+        "347"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p056",
+        "v2p057"
+      ],
+      "printed_range": [
+        "348",
+        "349"
+      ]
+    }
+  },
+  {
+    "num": 34,
+    "roman": "XXXIV",
+    "incipit": "Parliers…ana",
+    "remarques": {
+      "pages": [
+        "v2p058",
+        "v2p059",
+        "v2p060",
+        "v2p061",
+        "v2p062",
+        "v2p063",
+        "v2p064",
+        "v2p065",
+        "v2p066"
+      ],
+      "printed_range": [
+        "350",
+        "358"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p067",
+        "v2p068"
+      ],
+      "printed_range": [
+        "359",
+        "360"
+      ]
+    }
+  },
+  {
+    "num": 35,
+    "roman": "XXXV",
+    "incipit": "Ab nou cor et ab nou talen,",
+    "remarques": {
+      "pages": [
+        "v2p069",
+        "v2p070",
+        "v2p071"
+      ],
+      "printed_range": [
+        "361",
+        "363"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p072",
+        "v2p073"
+      ],
+      "printed_range": [
+        "364",
+        "365"
+      ]
+    }
+  },
+  {
+    "num": 36,
+    "roman": "XXXVI",
+    "incipit": "Ar non sui jes mals et astrucs,",
+    "texte": {
+      "pages": [
+        "v2p074",
+        "v2p075"
+      ],
+      "printed_range": [
+        "366",
+        "367"
+      ]
+    }
+  },
+  {
+    "num": 37,
+    "roman": "XXXVII",
+    "incipit": "Als durs, crus, cozens lauzengiers",
+    "remarques": {
+      "pages": [
+        "v2p076",
+        "v2p077",
+        "v2p078",
+        "v2p079"
+      ],
+      "printed_range": [
+        "368",
+        "371"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p080",
+        "v2p081",
+        "v2p082"
+      ],
+      "printed_range": [
+        "372",
+        "374"
+      ]
+    }
+  },
+  {
+    "num": 38,
+    "roman": "XXXVIII",
+    "incipit": "Pois tals sabers mi sortz e·m creis",
+    "remarques": {
+      "pages": [
+        "v2p083",
+        "v2p084",
+        "v2p085"
+      ],
+      "printed_range": [
+        "375",
+        "377"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p086",
+        "v2p087"
+      ],
+      "printed_range": [
+        "378",
+        "379"
+      ]
+    }
+  },
+  {
+    "num": 39,
+    "roman": "XXXIX",
+    "incipit": "Ar resplan la flors enversa",
+    "remarques": {
+      "pages": [
+        "v2p088",
+        "v2p089",
+        "v2p090",
+        "v2p091",
+        "v2p092",
+        "v2p093",
+        "v2p094",
+        "v2p095"
+      ],
+      "printed_range": [
+        "380",
+        "387"
+      ]
+    },
+    "texte": {
+      "pages": [
+        "v2p096",
+        "v2p097"
+      ],
+      "printed_range": [
+        "388",
+        "389"
+      ]
+    }
   }
 ]
