@@ -21,14 +21,36 @@ eleventyComputed:
     <details class="tradition">
       <summary>Tradition manuscrite &amp; éditions</summary>
       <div class="trad-body">
-        {% if ch.tradition.manuscrits %}
+        {% if ch.tradition.manuscritsList.length %}
         <h4>Manuscrits</h4>
-        <p>{{ ch.tradition.manuscrits | mdInline | safe }}</p>
+        <ul class="ms-witnesses">
+          {% for g in ch.tradition.manuscritsList %}
+          <li>
+            <span class="mw-sig">
+              {%- for s in g.sigla -%}
+                {%- if s.href %}<a href="{{ s.href }}" title="{{ s.ident }}">{{ s.html | safe }}</a>{% else %}{{ s.html | safe }}{% endif -%}
+                {%- if not loop.last %} {% endif -%}
+              {%- endfor -%}
+            </span>
+            {%- if g.sigla.length == 1 and g.sigla[0].ident %}<span class="mw-id">{{ g.sigla[0].ident }}</span>{% endif -%}
+            {%- if g.locus %}<span class="mw-loc">{{ g.locus | bibCite | safe }}</span>{% endif -%}
+          </li>
+          {% endfor %}
+        </ul>
+        {% elif ch.tradition.manuscrits %}
+        <h4>Manuscrits</h4>
+        <p>{{ ch.tradition.manuscrits | bibCite | safe }}</p>
         {% endif %}
         {% if ch.tradition.editions.length %}
-        <h4>Éditions &amp; études</h4>
+        <h4>Éditions</h4>
         {% for ed in ch.tradition.editions %}
-        <p>{{ ed | mdInline | safe }}</p>
+        <p>{{ (ed.cite or ed.raw) | bibCite | safe }}</p>
+        {% endfor %}
+        {% endif %}
+        {% if ch.tradition.etudes.length %}
+        <h4>Études, commentaires</h4>
+        {% for et in ch.tradition.etudes %}
+        <p>{{ (et.cite or et.raw) | bibCite | safe }}</p>
         {% endfor %}
         {% endif %}
       </div>
@@ -94,7 +116,7 @@ eleventyComputed:
           <div class="strophe-row{% if item.t == 'strophe' %} solo{% endif %}" id="s{{ item.strophe.i }}">
             <div class="oc" lang="oc">
               {% for ln in item.strophe.lines %}
-              <p class="vline{% if ln.no % 5 == 0 %} q5{% endif %}{% if ln.marks.length %} marked{% endif %}" id="v{{ ln.no }}"{% if ln.marks.length %} data-rem="{{ ln.marks[0].id }}"{% endif %}>
+              <p class="vline{% if ln.no % 5 == 0 %} q5{% endif %}{% if ln.marks.length %} marked{% endif %}" id="v{{ ln.no }}"{% if ln.pid %} data-fxpage="{{ ln.pid }}"{% endif %}{% if ln.marks.length %} data-rem="{{ ln.marks[0].id }}"{% endif %}>
                 <span class="lno" aria-hidden="true">{{ ln.no }}</span>
                 {%- if ln.marks.length -%}
                 <a class="vmark" href="#{{ ln.marks[0].id }}" title="Remarque sur le {{ ln.marks[0].label }}" aria-label="Remarque sur le {{ ln.marks[0].label }}"></a>
@@ -178,7 +200,7 @@ eleventyComputed:
   {% if ch.livre.facsimile.length %}
   <section class="cx-view cx-facsimile facsimile-body is-livre" aria-label="Fac-similé du tapuscrit">
     {% for pg in ch.livre.facsimile %}
-    <article class="fx-page">
+    <article class="fx-page"{% if pg.pid %} id="fx-page-{{ pg.pid }}"{% endif %}>
       <div class="fx-sheet">
         <div class="fx-content">{{ pg.html | safe }}</div>
         {% if pg.notes.length %}

@@ -64,8 +64,13 @@ function lemmaLabel({ from, to, open }) {
 // remarques: split page markdown into headnote + lemma entries
 // ---------------------------------------------------------------------------
 // the transcription sometimes set the printed heads as ATX headings
-// ("# CHANSON I : REMARQUES…", "## v.1") and sometimes as plain lines
-const unhash = (s) => s.trim().replace(/^#{1,6}\s*/, "");
+// ("# [CHANSON I ]{.underline} :…", "## v.1"), sometimes as plain lines, and
+// sometimes as underline spans faithful to the typescript ("[v.1]{.underline}",
+// "[CHANSON I ]{.underline} : REMARQUES"). Normalize all three to the bare text so
+// the verse-lemma and heading detectors below anchor on it. (Matching only — the
+// rendered lines keep their original markup, so the underline survives.)
+const unwrapUnderline = (s) => s.replace(/\[([^\]]*)\]\{\.underline\}/g, "$1");
+const unhash = (s) => unwrapUnderline(s.trim().replace(/^#{1,6}\s*/, "")).trim();
 
 function parseRemarques(mdText, ctx) {
   const lines = mdText.split("\n");
@@ -283,16 +288,33 @@ export function parseChanson(c, opts) {
       marksByLine.get(n).push(e);
     }
   }
+  // page provenance per strophe: strophes never span a page break (a page anchor
+  // flushes the current strophe), so each verse's typescript page is the pid of
+  // the last page anchor at or before it. Lets a verse deep-link resolve to the
+  // right facsimile sheet (and book page) even though those views aren't verse-
+  // addressable.
+  const pageAnchors = tx.asides
+    .filter((a) => a.t === "anchor")
+    .sort((a, b) => a.after - b.after);
+  const strophePid = (i) => {
+    let pid = null;
+    for (const a of pageAnchors) { if (a.after < i) pid = a.pid; else break; }
+    return pid;
+  };
+
   const lineIndex = new Map(); // no -> plain text (for lemma quotes)
-  const strophes = tx.strophes.map((st) => ({
-    i: st.i,
-    lines: st.lines.map((ln) => {
-      const html = caesura(renderInlineApparatus(ln.text, ctx));
-      lineIndex.set(ln.no, stripTags(html));
-      const marks = (marksByLine.get(ln.no) || []).filter((e) => e.from === ln.no);
-      return { no: ln.no, html, marks: marks.map((e) => ({ id: e.id, label: e.label })) };
-    }),
-  }));
+  const strophes = tx.strophes.map((st) => {
+    const pid = strophePid(st.i);
+    return {
+      i: st.i,
+      lines: st.lines.map((ln) => {
+        const html = caesura(renderInlineApparatus(ln.text, ctx));
+        lineIndex.set(ln.no, stripTags(html));
+        const marks = (marksByLine.get(ln.no) || []).filter((e) => e.from === ln.no);
+        return { no: ln.no, html, pid, marks: marks.map((e) => ({ id: e.id, label: e.label })) };
+      }),
+    };
+  });
 
   // quote the anchored verse(s) under each lemma heading (≤ 2 lines shown)
   for (const e of rem.entries) {

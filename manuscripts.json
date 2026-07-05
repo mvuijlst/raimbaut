@@ -1,0 +1,221 @@
+{
+  "note": "Table établie à l'aide de A. Jeanroy, *Bibliographie sommaire des chansonniers provençaux*, Paris, 1916 (CFMA XVI) ; P.-C. ; et Cl. Brunel, *Bibliographie des manuscrits littéraires en ancien provençal*, Genève, Slatkine Reprints, 1973 (réimpr. de l'éd. de Paris, 1935). — Voir aussi, en général, D'Arco Silvio Avalle, *La letteratura d'oc nella sua tradizione manoscritta*, 1961. — Voir aussi la section « Manuscrits occitans » de la bibliographie, où l'on trouvera les références complètes des ouvrages cités dans cette « Table des manuscrits ».",
+  "witnesses": [
+    {
+      "siglum": "A",
+      "label": "A",
+      "location": "Rome, Biblioteca Vaticana, lat. 5232.",
+      "origin": "écrit au XIIIᵉ siècle, en Italie.",
+      "references": "voir Jeanroy, 1 ; P.-C., X et Brunel 325.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "PAKSCHER", "contains": "Studj" } },
+          { "ref": { "author": "GRUTZMACHER", "contains": "Bericht" } },
+          { "text": "E. Stengel, *Archiv*, LI" }
+        ] }
+      ]
+    },
+    {
+      "siglum": "C",
+      "label": "C",
+      "location": "Paris, Bibliothèque Nationale, franç. 856 (anc. 7226).",
+      "origin": "écrit au XIVᵉ siècle, vers Narbonne.",
+      "references": "voir Jeanroy, 8 ; P.-C., XII et Brunel 143."
+    },
+    {
+      "siglum": "D",
+      "label": "D  Dᵃ  Dᵉ",
+      "location": "Modène, Biblioteca Estense, R 4.4 (anc. IV, 163).",
+      "origin": "écrit aux XIIIᵉ et XIVᵉ siècles, en Italie.",
+      "references": "voir Jeanroy, 4 ; P.-C., XII et Brunel 314.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "TEULIE", "contains": "Ferrari" } },
+          { "ref": { "author": "AVALLE", "contains": "Estense" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "E",
+      "label": "E",
+      "location": "Paris, Bibliothèque Nationale, franç. 1749 (anc. 7698).",
+      "origin": "écrit au XIVᵉ siècle, en Languedoc.",
+      "references": "voir Jeanroy, 5 ; P.-C., XIII et Brunel 156."
+    },
+    {
+      "siglum": "G",
+      "label": "G",
+      "location": "Milan, Biblioteca Ambrosiana, R 71 Sup.",
+      "origin": "écrit au XIVᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 6 ; P.-C., XIV et Brunel 311.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "BERTONI", "contains": "Ambrosiana" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "I",
+      "label": "I",
+      "location": "Paris, Bibliothèque Nationale, franç. 854 (anc. 7225).",
+      "origin": "écrit au XIIIᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 8 ; P.-C., XV et Brunel 142."
+    },
+    {
+      "siglum": "K",
+      "label": "K",
+      "location": "Paris, Bibliothèque Nationale, franç. 12473 (anc. Vat. 3204, puis Suppl. fr. 2032).",
+      "origin": "écrit au XIIIᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 8 ; P.-C., XVI et Brunel 179."
+    },
+    {
+      "siglum": "L",
+      "label": "L",
+      "location": "Rome, Biblioteca Vaticana, lat. 3206.",
+      "origin": "écrit au XIVᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 9 ; P.-C., XVII et Brunel 320.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "text": "M. Pelaez, *Studj*, XVI" }
+        ] }
+      ]
+    },
+    {
+      "siglum": "M",
+      "label": "M",
+      "location": "Paris, Bibliothèque Nationale, franç. 12474 (anc. Vat. 3794, puis Suppl. fr. 2033).",
+      "origin": "écrit au XIVᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 10 ; P.-C., XVII et Brunel 180."
+    },
+    {
+      "siglum": "N",
+      "label": "N",
+      "location": "New York, Pierpont Morgan Library, 819 (autrefois Cheltenham, Phillips Library, 8335).",
+      "origin": "écrit au XIVᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 10 ; P.-C., XVIII et Brunel 11.",
+      "editions": [
+        { "label": "éd. dipl. (partielle)", "items": [
+          { "ref": { "author": "CONSTANS", "contains": "Cheltenham" } },
+          { "ref": { "author": "PILLET", "contains": "altprovenzalische" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "N2",
+      "label": "N²",
+      "location": "Berlin, Staatsbibliothek, Phillips 1910.",
+      "origin": "écrit au XVIᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 11 ; P.-C., XIX et Brunel 4.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "PILLET", "contains": "altprovenzalische" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "O",
+      "label": "O",
+      "location": "Rome, Biblioteca Vaticana, lat. 3208.",
+      "origin": "écrit au XIVᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 11 ; P.-C., XIX et Brunel 322.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "LOLLIS", "contains": "Lincei" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "R",
+      "label": "R",
+      "location": "Paris, Bibliothèque Nationale, franç. 22543 (anc. La Vallière 14).",
+      "origin": "écrit au XIVᵉ siècle en Languedoc.",
+      "references": "voir Jeanroy, 13 ; P.-C., XX et Brunel 194."
+    },
+    {
+      "siglum": "U",
+      "label": "U",
+      "location": "Florence, Biblioteca Laurenziana, Plut. XLI, 43.",
+      "origin": "écrit au XIVᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 16 ; P.-C., XXII et Brunel 291.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "GRUTZMACHER", "contains": "Plut. XLI" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "V",
+      "label": "V",
+      "location": "Venise, Biblioteca Marciana, franc. App. cod. XI.",
+      "origin": "écrit au XIIIᵉ et au XVᵉ siècles en Catalogne et en Italie.",
+      "references": "voir Jeanroy, 16 ; P.-C., XXIII et Brunel 351.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "GRUTZMACHER", "contains": "Venedig" } },
+          { "ref": { "author": "CRESCINI", "contains": "Marciana" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "X",
+      "label": "X",
+      "location": "Paris, Bibliothèque Nationale, franç. 20050 (anc. Saint-Germain fr. 1989).",
+      "origin": "écrit au XIIIᵉ siècle dans le Nord de la France.",
+      "references": "voir Jeanroy, 17 ; P.-C., XXIV et Brunel 193.",
+      "editions": [
+        { "label": "fac.-sim.", "items": [
+          { "ref": { "author": "MEYER", "contains": "Saint-Germain" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "a",
+      "label": "a",
+      "location": "Florence, Biblioteca Riccardiana, 2814.",
+      "subline": "Première partie, constituant le chansonnier *a*¹ de Jeanroy, 19 ou *a* de P.-C., XXIV, de la copie faite en 1589 par Jacques Teissier de Tarascon d'un chansonnier du XIIIᵉ siècle compilé par Bernart Amoros de Saint-Flour.",
+      "references": "voir Brunel 305.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "STENGEL", "contains": "Bernart Amoros" } },
+          { "ref": { "author": "BERTONI", "contains": "Bernart Amoros" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "c",
+      "label": "c",
+      "location": "Florence, Biblioteca Laurenziana, plut. XC infer., cod. 26.",
+      "origin": "écrit au XVᵉ siècle en Italie.",
+      "references": "voir Jeanroy, 21 ; P.-C., XXVI et Brunel 292.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "PELAEZ", "contains": "canzoniere provenzale c" } }
+        ] }
+      ]
+    },
+    {
+      "siglum": "d",
+      "label": "d",
+      "location": "Modène, Biblioteca Estense, R 4.4.",
+      "origin": "écrit au XVIᵉ siècle (supplément sur papier à D).",
+      "references": "voir P.-C., XXVI et Brunel 314."
+    },
+    {
+      "siglum": "beta",
+      "label": "β",
+      "description": "citations dans Raimon Vidal, *So fo el temps*, éd. Cornicelius, Berlin, 1888.",
+      "references": "voir P.-C., XXX et Brunel 194."
+    },
+    {
+      "siglum": "psi",
+      "label": "ψ",
+      "description": "fragment d'un chansonnier écrit au XIVᵉ siècle en Italie.",
+      "references": "voir Brunel 251 ter.",
+      "editions": [
+        { "label": "éd. dipl.", "items": [
+          { "ref": { "author": "BARROUX", "contains": "Fragment" } }
+        ] }
+      ]
+    }
+  ]
+}

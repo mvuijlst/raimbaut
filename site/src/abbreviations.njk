@@ -5,7 +5,7 @@ permalink: /abbreviations/
 ---
 <article class="prose">
 <header class="section-head">
-  <span class="u-eyebrow">Apparat</span>
+  <span class="u-eyebrow">Références</span>
   <h1>Abréviations &amp; sigles</h1>
   <p class="subtitle">Les sigles bibliographiques employés dans les notes.</p>
 </header>
@@ -25,7 +25,9 @@ permalink: /abbreviations/
 <section class="ms-sigla">
   <h2>Sigles de manuscrits</h2>
   <p>Les lettres isolées désignent les chansonniers médiévaux collationnés
-  (conventions Pillet-Carstens) : {{ edition.manuscriptSigla.singletons | join(", ") }}.</p>
+  (conventions Pillet-Carstens) : {{ edition.manuscriptSigla.singletons | join(", ") }}.
+  {% if edition.manuscriptTable %}Voir la <a href="/manuscrits/">Table des manuscrits</a>
+  pour la liste complète, avec cote, datation et éditions.{% endif %}</p>
 </section>
 {% endif %}
 

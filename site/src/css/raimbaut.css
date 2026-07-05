@@ -191,10 +191,47 @@ a:hover { color: var(--rubric); }
   margin-left: auto;
 }
 .theme-btn:hover { color: var(--rubric); }
-@media (max-width: 900px) {
-  .masthead { overflow-x: auto; }
-  .masthead-inner { gap: 1rem; padding: 0 1rem; }
-  .masthead nav { gap: 1rem; }
+
+/* hamburger: hidden on desktop, revealed as the main-nav trigger on mobile */
+.nav-toggle { display: none; }
+.nav-toggle-bars, .nav-toggle-bars::before, .nav-toggle-bars::after {
+  display: block; width: 1.1rem; height: 1.5px; background: currentColor;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.nav-toggle-bars { position: relative; }
+.nav-toggle-bars::before, .nav-toggle-bars::after { content: ""; position: absolute; left: 0; }
+.nav-toggle-bars::before { top: -0.32rem; }
+.nav-toggle-bars::after { top: 0.32rem; }
+
+@media (max-width: 1000px) {
+  .masthead-inner { gap: 1.2rem; padding: 0 1.2rem; }
+  .masthead nav { gap: 1.1rem; }
+}
+@media (max-width: 700px) {
+  .nav-toggle {
+    display: inline-flex; align-items: center; justify-content: center;
+    background: none; border: 0; color: var(--muted); cursor: pointer;
+    padding: 0.4rem 0.2rem; margin: 0;
+  }
+  .masthead-inner { gap: 0.9rem; }
+  .brand { margin-right: auto; }
+  /* the four sections become a drawer dropping from under the masthead */
+  .masthead nav {
+    position: fixed; top: var(--masthead-h); left: 0; right: 0;
+    flex-direction: column; gap: 0; align-items: stretch;
+    background: var(--paper); border-bottom: 1px solid var(--rule);
+    padding: 0.4rem 0 0.8rem;
+    transform: translateY(-8px); opacity: 0; pointer-events: none;
+    transition: transform 0.2s ease, opacity 0.2s ease; z-index: 39;
+    box-shadow: 0 14px 30px -18px rgba(20, 15, 8, 0.5);
+  }
+  .nav-open .masthead nav { transform: translateY(0); opacity: 1; pointer-events: auto; }
+  .masthead nav a { padding: 0.7rem 1.2rem; font-size: 0.95rem; }
+  .masthead nav a[aria-current]::after { display: none; }
+  .masthead nav a[aria-current] { box-shadow: inset 2px 0 0 var(--rubric); }
+  .nav-open .nav-toggle-bars { background: transparent; }
+  .nav-open .nav-toggle-bars::before { top: 0; transform: rotate(45deg); }
+  .nav-open .nav-toggle-bars::after { top: 0; transform: rotate(-45deg); }
 }
 
 /* ---- contextual sub-bar: current location + layout switch, sticky below the
@@ -204,7 +241,10 @@ a:hover { color: var(--rubric); }
   background: color-mix(in srgb, var(--paper) 90%, transparent);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--rule);
+  transition: transform 0.25s ease;
 }
+/* mobile: the sub-bar tucks up under the masthead when scrolling down (JS) */
+.subnav--hidden { transform: translateY(-100%); }
 .subnav-inner {
   max-width: 96rem; margin: 0 auto; min-height: var(--subnav-h);
   padding: 0.35rem 2rem; display: flex; align-items: center; gap: 1.5rem;
@@ -225,6 +265,10 @@ a:hover { color: var(--rubric); }
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .subnav .view-control { margin-left: auto; flex: none; }
+/* inert copy on apparatus pages with no version toggle (Manuscrits, Sigles):
+   reserves the toggle's width so the apparatus switcher keeps the same position
+   as on pages that can switch versions. */
+.subnav .view-control--placeholder { visibility: hidden; }
 /* sibling-chapter switcher (Poétique): same quiet voice as the view control,
    active chapter marked with the rubric dot — never the masthead underline. */
 .sn-chapters {
@@ -241,11 +285,45 @@ a:hover { color: var(--rubric); }
   width: 3px; height: 3px; margin-left: -1.5px; border-radius: 50%;
   background: var(--rubric);
 }
+/* view control label: "Version web" / "Version livre" on desktop; the second
+   button drops its "Version " prefix on mobile → "Version web / livre". */
 @media (max-width: 700px) {
-  .subnav-inner { flex-wrap: wrap; gap: 0.5rem 1rem; }
+  .subnav-inner { flex-wrap: wrap; gap: 0.4rem 1rem; padding: 0.3rem 1.2rem; }
   .sn-incipit { display: none; }
-  .subnav .view-control { margin-left: 0; }
-  .sn-chapters { margin-left: 0; }
+  .sn-here { flex: 1 1 auto; }
+  /* view control: keep it on the right edge */
+  .subnav .view-control { margin-left: auto; order: 3; }
+  .view-control .vc-primary button:nth-child(2) .vc-pre { display: none; }
+  /* "Lecture continue" → "Continu" on mobile (specificity beats the base
+     .vc-short{display:none}, which sits later in the file) */
+  .view-control .vc-long { display: none; }
+  .view-control .vc-short { display: inline; }
+  /* short, tight chapter/apparatus switchers stay on their own full-width row */
+  .sn-chapters { margin-left: 0; order: 2; flex-basis: 100%; gap: 1.15rem; }
+
+  /* apparatus strip: a single scrollable row with honest edge fades, scroll-snap,
+     and the you-are-here dot preserved. Fades are masks toggled by JS so they
+     never lie once you reach an end. */
+  .sn-apparatus {
+    flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+    padding-bottom: 0.5rem; margin-bottom: -0.2rem;
+  }
+  .sn-apparatus::-webkit-scrollbar { display: none; }
+  .sn-apparatus a { scroll-snap-align: start; flex: none; padding-bottom: 0.35rem; }
+  .sn-apparatus a[aria-current]::after { bottom: 0.05rem; }
+  .sn-apparatus.has-end {
+    -webkit-mask-image: linear-gradient(to right, #000 78%, transparent);
+            mask-image: linear-gradient(to right, #000 78%, transparent);
+  }
+  .sn-apparatus.has-start.has-end {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 12% 78%, transparent);
+            mask-image: linear-gradient(to right, transparent, #000 12% 78%, transparent);
+  }
+  .sn-apparatus.has-start:not(.has-end) {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 16%);
+            mask-image: linear-gradient(to right, transparent, #000 16%);
+  }
 }
 
 /* -------------------------------------------------------------- colophon */
@@ -386,6 +464,16 @@ input.margin-toggle { display: none; }
   text-transform: uppercase; color: var(--muted); margin: 0.7rem 0 0.25rem; font-weight: 500; }
 .tradition .trad-body h4:first-child { margin-top: 0; }
 .source-note { font-size: 0.8rem; color: var(--muted); font-style: italic; margin-top: 0.8rem; }
+
+/* per-chanson witness list: siglum · shelfmark — diplomatic-edition locus */
+.ms-witnesses { list-style: none; margin: 0.25rem 0 0; padding: 0; }
+.ms-witnesses li { margin: 0.18rem 0; line-height: 1.45; text-indent: -1.1rem; padding-left: 1.1rem; }
+.ms-witnesses .mw-sig { font-weight: 600; color: var(--rubric); white-space: nowrap; }
+.ms-witnesses .mw-sig a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--rule); }
+.ms-witnesses .mw-sig a:hover { border-bottom-color: var(--rubric); }
+.ms-witnesses .mw-id::before { content: " · "; color: var(--muted); font-weight: 400; }
+.ms-witnesses .mw-loc::before { content: " — "; color: var(--muted); }
+.ms-witnesses .mw-loc { color: var(--muted); }
 
 .ms-figures { display: flex; flex-wrap: wrap; gap: 1.2rem; align-items: flex-start; }
 .ms-figures figure { margin: 0; max-width: 17rem; }
@@ -784,6 +872,8 @@ a.backref[data-conf="low"], a.backref[data-conf="medium"] { border-bottom-style:
   letter-spacing: 0.14em; text-transform: uppercase;
 }
 .vc-primary, .vc-secondary { display: inline-flex; gap: 0.95rem; }
+/* the short "Continu" label is a mobile-only alternate for "Lecture continue" */
+.vc-short { display: none; }
 .vc-secondary { border-left: 1px solid var(--rule); padding-left: 1.1rem; }
 .vc-secondary[hidden] { display: none; }
 .view-control button {
@@ -851,9 +941,226 @@ table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
 .siglum-tag { font-feature-settings: "smcp" 1; font-weight: 500; color: var(--rubric); }
 .parchanson { max-width: 46rem; }
 
+/* ---- Table des manuscrits: siglum in a hanging left column ---- */
+.ms-table { max-width: 46rem; margin: 0; }
+.ms-table dt {
+  font-style: italic; font-size: 1.15rem; color: var(--rubric);
+  margin-top: 1.6rem; padding-top: 1.2rem; border-top: 1px solid var(--rule-soft);
+}
+.ms-table dt:first-child { border-top: 0; padding-top: 0; margin-top: 0; }
+.ms-table dd { margin: 0.35rem 0 0; }
+.ms-table dd p { margin: 0.15rem 0; }
+.ms-table .ms-loc { font-weight: 500; }
+.ms-table .ms-line { font-size: 0.92rem; color: var(--ink-soft); }
+.ms-table .ms-subline { color: var(--ink); }
+.ms-table .ms-sig { color: var(--rubric); text-decoration: none; border-bottom: 1px dotted var(--rule); }
+.ms-table .ms-sig:hover { border-bottom-color: var(--rubric); }
+.ms-table .ms-ed-label { font-style: italic; color: var(--muted); }
+.ms-table .ms-ed { margin-top: 0.5rem; }
+.ms-table .ms-ed-list { list-style: none; margin: 0.1rem 0 0; padding: 0; }
+.ms-table .ms-ed-list li {
+  font-size: 0.85rem; line-height: 1.5; color: var(--ink-soft);
+  padding-left: 1.1rem; text-indent: -1.1rem; margin: 0.1rem 0;
+}
+.ms-table .ms-bib-link {
+  text-decoration: none; color: var(--muted); font-size: 0.9em;
+  padding: 0 0.15em; border: 0;
+}
+.ms-table .ms-bib-link:hover { color: var(--rubric); }
+.ms-note {
+  max-width: 46rem; margin: 2.6rem 0 0; padding-top: 1.2rem;
+  border-top: 1px solid var(--rule); font-size: 0.82rem; line-height: 1.6;
+  color: var(--muted);
+}
+@media (min-width: 640px) {
+  .ms-table { display: grid; grid-template-columns: 4.75rem 1fr; }
+  .ms-table dt {
+    grid-column: 1; margin: 0; padding: 1.2rem 1.1rem 0 0;
+    border-top: 1px solid var(--rule-soft); text-align: right;
+  }
+  .ms-table dd {
+    grid-column: 2; margin: 0; padding-top: 1.2rem;
+    border-top: 1px solid var(--rule-soft);
+  }
+  .ms-table dt:first-of-type,
+  .ms-table dd:first-of-type { border-top: 0; padding-top: 0; }
+}
+
+/* ---- bibliographie: the thesis's own hierarchy + sticky in-page TOC ---- */
+.bib-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 3.4rem; }
+@media (min-width: 1080px) {
+  .bib-layout { grid-template-columns: 16rem minmax(0, 1fr); }
+  .bib-toc {
+    position: sticky; top: calc(var(--reading-top) + 1.4rem);
+    align-self: start;
+    max-height: calc(100vh - var(--reading-top) - 2.8rem);
+    overflow: hidden auto; /* vertical scroll only — never a horizontal bar */
+  }
+}
+.bib-toc { font-family: var(--sans); font-size: 0.74rem; line-height: 1.45; }
+.bib-toc ol { list-style: none; margin: 0; padding: 0; }
+.bib-toc ol ol { padding-left: 1.05rem; margin: 0.1rem 0 0.55rem; }
+.bib-toc a { display: block; padding: 0.13rem 0.45rem; border-radius: 3px;
+  text-decoration: none; color: var(--ink-soft);
+  overflow-wrap: anywhere;
+  transition: color 0.15s ease, background-color 0.15s ease; }
+.bib-toc a:hover { color: var(--rubric); }
+.bib-toc > ol > li > a { font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; font-size: 0.7rem; margin-top: 0.6rem; }
+.bib-toc > ol > li:first-child > a { margin-top: 0; }
+/* scroll-spy (edition.js, desktop): a quiet wash marks the section in view, its
+   enclosing branch lit so the reader keeps the hierarchy while scrolling. */
+.bib-toc a.is-trail { color: var(--ink); }
+.bib-toc a.is-current { color: var(--rubric); background: var(--rubric-wash); }
+@media (prefers-reduced-motion: reduce) { .bib-toc a { transition: none; } }
+.bib-no { color: var(--rubric); font-weight: 500; }
+.bib-body h2 .bib-no, .bib-body h3 .bib-no, .bib-body h4 .bib-no { margin-right: 0.25rem; }
+.bib-top + .bib-top { margin-top: 3rem; }
+.bib-sub { margin-top: 2rem; }
+.bib-subsub { margin-top: 1.5rem; }
+.bib-body section[id], .bib-body article[id] { scroll-margin-top: calc(var(--reading-top) + 1rem); }
+
+/* compte rendus nest UNDER the reviewed work: indented, quieter, clearly not
+   works of the entry's author */
+.bib-reviews {
+  list-style: none;
+  margin: 0.35rem 0 0.15rem; padding: 0 0 0 1.5rem;
+  font-size: 0.92em; color: var(--ink-soft);
+}
+.bib-reviews li {
+  margin: 0.15rem 0; padding-left: 1.4rem; text-indent: -1.4rem;
+}
+.bib-reviews li::before { content: "—"; color: var(--muted); margin-right: 0.5rem; }
+
+/* par-chanson blocks under III.B */
+.parchanson { margin-top: 1.4rem; }
+.pc-head { margin: 0 0 0.4rem; }
+.pc-head .pc-link {
+  font-family: var(--sans); font-size: 0.66rem; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  text-decoration: none; color: var(--muted); margin-left: 0.7rem;
+}
+.pc-head .pc-link:hover { color: var(--rubric); }
+.pc-row { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 0.9rem; margin: 0.35rem 0; }
+.pc-k {
+  font-family: var(--sans); font-size: 0.66rem; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);
+  padding-top: 0.28rem;
+}
+.pc-v { font-size: 0.9rem; }
+.pc-v p { margin: 0 0 0.35rem; text-indent: 0; }
+ul.pc-v { list-style: none; margin: 0; padding: 0; }
+ul.pc-v li { margin: 0 0 0.4rem; padding-left: 1.5rem; text-indent: -1.5rem; }
+.pc-ms li { padding-left: 0; text-indent: 0; }
+/* an unresolved terse reference: kept verbatim, visibly provisional */
+.pc-cites li.pc-terse { color: var(--muted); font-family: var(--sans); font-size: 0.82rem; }
+@media (max-width: 620px) {
+  .pc-row { grid-template-columns: minmax(0, 1fr); gap: 0.15rem; }
+}
+
+/* editorial gloss at the head of an index (reading view only) */
+.index-note {
+  font-family: var(--sans); font-size: 0.82rem; line-height: 1.5;
+  color: var(--muted); max-width: 34rem; margin: 0.75rem 0 0;
+  padding-left: 0.9rem; border-left: 2px solid color-mix(in srgb, var(--rubric) 45%, transparent);
+}
+.index-note a { color: inherit; border-bottom: 1px dotted var(--muted); text-decoration: none; }
+.index-note a:hover { color: var(--rubric); border-bottom-color: var(--rubric); }
+
+/* ============ interactive concordance (Index des mots / des N.W.) ========== */
+.concordance { --cx-tb: 0px; font-size: 1rem; margin-top: 0.4rem; }
+
+/* toolbar: sticks below the masthead + subnav; filter + live count + A–Z rail */
+.concordance .cx-toolbar {
+  position: sticky; top: var(--reading-top); z-index: 8;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: blur(8px);
+  padding: 0.7rem 0 0.55rem; margin-bottom: 0.3rem; border-bottom: 1px solid var(--rule);
+}
+.concordance .cx-search-row { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.55rem; }
+.concordance .cx-search-wrap { position: relative; flex: 1; }
+.concordance .cx-mag { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--muted); pointer-events: none; }
+.concordance .cx-filter {
+  width: 100%; font-family: var(--serif); font-size: 0.95rem; color: var(--ink);
+  background: var(--paper-card); border: 1px solid var(--rule); border-radius: 7px;
+  padding: 0.5rem 2rem 0.5rem 2.1rem;
+}
+.concordance .cx-filter::placeholder { color: var(--muted); font-style: italic; }
+.concordance .cx-filter:focus { outline: none; border-color: var(--rubric); }
+.concordance .cx-clear { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: none; border: 0; cursor: pointer; color: var(--muted); font-size: 1.15rem; line-height: 1; padding: 4px; }
+.concordance .cx-clear:hover { color: var(--rubric); }
+.concordance .cx-count { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); white-space: nowrap; }
+.concordance .cx-rail { display: flex; flex-wrap: wrap; gap: 2px; }
+.concordance .cx-rail a, .concordance .cx-rail span { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.04em; color: var(--muted); padding: 1px 6px; border-radius: 5px; text-decoration: none; }
+.concordance .cx-rail a:hover { background: var(--rubric-wash); color: var(--rubric); }
+.concordance .cx-rail .empty { opacity: 0.35; }
+.concordance .cx-rail a.dim { opacity: 0.35; pointer-events: none; }
+
+/* letter sections (sticky, below the toolbar) */
+.concordance .cx-letter {
+  position: sticky; top: calc(var(--reading-top) + var(--cx-tb)); z-index: 6;
+  background: var(--paper);
+  font-family: var(--sans); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--rubric);
+  margin: 1.1rem 0 0; padding: 0.45rem 0 0.35rem; border-bottom: 1px solid var(--rule);
+  scroll-margin-top: calc(var(--reading-top) + var(--cx-tb) + 8px);
+}
+
+/* entries */
+.concordance .cx-entry { border-bottom: 1px solid var(--rule); }
+.concordance .cx-entry[hidden], .concordance .cx-letter[hidden] { display: none; }
+.concordance .cx-row { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; padding: 0.6rem 0; }
+.concordance .cx-toggle {
+  display: inline-flex; align-items: baseline; gap: 0.5rem;
+  background: none; border: 0; padding: 0; margin: 0; cursor: pointer; color: inherit; font: inherit; text-align: left;
+}
+.concordance .cx-chev::before { content: "\25B8"; color: var(--muted); font-size: 0.7rem; display: inline-block; transition: transform 0.18s ease; }
+.concordance .cx-entry.open .cx-chev::before { transform: rotate(90deg); }
+.concordance .cx-primary { font-variant: small-caps; letter-spacing: 0.03em; font-size: 1.15rem; }
+.concordance .cx-toggle:hover .cx-primary { color: var(--rubric); }
+.concordance .cx-alias { font-style: italic; color: var(--muted); font-size: 0.9rem; }
+.concordance .cx-badge { font-family: var(--sans); font-size: 0.64rem; color: var(--muted); background: var(--paper-deep); border-radius: 99px; padding: 1px 7px; align-self: center; }
+
+/* compact reference row — the ONLY links */
+.concordance .cx-refs { display: flex; flex-wrap: wrap; gap: 0.3rem 0.8rem; margin-left: auto; align-items: baseline; }
+.concordance .cx-grp { display: flex; align-items: baseline; gap: 0.4rem; }
+.concordance .cx-roman { font-variant: small-caps; letter-spacing: 0.04em; color: var(--muted); font-size: 0.92rem; }
+.concordance .cx-vns { display: flex; flex-wrap: wrap; gap: 4px; }
+.concordance .cx-vn { font-family: var(--sans); font-size: 0.76rem; color: var(--rubric-deep); background: var(--rubric-wash); border: 1px solid transparent; border-radius: 99px; padding: 0 8px; text-decoration: none; }
+.concordance .cx-vn:hover { border-color: var(--rubric); color: var(--rubric); }
+.concordance .cx-vn.nolink { color: var(--muted); background: transparent; border: 1px dashed var(--rule); cursor: help; }
+
+/* KWIC panel — context only, never links */
+.concordance .cx-kwic { display: none; padding: 0 0 0.9rem 1.5rem; }
+.concordance .cx-entry.open .cx-kwic { display: block; }
+.concordance .cx-kb { margin-bottom: 0.5rem; }
+.concordance .cx-kh { font-family: var(--sans); font-size: 0.8rem; color: var(--muted); margin: 0.4rem 0 0.3rem; }
+.concordance .cx-inc { font-style: italic; }
+.concordance .cx-kl { display: flex; gap: 0.7rem; align-items: baseline; padding: 0.1rem 0; }
+.concordance .cx-kv { font-family: var(--sans); font-size: 0.72rem; color: var(--muted); min-width: 1.7rem; text-align: right; flex-shrink: 0; }
+.concordance .cx-kt { font-style: italic; line-height: 1.5; }
+.concordance .cx-kt mark { background: var(--rubric-wash); color: var(--rubric-deep); padding: 0 2px; border-radius: 2px; }
+.concordance .cx-kt.off { font-style: normal; color: var(--muted); font-size: 0.9em; }
+
+.concordance .cx-noresults { color: var(--muted); font-style: italic; padding: 1.5rem 0; }
+
+@media (prefers-reduced-motion: reduce) { .concordance .cx-chev::before { transition: none; } }
+@media (max-width: 640px) {
+  .concordance .cx-refs { margin-left: 0; width: 100%; margin-top: 0.2rem; }
+}
+
 /* index pages keep their printed line layout */
 .index-body { font-size: 0.88rem; }
 .index-body [data-verse], .index-body p { white-space: pre-wrap; }
+
+/* index references linked back into the text: quiet in a dense list, lit on
+   hover. Same rubric treatment as a.xref. The chanson roman gets a slightly
+   firmer underline than the individual verse/page numbers. */
+.index-body .idx-ref {
+  text-decoration: none; color: inherit; white-space: nowrap;
+  border-bottom: 1px dotted color-mix(in srgb, var(--rubric) 40%, transparent);
+}
+.index-body .idx-ref:hover { color: var(--rubric); border-bottom-color: var(--rubric); }
+.index-body .idx-ch { border-bottom-style: solid; }
 
 .view-links { font-family: var(--sans); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; }
 .view-links a { text-decoration: none; color: var(--muted); }
@@ -861,6 +1168,19 @@ table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
 
 /* page anchors are invisible provenance markers */
 .page-anchor { display: inline-block; width: 0; height: 0; overflow: hidden; }
+/* a page break that carries a printed number shows a small inline pill instead */
+.page-anchor.page-marker { width: auto; height: auto; overflow: visible; }
+.page-pill {
+  font-family: var(--sans); font-size: 0.6rem; line-height: 1; font-weight: 500;
+  color: var(--muted); background: var(--paper-deep);
+  border: 1px solid var(--rule); border-radius: 999px;
+  padding: 0.15em 0.5em; margin: 0 0.25em; vertical-align: 0.18em;
+  cursor: pointer; letter-spacing: 0.03em;
+  transition: color 0.12s, border-color 0.12s, background 0.12s;
+}
+.page-pill:hover { color: var(--rubric); border-color: var(--rubric); background: var(--rubric-wash); }
+.page-pill::before { content: "p."; opacity: 0.6; margin-right: 0.25em; }
+@media (prefers-reduced-motion: reduce) { .page-pill { transition: none; } }
 
 /* Conditional content by view. `.livre-only` is preserved in the source and
    shown only in the faithful "Livre" reproduction (the page carries .is-livre);
@@ -891,10 +1211,14 @@ table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
   font-size: 0.82rem; line-height: 1.5;
   font-feature-settings: normal; font-variant-numeric: normal;
   hyphens: none; text-align: left;
-  /* cap the typewriter measure at ~62 monospace characters (ch is measured in
-     this element's mono font); +8rem = the 4rem × 2 horizontal padding
-     (box-sizing: border-box, so max-width includes it). */
-  max-width: calc(62ch + 8rem);
+  /* always the full typewriter measure (~62 monospace characters; ch is measured
+     in this element's mono font), even for a sparse page (e.g. a title leaf), so
+     every sheet reads as a full page rather than shrinking to hug its few lines.
+     +8rem = the 4rem × 2 horizontal padding (box-sizing: border-box). max-width
+     100% keeps it inside a narrow viewport; min-height gives an empty-ish page a
+     page-like body. */
+  width: calc(62ch + 8rem); max-width: 100%;
+  min-height: 18rem;
 }
 .fx-content > :first-child { margin-top: 0; }
 .fx-content p { margin: 0 0 1.5em; text-indent: 2.2em; }
@@ -912,6 +1236,29 @@ table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
 }
 .fx-content .fx-ref { font-size: 0.8em; line-height: 0; vertical-align: super; }
 .fx-content sup { font-size: 0.8em; line-height: 0; }
+
+/* index facsimile: the typescript's column layout, rebuilt for the faithful
+   view. Word indexes are two columns (lemma | reference at a fixed tab); the
+   author index hangs each entry's page list under its first number (--ind, set
+   per entry in the character measure of the mono sheet). */
+.fx-content .fx-index { margin-top: 1.5em; }
+.fx-content .ix-group { margin: 0 0 1.1em; }
+.fx-content .ix-group:last-child { margin-bottom: 0; }
+.fx-content .ix-row {
+  display: grid; grid-template-columns: minmax(30ch, max-content) 1fr;
+  column-gap: 1.5ch; text-indent: 0; margin: 0;
+}
+.fx-content .ix-row .ix-lem { white-space: nowrap; }
+.fx-content .fx-index-auth .ix-auth {
+  text-indent: calc(-1 * var(--ind, 0px)); padding-left: var(--ind, 0px);
+  margin: 0.1em 0;
+}
+/* index references in the facsimile: clickable, but keep the typewriter look —
+   no persistent hyperlink styling, only a discreet underline on hover. */
+.fx-content a.fx-ilink { color: inherit; text-decoration: none; cursor: pointer; }
+.fx-content a.fx-ilink:hover { text-decoration: underline; text-underline-offset: 2px; }
+/* five-dot typewriter separator between author entries */
+.fx-content .ix-sep { text-indent: 0; margin: 0.1em 0; letter-spacing: 0.5em; }
 
 /* footnotes at the foot of the sheet, under a short rule as in the typescript */
 .fx-notes {
@@ -935,8 +1282,22 @@ table.ch-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
   font-family: "IBM Plex Mono", monospace; font-size: 0.82rem; color: #111;
 }
 @media (max-width: 700px) {
-  .fx-sheet { padding: 2rem 1.4rem 1.6rem; font-size: 0.76rem; }
-  .fx-folio { right: 1.4rem; top: 0.8rem; }
+  /* shrink the typewriter face so a full ~62-character line fits without
+     wrapping (keeping the sheet faithful); fluid so it scales with the phone. */
+  .fx-sheet {
+    padding: 1.5rem 0.7rem 1.2rem;
+    font-size: clamp(0.4rem, 1.95vw, 0.72rem);
+    max-width: 100%;
+  }
+  /* keep the foot-notes proportional to the shrunken sheet body */
+  .fx-notes { font-size: clamp(0.38rem, 1.85vw, 0.7rem); margin-top: 1.6rem; }
+  .fx-folio { right: 0.7rem; top: 0.6rem; font-size: clamp(0.4rem, 1.95vw, 0.72rem); }
+
+  /* the page already carries a gutter (.chanson-page); a no-notes prose column
+     added its own 2rem on top, stacking into a too-wide margin on a phone. Drop
+     the inner padding and pull the page gutter in to align with the masthead. */
+  .chanson-page { padding: 0 1.2rem; }
+  .prose-study.no-notes .prose { padding-left: 0; padding-right: 0; }
 }
 
 /* ------------------------------------------------------------------ print */

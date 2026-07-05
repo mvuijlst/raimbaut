@@ -13,19 +13,22 @@
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
 <header class="masthead">
   <div class="masthead-inner">
-    <a href="/" class="brand">Raimbaut <span class="amp">d'</span>Orange</a>
     {% set u = page.url %}
     {% set active = "" %}
     {% if u == "/introduction/" or u.startsWith("/avant-propos") %}{% set active = "intro" %}
     {% elif u.startsWith("/chansons") %}{% set active = "chansons" %}
     {% elif u.startsWith("/poetique") or u == "/conclusion/" %}{% set active = "poetique" %}
-    {% elif u.startsWith("/bibliographie") or u.startsWith("/abbreviations") or u.startsWith("/index-") %}{% set active = "biblio" %}
+    {% elif u.startsWith("/bibliographie") or u.startsWith("/abbreviations") or u.startsWith("/manuscrits") or u.startsWith("/index-") %}{% set active = "biblio" %}
     {% endif %}
-    <nav aria-label="Navigation principale">
+    <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">
+      <span class="nav-toggle-bars" aria-hidden="true"></span>
+    </button>
+    <a href="/" class="brand">Raimbaut <span class="amp">d'</span>Orange</a>
+    <nav id="main-nav" aria-label="Navigation principale">
       <a href="/introduction/"{% if active == "intro" %} aria-current="page"{% endif %}>Introduction</a>
       <a href="/chansons/"{% if active == "chansons" %} aria-current="page"{% endif %}>Chansons</a>
       <a href="/poetique/"{% if active == "poetique" %} aria-current="page"{% endif %}>Poétique</a>
-      <a href="/bibliographie/"{% if active == "biblio" %} aria-current="page"{% endif %}>Bibliographie</a>
+      <a href="/bibliographie/"{% if active == "biblio" %} aria-current="page"{% endif %}>Références</a>
     </nav>
     <button type="button" class="theme-btn" id="theme-btn" aria-label="Thème clair ou sombre" title="Thème : automatique">◐</button>
   </div>
@@ -45,18 +48,35 @@
       {% endfor %}
     </nav>
     {% endif %}
+    {% if here.apparatus %}
+    <nav class="sn-chapters sn-apparatus" aria-label="Sections de l'apparat">
+      {% for a in here.apparatus %}
+      <a href="{{ a.url }}"{% if page.url == a.url %} aria-current="page"{% endif %}>{{ a.short }}</a>
+      {% endfor %}
+    </nav>
+    {% endif %}
     {% if here.hasViews %}
     <div class="view-control" role="group" aria-label="Version de lecture" hidden>
       <div class="vc-primary">
-        <button type="button" data-view="web" aria-pressed="true">Version web</button>
-        <button type="button" data-view="livre" aria-pressed="false">Version livre</button>
+        <button type="button" data-view="web" aria-pressed="true"><span class="vc-pre">Version </span>web</button>
+        <button type="button" data-view="livre" aria-pressed="false"><span class="vc-pre">Version </span>livre</button>
       </div>
       {% if here.hasFacsimile %}
       <div class="vc-secondary" hidden>
-        <button type="button" data-livre="continue" aria-pressed="true">Lecture continue</button>
-        <button type="button" data-livre="facsimile" aria-pressed="false">Fac-similé paginé</button>
+        <button type="button" data-livre="continue" aria-pressed="true"><span class="vc-long">Lecture continue</span><span class="vc-short">Continu</span></button>
+        <button type="button" data-livre="facsimile" aria-pressed="false"><span class="vc-long">Fac-similé paginé</span><span class="vc-short">Fac-similé</span></button>
       </div>
       {% endif %}
+    </div>
+    {% elif here.apparatus %}
+    {# apparatus pages without a version toggle (Manuscrits, Sigles) reserve the
+       toggle's slot with an inert copy, so the apparatus switcher stays in the
+       same place across all Références pages whether or not versions can switch. #}
+    <div class="view-control view-control--placeholder" aria-hidden="true" inert>
+      <div class="vc-primary">
+        <button type="button" tabindex="-1"><span class="vc-pre">Version </span>web</button>
+        <button type="button" tabindex="-1"><span class="vc-pre">Version </span>livre</button>
+      </div>
     </div>
     {% endif %}
   </div>

@@ -388,9 +388,9 @@ LE CHANSONNIER DE RAIMBAUT D'ORANGE : REMARQUES CRITIQUES, TEXTES ET TRADUCTIO
 
 <!-- page: v1p038 -->
 
-# CHANSON I : REMARQUES[^v1p038-1].
+[CHANSON I ]{.underline} : REMARQUES[^v1p038-1].
 
-## v.1
+[v.1]{.underline}
 
 Tout comme Emil Levy[^v1p038-2], Carl Appel ne traduit pas le mot *fenhz* dans son édition de 1928, faute de pouvoir y donner une signification satisfaisante. Il signale toutefois, en note, un rapport possible avec *se fenher*, 'sich bemühen'[^v1p038-3]. Walter T. Pattison, quant à lui, remarque que *se fenher* possède aussi le sens de 'ersinnen, erdichten' et traduit dès lors *fenhz* par 'fictitious, imaginary', argumentant que si le chant du roitelet est "fictif", c'est que "The poet was not actually listening to a wren as he wrote, hence the rather humorous epithet *fenhz*. The poem was written in late September (...) a season of the year when the birds would not be singing, with the result that the poet had to imagine their song"[^v1p038-4]. Cette traduction est à son tour repoussée par J. H. Marshall qui remarque judicieusement que l'interprétation de Pattison est à vrai dire "very far-fetched"[^v1p038-5] et qui propose, afin de résoudre ce problème, de voir en *e fenzhz* une erreur pour *ensenhz* ou *esenhz*, 'mark, outward sign'[^v1p038-6].
 
@@ -464,11 +464,11 @@ que l'amour que l'on trouve dans la fiction (trobadoresque) est, en quelque sort
 
 Compte tenu de tous les éléments qui précèdent, tant textuels que lexicologiques ou rhétoriques, il nous semble dès lors préférable de garder ici le terme *fenhz*. D'autre part, vu ses nombreuses connotations, nous proposerions de ne pas le traduire et de renvoyer le lecteur aux remarques ci-dessus.
 
-v.4
+[v.4]{.underline}
 
 Aux exemples de *siure* cités par Pattison[^v1p043-2], nous pourrions également ajouter ceux donnés par Pansier: "*sieure* (1374), *sioure* (1397), *siure* (1370): s.m. 'liège'"[^v1p043-3].
 
-v.6
+[v.6]{.underline}
 
 Pattison relie ce vers à ce qui suit et non à ce qui précède, ce qui de toute évidence est fondé sur une erreur d'interprétation. Toutefois, si Marshall a raison de s'élever contre la lecture de Pattison, il nous semble plus hasardeux de le suivre
 
@@ -515,7 +515,7 @@ compassat e redon
 
 Dans cet exemple emprunté à N'At de Mons[^v1p046-2], *compassar* renvoie, évidemment, à l'oeuvre divine de création, acte éminemment parfait et idéal; ce qui s'accorde on ne peut mieux avec ce à quoi se réfère l'adjectif *fenh*[^v1p046-3].
 
-v.10
+[v.10]{.underline}
 
 Pattison voit en *genhz* un substantif, qu'il traduit par 'conduct'[^v1p046-4]. J.H. Marshall, en revanche, en revient à l'interprétation de Carl Appel et opte pour l'adjectif *genz* (modifiant, avec
 
@@ -537,7 +537,7 @@ En effet, la suite du vers nous confronte directement à une métaphore ressorti
 
 <!-- page: v1p048 -->
 
-v.13
+[v.13]{.underline}
 
 Le sens 'recoupe, sablon', que donne Emil Levy au mot *brezil*[^v1p048-1] et sur lequel J.H. Marshall fonde sa traduction 'shifting sands' — tout en se disant incapable d'en déterminer la source[^v1p048-2] — est cité par Walter von Wartburg sous l'étymon *brisare*[^v1p048-3].
 
@@ -573,7 +573,7 @@ mot de roïll;
 E no·i a motz fals que rovelh;[^v1p050-1]  
 :::
 
-v.30
+[v.30]{.underline}
 
 J.H. Marshall voit dans le syntagme *vau troban* l'équivalent de *vai torban*, qu'il relève chez Giraut de Bornelh, et traduit par 'I am tossed from side to side, like a ship in the storm', ajoutant que "... the image continues that of the *naus ni lens* of l. 28, but it merges into the comparison of the poet's aimless movement with that of the drunkards. This was no doubt partly suggested by *vi torbatza*, 'cloudy wine' ([Suppl.W.]{.underline}, t.VIII, p.281): there is a hint of a play on words in *troban com vis*[^v1p050-2]. Cela étant, dans la mesure-même où nous avons déjà ce "play on words", pourquoi ne pas également tenir compte de la quasi-homonymie *torbar/trobar*, où *trobar* aurait bien entendu son sens de 'trouver, inventer, faire des vers' ?[^v1p050-3] Ce qui permettrait au texte, tout à la fois, d'en effet continuer l'image du v.28 et de renvoyer du même coup à l'activité poétique évoquée plus loin, au v.36.
 
@@ -585,7 +585,7 @@ J.H. Marshall voit dans le syntagme *vau troban* l'équivalent de *vai torban*, 
 
 <!-- page: v1p051 -->
 
-CHANSON I: TEXTE ET TRADUCTION
+[CHANSON I]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Cars, douz e fenhz  del bederesc
@@ -707,9 +707,9 @@ Raimbaut s'en va et retourne là où *Pretz* vit et revivra auprès du Comte de 
 
 <!-- page: v1p053 -->
 
-CHANSON II : REMARQUES
+[CHANSON II ]{.underline} : REMARQUES
 
-v.1
+[v.1]{.underline}
 
 *Rimeta* est un diminutif de *rima* et signifie par conséquent tant 'petit poème' que 'petite rime'[^v1p053-1]. Dans le premier cas, Raimbaut désignerait le texte même que nous avons sous les yeux. En revanche, si par *rimeta* il faut entendre 'petite rime', l'emploi d'*aital* pourrait suggérer que le poète veuille se référer, du point de vue de la rime, à d'autres poèmes analogues, *in casu* les textes III et IV[^v1p053-2].
 
@@ -740,11 +740,11 @@ A traduire *prim(a)* de la sorte, nous pensons mieux respecter les spécificité
 
 <!-- page: v1p055 -->
 
-v.3
+[v.3]{.underline}
 
 Traduisant *linha* par 'line', sans plus, Walter T. Pattison nous semble négliger dans une certaine mesure la valeur évocatrice de ce mot. En effet, si l'on considère le contexte immédiat de *linha* — appelé tant par la conjonction de coordination e que par la construction répétitive des deux termes de la coordination ( *ses* — e *ses* )[^v1p055-1] — le sens de 'cordeau' que donne Raynouard à ce terme paraît bien plus justifié[^v1p055-2]. La "règle" et le "cordeau" renvoient en effet au même domaine référentiel — celui de la construction, de l'architecture — qui, par ailleurs est déjà annoncé dans le même vers par le participe *bastit*. Or, et nous le savons déjà, ce domaine référentiel fonctionne chez Raimbaut d'Orange en tant qu'image du travail poétique[^v1p055-3].
 
-v.6
+[v.6]{.underline}
 
 L'expression *aver cor que* peut se traduire ici par 'avoir l'intention de', comme chez Folquet de Marseille:
 
@@ -753,7 +753,7 @@ mas cor ai que'm cabdel ab Sen
 de l'Ardimen que'm tol Paors (VIII,v.26-27)[^v1p055-4]
 :::
 
-v.10
+[v.10]{.underline}
 
 Encore que le verbe *limar* soit employé ici de façon apparemment intransitive, on pourrait y voir un équivalent de *limar las dens*, 'grincer des dents', le complément étant sousentendu[^v1p056-1].
 
@@ -768,7 +768,7 @@ Encore que le verbe *limar* soit employé ici de façon apparemment intransitive
 
 Quant à la forme verbale *dech'*, on peut se demander s'il s'agit d'une forme de *dechar*, 'dire, communiquer', comme le voudrait Pattison[^v1p056-2], ou de ce verbe *dechar* (le même ?) signifiant 'pécher, tromper' que relève Raynouard dans le *descort* de Guiraut Riquier ?[^v1p056-3] Personnellement, nous pencherions pour cette seconde hypothèse, vu le contexte. Remarquons que de toute manière le mot ne devait pas être inconnu à Raimbaut, puisqu'il utilise le substantif de même racine *deg*, 'vice', dans XVII, v.59[^v1p056-4].
 
-v.17sv.
+[v.17sv.]{.underline}
 
 Mettant un point après *rotlh* (v.16), Pattison lit la strophe III et une partie de la strophe IV comme une suite de subordonnées circonstancielles, la principale n'apparaissant qu'au v.30: *qu'ades am mais per un mil/ Midons*. Sans doute, il n'est pas courant dans la poésie provençale de procéder à de telles liaisons syntaxiques, de strophe en strophe. En fait, ce serait même là un vice mentionné expressément par les *Leys d'Amors*:
 
@@ -813,7 +813,7 @@ Aussi bien, Linda M. Paterson ne voit pas en ce v. 3 une indication du fait que 
 
 <!-- page: v1p060 -->
 
-v.24
+[v.24]{.underline}
 
 Là où nous suivons parfaitement Pattison lorsqu'il propose de se lire à la rime *tendilh* et non *lendilh* ou *lendil* que l'on trouve dans tous les mss, nous ne sommes pas de son avis quant à l'interprétation de ce mot. Pour lui, *tendilh* est un adjectif formé sur *estendilhar* et signifiant "aroused, awakened"[^v1p060-1]. A partir du latin *tendicula* 'gespannter strick', on trouve des continuateurs tels que *tendilha* 'lacet', *tendilho* 'piège, trappe pour les oiseaux', etc.[^v1p060-2]. Ne pourrait-on pas, raisonnablement, supposer un *tendilh* adjectif conservant ce sème 'piège' et ayant dès lors la signification de 'trompeur'?
 
@@ -867,7 +867,7 @@ Dès lors, étant donné l'extrême rareté de la rime exigée à cet endroit du
 
 <!-- page: v1p064 -->
 
-v.50-51
+[v.50-51]{.underline}
 
 Walter T. Pattison traduit ces vers comme suit: 'I curse a thousand times a day that one (Love) who brought my heart near my eyebrows'. Il faudrait donc comprendre que le Dieu *Amor* ait fait venir le coeur du poète jusqu'à ses yeux et que c'est ainsi que ce dernier serait tombé amoureux de sa Dame. L'image serait vraisemblable, si ce n'est que la tradition médiévale, et plus particulièrement provençale, de l'“énamourement” la contredit[^v1p064-1]. En effet, ce sont "...les yeux qui tiennent le principal rôle dans l'énamourement"[^v1p064-2]. Cependant, si les flèches lancées par *Amor* entrent par les yeux de l'amant (ou par l'oreille), elles descendent jusqu'à son coeur. Ainsi, dans *Flamenca*:
 
@@ -896,7 +896,7 @@ Que l'òils ins el cor li deisen[^v1p065-1]
 
 Toutefois, si *cilh* ne signifie pas 'cil, oeil...', comment l'interpréter ? Pour notre part, nous y verrions un pronom démonstratif. Sans doute, la forme *cilh* correspond habituellement à un cas sujet masculin pluriel ou, éventuellement, à un cas sujet féminin singulier[^v1p065-2]. Cependant, Crescini signale également une occurrence de *cilh* correspondant à un cas régime féminin singulier[^v1p065-3]. Dans ce cas-là, notre problème n'en est plus un : dans ces vers nous avons un premier démonstratif, *cilha*, renvoyant à *Amor* et un second, *cilh*, renvoyant à la Dame.
 
-v.52
+[v.52]{.underline}
 
 Plutôt que de voir en *tengues* une troisième personne, nous traduirions ce verbe par une première personne. De la sorte, nous pensons mieux faire ressortir l'opposition entre les deux tornades : ma Dame me méprise et je maudis le jour où mon coeur fut près d'elle (vv.49-51) ; d'autre part, moi, je ne devrais pas me mépriser (= je n'ai rien à me reprocher) car *mos cors* ne fut jamais près d'elle, si ce n'est par les yeux. On remarquera que Raimbaut joue constamment dans ces derniers vers sur l'ambiguïté du mot *cors* qui peut signifier tour à tour 'coeur' ou 'corps' : 'coeur' au v.51, 'corps' au v.53 (lorsqu'il se réfère à *pres cilha*) mais de nouveau 'coeur' lorsqu'il se réfère à *pels cis ni sobrecilh* (v.54).
 
@@ -908,7 +908,7 @@ Plutôt que de voir en *tengues* une troisième personne, nous traduirions ce ve
 
 <!-- page: v1p066 -->
 
-CHANSON II: TEXTE ET TRADUCTION
+[CHANSON II]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 En aital rimeta prima
@@ -1014,7 +1014,7 @@ Mais moi, je ne devrais certes pas m'en mépriser, car jamais je ne fus près de
 
 <!-- page: v1p068 -->
 
-CHANSON III : REMARQUES.
+[CHANSON III ]{.underline} : REMARQUES.
 
 vv.3sv.
 
@@ -1055,7 +1055,7 @@ Traduction de Pattison: "I am happy [ _to compose_ ] for my heart so overpowers 
 
 il faudrait dès lors procéder de la même façon au v.10 et corriger *non puesc sufrir* en *no'm puesc sufrir*, ce qui à vrai dire ne présente pas de grandes difficultés[^v1p071-1]. Toutefois, cette seconde correction — indispensable si l'on veut donner à *sufrir* le sens de 's'abstenir' — devient inutile pour autant que l'on fasse de ce verbe un intransitif avec la signification de 'patienter'[^v1p071-2] et que l'on rattache *de mon talan descubrir* non plus à *non puesc sufrir* mais bien à *bo'm sap*. Cette hypothèse semble d'autant plus justifiée qu'elle permet ainsi de donner à *bo'm sap* le complément qui lui manque et que Pattison suppose sous-entendu: "I am happy *to compose*[^v1p071-3]".
 
-v.19
+[v.19]{.underline}
 
 Pattison traduit la forme verbale *azir* par 'I shall hate myself', un futur, alors qu'*azir* ne peut être qu'un présent, soit de l'indicatif soit du subjonctif. Les deux phrases qui suivent — *Dieus en ira'm met'ab ela* (v.20) et *o'm fassa que (...) sima* (vv.21-22) — sont des optatives, avec un verbe au subjonctif, et qui régissent toutes deux la subordonnée conditionnelle *s'ieu quier als* (v.19). Dans la mesure où ces optatives présentent un sens parallèle et analogue à celui de *tostems m'lazir*, il nous paraît parfaitement justifié de considérer cette dernière proposition comme étant également une optative, juxtaposée aux deux autres. Et ce d'autant plus, que nous obtenons alors par cela-même une *enumeratio*[^v1p071-4] en trois termes
 
@@ -1071,7 +1071,7 @@ Pattison traduit la forme verbale *azir* par 'I shall hate myself', un futur, al
 
 qui, quant au sens, présente une très nette gradation: si le troubadour commet cette faute envers sa Dame (v.19), [il se haïra]{.underline} (ibid.), Dieu le séparera d'elle (v.20) ou, pire encore, il méritera une mort ignominieuse (vv.21-22)[^v1p072-1]. On retrouve d'ailleurs cette même gradation lorsqu'on considère ces vers d'un point de vue formel: le premier terme se concrétise en 4 syllabes, le second en 8 et le dernier en 16. Ajoutons cependant que pour obtenir cette progression mathématique, il faut bien entendu compter les syllabes effectivement présentes et abandonner le principe de versification bien connu selon lequel en provençal, comme en français, "les syllabes sont comptées jusqu'à la dernière accentuée; quand celle-ci est suivie d'une atone (rime ou désinence dite féminine) cela ne modifie pas l'appellation du vers"[^v1p072-2]. Signalons d'autre part que l'absence d'un *que* introducteur ne pose aucun problème: comme en ancien français[^v1p072-3], le subjonctif seul suffit à exprimer l'optatif[^v1p072-4].
 
-v.27
+[v.27]{.underline}
 
 Pour autant que le verbe *ayzir* signifie en effet "'to prepare', freely 'to create'"[^v1p072-5], la traduction que donne Pattison de
 
@@ -1091,7 +1091,7 @@ lo iorn que'm fes lïeys ayzir
 
 - 'on the day He caused her to be created for me' — pourrait être acceptée. Rien n'est moins certain cependant. Raynouard et Levy nous donnent pour ce même verbe les significations *accueillir* et *accommoder*[^v1p073-1], sans doute, mais ces sens sont contestés par Ulrich Gschwind pour qui *aïzir* signifie non pas 'accueillir' (...) mais 'donner du plaisir', d'où le p.p. féminin *aisida* 'jouissance'[^v1p073-2]. Dès lors, il serait possible de traduire ce vers par : '... le jour où Il me fit lui donner du plaisir', la forme tonique du pronom personnel (lïeys) servant alors de datif sans préposition[^v1p073-3]. Ainsi donc, *aïzir* semble avoir à la fois un sens locatif ('accueillir') et des implications sensuelles ('donner du plaisir') et/ou courtoises ('accommoder'). Ce qui correspond d'ailleurs fort bien à ce qu'a mis en lumière Roger Dragonetti à propos d'*aïzi*, d'*aïzimen* et d'autres mots de la même famille, à savoir que, sans s'exclure totalement l'un l'autre, il existe deux modes différents d'*interpréter* ces mots : l'un, "qui (...) fait prévaloir l'idée d'accord, d'ajustement, de convenance, l'autre, l'idée de lieu au sens appréciatif (propre ou figuré) de demeure privilégiée"[^v1p073-4].
 
-v.32
+[v.32]{.underline}
 
 Pattison traduit *de be s'aribar en Piza* par 'of attaining /Love's_7 greatest treasure'[^v1p073-5]. A ce propos, A.H. Schutz remarque avec raison que "A more literal translation would have been stronger, e.g. 'of attaining the treasure of Pisa' (...) this is a typical
 
@@ -1118,7 +1118,7 @@ Donnant à *tela* le sens de 'toile', Pattison traduit ce vers par "... consider
 
 'filet', 'nasse'[^v1p075-1], ce qui nous permettrait de traduire: 'si cela tarde pour moi, pensez qu'on ne peut se défendre d'un filet au coeur'. En d'autres termes, loin de menacer sa Dame de l'abandonner, le poète tente uniquement de lui faire comprendre le tragique de sa situation, idée qui nous semble encore renforcée par le vers suivant que, contrairement à Pattison, nous relions également à *pensatz*: si vous tardez à m'aimer, j'en mourrai (vv.41-43); or, je ne peux pas me défendre, puisque mon coeur est prisonnier, et j'aime tellement la vie (vv.44-46); par conséquent, je pense souvent que c'est pour mon malheur que je vous connais (vv.47-48).
 
-v.52-56
+[v.52-56]{.underline}
 
 Traduction de Pattison: "I'm not worth an almond if I can't avenge myself. Right! But why am I exalted because I am now staring at you ?"[^v1p075-2] Il n'y aurait rien à redire à cette traduction, si ce n'était que *pot* (v.53) ne peut en aucun cas être une forme de la première personne de l'indicatif présent! Tant grammaticalement que selon le sens, le seul élément textuel susceptible d'être le sujet de cette forme verbale est *Dreitz* (v.54). Ceci correspond d'ailleurs à l'interprétation de Carl Appel selon laquelle le même mot est par ailleurs également objet de *tenc* (v.53): "Ich halte Recht für nichts, wenn es mich nicht (ihr) teuer verkaufen kann"[^v1p075-3]. Dans ce cas-ci *Dreitz* (objet) est sous-entendu, ce qui ne pose pas de problèmes insurmontables, dans la mesure où on pourrait même, éventuellement, émender *non tenc* en *no'l tenc*. Il est d'autant plus étonnant de trouver dans le texte de Carl Appel une troisième leçon — *no'm tenc*[^v1p075-4] — dont il ne rend
 
@@ -1131,7 +1131,7 @@ Traduction de Pattison: "I'm not worth an almond if I can't avenge myself. Right
 
 compte ni en note, ni dans sa traduction! Cette dernière lecture, cependant, donne lieu à une interprétation qui à bien des égards pourrait s'avérer satisfaisante: *m* étant objet de *tenc*, on aurait alors 'Je ne m'estime pas la valeur d'une amande si *Dretitz* ne parvient pas à me venger'. *Vendre* car, 'teuer verkaufen' chez Appel[^v1p076-1], a également le sens de 'se venger'[^v1p076-2], de là 'rendre justice'. Quant à *per que*, plutôt que de le considérer comme introduisant une interrogative, nous le traduisons par la conjonction 'puisque', ce qui nous permet d'introduire un lien causal et logique entre les vv.54-56 et ce qui précède: puisque mon coeur m'exalte et que j'ai les yeux fixés sur celle que j'aime, je ne vaux absolument rien si justice ne m'est rendue!
 
-v.60
+[v.60]{.underline}
 
 Puisque *trobar* peut signifier autant 'trouver' (dans le sens concret du terme) que 'faire de la poésie'[^v1p076-3], il n'est pas impossible de voir ici un jeu de mots sur ces deux significations. Il pourrait donc s'agir, à la fois, de 'chanter' l'amour sans "écran" (c.-à-d., ouvertement, sans prendre de précaution) et de 'trouver' l'amour sans "écran" (c.-à-d., sans obstacle matériel, *ses chamisa*?). Autrement dit, il y a là, du point de vue du code courtois, double faute — dévoiler le nom de sa Dame et/ou aller à l'encontre de la conception idéaliste de l'amour — qui ne peut que déboucher sur la conclusion qu'émet le poète aux vv.61-62: *ja non deu planher si pert / domna qu'es vayra e ariza*. Remarquons toutefois
 
@@ -1143,7 +1143,7 @@ Puisque *trobar* peut signifier autant 'trouver' (dans le sens concret du terme)
 
 que cette conception hautement idéaliste de l'amour — qui par son apparente condamnation de l'amour charnel serait comparable à celle qui mène Marcabru à attaquer violemment *Fals'Amors* et *Amars*[^v1p077-1] — n'est certes pas une constante de l'œuvre de Raimbaut d'Orange[^v1p077-2], ce qui fait qu'il y a là peut-être, dans ces vers une intention ironique que l'on ne peut négliger!
 
-v.62
+[v.62]{.underline}
 
 Alors que de toute évidence *vayra e griza* s'appliquent à *Domna* selon la pratique de la "Synonymendopplung" mise en lumière par W.Th Elwert[^v1p077-3], Pattison ne traduit qu'un des deux termes employés: "a fickle lady"[^v1p077-4]. Puisqu'ils apparaissent souvent à l'intérieur du même syntagme nominal[^v1p077-5], on a cependant intérêt à ne pas confondre le sens de ces adjectifs. *Vayr* signifie en effet 'changeant, inconstant'[^v1p077-6], tandis que *gris* a plutôt le sens de 'vieux, à cheveux gris; irrité'[^v1p077-7] (voir aussi *faire cara griza*, 'faire grise mine')[^v1p077-8].
 
@@ -1165,7 +1165,7 @@ Alors que de toute évidence *vayra e griza* s'appliquent à *Domna* selon la pr
 
 <!-- page: v1p078 -->
 
-CHANSON III: TEXTE ET TRADUCTION
+[CHANSON III]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Una chansoneta fera,
@@ -1286,9 +1286,9 @@ Celui qui "trouve" amour sans "écran" ne doit certes pas se plaindre s'il perd 
 
 75.
 
-CHANSON IV: REMARQUES
+[CHANSON IV]{.underline} : REMARQUES
 
-v.5
+[v.5]{.underline}
 
 Dans son étude cependant fort documentée et consacrée aux différents termes désignant [tant]{.unclear} en français qu'en ancien provençal la "femme" et la "fille", George C.S. Adams ne mentionne nulle part le vocable *par*[^v1p080-1]. Il en va de même chez Glynniss M. Cropp qui, étudiant plus particulièrement le vocabulaire de 23 troubadours de l'époque classique (dont Raimbaut d'Orange!), signale l'emploi des termes *domna, ma domna, midons, amigua, amia, druda, ren, cors* et *loc* comme dénominations de la Dame, mais ne relève aucun exemple avec *par*[^v1p080-2]. Il n'en demeure pas moins que ce dernier lexème peut fort bien désigner la "femme", mais alors avec la signification particulière d' "épouse"[^v1p080-3]. De ce fait, Walter T. Pattison suppose que de la combinaison de l'emploi de *par* avec l'allusion du v.12 (où le poète dit qu'on 'ne peut avoir de plaisir en son courtil', en sa propre demeure) on pourrait supposer que Raimbaut fut marié, quoique'on ne possède aucune preuve de cela. De là que Pattison ajoute immédiatement, et à juste titre d'ailleurs, que "we should scarcely expect an allusion to a wife — and above all such a slighting allusion — in a troubadour poem"[^v1p080-4].
 
@@ -1303,7 +1303,7 @@ Cela semble évident. Pour expliquer l'emploi de *par* dans ce poème, il est to
 
 d'ordre référentiel. Remarquons toutefois que *par* possède au départ le sens de 'compagnon, compagne', plus particulièrement dans le cas de couples d'animaux (et surtout d'oiseaux)[^v1p081-1]. A cet égard, il n'est sans doute pas sans intérêt de constater que l'exemple qu'en donne Raynouard concerne justement la tourterelle et évoque, en outre, la situation même à laquelle Raimbaut fait allusion dans ces vers: *Pueys que la tortre a perdut son par, jamays no se ajusta ab autra*[^v1p081-2]. Ainsi, l'emploi fort rare de *par* dans un contexte qui se réfère à la Dame, pourrait se justifier tout naturellement par l'influence de l'image de la tourterelle du vers précédent.
 
-v.13-18
+[v.13-18]{.underline}
 
 Cette strophe apparaît dans tous les mss. en seconde position. Cependant, il est certain que telle n'est pas sa place, dans la mesure où l'on détruirait ainsi le schéma des rimes: le poème est écrit en *coblas doblas* et les rimes de cette strophe vont de pair avec celles de la strophe qui selon les mss. se trouve en quatrième position (*egre-ols* et *erga-ols*). Toutefois, les positions de ces deux strophes sont interchangeables. Pattison, pour sa part, en fait la quatrième strophe du poème étant donné qu'ainsi il lui semble que "the flow of thought *is* more natural"[^v1p081-3]. En effet, la traduction qu'il nous donne de cette strophe justifie cette quatrième position: "She who has made me sad and gay knows that I wish to follow her dictates in this matter more than Solomon and Marcol of the noble deeds and lofty sayings; and whoever puts his faith in
 
@@ -1363,7 +1363,7 @@ Encore que l'hypothèse de Rochegude, selon laquelle *bretols* signifierait 'vá
 
 d'étymologie, il n'en demeure pas moins que s'il est vrai que le terme *bretol* se rencontre, en ancien occitan, uniquement chez Raimbaut, nous avons cependant cette forme catalane *brètol* citée par Meyer-Lübke et qu'il traduit par 'Lümmel'[^v1p086-1]. En l'absence de toute autre donnée, il nous paraît licite de se fonder sur le sémantisme de ce mot pour traduire le *bretols* de notre texte[^v1p086-2].
 
-v.30
+[v.30]{.underline}
 
 Pour Pattison, *som* est un adverbe qu'il traduit par 'flimsy', se fondant pour ce faire sur l'expression *de som en som 'summarisch'* et sur l'adverbe *somadamen 'kurz'[^v1p086-3]. A cet argument, Pattison ajoute un exemple emprunté au poème IX d'Arnaut Daniel (*L'aura amara*) où, dit-il, Canello relève au vers 109 le même mot *som* qu'il considère également comme un adverbe et traduit par 'lievemente'[^v1p086-4].
 
@@ -1400,7 +1400,7 @@ Cependant, à partir du dialogue de la st.VII, il n'est absolument plus question
 
 <!-- page: v1p089 -->
 
-v.43-44
+[v.43-44]{.underline}
 
 Traduction de Pattison: 'Indeed I had joy which he takes from me and diminishes because he does not prepare for me my desire". Dans la mesure où dans la strophe précédente il est dit qu'Amour ne pouvait pas enlever au poète ce qu'il n'avait jamais eu (*no't tol so q'anc non agist*, v.42), la traduction de Pattison selon laquelle Amour priverait le poète de son *gaug* est pour le moins paradoxale. En ce qui nous concerne, nous proposerions la traduction suivante: 'En effet, j'eus de la joie, qui m'entrave et me rabaisse car elle ne m'apprête pas mes désirs'. Ainsi, nous prenons *qe* pour un cas sujet (avec *gaug* comme antécédent) plutôt que de recourir, comme le fait Pattison, à *Amors* qui n'est plus (nommément) exprimé depuis le v.39. D'autre part, nous traduisons le pronom personnel *m* précédant *merma*, qui n'apparaît pas dans la version de Pattison (à moins qu'il ne le considère comme un régime indirect). Quant à la traduction de *tolre*, nous préférons donner à ce verbe le sens d' 'entraver', comme chez Arnaut Daniel[^v1p089-1], plutôt que celui d' 'enlever'.
 
@@ -1416,7 +1416,7 @@ reprend cette idée au v.39 en ajoutant que c'est de ce fait qu'Amour rend trist
 
 En fait — et ce malgré l'emploi du terme *gaug*[^v1p090-1] — on a ici l'expression même du *topos* du *joy*: le 'je' du texte possède et ne possède pas le *joy*. Il le possède dans la mesure où son amour est sans espoir, car le *joy* procède de la non-réalisation matérielle de l'amour. Et, tout à la fois, il ne le possède pas dans la mesure où cet amour ne se réalise pas et le fait douter de la réalité, de la plénitude de ce qu'il éprouve. De là, croyons-nous, cette tension exprimée dans l'ambiguïté de *tolre* — 'entraver, garder prisonnier' et, à la fois, 'enlever': le poète est prisonnier de sa joie dans la mesure où celle-ci lui semble enlevée parce que non réalisée. C'est là l'impasse fondamentale de la *fin'amor* qui est, de par le fait-même, génératrice de l'écriture.
 
-v.52
+[v.52]{.underline}
 
 Pattison suppose que le verbe *s'esflaujar* ait été créé à partir de "*flauja*, 'flute; gossip, idle talk' (...) and has then the meaning 'to slander, gossip'. Let us not forget that Raimbaut furnishes the only example of *flaujar*, 'to flute; to gossip (?)' (XXI,22)[^v1p090-2]. Encore que nous n'ayons pu trouver aucun exemple d' *(es)flaujar*, avec cette signification-là, chez les
 
@@ -1436,7 +1436,7 @@ D'autre part, dans la mesure où l'on a ici un subjonctif (puisqu'il s'agit d'un
 
 <!-- page: v1p092 -->
 
-CHANSON IV: TEXTE ET TRADUCTION
+[CHANSON IV]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Apres mon vers veuilh sempr'ordre
@@ -1549,9 +1549,9 @@ Pas plus que le phénix ne puisse disparaître, il n'adviendra pas non plus que 
 
 <!-- page: v1p094 -->
 
-CHANSON V: REMARQUES
+[CHANSON V]{.underline} : REMARQUES
 
-v.6
+[v.6]{.underline}
 
 Établissant son texte en prenant pour base les mss [CNN]{.underline}[^v1p094-2], Pattison donne la préférence à la leçon de [C]{.underline} qui est cependant le seul ms. à présenter la forme *no*. Tous les autres (à l'exception du ms. *a* qui donne *nom*) ont la forme *non*. Remarquons à ce propos que ces variantes ne sont pas signalées dans l'apparat critique de Pattison. On pourrait bien sûr nous objecter que lire *no* ou *non* n'a pas beaucoup d'importance, étant donné le phénomène bien connu en ancien provençal du *n* instable[^v1p094-1]. Toutefois, *non* peut aussi se lire *no'n* auquel cas *(e)n* est un adverbe renvoyant à un autre élément, explicitant d'une manière ou une autre le verbe *viva*. De la sorte, si l'on garde la leçon présente dans la majorité des mss, on pourrait en revenir, par la même occasion, à l'interprétation de Kurt Lewent qui, plutôt que de voir en *viva* une première personne (comme le fait Carl Appel[^v1p094-2] et, plus tard, Pattison également), y voit une troisième personne avec comme sujet le *gaug* du vers précédent[^v1p094-3]. Dès lors, le lien avec ce qui précède devient des plus logiques — je crois ne pas pouvoir accomplir ma joie; bien au contraire, je crains qu'elle *n'en* puisse survivre un seul jour, étant donné que... — le *'n* renvoyant dans cette interprétation au v.7.
 
@@ -1578,7 +1578,7 @@ En outre, faut-il nécessairement faire du v.19 une interrogative? Sans doute, d
 
 joie; l'adverbe *en* (= *it*) renvoie alors au v.19. Mais Pattison ne se serait-il pas laissé influencer par l'édition de Carl Appel ? Se fondant sur les mss [Aa]{.underline}, Appel lisait : *...Donc, per que n'ai gaug ? / Car us volers m'en abriva, / qe'm diz qez en autre non poing*[^v1p096-1]. Il est évident que dans cette version, le v.19 ne pouvait qu'être une interrogative. Dans le texte de Pattison, en revanche, il n'en est pas nécessairement ainsi et ce vers peut aisément être considéré comme une reprise du v.12 (*ni res qu'ieu aya no'm fa gaug*), d'autant plus que, les vv.20-21 qui le suivent reprennent également la même idée que les vv.13-14. De là qu'on pourrait traduire comme suit: 'Mais je ne possède rien qui puisse me donner de la joie, car un désir m'en presse et me dit de ne pas rechercher d'autre joie'.
 
-v.28
+[v.28]{.underline}
 
 Ce vers présente quelques problèmes concernant l'établissement et l'interprétation du mot à la rime. D'après les variantes qui lui étaient connues (celles de [A, C, N]{.underline}^2^ et *a*) et suivant en cela les exigences de la versification qui demandent ici une rime en *-onh*, Carl Appel opte pour la forme *m'esconh*, première personne de l'indicatif présent d'*escondre*, 'cacher' et traduit: "*...das schwere Leiden (...) das ich mir im Herzen drinnen berge*"[^v1p096-2]. Il n'en demeure pas moins que, normalement, nous devrions avoir dans cette hypothèse la forme *escon*[^v1p096-3]. De là que Schultz-Gora suppose, comme le rappelle Pattison, qu'*esconh* soit une licence poétique, "a forged rhyme"[^v1p096-4]. Pattison, quant à lui, récuse toute espèce de rapport avec *escondre* et propose de voir en *esconh* une forme d'*esconhar, enconhar*, "whose second form occurs in [LSW]{.underline}, II, 447 where the meaning is given as probably 'to
 
@@ -1601,11 +1601,11 @@ On voit donc que Carl Appel, et Pattison à sa suite, coupent systématiquement,
 
 son édition (ensemble avec [C]{.underline}). De ce fait, nous proposerions de lire *m'es conh*, où *es* est une forme verbale et *conh* un substantif signifiant 'coin, pièce de bois ou de fer qui sert à fendre'[^v1p098-1]. Le v.28 pourrait dès lors se traduire comme suit: '...le rude mal qui m'est dedans le coeur comme un coin' (ou, en d'autres termes, 'le rude mal qui m'est comme un coin enfoncé dans le coeur'). Sans doute, on y perd l'antithèse évoquée par Pattison. On revanche, on y gagne une image fort évocatrice et fondée, comme souvent chez Raimbaut d'Orange, sur une utilisation figurée de termes les plus usuels[^v1p098-2]. En outre, notre lecture nous semble plus près de la tradition manuscrite, ainsi que nous pensons avoir pu le montrer plus haut.
 
-v.41
+[v.41]{.underline}
 
 Là où Pattison semble reprocher à Carl Appel d'avoir choisi pour *aziziva* son sens locatif ('nahe')[^v1p098-3] et où lui-même préfère son sens appréciatif ('favorable, kindly')[^v1p098-4], il est évident que nous nous trouvons ici devant le même cas d'amphibologie déjà évoqué dans III,27 et traité longuement par Roger Dragonetti[^v1p098-5].
 
-v.46-47
+[v.46-47]{.underline}
 
 Tout en rendant bien l'idée de ces vers, la traduction de Pattison — "for her worth is so very great that she thinks that I should not dare, out of respect, to have joy from her"[^v1p098-6] — fait
 
@@ -1620,11 +1620,11 @@ Tout en rendant bien l'idée de ces vers, la traduction de Pattison — "for her
 
 passer la négation de la principale à la subordonnée. De ce point de vue, la traduction de Carl Appel est préférable, en ce qu'elle conserve la syntaxe originelle du texte: "denn so überhoch ist ihr Wert, dass sie nicht glaubt, dass ich bei. meiner Furcht es waqen könnte, Freude von ihr zu erwarten"[^v1p099-1]. A ce propos, il est pour le moins curieux de constater que si Glynnis M. Cropp traduit en effet exactement ces vers — "Car son mérite brille tellement qu'elle ne considère pas, à cause de ma timidité, que j'oserais connaître la joie auprès d'elle"[^v1p099-2] — elle en arrive à une interprétation de ce passage qui nous semble totalement erronée et en contradiction flagrante avec le contexte: "Sentant la timidité de son prétendant, la dame le juge incapable de mériter son amour. Par conséquent, nous savons qu'il fallait de la timidité, mais qu'il n'en fallait pas trop"[^v1p099-3]. Or, dans le poème il est dit explicitement que la dame ne sait pas quel présent elle a fait au poète (vv.43-44). En d'autres termes, elle lui a donné de la joie, mais elle ne le sait pas. Sa valeur est tellement grande qu'elle ne peut pas s'imaginer qu'il ait pu l'aimer, d'autant plus qu'il le lui a caché, *per temensa*. Et cette dernière raison est explicitée dans ce qui suit: s'il ne lui en a rien dit, c'est qu'elle est *tant nomenativa* et qu'il craignait qu'elle ne le couvre de honte (vv.48-49). La dame ne le juge donc pas "incapable de mériter son amour", elle ne sait même pas qu'il l'aime !
 
-v.55
+[v.55]{.underline}
 
 Pourquoi traduire *que'm caliva* par 'for it is important to me'? Le sens premier de *calivar* ('brûler') convient bien mieux et est plus expressif.
 
-v.62
+[v.62]{.underline}
 
 Chez Pattison on peut lire *el mal m'estra*. Sans doute s'agit-il d'une faute d'impression, aussi proposerions-nous de lire, avec Appel et Lewent, *e'z*.
 
@@ -1634,7 +1634,7 @@ Chez Pattison on peut lire *el mal m'estra*. Sans doute s'agit-il d'une faute d'
 
 <!-- page: v1p100 -->
 
-CHANSON V: TEXTE ET TRADUCTION
+[CHANSON V]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Un vers farai de tal mena
@@ -1736,9 +1736,9 @@ Est-ce que je ne prendrai pas mon mal en joie ? Car *Bos Respieg* veut que je 
 
 <!-- page: v1p102 -->
 
-# CHANSON VI : REMARQUES
+[CHANSON VI ]{.underline} : REMARQUES
 
-v.2-4
+[v.2-4]{.underline}
 
 Là où Pattison lit *q'ie'm cuïdei sofrir*, nous préférons suivre Derek E.T. Nicholson et lire *que'm cuïdei sofrir*, la leçon de A étant en effet totalement indépendante par rapport à celles de [DKU]{.underline} (*quem*) et de I (*ç^m^*)[^v1p102-1]. Toutefois, ceci ne modifie pas grand'chose au texte. D'autre part, Pattison traduit *sofrir* — dont il fait un verbe réfléchi en lui adjoignant le pronom personnel *'m* — par 'to renounce', avec *chantar* comme objet: "The ...promises and agreements that I made to my lady (...) concerning singing, which I intended to renounce"[^v1p102-2]. Tout en n'étant pas essentiellement différente, quant au fond, de celle de Pattison, notre traduction reste plus près du texte, dans la mesure où elle respecte la place du pronom *'m* (pronom réfléchi auprès de *cuïdei*). Dans ce cas-ci, *sofrir* n'est plus réfléchi et conserve sa signification de 'supporter, soutenir'[^v1p102-3], auquel cas la relative introduite par *que* ne peut avoir que *los digz e'ls covens* (v.2) pour antécédent. La seule chose qui change, c'est que dans l'interprétation de Pattison le poète dit explicitement qu'il va transgresser la promesse qu'il fit à sa Dame de ne plus chanter, alors que dans la nôtre il affirme tout simplement qu'il va transgresser une promesse concernant son *chantar* et qu'il s'imaginait pouvoir respecter. Le contenu exact de cette promesse n'est pas autrement précisé, et il faut attendre les vers suivants avant de savoir de quoi il s'agit réellement: *si n'ai estat mutz* (v.6).
 
@@ -1851,7 +1851,7 @@ vv.45-46
 
 Pattison interprète ces vers comme suit: si j'étais son *entendens*, je serais plein de joie et la couvrirais de louanges ("I should be joyful and praise her"[^v1p110-3]). Pour notre part, nous préférons voir dans les *bels digz* du v.45 une opposition au *faitz* du vers suivant: si j'étais son *entendens*, je me contenterais (*n'estera jauzens*) de belles paroles et je n'aurais pas besoin d'actes effectifs (*ses faitz*) pour être heureux (*esgauzir*). On pourrait d'ailleurs faire ici un rapprochement avec l'idée centrale des vers 13-18 de la chanson IV où, il est vrai, on a la situation inverse: le poète y reproche à sa Dame de s'en tenir à de belles paroles et de ne pas "passer aux actes"!
 
-v.48-49
+[v.48-49]{.underline}
 
 *Creiutz* est sans doute un participe de *creisser*, mais si tel est le cas, nous ne nous expliquons pas fort bien la traduction de Pattison: "no matter how much it has increased for me"[^v1p110-4]. A moins que ce "it" ne désigne le *Bon Respièg*, la 'bonne attente'. Toutefois, même alors, il reste *tan que* dont la traduction ("no matter how much") ne nous paraît guères justifiée. Personnellement, il nous semble plus satisfaisant de traduire *creisser* par 'arriver,
 
@@ -1871,7 +1871,7 @@ advenir[^v1p111-1]. Dans cette hypothèse, on pourrait gloser ces vers comme sui
 
 <!-- page: v1p112 -->
 
-CHANSON VI: TEXTE^1^ ET TRADUCTION
+[CHANSON VI]{.underline} : TEXTE^1^ ET TRADUCTION
 
 ::: {.verse lang=oc}
 Peire Rotgier, a trassaillir
@@ -1963,9 +1963,9 @@ Si seulement elle voulait me permettre (autant) que je fusse tout le temps son *
 
 <!-- page: v1p114 -->
 
-CHANSON VII : REMARQUES
+[CHANSON VII ]{.underline} : REMARQUES
 
-v.10
+[v.10]{.underline}
 
 Dans le ms. on trouve *e p dieu ʃi eʃ ben en verʃ*, que Pattison lit *e per Dieu, si es ben envers* et qu'il traduit par "And yet, by Heavens, it is the contrary of good sense"[^v1p114-1]. Cette lecture nous semble en effet tout à fait justifiable de par le contexte du poème. Toutefois, on pourrait éventuellement envisager une autre hypothèse. Si l'on conserve la graphie du ms. (*en / vers*), on pourrait traduire : 'Et, par Dieu, c'est certes bien en [*ces*] vers que je n'ose parler dorénavant de celle ...'. Ce qui serait tout aussi justifié. Nous ne croyons cependant pas pouvoir retenir cette hypothèse, dans la mesure où les termes *envers, enversa, enverse* possèdent, chez Raimbaut d'Orange, une fréquence relativement haute (respectivement 2, 3 et 3)[^v1p114-2] et fonctionnent habituellement en tant qu'indices du motif de l'"inversion"[^v1p114-3]. Ce n'est d'ailleurs pas un hasard si sur les 8 occurrences que nous venons de signaler, 6 apparaissent dans la chanson XXXIX, *Ar resplan la flors enversa*[^v1p114-4]. Compte tenu de cela, nous proposerions de conserver ici la lecture de Pattison, tout en traduisant cependant *envers* par 'umgekehrt, verkehrt, verdreht' qui sont précisément les significations qu'accorde Levy aux autres occurrences de ces termes chez Raimbaut[^v1p114-5].
 
@@ -1981,7 +1981,7 @@ Dans le ms. on trouve *e p dieu ʃi eʃ ben en verʃ*, que Pattison lit *e per D
 
 <!-- page: v1p115 -->
 
-v.13
+[v.13]{.underline}
 
 Pattison considère les mots *fers et estraig* "as two indignantly interpolated epithets hurled at the calumniators in passing"[^v1p115-1], qu'il traduit par 'the cruel, low-borne people'. En effet, se fondant pour ce faire sur le *Supplement Wörterbuch* d'Emil Levy, il accorde à *estraig* la signification de 'of low birth, bastard'. Continuant sur sa lancée, il postule même l'existence d'un éventuel substantif ayant alors le sens de 'bastard line, illegitimate offspring', ce qui pourrait mener, si cela était, à la traduction suivante: 'those (slanderers) whom I especially wish fierce, unnatural sons'[^v1p115-2]. Toutefois, pour séduisante qu'elle soit, cette dernière hypothèse nous semble reposer sur des bases bien trop peu sûres. L'exemple dans lequel Emil Levy relève le mot *estraich, estraig, estraït* est emprunté à Peire d'Alvernhe: *Aquest engres, envers, estraït / Fals e fat, filh d'avols paires / Felo, embronc, sebene, mal fait*[^v1p115-3]. Levy y donne à *estraït*, participe passé d'*estraire*, la signification d' 'abstammend' et se demande si, supprimant la virgule (comme le fait Raynouard[^v1p115-4]), on ne peut pas considérer *envers estraït* comme un syntagme au même sens que *filh d'avols paires*[^v1p115-5]. Il ne peut que remarquer, cependant, que dans cette hypothèse, il faudrait supposer un *envers* adverbe non attesté à ce jour[^v1p115-6].
 
@@ -2012,7 +2012,7 @@ Pour notre part, nous admettons ici parfaitement ce sens d'*abstammend*, d'autan
 
 Quoi qu'il en soit, même si *estraig, estrait* n'avait absolument aucune signification péjorative, il n'en demeure pas moins que si on le considère comme un substantif, fût-ce avec le sens neutre d' 'extraction', l'adjectif qui le qualifie (*fers*) ne peut que le colorer négativement. Si l'on tient compte, d'autre part, du sens des mots apparentés que nous avons relevés, tant en ancien français qu'en provençal (ancien et moderne), il nous semble que ce ne serait pas trop s'avancer que de traduire le v.13 comme suit: '... à propos de cette mauvaise *engeance* à qui je souhaite le pire'.
 
-v.14
+[v.14]{.underline}
 
 Pattison traduit le mot *voigz* par 'unheard', traduction soutenue par aucun dictionnaire[^v1p117-2] et que ne justifie aucunement le contexte. Comme souvent chez Raimbaut d'Orange, nous avons ici aussi un terme renvoyant directement à la pratique poétique. *Voigz* est en effet employé dans les *Leys d'Amors* avec un sens "technique" bien défini, pour désigner les chevilles, les mots vides de sens. On peut donc facilement interpréter cet emploi de *voigz* de la façon suivante: si je ne peux pas chanter ma Dame, ni vitupérer contre les *lauzengiers*, mon chant sera "vidé" de sa substance, il sera comme une "cheville", c.-à-d. un "*ajustamens de parolas vueias que no fan re cant a la sentensa*[^v1p117-3]".
 
@@ -2024,11 +2024,11 @@ Pattison traduit le mot *voigz* par 'unheard', traduction soutenue par aucun dic
 
 <!-- page: v1p118 -->
 
-v.17
+[v.17]{.underline}
 
 *Ters* est le participe passé de *terzer* 'nettoyer, essuyer'[^v1p118-1]. Ceci ne nous mène pas fort loin dans la compréhension de ce vers que Pattison traduit, sans aucune justification, par "How many have they already *turned away* from love"[^v1p118-2], si ce n'est que *terzer* peut également avoir la signification de 'priver de, ôter'[^v1p118-3].
 
-v.20
+[v.20]{.underline}
 
 La détermination du sens d'*atraig* semble poser quelques problèmes. Il existe bien sûr une forme *atrach* (substantif) signifiant 'attraction'[^v1p118-4], toutefois, comme le remarque justement Pattison, "what we seem to want here is an adjectival form meaning 'struck' (...). No such form can be found, but the past participle of *atraire* 'to approach, come near' may be intented 'with a blow near at hand' in keeping with the poet's phrase *ab colp de loing son pres nafratz* (XVIII, 41-42), that is, without any actual blow, by means of false gossip"[^v1p118-5]. A l'appui de l'hypothèse de Pattison, nous ajouterions que l'on peut aussi trouver pour *atraire* la signification de 'donner'[^v1p118-6], ce qui nous permettrait de traduire ici, tout simplement: 'sans coup donné'.
 
@@ -2051,7 +2051,7 @@ Se fondant pour ce faire sur l'édition de Marcabru par J.M.L. Dejeanne, Emil Le
 
 <!-- page: v1p120 -->
 
-CHANSON VII: TEXTE ET TRADUCTION
+[CHANSON VII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Al prim qe·il tim sorz en sus
@@ -2107,9 +2107,9 @@ Un homme de haut rang est aussitôt confondu quand il souffre qu'on s'étonne qu
 
 <!-- page: v1p121 -->
 
-CHANSON VIII : REMARQUES
+[CHANSON VIII ]{.underline} : REMARQUES
 
-v.20
+[v.20]{.underline}
 
 Le sujet de *fon faillitz* peut être soit le *Jois* du vers précédent, soit le *chantars* (v.14) de la strophe II. Pattison choisit cette dernière possibilité, argumentant que "Raimbaut says that joy has fled from him. Why? Because a little earlier his singing was taken from him by his lady"[^v1p121-1]. Nous avouons ne pas être convaincu par cette interprétation, dans la mesure où le lien de causalité entre l'interdiction de chanter et la disparition du *Joy* ne nous semble pas du tout évident. Ce n'est pas, en effet, le chant qui produit le *joy* — ainsi que Pattison semble le supposer — mais plutôt celui-ci qui est source de poésie[^v1p121-2].
 
@@ -2125,7 +2125,7 @@ Pattison traduit ces vers par : "Ah! I don't give my love deceitfully to anyon
 
 <!-- page: v1p122 -->
 
-CHANSON VIII: TEXTE ET TRADUCTION
+[CHANSON VIII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Braiz, chans, quils, critz
@@ -2226,7 +2226,7 @@ Mais *Pretz* et non *Sobransa* a crû: il sera donc en vous.
 
 <!-- page: v1p124 -->
 
-CHANSON IX : REMARQUES
+[CHANSON IX ]{.underline} : REMARQUES
 
 vv.1 sv.
 
@@ -2298,7 +2298,7 @@ Pattison traduit les vv.54-55 par : "but Love's delay will not hurt me if you 
 
 <!-- page: v1p129 -->
 
-CHANSON IX: TEXTE ET TRADUCTION
+[CHANSON IX]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Car vei qe clars
@@ -2422,7 +2422,7 @@ Ah! Douce créature, gracieuse et gaie! Maintenant la Mort se rapprochera de moi
 
 <!-- page: v1p131 -->
 
-CHANSON X : REMARQUES
+[CHANSON X ]{.underline} : REMARQUES
 
 vv.2sv.
 
@@ -2453,7 +2453,7 @@ Dès lors, la traduction que donne Pattison de la série ternaire *vent'e gisc'e
 
 A notre avis, le problème fondamental — qui s'est sans doute posé à Raimbaut lui-même — est le suivant : s'il est vrai que dans les énumérations ternaires ou binaires qui semblent structurer cette strophe, on a trois (deux) termes s'appliquant chaque fois, soit à un objet ou à un phénomène, soit à trois (deux) objets ou phénomènes différents mais analogues, comment faire pour respecter une structure ternaire de ce genre, lorsqu'on est confronté à deux objets seulement (vent/pluie) ? Une façon de tourner la difficulté pourrait être alors de choisir un terme s'appliquant aux deux objets ou, mieux encore, spécifier à l'évocation simultanée des deux. Dans cette optique, le choix de *gisclar* est on ne peut mieux justifié, étant donné que d'après le *Donatz Proensals* ce verbe signifie très exactement qu'il *pluit simul et ventat*, 'to rain and be windy at the same time'[^v1p133-1]. Cela étant, nous proposerions de traduire *gisclar* par 'cingler'[^v1p133-2].
 
-v.24
+[v.24]{.underline}
 
 Walter T. Pattison considère le terme *lams* comme étant un substantif et traduit ce vers par : 'How Joy may be as brief as a lightning flash for true lovers'[^v1p133-3]. A quoi Linda M. Paterson fait remarquer que le sens 'lightning' semble plus approprié dans le cas de la seconde occurrence de *lams*, au v.57, ce dont elle ne parvient d'ailleurs pas non plus à nous persuader. En ce qui
 
@@ -2481,7 +2481,7 @@ D'autre part, en ce qui concerne le v.57, si *lams* peut en effet signifier 'éc
 
 <!-- page: v1p135 -->
 
-v.28 sv.
+[v.28 sv.]{.underline}
 
 Pattison signale à juste titre que le mot *trachor* (v.28) est ambigu et peut avoir tant le sens de 'traître' que celui d' 'archer' (=Cupidon)[^v1p135-1]. En revanche, il traduit la forme verbale *traia* (v.31) uniquement par 'betray'[^v1p135-2], tout comme Linda M. Paterson[^v1p135-3], sans tenir compte de ce qu'ici aussi se retrouve l'ambigüité qu'il remarquait précédemment à propos de *trachor*. En effet, si cette forme verbale peut être considérée comme une troisième personne du subjonctif présent de *traïr, trazir* (= 'trahir'), c'est que précisément ce verbe, qui appartient en fait à la conjugaison inchoative -et présente de ce fait un subjonctif présent *trasca*[^v1p135-4]- peut également emprunter certaines formes à *traïre* ('tirer, lancer, viser')[^v1p135-5]. De cette manière *traia* est parfaitement analogue à *trachor*, analogie d'ailleurs renforcée par le contexte immédiat: un archer/traître (*trachor*) auquel on ne peut se fier (*mal fizel*) et qui cherche comment viser/trahir (*traia*) en toute sécurité (*segurs*). A ce propos on remarquera l'antithèse rendue plus apparente encore par l'emploi de ces mots ambigus:
 
@@ -2495,7 +2495,7 @@ Pattison signale à juste titre que le mot *trachor* (v.28) est ambigu et peut a
 
 <!-- page: v1p136 -->
 
-v.30
+[v.30]{.underline}
 
 Le terme *regoîtbres* n'apparaît que chez Raimbaut d'Orange[^v1p136-1], mais devrait être mis en rapport, d'après Pattison, avec les mots *votbre, revotbre, rebotbre* ('regain'), et signifierait dès lors, au sens figuré, 'from the country, churly'[^v1p136-2]. Pour Linda M. Paterson, "the image of second growth could suggest something stunted or second-rate"[^v1p136-3]; ce qui l'amène à traduire, littéralement, par 'the second harvest'[^v1p136-4]. En effet, le contexte semble suggérer une connotation négative. Dans ce sens, il est sans doute intéressant de constater que, si sous l'étymon *re-vivere* on trouve dans le [FEW]{.underline} nombre de formes occitanes telles que *revioure, revoybre, reboybre, reboyre, roibre, votbre*, etc..., en revanche, il est fort rare de rencontrer des formes en [r̥ g u i v r̥]{.unclear} tant en provençal qu'en français d'ailleurs. À cet égard, le [FEW]{.underline} ne nous fournit guère que *regouive* (bberr.), [r̥ g u i v r̥]{.unclear} (bourbonn.), *regouiver* (Centr.), *gouivre* (Saint Chartier), *gouive* et *se gouiver* (Centr.)[^v1p136-5]. Ces deux dernières formes nous paraissent d'ailleurs particulièrement intéressantes en ce qu'elles sont les seules, parmi tous les continuateurs de *re-vivere*, à présenter cette connotation négative que semble en effet requérir notre texte, leur signification respective étant: 'relais boueux d'une inondation, qui font pousser le regain' et 'se couvrir de boue'[^v1p136-6]. A titre d'hypothèse, on pourrait peut-être se laisser guider par ces significations-là et avancer la
 
@@ -2521,7 +2521,7 @@ Quoi qu'il en soit, qu'il s'agisse de notre première hypothèse ou de notre sec
 
 <!-- page: v1p138 -->
 
-v.49
+[v.49]{.underline}
 
 Ici aussi nous avons un hapax, *gasurs*. Il est cité par Raynouard et Levy, dans ce vers bien sûr, mais sous une forme *gafur*[^v1p138-1], à laquelle ils donnent la traduction de 'gourmand, glouton'; traduction reprise telle quelle tant par Pattison que par Linda M. Paterson, sans nulle autre explication[^v1p138-2]. Il est vrai que le [FEW]{.underline} nous donne une forme *gaffare* 'ergreifen', qui serait l'étymon de l'ancien provençal *gafar* signifiant 'saisir' et, de là, 'mordre, manger avec avidité'[^v1p138-3]. Passer de ce verbe à un substantif *gafur* serait éventuellement possible, encore qu'il y ait là certains problèmes quant à la dérivation: on s'attendrait plutôt à une forme en *-ador*[^v1p138-4].
 
@@ -2538,11 +2538,11 @@ Cependant, contrairement à ce qu'affirment Raynouard et Levy, les éditeurs de 
 
 gazouiller, babiller', l'ancien provençal *gazel* 'jaserie', etc.[^v1p139-1] Bien entendu, il y a ici également, tout comme dans le cas de *gafur*, le problème de la formation du mot. Ce qui fait que le problème reste entier.
 
-v. 55
+[v. 55]{.underline}
 
 Si *esclacaa* est en effet un terme renvoyant à une arme quelconque[^v1p139-2], ne pourrait-on pas supposer que la Dame, à laquelle Raimbaut fait allusion au vers suivant, est également le sujet de *s fer* ? Dans cette hypothèse, notre traduction serait alors la suivante : 'Car maintenant, quoiqu'elle se frappe de l'*esclacaa*, si elle ne ment pas avec ses paroles moroses, c'est moi qui en serai la victime'. En d'autres termes, nous interpréterions ce passage ainsi : quoique ma Dame se nuise (en m'éloignant, en ne répondant pas à mon amour), si elle ne ment pas (en m'interdisant de chanter [en] à son propos), c'est [fait]{.hand} moi qui suis blessé.
 
-v. 56
+[v. 56]{.underline}
 
 Nous traduisons ici *motz escurs* par 'paroles moroses', tout comme Linda M. Paterson ('black, angry words')[^v1p139-3]. Pattison, lui, s'en tient à 'ambiguous speech' ce qui est, pour le moins, une traduction ambiguë! Quoi qu'il en soit, à notre avis ce passage ne se rapporte pas du tout à la création poétique ni au *trobar clus*, comme le voudrait Leo Pollmann[^v1p139-4]. Sans revenir pour cela
 
@@ -2558,7 +2558,7 @@ Nous traduisons ici *motz escurs* par 'paroles moroses', tout comme Linda M. Pat
 
 sur la réfutation que fait Linda M. Paterson de ce passage, nous voudrions cependant y ajouter que, d'une part, Pollmann ne tient aucun compte du contexte de ces vers et que, de l'autre, il fonde son interprétation e.a. sur ce qui nous semble être une mauvaise compréhension des vv. 33-34 de la chanson II de Raimbaut, là où il traduit *eserìma* et *escrim* par 'Fechten' et 'schirmit'[^v1p140-1]. Si rapport avec le *trobar clus* il y a, c'est tout à fait indirectement et ironiquement, par le biais de ces *motz escurs* précisément, qui ne peuvent que renvoyer l'auditeur/lecteur à ceux du v. 13 qui, eux, en revanche, se rapportent indéniablement à ce style de poésie, dans la mesure où ils s'appliquent à *mos libres/de fag d'amor* (vv. 12-13), c'est-à-dire à la poésie même de Raimbaut.
 
-v.58
+[v.58]{.underline}
 
 Pattison traduit *s'estaca* par 'restrains itself', tandis que pour Linda M. Paterson il faudrait comprendre 'is fastened up'[^v1p140-2]. Ces traductions renvoient toutes au sens premier de ce verbe: 'attacher, lier'[^v1p140-3]. On remarquera cependant que Levy le cite dans quelques expressions figées assez remarquables et que, qui plus est, ces mêmes expressions se rencontrent aussi avec le verbe *fermar* qui, lui aussi, a un sens premier identique à *estacar*[^v1p140-4]:
 
@@ -2582,7 +2582,7 @@ Sans doute, le verbe est employé seul, dans notre poème, mais il existe des ex
 
 <!-- page: v1p142 -->
 
-CHANSON X: TEXTE^1^ ET COMMENTAIRE
+[CHANSON X]{.underline} : TEXTE^1^ ET COMMENTAIRE
 
 ::: {.verse lang=oc}
 Ar vei bru, escur, trebol cel
@@ -2688,7 +2688,7 @@ Mon *vers*, qui ainsi se porte garant de ma présence à ce jugement, je voudrai
 
 <!-- page: v1p144 -->
 
-CHANSON XI : REMARQUES
+[CHANSON XI ]{.underline} : REMARQUES
 
 *v.v.*1-4
 
@@ -2779,7 +2779,7 @@ Traduction de Carl Appel: "Der mich hoch sichtbar in den Wind hängen wollte, de
 
 my eyes I shall consider my wellwisher"[^v1p150-1]. Quant à nous, nous lirions ces vers plutôt comme Schultz-Gora, ce qui nous donne la traduction suivante : 'Même celui qui me pend haut dans le vent, en présence de tous, et qui voudra m'arracher les deux yeux, [*même*]{lang=oc} celui-là je le tiens pour bienveillant'.
 
-v. 39
+[v. 39]{.underline}
 
 Il est pour le moins étonnant de voir Carl Appel se résoudre, finalement, à adopter la leçon du Ms. *a* (*ne'us que tot ajatz dreituras*) alors qu'il en a montré le caractère hypothétique et peu sûr et qu'il reconnaît lui-même que celle du Ms. *A* (*Ve'us que totz avetz...*) "bleibt (...) das paläographisch zuverlässigere"[^v1p150-2]. C'est d'ailleurs pour ces mêmes raisons d'ordre paléographique que Pattison opte pour cette dernière leçon. Remarquons cependant, qu'outre l'argument paléographique — dont il reconnaît par ailleurs toute l'importance — Pattison se fonde surtout sur l'interprétation particulière qu'il a de ce poème : "The fundamental difference between Appel's view and mine is that he believes Raimbaut has commited some injustice toward the lady (...) while I believe that the insult is only imagined by the lady"[^v1p150-3]. Nous avons déjà montré, plus haut, que le poète a vraiment commis une infraction au code et à ce propos nous avions également souligné l'inconséquence de Pattison, qui, d'une part, le démontre et, de l'autre, affirme l'innocence du poète et, de ce fait, accuse la Dame d'injustice ! Ici, une fois de plus, nous nous trouvons à nouveau devant la même inconséquence : dans l'optique de Pattison, la Dame
 
@@ -2811,13 +2811,13 @@ Ainsi, quelle que soit la faute commise par l'amant, celui-ci a le droit d'espé
 
 <!-- page: v1p153 -->
 
-v. 40
+[v. 40]{.underline}
 
 Tout en admettant la leçon *mercee'l*, nous ne pouvons souscrire à l'explication de Pattison : "To explain the readings I *icel*, K *incel*, etc., we must imagine a series of mss. in which the following form appeared : *merceel*, transcribed in a lost ms. with the abbreviation *m̅ceel*, which was misread as the sign of the nasal in N *men cel*, and which, being copied without the nasal abbreviation mark (*mceel*) was misread KN^2^ *incel* and I *icel*, where the scribe forgot the dash over the *i*. Thus the apparently entirely disparate readings of IKN^2^ support the reading of Ca *merceel* over A *uostre*[^v1p153-1].
 
 L'hypothèse est ingénieuse, sans doute, mais repose sur de fausses prémices. Commençons par remarquer que là où Pattison lit dans le ms. I *icel*, il y a en fait *i̅cel*, mais ceci n'est pas important. Ce qui l'est bien, en revanche, c'est que Pattison voit dans N une forme *men cel* qui serait pour lui une mauvaise lecture de *m̅ceel*. Or, un examen attentif de ce ms. nous montre qu'il s'y trouve une forme *i̅n cel*. L'erreur de Pattison provient sans doute d'une mauvaise lecture des lettres *i-n* surmontées d'un signe de nasalisation, qu'il dut prendre pour *m̅*, c'est-à-dire *men*[^v1p153-2]. Cela étant, il est évident que son raisonnement reste valable ; à cela près que n'étant plus soutenu par les mss., il en devient pure hypothèse.
 
-v. 61-63
+[v. 61-63]{.underline}
 
 Afin de mieux marquer l'opposition entre les vv. 61 et 62, il nous semble plus indiqué de traduire la conjonction *e* par 'mais'[^v1p153-3].
 
@@ -2831,7 +2831,7 @@ Vu l'hypothèse que nous avons développée plus haut, on pourrait éventuelleme
 
 <!-- page: v1p155 -->
 
-CHANSON XI : TEXTE ET TRADUCTION
+[CHANSON XI ]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Ar m'er tal un vers a faire
@@ -2969,9 +2969,9 @@ Et si je vous mens, en ce pacte que je vous présente, que je sois immédiatemen
 
 <!-- page: v1p157 -->
 
-CHANSON XII: REMARQUES
+[CHANSON XII]{.underline} : REMARQUES
 
-v.37
+[v.37]{.underline}
 
 D'après C.A.F. Mahn, Carl Appel et Walter T. Pattison, la leçon de l'unique ms. V serait : *Don uau uers e trois examentz*[^v1p157-1]. Tout en se gardant bien de prendre une décision définitive en la matière, Carl Appel propose cependant de lire, éventuellement, *Domn' les vers entoissegamentz*, qu'il traduit par "Herrin, so wahrhaft vergiftet bin ich (?) dass ich..."[^v1p157-2]. Pattison repousse cette interprétation, affirmant que la première partie du vers peut se lire facilement, "without much doubt", *Don uau l'nvers*... Ensuite, il avance que, quelle que soit la signification exacte de *trois*, "it must be similar in meaning to *envers*, 'downcast, upset', as shown by the word *examentz*"[^v1p157-3]. De là, nous suivons toujours Pattison, l'assimilation de *trois* à l'adjectif *trit* 'triturer, broyé, foulé, pilé'[^v1p157-4]. Cet adjectif est dérivé du verbe *trisar, truisar*, de là l'émendation de Pattison de *trois* en *truis*.
 
@@ -2997,7 +2997,7 @@ au [FEW]{.underline}: "Die vielen abweichungen der stammvokals (ui, u, ieu, e) s
 
 <!-- page: v1p159 -->
 
-CHANSON XII: TEXTE ET TRADUCTION
+[CHANSON XII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Ab vergoinha part marrimentz
@@ -3087,13 +3087,13 @@ Puisque je me sens dénué de tort envers *Amor*, je vous en prie aussi ardemmen
 
 <!-- page: v1p161 -->
 
-CHANSON XIII : REMARQUES
+[CHANSON XIII ]{.underline} : REMARQUES
 
-v.2
+[v.2]{.underline}
 
 Ainsi que le remarque Walter T. Pattison, le verbe *entresecar* n'est attesté dans aucun dictionnaire, tandis que notre propre enquête ne l'a pas non plus révélé chez les troubadours postérieurs à Raimbaut d'Orange[^v1p161-1]. Cela étant, il existe cependant un adjectif *entresec*, apparaissant dans un texte non-littéraire de 1370 et signifiant 'a demi sec' : "quatre bricolas de mascle entresec, quatre liasses d'écorce de chêne-liège à demi sèche"[^v1p161-2].
 
-v.5
+[v.5]{.underline}
 
 D'après Levy, *ciselar* signifie soit 'laut rufen', soit 'ertönen'[^v1p161-3]. Le verbe *giselar*, quant à lui, possède également ces significations-là avec, de surcroît, celles de 'stürmen' et de 'schlagen, peitschen'[^v1p161-4]. Or, dans la mesure où l'on a pu donner à ces deux verbes des origines étymologiquement distinctes, il pourrait sembler justifié de se demander, avec Levy, si l'on n'a pas affaire ici à deux mots réellement différents[^v1p161-5]. En effet, *ciselar* serait dû, d'après Meyer-Lübke, à un croisement de *fistüläre* et de *sibiläre*, tandis que *giselar* viendrait de 'Geisle'
 
@@ -3179,11 +3179,11 @@ Il va sans dire qu'ici, comme dans l'hypothèse où *remut* serait une forme de 
 
 <!-- page: v1p167 -->
 
-v.17
+[v.17]{.underline}
 
 Tout comme le signale d'ailleurs aussi Pattison, *laudar/ lauzar* est un terme appartenant au vocabulaire juridique, signifiant e.a. "juger"[^v1p167-1]. Ajoutons-y qu'on en trouvera d'autres exemples significatifs dans le recueil de chartes de Clovis Brunel[^v1p167-2].
 
-v.51
+[v.51]{.underline}
 
 Sans donner la moindre explication à ses lecteurs, Pattison traduit la phrase *si tot quex s'enbroja* par "although each one extols himself", où le verbe auquel appartient la forme *enbroja* semble signifier 'se louer, se priser, s'élever...'[^v1p167-3]. Or, rien n'est moins sûr que cette interprétation.
 
@@ -3213,7 +3213,7 @@ Ainsi, nous n'avons pu trouver nulle part, ni en ancien provençal ni en ancien 
 
 <!-- page: v1p169 -->
 
-CHANSON XIII: TEXTE ET TRADUCTION
+[CHANSON XIII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Er quant s'embla·l foill del fraisse
@@ -3306,7 +3306,7 @@ Et que celui qui n'en convient pas (avec moi), qu'il prenne aussitôt l'épée e
 
 <!-- page: v1p171 -->
 
-CHANSON XIV: REMARQUES
+[CHANSON XIV]{.underline} : REMARQUES
 
 vv.8-9
 
@@ -3316,7 +3316,7 @@ vv.22-23
 
 Dans la phrase *E neys noca'm n'espavanta / lur estols*, Pattison néglige de traduire le verbe *nocar*: "And even the swarm of (...) *does not frighten me*"[^v1p171-5].
 
-v.30
+[v.30]{.underline}
 
 A.H. Schutz s'élève contre l'hypothèse de lecture de Pattison qui veut voir en *sols* un mot à la rime[^v1p171-6]. En fait, c'est Pattison
 
@@ -3331,11 +3331,11 @@ A.H. Schutz s'élève contre l'hypothèse de lecture de Pattison qui veut voir e
 
 qui a raison: *sols* est une rime interne (voir *rossigniols/auriols*, v.2; *dols/fols*, v.9; *esquirols/cabrols*, v.16; *estols/mols*, v.23; *sols/filhols*, v.30; *tols/vols*, v.37). Cependant, nous ne sommes plus d'accord avec Pattison lorsque celui-ci affirme que dans *sols* il y a un [o]{lang=oc} et que, de ce fait, le mot peut signifier non seulement 'surface, sol' mais aussi 'la terre, le monde'. En fait, *sol* signifie uniquement 'soleil' et les significations données par Pattison correspondent à *sol*[^v1p172-1]. Il suffit d'ailleurs de regarder les autres mots à la rime, pour s'apercevoir qu'il s'agit de [o]{lang=oc}: aucun d'entre eux ne présente de *[ɔ]{lang=oc}*[^v1p172-2].
 
-v.32-33
+[v.32-33]{.underline}
 
 Là où on lit dans C *ans li lais en balans / lo mon...*, R et a présentent: *e·l balans*[^v1p172-3]. C'est cette dernière leçon que suit Pattison, qu'il traduit par "I leave to Him in the balance the whole world". Partant de la constatation que *balans* substantif masculin n'est attesté dans aucun dictionnaire (on ne trouve que le féminin *balansa*), Charles Roth se demande s'il n'y a pas lieu de lire *ans li lais e·l balans* et d'y voir "une forme verbale du verbe *balansar*, dont un des sens attestés est 'peser', d'où l'on pourrait inférer celui de 'mettre dans le plateau de la balance'"[^v1p172-4]. De toute manière, cela ne modifie en rien le sens des vers, mais cette solution est tentante.
 
-v.37
+[v.37]{.underline}
 
 Schutz se demande si *vols* n'est pas plutôt un parfait[^v1p172-5]. Dans ce cas-là, on aurait affaire ici au verbe *volver*, ce qui n'offre aucun sens satisfaisant dans ce contexte. En fait, tout comme pour *tols* (même vers!) nous avons ici aussi une seconde personne de l'indicatif présent du verbe *voler*[^v1p172-6].
 
@@ -3348,7 +3348,7 @@ Schutz se demande si *vols* n'est pas plutôt un parfait[^v1p172-5]. Dans ce cas
 
 <!-- page: v1p173 -->
 
-CHANSON XIV: TEXTE ET TRADUCTION
+[CHANSON XIV]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Ara non siscla ni chanta
@@ -3432,7 +3432,7 @@ Ah! Dame digne d'éloges, je m'imagine maintenant que je vous tiens dans mes bra
 
 <!-- page: v1p175 -->
 
-CHANSON XV: REMARQUES
+[CHANSON XV]{.underline} : REMARQUES
 
 Str. 2
 
@@ -3507,7 +3507,7 @@ Et de traduire : 'Et Dame, pourquoi est-ce que je reste tant à la même place
 
 <!-- page: v1p181 -->
 
-CHANSON XV: TEXTE ET COMMENTAIRE
+[CHANSON XV]{.underline} : TEXTE ET COMMENTAIRE
 
 ::: {.verse lang=oc}
 Entre gel e vent e fanc
@@ -3616,13 +3616,13 @@ Dame, que notre joie se renouvelle, si cela vous plaît; car je vis, quoique je 
 
 <!-- page: v1p183 -->
 
-CHANSON XVI : REMARQUES
+[CHANSON XVI ]{.underline} : REMARQUES
 
-v.1
+[v.1]{.underline}
 
 Encore que la traduction avancée par Pattison pour le syntagme *trobars plans* ('simple style')[^v1p183-1] soit tout à fait correcte, il n'en demeure pas moins que l'adjectif *plan* recouvre un champ sémantique fort étendu qui va du positif au négatif, en passant par le neutre : 'poli, pur, clair, direct' — 'plan, uni, simple' — vulgaire, simpliste, imbécile'[^v1p183-2]. D'autre part, *trobar plan* appartient à la terminologie poétique des troubadours et est un synonyme de *trobar leu*, en quoi il s'oppose par conséquent au *trobar clus*. Cela étant, il y a lieu de faire preuve de prudence dans ces cas de ce genre chez Raimbaut. En effet, comme le souligne bien Linda M. Paterson, il y a chez lui une étrange distorsion de cette terminologie, qui fait que tout ce qui se rapporte au *leu* acquiert souvent chez Raimbaut d'Orange une connotation négative : "While for Giraut [de Bornehl]{.underline} *leu* meant 'light', for Raimbaut it means 'easy, facile'; where *plana* for Giraut meant 'smooth', for Raimbaut it means 'plain'; *vil* means not 'humble', but 'menial'"[^v1p183-3]. Dans ces conditions-là, nous estimons qu'il vaut mieux ne pas traduire ces termes, afin de mieux rendre ainsi l'ambiguïté qu'ils recèlent[^v1p183-4].
 
-v.5
+[v.5]{.underline}
 
 Pattison traduit ici *motz* par 'verses'[^v1p183-5], abusivement semble-t-il, dans la mesure où, comme le signale Emil Levy, "Die
 
@@ -3650,11 +3650,11 @@ Là où Pattison traduit *mos ditz es sans* par "My writing is sensible"[^v1p184
 
 En outre, tant Pattison que Press placent une virgule entre *gap* et *ses dan*. De la sorte, *ses dan* qualifierait *ditz*, au même titre que *sans*. Une telle lecture semble en effet indiquée lorsqu'on comprend *sans* comme ils le font : 'mes paroles sont "saines", ce dont je me vante, et inoffensives'. Bien entendu, aucun élément n'est présent dans le texte pour exprimer la coordination de *sans* et *ses dans*, mais ceci n'est peut-être pas impérativement nécessaire. Reste que dans notre interprétation (*sans* = pures, honnêtes), il semble plus indiqué de suivre l'ordre de la phrase et de traduire : 'Mes paroles sont honnêtes, ce dont je me vante sans dommage'.
 
-v.29
+[v.29]{.underline}
 
 Afin de maintenir le rythme, Pattison se sent obligé d'ajouter *lo* : *e l'ieu lo mal trai*. Cette intervention nous semble inutile et on peut très bien garder la leçon du ms., comme le font d'ailleurs Carl Appel et Alan R. Press : *si eu mal trai*[^v1p185-1]. En outre, l'expression semble bien être *mal traire*, *mal[^v1p185-2]traire* sans article, ainsi que le montre Emil Levy[^v1p185-2].
 
-v.33
+[v.33]{.underline}
 
 Alan R. Press traduit *mos volers cans* par "My burning desire"[^v1p185-3], ce qui s'accorde bien au contexte, sans doute, mais est rejeté déjà par Emil Levy : *can* que Raynouard traduisait par 'ardent' en se fondant sur un vers de Daude de Pradas est, dans ce cas-là, une mauvaise lecture de *caus*[^v1p185-4] et c'aurait été là la seule occurrence
 
@@ -3692,7 +3692,7 @@ D'autre part, le pronom personnel dans *s'il plai* peut en effet se rapporter à
 
 <!-- page: v1p188 -->
 
-CHANSON XVI: TEXTE ET TRADUCTION
+[CHANSON XVI]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Pos trobars plans
@@ -3785,7 +3785,7 @@ Je vous envoie *Astrius*, car maintenant j'essaie deux sauts si remarquables; le
 
 <!-- page: v1p190 -->
 
-CHANSON XVII : REMARQUES
+[CHANSON XVII ]{.underline} : REMARQUES
 
 vv.4 sv.
 
@@ -3852,7 +3852,7 @@ Il n'est en effet que normal, de relier *bel demor* (beau plaisir, bel agrément
 
 <!-- page: v1p195 -->
 
-CHANSON XVII: TEXTE ET TRADUCTION
+[CHANSON XVII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Assatz m'es bel
@@ -3967,9 +3967,9 @@ et fais que l'on m'aime avec désir recherché. Et j'espère le bien, car j'en a
 
 <!-- page: v1p197 -->
 
-CHANSON XVIII: REMARQUES
+[CHANSON XVIII]{.underline} : REMARQUES
 
-v.11
+[v.11]{.underline}
 
 Là où Carl Appel traduit le mot *vesatz* par 'klug, geschickt'[^v1p197-1], Walter T. Pattison opte plutôt pour la traduction 'gay'[^v1p197-2]. Il est un fait que les dictionnaires ne nous aident pas beaucoup à trancher dans ce cas-ci. En effet, chez Raynouard nous trouvons s.v. *vezar* 'accoutumer, habituer, faire prendre l'habitude, aviser', deux exemples d'un participe *vezat* employé comme adjectif et traduit par 'accoutumé' et 'avisé'[^v1p197-3]. Il en va de même chez Levy, à ceci près que celui-ci y ajoute des exemples où les significations de *vezat* sont les suivantes: 'gesittet', 'klug', 'lustig', 'fröhlich'[^v1p197-4]. En outre, Raynouard signale également un adjectif *veziat* ('avisé', 'content')[^v1p197-5], mais les deux exemples qu'il en cite ne sont pas acceptés — à raison — par Emil Levy qui ne peut que citer des exemples où *veziat* a le sens de 'verschlagen', 'falsch', 'klug', 'schlau' et 'verständig'[^v1p197-6]. Tout cela ne nous avance guère, si ce n'est que parmi les exemples cités par Levy, il en est un qui semble particulièrement intéressant pour notre propos, emprunté à Guiraut de Bornelh: *C'a pena om conoissa / Mos leugers dichs veziatz / Sotils e menutz soudatz*[^v1p197-7].
 
@@ -4070,7 +4070,7 @@ Pour Pattison, les vv.41-46 sont une réponse à la question que son interpréta
 
 d'un autre amour (vv.43-45), même si sa Dame ne s'est pas rendue auprès du Dieu de l'Amour, c'est-à-dire, même si elle ne l'aime pas, ou plus (v.46). Face à cette situation, l'amant désespéré s'exclame qu'il est né pour son malheur (v.47) mais mitige immédiatement cette exclamation de désespoir d'un souhait: 'Qu'elle puisse [*seulement*] aimer en un rang moins noble!' ou, moins littéralement, 'Fasse qu'elle m'aime, moi qui suis moins noble qu'elle!'.
 
-v.49
+[v.49]{.underline}
 
 Là où Pattison introduit la leçon *un sou*[^v1p205-1], celle-ci est contestée par L.A. Schwarzschild sous prétexte que la vocalisation de l'*l* finale n'est possible qu'après *a* et, exceptionnellement, après *i*[^v1p205-2]. Remarquons d'abord que ceci est contredit par Wilhelm Meyer-Lübke qui affirme que "l finale est vocalisée à peu près sans exception en limousin, en gascon, en languedocien et en provençal"[^v1p205-3]. En outre, il ne s'agit même pas d'*l* finale dans ce cas-ci puisque le *sou* du v.49 ne remonte pas à *sōlem* (ce qui est toutefois le cas du *sou* du v.62) mais bien à *sōl[*t]*dum*. Quoi qu'il en soit, ici aussi la vocalisation de l'*l* devant dentale ne nous semble pas poser de problème ce qui fait qu'à notre*avis, on peut fort bien conserver la leçon de Pattison[^v1p205-4].
 
@@ -4081,11 +4081,11 @@ Là où Pattison introduit la leçon *un sou*[^v1p205-1], celle-ci est contesté
 
 <!-- page: v1p206 -->
 
-v.55-59
+[v.55-59]{.underline}
 
 Pattison traduit *mas* (v.55) par "even more, especially"[^v1p206-1], ce qui l'amène ensuite à ponctuer ces vers comme suit: *Mas, per Crist,/ pos mi fai trist/ cant pes iratz:/ "Cor ai fol c'ar am sol ses solatz"*. A notre avis, il est plus simple, et surtout plus dans la logique du texte, de considérer *cor ai fol* comme une principale: 'Mais, par le Christ, puisque cela me rend triste [et] irrité quand je pense, j'ai [bien] le coeur fou, car maintenant j'aime seul, sans consolation'.
 
-v.61-63
+[v.61-63]{.underline}
 
 Traduction de Pattison: "Now it is raining on me! It would seem sunny to me without great deception"[^v1p206-2]. Pour Pattison, *sou* est l'équivalent de *sol <s>olem* et il s'explique à ce propos en avançant que "Raimbaut is showing his love-madness by telling us how he confuses things with their opposites — rain with sunshine, snow with summer — just as he does in XXXIX"[^v1p206-3]. Quant à son interprétation de *trichan ses datz*, il la justifie en disant que "we can conclude that deception was common in dice games, thus 'deceiving without dice' means practicing an even more simple deception"[^v1p206-4]. A.H. Schutz, pour sa part, propose une traduction plus littérale de *trichan ses datz*: "cheating without dice, i.e. 'pulling a fast one', i.e. using deceit"[^v1p206-5].
 
@@ -4113,7 +4113,7 @@ v.93. : /d'el[la]{lang=oc}/ pensatz v.95. : /anc d[. . .]{lang=oc}/ mas mi d
 
 La tentation est grande, on l'avouera, de lire au v.95 également /d'ela/ ou /d'el[la]{lang=oc}/[^v1p208-1]. De la sorte, ces vers deviennent alors une réponse directe à la question posée au v.93 : 'Pensez-vous à elle ? Jamais il ne vous souvint d'elle, mais à moi vous donnez la mort...'
 
-v.96
+[v.96]{.underline}
 
 Suivant en cela la majorité des mss., Pattison lit ici /qe'm sostenc/. Mais peut-on admettre qu'*Amor* veuille donner la mort à l'amant parce que celui-ci se 'défend' ? L'idée est, il faut bien le dire, assez paradoxale. Ou faudrait-il plutôt, comme le fait d'ailleurs Carl Appel[^v1p208-2], adopter la leçon du ms. a : /qe no'm tenc/, 'car je n'offre pas de résistance' ? Sans doute, A est de loin le plus fiable des mss. et ce n'est pas sans raison que Pattison l'a choisi comme ms. de base pour l'édition de cette chanson. Il n'en demeure pas moins que, selon ses propres dires, "Aa read consistently
 
@@ -4145,7 +4145,7 @@ On constate de la sorte que, presque partout, nous retrouvons la négation accom
 
 <!-- page: v1p211 -->
 
-CHANSON XVIII: TEXTE ET TRADUCTION
+[CHANSON XVIII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Aissi mou
@@ -4293,7 +4293,7 @@ je ne me rappelle jamais rien d'elle — sachez-le — sauf de la fois où je la
 
 <!-- page: v1p214 -->
 
-CHANSON XIX: REMARQUES
+[CHANSON XIX]{.underline} : REMARQUES
 
 vv.4-5
 
@@ -4322,7 +4322,7 @@ D'autre part, puisqu'antithèse il y a, il est possible de la renforcer avantage
 
 cause à effet, entre les relations existant entre l'amant et *Amor* d'une part, et celles qui le lient à sa Dame de l'autre, est clairement exprimé par la structure *si...ades*...
 
-v.7
+[v.7]{.underline}
 
 Autant il nous paraissait difficile de suivre Pattison au v.5 et d'assimiler *i* à la Dame, autant la chose est aisément faisable dans le cas de *m'i plüray*, puisque l'antécédent a déjà été exprimé par *Mos Pros*. D'autre part, on notera une fois de plus l'emploi de cette technique, de ce jeu, qui consiste à faire jouer à travers tout un poème le plus de sens différents possibles pour un seul terme, ici *pleure*: 'se fier à (v.4), 'promettre, assurer, garantir' (v.5) et, ici, 's'engager, se lier'.
 
@@ -4330,7 +4330,7 @@ vv.8-9
 
 Là où Pattison traduit ces vers par "I do a bad thing since I am kind to you"[^v1p216-1], Frank M. Chambers suggère de faire du v.8 une interrogative: "Why do I experience evil ?"[^v1p216-2]. La chose est fort possible, bien sûr, de par la présence des termes *Per qu'*. Toutefois, nous préférons nous en tenir à l'interprétation de Pattison, qui a l'avantage de mieux tenir compte du thème que nous avons dégagé plus haut: à savoir, plus l'amant est aimable envers *Amor*, plus il est déçu; En conséquence de quoi, se montrer aimable est une "mauvaise chose".
 
-v.17
+[v.17]{.underline}
 
 En note, Walter T. Pattison fait remarquer que l'idée centrale de ce passage rappelle celle de XVI,25-27[^v1p216-3]. En effet, Raimbaut écrit dans la chanson XVI quelque chose d'analogue, en ce sens qu'il s'y compare également à un "vilain":
 
@@ -4425,7 +4425,7 @@ Cependant, une autre solution s'offre à nous et est également fort tentante, s
 
 <!-- page: v1p226 -->
 
-CHANSON XIX: TEXTE ET TRADUCTION
+[CHANSON XIX]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Amors, cum er ? Que faray ?
@@ -4524,13 +4524,13 @@ Et si ma chanson n'eût quelques fois dure envers *Amor*, une comtesse *nominati
 
 <!-- page: v1p228 -->
 
-CHANSON XX : REMARQUES.
+[CHANSON XX ]{.underline} : REMARQUES. 
 
-v.4
+[v.4]{.underline}
 
 Il est curieux de constater que pratiquement tous les traducteurs et éditeurs de ce poème ont négligé de traduire *comtar*, faisant ainsi fi de la "Synonymendopplung" présente dans ce vers: *non sai ren dire ni comtar*[^v1p228-1]. Ainsi, on trouve dans l'anthologie de Jean Audiau, de même que dans celle de Jeanroy ou Nelli et Lavaud: "Je ne sais plus dire un (seul) mot"; et chez Pattison: "I don't know how to say anything"[^v1p228-2]. La chose est d'autant moins compréhensible, que la traduction de *comtar* ne pose aucun problème: 'compter' ou 'conter, raconter'[^v1p228-3].
 
-v.6
+[v.6]{.underline}
 
 *Motz avars* est en effet à traduire par 'mots hostiles', 'paroles mordantes'[^v1p228-4], et non par "insolences échappées à ma colère" comme le fait Jeanroy[^v1p228-5]. On remarquera d'ailleurs que de cette façon Jeanroy ne tient pas compte, une fois de plus, du texte où il y a cependant de nouveau une série synonymique: *mals digz ... motz avars*.
 
@@ -4550,7 +4550,7 @@ vv.7-10
 
 Sans doute, il y a de là strophe I à II "an overflow of thought" comme le dit Pattison[^v1p229-1]. Toutefois, il n'y a pas lieu pour cela de faire des vv.9-10 une consécutive auprès des vv. 7-8 et ce d'autant que la locution conjonctive introduisant une telle proposition est normalement *(tan, si...)* ...*que* et non *(aitaus)* ... *per que*[^v1p229-2]. Dès lors, on peut fort bien mettre un point après *liaus* et séparer les deux strophes syntaxiquement. Le lien logique, qui existe, est suffisamment exprimé par *per que* (= 'C'est pourquoi...)
 
-v.53
+[v.53]{.underline}
 
 Alfred Jeanroy traduit *ar son trop sors* par "Mais, je m'aventure trop"[^v1p229-3]; Audiau, par "Mais je suis trop bavard"[^v1p229-4] et Pattison par "now sound, you come forth too much"[^v1p229-5]. Pourquoi ne pas prendre *sors* pour un participe passé de *sorzer* et *son* pour une première personne d'*esser*? Cela nous donnerait une traduction parfaitement valable dans ce contexte-ci: 'Maintenant, je suis trop exalté'[^v1p229-6]. Remarquons qu'il est d'autant plus étonnant que Pattison n'ait pas pensé à cette solution, que dans son interprétation il a également recours à *sorzer*, mais pour faire de *sors* une deuxième personne de l'indicatif présent.
 
@@ -4568,7 +4568,7 @@ Alfred Jeanroy traduit *ar son trop sors* par "Mais, je m'aventure trop"[^v1p229
 
 <!-- page: v1p230 -->
 
-CHANSON XX: TEXTE ET TRADUCTION
+[CHANSON XX]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Assatz sai d'amor ben parlar
@@ -4666,9 +4666,9 @@ Et elle tiendra mon *vers* à Rodez, dont je suis natif, car maintenant je le te
 
 <!-- page: v1p232 -->
 
-CHANSON XXI: REMARQUES
+[CHANSON XXI]{.underline} : REMARQUES
 
-v.17
+[v.17]{.underline}
 
 Pour Carl Appel, les verbes *sort'e saill'e tresc* sont tous à la troisième personne de l'indicatif présent, ce qui lui fait traduire: "So habe ich mein (...) Herz (...) aufgebaut, dass es immer hervorkomme, springe und tanze"[^v1p232-1]. Walter T. Pattison, lui, en fait des formes de la première personne, signalant même que *sort* devrait être lu *sortz*[^v1p232-2].
 
@@ -4731,7 +4731,7 @@ En ancien français *pelauder* signifie ordinairement 'battre, rosser, étriller
 
 Quant au seul problème qui nous restait, celui de *fadesc*, nous croyons qu'ici nous pouvons raisonnablement supposer qu'il s'agit en effet d'un substantif, signifiant 'folie' et formé, sans doute, sur *fadeza*. C'est que même si nous ne disposons d'aucun autre exemple d'une telle forme *fadesc*, dans la littérature occitane, nous ne voyons que fort mal quelle autre valeur il faudrait y donner, dans ce contexte. En effet, un des thèmes constitutifs du poème est l'antithèse entre le comportement extérieur du poète et ses véritables sentiments. D'une part, il va faire un *gap*, participer à un *beort* de jongleurs, porter la *gran corona de drap*... Mais, et c'est là que s'opère le revirement: *ieu non sui cel que parese / q'en autre sen m'entrebesec* (vv.20-21). Divorce donc entre l'être et le paraître, divorce qui est encore accentué au moment où il écrit qu'il surpasse tous les autres en ne péchant pas comme un fou, car il aime la plus belle. En d'autres termes, ce sont les autres qui sont fous, ce sont eux qui commettent une folie (c.-à-d. *fadesc*) du fait qu'ils aiment une autre Dame que la sienne: c'est que, [celle-ci]{.underline} étant la plus belle (*genssor*) mériterait l'amour de tous; ne pas l'aimer, ne peut être que folie.
 
-v.32
+[v.32]{.underline}
 
 Le sens de 'moine' que donne Pattison au mot *vout* n'est attesté que par deux exemples seulement, apparaissant dans le Raynouard. Or, l'un de ces exemples est le texte-même de Raimbaut, tandis que l'autre est le commentaire de ce texte que l'on trouve chez Raimon Vidal[^v1p236-1]. Levy, à qui Pattison renvoie également, ne traduit pas ces exemples mais les inclut de façon évidente dans la rubrique 3 de son article *VOUT*, avec le sens de "Heiligenbild (bei Rochegude *volz* 'statue de bois')"[^v1p236-2].
 
@@ -4742,7 +4742,7 @@ Le sens de 'moine' que donne Pattison au mot *vout* n'est attesté que par deux 
 
 Le [FEW]{.underline} ne signale pas non plus cette signification de 'moine'[^v1p237-1], tandis que pour les mots correspondants en ancien français (*volt, vult, voult, vou, vot, veu, vuoult, voul*) on ne trouve également que — comme pour l'occitan — les sens de 'visage', 'traits', 'image', 'figurine', 'Sainte Face', etc.[^v1p237-2] Cela étant, on pourrait donc proposer la traduction 'statue, statue de saint', qui est d'ailleurs également envisagée par Pattison, avant d'être repoussée au profit de l'autre toutefois. Cependant, tout comme il existe en ancien français un substantif masculin *volt* 'voûte' (de *volvere*) à côté de *volte, vaute, vote* (substantif féminin)[^v1p237-3], on pourrait supposer la même chose pour le provençal[^v1p237-4]. S'il en est ainsi, il n'est pas difficile d'assimiler ce 'lieu d'une voûte' (*luoc d'un vout*) à une cellule (voûtée) de moine. Ainsi donc, on en arriverait à environ la même idée que celle exprimée par Pattison, tout en partant de prémisses différentes: "In any case, if Raimbaut did not please his lady, he would live a loveless existence, not courting other women. In XIX, st.viii, he says that, although he smiles outwardly, he has been and will be like a monk"[^v1p237-5].
 
-v.40
+[v.40]{.underline}
 
 Encore que la traduction de Pattison soit acceptable, nous préférerions donner à *sol que* sa valeur de 'pourvu que'. En effet, à traduire cette conjonction par 'except that' ('sauf que'), Pattison ne justifie pas les subjonctifs de cette subordonnée.
 
@@ -4756,7 +4756,7 @@ Encore que la traduction de Pattison soit acceptable, nous préférerions donner
 
 En revanche, la valeur optative de 'pourvu que' justifie pleinement ce mode. En outre, à faire de *sol que s'apil e s'acout* une subordonnée à valeur optative auprès de *E·l janglos saill per so mout*, on accentue le jeu de mots portant sur les verbes des vv. 38-40, rattachant ainsi le texte à ce qu'on pourrait appeler une poétique de l'équivoque: le poète *saill* (= sauter d'amour, de joie) plus haut que tous, le bavard *saill* (= entrer en action) fort à cause de cela, pourvu qu'il puisse *s'apilar / s'acoutar* (= s'appuyer). En d'autres termes, il y a jeu sur les deux sens de *salhir* ainsi que sur les sens matériel et figuré de *s'apilar/s'acoutar*: 'prendre appui' (pour mieux 'sauter') et 'fonder' (ses calomnies).
 
-v.46
+[v.46]{.underline}
 
 Pattison rappelle que "Appel and Crescini both translate 'concerning many who of themselves make me warm', but in interpreting the line Appel says that these are the people 'qui m'échauffent la bile (?)' while Crescini says 'sono costoro gl'insegnati, gli accostumati, i cortesi, che molti sono, i quali di sè fanno caldo il poeta, accendendogli in cuore affeto" (p.1244) !' Starting from the same premise, two of our greatest authorities have come to opposite conclusions! Will we ever understand this poem ?"[^v1p238-1] Pattison lui-même traduit *chaut* par 'cautious', créant donc ainsi une troisième interprétation.
 
@@ -4867,7 +4867,7 @@ curieuse, ce dernier l'appelle simplement *En Raembautz* et il semble commettre 
 
 <!-- page: v1p248 -->
 
-CHANSON XXI: TEXTE ET TRADUCTION
+[CHANSON XXI]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Ben s'eschai q'en bona cort
@@ -4950,9 +4950,9 @@ Je ne veux pas que ma chanson s'élance, sauf pour ceux auprès de qui je trouve
 
 <!-- page: v1p250 -->
 
-CHANSON XXII : REMARQUES
+[CHANSON XXII ]{.underline} : REMARQUES
 
-v.16
+[v.16]{.underline}
 
 Là où Carl Appel voit en ce vers une question et traduit *temer* par "craindre"[^v1p250-1], Walter T. Pattison en fait une relative auprès de *lieis*, ce qui nous semble en effet plus approprié — et donne à l'infinitif la valeur "technique" qu'il peut avoir dans le vocabulaire amoureux[^v1p250-2] de "to be afraid of revealing one's passion to other people", de là "to conceal one's love"[^v1p250-3]. Le problème se pose alors au v.18, bien sûr, où le poète affirme *q'ieu no i faz ges feignien semblan* ("so, that I never disguise my face in such a case"). Ainsi, on aurait ici deux affirmations successives, se contredisant formellement l'une l'autre : dans la première l'amant dirait qu'il s'efforce de cacher (*temer*) son amour, dans la seconde il déclare qu'il lui est agréable (*Bo'm sap*, v.17) de ne pas cacher ses sentiments ! D'autre part, et cela ne fait qu'ajouter à la confusion, dans la strophe II, le poète répond à la question implicite qu'il posait au début de son poème : pourquoi est-ce que je chante si souvent ? Non pas pour de l'argent (vv.1-3), et ma Dame le sait bien (vv. 4-7), mais bien parce que mon chant me procure un autre *plazer* (v.8) dans la mesure où chaque fois que je chante, je *nomme* ma Dame, ce que je serais incapable de faire normalement, *auzen totz* (v.11). Remarquons, entre parenthèses, que Pattison évite soigneusement le problème que pose ce verbe *nommar*, en restant fort vague dans sa traduction[^v1p250-4]. Ce qui lui permet, par ailleurs,
 
@@ -5052,7 +5052,7 @@ Traduction de Pattison: "... nor it is fitting that I should be in dismay here b
 
 et syntaxiques: "Und das darf auch nicht sein, *denn* in Verzweifelung würde ich hier zurückbleiben"[^v1p257-1].
 
-v.39
+[v.39]{.underline}
 
 La tradition manuscrite est évidemment corrompue à cet endroit: *doncs mon cor ab jauzen ver* (C); *donc mon jauzen ver* (E); *anz donc mon gran ben gauzen ver* (a). Si Pattison a certainement raison de préférer à la *lectio facilior* de a[^v1p257-2], la reconstruction qu'il donne (*donx mon gran ben ab jauzen ver*), il n'en demeure pas moins que sa traduction nous semble fort peu satisfaisante: "Shall I conceal then my great good and its joyous truth ?"[^v1p257-3]. Sans doute, elle est logique. Mais c'est à notre sens justement par là qu'elle pèche, d'autant qu'elle ne respecte pas le texte (*ab* !). Nous traduirions, littéralement, 'Couvrirais-je donc mon grand bien avec vérité joyeuse ?' Contrairement à ce qu'on pourrait croire, il n'y a ici aucune contradiction, dans la mesure où, de par ses exagérations-mêmes, cette chanson est en partie une espèce de *gap*[^v1p257-4], une plaisanterie. Ce *jauzen ver* nous semble en effet désigner très exactement les procédés employés dans ce texte: le poète ne travestit pas la vérité (v.17), il ne ment pas (voir aussi les str.VII-IX), il la donne -en effet- en riant, de sorte que du fait même elle est cachée. On a là, pour ainsi dire, une définition rigoureusement exacte du procédé qui lui a fait employer le terme *nommar* tout en ne "nommant" (=donner le nom) jamais sa Dame!
 
@@ -5063,7 +5063,7 @@ La tradition manuscrite est évidemment corrompue à cet endroit: *doncs mon cor
 
 <!-- page: v1p258 -->
 
-V.54
+[V.54]{.underline}
 
 Pattison a sans aucun doute raison de supposer que *trai* puisse être un substantif analogue à l'ancien français *trait*, ayant par conséquent le sens de 'durée, longueur de temps'[^v1p258-1]. Il n'en demeure pas moins que s'il faut traduire *i a trai* par 'for a while', comme il le suggère, on se heurte à quelques problèmes. Pattison donne une traduction satisfaisante, il est vrai, mais pour ce faire il est obligé de faire violence au texte, en rendant *par* (v.56) par une forme du passé, alors qu'il s'agit indubitablement d'un indicatif présent: "And the truly [*courteous*]{lang=en} are accused because, for a while, that one who has the appearance without real strength [*of noble virtue*]{lang=en} [*has seemed*]{lang=en} courteous, even if it is not so"[^v1p258-2]. D'autre part, et la chose ne nous semble pas sans importance, à lire ce vers de cette façon, il introduit un hiatus pour le moins gênant (*i/a*) qui allonge indûment le vers d'une syllabe.
 
@@ -5077,7 +5077,7 @@ Pour notre part, nous préférons l'interprétation de Kurt Lewent qui voit en *
 
 <!-- page: v1p259 -->
 
-CHANSON XXII : TEXTE ET TRADUCTION
+[CHANSON XXII ]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Ben sai c'a sels seria fer
@@ -5185,7 +5185,7 @@ Quand la chandelle me fit vous voir, baisant, riant, ah! quel soir!
 
 <!-- page: v1p261 -->
 
-CHANSON XXIII: REMARQUES
+[CHANSON XXIII]{.underline} : REMARQUES
 
 **v.4**
 
@@ -5247,11 +5247,11 @@ Pourquoi ne pourrait-on pas, dès lors, avoir une forme *trauc*?
 
 <!-- page: v1p264 -->
 
-v.40
+[v.40]{.underline}
 
 Walter T. Pattison traduit *fort mal joc partit a atret* par "he has thus made a very bad division"[^v1p264-1]. Comme l'a montré Paul Remy à propos du roman breton et de l'épopée, "Le jeu est 'mal parti' ou n'est pas 'à droit parti' quand les conventions ne sont pas respectées, quand les forces en présence (les chances de gagner) sont inégales, quand la joie ou l'amour n'est pas partagé"[^v1p264-2]. C'est exactement de cela qu'il s'agit ici, ce qui est d'ailleurs annoncé aux vv. 37-38: *C'amar vos mi fai de tal guisa / on nostr'amor es mal devisa* '...puisqu'il (= le dieu Amor) me fait vous aimer de telle sorte, que notre amour est mal partagé'. Et si cet amour est *mal devisa*, c'est que *qu'us am e vos no amaz mi* 'je vous aime et vous ne n'aimez pas' (v.39). Aussi bien, plutôt que d'affaiblir le sens de cette expression et de risquer de perdre ses diverses connotations, nous préférons la garder telle quelle, sans la traduire.
 
-v.43
+[v.43]{.underline}
 
 Carl Appel garde la leçon du ms. (*e ve*)[^v1p264-3], alors que Pattison l'émende en *e vec*[^v1p264-4]. On pourrait se demander, à juste titre pensons-nous, pourquoi il procède à une telle émendation, étant donné qu'il traduit ce qu'il a corrigé en une première personne de l'indicatif présent, par un impératif: "See how
 
@@ -5301,11 +5301,11 @@ Pour Pattison, le v.61 explicite le *vos e Amors* du vers précédent, ce qui lu
 
 me rendre sain et me guérir, ne vous aurait-il certes pas fallu adoucir *Amor* ?"
 
-V.80
+[V.80]{.underline}
 
 *E vos* chez Pattison est, bien entendu, une erreur typographique pour *E vos*.
 
-v.100
+[v.100]{.underline}
 
 Walter T. Pattison refuse la lecture de Carl Appel (*Era gardaz*; dont la leçon du ms., *era gradaz*, ne serait qu'une métathèse) parce que, avance-t-il, "It is difficult to see how this correction aids our comprehension of the passage"[^v1p267-1]. Toutefois, si celle que propose Pattison (*er agardaz*) s'insère en effet fort bien dans le contexte, apparemment du moins, elle ne laisse pas de poser plusieurs problèmes.
 
@@ -5338,11 +5338,11 @@ Un verbe *agradar* personnel et transitif paraît donc manquer de plus en plus d
 
 A cela, l'éditeur d'Aimeric de Belenoi devait d'ailleurs ajouter: "... un copiste qui écrit *comulas* pour *comunals* (v.34) peut très bien avoir commis aussi cette autre faute, *graz*, pour *gar-*"[^v1p269-1]. Quant au sens de *gardar* — ce qui était, on s'en souviendra, la raison pour laquelle Pattison refusait la correction proposée par Carl Appel — nous ne voyons vraiment pas pourquoi on ne pourrait pas traduire par 'regarder, observer'[^v1p269-2] qui, à notre avis, peut fort bien faire l'affaire ici: 'Maintenant, vous observez si je vous aime et si je vous désire' ou bien 'Maintenant, vous observez que je vous...'. Et, dans les vv.suivants: mais dites-vous bien que même si vous ne m'aimiez plus (ou pas), moi, je ne cesserai jamais de vous aimer (vv.101-106).
 
-v.148
+[v.148]{.underline}
 
 Traduction de Pattison: "know that you ['also']{.unclear} lose in it"[^v1p269-3]. Pourquoi ne pas traduire également *be(n)* 'beaucoup'[^v1p269-4]
 
-v.155
+[v.155]{.underline}
 
 Pattison considère la proposition *e si n'auria asaz razos* comme une hypothétique ("and if I had justice clearly on my side"[^v1p269-5]). On ne manquera pas d'observer cependant la présence dans cette proposition d'un verbe au conditionnel, ce qui, on le sait, est hautement inhabituel dans une hypothétique[^v1p269-6]. Pourquoi ne pas dès lors suivre la lecture de Carl Appel[^v1p269-7], que
 
@@ -5358,11 +5358,11 @@ Pattison considère la proposition *e si n'auria asaz razos* comme une hypothét
 
 préconise d'ailleurs également Frank M. Chambers: "*... and yet I would have enough reasons (or justifications)* (...) There should be a period at the end of this line, and a comma or semicolon at the end of line 156"[^v1p270-1].
 
-v.167
+[v.167]{.underline}
 
 Là où le ms. présente *ren dir*, Pattison lit *rendir* dont il fait apparemment une variante de *rendre* et qu'il traduit par 'to give in'[^v1p270-2]. Comme nous n'avons pu trouver nulle part trace d'une pareille variante, nous préférons nous en tenir au manuscrit et traduire par: 'Ne pouvez-vous rien dire avec merci (=par merci)?'.
 
-v.182
+[v.182]{.underline}
 
 Pour *domde* 'dompté', on se rapportera, outre aux notes de Carl Appel et de Pattison[^v1p270-3], également à Pellegrini[^v1p270-4] et au *Französisches Etymologisches Wörterbuch*[^v1p270-5].
 
@@ -5374,7 +5374,7 @@ Pour *domde* 'dompté', on se rapportera, outre aux notes de Carl Appel et de Pa
 
 <!-- page: v1p271 -->
 
-CHANSON XXIII: TEXTE ET TRADUCTION
+[CHANSON XXIII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
     Donna, cel qe·us es bos amics,
@@ -5620,13 +5620,13 @@ Dame, si je reçois la mort par vous, il ne vous en sera aucun avantage. Est-ce 
 
 <!-- page: v1p276 -->
 
-CHANSON XXIV: REMARQUES
+[CHANSON XXIV]{.underline} : REMARQUES
 
-v.2
+[v.2]{.underline}
 
 Comme le remarque A.H. Schutz, la traduction que donne Walter T. Pattison de *so que vueilh comensar* ("which I am beginning"[^v1p276-1]) est une "peripheral translation as, unfortunately, elsewhere"[^v1p276-2]. Cette traduction par trop vague est d'autant plus regrettable dans ce cas-ci que, comme l'ont montré à suffisance tant Erich Köhler que Nicolò Pasero, il y a dans ce poème une intention délibérée, consciemment voulue: le poète se réfère sans aucun doute possible au *farai un vers de dreit nien* de Guillaume IX d'Aquitaine[^v1p276-3].
 
-v.10-11
+[v.10-11]{.underline}
 
 Là où Pattison traduit le v.11 par "no one should blame me for it"[^v1p276-4], A.H. Schutz objecte qu'il vaudrait mieux traduire *caestiar* par 'to counsel' ('conseiller')[^v1p276-5]. A vrai dire, cette remarque ne nous semble pas fort pertinente, dans la mesure où elle mènerait vers la traduction suivante: 'Quoique vous le considériez comme une folie, je ne pourrais pas m'empêcher de dire ce que je veux: on ne devrait pas me le conseiller' (?). D'autre part, on remarquera que ni Jeanroy ni Pattison ni Schutz[^v1p276-6] ne semblent se préoccuper de *cujeis*. Bien sûr, *cuidar*
 
@@ -5641,7 +5641,7 @@ Là où Pattison traduit le v.11 par "no one should blame me for it"[^v1p276-4],
 
 suivi d'un infinitif peut avoir éventuellement le même sens que le verbe seul[^v1p277-1], mais cela n'est pas toujours le cas[^v1p277-2] et *cuidar* présente un champ sémantique que l'on pourrait fort bien appliquer ici : 'croire, penser, s'imaginer, se proposer'[^v1p277-3]. Cela étant, et compte tenu du fait que *castiar* peut également signifier "détourner quelqu'un de quelque chose"[^v1p277-4], nous proposerions la traduction suivante : 'Personne ne devrait se proposer de m'en détourner (i.e. de dire ce que je veux = *que ieu mon talen non disses*), ce qui correspond d'ailleurs à la traduction, assez libre il est vrai, de Jeanroy[^v1p277-5].
 
-v.19
+[v.19]{.underline}
 
 Le pronom masculin *sel* qui apparaît uniquement dans le ms. [R]{.underline} (C : *selh* ; M : *celh* ; a : *lieis*) est rejeté par Pattison au profit du féminin *selh*, car "the feminine form is in keeping with what Raimbaut says in the next line"[^v1p277-6]. Cela est vrai, à première vue, encore que si l'on considère, non ce qui suit, mais ce qui précède, rien n'annonce un féminin (*mos amics*...). Toujours est-il qu'il nous semble y avoir quelque raison de garder malgré tout la leçon de [R]{.underline} qui, de l'aveu-même de Pattison "shows very few individual variants
 
@@ -5662,7 +5662,7 @@ against a moderate number for C"[^v1p278-1]. C'est d'ailleurs pour cette raison 
 
 <!-- page: v1p279 -->
 
-CHANSON XXIV: TEXTE ET TRADUCTION
+[CHANSON XXIV]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Escotatz, mas no say que s'es,
@@ -5735,9 +5735,9 @@ Maintenant, je termine mon *no-say-que-s'es*, car ainsi j'ai voulu le baptiser: 
 
 <!-- page: v1p281 -->
 
-CHANSON XXV : REMARQUES
+[CHANSON XXV ]{.underline} : REMARQUES
 
-v. 5
+[v. 5]{.underline}
 
 La traduction de Pattison de *Per que'us metetz amaire* ("*Why do you bother with love ?*"[^v1p281-1]) — qui n'est d'ailleurs, à peu de choses près, qu'un calque de celle de Jeanroy[^v1p281-2] — ne nous semble pas satisfaisante du tout. L'erreur première est sans doute due à Jeanroy qui prenant peut-être *amaire* pour un équivalent de l'infinitif, pouvait dès lors, en effet, se permettre de traduire *se metre [+ infinitif]* par 'se mêler de'[^v1p281-3]. Cette erreur devient d'ailleurs plus évidente encore lorsqu'on voit Alfred Jeanroy supposer, en outre, un complément d'objet direct à ce qu'il croit être un infinitif: "Pourquoi vous mêlez-vous d'aimer *ce mal* si vous voulez me laisser tout le mal"[^v1p281-4].
 
@@ -5758,7 +5758,7 @@ vv.29-31
 
 Traduction de Pattison: "Friend, I am not at all grateful to you, for harm to me *from slander* does not restrain you from seeing me, which I beseech you to do"[^v1p282-1]. Nous ne comprenons pas la nécessité — ni d'ailleurs la provenance — de la négation (*does not restrain*) dans cette phrase. Quoique fort libre, la traduction d'Alfred Jeanroy nous semble plus conforme à l'esprit du texte: "Ami, je ne vous sais aucun gré du souci qui vous retient loin de moi quand je vous désire"[^v1p282-2]. Voulant rester, quant à nous, plus près du texte, nous proposerions la traduction suivante: 'Ami, je ne vous sais aucun gré, car maintenant *le souci* de mon malheur vous retient de me voir, ce que je vous demande' (i.e. de revenir me voir).
 
-v.37
+[v.37]{.underline}
 
 Tant Jeanroy que Pattison lisent *qu'aur perdù, e vos arena* et traduisent: "Dame, je crains fortement de perdre moi de l'or et vous du sable"[^v1p282-3] et "Since I stand to lose gold and you *but* sand"[^v1p282-4]. Il n'y a là donc aucune divergence, si ce n'est que Jeanroy fait de ce vers une complétive auprès de *ieu tem* (v.36), ce qui normalement demanderait un verbe au subjonctif dans la subordonnée[^v1p282-5]. C'était là également la solution préconisée par Oscar Schultz-Gora qui modifiait d'ailleurs,
 
@@ -5795,7 +5795,7 @@ Toutefois, cette humilité extrême — si humilité il y a! — se retourne con
 
 En fait, nous avons ici, une fois de plus, une de ces "perversions" du langage propres à Raimbaut: l'image, courtoise au départ, est prise à la lettre et se retourne contre son auteur. De la sorte, ce n'est plus l'amant inconstant qui est mis en accusation ici, mais bien plutôt le poète qui a commis une faute de "langue": il a abandonné le registre de la courtoisie pour celui de la "finance"! Ou comme le dit sa Dame: *ieu cug que de cavalier siatz devengutz camjayre* (v.46)! Et que sa faute se situe bien à ce niveau registral, nous semble prouvé par la suite du poème, où l'on voit le narrateur abandonner immédiatement ce registre d'expression pour en revenir à des paroles plus appropriées: *Dona, ja mais esparvier/ no port, ni cas ab serena / s'anc (...) / fui de nulh'autr'enquistataire* (vv.50-53). Maintenant, il parle de nouveau comme un *cavalier*, et c'est ainsi (*per aital*, v.57), c'est-à-dire en cette qualité, que la Dame peut le croire *leyal*[^v1p285-1].
 
-v.40
+[v.40]{.underline}
 
 Pour Pattison, *tener en gaire* "is the only really difficult expression in the poem"[^v1p285-2]. Aussi, on ne manque pas de s'étonner de le voir se contenter de la paraphraser par "to be on the watch (?)", sans autre forme d'explication, si ce n'est une référence à la traduction de Jeanroy qui lui semble "about right as to sense"[^v1p285-3].
 
@@ -5823,7 +5823,7 @@ Traduction de Pattison: "Friend, I know you are so frivolous and given to the wa
 
 <!-- page: v1p287 -->
 
-v.51
+[v.51]{.underline}
 
 La traduction de *serena* ne laisse pas de poser quelques problèmes. Ainsi, on est en droit de se demander sur quoi se fondait Oscar Schultz-Gora lorsqu'il affirmait que "Dass es an unserer Stelle einen Jagdvogel bedeutet, scheint mir, besonders da *caasar ab* der technische Ausdruck ist ([MW]{.underline}, I, 300) nicht zweifelhaft"[^v1p287-1]. Cette identification trop hardie devait d'ailleurs se heurter bien vite aux objections de Carl Appel: "*Serena ist kein Jagdvogel, sondern ein kleiner Vogel: Grünspecht, Bienenvogel, Zeisig oder ähnlich*"[^v1p287-2]. Quant à Pattison, tout en reconnaissant que le sens 'oiseau de proie' est uniquement dû à l'apparition du mot dans le contexte de ce poème, il n'en admet pas pour autant l'objection de Carl Appel et traduit *serena* par 'falcon', spécifiant ainsi davantage encore le sens (hypothétique !) de ce terme.
 
@@ -5845,7 +5845,7 @@ Dès lors, faute de données supplémentaires et conclusives, force nous est de 
 
 <!-- page: v1p289 -->
 
-CHANSON XXV: TEXTE ET TRADUCTION.
+[CHANSON XXV]{.underline} : TEXTE ET TRADUCTION.
 
 ::: {.verse lang=oc}
 Amics, en gran cossirier
@@ -5945,17 +5945,17 @@ Dame, ainsi vous m'aurez loyal car jamais, certes, je ne penserai à autre chose
 
 <!-- page: v1p291 -->
 
-CHANSON XXVI: REMARQUES.
+[CHANSON XXVI]{.underline} : REMARQUES.
 
-v.14
+[v.14]{.underline}
 
 Plutôt que de traduire *non ten pro* par "it finds no advantage", ainsi que le fait Walter T. Pattison[^v1p291-1], nous préférons suivre Émil Levy: 'elle n'est pas utile'[^v1p291-2]. De la sorte, l'idée exprimée dans les vv.13-14 est la suivante: ma langue ne sert qu'à demander merci. Pour le reste, elle est inutile et ne m'aide en rien.
 
-v.22
+[v.22]{.underline}
 
 Lire *mos* et non *mors*[^v1p291-3]
 
-v.23-24
+[v.23-24]{.underline}
 
 Si nous sommes tout à fait d'accord avec Pattison quant à l'interprétation de *non-poder*[^v1p291-4], il reste que sa traduction de ce passage -"a dazed condition seizes me so that I do not now proclame her here with my breath (i.e. words)"[^v1p291-5]- nous paraît beaucoup moins convaincante. Le lecteur remarquera qu'il ne traduit pas *si que* (v.23), de sorte que ce vers devient chez lui une principale, alors que de toute évidence il est en étroite relation de dépendance par rapport à ce qui précède. Refusant de voir en *si que* une conjonction de subordination, Pattison fait de *si* un adverbe auprès de *te* ("...seizes me *so*, that..."). D'autre part, affirmant que le sens de ce vers n'est pas satisfaisant si l'on prend *cor* pour une forme de *corre(r)*, il prétend
 
@@ -5979,7 +5979,7 @@ En outre, nous ne voyons pas non plus en quoi ces diverses modifications clarifi
 
 Au contraire, tout devient bien plus clair si l'on considère *cor* comme une première personne de l'indicatif présent de *corre(r)* et *si que* comme la conjonction de subordination 'de sorte que', ce qui nous donne la traduction suivante pour les vv.22-24 : '... car je ne désire rien d'autre, de sorte que *Non-Poders* me (re)tient et que maintenant je ne cours pas là...'. On remarquera, en outre, que de cette façon on conserve le parallélisme *lai* (v.21) / *lai* (v.24). Reste à traduire *ab l'ale*. Il est inutile, croyons-nous, de s'arrêter à l'interprétation de Pattison ("with my breath, i.e. words") qui, même dans son hypothèse, nous semble par trop inconsistante. Ne pourrait-on pas y voir cependant quelque chose d'analogue à l'*expression a un alen* 'd'une haleine, sans interruption'[^v1p293-1]? Ce qui, dans notre contexte, ferait bien entendu tout à fait l'affaire.
 
-v.30
+[v.30]{.underline}
 
 Au lieu de *quar*, nous lisons *qu'ar*, ce qui se justifie mieux, syntaxiquement.
 
@@ -6001,7 +6001,7 @@ vv.33-35
 
 La traduction de Pattison ("if you think that I am still not worthy to lie with you"[^v1p294-2]) nous semble trop vague et ambiguë. *Dejatz* est une cinquième personne du subjonctif présent de *dever*, en d'autres termes, son sujet ne peut être que la Dame, ce qui nous fait traduire comme suit: 's'il vous paraît que je ne vaux pas encore autant que vous deviez me donner à coucher auprès de vous'[^v1p294-3].
 
-v.39
+[v.39]{.underline}
 
 Pattison traduit *tanh meils* par "it would be better..."[^v1p294-4]. En fait, nous avons ici un indicatif qui requiert la traduction 'il vaut mieux...'
 
@@ -6015,7 +6015,7 @@ Pattison traduit *tanh meils* par "it would be better..."[^v1p294-4]. En fait, n
 
 <!-- page: v1p295 -->
 
-v.61
+[v.61]{.underline}
 
 A vrai dire, ce vers nous pose devant un problème insoluble: il est absent du ms. [E]{.underline}, tandis que [V]{.underline} nous donne une leçon manifestement corrompue, *ni noges nuïlls mals parlars* (ce qui apparaît de l'absence de la rime en -*etz* requise ici). Pattison tente de résoudre le problème en croyant que "the meaning of the line can be deduced from the rest of the stanza. Raimbaut would like to make it impossible for a lover to be blamed or thrown into disfavor by sighing, seeing, or knowing too much. The lover commits no fault as long as he keeps his feelings within him, but if he speaks openly of his love, he has done the unpardonable (...) From this it is clear that Raimbaut said that a lover 'could do no wrong or misdeed *if it were not by speaking injudiciously*'..."[^v1p295-1]. Pour en arriver à une phrase de ce type, il change le *ni* du ms. en *si*, lit *no es* pour *noges* et tente infructueusement de trouver un mot en -*etz* à la rime, soit un verbe signifiant 'parler, proférer...', soit un adjectif modifiant *parlars*, tout en laissant tomber *nuïlls*.
 
@@ -6029,7 +6029,7 @@ Il est un fait que les rimes en -*etza* n'offrent pas beaucoup de possibilités[
 
 <!-- page: v1p296 -->
 
-CHANSON XXVI: TEXTE ET TRADUCTION
+[CHANSON XXVI]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Dona, si m'auzes rancurar
@@ -6145,13 +6145,13 @@ Proefschrift voorgelegd tot het behalen van de graad van doctor in de Letteren e
 
 <!-- page: v2p001 -->
 
-CHANSON XXVII : REMARQUES
+[CHANSON XXVII ]{.underline} : REMARQUES
 
-v.23
+[v.23]{.underline}
 
 Là où Pattison choisit, contrairement à Kolsen et à Martín de Riquer la leçon du ms. *a* (*pez*, au lieu de *pretz*, ms. *A*)[^v2p001-1], Charles Roth préfère garder *pretz*, argumentant que la tendance du ms. *a* est de remplacer -tz final par -s et non le contraire, et que, pour le sens, *pretz* s'accorde fort bien avec *valetz* du v.21[^v2p001-2]. On remarquera qu'il ne s'agit pas ici de remplacer -s par -tza, mais uniquement -s par -z (*pez/pe(n)s*), ce qui n'est tout de même pas pareil. D'autre part, nous ne voyons pas en quoi *pretz* et *valetz* s'accorderaient "pour le sens": *pretz/pez* se rapportent au poète, tandis que *valetz* se rapporte à la Dame!
 
-v.37
+[v.37]{.underline}
 
 Comme le remarque Charles Roth, la forme *presetz* peut en effet être interprétée tant comme un parfait de *prezar* que de *prendre*[^v2p001-3]. Reste que si l'ambiguïté demeure, il est un fait que si l'on opte pour une forme de *prendre*, on obtient en conjonction avec *presen*, une belle *replicatio*.
 
@@ -6161,7 +6161,7 @@ Comme le remarque Charles Roth, la forme *presetz* peut en effet être interpré
 
 <!-- page: v2p002 -->
 
-CHANSON XXVII: TEXTE ET TRADUCTION
+[CHANSON XXVII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Non chant per auzel ni per flor
@@ -6244,9 +6244,9 @@ Voyez Dame, comme Dieu aide dame qui se plaît à aimer. Car Yseut était en gra
 
 <!-- page: v2p004 -->
 
-CHANSON XXVIII : REMARQUES
+[CHANSON XXVIII ]{.underline} : REMARQUES
 
-v.19
+[v.19]{.underline}
 
 Comme ne manque pas de le remarquer, fort justement, Walter T. Pattison, "the expression *coïnde e degeretz* gives trouble"[^v2p004-1]. Partant du principe que *coïnde* se retrouve habituellement dans des syntagmes du type *coïnde e gai, coïnde e van*[^v2p004-2], il lui semble qu'ici aussi les significations de ces deux adjectifs doivent être plus ou moins parallèles; ce qui l'amène à traduire l'expression par "likable and genteel (?)".
 
@@ -6302,7 +6302,7 @@ vv.45-46
 
 <!-- page: v2p008 -->
 
-CHANSON XXVIII : TEXTE ET TRADUCTION
+[CHANSON XXVIII ]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Lonc temps ai estat cubertz,
@@ -6389,9 +6389,9 @@ J'aimerais que la comtesse de Monrosier entende ma joie parfaite.
 
 <!-- page: v2p010 -->
 
-CHANSON XXIX: REMARQUES
+[CHANSON XXIX]{.underline} : REMARQUES
 
-v. 5
+[v. 5]{.underline}
 
 Rejetant tant l'interprétation d'Adolf Kolsen que celle de Kurt Lewent, Walter T. Pattison traduit *e no·i faz semblan trop bel* par "and I am not indulging in too fine an illusion"[^v2p010-1]. Il prend donc *semblan* au sens figuré, argumentant que "Raimbaut means that he is not assuming too much in thinking that his love is returned"[^v2p010-2]. Que le poète ait le droit de croire et de dire cela, on en aurait la preuve, toujours selon Pattison, dans la suite du poème: "Later (v.60) he uses the same thought: he has good reasons to be vainglorious about so great a love"[^v2p010-3].
 
@@ -6407,7 +6407,7 @@ Personnellement, nous préférons suivre ici Kurt Lewent et traduire *semblan* p
 
 En outre, et nous y voyons un autre argument en faveur de l'interprétation de Lewent, en arborant une mine par trop radieuse, en affichant de la sorte, ouvertement, son bonheur, le poète risquerait de contrevenir gravement à la règle de discrétion absolue que se doit de respecter tout amant courtois. C'est d'ailleurs ce qu'il explicite dans les strophes V et VI: si je dis ce qu'il convient que mon coeur garde caché, tout le monde saurait bien vite quelle est ma Dame (str.V); je l'aime tellement que je voudrais le dire à tous, mais *Temers, Cortesia et Ben-Amars* m'en empêchent[^v2p011-1] (str.VI). Mieux encore, dans la strophe VII, il reprend visiblement le motif du *trop bel semblan* qu'il ne peut montrer, en faisant remarquer que lorsqu'il entend parler de sa Dame par d'autres, il se croit au Paradis, tant il est heureux, mais sa joie demeure intérieure: *si ri mon cor de joy ple* (v.44)[^v2p011-1].
 
-v.17
+[v.17]{.underline}
 
 L'hypothèse de Pattison, qui émende la leçon du ms.^V^ (ms.unique) *enuolt* (et non *en uolt*, ainsi que le lit Pattison[^v2p011-2]) en *en luoc*, ne nous semble pas particulièrement justifiée, même s'il affirme que "it is merely a question of the position of one letter, l, and the easily confused c and t"[^v2p011-3]. Nous ne pouvons accepter cette émendation, d'autant plus que l'interprétation de Kurt Lewent — qui voit en *enuolt* le participe de *envolver* 'envelopper, cacher, voiler'[^v2p011-4] — nous semble
 
@@ -6431,11 +6431,11 @@ D'autre part, Pattison ne se déclare pas satisfait par l'interprétation de Kur
 
 veux, et que ce 'signe' fut 'caché, voilé' n'a, à ce qui nous semble, rien d'étonnant ni de contradictoire par rapport au contexte[^v2p013-1].
 
-v.26
+[v.26]{.underline}
 
 Les deux sens de *revel* ('rebellion, opposition' — 'joie, plaisir') que signale Pattison sont suffisamment attestés, tant en ancien occitan qu'en ancien français[^v2p013-2], de sorte que les deux interprétations dont il fait état sont en effet possibles[^v2p013-3].
 
-v.43
+[v.43]{.underline}
 
 La leçon du ms. est *uolia ses dans*, que Pattison corrige en *uolia ses ris*. Pour intéressante qu'elle soit, cette conjecture reste cependant parfaitement arbitraire et Pattison ne parvient pas à nous convaincre du bien-fondé de son intervention, quoiqu'il affirme qu'elle est "sufficiently explained in the translation"[^v2p013-4]! Celle de Kurt Lewent, en revanche, nous semble bien plus probable (*valia sens Danis*) et, en tout cas, plus proche du texte[^v2p013-5].
 
@@ -6469,7 +6469,7 @@ Dans cette optique, on pourrait supposer la traduction suivante: '...car je croi
 
 Sans pour cela rejeter notre propre lecture — qui nous paraît de toute façon plus satisfaisante que celle de Pattison — nous ne voudrions cependant pas non plus exclure l'interprétation de Lewent qui, lisant *s'es folia* et donnant à *si(i)* le sens de 'même si' (concessif), argumente que "the *sol que* of l.49 makes sense only by assuming that the poet likes any talk about his beloved, even if it is foolish"[^v2p015-1] et traduit: "...that, when I hear people speak of my Lady (...) I think I am in paradise, even if that which they say is foolish, provided they are only talking to me of her"[^v2p015-2].
 
-v.67
+[v.67]{.underline}
 
 Là où le ms. présente la leçon *que fetz tam be*, Walter T. Pattison suit la lecture d'Adolf Kolsen et propose donc *que'us fetz*. Kurt Lewent, pour sa part, conserve la leçon du ms. Il concède à Kolsen que le sens de ce vers semble en effet requérir le pronom *us*, mais fait remarquer que "there are other cases in Old Provençal where a qualifier logically belonging to either of two coordinate parts of a sentence is named only with the second one"[^v2p015-3]. Pattison n'accepte pas cette argumentation, en faisant observer que ce genre de construction n'est attestée que quatre fois seulement (ce cas-ci inclus) et que "it would be a mistake to lean too heavily on the authority of a text preserved in one ms.; had we several mss. the chances are that *que'us fetz*
 
@@ -6489,7 +6489,7 @@ Si en effet l'objection de Pattison nous semble parfaitement valable, nous n'y v
 
 <!-- page: v2p017 -->
 
-CHANSON XXIX: TEXTE ET TRADUCTION
+[CHANSON XXIX]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Ara·m so del tot conquis,
@@ -6605,9 +6605,9 @@ Qui ne respecte pas ma folie, qu'il meure promptement ou par couteau ou par pier
 
 <!-- page: v2p020 -->
 
-CHANSON XXX : REMARQUES
+[CHANSON XXX ]{.underline} : REMARQUES
 
-v.11
+[v.11]{.underline}
 
 Pattison traduit *ie'n teing los datz*, littéralement, par "I have the dice"[^v2p020-1], mais il ajoute que "Raynouard lists *aver los datz* as an idiomatic expression meaning 'to have the advantage over one's opponent'; as the possessor of the dice has the chance in his favor"[^v2p020-2]. Remarquons à ce propos que Pattison semble ici pour le moins forcer la pensée de Raynouard, dans la mesure où celui-ci ne fait que donner un exemple de cette expression — *aiatz los datz* — qu'il traduit sans autre forme de commentaire par 'ayez les dés'[^v2p020-3]! D'autre part, on trouve chez le même Raynouard un exemple de *tener los datz*, emprunté à Gui de Cavaillon[^v2p020-4] — et qu'il traduit de façon tout aussi littérale[^v2p020-5] — mais qui reçoit chez Emil Levy le sens de 'das Spiel in der Hand haben', ensemble avec d'autres exemples analogues[^v2p020-6].
 
@@ -6663,11 +6663,11 @@ d'amic com es et er fon
 
 Seigneur, il sera décidé et *jugé* comment est, sera et fut un amant.
 
-v.35
+[v.35]{.underline}
 
 Vu le contexte, il est évident que *dezir* se réfère ici (tout comme au v.66) à "la nostalgie de l'amour ou au moins d'un signe confirmant que la dame a reconnu l'amour du poète"[^v2p023-3]. C'est là justement ce que reproche Raimbaut à la *dompna c'am a lairo* (v.29), de ne pas aimer "courtoisement". Ce motif sera repris, de façon inversée, à la fin du poème, là où il affirme justement la présence effective de ce *dezir* ("nostalgie...") dans son propre cas.
 
-v.59.
+[v.59.]{.underline}
 
 Comme le remarque Walter T. Pattison, la traduction 'chaîne' que propose Raynouard pour le mot *cana* — et déjà mise en doute par Emil Levy — est phonétiquement impossible[^v2p023-4].
 
@@ -6692,7 +6692,7 @@ Pourquoi ne pourrait-on pas considérer *cana* comme un continuateur du lat. *ca
 
 <!-- page: v2p025 -->
 
-CHANSON XXX: TEXTE ET TRADUCTION
+[CHANSON XXX]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 A mon vers dirai chansso
@@ -6804,7 +6804,7 @@ et si vous me donnez après long *desir*, le bien que vous devriez m'offrir.
 
 <!-- page: v2p027 -->
 
-CHANSON XXXI : REMARQUES
+[CHANSON XXXI ]{.underline} : REMARQUES
 
 vv.16-17
 
@@ -6990,7 +6990,7 @@ La *cort rial* (...) *ric e cabal* vers laquelle Giraut de Bornelh dit s'en alle
 
 <!-- page: v2p039 -->
 
-CHANSON XXXI: TEXTE ET TRADUCTION
+[CHANSON XXXI]{.underline} : TEXTE ET TRADUCTION
 
 [[hand: page carries extensive handwritten annotations — roman numerals I–V in the left margin marking the strophes, plus circled words, ticks, question marks and glosses throughout both columns]]
 
@@ -7101,7 +7101,7 @@ Linhaure, c'est que je m'en vais maintenant vers une cour royale, noble et puiss
 
 <!-- page: v2p041 -->
 
-CHANSON XXXII : REMARQUES
+[CHANSON XXXII ]{.underline} : REMARQUES
 
 str. II
 
@@ -7143,7 +7143,7 @@ Traduction de Pattison : "Woe is me, when I cause my Lady to weep for me! Sinc
 
 une conjonction de subordination, comme chez Pattison: '... je fais pleurer ma Dame, *car* vous m'avez enlevé trois mois...'. Tout dépend bien entendu du point de vue que l'on choisit d'accentuer mais dans l'un cas comme dans l'autre, il y a séparation entre la Dame et l'amant.
 
-v.27
+[v.27]{.underline}
 
 Si nous acceptons la correction de *de* en *detz*, empruntée à Carl Appel par Walter T. Pattison[^v2p044-1], il nous est toutefois plus difficile de saisir le sens qu'il faut donner à sa traduction: "...and you gave her...". S'agit-il ici d'un complément d'objet direct, ou indirect ? Selon la syntaxe anglaise les deux sont possibles et quoi qu'il en soit, s'il s'agit d'un complément d'objet indirect, la phrase est incomplète en ce sens qu'à ce moment-là nous n'avons pas de COD. D'autre part, *leis* ne peut être un cas oblique (datif)! Force nous est, dès lors, de considérer cette forme comme un cas régime et de lui donner une fonction d'objet direct. Dans ce cas, *vos* peut être un pronom réfléchi et l'on pourrait traduire par: 'et vous vous l'êtes donnée...'. De là la conclusion du poète: *non es ges ben dar*[^v2p044-2]. Car il y a en effet eu injustice: la Dame s'est donnée au FoI (*en vos s'es de tot meza*), lui, il se l'est donnée (?) et il ne lui a rien donné en retour (*pos tan val mais, ben l'i devetz tornar*).
 
@@ -7153,7 +7153,7 @@ Si nous acceptons la correction de *de* en *detz*, empruntée à Carl Appel par 
 
 <!-- page: v2p045 -->
 
-CHANSON XXXII: TEXTE ET TRADUCTION
+[CHANSON XXXII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Si·l cors es pres, la lengua non es preza;
@@ -7222,13 +7222,13 @@ Quoique vous ne puissiez être mon égal en cette matière, si vous me la rendez
 
 <!-- page: v2p047 -->
 
-CHANSON XXXIII : REMARQUES
+[CHANSON XXXIII ]{.underline} : REMARQUES
 
-v.4
+[v.4]{.underline}
 
 La leçon du ms. (unique) E est *qar matz ab cor non vei* que Carl Appel émende en *q'armad'ab cor*..., traduisant 'Je ne la vois pas armée de courage'[^v2p047-1]. Walter T. Pattison s'élève à juste titre contre cette lecture, en proposant de corriger *qar matz* en *q'ar maïs*, tandis que pour *ab cor* il propose de lire *ancor*, faisant remarquer que de toute manière *armar* se construit avec *de*, non avec *ab*[^v2p047-2]. Personnellement, la seule modification que nous voudrions apporter à l'hypothèse de Pattison, qui nous semble en effet des plus vraisemblables, concerne *q'ar* que nous lirions *qar*. Tout en ne changeant rien au sens de ce vers, cette dernière lecture permet de mieux faire ressortir l'affirmation du v.6 : *per ar et per totz temps*. Ce qui ne serait pas le cas, à notre avis, si l'adverbe *ar* était également présent au v.4 : cette détermination temporelle affaiblirait celle du v.6, outre que dans le v.4 même elle n'a aucune fonction significative!
 
-v.10
+[v.10]{.underline}
 
 Sans tenter pour cela d'expliquer la leçon du ms. (*qeu nom temessa tremps*) Carl Appel réfute la lecture d'Adolf Kolsen : *temer estrems* = lat. *extrema metuere*[^v2p047-3]. Cela étant, il suggère cependant d'y voir, peut-être "*s'estremps* 'ich würde nicht fürchten, wenn du (es) ausreissest', also 2.Conj.Praes. von *estremar* 'entfernen, beseitigen, entreissen, rauben' usw."[^v2p047-4]. Pattison, quant à lui, lit *q'eu non temes t'estrems* "provided
 
@@ -7252,11 +7252,11 @@ I shouldn't have to fear you will leave me"[^v2p048-1], suggérant dans son comm
 
 <!-- page: v2p049 -->
 
-v.16
+[v.16]{.underline}
 
 Dans le ms. on peut lire *qem breu deventer abretz* que Walter T. Pattison émende en *q'en breu de vent m'abretz*. Pour ce faire, il argumente que "The ms. reading is one syllable too long; hence I have substituted *m'* for *er*. As for *de vent*: (a). It suggests something flimsy, unstable and evanescent (cf. examples in Rayn.). (b) Raimbaut often talks about growing thin from unreturned love, to the point he 'lives on wind' (VI,31) or become an exhalation"[^v2p049-1]. On remarquera que les exemples de Raynouard auxquels Pattison fait allusion ne sont pas des plus convaincants, on en trouverait de meilleurs chez Levy[^v2p049-2]. Toutefois, traduire *de vent m'abretz* (=*m'aunetz*) par "I shall be reduced to nothing" nous paraît aller un peu vite en besogne. Pourquoi ne pas s'en tenir à l'émendation proposée par Carl Appel: *devengra breta*?[^v2p049-3] Et d'autant plus que l'objection de Pattison à l'égard de celle-ci ne nous semble pas particulièrement pertinente : "a future, instead of a conditional, tense is logical"[^v2p049-4].
 
-v.26
+[v.26]{.underline}
 
 Walter T. Pattison interprète *tornes* comme étant une troisième personne du subjonctif imparfait, et traduit par "Might it return to its former place (...) hence to its former state"[^v2p049-5]. Le sujet de ce verbe reste toutefois ambigu, et si "it"
 
@@ -7270,7 +7270,7 @@ Walter T. Pattison interprète *tornes* comme étant une troisième personne du 
 
 correspond en effet au *bes q'ieu n'aic* (v.26), le sens du vers n'en devient pas beaucoup plus clair pour autant. Faut-il en effet comprendre "Que ma bonne fortune revienne à sa place", c.-à-d. "qu'elle soit comme avant" ? La chose est possible, mais pour notre part, nous verrions en *tornez* une forme de la première personne: le poète dit dans la strophe précédente qu'il ira en exil plutôt que d'en aimer une autre (vv.23-24). Ayant évoqué l'éventualité d'un pareil exil, il pense immédiatement à sa mort, qui en serait la conséquence inévitable (*e com morrai adez*, v.25) vu le tourment résultant du souvenir de la "bonne fortune" qu'il eut, et souhaite immédiatement aussi son retour auprès de sa Dame. Il suffit pour cela de lire *qu'el* comme étant l'équivalent de *que en lo* = *que enl* = *qu'e' l*[^v2p050-1].
 
-v.27
+[v.27]{.underline}
 
 Le mot *confes* signifie 'schuldig, zahlungsunfähig'[^v2p050-2], ce qui permet à Pattison de le traduire par un terme aussi négatif que "abject"[^v2p050-3]. Toutefois, *confes* peut également avoir le sens (positif!) de 'dévoué, qui prouve sa déclaration par des actes'[^v2p050-4]. En ce qui concerne cette dernière signification, postulée par René Lavaud, et pour laquelle on ne possède pas d'autres exemples en ancien occitan, on pourrait peut-être en trouver confirmation dans l'ancien français, 'confesseur, qui prouve sa foi'[^v2p050-5].
 
@@ -7282,7 +7282,7 @@ Le mot *confes* signifie 'schuldig, zahlungsunfähig'[^v2p050-2], ce qui permet 
 
 <!-- page: v2p051 -->
 
-v.29
+[v.29]{.underline}
 
 Pattison assimile *acorres* à *accoretz*, comme *gitassees* à *gitassetz* et *podes* à *podetz*[^v2p051-1]. S'agit-il toutefois bien d'une forme d'*acorar* ? Tout comme Pattison, nous en doutons fortement, d'autant que Levy "throws grave doubts on the meaning 'to encourage' for *acorar*"[^v2p051-2]. Ce doute se confirme, lorsqu'on examine de plus près la structure phonique des vers de cette strophe. Il est en effet remarquable de constater que les mots à l'initiale de chacun de ces vers présentent tous un [o̥]: *e ço*m (v.25), *si ço*cha (v.26), *A ḍo*mna (v.27), *o*me (v.28) et *de vo*s (v.30). Dans cette optique, si *acorres* était en effet une cinquième personne du subjonctif présent d'*acorar*, le parallélisme phonique de cette série serait détruit, dans la mesure où *acorar* présente un [o]. En revanche, s'il est inutile de songer à une émendation d'*acorres* en *socorres* (du verbe *socorre*, qui présente également un [o̥]) comme le suggère Pattison, on pourrait fort bien y voir une cinquième personne de l'impératif du verbe *acorre(n)*, également avec [o̥] et qui signifie, par ailleurs, 'accourir, porter secours, secourir'[^v2p051-3].
 
@@ -7309,7 +7309,7 @@ certain! D'après Walter von Wartburg, *cochar* remonte à un étymon *cŏctare*
 
 nous en ce qui concerne le [ɔ̄] de *cochar* et affirme que "en lengua d'Oc, *cocha* rima con *locha* (Guilhem de l'Olivier, fin del S.XIII)"[^v2p053-1]. A propos de cette dernière affirmation, on remarquera — et la chose est, somme toute, plaisante — que si les dictionnaires et rimaires se trompaient effectivement quant au timbre du [ɔ̄] de *cochar*, ils commettent exactement la même erreur en ce qui concerne *lochar*, où ils s'posent pareillement un [ō][^v2p053-2]
 
-v.34
+[v.34]{.underline}
 
 Pattison traduit *destors* par "obstacle" / "which separates us", ce qui semble renvoyer au mot *destorbi, destorp*[^v2p053-3]. Toutefois, dans la mesure où il nous faut ici une rime en — *ors*[^v2p053-4], cette identification nous semble peu vraisemblable, puisque *destorbi, destorp <äistürbare*[^v2p053-5] présente un [ō]. En revanche, *destors* pourrait bien être un dérivé du verbe *destorser*. Ce verbe signifiant aussi bien, fondamentalement, 'tordre' que 'détordre'[^v2p053-6], on pourrait donner à *destors* le sens de 'ce qui est tordu, détourné', c.-à-d.: 'faute'[^v2p053-7].
 
@@ -7362,7 +7362,7 @@ pel be q'ait n'ai fait orgoill
 
 <!-- page: v2p056 -->
 
-CHANSON XXXIII: TEXTE ET TRADUCTION
+[CHANSON XXXIII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Joglar, fe qed eu dei
@@ -7456,9 +7456,9 @@ Vous pouvez vous en enorgueillir en ce qui me concerne: je mourrai avant que je 
 
 <!-- page: v2p058 -->
 
-CHANSON XXXIV: REMARQUES
+[CHANSON XXXIV]{.underline} : REMARQUES
 
-v.12
+[v.12]{.underline}
 
 Pattison traduit *bordas* par "earth"[^v2p058-1], ce qui nous renvoie évidemment aux significations "Schmutz, Staub" que donne Emil Levy à ce mot[^v2p058-2]. Il y a donc ici opposition entre 'terre, poussière' et 'hautes branches' (*bordas / sobranas brancas*). Toutefois, dans la mesure où *borda* signifie également 'fétu, brindille'[^v2p058-3], on pourrait aisément voir, à l'intérieur de l'opposition sus-mentionnée, une identification, lorsqu'on considère ce dernier sens: en effet, les *sobranas brancas* ne sont autre chose que des brindilles. D'autre.part, si cela est vrai, Raimbaut réduit à néant la portée du choix qu'il aurait fait entre *bordas* et *brancas*. Serait-ce là l'explication du "dédain" avec lequel il semble traiter *n'Izabel* ?
 
@@ -7528,7 +7528,7 @@ littérale de Pattison ?
 
 Emil Levy cite l'expression *far plan e pon (de alçun)* qui signifie 'über jmdn. hinwegschreiten'[^v2p063-1], 'passer sur le corps de quelqu'un'[^v2p063-2], et que l'on pourrait aisément intégrer dans le contexte de cette strophe, pour autant qu'on y prenne tout au niveau métaphorique: avant, tous disaient que j'aimais une Catalane et que j'en étais aimé (vv.17-18): il n'en est plus ainsi maintenant (v.19), car tous ne sont plus d'accord à ce sujet (v.20); cependant, que ces *parliers* ne s'imaginent pas pouvoir me passer sur le corps (v.21) car moi, je ne resterais pas en arrière, à cause du gel, jusqu'à ce que je sois seul à me battre (= si mon amour se 'gèle', si je ne suis plus aimé, je ne continuerai pas à aimer tout seul ?) (vv.22-23). Toutefois, une telle interprétation demande quelque émendation, mineure il est vrai: *non passon* devrait se lire *no^m^ fasson*. Mais, d'autre part, elle nous éviterait d'intervenir dans le texte au v.24: là où Pattison émende la leçon du manuscrit (*pres aman*) en *prenga man*[^v2p063-3], on pourrait fort bien la conserver, et traduire par: '... et que chacun estime l'amant à propos de ces paroles'.
 
-v.33
+[v.33]{.underline}
 
 Pattison rejette l'interprétation de Carl Appel (*esbaudana*, du verbe *esbaudan^ar^*)[^v2p063-4], lui reprochant de former là un mot non attesté ailleurs, et préconise "the well-known *es*
 
@@ -7541,7 +7541,7 @@ Pattison rejette l'interprétation de Carl Appel (*esbaudana*, du verbe *esbauda
 
 baudana, 'is deceitful'"[^v2p064-1]. Remarquons à ce propos que nous n'avons pu retrouver de forme en -d- de cet adjectif. En revanche, des mots tels que *bauzan* 'être trompeur'[^v2p064-2], *bauzan*, *bauz*, *bauzia*[^v2p064-3] sont fréquents. En somme, *baudana* est un archaïsme, le [d] intervocalique ne s'étant maintenu intact que dans les plus anciens monuments de la langue pour passer de bonne heure à la sifflante correspondante [z][^v2p064-4].
 
-v.38
+[v.38]{.underline}
 
 Carl Appel émende *eslag* en *esleg* (de *eslegir*, 'élire, choisir, adopter')[^v2p064-5], alors que Pattison conserve la leçon du ms. Apparemment, nous nous trouvons une fois de plus devant la confusion entre e/a propre au ms. E.
 
@@ -7577,7 +7577,7 @@ D'autre part, puisque pour Pattison il s'agit ici d'un amour parfait, tout élé
 
 <!-- page: v2p067 -->
 
-CHANSON XXXIV: TEXTE ET TRADUCTION
+[CHANSON XXXIV]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Parliers.....................ana
@@ -7657,13 +7657,13 @@ Et, si par la nature des choses j'aime une vilaine comme est celle dont je chant
 
 <!-- page: v2p069 -->
 
-CHANSON XXXV : REMARQUES
+[CHANSON XXXV ]{.underline} : REMARQUES
 
 vv. 8-10
 
 Si Pattison a sans doute raison de considérer que *franc* modifie *ardimen*, la solution qu'il nous offre pour la parenthèse du v. 9 ne nous paraît guère satisfaisante : "for I have a new thought with the old"[^v2p069-1]. L'adjectif *novel* du v. 8 qualifie-t-il vraiment *pessamen*, comme le fait *veil* ? Ou, au contraire, se rapporte-t-il à *ardimen* ? De toute manière, la traduction de Pattison ne lève aucune ambiguïté. D'autre part, on observera que d'après sa position dans la phrase, *veil* semble plutôt qualifier *pessamen* tandis que c'est le premier adjectif, *novel*, qui n'est pas accompagné d'un substantif. Plutôt que de considérer le v. 9 comme une incise, on pourrait interpréter *qu'* comme un pronom relatif, dont l'antécédent serait *ardimen* : ce qui nous permettrait de relier *novel* à *ardimen*. Dès lors, on aurait, en paraphrase, l'idée suivante : je renouvelle (*ieu renovel... de novel*) ma passion sincère (*mon ardimen... franc*) avec fermeté (*ab ferm parven*), passion qui est donc nouvelle (*qu'ai novel*) mais qui recouvre, en fait, un sentiment plus ancien (litt. : avec une vieille pensée, *ab veil pessamen*).
 
-v. 19
+[v. 19]{.underline}
 
 Comme le rappelle Pattison, *cuidar* peut en effet avoir le sens de 'être présomptueux, s'imaginer'[^v2p069-2]. A l'appui de son hypothèse qui voudrait que ce verbe soit ici "used as
 
@@ -7714,7 +7714,7 @@ Si Pattison a raison de signaler l'apparition de ce motif chez Arnaut Daniel et 
 
 <!-- page: v2p072 -->
 
-CHANSON XXXV: TEXTE ET TRADUCTION.
+[CHANSON XXXV]{.underline} : TEXTE ET TRADUCTION.
 
 ::: {.verse lang=oc}
 Ab nou cor et ab nou talen,
@@ -7814,7 +7814,7 @@ Que Dieu garde ma Dame et mon *Joglar* et qu'il ne me donne jamais d'autre Dame!
 
 <!-- page: v2p074 -->
 
-CHANSON XXXVI: TEXTE ET TRADUCTION
+[CHANSON XXXVI]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Ar non sui jes mals et astrucs,
@@ -7894,9 +7894,9 @@ Tu es infortuné en fait de seigneur, et moi je suis infortuné en fait d'amour!
 
 <!-- page: v2p076 -->
 
-CHANSON XXXVII: REMARQUES
+[CHANSON XXXVII]{.underline} : REMARQUES
 
-v.7
+[v.7]{.underline}
 
 Walter T. Pattison écrit *malserva barata* qu'il traduit par "evil trickery", notant de surcroît que, comme l'avance Carl Appel, *malserva* est un nouveau mot inventé par Raimbaut d'Orange et réapparaissant d'ailleurs chez Peire Vidal[^v2p076-1].
 
@@ -7926,13 +7926,13 @@ Tout comme en ancien français, nous avons ici dans la complétive une négation
 
 <!-- page: v2p078 -->
 
-v.13
+[v.13]{.underline}
 
 Pour Pattison, *del plus* est une expression analogue au français "du reste", qui lui semble parfaitement explicative. Au point d'ailleurs qu'il ne la traduit même pas[^v2p078-1].
 
 S'il est vrai que les troubadours font régulièrement usage de pareilles expressions "bouche-trous", il n'en demeure pas moins que dans certains cas elles peuvent parfaitement être fonctionnalisées. En ce qui concerne *del plus*, il en est p.ex. le cas dans *Fins e leials e senes tot engan*, poème attribué à Aimeric de Belenoï: *E si de'l plus podetz faire clamors* (éd. Dumitrescu, XVII,35) où *de'l plus* a le sens de 'davantage, autre chose'[^v2p078-2]. On en trouvera un autre exemple dans *Dona, genser qe no sai dir*, un des "saluts d'amour" d'Arnaut de Mareuil: *de pus no'us prec* (éd. Bec, I, 195)[^v2p078-3]. C'est par ailleurs ce dernier sens que semble réclamer le contexte général de cette expression dans le texte de Raimbaut d'Orange: 'Et certes, qu'ils ne me rendent pas grâces plus longtemps de ce que je ne les tue pas tous!'.
 
-v.57
+[v.57]{.underline}
 
 Partant de la leçon du ms.^a^, *Pailharet, non ies granz pailliers*, Pattison conclut à l'existence d'un jeu de mots portant sur le nom du jongleur (présumé ?) de Raimbaut, *pailharet* étant le diminutif de *pahlier* (=grenier à paille) et également le diminutif de *palhard* ('paillard')[^v2p078-4].
 
@@ -7953,7 +7953,7 @@ Carl Appel[^v2p079-1]. La tradition manuscrite nous semble d'ailleurs des plus a
 
 <!-- page: v2p080 -->
 
-CHANSON XXXVII: TEXTE ET TRADUCTION
+[CHANSON XXXVII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Als durs, crus, cozens lauzengiers
@@ -8071,13 +8071,13 @@ Je chante bien, quel que soit celui qui en débatte, à propos des *lauzengier* 
 
 <!-- page: v2p083 -->
 
-CHANSON XXXVIII : REMARQUES
+[CHANSON XXXVIII ]{.underline} : REMARQUES
 
-v.17
+[v.17]{.underline}
 
 On peut bien entendu traduire *E qui anc jorn d'amar si feis* par "And anyone who ever devoted himself to loving"[^v2p083-1]. Cependant, dans la mesure où, une fois de plus, ce poème traite d'un problème de poétique[^v2p083-2], il est nécessaire, nous semble-t-il, de ne pas perdre de vue lors de cette traduction les connotations du verbe *fenher* que nous avons dégagées précédemment[^v2p083-3].
 
-v.23
+[v.23]{.underline}
 
 La forme *s'esplec* est une troisième personne du subjonctif présent soit du verbe *esplegar*, soit d'*esplechar*. Les deux verbes ont le même sens général ('employer, user, jouir de, atteindre'[^v2p083-4]) avec quelques significations plus particulières pour chacun d'eux[^v2p083-5]. Toutefois, ils ont une origine commune, *explicare*[^v2p083-6]. Puisqu'il est ici question du travail poétique et que la forme *esplechar* (dérivée en fait d'*explicitum*, participe passé d'*explicare*[^v2p083-7]), semble être plus employée en relation avec la notion de 'travail'[^v2p083-8], nous proposerions de traduire par 's'exécuter, s'accomplir'.
 
@@ -8092,7 +8092,7 @@ La forme *s'esplec* est une troisième personne du subjonctif présent soit du v
 
 <!-- page: v2p084 -->
 
-v.27
+[v.27]{.underline}
 
 La traduction que donne Pattison de ce vers — "and because my love for her constantly bound me fast..."[^v2p084-1] — nous semble erronée, et ce pour plusieurs raisons. Il y a d'abord le fait que l'adverbe *anc* signifie plutôt "oncques, jamais"[^v2p084-2], alors que Pattison lui donne le sens exactement opposé de "constantly", qu'il emprunte apparemment au *tos temps* de vers suivant. Ensuite, la forme verbale *destreïa* est une troisième personne du parfait de *destrenher*, que Pattison traduit par un présent ("...bound me"). Finalement, *amors* est précédé d'un possessif de la troisième personne (*s'*) que l'éditeur néglige totalement, au point de le traduire par une première personne ("...my love")! alors que, d'autre part, il introduit dans sa traduction un pronom personnel de la troisième personne en fonction prépositionnelle ("...for her") qui n'apparaît nulle part dans le texte.
 
@@ -8108,7 +8108,7 @@ Il y a là, sans doute, une façon pour le moins étonnante d'exprimer les chose
 
 <!-- page: v2p086 -->
 
-CHANSON XXXVIII: TEXTE ET TRADUCTION
+[CHANSON XXXVIII]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Pois tals sabers mi sortz e·m creis
@@ -8209,9 +8209,9 @@ Dame, je ne vous demande rien avec la la langue, si ce n'est que je puisse vous 
 
 <!-- page: v2p088 -->
 
-CHANSON XXXIX : REMARQUES
+[CHANSON XXXIX ]{.underline} : REMARQUES
 
-v.1
+[v.1]{.underline}
 
 La signification exacte des termes *flors enversa* semble avoir posé quelques problèmes aux philologues. Pour Carl Appel, qui donna la première édition critique de ce poème dans sa [Chrestomathie]{.underline}, *enversa* signifie tout simplement 'umgekehrt'[^v2p088-1]. Ce qui est toutefois contesté par Emil Levy qui, avançant qu'il faut interpréter le syntagme comme signifiant "das Gegentheil einer Blume"[^v2p088-2], en arrive à identifier de la sorte la *flors enversa* à la neige. C'est dès lors cette identification (abusive) qui, comme le montre bien Paolo Cherchi[^v2p088-3], devait être à la base de l'erreur d'interprétation d'Emilio Vuolo du v.121 du *Mare Amoroso*, ainsi que de celle d'Hilda Jaeschke pour qui la *flors enversa* que l'on trouve chez Elias Cairel était également symbole, de l'une ou de l'autre manière, de l'hiver[^v2p088-4].
 
@@ -8233,7 +8233,7 @@ En fait, pour Paolo Cherchi, la *flors enversa* "non è 'il contrario di un fior
 
 Dans cette hypothèse, la *flors enversa*, le lis, qui est une fleur de l'été, s'insère on ne peut mieux dans ce poème fondé sur le *topos* du monde inversé[^v2p089-2]. On comprend d'ailleurs mieux, s'il en est ainsi, le v.11 de la strophe suivante: *e teno per flor lo conglapi*. Si Emil Levy avait eu raison de donner à ce syntagme le sens de 'contraire d'une fleur, symbole de l'hiver, neige...', l'identification qui se fait dans ce vers n'aurait, elle, aucun sens. Maintenant, en revanche, elle correspond parfaitement à l'assimilation des contraires qui se fait à travers toute la strophe: *plan/terrre; cautz/freit; tro/chant, siscle; fulhat/giscle*.
 
-v.3
+[v.3]{.underline}
 
 Si depuis l'article de D.S.Blondheim, le sens exact de *conglapis* 'givre, gelée blanche', semble bien être établi[^v2p089-3], il n'en est pas de même, beaucoup s'en faut, quant à son origine, au point qu'aujourd'hui encore, le [FEW]{.underline} classe ce mot parmi les termes d'origine inconnue[^v2p089-4]. Il est vrai qu'à part la mention du dictionnaire
 
@@ -8267,7 +8267,7 @@ Contrairement à la plupart des traducteurs de ce poème, Martin de Riquer tradu
 
 Hathaway: "Mais une noble fée [*les*]{lang=oc} transforme comme s'ils étaient nourris dans les montagnes, de sorte qu'ils me rendent preux moins [*encore*]{lang=oc} que [*le*]{lang=oc} frimas"[^v2p091-1]; tandis que Robert Lafont va encore plus loin dans cette voie en glosant: "Mais une gentille fée (l'imagination du poète, excitée par l'amour) [*les*]{lang=oc} transforme..."[^v2p091-2]. Inutile de dire que ces diverses interprétations, fondées sur l'assimilation de *fad* à *fada* 'fée'[^v2p091-3], sont toutes à rejeter au profit, par exemple, de celle de Pattison. En effet, de toute évidence nous avons ici un féminin de *fat* 'sot, niais'[^v2p091-4].
 
-v.28
+[v.28]{.underline}
 
 A la rime on doit nécessairement avoir *trenque*, ce qui élimine d'office la variante en -a des mss. [DU]{.underline} (*trencha*) et [EIKN^2^R]{.underline} (*trenca*). Pattison interprète la forme *trenque* comme étant une troisième personne de l'ind. présent, et lit ce vers comme s'il y avait *Mas non-poder trop [*que*]{lang=oc} en trenque*, "but I find [*myself in*]{lang=oc} a stupor induced by love which keeps me from it"[^v2p091-5], où *trop* est donc également un verbe (première personne de *trobar*). D'autres traducteurs, en revanche, font de *trop* un adverbe et de *non-poder* le sujet de *trenque*[^v2p091-6]. Ce qui donne, par exemple dans la version de l'*Introduction à l'étude de l'ancien provençal*: "mais l'impuissance [*l*]{lang=oc} interdit
 
@@ -8312,7 +8312,7 @@ Personnellement, nous proposerions la solution suivante qui a au moins le mérit
 
 *non-poder*'), on obtient la traduction suivante qui nous semble parfaitement valable: '... Mais je trouve [en moi]{.underline} *non-poder*, et j'en (= à cause de *n.-t.*) coupe court (=abandonne)'.
 
-v.31
+[v.31]{.underline}
 
 Pattison voit en *cor* une première personne de l'indicatif présent de *cornar*[^v2p094-1], ce qui lui fait traduire ce passage ainsi: "Lady for whom I sing and warble, your beautiful eyes are switches wich chastise me if I proclaim it [my love]{.underline} with Joy, so that I do not dare have bad desires toward you"[^v2p094-2]. Le problème, toutefois, c'est qu'ici il emploie XXVI,24 pour justifier l'appartenance de *cor* à *cornar*, alors qu'il employait de la même façon XXXIX,31 lorsqu'il s'agissait de prouver la première identification! Entre temps nous croyons avoir démontré que dans le cas de XXVI,24 *cor* était en effet une forme de *corre*, et non de *cornar*[^v2p094-3].
 
@@ -8325,11 +8325,11 @@ Dans ce cas-ci, nous croyons que *cor* est tout simplement un substantif, et que
 
 <!-- page: v2p095 -->
 
-v.41
+[v.41]{.underline}
 
 La traduction que donne Aurelio Roncaglia — ainsi que Marco Boni — nous semble particulièrement intéressante, en ce qu'elle tient compte de l'effet allitératif provenant de la rencontre des termes *vers* — *enverse*: "Vada il mio canto, sí lo metto in versi, che non lo tengano boschi né monti"[^v2p095-1]. Bien sûr, *enversar* ne peut en aucun cas signifier 'mettre en vers', pour cela on a le verbe *versifiar*, *-icar*[^v2p095-2]. Reste cependant que le rapprochement (phonique) est évident et à faire. D'un autre côté, le sème 'renverser' ne peut pas non plus se perdre, étant donné qu'on a là, du point de vue du contenu, le principe génétique de ce poème. Afin de donner, ne fût-ce qu'une approximation de ces deux éléments, nous proposerions de traduire ainsi: 'Va mon *vers* — car ainsi je l'"in-verse" de sorte que ne le retiennent ni bosquets ni tertres — vers cet endroit où...'.
 
-v.45
+[v.45]{.underline}
 
 Pattison met un point derrière *siscle*. Il est évident qu'il s'agit ici d'une erreur typographique. La chose avait d'ailleurs déjà été remarquée par Frank M.Chambers[^v2p095-3].
 
@@ -8339,7 +8339,7 @@ Pattison met un point derrière *siscle*. Il est évident qu'il s'agit ici d'une
 
 <!-- page: v2p096 -->
 
-CHANSON XXXIX: TEXTE ET TRADUCTION
+[CHANSON XXXIX]{.underline} : TEXTE ET TRADUCTION
 
 ::: {.verse lang=oc}
 Ar resplan la flors enversa
@@ -9556,11 +9556,11 @@ A. *Etudes littéraires générales*
 
 - AUERBACH, Erich, *Mimésis — la représentation de la réalité dans la littérature occidentale*, Paris, Gallimard, 1968, 551 pp.
 
-- BARTHES, Roland, *Roland Barthes*, Paris, éd. du Seuil, 1975, 192 pp. (Collection "Ecrivains de toujours, 96).
+- BARTHES, Roland, *Roland Barthes*, Paris, éd. du Seuil, 1975, 192 pp. (Collection "Ecrivains de toujours", 96).
 
 - BLOMME, Raoul, 'I Siciliani. Alcune proposte di lettura', dans *Romanica Gandensia*, XIV (1973), pp. 13 — 29.
 
-'La tenzone dantesca del *Duol d'amore* *ibid.*, XVI (1976), pp. 205 — 248.
+"La tenzone dantesca del *Duol d'amore*", *ibid.*, XVI (1976), pp. 205 — 248.
 
 *Studi per una triplice esperienza poetica del Dante minore*, Gent, 1978, (Werken uitgegeven door de Fac. van de Letteren en Wijsbegeerte, 164).
 
@@ -9796,6 +9796,8 @@ B. *Langue*
 
 - CRESCINI, Vincenzi, *Manuale per l'avviamento agli studi provenzali*, Milan, Ulrico Hoepli, 1926, XXIII + 493 pp.
 
+- CRESCINI, Vincenzo, *Manualetto provenzale per uso degli alunni delle facoltà di lettere. Introduzione grammaticale, crestomazia, glossario*, Verona e Padova, Fratelli Drucker, 1892, CLXV + 258 pp.
+
 - CROPP, Glynnis M., *Le vocabulaire courtois des troubadours à l'époque Classique*, Genève, Droz, 1975, (Publications romanes et françaises, 135), 509 pp.
 
 - DOUJAT, Jean, *Dictionnari Moundi — Dictionnaire de la langue Toulousaine*, Genève — Marseille, Slatkine et Lafitte Reprints, 1974, (réimpr. de l'éd. de Toulouse, 1935), 242 pp.
@@ -9856,7 +9858,7 @@ B. *Langue*
 
 - PUITSELU, N. du, *Dictionnaire étymologique du patois lyonnais*, Genève, Slatkine Reprints, 1970, (réimpr. de l'éd. de Lyon, 1890), pp. CXX + 470.
 
-- RAYNOUARD, M., *Lexique roman ou Dict. de la langue des troubadours comparée avec les langues romanes*, Réimpr. de l'original publié à Paris, 1836 — 45, Heidelberg, Carl Winterverlag, 5 vols., (LR).
+- RAYNOUARD, M., *Lexique roman ou Dict. de la langue des troubadours comparée avec les langues romanes*, Réimpr. de l'original publié à Paris, 1836 — 45, Heidelberg, Carl Winterverlag, 5 vols., ([LR]{.underline}).
 
 - ROCHEGUDE, P. de, *Essai d'un glossaire occitanien*, Genève, Slatkine Reprints, 1975, (réimpr. de l'éd. de Toulouse, 1819), LIV (4) + 334 pp.
 
@@ -9954,7 +9956,7 @@ B. *Littérature*
 
 - ELWERT, W.Th., 'La dittologia sinonimica nella poesia lirica romanza delle origine e nella scuolo siciliana', dans *Bollettino del Centro di Studi filologici e linguistici siciliani*, V, 1954, p. 152-177.
 
-'Zur Synonymendopplung vom Typ *plann e sospir*, *chan e plor*, ds. [Archiv]{.underline} für das Studium der neueren Sprachen, CXCIII, 1956, pp. 40.
+"Zur Synonymendopplung vom Typ *plann e sospir*, *chan e plor*", ds. [Archiv]{.underline} für das Studium der neueren Sprachen, CXCIII, 1956, pp. 40.
 
 <!-- page: v2p196 -->
 
@@ -10000,7 +10002,7 @@ B. *Littérature*
 
 *'Observations historiques et sociologiques sur la poésie des troubadours'*, ds. [Cahiers de Civilisation Médiévale]{.underline}, VII, 1964, pp. 27 — 51.
 
-*'No sai qui s'es — No sai que s'es'*, dans, [Mélanges (...) M. Maurice DELBOUILLE]{.underline}, 1964, pp. 349-366.
+*'No sai qui s'es — No sai que s'es'*, dans *Mélanges de linguistique romane et de philologie médiévale offerts à M. Maurice Delbouille*, Gembloux, éd. Duculot, 1964, pp. 349-366.
 
 *'Trobar clus — discussione aperta. Marcabru und die beiden "Schulen"'*, dans [Cultura Neolatina]{.underline}, XXX, 1970, pp. 300 — 314.
 
@@ -10088,7 +10090,7 @@ B. *Littérature*
 
 - PATTISON, Walter T.,
 
-'The background of Peire d'Alvernhe's *Chantarai d'aquesta trobadors*, dans [Modern Philology]{.underline}, XXXI, 1933, pp. 19 — 34.
+"The background of Peire d'Alvernhe's *Chantarai d'aquesta trobadors*", dans [Modern Philology]{.underline}, XXXI, 1933, pp. 19 — 34.
 
 'The troubadours of Peire d'Alvernhe's satire in Spain', dans [Publications of the Modern Language Association]{.underline}, L, 1935, pp. 14 — 24.
 
@@ -10134,11 +10136,11 @@ B. *Littérature*
 
 *Trobar clus : discussione aperta*, *Ibid.*, XXIX, 1969, pp. 5 — 55.
 
-'La critique textuelle et les troubadours (quelques considérations)', *Ibid.*, XXXVIII, 1978, pp. 207 — 214, (in Atti del VII Congresso Internazionale di Lingua e Letteratura d'Oc e di Studi Franco-provenzali. Sezione I: Lingua e Letteratura Medievale.
+"La critique textuelle et les troubadours (quelques considérations)", *Ibid.*, XXXVIII, 1978, pp. 207 — 214, (in Atti del VII Congresso Internazionale di Lingua e Letteratura d'Oc e di Studi Franco-provenzali. Sezione I: Lingua e Letteratura Medievale.
 
 - SALVERDA DE GRAVE, J.J.,
 
-Observations sur l'art lyrique de *Giraut de Bornelh*, Amsterdam, Noord-Hollandsche Uitgeversmaatschappij, 1938, (Mededeelingen der Koninklijke Nederlandsche Akademie van Wetenschappen, afd. Letterkunde, nieuwe reeks, deel I, no.1), pp. 130.
+*Observations sur l'art lyrique de Giraut de Bornelh*, Amsterdam, Noord-Hollandsche Uitgeversmaatschappij, 1938, (Mededeelingen der Koninklijke Nederlandsche Akademie van Wetenschappen, afd. Letterkunde, nieuwe reeks, deel I, no.1), pp. 130.
 
 'Giraut de Bornelh et la poésie obscure' dans *Mélanges de Linguistique et de philologie offerts à Jacques van Ginneken*, Paris, 1937, pp. 297 — 306.
 
@@ -10250,13 +10252,9 @@ C.R. par BEC, Pierre dans *Cahiers de Civilisation Médiévale*, XXII, 1979, pp.
 
 *Der Musikalische Nachlass der Troubadours. Kommentar*, Darmstadt, 1960, XIX + 214 pp. (Summa Musicae Medii Aevi, IV).
 
-- HAMLIN, Frank R., RICKETTS, Peter et HATTAWAY, John,
+- HAMLIN, Frank R., RICKETTS, Peter et HATTAWAY, John, *Introduction à l'étude de l'ancien provençal. Textes d'étude*, Genève, Droz, 1967 (Publications romanes et françaises, 96), 312 pp.
 
-*Introduction à l'étude de l'ancien provençal. Textes d'étude*, Genève, Droz, 1967 (Publications romanes et françaises, 96), 312 pp.
-
-- HILL, Raymond T. et BERGIN, Thomas G.,
-
-*Anthology of the Provençal troubadours*, New Haven, Yale University Press (Yale Romanic Studies, XVIII), 1941, XV, 365 pp.
+- HILL, Raymond T. et BERGIN, Thomas G., *Anthology of the Provençal troubadours*, New Haven, Yale University Press (Yale Romanic Studies, XVIII), 1941, XV, 365 pp.
 
 - JEANROY, Alfred,
 
@@ -10302,7 +10300,7 @@ C.R. par BEC, Pierre dans *Cahiers de Civilisation Médiévale*, XXII, 1979, pp.
 
 - RAYNOUARD, M. *Choix des poésies originales des troubadours*, Paris, F. Didot, 1821, 6 vols.
 
-- RIQUER, Martin de-, *La lírica de los trovadores, t. I : Poetas del Siglo XII*, Barcelona, Escuela de Filología, 1948, LXII + 482 pp.
+- de RIQUER, Martin, *La lírica de los trovadores, t. I : Poetas del Siglo XII*, Barcelona, Escuela de Filología, 1948, LXII + 482 pp.
 
 - ROCHEGUDE, Henri-Pascal, *Le Parnasse occitanien, ou choix de poésies originales des troubadours tirées des manuscrits nationaux*, Genève, Slatkine Reprints, 1977, (réimpr. de l'éd. de Toulouse, 1819), XLIX + 411 pp.
 
@@ -10392,7 +10390,9 @@ C.R. par BEC, Pierre dans *Cahiers de Civilisation Médiévale*, XXII, 1979, pp.
 
 <!-- page: v2p216 -->
 
-- KOLSEN, Adolf, *Girautz von Bornelh, der Meister der Trobadors*, Berlin, 1894. C.R. par Carl APPEL, dans [Archiv]{.underline} für das Studium der neueren Sprachen und Literaturen, XCVII, 1894, pp. 187.
+- KOLSEN, Adolf, *Girautz von Bornelh, der Meister der Trobadors*, Berlin, 1894.
+
+C.R. par Carl APPEL, dans *Archiv für das Studium der neueren Sprachen und Literaturen*, XCVII, 1894, pp. 187.
 
 - KOLSEN, Adolf, *Sämtliche Lieder des Trobador Giraut de Bornelh. Met Uebersetzung, Kommentar und Glossar kritisch herausgegeben, Erster Band : Texte mit Varianten und Uebersetzung*, Halle, Max Niemeyer Verlag, 1910, XI + 496 pp. ; *Zweiter Band : Vida, Kommentar und Glossar*, Halle, Max Niemeyer Verlag, 1935, VIII + 292 pp.
 
@@ -10500,7 +10500,7 @@ Addendum:
 
 - BARROUX, R.,
 
-'Fragment de chansonnier provençal', *Romania*, LXVII, 1941, pp. 505-513.
+"Fragment de chansonnier provençal", *Romania*, LXVII, 1941, pp. 505-513.
 
 - BERTONI, Giulio,
 
@@ -10526,9 +10526,9 @@ Addendum:
 
 'Die Provenzalische Liederhandschrift der S. Marcus Bibliothek in Venedig', dans [Archiv]{.underline} für das Studium der neueren Sprache und Literaturen, XXXVI, 1864, pp. 379 — 455.
 
-'Bericht an die Gesellschaft für das Studium der neueren Sprache in Berlin über die in Italien befindlichen provenzalischen Liederhandschriften, *Ibid.*, XXXIII, 1862, pp. 288 — 341 et 407 — 466.
+"Bericht an die Gesellschaft für das Studium der neueren Sprache in Berlin über die in Italien befindlichen provenzalischen Liederhandschriften", *Ibid.*, XXXIII, 1862, pp. 288 — 341 et 407 — 466.
 
-'Die provenzalische Liederhandschrift Plut. XLI, cod. 43 der Laurenzianischen Bibliothek in Florenz, *Ibid.*, XXXV, 1864, pp. 363-463.
+"Die provenzalische Liederhandschrift Plut. XLI, cod. 43 der Laurenzianischen Bibliothek in Florenz", *Ibid.*, XXXV, 1864, pp. 363-463.
 
 - DE LOLLIS, Cesare,
 
@@ -10544,7 +10544,7 @@ Addendum:
 
 - PELAEZ, M.,
 
-'Il canzoniere provenzale c', *Ibid.* VII, 1889, pp. 244 sv.
+"Il canzoniere provenzale c", *Ibid.* VII, 1889, pp. 244 sv.
 
 - PILLET, Alfred,
 
@@ -10588,7 +10588,7 @@ C.R. par LEWENT, Kurt, dans *Zeitschrift für romanische Philologie*, LII, 1932,
 
 C.R. par LEWENT, Kurt, dans *Zeitschrift für romanische Philologie*, LII, 1932, pp. 617 sv.
 
-C.R. par MULLERT, dans *Litt.Blatt*, 1931, col. 212.
+C.R. par MULLERT, dans *Literaturblatt*, 1931, col. 212.
 
 <!-- page: v2p223 -->
 
@@ -10630,7 +10630,7 @@ C.R. par MULLERT, dans *Litt.Blatt*, 1931, col. 212.
 
 - LINSKILL, J., 'Raimbaut d'Orange 389, 9 and Raimbaut de Vaqueiras, 392, 14', dans *French Studies*, XIV, 1960, pp. 239 — 241.
 
-- MARSHALL, J.H., 'On the text and interpretation of a poem of Raimbaut d'Orange (*Cars, douz*, éd. Pattison, I), dans *Medium Aevum*, XXXVII, 1968, pp. 12 — 36.
+- MARSHALL, J.H., "On the text and interpretation of a poem of Raimbaut d'Orange (*Cars, douz*, éd. Pattison, I)", dans *Medium Aevum*, XXXVII, 1968, pp. 12 — 36.
 
 - MEJEAN, Suzanne, 'Les mots composés chez Marcabru et Raimbaut d'Orange. Etude de quelques cas', dans *Mélanges de Linguistique et de Philologie romanes dédiés à la mémoire de Pierre Fouché (1891 — 1967)*, Paris, Klincksieck, 1970, 264 pp., (Etudes Linguistiques, 11), pp. 93 — 107.
 
@@ -10638,23 +10638,23 @@ C.R. par MULLERT, dans *Litt.Blatt*, 1931, col. 212.
 
 - PATTISON, Walter T., *The Life and Works of the Troubadour Raimbaut d'Orange*, Minneapolis, The University of Minnesota Press, s.d. 1952, pp. 225, [RO]{.underline}
 
-BOURCIEZ, J., [C.R. de RO]{.underline}, dans *Revue des langues romanes*, LXXI, 1951, pp. 389.
+BOURCIEZ, J., C.R. de [RO]{.underline}, dans *Revue des langues romanes*, LXXI, 1951, pp. 389.
 
-CHAMBERS, Frank M., [C.R. de RO]{.underline}, dans *Romance Philology*, VII, 1953, pp. 230 — 235.
+CHAMBERS, Frank M., C.R. de [RO]{.underline}, dans *Romance Philology*, VII, 1953, pp. 230 — 235.
 
-CREORE, A.E., [C.R. de RO]{.underline}, dans *The Romanic Review*, XLV, 1954, pp. 224.
+CREORE, A.E., C.R. de [RO]{.underline}, dans *The Romanic Review*, XLV, 1954, pp. 224.
 
-LUCAS, H.H., [C.R. de RO]{.underline}, dans *The Modern Language Review*, XLVIII, 1953, pp. 470.
+LUCAS, H.H., C.R. de [RO]{.underline}, dans *The Modern Language Review*, XLVIII, 1953, pp. 470.
 
-RIQUER, Martin de-, [C.R. de RO]{.underline}, dans *Zeitschrift für romanische Philologie*, LXII, 1956, pp. 456.
+de RIQUER, Martin, C.R. de [RO]{.underline}, dans *Zeitschrift für romanische Philologie*, LXII, 1956, pp. 456.
 
-SCHUTZ, A.H., [C.R. de RO]{.underline}, dans *Modern Language Notes*, LXVIII, 1953, pp. 418 — 420.
+SCHUTZ, A.H., C.R. de [RO]{.underline}, dans *Modern Language Notes*, LXVIII, 1953, pp. 418 — 420.
 
 <!-- page: v2p225 -->
 
-SCHWARZSCHILD, L.A., [C.R. de RO]{.underline}, dans *Medium Aevum*, XXII, 1953, pp. 126 — 128.
+SCHWARZSCHILD, L.A., C.R. de [RO]{.underline}, dans *Medium Aevum*, XXII, 1953, pp. 126 — 128.
 
-WEIDNER, A., [C.R. de RO]{.underline}, dans [Archiv für das Studium der neueren Sprachen]{.underline}, t. CXC, 1954, pp. 261.
+WEIDNER, A., C.R. de [RO]{.underline}, dans [Archiv für das Studium der neueren Sprachen]{.underline}, t. CXC, 1954, pp. 261.
 
 - PATTISON, Walter T., 'Some considerations on the relationship of the Provençal chansonniers', dans *Mélanges (...) R. Lejeune*, t. I, pp. 229 — 233.
 
@@ -10700,7 +10700,7 @@ CHANSON II
 
 3. Etudes, commentaires...
 
-A. KOLSEN, ZRPh, LVIII, 92. H. H. LUCAS, [MLR]{.underline}, XLVIII, 470.
+A. KOLSEN, ZRPh, LVII, 92. H. H. LUCAS, [MLR]{.underline}, XLVIII, 470.
 
 <!-- page: v2p228 -->
 
@@ -10712,7 +10712,7 @@ C : — R : — a : [RLR]{.underline}, XLV, 149 + [BA]{.underline}, 73.
 
 2. Editions
 
-Choix, V, 410. [MW]{.underline}, I, 84. C. APPEL, Prov. ined., 263. A. JEANROY, [ADM]{.underline}, XVII, 486. [RC]{.underline}, 75. A. PRESS, Anthology..., 10R.
+Choix, V, 410. [MW]{.underline}, I, 84. C. APPEL, *Prov. ined.*, 263. A. JEANROY, [ADM]{.underline}, XVII, 486. [RC]{.underline}, 75. A. PRESS, Anthology..., 10R.
 
 3. Etudes, commentaires...
 
@@ -10732,7 +10732,7 @@ A.KOLSEN, *Dichtungen...*,t.III,225. [RO]{.underline},78.
 
 3. *Etudes, commentaires...*
 
-F.M.CHAMBERS,[RPh]{.underline},VII,233-4. P.DRONKE, *o.c.*,103. PAT,171-2; 176-7 Ch. ROTH, 465
+F.M.CHAMBERS,[RPh]{.underline},VII,233-4. P.DRONKE, *o.c.*,103. PAT,171-2; 176-7. Ch. ROTH, 465
 
 <!-- page: v2p230 -->
 
@@ -10924,7 +10924,7 @@ C : [MG]{.underline}, 354 D : [Est]{.underline}, 90. I : — K : — M^o
 
 2. Editions
 
-*Choix*, V, 411 [MW]{.underline}, I, 79. A. KOLSEN, *Dichtungen*, I, 66 id. , *Trobador Gedichte*, 57. R^v^o, 24. [RO]{.underline}, 121. [PAT]{.underline}, 165.
+*Choix*, V, 411. [MW]{.underline}, I, 79. A. KOLSEN, *Dichtungen*, I, 66. id., *Trobador Gedichte*, 57. RvO, 24. [RO]{.underline}, 121. [PAT]{.underline}, 165.
 
 3. Études, commentaires...
 
@@ -10944,7 +10944,7 @@ Rv0, 80. [RO]{.underline}, 125.
 
 3. Etudes, commentaires...
 
-K. LEWENT, [ZFSL]{.underline}, LII, 162-3. A. H. SCHUTZ, [MÆN]{.underline}, LXVIII, 420. L. A. SCHWARZSCHILD, *Med. Aev.*, XXII, 127. S. BATTAGLIA, *Formazione...*, 144. PÂT, 175. Ch. ROTH, 466.
+K. LEWENT, [ZFSL]{.underline}, LII, 162-3. A. H. SCHUTZ, [MLN]{.underline}, LXVIII, 420. L. A. SCHWARZSCHILD, *Med. Aev.*, XXII, 127. S. BATTAGLIA, *Formazione...*, 144. PÂT, 175. Ch. ROTH, 466.
 
 <!-- page: v2p244 -->
 
@@ -10956,11 +10956,11 @@ A : *Studj*, III, 94. C : [MG]{.underline}, 357. D : *Est.*, 88. E : —
 
 2. Editions
 
-Rv0, 23 R0, 131.
+RvO, 23. RO, 131.
 
 3. Etudes, commentaires...
 
-L.A. SCHWARZSCHILD, *Med. Aev.*, XXII, 128. F.M. CHAMBERS, *RPh*, VIT, 235. *PAT*, 175-6-7.
+L.A. SCHWARZSCHILD, *Med. Aev.*, XXII, 128. F.M. CHAMBERS, *RPh*, VII, 235. *PAT*, 175-6-7.
 
 <!-- page: v2p245 -->
 
@@ -11042,7 +11042,7 @@ BAYLE, L., *Poésies choisies*, 226.
 
 3. Etudes et commentaires...
 
-Rv0, 42. A. H. SCHUTZ, *MLN*, LXVIII, 420. A. WEINER, [Archiv]{.underline}, CXC, 261. E. KOHLER, *Mélanges Delbouille*, II, 349 N. PASERO, *CN*, XXVIII, 113.
+RvO, 42. A. H. SCHUTZ, *MLN*, LXVIII, 420. A. WEIDNER, [Archiv]{.underline}, CXC, 261. E. KOHLER, *Mélanges Delbouille*, II, 349. N. PASERO, *CN*, XXVIII, 113.
 
 <!-- page: v2p250 -->
 
@@ -11058,7 +11058,7 @@ Choix, II, 188. Parn. Occ., 47. [MW]{.underline}, 1, 87. O. SCHULTZ-GORA, *Prov.
 
 3. *Etudes et commentaires...*
 
-[RvO]{.underline}, 35 P. HAGAN, *Med. Prov. tenso*, 175. Ch. ROTH, 464.
+[RvO]{.underline}, 35. P. HAGAN, *Med. Prov. tenso*, 175. Ch. ROTH, 464.
 
 <!-- page: v2p251 -->
 
@@ -11150,7 +11150,7 @@ C.APPEL, *Chrest.*,126. H.J.CHAYTOR, *Troub. of D.*,33 A.KOLSEN, *Giraud de Born
 
 3. Etudes et commentaires...
 
-C.APPEL, [Archiv]{.underline},XCVII,187. RYO,30. J.J.SALVEDRA DE GRAVE, *Observ.*,118. H.KOLB, *Begriff der Minne*,317. E.KOHLER, *Trobadorlyrik*, *passim.* L.POLLMANN, *Trobar clus, passim.* E.VUOLO, *St.Med.*,IV,607 PAT,146. A.RONCAGLIA, *CN*,XXXVIII,212.
+C.APPEL, [Archiv]{.underline},XCVII,187. RvO,30. J.J.SALVERDA DE GRAVE, *Observ.*,118. H.KOLB, *Begriff der Minne*,317. E.KOHLER, *Trobadorlyrik*, *passim.* L.POLLMANN, *Trobar clus, passim.* E.VUOLO, *St.Med.*,IV,607 PAT,146. A.RONCAGLIA, *CN*,XXXVIII,212.
 
 <!-- page: v2p257 -->
 
@@ -11194,7 +11194,7 @@ E : -
 
 2. [Editions]{.underline}
 
-Choix, I, 410. [MA]{.underline}, I, 83 C. APPEL, Prov. ined., 261. [RO]{.underline}, 181.
+Choix, I, 410. [MA]{.underline}, I, 83 C. APPEL, *Prov. ined.*, 261. [RO]{.underline}, 181.
 
 3. [Etudes et commentaires]{.underline}...
 
@@ -11254,7 +11254,7 @@ A : Studj, III, 93. C : — C' : — D : — D^a^ : — D^c^ : [AdM]
 
 2. Editions
 
-*Choix*, V, 411. [MW]{.underline}, I, 81. Bartsch, *Chrest.*, a9^o^ Beck, *Melodien*, 35. [RO]{.underline}, 195. F. GENNRICH, *Musikalische...*, I, 47. id., II, 42. id., *Gai Saber*, 20.
+*Choix*, V, 411. [MW]{.underline}, I, 81. Bartsch, *Chrest.*, 69. Beck, *Melodien*, 35. [RO]{.underline}, 195. F. GENNRICH, *Musikalische...*, I, 47. id., II, 42. id., *Gai Saber*, 20.
 
 <!-- page: v2p264 -->
 
@@ -11266,7 +11266,7 @@ C : — D : Est.,90 E : — I : — K : — M : [MG]{.underline},325
 
 2. Editions
 
-C. APPEL, Chrest., 60 HILL-BERGIN, 50 VISCARDI, Flor., 50. M. de RIQUER, Lirica, I, 157. [RO]{.underline}, 199 A. RONCAGLIA, *Le più...*, 332. M. BONI, Antol, I, 14 H. TUCHEL, *Die Trobadors*, 74. R. HAMTIN, *...Intr.*, 136. A. PRESS, Anth., 106. P. BEC, Nouv. anth., 204. R. LAFONT, *Trobar*, 120. L. T. TOPSFIELD, *Troub. and Love*, 154.
+C. APPEL, Chrest., 60 HILL-BERGIN, 50 VISCARDI, Flor., 50. M. de RIQUER, Lirica, I, 157. [RO]{.underline}, 199. A. RONCAGLIA, *Le più...*, 332. M. BONI, Antol, I, 14 H. TUCHEL, *Die Trobadors*, 74. R. HAMLIN, *...Intr.*, 136. A. PRESS, Anth., 106. P. BEC, *Nouv. anth.*, 204. R. LAFONT, *Trobar*, 120. L. T. TOPSFIELD, *Troub. and Love*, 154.
 
 3. Etudes et commentaires...
 

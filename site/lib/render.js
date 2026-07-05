@@ -15,6 +15,7 @@
 import MarkdownIt from "markdown-it";
 import attrs from "markdown-it-attrs";
 import bracketedSpans from "markdown-it-bracketed-spans";
+import { splitWordEntries, authorIndent, linkWordIndex, linkAuthorIndex } from "./indexes.js";
 
 export function makeMd() {
   // typographer gives smart quotes/apostrophes ("liège" -> "liège", s'espan ->
@@ -155,7 +156,11 @@ export function collectAuthorSurnames({ bibliography, citations, references } = 
     for (const m of String(text).matchAll(CITED_NAME)) addWord(m[1]);
   };
   for (const v of Object.values(bibliography || {})) {
-    if (Array.isArray(v)) for (const e of v) if (e) { add(e.author); harvest(e.text); }
+    if (Array.isArray(v)) for (const e of v) if (e) {
+      add(e.author); harvest(e.text);
+      // compte rendus nest under their work now — mine the reviewer names too
+      if (Array.isArray(e.reviews)) for (const r of e.reviews) if (r) harvest(r.text);
+    }
   }
   for (const a of (citations && citations.abbreviations) || []) {
     add(a.bibliography && a.bibliography.author);
@@ -333,7 +338,9 @@ const TRAILING_CLOSERS = /[)\]»”"'’\s]+$/u;
 const HEADING = /^(?:#{1,6}\s|CHANSON\b|CONCLUSION\b|VERS\s+UNE\s+PO|INDEX\b|BIBLIOGRAPHIE\b|AVANT[\s-]*PROPOS|TABLE\s+DES\b)/;
 
 function isHeading(text) {
-  const s = text.trim();
+  // unwrap typescript-faithful underline spans ("[CHANSON I ]{.underline} :…") so
+  // the keyword branch still fires on the bare text.
+  const s = text.trim().replace(/\[([^\]]*)\]\{\.underline\}/g, "$1");
   if (HEADING.test(s)) return true;
   // an all-caps line (letter-spaced headings, roman-numeral titles, …)
   return /[A-ZÀ-Þ]/.test(s) && !/[a-zà-ÿ]/.test(s) && s.length <= 64;
@@ -358,8 +365,18 @@ function mergeable(prevRaw, nextText) {
   return !endsTerminal(prevRaw);
 }
 
-function anchorSpan(pid) {
-  return `<span class="page-anchor" id="page-${pid}" data-page="${pid}"></span>`;
+function anchorSpan(pid, ctx) {
+  // an invisible scroll target for cross-refs, PLUS (when the page carries a
+  // printed number) a small inline pill marking the page break; clicking it opens
+  // that sheet in the facsimile view (site js/edition.js).
+  const printed = ctx && ctx.printedOf && ctx.printedOf.get(pid);
+  const pill = printed
+    ? `<button type="button" class="page-pill" data-page="${pid}"`
+      + ` title="Page ${printed} — voir le fac-similé"`
+      + ` aria-label="Page ${printed}, voir le fac-similé">${printed}</button>`
+    : "";
+  const cls = printed ? "page-anchor page-marker" : "page-anchor";
+  return `<span class="${cls}" id="page-${pid}" data-page="${pid}">${pill}</span>`;
 }
 
 // split a section's markdown into page blocks by the <!-- page: --> anchors
@@ -454,7 +471,7 @@ const XREF_PAGE = new RegExp(
   `(<em>(?:infra|supra|ci-dessous|ci-dessus)</em>[^<.]{0,20}?)\\bp(p?)\\.\\s*(\\d+)((?:\\s*[-–]\\s*\\d+)?)`, "gi");
 // \b is ASCII-only, so "\bà" never matches after a space (à is not a word char);
 // use a Unicode letter lookbehind instead.
-const XREF_CHANSON = /(?<![\p{L}])(à|au)\s+([IVXLC]{1,6})\s*,\s*(\d{1,3})(?![\d])/gu;
+const XREF_CHANSON = /(?<![\p{L}])(à|au)\s+([IVXLC]{1,8})\s*,\s*(\d{1,3})(?![\d])/gu;
 const NNBSP2 = " ";
 function linkCrossRefs(html, ctx) {
   if (ctx.printedToPage && ctx.pageToSection) {
@@ -494,6 +511,17 @@ export function renderInlineApparatus(raw, ctx) {
   h = ctx.normalize ? renderSiglaAbbr(h, ctx.sigla, ctx) : linkSigla(h, ctx.sigla);
   h = wrapAuthorNames(h, ctx.surnames, ctx.sigla);
   return ctx.normalize ? linkCrossRefs(h, ctx) : h;
+}
+// Render a bibliography inline string the same way the reading views do: a known
+// siglum (RO, RvO, MLN, Arch.Rom.…) becomes a hover-card reference, any REMAINING
+// underlined span is a journal/collection name the typescript typed underlined
+// (= italics) rather than a siglum, and author surnames become small caps.
+//   ctx = { md, sigla, siglaCodes, surnames }
+export function renderBibInline(raw, ctx) {
+  let h = ctx.md.renderInline(String(raw || ""));
+  h = renderSiglaAbbr(h, ctx.sigla, ctx);
+  h = h.replace(/<span class="underline">([^<]*)<\/span>/g, "<em>$1</em>");
+  return wrapAuthorNames(h, ctx.surnames, ctx.siglaCodes);
 }
 export { endsTerminal, mergeable, isHeading, stripTags };
 
@@ -582,6 +610,50 @@ export function renderFacsimilePage(rawText, ctx, opts = {}) {
   return { html: parts.join(String.fromCharCode(10)), notes: nm.notes };
 }
 
+// Render one index page for the facsimile view, reproducing the typescript's
+// column layout (which book.md's reflow lost). Word indexes (mots / N.W.) become
+// a two-column list — lemma left, reference at a fixed tab; the author index
+// keeps one entry per line with the page list hung under its first number.
+// The bare "x"/"x x" OCR artifacts and the reflowed run-on structure are dropped.
+export function renderIndexFacsimilePage(rawText, ctx, opts = {}) {
+  const isWord = opts.slug === "index-mots" || opts.slug === "index-nw";
+  const lines = rawText.split("\n").filter((l) => !PAGE_ANCHOR.test(l));
+  const nm = { notes: [], seen: new Set() };
+  const isDef = (l) => { const t = l.trimStart(); return t.startsWith("[^") && t.indexOf("]:") > 2; };
+  const parts = [];
+  for (const raw of lines) {
+    const s = raw.trim();
+    if (!s || isDef(s)) continue;
+    if (/^I\s*N\s*D\s*E\s*X/i.test(s)) {
+      parts.push(`<p class="fx-h">${fxSidenotes(ctx.md.renderInline(s), ctx, nm)}</p>`);
+      continue;
+    }
+    if (isWord) {
+      if (!/^[-–]\s/.test(s)) continue; // skip stray "x", "x x" typescript artifacts
+      // one source line = one alphabetical group (the "- A… — B…" runs), spaced
+      // apart as in the typescript.
+      const rows = splitWordEntries(s.replace(/^[-–]\s*/, "")).map(({ lemma, ref }) => {
+        const lem = fxSidenotes(ctx.md.renderInline(lemma), ctx, nm);
+        // reference is clickable but keeps the typewriter look (invisible fx-ilink)
+        const rf = ref ? linkWordIndex(fxSidenotes(ctx.md.renderInline(ref), ctx, nm), ctx, { cls: "fx-ilink" }) : "";
+        return `<div class="ix-row"><span class="ix-lem">- ${lem}</span>`
+          + `<span class="ix-ref">${rf}</span></div>`;
+      });
+      if (rows.length) parts.push(`<div class="ix-group">${rows.join("\n")}</div>`);
+      continue;
+    }
+    const k = authorIndent(s);
+    const authHTML = linkAuthorIndex(fxSidenotes(ctx.md.renderInline(s), ctx, nm), ctx, { cls: "fx-ilink" });
+    parts.push(`<div class="ix-auth" style="--ind:${k}ch">${authHTML}</div>`);
+    // the typescript sets a five-dot separator between author entries
+    parts.push('<p class="ix-sep" aria-hidden="true">.....</p>');
+  }
+  // drop a trailing separator so a page never ends on the dots
+  if (parts.length && parts.at(-1).includes("ix-sep")) parts.pop();
+  const cls = isWord ? "fx-index fx-index-words" : "fx-index fx-index-auth";
+  return { html: `<div class="${cls}">${parts.join("\n")}</div>`, notes: nm.notes };
+}
+
 // Render one section's markdown to HTML, merging paragraphs that a page boundary
 // split (the next page's anchor is kept inline so back-ref links still resolve).
 //   ctx = { md, defs (global), sigla, refIndex, pageToSection, sidenoteCounter }
@@ -591,7 +663,7 @@ export function renderSection(markdown, ctx) {
   let carry = null; // { raw } — an unfinished paragraph continuing onto the next page
   // the study (web) view suppresses page anchors (ctx.pageAnchors === false) so
   // it never duplicates the #page-… ids the faithful Livre body already carries.
-  const anchor = (pid) => (ctx.pageAnchors === false ? "" : anchorSpan(pid));
+  const anchor = (pid) => (ctx.pageAnchors === false ? "" : anchorSpan(pid, ctx));
 
   const flushCarry = () => { if (carry) { out.push(renderPara(carry.raw, ctx)); carry = null; } };
 
@@ -705,8 +777,11 @@ function injectSidenotes(html, ctx) {
     inner = wrapAuthorNames(inner, ctx.surnames, ctx.sigla);
     if (ctx.notesOut) {
       ctx.noteN += 1;
-      ctx.notesOut.push({ label, n: ctx.noteN, html: inner });
-      return `<a class="fnref" id="fnref-${label}" href="#fn-${label}" ` +
+      // ctx.idPrefix ("lv-") namespaces the note ids when two rendered bodies of
+      // the same section coexist on one page (Version web + Version livre).
+      const nid = (ctx.idPrefix || "") + label;
+      ctx.notesOut.push({ label: nid, n: ctx.noteN, html: inner });
+      return `<a class="fnref" id="fnref-${nid}" href="#fn-${nid}" ` +
         `aria-label="Note ${ctx.noteN}"><sup>${ctx.noteN}</sup></a>`;
     }
     const id = "sn-" + label;

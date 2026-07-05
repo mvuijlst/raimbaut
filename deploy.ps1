@@ -32,3 +32,5 @@ if ($LASTEXITCODE -ne 0) { throw "remote deploy failed" }
 
 Remove-Item $Tar -Force
 Write-Host "deployed -> https://raimbaut.yusupov.cloud" -ForegroundColor Green
+
+Set-Location $PSScriptRoot

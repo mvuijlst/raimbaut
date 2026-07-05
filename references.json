@@ -2,8 +2,8 @@
   "stats": {
     "resolved": 473,
     "unresolved": 4,
-    "high_conf": 125,
-    "medium_conf": 348,
+    "high_conf": 126,
+    "medium_conf": 347,
     "low_conf": 0,
     "via_bibliography": 9
   },
@@ -4631,12 +4631,12 @@
       "author": "Frank R. HAMLIN, Peter T. RICKETTS et John HATHAWAY",
       "target": {
         "author": "HAMLIN",
-        "title": "",
+        "title": "étude de l",
         "page": 498,
         "source": "bibliography",
         "section": "general"
       },
-      "confidence": "medium",
+      "confidence": "high",
       "note_hint": "resolved via bibliography (not previously cited in a footnote)"
     },
     {

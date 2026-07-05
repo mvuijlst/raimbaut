@@ -1,0 +1,40 @@
+---
+layout: base.njk
+title: Table des manuscrits
+permalink: /manuscrits/
+---
+<article class="prose">
+<header class="section-head">
+  <span class="u-eyebrow">Références</span>
+  <h1>Table des manuscrits</h1>
+  <p class="subtitle">Les chansonniers médiévaux collationnés dans l'édition,
+  désignés par les sigles de Pillet-Carstens.</p>
+</header>
+
+{% if edition.manuscriptTable %}
+<dl class="ms-table">
+  {% for w in edition.manuscriptTable.witnesses %}
+  <dt id="{{ w.siglum }}" lang="oc">{{ w.label }}</dt>
+  <dd>
+    {% if w.location %}<p class="ms-loc">{{ w.location | msRef | safe }}</p>{% endif %}
+    {% if w.subline %}<p class="ms-line ms-subline">{{ w.subline | msRef | safe }}</p>{% endif %}
+    {% if w.description %}<p class="ms-desc">{{ w.description | msRef | safe }}</p>{% endif %}
+    {% if w.origin %}<p class="ms-line">{{ w.origin | msRef | safe }}</p>{% endif %}
+    {% if w.references %}<p class="ms-line ms-refs">{{ w.references | msRef | safe }}</p>{% endif %}
+    {% for ed in w.editions %}
+    <p class="ms-line ms-ed"><span class="ms-ed-label">{{ ed.label }} :</span></p>
+    <ul class="ms-ed-list">
+      {% for item in ed.items %}
+      <li>{{ item.text | bibCite | safe }}{% if item.href %} <a class="ms-bib-link" href="{{ item.href }}" title="Voir dans la bibliographie" aria-label="Voir dans la bibliographie">↗</a>{% endif %}</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </dd>
+  {% endfor %}
+</dl>
+
+{% if edition.manuscriptTable.note %}
+<p class="ms-note">{{ edition.manuscriptTable.note | msRef | safe }}</p>
+{% endif %}
+{% endif %}
+</article>

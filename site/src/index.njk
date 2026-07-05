@@ -37,17 +37,24 @@ permalink: /
     <span class="door-note">L'étude conclusive : le trobar de Raimbaut</span>
   </a>
   <a class="door" href="/bibliographie/">
-    <span class="door-kicker">Apparat</span>
+    <span class="door-kicker">Références</span>
     <span class="door-title">Bibliographie</span>
     <span class="door-note">{{ edition.bibliography.general.length }} ouvrages, éditions et études par chanson</span>
   </a>
   <a class="door" href="/abbreviations/">
-    <span class="door-kicker">Apparat</span>
+    <span class="door-kicker">Références</span>
     <span class="door-title">Sigles &amp; abréviations</span>
     <span class="door-note">{{ edition.counts.abbreviations }} sigles résolus et liés à la bibliographie</span>
   </a>
+  {% if edition.manuscriptTable %}
+  <a class="door" href="/manuscrits/">
+    <span class="door-kicker">Références</span>
+    <span class="door-title">Table des manuscrits</span>
+    <span class="door-note">{{ edition.manuscriptTable.witnesses.length }} chansonniers collationnés, cote et éditions</span>
+  </a>
+  {% endif %}
   <a class="door" href="/index-mots/">
-    <span class="door-kicker">Apparat</span>
+    <span class="door-kicker">Références</span>
     <span class="door-title">Index</span>
     <span class="door-note">Mots · noms propres · œuvres et auteurs occitans</span>
   </a>
