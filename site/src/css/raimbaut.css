@@ -393,6 +393,45 @@ a:hover { color: var(--rubric); }
   line-height: 1.7;
 }
 
+/* aligned verse-parallelism display (e.g. the three strophe openings quoted on
+   v1p039). A 4-column grid lines up hemistich A, the caesura slash, hemistich B
+   and the (v.N) label — the columnar layout the typescript set with tab stops. */
+.parallelism {
+  display: grid;
+  grid-template-columns: max-content max-content max-content 1fr;
+  column-gap: 0.55em;
+  row-gap: 0.3em;
+  align-items: baseline;
+  margin: 1.4rem 0 1.4rem 1.6rem;
+  font-style: italic;              /* quoted Occitan verse */
+  line-height: 1.5;
+}
+.parallelism .pl-c { font-style: normal; color: var(--muted); }
+.parallelism .pl-v { justify-self: end; font-style: normal; color: var(--ink-soft); }
+
+/* p. 52 strophic/syntactic diagram. The SVG (reading + livre) is inlined so its
+   fills use --ink / --paper / --paper-deep / --rubric and follow the theme; the
+   PNG (facsimile) is the typescript photograph. */
+.diagram { margin: 1.8rem 0; text-align: center; }
+.diagram svg, .diagram img { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+.diagram-p52 svg { width: 100%; max-width: 34rem; }
+.diagram-p52.fx-diagram img { max-width: 30rem; }
+.diagram figcaption {
+  margin-top: 0.6rem; font-size: 0.8rem; font-style: italic;
+  color: var(--muted); text-align: center;
+}
+/* soften the raw facsimile scan a touch in dark mode, as with the manuscript plates */
+:root[data-theme="dark"] .fx-diagram img { opacity: 0.9; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .fx-diagram img { opacity: 0.9; }
+}
+
+/* emphasis the author set by underlining (here the coordinating conjunction "E"):
+   bold in the reading + livre views … */
+.cx-web .stress, .cx-livre .stress { font-weight: 700; }
+/* … and underlined in the faithful facsimile, as it was on the typescript. */
+.cx-facsimile .stress { font-weight: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
 /* ------------------------------------------------- sidenotes (livre view) */
 label.sidenote-number { cursor: pointer; }
 label.sidenote-number::after {

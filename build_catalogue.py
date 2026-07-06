@@ -22,7 +22,9 @@ ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 
          "XXVIII": 28, "XXIX": 29, "XXX": 30, "XXXI": 31, "XXXII": 32, "XXXIII": 33,
          "XXXIV": 34, "XXXV": 35, "XXXVI": 36, "XXXVII": 37, "XXXVIII": 38, "XXXIX": 39}
 
-HDR = re.compile(r"CHANSON\s+([IVXL]+)\s*:?\s*(REMARQUES|TEXTE)", re.I)
+# `\]?\s*(?:\{\.underline\})?` tolerates the underline-wrapped header form
+# "[CHANSON I ]{.underline} : REMARQUES" alongside the bare "CHANSON I : REMARQUES".
+HDR = re.compile(r"CHANSON\s+([IVXL]+)\s*\]?\s*(?:\{\.underline\})?\s*:?\s*(REMARQUES|TEXTE)", re.I)
 manifest = json.load(open("manifest.json", encoding="utf-8"))
 
 

@@ -17,9 +17,11 @@ import re
 PRINTED = {r["pageid"]: r["printed_number"]
            for r in csv.DictReader(open("page_numbers.csv", encoding="utf-8"))}
 
+# `\]?\s*(?:\{\.underline\})?` tolerates headers wrapped by the transcription as
+# "[CHANSON I ]{.underline} : REMARQUES" as well as the bare "CHANSON I : REMARQUES".
 HEAD = [
-    ("chanson-remarques", re.compile(r"CHANSON\s+[IVXL]+\s*:?\s*REMARQUES", re.I)),
-    ("chanson-texte",     re.compile(r"CHANSON\s+[IVXL]+\s*:?\s*TEXTE", re.I)),
+    ("chanson-remarques", re.compile(r"CHANSON\s+[IVXL]+\s*\]?\s*(?:\{\.underline\})?\s*:?\s*REMARQUES", re.I)),
+    ("chanson-texte",     re.compile(r"CHANSON\s+[IVXL]+\s*\]?\s*(?:\{\.underline\})?\s*:?\s*TEXTE", re.I)),
     ("introduction",      re.compile(r"^I\s*N\s*T\s*R\s*O\s*D\s*U\s*C\s*T\s*I\s*O\s*N", re.I)),
     ("bibliographie",     re.compile(r"^B\s*I\s*B\s*L\s*I\s*O\s*G\s*R\s*A\s*P\s*H\s*I\s*E", re.I)),
     ("index",             re.compile(r"^I\s*N\s*D\s*E\s*X\b", re.I)),

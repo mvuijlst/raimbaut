@@ -553,6 +553,7 @@ function fxSidenotes(html, ctx, nm) {
 function fxDiv(cls, attr, inner, ctx, nm) {
   const classAttr = cls.length ? ` class="${cls.join(" ")}"` : "";
   const langAttr = attr.lang ? ` lang="${attr.lang}"` : "";
+  if (cls.includes("parallelism")) return parallelismRows(inner, (s) => ctx.md.renderInline(s));
   const isVerse = cls.includes("verse") || !!attr.lang;
   const nonEmpty = inner.filter((l) => l.trim());
   const indent = nonEmpty.length ? Math.min(...nonEmpty.map((l) => l.match(/^ */)[0].length)) : 0;
@@ -701,10 +702,35 @@ export function renderSection(markdown, ctx) {
   return out.join("\n");
 }
 
+// A `.parallelism` fenced div: an aligned display of parallel verse openings
+// (e.g. the three strophe heads "Cars … / E …" quoted on v1p039, whose columnar
+// typescript layout book.md's reflow had flattened to one line). Each source line
+// "HEMISTICH-A / HEMISTICH-B  (v.N)" becomes one aligned grid row; the emphasised
+// conjunction is written [E]{.stress} — bold in the reading + livre views,
+// underlined in the facsimile (see .stress in raimbaut.css). `renderInline` is the
+// caller's own inline renderer, so typography matches the surrounding view.
+function parallelismRows(inner, renderInline) {
+  const cell = (s) => renderInline(String(s).trim());
+  const rows = inner.map((l) => l.trim()).filter(Boolean).map((line) => {
+    let label = "";
+    const m = line.match(/\(([^)]*)\)\s*$/);
+    if (m) { label = m[1]; line = line.slice(0, m.index); }
+    const i = line.indexOf("/");
+    const a = i >= 0 ? line.slice(0, i) : line;
+    const b = i >= 0 ? line.slice(i + 1) : "";
+    return `<span class="pl-a">${cell(a)}</span>`
+      + `<span class="pl-c" aria-hidden="true">${i >= 0 ? "/" : ""}</span>`
+      + `<span class="pl-b">${cell(b)}</span>`
+      + `<span class="pl-v">${label ? "(" + cell(label) + ")" : ""}</span>`;
+  }).join("");
+  return `<div class="parallelism" role="group">${rows}</div>`;
+}
+
 function renderDiv(cls, attr, inner, ctx) {
   const { md, sigla } = ctx;
   const classAttr = cls.length ? ` class="${cls.join(" ")}"` : "";
   const langAttr = attr.lang ? ` lang="${attr.lang}"` : "";
+  if (cls.includes("parallelism")) return parallelismRows(inner, (s) => md.renderInline(s));
   const isVerse = cls.includes("verse") || !!attr.lang;
   // strip a common leading indent (some fences + their lines are indented) while
   // keeping internal hemistich gaps intact

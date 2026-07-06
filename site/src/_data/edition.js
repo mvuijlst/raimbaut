@@ -103,9 +103,40 @@ const INDEX_NOTES = {
     + "chaque référence renvoie à la chanson et au vers.",
 };
 
+// p. 52 (v1p057) carries a hand-drawn strophic/syntactic diagram. Two renderings:
+// a redrawn SVG for the reading + livre views (inlined, so its ink/paper/rubric
+// track the light-dark theme via CSS variables) and the PNG photograph for the
+// faithful facsimile. The diagram was transcribed as the list line "- 8 8 8 7'8 8
+// : a b c d e a …"; each view replaces that line with its figure.
+const DIAGRAM_P52_LINE = /- 8 8 8 7['’]8 8[^\n]*?a b c d e a[^\n]*/;
+const DIAGRAM_P52_SVG = (() => {
+  const svg = read("images/p52.svg")
+    // drop the redundant full-bleed clipPath: its single id would collide when the
+    // web AND livre bodies both inline this SVG on one page.
+    .replace(/<clipPath[\s\S]*?<\/clipPath>/g, "")
+    .replace(/\s*clip-path="url\(#clip0_3803_262\)"/g, "")
+    .replace(/<defs>\s*<\/defs>/g, "")
+    // theme-aware colours (light + dark) instead of baked-in black/white/cream/red
+    .replace(/fill="white"/gi, 'fill="var(--paper)"')
+    .replace(/stroke="white"/gi, 'stroke="var(--paper)"')
+    .replace(/fill="black"/gi, 'fill="var(--ink)"')
+    .replace(/stroke="black"/gi, 'stroke="var(--ink)"')
+    .replace(/fill="#F2ECDD"/gi, 'fill="var(--paper-deep)"')
+    .replace(/fill="#A03123"/gi, 'fill="var(--rubric)"')
+    .replace("<svg ", '<svg role="img" aria-label="Structure strophique et syntaxique du poème (p. 52)" ');
+  return `<figure class="diagram diagram-p52">${svg}` +
+    `<figcaption>Structure strophique et syntaxique du poème — figure redessinée ` +
+    `d'après le schéma de la p. 52.</figcaption></figure>`;
+})();
+const DIAGRAM_P52_PNG =
+  `<figure class="diagram diagram-p52 fx-diagram"><img src="/images/p52.png" ` +
+  `alt="Schéma de la structure strophique du poème, p. 52 (fac-similé du tapuscrit)"/></figure>`;
+
 // The typescript's hand-drawn figures, reconstructed from their own data at
 // the exact spot where the original page carried them.
 const PAGE_PATCHES = {
+  // p. 52: the strophic/syntactic diagram -> redrawn, theme-aware SVG (web + livre)
+  v1p057: (t) => t.replace(DIAGRAM_P52_LINE, "\n" + DIAGRAM_P52_SVG + "\n"),
   // p. 20: the three per-factor rankings (three running lists -> one table)
   v1p020: (t) => t.replace(
     /1\. Nombre de chansons par troubadour:[\s\S]*?764\)\./,
@@ -122,6 +153,12 @@ const PAGE_PATCHES = {
   v1p029: (t) => t.replace(
     /\| Classement d'après la fréquence[\s\S]*Marcabru \|/,
     "\n" + groupingTable() + "\n"),
+};
+
+// Facsimile-only patches (the facsimile renders from the RAW, unpatched page text).
+// p. 52's diagram shows the PNG photograph here rather than the redrawn SVG.
+const FACS_PATCHES = {
+  v1p057: (t) => t.replace(DIAGRAM_P52_LINE, "\n" + DIAGRAM_P52_PNG + "\n"),
 };
 
 // The reading (web) view carries an editorial <h1> for each section, so the
@@ -372,7 +409,8 @@ export default function () {
     return kept
       .map((pid, i) => {
         const contFrom = i > 0 && metas[i - 1].lastOpen && metas[i].firstIsPara;
-        return { folio: printedOf.get(pid) || "", pid, ...renderFacsimilePage(pageTextRaw(pid), ctx, { contFrom }) };
+        const facsText = FACS_PATCHES[pid] ? FACS_PATCHES[pid](pageTextRaw(pid)) : pageTextRaw(pid);
+        return { folio: printedOf.get(pid) || "", pid, ...renderFacsimilePage(facsText, ctx, { contFrom }) };
       })
       .filter((pg) => pg.html.trim() || pg.notes.length);
   };

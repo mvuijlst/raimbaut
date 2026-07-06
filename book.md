@@ -410,7 +410,11 @@ Tout comme Emil Levy[^v1p038-2], Carl Appel ne traduit pas le mot *fenhz* dans s
 
 Remarquons d'emblée que pour procéder à pareille émendation, Marshall est obligé de recourir à un mot inexistant en ancien provençal et qu'il fabrique à partir d'*enenzha*, sur le modèle des paires *senh/senha* et *entresenh/entresenha*. En outre, le fait qu'un examen de la tradition manuscrite nous montre que partout fut conservé le f ([D]{.underline}: *efenz*; [IK]{.underline}: *efeinz*; [M]{.underline}: *e fi*; [N]{.underline}^2^: *e feinz*; *a*: *e fis*), réduit quelque peu le bien-fondé de cette émendation de *e fenhz* en *e(n)senhz*. D'autre part, la structure même du poème semble plaider en la faveur de *e fenhz*, dans la mesure où l'on conserve alors, par le biais de l'anaphore, un parallélisme assez remarquable entre le début des trois premières strophes: à chaque fois, trois monosyllabes dont les deux premiers sont reliés au dernier par une conjonction de coordination:
 
-Cars, douz / E fenhz (v.1) Cars jois / E genhz (v.10) Cars, bruns / E tenhz (v.19)
+::: {.parallelism}
+Cars, douz / [E]{.stress} fenhz (v.1)
+Cars jois / [E]{.stress} genhz (v.10)
+Cars, bruns / [E]{.stress} tenhz (v.19)
+:::
 
 Cela étant, nous ne voyons vraiment pas la nécessité de l'émendation proposée par J.H. Marshall et ce d'autant plus que, du point de vue sémantique, *e fenhz* nous met en présence d'un réseau de significations autrement plus riche que *e(n)senhz*. En effet, comme le montre Linda M. Paterson, *fenhz* peut avoir plusieurs sens: "(a) 'striving', 'aspiring' (...) this would link with the next line, *vas cui m'azere*: the wren's song would seem to be 'aspiring' as it unfolds in joy, and in turn inspires the poet to raise up his spirits; (b) 'feigned' (...) perhaps in the sense of 'mysterious' or 'devious' like the poet's *bruns e tenhz motz*; (c) 'inventive', because the wren's song represents imagination and creativity"[^v1p039-1]. A propos de ce dernier sens, Linda
 
@@ -770,9 +774,7 @@ Quant à la forme verbale *dech'*, on peut se demander s'il s'agit d'une forme d
 
 [v.17sv.]{.underline}
 
-Mettant un point après *rotlh* (v.16), Pattison lit la strophe III et une partie de la strophe IV comme une suite de subordonnées circonstancielles, la principale n'apparaissant qu'au v.30: *qu'ades am mais per un mil/ Midons*. Sans doute, il n'est pas courant dans la poésie provençale de procéder à de telles liaisons syntaxiques, de strophe en strophe. En fait, ce serait même là un vice mentionné expressément par les *Leys d'Amors*:
-
-"*... cobla es ajustamens de .V.bordos al mens. o de .XVI. als may. Li qual bordo enayssi ajustat fan e representon una clauza.*"
+Mettant un point après *rotlh* (v.16), Pattison lit la strophe III et une partie de la strophe IV comme une suite de subordonnées circonstancielles, la principale n'apparaissant qu'au v.30: *qu'ades am mais per un mil/ Midons*. Sans doute, il n'est pas courant dans la poésie provençale de procéder à de telles liaisons syntaxiques, de strophe en strophe. En fait, ce serait même là un vice mentionné expressément par les *Leys d'Amors*: "*... cobla es ajustamens de .V.bordos al mens. o de .XVI. als may. Li qual bordo enayssi ajustat fan e representon una clauza.*
 
 [^v1p056-1]: [LPD]{.underline}, p.227. — Signalons qu'on retrouve cette expression dans *La Chanson de Sainte Foye*, v.286 (éd. E.HOEPFFNER et P.ALFARIC, Paris, Les Belles Lettres, 1926, t.I, p.299) ainsi que dans *Flamenca*, non au v.117 comme le disent Hoepffner et Alfaric, mais bien au v.1117 (voir éd.GSCHWIND, p.307).
 [^v1p056-2]: Il cite à ce propos [LPD]{.underline}, p.106.
@@ -781,7 +783,7 @@ Mettant un point après *rotlh* (v.16), Pattison lit la strophe III et une parti
 
 <!-- page: v1p057 -->
 
-laqual en si clau e conte perfiecha sentensa (...) e enayssi tota cobla es vicioza, si no clau e conte sentensa perfiecha soes am pauza plana o final[^v1p057-1].
+*laqual en si clau e conte perfiecha sentensa (...) e enayssi tota cobla es vicioza, si no clau e conte sentensa perfiecha soes am pauza plana o final.*[^v1p057-1]
 
 Or, si Pattison avait déjà remarqué un lien de ce genre entre les strophes I-II et III-IV, nous croyons qu'il y a moyen d'étendre cette constatation à l'ensemble du texte. En effet, la strophe III commence par une subordonnée, *quan vei rengat*..., qui peut fort bien être reliée à la principale *Mas ieu no'm part* (v.14) de la strophe II. Le v.30, *Q'ades am maïs*... (str.IV) forme le début d'une nouvelle phrase qui s'arrête au v.34 de la strophe V, *...vas mi s'escrim*, tandis que le lien entre V et VI va du v.39 (*Mas ja sos cors...*) au v.45 (*...donc prenc mal esterinh*). Cela étant, si l'on compare les coupures syntaxiques de ce poème à sa structure strophique, on en arrive au résultat suivant:
 
@@ -4524,7 +4526,7 @@ Et si ma chanson n'eût quelques fois dure envers *Amor*, une comtesse *nominati
 
 <!-- page: v1p228 -->
 
-[CHANSON XX ]{.underline} : REMARQUES. 
+[CHANSON XX ]{.underline} : REMARQUES.
 
 [v.4]{.underline}
 
