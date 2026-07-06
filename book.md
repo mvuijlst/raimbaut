@@ -56,7 +56,7 @@ chez Raimbaut[^v1p006-1] — la lyrique occitane était arrivée à un point de 
 
 En effet, de Guillaume IX à Raimbaut d'Orange, on avait vu s'établir et se fixer presque tous les éléments constitutifs de la lyrique occitane, tant thématiques que formels. Se situant à ce qui semble être un tournant important dans cette lyrique, Raimbaut intervient personnellement dans le débat qui oppose les tenants du *trobar clus* à ceux du *trobar leu*[^v1p006-3]. Poète difficile et conscient de la
 
-[^v1p006-1]: C'est ce que Carl APPEL, *Raimbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928, pp. 62-98 (ci-après [RVO]{.underline}) a fort bien mis en évidence dans sa minutieuse étude de la versification de Raimbaut. Pattison, quant à lui, parle même des "Marcabrunesque poems" de Raimbaut, faisant allusion par cela, surtout, aux chansons I, II et IV de Raimbaut, farcies de procédés rhétoriques et langagiers apparemment empruntés à Marcabru ([RO]{.underline}, p. 45 et *passim*).
+[^v1p006-1]: C'est ce que Carl APPEL, *Raimbaut von Orange*, Berlin, Weidmannsche Buchhandlung, 1928, pp. 62-98 (ci-après [RvO]{.underline}) a fort bien mis en évidence dans sa minutieuse étude de la versification de Raimbaut. Pattison, quant à lui, parle même des "Marcabrunesque poems" de Raimbaut, faisant allusion par cela, surtout, aux chansons I, II et IV de Raimbaut, farcies de procédés rhétoriques et langagiers apparemment empruntés à Marcabru ([RO]{.underline}, p. 45 et *passim*).
 
 [^v1p006-2]: Robert LAFONT et Christian ANATOLE, *Nouvelle histoire de la littérature occitane*, Paris, P.U.F., 1970, t. I, pp. 65ss.
 
@@ -398,7 +398,7 @@ Tout comme Emil Levy[^v1p038-2], Carl Appel ne traduit pas le mot *fenhz* dans s
 
 [^v1p038-2]: Emil LEVY, *Provenzalisches Supplement Wörterbuch. Berichtigungen und Ergänzungen zu Raynouards Lexique roman*, Leipzig, U.K. Reißland, 1894-1924, t.I-VIII (ci-après [SW]{.underline}): t.VII, p.665-666.
 
-[^v1p038-3]: [Rv0]{.underline}, p.89.
+[^v1p038-3]: [RvO]{.underline}, p.89.
 
 [^v1p038-4]: [RO]{.underline}, p.67.
 
@@ -1563,9 +1563,9 @@ Sans rien changer au texte proprement dit de Pattison, nous proposerions cependa
 
 [^v1p094-1]: Voir à ce propos Kurt KUTSCHA, *Das sogenannte n-mobile im Alt- und Neuprovenzalischen*, Halle, Max Niemeyer Verlag, 1934, XVII + 135 p. (Romanistische Arbeiten, XXI): voir surtout pp.77 et 84sv.
 
-[^v1p094-2]: *Rv0*, p.52.
+[^v1p094-2]: *RvO*, p.52.
 
-[^v1p094-3]: Kurt LEWENT, *C.R. de Rv0*, dans *Zeitschrift für französische Sprache und Literatur*, LII (1929), p.158.
+[^v1p094-3]: Kurt LEWENT, *C.R. de RvO*, dans *Zeitschrift für französische Sprache und Literatur*, LII (1929), p.158.
 
 <!-- page: v1p095 -->
 
@@ -1584,10 +1584,10 @@ joie; l'adverbe *en* (= *it*) renvoie alors au v.19. Mais Pattison ne se serait-
 
 Ce vers présente quelques problèmes concernant l'établissement et l'interprétation du mot à la rime. D'après les variantes qui lui étaient connues (celles de [A, C, N]{.underline}^2^ et *a*) et suivant en cela les exigences de la versification qui demandent ici une rime en *-onh*, Carl Appel opte pour la forme *m'esconh*, première personne de l'indicatif présent d'*escondre*, 'cacher' et traduit: "*...das schwere Leiden (...) das ich mir im Herzen drinnen berge*"[^v1p096-2]. Il n'en demeure pas moins que, normalement, nous devrions avoir dans cette hypothèse la forme *escon*[^v1p096-3]. De là que Schultz-Gora suppose, comme le rappelle Pattison, qu'*esconh* soit une licence poétique, "a forged rhyme"[^v1p096-4]. Pattison, quant à lui, récuse toute espèce de rapport avec *escondre* et propose de voir en *esconh* une forme d'*esconhar, enconhar*, "whose second form occurs in [LSW]{.underline}, II, 447 where the meaning is given as probably 'to
 
-[^v1p096-1]: [Rv0]{.underline}, p.49.
-[^v1p096-2]: [Rv0]{.underline}, p.53.
+[^v1p096-1]: [RvO]{.underline}, p.49.
+[^v1p096-2]: [RvO]{.underline}, p.53.
 [^v1p096-3]: Joseph ANGLADE, *ouv. cité*, p.331.
-[^v1p096-4]: [RO]{.underline}, p.86; Pattison y réfère à O. SCHULTZ-GORA, *C.R.* de [Rv0]{.underline}, dans [Archiv]{.underline} für das Studium der neueren Sprachen und Literaturen, CLVII, p.302.
+[^v1p096-4]: [RO]{.underline}, p.86; Pattison y réfère à O. SCHULTZ-GORA, *C.R.* de [RvO]{.underline}, dans [Archiv]{.underline} für das Studium der neueren Sprachen und Literaturen, CLVII, p.302.
 
 <!-- page: v1p097 -->
 
@@ -1799,7 +1799,7 @@ concrètement que l'autre (= la Dame, Amour, un "ennemi", etc.) le tue[^v1p106-1
 D'autre part, si l'éventualité du suicide nous semble des plus improbables — en raison de ce que nous venons de dire plus haut — nous pensons également pouvoir l'écarter de par le contexte immédiat du poème. En effet, s'il était véritablement question de suicide au v. 35, comment concilier cela avec le v. 33 où le poète dit que s'il meurt à cause (de l'attitude) de sa Dame, il fera des miracles, "als Märtyrer der Liebe" ajoute Carl Appel[^v1p106-2]? Comment un suicidé pourrait-il être martyr et faire des miracles? Il y a là, on s'en rend compte, impossibilité évidente[^v1p106-3]. Ce rapprochement des vv. 33 et 35 est d'autant plus licite que le rapport entre eux est non seulement syntaxique (*per que*, v. 34) mais s'insère, en outre, à l'intérieur d'un ensemble plus vaste allant des vv. 32 à 35 et justifié tant logiquement que stylistiquement.
 
 [^v1p106-1]: Sur la métaphorisation de ce désir de mort, voir René NELLI, *loc. cit.* — Pour la permanence de ce motif de la mort par amour, voir (pour les trouvères) Roger DRAGONETTI, *Technique poétique*, pp. 113 sv. ; (pour les poètes siciliens) Walter PAGANI, *Repertorio tematico della scuola poetica siciliana*, Bari, Adriatica ed., 1968, p. 234-245 et Flavio CATENAZZI, *L'influsso dei Provenzali sui temi e immagini della poesia siculo-toscana*, Brescia, Morcelliana, 1977, p. 20-26.
-[^v1p106-2]: Rv0, p. 22.
+[^v1p106-2]: RvO, p. 22.
 [^v1p106-3]: On connaît les condamnations du suicide que donnent tant Saint Thomas (*Sum. theol.* II, II, 64, 5) que Saint Augustin (*De Civitate Dei*, I, 22-24, à propos du suicide de Caton); le suicide ne peut mener qu'à la damnation et les théologiens médiévaux n'admettent qu'une seule exception à cette règle: "nisi forte divino instinctu fiat, ad exemplum fortitudinis ostendendum, ut mors contemnatur" (Saint Thomas, *Summ. theol. Suppl.*, 96, 6 ad 6). — Voir à ce propos *Enciclopedia Dantesca*, Roma, Istituto della E. D., 1970, t. I, p. 877 et 1976, t. V, p. 477-478.
 
 <!-- page: v1p107 -->
@@ -2767,9 +2767,9 @@ vv.32-36
 
 Traduction de Carl Appel: "Der mich hoch sichtbar in den Wind hängen wollte, den will ich mir als Freund erachten, denn beide Augen würde ich mir (aus dem Kopfe) reissen wollen"[^v1p149-2]. Ce faisant, il fait de *volra* (v.36) une première personne du conditionnel[^v1p149-3], ce qui nous semble cependant fort peu probable: à notre avis, *volra* ne peut être qu'une troisième personne du futur[^v1p149-4]. Pattison, quant à lui, signale l'interprétation d'Oscar Schultz-Gora, selon laquelle les vv.32-34 contiennent deux subordonnées (respectivement ...*qui'm pen...* et ...*qui'...volra*) dépendant d'une principale située au v.35 (*cel...tenrai*). Lui-même, cependant, préfère considérer le *qui* du v.32 comme signifiant "if one"[^v1p149-5]. Que ce sens n'apparaisse pas dans les dictionnaires ne lui pose aucun problème et il traduit: "How can I, poor devil, be worse off (v.31) — even if they hang me high in the wind in public view? The one who whishes to tear out both
 
-[^v1p149-1]: [Rv0]{.underline}, p.48. Voir aussi Charle ROTH, *loc. cit.*
+[^v1p149-1]: [RvO]{.underline}, p.48. Voir aussi Charle ROTH, *loc. cit.*
 
-[^v1p149-2]: [Rv0]{.underline}, *loc. cit.*
+[^v1p149-2]: [RvO]{.underline}, *loc. cit.*
 
 [^v1p149-3]: C'est du moins ce qu'on peut déduire de sa traduction ("würde...wollen"). A ce propos, Pattison prétend qu'Appel lit *volgra* en lieu et place de *volra*, lecture que les mss. ne permettraient pas. Si *volgra* est en effet démenti par tous les mss., reste que nous n'avons trouvé chez Carl Appel aucune affirmation d'une pareille lecture!
 
@@ -3975,7 +3975,7 @@ et fais que l'on m'aime avec désir recherché. Et j'espère le bien, car j'en a
 
 Là où Carl Appel traduit le mot *vesatz* par 'klug, geschickt'[^v1p197-1], Walter T. Pattison opte plutôt pour la traduction 'gay'[^v1p197-2]. Il est un fait que les dictionnaires ne nous aident pas beaucoup à trancher dans ce cas-ci. En effet, chez Raynouard nous trouvons s.v. *vezar* 'accoutumer, habituer, faire prendre l'habitude, aviser', deux exemples d'un participe *vezat* employé comme adjectif et traduit par 'accoutumé' et 'avisé'[^v1p197-3]. Il en va de même chez Levy, à ceci près que celui-ci y ajoute des exemples où les significations de *vezat* sont les suivantes: 'gesittet', 'klug', 'lustig', 'fröhlich'[^v1p197-4]. En outre, Raynouard signale également un adjectif *veziat* ('avisé', 'content')[^v1p197-5], mais les deux exemples qu'il en cite ne sont pas acceptés — à raison — par Emil Levy qui ne peut que citer des exemples où *veziat* a le sens de 'verschlagen', 'falsch', 'klug', 'schlau' et 'verständig'[^v1p197-6]. Tout cela ne nous avance guère, si ce n'est que parmi les exemples cités par Levy, il en est un qui semble particulièrement intéressant pour notre propos, emprunté à Guiraut de Bornelh: *C'a pena om conoissa / Mos leugers dichs veziatz / Sotils e menutz soudatz*[^v1p197-7].
 
-[^v1p197-1]: [RVO]{.underline}, p.81, n.4.
+[^v1p197-1]: [RvO]{.underline}, p.81, n.4.
 [^v1p197-2]: [RO]{.underline}, p.128.
 [^v1p197-3]: [LR]{.underline}, t.V, p.531.
 [^v1p197-4]: [SW]{.underline}, t.VIII, pp.720-721.
@@ -4001,9 +4001,9 @@ Dans cette dernière hypothèse, l'exemple de Guiraut de Bornelh que nous cition
 
 [^v1p199-1]: Cela est tellement vrai, que l'on a même cru être en droit de prouver, par exemple pour Guiraut de Bornelh, le contraire de ce qu'affirme Pattison, à savoir que le poète opte pour l'obscurité, le *trobar clus*, lorsqu'il se sent triste, lorsqu'il chante l'amour malheureux! — Voir à ce propos Jean-J. SALVERDA DE GRAVE, "Giraut de Bornelh et la poésie obscure", dans *Mélanges de linguistique et de philologie offerts à Jacques Van Ginneken*, Paris, 1937, pp.297-306; Arié SERPER, "Guiraut de Bornelh, le 'gant', le *trobar clus* et l'ignauré", dans *Revue des Langues Romanes*, LXXX (1974), pp.93-106.
 
-[^v1p199-2]: [Rv0]{.underline}, p.83.
+[^v1p199-2]: [RvO]{.underline}, p.83.
 
-[^v1p199-3]: [Rv0]{.underline}, p.81, n.4.
+[^v1p199-3]: [RvO]{.underline}, p.81, n.4.
 
 [^v1p199-4]: Adolf KOLSEN, *ouv.cité*, t.II, p.41.
 
@@ -4029,7 +4029,7 @@ vv.39-40
 
 Dans l'édition de Pattison nous trouvons *Pos m'etza de latz / En que poing* ?, qu'il traduit par "Since you (Amor) are at my side, why do I strive ?"[^v1p201-2]. Or, tous les manuscrits présentent la
 
-[^v1p201-1]: [RVO]{.underline}, p.80.
+[^v1p201-1]: [RvO]{.underline}, p.80.
 [^v1p201-2]: [RO]{.underline}, p.126.
 
 <!-- page: v1p202 -->
@@ -4676,7 +4676,7 @@ Pour Carl Appel, les verbes *sort'e saill'e tresc* sont tous à la troisième pe
 
 Notons que, de toute façon, si *saill* peut être tant une troisième personne qu'une première (de *salhir*[^v1p232-3]), il n'en va pas de même de *tresc* qui, logiquement, ne peut être qu'une première personne de l'indicatif[^v1p232-4]. Reste la forme *sort*. Nous ne voyons pas très bien l'intérêt qu'il y aurait à y voir une variante orthographique de *sortz* — que la tradition manuscrite ne nous permet en aucun cas de supposer — d'autant plus que *sortz* est une troisième personne de *sorzer*[^v1p232-5] que Pattison traduit quand même par une première personne! Toutefois, chez Peire d'Auvergne, nous trouvons un autre exemple de *sort*, que Zenker considère également comme une troisième personne de *sorzer*[^v1p232-6], mais qu'Emil Levy fait remonter au verbe *sortir*[^v1p232-7]. Or, ce dernier verbe peut très bien avoir une forme *sort*, tout à fait régulière celle-ci, comme première personne.
 
-[^v1p232-1]: [Rv0]{.underline}, p.29.
+[^v1p232-1]: [RvO]{.underline}, p.29.
 [^v1p232-2]: [RO]{.underline}, p.141.
 [^v1p232-3]: Voir e.a. *ANG*, p. 284.
 [^v1p232-4]: Ou bien aussi une première ou une troisième personne du subjonctif présent, ce qui ne nous est d'aucune utilité dans le cas présent (voir *ANG*, pp.269-270 et 276).
@@ -4958,7 +4958,7 @@ Je ne veux pas que ma chanson s'élance, sauf pour ceux auprès de qui je trouve
 
 Là où Carl Appel voit en ce vers une question et traduit *temer* par "craindre"[^v1p250-1], Walter T. Pattison en fait une relative auprès de *lieis*, ce qui nous semble en effet plus approprié — et donne à l'infinitif la valeur "technique" qu'il peut avoir dans le vocabulaire amoureux[^v1p250-2] de "to be afraid of revealing one's passion to other people", de là "to conceal one's love"[^v1p250-3]. Le problème se pose alors au v.18, bien sûr, où le poète affirme *q'ieu no i faz ges feignien semblan* ("so, that I never disguise my face in such a case"). Ainsi, on aurait ici deux affirmations successives, se contredisant formellement l'une l'autre : dans la première l'amant dirait qu'il s'efforce de cacher (*temer*) son amour, dans la seconde il déclare qu'il lui est agréable (*Bo'm sap*, v.17) de ne pas cacher ses sentiments ! D'autre part, et cela ne fait qu'ajouter à la confusion, dans la strophe II, le poète répond à la question implicite qu'il posait au début de son poème : pourquoi est-ce que je chante si souvent ? Non pas pour de l'argent (vv.1-3), et ma Dame le sait bien (vv. 4-7), mais bien parce que mon chant me procure un autre *plazer* (v.8) dans la mesure où chaque fois que je chante, je *nomme* ma Dame, ce que je serais incapable de faire normalement, *auzen totz* (v.11). Remarquons, entre parenthèses, que Pattison évite soigneusement le problème que pose ce verbe *nommar*, en restant fort vague dans sa traduction[^v1p250-4]. Ce qui lui permet, par ailleurs,
 
-[^v1p250-1]: [Rv0]{.underline}, p.59
+[^v1p250-1]: [RvO]{.underline}, p.59
 
 [^v1p250-2]: A ce propos, voir Glynnis M. CROPP, *ouv. cité*, pp.202-203.
 
@@ -5019,7 +5019,7 @@ Lewent[^v1p254-1], Pattison suit fidèlement la tradition manuscrite[^v1p254-2],
 
 Si ces corrections mineures peuvent en effet être facilement acceptées, il est cependant plus difficile de suivre Pattison dans ses interprétations et traductions. Remarquons, d'abord, que lorsqu'il traduit *de lai on...* par 'in the case where...', il néglige le sens locatif habituel de la locution[^v1p254-3]. Ceci étant amené par le fait qu'ayant émendé *nos* en *noms*, il se sent obligé — de par son interprétation précédente (*nommar...*) — d'affirmer que le "nom" de la Dame n'est en aucun cas donné: "If her name were not mentioned, he could not openly show his delight. But even when the name is not spoken, he gets immense pleasure on being reminded of her"[^v1p254-4]. Toutefois, ce refus d'y voir un sens locatif entraîne sa traduction de *se faire* par 'parler, dire'. Or, Pattison lui-même est le premier à reconnaître que dans un tel cas le verbe requiert un sujet personnel et s'emploie, en outre, dans une incise, d'où sa remarque: "I admit that my rendering of the passage presupposes that Raimbaut took a slight liberty in usage here"[^v1p254-5]. Dans ces conditions-là, pourquoi ne pas traduire *se faire* par 'entstehen, wachsen' ou 'sich (zu etw.) machen, werden'[^v1p254-6]? Ce qui nous donnerait, en gardant le sens premier de *lai*: 'Même là où son nom ne croît pas...'. Quant à la forme verbale *trai*, il s'agit pour Pattison, d'une troisième personne dont le sujet est toute la proposition qui suit: *quant diretz...*; l'objet en est *tal plazer*, tandis
 
-[^v1p254-1]: Voir [Rv0]{.underline}, p.58 et Kurt [LEWENT]{.underline}, [C.R.]{.underline}..., p.161.
+[^v1p254-1]: Voir [RvO]{.underline}, p.58 et Kurt [LEWENT]{.underline}, [C.R.]{.underline}..., p.161.
 [^v1p254-2]: Cette strophe n'apparaît que dans le ms.^a^
 [^v1p254-3]: [SW]{.underline}, t.IV, p.301
 [^v1p254-4]: [RO]{.underline}, p.145.
@@ -6299,7 +6299,7 @@ vv.45-46
 *Si noc'ai poder que i joigna / en jazen*: "If I never have power to add to it while in bed"[^v2p007-1]. Walter T. Pattison semble ici davantage préciser sa traduction que Carl Appel, pour qui l'adverbe relatif *i* est "unbestimmt anweisend" et qui traduit par "dass ich dahin gelange, wo es sein sollte"[^v2p007-2]. Pattison a sans nul doute raison, toutefois si, d'une part, il est évident que Raimbaut joue ici sur la connotation sexuelle de *poder* 'puissance' — ce qui permet de traduire comme le fait Pattison — il est tout aussi évident, nous semble-t-il, que l'on peut traduire *ai poder* par 'je peux', tout simplement. En outre, citant Emil Levy, Pattison ajoute que *joigner* signifie également 'sich verbinden, sich vereinigen'[^v2p007-3]. Si l'on utilise ce sens-là, plutôt que celui de 'to add', *i* renvoie alors aux *dompnas* du v.43 et la connotation sexuelle de *poder* s'étend à *joigna*: 'si jamais je ne peux (ou: si jamais je n'ai puissance qui me permette de) m'unir à elles en couchant...'. De toute manière, nous ne croyons pas que les deux traductions, celles de Pattison et la nôtre, s'excluent, au contraire.
 
 [^v2p007-1]: [RO]{.underline}, p.165.
-[^v2p007-2]: [Rv0]{.underline}, p.40, n.au v.45.
+[^v2p007-2]: [RvO]{.underline}, p.40, n.au v.45.
 [^v2p007-3]: [RO]{.underline}, p.167. — voir aussi [SW]{.underline}, t.IV, pp.265-266; Emil Levy y cite d'ailleurs, parmi d'autres exemples, ces vers-ci de Raimbaut d'Orange.
 
 <!-- page: v2p008 -->
@@ -6828,7 +6828,7 @@ lo lauzo'l bon e'l pauc e'l gran
 
 Soulignons que dans le premier cas, la leçon de [ER]{.underline}[^v2p027-1], on en arrive à un discours qui peut sembler pour le moins surprenant. A ce propos, Aurelio Roncaglia remarque que "ce serait, de la part de Raimbaut, un refus de placer à un niveau constant de valeur sa propre production poétique. Dans celle-ci il reconnaîtrait la présence de choses 'mauvaises' à côté des 'bonnes', de choses 'petites' à côté des 'grandes': une admission
 
-[^v2p027-1]: Voir Rv0, p.31; Adolf KOLSEN, *Sämtliche Lieder des Trobadors Giraut de Bornelh*, Halle, 1910, t.1, p.374 ("Giraut ich will nicht dass mein Dichten zu solcher Unruhe werde, auf dass man ebenso sehr das Schlechte wie das Gute und das Kleine wie das Grosse lieb"; Jean AUDIAU et René LAVAUD, *Nouvelle anthologie ..., P.192 ("G., je ne souhaite pas que ma poésie fasse un tel tapage qu'on en aime autant les mauvaises et les bons côtés, les grandes et les petites choses"); J.J.SALVERDA DE GRAVE, *Observations sur l'art lyrique de G. de B.*, Amsterdam, Noord-Hollandsche Uitgeversmaatschappij, 1934 ("G., je ne veux pas que ma poésie devienne un ramassis où l'on ne distingue plus ce qui est mauvais de ce qui est bon et ce qui est petit de ce qui est grand"); Martín DE RIQUER, *Antología..., t.1, p.161 ("G., yo no quisiera que mis versos sufrieran tal confusión que se apreciara igualmente lo malo y lo bueno, lo pequeño y lo grande".
+[^v2p027-1]: Voir RvO, p.31; Adolf KOLSEN, *Sämtliche Lieder des Trobadors Giraut de Bornelh*, Halle, 1910, t.1, p.374 ("Giraut ich will nicht dass mein Dichten zu solcher Unruhe werde, auf dass man ebenso sehr das Schlechte wie das Gute und das Kleine wie das Grosse lieb"; Jean AUDIAU et René LAVAUD, *Nouvelle anthologie ..., P.192 ("G., je ne souhaite pas que ma poésie fasse un tel tapage qu'on en aime autant les mauvaises et les bons côtés, les grandes et les petites choses"); J.J.SALVERDA DE GRAVE, *Observations sur l'art lyrique de G. de B.*, Amsterdam, Noord-Hollandsche Uitgeversmaatschappij, 1934 ("G., je ne veux pas que ma poésie devienne un ramassis où l'on ne distingue plus ce qui est mauvais de ce qui est bon et ce qui est petit de ce qui est grand"); Martín DE RIQUER, *Antología..., t.1, p.161 ("G., yo no quisiera que mis versos sufrieran tal confusión que se apreciara igualmente lo malo y lo bueno, lo pequeño y lo grande".
 
 <!-- page: v2p028 -->
 
@@ -7360,7 +7360,7 @@ e
 pel be q'ait n'ai fait orgoill
 :::
 
-[^v2p055-1]: [RO]{.underline}, p.181; [RVO]{.underline}, *loc. cit.*
+[^v2p055-1]: [RO]{.underline}, p.181; [RvO]{.underline}, *loc. cit.*
 
 <!-- page: v2p056 -->
 
@@ -9256,7 +9256,7 @@ Serait-ce donc, en dépit de tout ce que nous avons tenté de mettre en lumière
 
 L'ancien occitan, il faut bien le dire, ne nous est que fort imparfaitement connu. Contrairement à ce qui est le cas de l'ancien français, nous ne disposons toujours pas d'un bon
 
-[^v2p149-1]: [RVO]{.underline}, p.89.
+[^v2p149-1]: [RvO]{.underline}, p.89.
 [^v2p149-2]: [SW]{.underline}, t.I, p.137.
 [^v2p149-3]: [RO]{.underline}, p.52.
 
@@ -10746,7 +10746,7 @@ A : *Studj*, III, 103 C : — D^c^ : *AdM*, XIV, 201. N : — N^2^ : *
 
 2. Editions
 
-*Choix*, V, 414. [MW]{.underline}, T, 79. [RVO]{.underline}, 49. [RO]{.underline}, 83.
+*Choix*, V, 414. [MW]{.underline}, T, 79. [RvO]{.underline}, 49. [RO]{.underline}, 83.
 
 3. Etudes, commentaires...
 
@@ -10942,7 +10942,7 @@ A : *Studj*, III, 96. I : [MG]{.underline}, 630. K : [MG]{.underline}, 631
 
 2. Editions
 
-Rv0, 80. [RO]{.underline}, 125.
+RvO, 80. [RO]{.underline}, 125.
 
 3. Etudes, commentaires...
 
@@ -10990,7 +10990,7 @@ A : Studj, III, 101; [Archiv]{.underline}, XXXIII, 435 a : RLR, XLV, 14 + BA
 
 2. Éditions
 
-Rv0, 26. V. CRESCINI, *Atti del R. Istituto Veneto*, LXXXVI, 1236. [RO]{.underline}, 138.
+RvO, 26. V. CRESCINI, *Atti del R. Istituto Veneto*, LXXXVI, 1236. [RO]{.underline}, 138.
 
 3. Études et commentaires...
 
@@ -11104,7 +11104,7 @@ CHANSON XXVIII
 
 2. Editions
 
-[Rv0]{.underline}, 38. [RO]{.underline}, 164.
+[RvO]{.underline}, 38. [RO]{.underline}, 164.
 
 <!-- page: v2p254 -->
 
@@ -11168,7 +11168,7 @@ C. APPEL, [ZRPh]{.underline}, XLIX, 473. [RO]{.underline}, 177.
 
 3. *Etudes et commentaires...*
 
-Rv0, 42.
+RvO, 42.
 
 <!-- page: v2p258 -->
 
@@ -11272,7 +11272,7 @@ C. APPEL, Chrest., 60 HILL-BERGIN, 50 VISCARDI, Flor., 50. M. de RIQUER, Lirica,
 
 3. Etudes et commentaires...
 
-Rv0, 99. F. M. CHAMBERS, RPh, VII, 235. P. CHERCHI, Romania, XCIII, 77. PAT, 184. Ch. ROTH, 464.
+RvO, 99. F. M. CHAMBERS, RPh, VII, 235. P. CHERCHI, Romania, XCIII, 77. PAT, 184. Ch. ROTH, 464.
 
 <!-- page: v2p265 -->
 

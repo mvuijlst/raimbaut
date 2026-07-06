@@ -1,6 +1,6 @@
 # Workflow — from scans to the published edition
 
-This is the end-to-end recipe for the web edition of the 1982 Ghent thesis on the
+This is the end-to-end recipe for the web edition of the 1981 Ghent thesis on the
 troubadour **Raimbaut d'Orange** (site: <https://raimbaut.yusupov.cloud>). It covers
 every stage from the raw PDF scans to the deployed static site, what each script
 consumes and produces, and how to re-run any part of it.
@@ -71,19 +71,22 @@ order. This id threads through every artifact as the anchor of provenance.
 ## 2. Vision extraction (Stage 1 — one-time, needs the PDFs + OpenAI key)
 
 > These scripts require `OPENAI_API_KEY` in `.env` and the third-party deps
-> (`pymupdf`/`fitz`, `openai`, `pillow`, `python-dotenv`) in the virtualenv. See
-> **§8 Environment** — the current `venv` is broken and must be rebuilt before these
-> can run again. In normal operation you never need this stage.
+> (`pymupdf`/`fitz`, `openai`, `pillow`, `python-dotenv`) in the virtualenv (see
+> **§8 Environment**). In normal operation you never need this stage.
 
 **2a. Transcription → `corpus/*.md`.** Each rendered page image is sent to `gpt-4o`
 with a prompt that asks for a faithful Markdown transcription (italics as `*…*`,
 underlined runs as `[…]{.underline}`, Occitan verse in `::: {lang=oc}` fenced divs,
-per-page footnotes as `[^N]`). Output is one file per page, `corpus/v1p000.md …`
-(586 pages: 298 in vol1, 288 in vol2). The `transcribe.py` / `merge_corpus.py`
-scripts that did this were **removed** after the corpus was finalised (see the
-"pipeline renamed, no v2" note); the run is preserved in `transcribe-v2.log`. To
-redo it, re-derive from `ocr_page_numbers.py` as a template — same PDF-render +
-vision-model pattern.
+per-page footnotes as `[^N]`). gpt-4o is near-publication quality on the French
+prose but corrupts the Occitan verse — established by a 43-page A/B diff against
+Claude (`review-diff.md`, 997 differing hunks) — so the corpus is a **hybrid**:
+gpt-4o base with the verse/Occitan pages transcribed by Claude in-session and
+overlaid. Result: 586 pages (298 vol1, 288 vol2), of which 499 gpt-4o and 87
+Claude; per-page provenance in `corpus-v2-sources.csv`. The scripts
+(`transcribe.py`, `merge_corpus.py`, `merge_corpus_v2.py`) were removed after the
+corpus was finalised and later restored from history (commit `db06367`) as
+documentation of this one-time stage; the final run is logged in
+`transcribe-v2.log`.
 
 Vision LLM is used deliberately instead of Tesseract/EasyOCR: the scans are faint and
 a vision model reads them far more accurately (locked preference).
@@ -209,17 +212,11 @@ stale** and it runs exactly the scripts whose inputs changed, in order.
 * **Node** ≥ 18 (tested v22). `cd site && npm install`.
 * **Python** 3.11+ for the eight data scripts — **stdlib only**, no virtualenv needed;
   the system Python 3.14 runs them. `manage.py` uses whatever interpreter launched it.
-* **Vision scripts only** (`ocr_page_numbers.py`, and re-transcription) need a
+* **Vision scripts only** (`ocr_page_numbers.py`, `transcribe.py`) need a
   virtualenv with `pymupdf openai pillow python-dotenv` **and** `OPENAI_API_KEY` in
-  `.env`.
-  > ⚠️ **The committed `venv/` is broken** — it was created by a Python
-  > (`C:\div\Python312`) that no longer exists, so `venv/Scripts/python.exe` errors.
-  > Rebuild it before running any vision stage:
-  > ```powershell
-  > python -m venv venv
-  > .\venv\Scripts\Activate.ps1
-  > pip install pymupdf openai pillow python-dotenv
-  > ```
+  `.env`. (The venv broke once, when the Python that created it was removed; it has
+  been rebuilt and works. If it ever breaks again:
+  `python -m venv venv; .\venv\Scripts\Activate.ps1; pip install pymupdf openai pillow python-dotenv`.)
 * **`.env`** holds `OPENAI_API_KEY` and `ANTHROPIC_API_KEY` (git-ignored).
 
 ---

@@ -54,6 +54,7 @@
   --paper: #f9f5eb;
   --paper-deep: #f2ecdd;
   --paper-card: #fdfaf3;
+  --diagram-box: #e8e0cc;
   --ink: #26211c;
   --ink-soft: #574e44;
   --muted: #8d8272;
@@ -76,6 +77,7 @@
     --paper: #1c1915;
     --paper-deep: #221e19;
     --paper-card: #26221c;
+    --diagram-box: #302b23;
     --ink: #e9e2d3;
     --ink-soft: #c9bfae;
     --muted: #92897b;
@@ -91,6 +93,7 @@
   --paper: #1c1915;
   --paper-deep: #221e19;
   --paper-card: #26221c;
+  --diagram-box: #302b23;
   --ink: #e9e2d3;
   --ink-soft: #c9bfae;
   --muted: #92897b;
@@ -410,7 +413,7 @@ a:hover { color: var(--rubric); }
 .parallelism .pl-v { justify-self: end; font-style: normal; color: var(--ink-soft); }
 
 /* p. 52 strophic/syntactic diagram. The SVG (reading + livre) is inlined so its
-   fills use --ink / --paper / --paper-deep / --rubric and follow the theme; the
+   fills use --ink / --paper / --diagram-box / --rubric and follow the theme; the
    PNG (facsimile) is the typescript photograph. */
 .diagram { margin: 1.8rem 0; text-align: center; }
 .diagram svg, .diagram img { display: block; max-width: 100%; height: auto; margin: 0 auto; }

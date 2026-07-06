@@ -3,9 +3,9 @@
  "stats": {
   "notes": 1257,
   "backrefs": 479,
-  "auto": 268,
+  "auto": 266,
   "ibid_resolved": 156,
-  "flagged": 125,
+  "flagged": 127,
   "titles": 27
  },
  "subs": {
@@ -1720,9 +1720,9 @@
     {
      "idx": 0,
      "from": "loc. cit.",
-     "kind": "short-bare",
-     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*",
-     "conf": "medium"
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
     }
    ]
   },
@@ -2768,7 +2768,7 @@
      "idx": 0,
      "from": "art. cité",
      "kind": "short-named",
-     "to": "*C.R. de Rv0*",
+     "to": "*C.R. de RvO*",
      "conf": "high"
     }
    ]
@@ -4182,9 +4182,9 @@
     {
      "idx": 0,
      "from": "loc. cit.",
-     "kind": "short-bare",
-     "to": "E. ERDMANNSDÖRFER, *Reimwörterbuch der Trobadors*",
-     "conf": "medium"
+     "kind": "flag",
+     "to": "*loc. cit.*",
+     "conf": "flag"
     }
    ]
   },

@@ -121,7 +121,7 @@ const DIAGRAM_P52_SVG = (() => {
     .replace(/stroke="white"/gi, 'stroke="var(--paper)"')
     .replace(/fill="black"/gi, 'fill="var(--ink)"')
     .replace(/stroke="black"/gi, 'stroke="var(--ink)"')
-    .replace(/fill="#F2ECDD"/gi, 'fill="var(--paper-deep)"')
+    .replace(/fill="#F2ECDD"/gi, 'fill="var(--diagram-box)"')
     .replace(/fill="#A03123"/gi, 'fill="var(--rubric)"')
     .replace("<svg ", '<svg role="img" aria-label="Structure strophique et syntaxique du poème (p. 52)" ');
   return `<figure class="diagram diagram-p52">${svg}` +

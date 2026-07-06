@@ -1,7 +1,7 @@
 {
   "name": "raimbaut-edition",
   "version": "0.1.0",
-  "description": "Web edition of the 1982 thesis on the troubadour Raimbaut d'Orange",
+  "description": "Web edition of the 1981 thesis on the troubadour Raimbaut d'Orange",
   "private": true,
   "type": "module",
   "scripts": {

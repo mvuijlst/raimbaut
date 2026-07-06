@@ -111,7 +111,7 @@ Not a bare list. A table, one row per chanson: **№ (roman) · incipit (oc, ita
 - **Masthead (sticky, compact, one line):** edition title (→ home) · breadcrumb (`Chansons › II. En aital rimeta prima`) · **chanson switcher** (dropdown: I–XXXIX with incipits, ←/→ prev-next) · mode toggle (Lecture/Étude/Livre) · search icon (⌘K).
 - **Left rail (desktop):** the *sommaire* of the current chanson — Tradition & éditions / strophes 1…n (with annotation-density dots) / list of lemmas (v.4, v.6, v.10…). Doubles as a minimap: the in-view strophe is highlighted.
 - **Fragment identifiers:** `#s3` (strophe), `#v24` (verse), `#rem-v24` (lemma), `#n-v1p043-2` (note), `#p-46` (printed page anchor). Arriving on any fragment scrolls, highlights briefly (2 s fade), and — in Étude — positions *both* columns.
-- **Citation tool (T6):** select any passage or click a ¶ affordance → "Citer" popover with (a) the deep URL, (b) a formatted reference including the **printed page equivalent** from the page map ("…, p. 46 de l'édition de 1982"), (c) copy buttons. Scholars can cite the site *and* remain compatible with everyone who cites the print thesis. The `/pages/N` resolver is the inverse operation.
+- **Citation tool (T6):** select any passage or click a ¶ affordance → "Citer" popover with (a) the deep URL, (b) a formatted reference including the **printed page equivalent** from the page map ("…, p. 46 de l'édition de 1981"), (c) copy buttons. Scholars can cite the site *and* remain compatible with everyone who cites the print thesis. The `/pages/N` resolver is the inverse operation.
 
 ---
 

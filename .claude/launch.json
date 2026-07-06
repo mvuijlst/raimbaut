@@ -12,6 +12,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["--prefix", "site", "run", "serve", "--", "--port", "8137"],
       "port": 8137
+    },
+    {
+      "name": "atelier",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "M:/dev/atelier", "run", "serve"],
+      "port": 8140
     }
   ]
 }

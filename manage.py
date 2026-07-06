@@ -7,8 +7,7 @@ A dependency-aware console dashboard over the whole pipeline documented in
 WORKFLOW.md. It computes, from file mtimes, which artifacts are stale, rebuilds
 only what changed (in the correct order, with cascade), builds and serves the
 Eleventy site, and deploys to production. Standard library only — it does NOT
-need the (currently broken) ./venv; it runs the stdlib build scripts with
-whatever Python launched it.
+need ./venv; it runs the stdlib build scripts with whatever Python launched it.
 
     python manage.py           # interactive TUI
     python manage.py stale     # rebuild stale data, non-interactively

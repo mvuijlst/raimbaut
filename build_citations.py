@@ -6,9 +6,9 @@ Consumes corpus (via manifest.json, pageid IDs) and bibliography.json
 
 The thesis has no abbreviations page; each siglum is defined inline at first use
 as "...full citation... (ci-après X)", where X may be bracketed+underlined
-([RVO]{.underline}), bracketed ([P.-C.]), italic (*Leys*), or bare (RO, ANG, LR).
+([RvO]{.underline}), bracketed ([P.-C.]), italic (*Leys*), or bare (RO, ANG, LR).
 This fresh transcription uses siglum forms that differ from the old corpus
-(RVO not RvO, TOB not TL, PDL cleanly defined, GOD, LTF, REW) -> we harvest them
+(RvO not RvO, TOB not TL, PDL cleanly defined, GOD, LTF, REW) -> we harvest them
 from the text rather than trusting the stale v1 sigla-overrides.
 
 We:
@@ -44,7 +44,7 @@ SURTOK = re.compile(rf"{CAP}{CAP}[A-ZÀ-ÖØ-Þ'’\.\-]+")
 TITLE = re.compile(r"\*(?P<t1>[^*]+)\*|'(?P<t2>[^']{4,})'")
 LEAD = re.compile(r"^(?:Pour\b.*?\bvoir\s+|Voir\s+(?:aussi\s+|e\.a\.\s+|à ce propos\s+)?|"
                   r"Cfr?\.?\s+|Voyez\s+|C'est ce que\s+)+", re.I)
-V2_ALIAS = {"RVO": "RvO",   # this transcription capitalises the ci-après form of RvO
+V2_ALIAS = {"RvO": "RvO",   # this transcription capitalises the ci-après form of RvO
             "LPD": "PDL"}   # Levy Petit Dict., scrambled; cited by page like PDL (v1p056/296)
 SIGLUM_STOP = {"C.R.", "N.B.", "P.S.", "N.D.", "N.D.L.R."}   # French abbrevs., not sigla
 
