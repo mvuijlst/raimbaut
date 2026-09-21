@@ -66,7 +66,7 @@ eleventyComputed:
           {% for img in w.images %}
           <figure>
             <a href="{{ img.href }}" target="_blank" rel="noopener">
-              <img src="{{ img.href }}" loading="lazy"
+              <img src="{{ img.thumb.url }}" width="{{ img.thumb.width }}" height="{{ img.thumb.height }}" loading="lazy"
                    alt="Chanson {{ ch.roman }}{% if w.siglum %}, manuscrit {{ w.siglum }}{% endif %}{% if img.folio %}, feuillet {{ img.folio }}{% endif %}">
             </a>
             <figcaption>
@@ -75,7 +75,7 @@ eleventyComputed:
               {% if w.source %} · {{ w.source }}{% endif %}
               {% if img.note %} — {{ img.note }}{% endif %}
               {% if img.shared.length %} — feuillet partagé avec {% for r in img.shared %}<a href="/chansons/{{ edition.romanToNum[r] }}/">{{ r }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
-              {% if w.credit %}<span class="ms-credit"> · {{ w.credit }}</span>{% endif %}
+              {% if w.credit %}<span class="ms-credit">{% if w.siglum or img.folio or w.source %} · {% endif %}{% if img.viewer %}<a href="{{ img.viewer }}" rel="noopener">{{ w.credit }}</a>{% else %}{{ w.credit }}{% endif %}</span>{% endif %}
             </figcaption>
           </figure>
           {% endfor %}

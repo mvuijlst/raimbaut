@@ -176,6 +176,15 @@ each text is indexed once, not once per view; interface chrome inside it carries
 `data-pagefind-ignore`. `npm run serve` does not reindex: search in the dev server
 reflects the last full build.
 
+**Manuscript photos.** `manuscripts/` holds one photo per folio, named
+`ROMAN[+ROMAN…] - Ms. SIGLUM - f° FOLIO - source.jpg` — a folio carrying several
+chansons names them all (`XI+XV+XVIII - Ms. A - f° 36v - ….jpg`) and is cross-noted on
+each. To add one, drop the file in; nothing else to edit. At build time
+`site/lib/msimages.js` publishes each photo under a clean slug as a 600 px thumbnail and
+a full view capped at 2200 px (`/manuscrits/a-036v-600.jpeg`, `…-1158.jpeg`), cached in
+`site/.cache/ms/`. The credit line (BnF / Vaticana) and the DigiVatLib viewer link are
+derived from the filename too.
+
 `site/src/_data/site.js` holds the site-wide metadata: the canonical origin, the
 bibliographic identity of the thesis (only what its title page prints) and the git
 revision the build came from. `base.njk` turns it into each page's canonical link,

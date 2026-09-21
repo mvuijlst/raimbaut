@@ -284,7 +284,7 @@
   });
 
   // ----- manuscript lightbox: zoom (wheel / double-click), pan (drag) --------
-  const msLinks = document.querySelectorAll(".ms-figures a");
+  const msLinks = document.querySelectorAll(".ms-figures figure > a");
   if (msLinks.length) {
     let dlg, stage, img, cap;
     let scale = 1, tx = 0, ty = 0;

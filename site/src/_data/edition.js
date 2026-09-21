@@ -15,6 +15,7 @@ import {
   renderIndexFacsimilePage, stripTags,
 } from "../../lib/render.js";
 import { parseChanson } from "../../lib/chanson.js";
+import { publishAll } from "../../lib/msimages.js";
 import { buildMsIdentityIndex, parseChansonManuscrits } from "../../lib/manuscrits.js";
 import { linkIndexSection, splitWordEntries } from "../../lib/indexes.js";
 import { buildConcordance } from "../../lib/concordance.js";
@@ -29,58 +30,48 @@ const read = (f) => fs.readFileSync(path.join(ROOT, f), "utf-8").replace(/\r\n?/
 const readJSON = (f) => JSON.parse(read(f));
 
 // ---- manuscript photographs (manuscripts/ at the repo root) -----------------
-// Filename convention: "ROMAN - Ms. SIGLUM - f° FOLIO - source.jpg" (parts after
-// the roman numeral optional). A chanson spanning several folios has several
-// files; a folio shared by two chansons appears once per chanson and is
-// cross-noted automatically. Optional manuscripts/regions.json adds a caption
-// note per file for folios where only part of the page belongs to the chanson:
+// One file per folio; the filename names the chanson(s), witness and folio — the
+// convention, and the published renditions, are in lib/msimages.js. Optional
+// manuscripts/regions.json adds a caption note per file for folios where only part
+// of the page belongs to the chanson:
 //   { "<filename>": { "note": "colonne b, en bas du feuillet" } }
-function loadManuscripts() {
-  const dir = path.join(ROOT, "manuscripts");
+async function loadManuscripts() {
   const byChanson = new Map();
-  if (!fs.existsSync(dir)) return byChanson;
+  const entries = await publishAll();
   let regions = {};
-  const regionsFile = path.join(dir, "regions.json");
+  const regionsFile = path.join(ROOT, "manuscripts", "regions.json");
   if (fs.existsSync(regionsFile)) regions = JSON.parse(fs.readFileSync(regionsFile, "utf-8"));
 
-  const files = fs.readdirSync(dir).filter((f) => /\.(jpe?g|png|webp|avif)$/i.test(f));
-  const entries = [];
-  for (const file of files) {
-    const base = file.replace(/\.[^.]+$/, "");
-    const roman = (base.match(/^([IVXL]+)\b/) || [])[1];
-    if (!roman) continue;
-    const siglum = (base.match(/Ms\.?\s*([A-Za-z]['’]?\d*)/) || [])[1] || null;
-    const folio = (base.match(/f[°o]\s*(\d+\s*(?:bis)?\s*[rv]?)/i) || [])[1] || null;
-    const source = (base.match(/(Vat\.?\s*lat\.?\s*\d+)/i) || [])[1] || null;
-    entries.push({ file, roman, siglum, folio: folio && folio.replace(/\s+/g, ""), source });
-  }
-  // a folio shared by several chansons: same witness siglum + same folio
-  // (falls back to the source-image tail when the filename has neither)
-  const shareKey = (e) => (e.siglum && e.folio)
-    ? e.siglum + "|" + e.folio
-    : e.file.split(" - ").pop().trim();
-  const sharedWith = (e) => [...new Set(entries
-    .filter((o) => o !== e && shareKey(o) === shareKey(e) && o.roman !== e.roman)
-    .map((o) => o.roman))];
+  // a folio shared by several chansons: named together in one file, or (older
+  // convention) separate files with the same witness siglum + folio
+  const shareKey = (e) => (e.siglum && e.folio) ? e.siglum + "|" + e.folio : e.file;
+  const sharedWith = (e, roman) => [...new Set(entries
+    .filter((o) => shareKey(o) === shareKey(e))
+    .flatMap((o) => o.romans)
+    .filter((r) => r !== roman))];
 
   for (const e of entries) {
-    if (!byChanson.has(e.roman)) byChanson.set(e.roman, []);
-    let witness = byChanson.get(e.roman).find((w) => w.siglum === e.siglum);
-    if (!witness) {
-      // holding library's credit line, required by their reuse terms. Only two
-      // libraries so far: a Vat. lat. shelfmark in the filename = the Vaticana,
-      // everything else (mss. I, K, and the unlabelled XXXIX) is from Gallica.
-      const credit = e.source ? "© Biblioteca Apostolica Vaticana" : "Source gallica.bnf.fr / BnF";
-      witness = { siglum: e.siglum, source: e.source, credit, images: [] };
-      byChanson.get(e.roman).push(witness);
+    for (const roman of e.romans) {
+      if (!byChanson.has(roman)) byChanson.set(roman, []);
+      let witness = byChanson.get(roman).find((w) => w.siglum === e.siglum);
+      if (!witness) {
+        // holding library's credit line, required by their reuse terms. Only two
+        // libraries so far: a Vat. lat. shelfmark in the filename = the Vaticana,
+        // everything else (mss. I, K, and the unlabelled XXXIX) is from Gallica.
+        const credit = e.source ? "© Biblioteca Apostolica Vaticana" : "Source gallica.bnf.fr / BnF";
+        witness = { siglum: e.siglum, source: e.source, credit, images: [] };
+        byChanson.get(roman).push(witness);
+      }
+      if (!witness.source && e.source) witness.source = e.source;
+      witness.images.push({
+        href: e.photo.full.url,
+        thumb: e.photo.thumb,
+        viewer: e.viewer,
+        folio: e.folio,
+        shared: sharedWith(e, roman),
+        note: (regions[e.file] || {}).note || null,
+      });
     }
-    if (!witness.source && e.source) witness.source = e.source;
-    witness.images.push({
-      href: "/manuscrits/" + encodeURIComponent(e.file),
-      folio: e.folio,
-      shared: sharedWith(e),
-      note: (regions[e.file] || {}).note || null,
-    });
   }
   for (const list of byChanson.values())
     for (const w of list)
@@ -210,7 +201,7 @@ const POETIQUE_PARTS = [
   { slug: "conclusion", title: "Conclusion", match: (s) => s.replace(/\s+/g, "") === "CONCLUSION" },
 ];
 
-export default function () {
+export default async function () {
   const book = read("book.md");
   const manifest = readJSON("manifest.json");
   const chansons = readJSON("chansons.json");
@@ -509,7 +500,7 @@ export default function () {
   const parChanson = new Map(
     (bibliography.par_chanson || []).map((b) => [b.chanson, b]));
 
-  const manuscripts = loadManuscripts();
+  const manuscripts = await loadManuscripts();
 
   // per-chanson "Manuscrits" shorthand → structured witness list (siglum + full
   // shelfmark from manuscripts.json + printed diplomatic-edition locus). Sigla

@@ -956,7 +956,7 @@ Midons, si tot si·m perilha
 ni·m mou trebailh ni perilh.
 :::
 
-[[hand: pencil jottings in lower left margin beside str. 4, illegible ("Par"?, "Pas"?)]]
+[[hand: notes au crayon dans la marge inférieure gauche, en regard de la str. 4, illisibles ("Par"?, "Pas"?)]]
 
 En une telle petite rime subtile me plaisent des paroles légères et délicates, construites sans règle ni cordeau, puisque ma volonté s'y attache. Et j'ai rajeuni mon lignage là où j'ai l'intention de m'enraciner pour toujours, et que celui qui gronde à ce sujet ne craigne pas d'entendre ma gronderie
 
@@ -968,7 +968,7 @@ de telle sorte que mon coeur brûle, mais rien en moi ne brûle au-dehors, au co
 
 <!-- page: v1p067 -->
 
-[[hand: marginal note in cursive across top of page, mostly illegible: "conjecture d[e] Pat[...], Frod[...], mais leur [<Mou] ø Rey aussi bien que leçon M (Chose... / qu'... semble de rien / enclès avec ... / ... en filh, j'aurai..."]]
+[[hand: note marginale en cursive en travers du haut de la page, en grande partie illisible: "conjecture d[e] Pat[...], Frod[...], mais leur [<Mou] ø Rey aussi bien que leçon M (Chose... / qu'... semble de rien / enclès avec ... / ... en filh, j'aurai..."]]
 
 ::: {.verse lang=oc}
 asatz m'a sauput d'escrima
@@ -981,7 +981,7 @@ Mas ja sos cors no frezilha
 40. q'a mi·l sors promes frezilh
 :::
 
-[[hand: "frezilha" (l. 39) and "frezilh" (l. 40) circled in pencil]]
+[[hand: "frezilha" (l. 39) et "frezilh" (l. 40) entourés au crayon]]
 
 ::: {.verse lang=oc}
 don mos cors sailh fort e grima
@@ -1180,7 +1180,7 @@ li mot seran descubert
 al quec de razon deviza.
 :::
 
-[[hand: "far" (l. 4) and "parer" (l. 15) circled in pencil; small pencil note above l. 1]]
+[[hand: "far" (l. 4) et "parer" (l. 15) entourés au crayon; petite note au crayon au-dessus de la l. 1]]
 
 ::: {.verse lang=oc}
 Bo·m sap car tan m'apodera
@@ -1215,7 +1215,7 @@ ni aya cort tan asert
 de be s'aribar en Piza.
 :::
 
-[[hand: dense pencil apparatus at foot of both columns (variant readings keyed to ll. 30-32, e.g. "espiza R", "vespiza"; "NB aya... lima..."); largely illegible]]
+[[hand: apparat dense au crayon au pied des deux colonnes (variantes se rapportant aux ll. 30-32, p. ex. "espiza R", "vespiza"; "NB aya... lima..."); en grande partie illisible]]
 
 Je ferai volontiers une chansonnette de peu de valeur dont je crains qu'il ne me faille mourir. Mais je la ferai telle qu'elle dissimule [son] sens. On (elle ?) pourra bien facilement la comprendre, quoiqu'elle soit en une telle rime: les paroles en seront manifestes à quiconque l'interprète selon son principe d'organisation.
 
@@ -1238,7 +1238,7 @@ tan ay en vos mon cor sert
 40. e ma voluntat assiza.
 :::
 
-[[hand: marginal note "3 MS." beside line 39; correction/deletion mark after "cor"]]
+[[hand: note marginale "3 MS." en regard de la ligne 39; signe de correction ou de suppression après "cor"]]
 
 ::: {.verse lang=oc}
 Donna, si no·us alezera
@@ -1484,7 +1484,7 @@ me fai de seschas envolvre
 e m'apella per mon nom.
 :::
 
-[[hand: left-margin annotations against strophe 2 — "= Pat.", the ms. sigla "m D I K N²" over "m M", and "= II Mss"; scattered proofing ticks/crosses in the right margin. The "·n" of *sapcha·n* (v.9) is a hand-added letter.]]
+[[hand: annotations dans la marge de gauche en regard de la strophe 2 — "= Pat.", les sigles de manuscrits "m D I K N²" au-dessus de "m M", et "= II Mss"; coches et croix de relecture éparses dans la marge de droite. Le "·n" de *sapcha·n* (v.9) est une lettre ajoutée à la main.]]
 
 Après mon *vers*, je veux sur le champ ourdir une *chanson* légère pour m'amuser, en une telle rime subtile. Mais que je ne suive jamais les *us et coutumes* de la tourterelle, de telle sorte que si ma compagne m'abandonne ou me tient pour vil, je néglige de rechercher mon meilleur bien.
 
@@ -1501,7 +1501,7 @@ Si *Amor* voulait me délivrer de mes serments, j'essaierais promptement de me d
 <!-- page: v1p093 -->
 
 ::: {.verse lang=oc}
-- Mal dic; tainh qe m'en peneda. [[hand: "da" retraced]]
+- Mal dic; tainh qe m'en peneda. [[hand: "da" repassé]]
 - Non! — Per qe? — Mos cors m'o veda.
 - Amors me tol qe·m ten trist.
 40. — Qi·t tol, non cug qe t'o reda.
@@ -1518,7 +1518,7 @@ q'en sai on ai mon dan vist.
 A Dieu prec qe mos precs auja:
 50. q'el vueilh e don q'ieu m'en gauja
 lai on son volgutz amics!
-Qar ja·l sieus fins cors s'esflauja — [[hand: marginal "= Pos"]]
+Qar ja·l sieus fins cors s'esflauja — [[hand: en marge, "= Pos"]]
 totz autres trop noms plus rics,
 e non o dic ges enics.
 
@@ -2065,7 +2065,7 @@ e chanz si d'amor non es faig
 no val plus com ses domna amars.
 
 Com a lei non platz, no·n dic plus.
-Sens es tot [ab que] m'ames ill! [[hand: marginal "MS"]]
+Sens es tot [ab que] m'ames ill! [[hand: en marge, "MS"]]
 10. E, per Dieu, si es ben envers
 qe non auz chantar derenan
 de lei vas cui sui voitz d'enjan
@@ -2080,7 +2080,7 @@ Per lur ditz van dommas duptan
 20. e an mortz drutz ses colp atraig
 soven per lur fals devinars.
 
-C'ant cist fait mil malvatz per us. [[hand: marginal "MS"]]
+C'ant cist fait mil malvatz per us. [[hand: en marge, "MS"]]
 Camjan de solatz en perilh,
 qe dizon de tort en travers
 25. de cel qe lur er en semblan
@@ -2205,7 +2205,7 @@ Pendutz fos aut per la cervitz
 qui a moiller!
 :::
 
-[[hand: correction mark inserted between "aut" and "per" in line 47]]
+[[hand: signe de correction inséré entre "aut" et "per" à la ligne 47]]
 
 ::: {.verse lang=oc}
 Humils, ses geing,
@@ -2332,7 +2332,7 @@ ni mi noc; e tem qe·m viva
 l'amors qe·il tenc meja gaia.
 :::
 
-[[hand: marginal marks in the gutter beside lines 3 and 18]]
+[[hand: marques dans la marge intérieure, en regard des lignes 3 et 18]]
 
 ::: {.verse lang=oc}
 Mos cors es clars
@@ -2396,7 +2396,7 @@ qe·us sapcha, per foudat gaia,
 no·m dan si voletz qe viva.
 :::
 
-[[hand: large marginal "?" in the gutter beside line 51]]
+[[hand: grand "?" dans la marge intérieure, en regard de la ligne 51]]
 
 ::: {.verse lang=oc}
 Domna, ·l meilher res qe viva!
@@ -2676,7 +2676,7 @@ volgra que·m fos portaz segurs
 60. a Demoniad'e que·l fos grams.
 :::
 
-[[hand: marginal marks beside first strophes — a large "X", curls and "?" ticks between the columns]]
+[[hand: marques marginales en regard des premières strophes — un grand "X", des boucles et des "?" entre les colonnes]]
 
 Car je connais un archer (traître) auquel on ne peut se fier, qui semble avoir moins de sens qu'un boeuf et qui appartient sûrement aux *regoîbres* car il cherche comment viser (trahir) en toute sécurité son seigneur, de sorte qu'il lui emprisonne le coeur. Et s'il était empoisonné dans les champs, qu'il ne s'imagine pas que je lui chercherais du thiriaque; au contraire, je chercherais de toutes mes forces comment le pendre (prendre) avec de forts liens.
 
@@ -2686,7 +2686,7 @@ Et, en effet, chanter aura pour moi le goût du miel, avec mon *vers* que j'ai f
 
 Car maintenant, quoiqu'elle se frappe de l'*esclaca* (?), si elle ne me ment pas avec ses paroles moroses, c'est moi qui en serai la victime.
 
-Mon *vers*, qui ainsi se porte garant de ma présence à ce jugement, je voudrais qu'il soit porté sûrement à *Demoniada*, et qu'il lui soit source d'irritation [[hand: inserted "soit" before "porté"]]
+Mon *vers*, qui ainsi se porte garant de ma présence à ce jugement, je voudrais qu'il soit porté sûrement à *Demoniada*, et qu'il lui soit source d'irritation [[hand: "soit" inséré avant "porté"]]
 
 <!-- page: v1p144 -->
 
@@ -4522,7 +4522,7 @@ Car il n'y a de ce côté-ci de la mer ni de l'autre où se trouve le fleuve Jou
 
 Et en effet, je fais gai semblant et me donne pour aimable et léger d'esprit, quoique je fus bon ermite et [que je sois] encore éploré. Et je serai bon homme religieux (tout cela à cause de la race jalouse) toujours, si le coeur ne m'en empêche point.
 
-Et si ma chanson n'eût quelques fois dure envers *Amor*, une comtesse *nominativa* (=renommée ?) noble, belle et au coeur vrai, la tiendrait là, aux environs de Rodez. [[hand: handwritten correction above "eût", illegible]]
+Et si ma chanson n'eût quelques fois dure envers *Amor*, une comtesse *nominativa* (=renommée ?) noble, belle et au coeur vrai, la tiendrait là, aux environs de Rodez. [[hand: correction manuscrite au-dessus de "eût", illisible]]
 
 <!-- page: v1p228 -->
 
@@ -5889,7 +5889,7 @@ Dame, *Amor* agit de telle sorte, après qu'il enchaîne deux amants, que chacun
 
 Ami, si vous aviez un quart de la douleur qui me malmène, vous verriez bien mon chagrin. Mais de mon malheur, il ne vous chaut guère car -puisque je ne puis m'y soustraire — quoi qu'il m'advienne, cela vous est indifférent: que cela m'aille bien ou mal, c'est pareil.
 
-Dame, j'abandonne, car ces *lauzengier*-là, qui m'ont enlevé sens et souffle, sont vos amers ennemis; et [ je n'abandonne ] pas par une telle inconstance. Et maintenant je ne suis pas près de vous parce que, avec leurs criailleries, ils vous ont organisé une tel jeu mortel que nous ne nous réjouissons plus d'un seul jour joyeux. [[hand: inserted "ne" (que nous ne nous réjouissons)]]
+Dame, j'abandonne, car ces *lauzengier*-là, qui m'ont enlevé sens et souffle, sont vos amers ennemis; et [ je n'abandonne ] pas par une telle inconstance. Et maintenant je ne suis pas près de vous parce que, avec leurs criailleries, ils vous ont organisé une tel jeu mortel que nous ne nous réjouissons plus d'un seul jour joyeux. [[hand: "ne" inséré (que nous ne nous réjouissons)]]
 
 <!-- page: v1p290 -->
 
@@ -6123,7 +6123,7 @@ sel qu'encontra vos ni me
 ditz re ni conois ni cre.
 :::
 
-Belle et douce Dame (s'il vous paraît que je ne vaux pas encore autant que vous deviez me donner à coucher auprès de vous) même du [[hand: "du" handwritten in heavy ink]] bien que vous m'avez fait, il ne fut rien encore, si vous craignez avoir failli; car moi je ferais une faute et il vaut mieux que la mort m'emporte, plutôt que vous commettiez une faute à cause de moi.
+Belle et douce Dame (s'il vous paraît que je ne vaux pas encore autant que vous deviez me donner à coucher auprès de vous) même du [[hand: "du" écrit à la main, à l'encre épaisse]] bien que vous m'avez fait, il ne fut rien encore, si vous craignez avoir failli; car moi je ferais une faute et il vaut mieux que la mort m'emporte, plutôt que vous commettiez une faute à cause de moi.
 
 Dame, si vous voulez me payer, alors que je ne vous demande rien de plus que ce que j'ai, vous pouvez le faire, car sans vous je n'ai (vous le savez bien) ni honneur ni nul prix. C'est pourquoi je ne me mets pas en colère, quelle que soit la manière dont vous me traitez; cela ne convient pas puisque rien ne m'aide envers vous.
 
@@ -6205,7 +6205,7 @@ Midonz, don no·m posc estraire.
 
 Je ne chante pas ni pour oiseau ni pour fleur ni pour neige ni pour gelée ni même pour froid ni chaleur, ni pour le reverdir des prés. Ni pour nulle autre allégresse je chante ni ne fus chanteur, si ce n'est pour *Midonz* vers qui je dirige mes pensées, car elle est du monde la plus belle.
 
-Maintenant je me suis séparé de la pire qui jamais fut vue ou trouvée et j'aime du monde la plus belle Dame et la plus prisée. Et je le ferai de mon vivant. Et d'une autre je ne suis pas [[hand: "pas" inserted with caret]] l'amant car je crois qu'elle a bonne inclinaison envers moi, à ce qu'il me semble.
+Maintenant je me suis séparé de la pire qui jamais fut vue ou trouvée et j'aime du monde la plus belle Dame et la plus prisée. Et je le ferai de mon vivant. Et d'une autre je ne suis pas [[hand: "pas" inséré, avec signe d'insertion]] l'amant car je crois qu'elle a bonne inclinaison envers moi, à ce qu'il me semble.
 
 Dame, j'aurai bien un grand honneur si jamais par vous m'est décerné l'honneur que, sous couverture, je vous tienne nue, embrassée! Car vous valez les cent meilleures! Et je ne suis pas un de ceux qui exagèrent. Rien qu'à y penser, j'en ai le coeur joyeux, plus que si j'étais empereur!
 
@@ -6352,7 +6352,7 @@ no·m deu prezar un dinier.
 
 Longtemps j'ai été discret, mais Dieu ne veut plus que désormais je puisse cacher mon affaire dont me vient chagrin et effroi. Ecoutez donc, chevaliers, si j'ai besoin ou nécessité de quelque chose.
 
-De cela je vous rends [[hand: "s" added to printed "rend"]] tous bien certains: que j'ai perdu ces choses-là dont on est le plus gai; et j'en ai honte. Et je n'ose pas dire qui me les enleva. Et j'ai bien le coeur véridique (=je dis toute la vérité) car je dis (=rapporte, raconte) un si grand embarras.
+De cela je vous rends [[hand: "s" ajouté au "rend" dactylographié]] tous bien certains: que j'ai perdu ces choses-là dont on est le plus gai; et j'en ai honte. Et je n'ose pas dire qui me les enleva. Et j'ai bien le coeur véridique (=je dis toute la vérité) car je dis (=rapporte, raconte) un si grand embarras.
 
 Mais pour cette raison j'ai tellement hâte de dire ce dont je me lamentais récemment, car je veux rapidement et sans délai délivrer tous les maris de leurs tourments, de leur colère et de leur souci, ce dont beaucoup me font noir semblant (= grise mine).
 
@@ -6527,7 +6527,7 @@ qu'ilh non deu esser traya,
 tan val — mais trop ho espel!
 :::
 
-Maintenant je suis complètement conquis, si bien que je ne me souviens que de peu, car j'en ai oublié joie et rire et pleurs et douleur et tristesse. Et je n'y fais pas trop belle mine ni ne crois — j'ai tant de richesses! — que quelque chose, sauf Dieu, me guide. [[hand: marginal insertion "que quel-" completing printed "-que chose" → "que quelque chose"]]
+Maintenant je suis complètement conquis, si bien que je ne me souviens que de peu, car j'en ai oublié joie et rire et pleurs et douleur et tristesse. Et je n'y fais pas trop belle mine ni ne crois — j'ai tant de richesses! — que quelque chose, sauf Dieu, me guide. [[hand: insertion marginale "que quel-" complétant le "-que chose" dactylographié → "que quelque chose"]]
 
 Car je ne crois certes pas que par mon intelligence ni par prière ni par menace, j'aurais pu avoir, en quelque manière que ce soit, ou conquérir une telle amie, si Dieu — à qui je rends grâces pour elle (= que je remercie de me l'avoir accordée) — ne m'avait mis dans la [bonne] voie et s'il n'avait placé en elle bon coeur.
 
@@ -6730,7 +6730,7 @@ qu'il pot pro e bel chausir
 per dompna q'aus precs soffrir.
 :::
 
-[[hand: line 24 "paraulas sana" has a handwritten correction overwriting the letters "l s"]]
+[[hand: ligne 24, "paraulas sana", correction manuscrite en surcharge sur les lettres "l s"]]
 
 A mon *vers* je dirai *chansso*, avec des mots faciles et des sons faciles et en rimes simples et claires, puisque je suis ainsi mis en accusation quand je fais des mots difficiles aux fats (= quand j'emploie des mots que les fats trouvent difficiles) et je dirai ce que j'en pense — quel que soit celui qui m'en aime plus ou qui m'en haïsse!
 
@@ -6798,7 +6798,7 @@ Et en dirais-je plus ? Moi, non! Pas maintenant, en ce moment-ci! Mais si l'un
 
 Dieu retint le ciel et le firmament à Son usage, sans compagnons. Et c'est parole certaine qu'il laissa à *Midonz* qu'elle ait, en paix, seigneurie de toute part, car le monde entier doit la servir et doit obéir à sa volonté.
 
-Que Dieu ne me protège jamais de mort ni de prison,* [[hand: footnote "et qu'il ne me donne aucune joie"]] si *Midonz* qui me tient sans "filet" (?), ne vaut pas beaucoup plus qu'une autre, selon ce que je crois. [[hand: "ce que ... je crois" retraced/written by hand]] Et sachez que tout homme qui la regarde la requiert d'amour lorsqu'il la quitte.
+Que Dieu ne me protège jamais de mort ni de prison,* [[hand: note de bas de page manuscrite "et qu'il ne me donne aucune joie"]] si *Midonz* qui me tient sans "filet" (?), ne vaut pas beaucoup plus qu'une autre, selon ce que je crois. [[hand: "ce que ... je crois" repassé ou écrit à la main]] Et sachez que tout homme qui la regarde la requiert d'amour lorsqu'il la quitte.
 
 Dame, je dois vous rendre grâce de ce que je sais bien faire et dire,
 
@@ -6994,7 +6994,7 @@ La *cort rial* (...) *ric e cabal* vers laquelle Giraut de Bornelh dit s'en alle
 
 [CHANSON XXXI]{.underline} : TEXTE ET TRADUCTION
 
-[[hand: page carries extensive handwritten annotations — roman numerals I–V in the left margin marking the strophes, plus circled words, ticks, question marks and glosses throughout both columns]]
+[[hand: la page porte de nombreuses annotations manuscrites — chiffres romains I–V dans la marge de gauche marquant les strophes, ainsi que des mots entourés, des coches, des points d'interrogation et des gloses dans les deux colonnes]]
 
 ::: {.verse lang=oc}
 Ara·m platz, Giraut de Borneill,
@@ -7050,19 +7050,19 @@ Giraut, pourvu que je prépare ce qui est le mieux et que je le dise immédiatem
 
 <!-- page: v2p040 -->
 
-[[hand: marginal top-left "per o si m'ai Pb!! / cf. 305 n.5"]]
+[[hand: en marge, en haut à gauche, "per o si m'ai Pb!! / cf. 305 n.5"]]
 
 ::: {.verse lang=oc}
-[[hand: marginal "VI" (circled)]]
+[[hand: en marge, "VI" (entouré)]]
 Lingnaura, fort de bon conseill
 etz fis amans contrarian,
-e pero si·m val mais d'afan. [[hand: "pero si·m val" boxed; "?" in margin]]
+e pero si·m val mais d'afan. [[hand: "pero si·m val" encadré; "?" en marge]]
 mos sos levatz,
 40. c'us enraumatz
 lo·m deissazec e·l diga mal,
-a cui om no·n deia sesal [[hand: arrow pointing to this line; "no·n deia sesal" underlined]]
+a cui om no·n deia sesal [[hand: flèche pointant vers cette ligne; "no·n deia sesal" souligné]]
 
-[[hand: marginal "VII" (circled)]]
+[[hand: en marge, "VII" (entouré)]]
 Giraut, per cel ni per soleil
 ni per la clardat que resplan,
 45. non sai de que·ns anam parlan,
@@ -7071,7 +7071,7 @@ si soi torbatz.
 Tan pes d'un fin joi natural
 can d'als cossir, no m'es coral!
 
-[[hand: marginal "VIII" (circled)]]
+[[hand: en marge, "VIII" (entouré)]]
 50. Lingnaura, si·m gira·l vermeil
 de l'escut cella cui reblan,
 qu'eu voill dir "a Deu mi coman"!
@@ -7080,16 +7080,16 @@ outracuidatz
 55. m'a mes doptansa deslial!
 No·m soven com me fe comtal ?
 
-[[hand: marginal "IX" (circled)]]
+[[hand: en marge, "IX" (entouré)]]
 Giraut, greu m'es, per San Marsal,
 car vos n'anatz de sai nadal.
 
-[[hand: marginal "X" (circled)]]
+[[hand: en marge, "X" (entouré)]]
 Lingnaura, que ves cort rial
 60. m'en vauc ades ric e cabal
 :::
 
-[[hand: illegible marginal note at foot of column]]
+[[hand: note marginale illisible au pied de la colonne]]
 
 Linhaure, vous êtes de fort bon conseil et un parfait amant argumentant, et cependant, si mon poème léger me vaut davantage de difficultés, qu'un enroué me le disloque et me le dise mal, de sorte qu'on ne lui doive pas de récompense.
 
@@ -7444,7 +7444,7 @@ Far m'en podez orgoill:
 q'ans morrai qe·m renei!
 :::
 
-[[hand: line 50 "renei" retraced in ink]]
+[[hand: ligne 50, "renei" repassé à l'encre]]
 
 Ah! Désir, pourquoi ne meurs-tu pas ? Et, Seigneur Dieu, puissiez-Vous bientôt le jeter au loin! Ou alors, qu'elle eût pu sembler être ma soeur à tous ceux qui [maintenant] connaissent (ma) faute, de sorte que notre plaisir eût été accueilli (=accepté) par tous!
 
@@ -7620,7 +7620,7 @@ qui·us ho vedes conseillan,
 c'ans vos te trop per enfan!
 :::
 
-Vers elle..... comtesse de prix, que je mets en avant, et que cela ne lui pèse pas! Et je n'ai pas choisi la poussière (les brindilles) car je possède les plus hautes branches, pourvu que paraisse Dame Isabelle, même si je la traite quelque peu avec dédain!* [[hand: footnote "Et qu'ils ne me demandent pas, maintenant, de lui nuire!"]]
+Vers elle..... comtesse de prix, que je mets en avant, et que cela ne lui pèse pas! Et je n'ai pas choisi la poussière (les brindilles) car je possède les plus hautes branches, pourvu que paraisse Dame Isabelle, même si je la traite quelque peu avec dédain!* [[hand: note de bas de page manuscrite "Et qu'ils ne me demandent pas, maintenant, de lui nuire!"]]
 
 "Maintenant il possède et vainc la Catalane!" ("*Ha-ni-Sobr'*aime la Catalane!"), c'est là ce qu'ils disaient auparavant. Mais maintenant cela ne me vaut plus rien du tout, car tout le monde ne s'accorde pas à ce propos. Cependant, qu'ils ne me passent pas sur le corps, car moi je ne resterais pas en arrière, à cause du gel, jusqu'à ce que je sois seul à me battre! Et que chacun estime l'amant pour ces paroles-là!
 
@@ -7653,7 +7653,7 @@ Jotglar, Dieus nos gart d'enguan,
 
 *Cortezia* est trompeuse et *Vilania* s'étend et *Amor* dépasse la mesure! Et afin que maintenant il ne puisse y trouver avantage ni matière à ourdir, j'abandonne. Car je reconnais là des paroles rances. Je ne choisis ni le doux ni l'amer en matière d'amour et je ne nomme pas, en parlant, l'écu et ce qui y brille.
 
-Et, si par la nature des choses j'aime une vilaine comme est celle dont je chante, j'en fus enflammé de désir* [[hand: footnote "par ruse"]] ici, entre Monteil et Gordes. Que je perde la force que j'ai dans les hanches, ainsi que mon foie et mon fiel, si j'avais le poil trop gris de sorte que je ne puisse faire guerre ni demande!
+Et, si par la nature des choses j'aime une vilaine comme est celle dont je chante, j'en fus enflammé de désir* [[hand: note de bas de page manuscrite "par ruse"]] ici, entre Monteil et Gordes. Que je perde la force que j'ai dans les hanches, ainsi que mon foie et mon fiel, si j'avais le poil trop gris de sorte que je ne puisse faire guerre ni demande!
 
 *Jotglar*, que Dieu nous garde de tromperies, même si on n'en fait la demande!
 
@@ -7886,7 +7886,7 @@ Tu iest malastrucs de seignor,
 et ieu soi malastrucs d'amor!
 :::
 
-[[hand: line 34 "malastrucs" — final "s" inserted in ink before "gen"]] [[hand: line 39 "malastrug" — final letter overwritten in ink to "g"]]
+[[hand: ligne 34, "malastrucs" — "s" final inséré à l'encre avant "gen"]] [[hand: ligne 39, "malastrug" — lettre finale corrigée à l'encre en "g"]]
 
 Si je trouvais deux infortunés me cherchant infortunément plus grande infortune, je serais alors infortuné et plaisant. Mais je ne trouve aucun infortuné de valeur qui à moi se présente par malheur.
 
@@ -7991,7 +7991,7 @@ des que·l fara so voluntat
 o·lh dira lauzenja grata
 :::
 
-[[hand: marginal "c" (with tick) beside the third strophe, ll. 18-20; insertion caret after "l'autre" (l. 19)]]
+[[hand: en marge, "c" (avec une coche) en regard de la troisième strophe, ll. 18-20; signe d'insertion après "l'autre" (l. 19)]]
 
 Aux durs, cruels et désagréables *lauzengier* — ennuyeux, vilains, mauvais parleurs — je dirai un *vers* que je me suis pensé (=que j'ai élaboré en pensée). Car certes il n'y sera parlé de rien d'autre, car il s'en faut de peu que mon coeur n'éclate de ce que j'ai vu et éprouvé de mauvaise et honteuse tromperie.
 
@@ -8374,7 +8374,7 @@ quan fan so don hom los clam croys.
 
 Maintenant, la 'fleur inversée' resplendit parmi les écueils tranchants et les tertres. Quelle fleur ? [C'est] neige, gel et givre qui brûle et tourmente et tranche; et dont je vois cris, hurlements, clameurs et sifflements morts parmi les feuilles, rameaux et jeunes pousses. Mais *Joy* me tient maintenant vert et joyeux, quand je vois les misérables vilains de mauvaise humeur.
 
-Car ainsi je m'inverse [les choses], de sorte que belles plaines me semblent être tertres, et que je tiens le givre pour fleur, [[hand: inserted "et que je tiens le givre pour fleur,"]] et il me semble que le chaud tranche le froid et le tonnerre m'est chant et piaillement, et les pousses me semblent être couvertes de feuilles. Je suis si fermement relié à *Joy* que je ne vois rien qui puisse me sembler mauvais,
+Car ainsi je m'inverse [les choses], de sorte que belles plaines me semblent être tertres, et que je tiens le givre pour fleur, [[hand: "et que je tiens le givre pour fleur," inséré]] et il me semble que le chaud tranche le froid et le tonnerre m'est chant et piaillement, et les pousses me semblent être couvertes de feuilles. Je suis si fermement relié à *Joy* que je ne vois rien qui puisse me sembler mauvais,
 
 si ce n'est une race de gens sots et "renversés" — comme s'ils étaient nourris sur un tertre — qui me font plus de tort que le givre, car chacun d'eux tranche avec sa langue et en parle bas et avec sifflements. Et ni bâton ni verge ni menace ne valent en cette matière — au contraire, ce leur est une joie quand ils font ce dont on les clame mauvais.
 
@@ -8896,7 +8896,7 @@ O(-) — C(+)
 O(-) — C(-)
 :::
 
-Si O(-) — C(-) n'est pas représenté chez Raimbaut, on y trouve, en revanche: O(+)-C(+) dans II,IX et XXXV, O(+) — C(-) dans VII et VIII, et O(-) — C(+) dans X, XIII, XIV, XV et XXXIX. En outre, dans XXVII, on a une ouverture composite, c.-à-d. O(+) *et* O(-) qui montre bien l'intégration de la variation du type à la tradition, et qu'on pourrait nominaliser comme suit: je ne chante pas en raison de la belle saison, ni à cause de l'hiver (qui, par effet de contraste, pourrait m'y faire penser), ma seule raison de chanter c'est *Midonz* à qui je ne cesse de penser. [[hand: marginal mark, illegible]] Dans la mesure où la Dame peut fort bien fonctionner en tant qu'image de la poésie elle-même, donc en fait de la tradition, nous pensons avoir ici l'illustration précise de ce que nous avancions, à savoir la référence constante à la tradition, fût-ce à travers sa contestation qui n'est dès lors ressentie que comme une variation individuelle de son expression:
+Si O(-) — C(-) n'est pas représenté chez Raimbaut, on y trouve, en revanche: O(+)-C(+) dans II,IX et XXXV, O(+) — C(-) dans VII et VIII, et O(-) — C(+) dans X, XIII, XIV, XV et XXXIX. En outre, dans XXVII, on a une ouverture composite, c.-à-d. O(+) *et* O(-) qui montre bien l'intégration de la variation du type à la tradition, et qu'on pourrait nominaliser comme suit: je ne chante pas en raison de la belle saison, ni à cause de l'hiver (qui, par effet de contraste, pourrait m'y faire penser), ma seule raison de chanter c'est *Midonz* à qui je ne cesse de penser. [[hand: marque marginale, illisible]] Dans la mesure où la Dame peut fort bien fonctionner en tant qu'image de la poésie elle-même, donc en fait de la tradition, nous pensons avoir ici l'illustration précise de ce que nous avancions, à savoir la référence constante à la tradition, fût-ce à travers sa contestation qui n'est dès lors ressentie que comme une variation individuelle de son expression:
 
 ::: {.verse lang=oc}
 Non chant per auzel ni per flor

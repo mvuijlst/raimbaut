@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import {
   makeMd, collectAuthorSurnames, wrapAuthorNames, makeSiglumIndex, renderBibInline,
 } from "./lib/render.js";
+import { publishAll } from "./lib/msimages.js";
 
 const md = makeMd();
 
@@ -30,7 +31,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
-  eleventyConfig.addPassthroughCopy({ "../manuscripts": "manuscrits" });
+  // manuscript photos: renditions made by lib/msimages.js, before passthrough copy runs
+  eleventyConfig.on("eleventy.before", () => publishAll());
+  eleventyConfig.addPassthroughCopy({ ".cache/ms": "manuscrits" });
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });
   eleventyConfig.addPassthroughCopy({ "src/favicon.svg": "favicon.svg" });
 
