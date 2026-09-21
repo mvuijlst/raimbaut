@@ -10737,7 +10737,7 @@ CHANSON V
 
 1. Manuscrits
 
-A : *Studj*, III, 103 C : — D^c^ : *AdM*, XIV, 201. N : — N^2^ : *Archiv*, CII, 190. a : [RLR]{.underline}, XIV, 150 + [BA]{.underline}, 74.
+A : *Studj*, III, 103 C : — D^c^ : *AdM*, XIV, 201. N : — N^2^ : *Archiv*, CII, 190. a : [RLR]{.underline}, XLV, 150 + [BA]{.underline}, 74.
 
 2. Editions
 
@@ -10765,7 +10765,7 @@ CHANSON VII
 
 1. *Manuscrits*
 
-*a* : [RLR]{.underline}, XL, 409 et XL^v^, 221 + [BA]{.underline}, 76.
+*a* : [RLR]{.underline}, XL, 409 et XLV, 221 + [BA]{.underline}, 76.
 
 2. *Editions*
 
@@ -10809,7 +10809,7 @@ CHANSON X
 
 1. Manuscrits
 
-*C* : [MG]{.underline}, 217. *E* : [MG]{.underline}, 524. *N^o^ 2* : — *R* : [Archiv]{.underline}, CII, 188.
+*C* : [MG]{.underline}, 217. *E* : [MG]{.underline}, 524. *N* : — *N^2^* : [Archiv]{.underline}, CII, 188. *R* : —
 
 2. Editions
 
