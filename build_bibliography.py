@@ -639,7 +639,8 @@ with open("bibliography-flags.md", "w", encoding="utf-8") as f:
             "(`corpus/`) if desired, then re-run `build_bibliography.py`.\n\n")
     f.write("| printed p. | issue | entry (author: text…) |\n|---|---|---|\n")
     for pg, kind, txt in flags:
-        f.write(f"| {pg} | {kind} | {txt.replace('|', '\\|')} |\n")
+        cell = txt.replace("|", "\\|")     # (a backslash inside an f-string needs Python 3.12)
+        f.write(f"| {pg} | {kind} | {cell} |\n")
     f.write("\n## Par-chanson references left unresolved\n\n")
     f.write(f"{len(pc_flags)} terse per-chanson references could not be matched to a "
             "full catalogued entry (OCR garble, or a work catalogued nowhere in the "
@@ -647,7 +648,8 @@ with open("bibliography-flags.md", "w", encoding="utf-8") as f:
             "the work, then re-run.\n\n")
     f.write("| chanson | terse reference |\n|---|---|\n")
     for ch, ref in pc_flags:
-        f.write(f"| {ch} | {ref.replace('|', '\\|')} |\n")
+        cell = ref.replace("|", "\\|")
+        f.write(f"| {ch} | {cell} |\n")
 
 n_rev = sum(len(x["reviews"]) for x in general + raimbaut)
 n_pc_refs = sum(len(c["editions"]) + len(c["etudes"]) for c in par_chanson)

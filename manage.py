@@ -17,6 +17,7 @@ need ./venv; it runs the stdlib build scripts with whatever Python launched it.
     python manage.py publish    # rebuild stale -> site -> deploy
     python manage.py status     # print the dashboard and exit
     python manage.py check      # exit 1 if derived data is stale (deploy guard)
+    python manage.py verify     # full rebuild must reproduce the committed files (CI)
 """
 import glob
 import os
@@ -364,11 +365,57 @@ def check():
         sys.exit(1)
     print(GREEN("derived data fresh."))
 
+def verify():
+    """Reproducibility check (CI runs this; so can you): the committed corpus must
+    already be normalised, and re-running every Stage 3 script must reproduce the
+    committed derived files exactly. Compared ignoring CR, since the same script writes
+    CRLF on Windows and LF on Linux. Exit 1 on any drift or broken invariant.
+    Note: it rebuilds in place, like `all` — on failure, `git diff` shows the drift."""
+    import json
+    tracked = (sorted(str(p.relative_to(ROOT)).replace("\\", "/") for p in ROOT.glob("corpus/*.md"))
+               + [o for st in DATA for o in st.out]
+               + ["bibliography-flags.md", "footnote-norm-flags.md"])
+    def snap():
+        return {p: (ROOT / p).read_bytes().replace(b"\r\n", b"\n")
+                for p in tracked if (ROOT / p).is_file()}
+    before = snap()
+    problems = []
+    if run_py("normalize_typography.py") != 0:
+        problems.append("normalize_typography.py failed")
+    for st in DATA:
+        if run_stage(st) != 0:
+            problems.append(f"{st.script} failed"); break
+    after = snap()
+    drift = sorted(p for p in set(before) | set(after) if before.get(p) != after.get(p))
+    corpus_drift = [p for p in drift if p.startswith("corpus/")]
+    if corpus_drift:
+        problems.append(f"{len(corpus_drift)} corpus page(s) were not normalised "
+                        f"(run: python manage.py normalize): " + ", ".join(corpus_drift[:8]))
+    for p in drift:
+        if not p.startswith("corpus/"):
+            problems.append(f"{p} is not what its script produces from the committed inputs "
+                            f"(run: python manage.py all, and commit the result)")
+    # invariants of the edition
+    pages = len(json.loads((ROOT / "manifest.json").read_text(encoding="utf-8")))
+    chansons = len(json.loads((ROOT / "chansons.json").read_text(encoding="utf-8")))
+    if pages != 586: problems.append(f"manifest.json lists {pages} pages, expected 586")
+    if chansons != 39: problems.append(f"chansons.json lists {chansons} chansons, expected 39")
+    issues = ROOT / "footnote-issues.md"
+    if issues.is_file() and "0 refs without def, 0 defs without ref" not in issues.read_text(encoding="utf-8"):
+        problems.append("footnote-issues.md reports unmatched footnote refs/defs")
+    print()
+    for p in problems:
+        print(RED("✗ " + p))
+    if problems:
+        sys.exit(1)
+    print(GREEN(f"✓ reproducible: {len(before)} files identical after a full rebuild; "
+                f"{pages} pages, {chansons} chansons, footnotes matched."))
+
 def main():
     if len(sys.argv) > 1:
         cmd = sys.argv[1].lower()
         return {
-            "check": check,
+            "check": check, "verify": verify,
             "stale": rebuild_stale, "all": rebuild_all, "normalize": normalize,
             "site": build_site, "serve": serve_site, "deploy": deploy,
             "publish": publish, "status": _print_status,

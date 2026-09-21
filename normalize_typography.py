@@ -17,6 +17,7 @@ Per user's locked editorial decisions (2026-07-04):
      like AVANT - PROPOS, proper pairs) which are left as-is.
   4. Space before ; : ! ? -> U+202F NNBSP; guillemets «·» get inside NNBSP.
   5. Stacked "+" section breaks -> a single "⁂" asterism paragraph.
+  6. Chanson heading lines (section markers, see MARKER) are left untouched.
 
 Punctuation (2-4) also applies inside divs (no reflow there); double-space collapse
 is prose-only so verse hemistich gaps survive.
@@ -29,6 +30,10 @@ NNBSP = " "
 EMDASH = "—"
 ASTERISM = "⁂"
 FN_START = re.compile(r"^\[\^[^\]]+\]:")
+# "[CHANSON I ]{.underline} : REMARQUES" / "CHANSON I : TEXTE ET TRADUCTION": these
+# headings double as section markers for build_manifest / build_catalogue / the site's
+# chanson parser, so they pass through byte-for-byte (no NNBSP, no reflow into them).
+MARKER = re.compile(r"^\[?CHANSON\s+[IVXL]+\b.*\b(REMARQUES|TEXTE)\b")
 SOFT_HYPHEN_END = re.compile(r"[0-9A-Za-zà-ÿÀ-ß]-$")
 
 joins_log = []
@@ -38,14 +43,21 @@ def _dash(m):
     b, a = m.group(1), m.group(2)
     if b.isupper() and a.isupper():
         return m.group(0)          # spaced compound / proper pair -> leave
-    return f"{b} {EMDASH} {a}"
+    return f"{b} {EMDASH} "        # (the char after is only looked at, not consumed)
 
 
 def punct(s, collapse_dbl):
     s = re.sub(r"\[\^(\d+)\^\]", r"[^\1]", s)   # gpt-4o caret artifact [^2^] -> [^2]
     if collapse_dbl:
         s = re.sub(r" {2,}", " ", s)
-    s = re.sub(r"(\S) - (\S)", _dash, s)
+    # repeated to a fixed point: in a run of dashes ("a - - b") each pass can only convert
+    # the ones whose neighbours were not part of another match, so a single pass left the
+    # rest for the NEXT run of the script — i.e. the script was not idempotent
+    while True:
+        t = re.sub(r"(\S) - (?=(\S))", _dash, s)
+        if t == s:
+            break
+        s = t
     s = re.sub(r" ([;:!?])", NNBSP + r"\1", s)
     s = s.replace("« ", "«" + NNBSP).replace(" »", NNBSP + "»")
     return s
@@ -101,6 +113,8 @@ def normalize(text, pageid):
             out.append(punct(ln, collapse_dbl=False))
         elif s == ASTERISM or s == "":
             flush(); out.append(ln if s else "")
+        elif MARKER.match(s):
+            flush(); out.append(ln)
         elif FN_START.match(s):
             flush(); para.append(ln)        # each footnote def starts a fresh block
         else:

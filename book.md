@@ -7120,7 +7120,7 @@ D'autre part, à lire le texte selon l'ordre des strophes supposé par Carl Appe
 
 l'amant[^v2p042-1]. Or, si l'on adopte la solution préconisée par Carl Appel, les rôles respectifs se répartissent comme suit, de strophe en strophe:
 
-| str. I | Jotglap = | la Dame (v.4) | | str. II | " | la Dame (v.9) | | str. III | " | l'amant (v.14) | | — - - — | | — - - — - - — | | str. IV | " | la Dame (v.19) | | str. V | " | la Dame (v.24) | | str. VI | " | l'amant (v.29) |
+| str. I | Jotglap = | la Dame (v.4) | | str. II | " | la Dame (v.9) | | str. III | " | l'amant (v.14) | | — — — — | | — — — — — — — | | str. IV | " | la Dame (v.19) | | str. V | " | la Dame (v.24) | | str. VI | " | l'amant (v.29) |
 
 En revanche, si comme Pattison on demeure fidèle au ms., ce parallélisme disparaît: au lieu d'avoir I+II / III et IV+V / VI, on obtiendrait: I (Dame) / II (Amant) / III (Dame) et IV+V / VI. En d'autres termes, nous avons ici un fait de structure supplémentaire qui, tout en n'étant absolument pas déterminant en soi, s'ajoute aux raisons permettant de croire au bien-fondé de l'hypothèse de Carl Appel, étant donné le goût des troubadours en général et de Raimbaut d'Orange en particulier pour ce genre de dispositions bien structurées.
 
@@ -9419,7 +9419,7 @@ Rien d'étonnant donc, si Raimbaut nous apparaît — à nous, lecteurs modernes
 
 Tableau V : Répartition des N.W. dans l'oeuvre de Raimbaut
 
-| Chanson | N.W. | Var. | total | | Chanson | N.W. | Var. | total | |---------|------|------|-------| |---------|------|------|-------| | I | 17 | 4 | 21 | | XXI | 14 | — | 14 | | II | 10 | 3 | 13 | | XXII | 1 | — | 1 | | III | 3 | — | 3 | | XXIII | 7 | — | 7 | | IV | 13 | — | 13 | | XXIV | 1 | — | 1 | | V | 6 | — | 6 | | XXV | 3 | — | 3 | | VI | — | - | — | | XXVI | 1 | — | 1 | | VII | 2 | 1 | 3 | | XXVII | — | - | — | | VIII | 3 | 1 | 4 | | XXVIII | 6 | 1 | 7 | | IX | 2 | — | 2 | | XXIX | 5 | — | 5 | | X | 20 | 2 | 22 | | XXX | 2 | — | 2 | | XI | 5 | 1 | 6 | | XXXI | 2 | — | 2 | | XII | 3 | — | 3 | | *XXXII* | 1 | — | 1 | | XIII | 12 | 1 | 13 | | XXXIII | — | 1 | 1 | | XIV | 8 | — | 8 | | XXXIV | 6 | 1 | 7 | | XV | 6 | 1 | 7 | | XXXV | — | - | — | | XVI | — | - | — | | XXXVI | 3 | 13 | 16 | | XVII | 1 | — | 1 | | XXXVII | 14 | 1 | 15 | | XVIII | 3 | 1 | 4 | | XXXVIII | 2 | — | 2 | | XIX | 6 | 1 | 7 | | XXXIX | 3 | 18 | 21 | | XX | 3 | — | 3 | | | | | |
+| Chanson | N.W. | Var. | total | | Chanson | N.W. | Var. | total | |---------|------|------|-------| |---------|------|------|-------| | I | 17 | 4 | 21 | | XXI | 14 | — | 14 | | II | 10 | 3 | 13 | | XXII | 1 | — | 1 | | III | 3 | — | 3 | | XXIII | 7 | — | 7 | | IV | 13 | — | 13 | | XXIV | 1 | — | 1 | | V | 6 | — | 6 | | XXV | 3 | — | 3 | | VI | — | — | — | | XXVI | 1 | — | 1 | | VII | 2 | 1 | 3 | | XXVII | — | — | — | | VIII | 3 | 1 | 4 | | XXVIII | 6 | 1 | 7 | | IX | 2 | — | 2 | | XXIX | 5 | — | 5 | | X | 20 | 2 | 22 | | XXX | 2 | — | 2 | | XI | 5 | 1 | 6 | | XXXI | 2 | — | 2 | | XII | 3 | — | 3 | | *XXXII* | 1 | — | 1 | | XIII | 12 | 1 | 13 | | XXXIII | — | 1 | 1 | | XIV | 8 | — | 8 | | XXXIV | 6 | 1 | 7 | | XV | 6 | 1 | 7 | | XXXV | — | — | — | | XVI | — | — | — | | XXXVI | 3 | 13 | 16 | | XVII | 1 | — | 1 | | XXXVII | 14 | 1 | 15 | | XVIII | 3 | 1 | 4 | | XXXVIII | 2 | — | 2 | | XIX | 6 | 1 | 7 | | XXXIX | 3 | 18 | 21 | | XX | 3 | — | 3 | | | | | |
 
 On remarquera bien sûr que 4 chansons seulement — les poèmes VI, XVI, XXVII et XXXV — ne comportent aucun N.W. En outre, il est tout aussi évident que l'incidence des N.W. dans la poésie de Raimbaut ne correspond en rien à l'une ou l'autre tendance chronologique. En effet, pour autant que l'on puisse se fier à la suite chronologique proposée par Walter T. Pattison[^v2p166-1], il ne semble y avoir aucune corrélation entre la date de composition supposée d'un poème et le nombre de N.W. qu'il contient. En d'autres termes, et toujours en tenant cette chronologie pour réelle, on ne peut parler chez Raimbaut d'une inclusion progressive de la langue naturelle
 
@@ -11294,7 +11294,7 @@ INDEX DES MOTS[^v2p265-1]
 
 - DIR XXX, *passim* — DOMDE XXIII, 182 — DON III, 3
 
-- EMBRONHAR XIII, 51 — ENTENDEMEN VI, 38 — ENTREBESCAR I, 19 — ENTRENCAR XXXIX, 28 — ENTRESECAR XIII, 2 — ENVERS VII, 10 — ENVERSA XXXIX, 1 ^sv.^ — ENVERSAR XXXIX, 41 — ENVERSATZ XVIII, 11 — ENVOLVER XXIX, 17 — ESBAUDANAR (v. Baudana) XXXIV, 33 — ESCLACA X, 55 — ESFLAUIR (esflaujar) IV, 52 — ESLEGIR XXXIV, 38 — ESPLECHAR XXXVIII, 23 — ESPLEGAR XXXVIII, 23 — ESQUAIRAR I, 6 — ESTACAR X, 58 — ESTERINH(A) II, 43 — 5 - ESTRAIG VII, 13 — ESTRAING (v. Roȉll) I, 22
+- EMBRONHAR XIII, 51 — ENTENDEMEN VI, 38 — ENTREBESCAR I, 19 — ENTRENCAR XXXIX, 28 — ENTRESECAR XIII, 2 — ENVERS VII, 10 — ENVERSA XXXIX, 1 ^sv.^ — ENVERSAR XXXIX, 41 — ENVERSATZ XVIII, 11 — ENVOLVER XXIX, 17 — ESBAUDANAR (v. Baudana) XXXIV, 33 — ESCLACA X, 55 — ESFLAUIR (esflaujar) IV, 52 — ESLEGIR XXXIV, 38 — ESPLECHAR XXXVIII, 23 — ESPLEGAR XXXVIII, 23 — ESQUAIRAR I, 6 — ESTACAR X, 58 — ESTERINH(A) II, 43 — 5 — ESTRAIG VII, 13 — ESTRAING (v. Roȉll) I, 22
 
 - FADA XXXIX, 17 — FADESC XXI, 27 — FAILLIMEN XI, 6 — FAIT XIII, 8 ; XXV, 44
 

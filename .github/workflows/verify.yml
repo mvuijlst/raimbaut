@@ -1,0 +1,45 @@
+# Two guards, on every push and pull request:
+#   data — the committed corpus is already normalised, and re-running the Stage 3 scripts
+#          reproduces the committed derived files exactly (python manage.py verify)
+#   site — the Eleventy site builds and the search index is written
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild derived data and compare with what is committed
+        run: python manage.py verify
+      - name: Show the drift
+        if: failure()
+        run: git --no-pager diff --ignore-cr-at-eol --stat && git --no-pager diff --ignore-cr-at-eol | head -200
+
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+        working-directory: site
+      - run: npm run build
+        working-directory: site
+      - name: The build produced the pages and the search index
+        working-directory: site/_site
+        run: |
+          test "$(find chansons -name index.html | wc -l)" -eq 40
+          test -f recherche/index.html -a -f sitemap.xml -a -f 404.html
+          test -f pagefind/pagefind.js
+          test "$(ls manuscrits/*.jpeg | wc -l)" -ge 20

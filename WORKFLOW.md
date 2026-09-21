@@ -120,6 +120,9 @@ locked editorial decisions:
 3. `" - "` → spaced em dash `" — "`, except between two capitals.
 4. Space before `; : ! ?` → narrow no-break space; guillemets get inside NNBSP.
 5. Stacked `+` section breaks → a single `⁂` asterism.
+6. Chanson heading lines (`[CHANSON I ]{.underline} : REMARQUES`, `… : TEXTE ET
+   TRADUCTION`) pass through byte-for-byte: they double as section markers for
+   `build_manifest.py`, `build_catalogue.py` and the site's chanson parser.
 
 **Run this after any manual edit to a corpus page**, before rebuilding the data.
 
@@ -238,6 +241,14 @@ it too.
 | `manuscripts.json` or a photo | site build → deploy (no Python step) |
 | A template / CSS / `site/lib/*.js` | site build → deploy |
 | Nothing (just publishing) | `deploy.ps1` |
+
+**Before committing a corpus edit:** `python manage.py verify` normalises, rebuilds
+every Stage 3 file and fails if anything differs from what is on disk beforehand — i.e.
+it proves the corpus is normalised and the derived files are what their scripts
+produce. The same command runs on GitHub for every push (`.github/workflows/verify.yml`,
+next to a job that builds the site), so a forgotten rebuild shows up as a red ✗ on the
+commit. It compares ignoring CR: `corpus/` and `book.md` are CRLF in the repository,
+and the scripts write LF on Linux.
 
 `python manage.py` computes all of this for you from file mtimes — pick **Rebuild
 stale** and it runs exactly the scripts whose inputs changed, in order.
