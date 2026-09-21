@@ -149,8 +149,18 @@ regenerated build reports, not committed artifacts — git-ignored, because both
 data scripts and the site build rewrite them, which would otherwise dirty the tree in
 the middle of a deploy.
 
+**Verse numbering.** The reading view counts verse lines and re-anchors on every printed
+marker of the typescript (`45. qu'es vilans…`). `check_verse_markers.py` (part of
+`manage.py verify`) checks that the lines between two printed markers equal their
+difference; an anomaly means a split/merged/dropped verse or a typewriter-wrapped line
+counted as a verse — fix the corpus — or an irregularity of the typescript itself, which
+is recorded, with its reason, in the hand-authored `verse-numbering.json` (misplaced
+printed markers, a typed line that is not a verse, an index reference given under
+another number). The corpus, and so the fac-similé, always keeps what was typed.
+
 **Hand-authored data** is never regenerated and must be edited by hand:
-`manuscripts.json` (the Table des manuscrits), `sigla-overrides.json` (siglum
+`manuscripts.json` (the Table des manuscrits), `verse-numbering.json` (above),
+`sigla-overrides.json` (siglum
 corrections feeding `build_citations.py`), the photos in `manuscripts/`, and
 `images/`.
 

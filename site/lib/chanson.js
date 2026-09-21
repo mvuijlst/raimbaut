@@ -125,7 +125,12 @@ function parseRemarques(mdText, ctx) {
 // ---------------------------------------------------------------------------
 // texte: strophes + translation paragraphs + hand-notes, in flow order
 // ---------------------------------------------------------------------------
-function parseTexte(mdText, ctx) {
+// `numbering` = this chanson's entry in verse-numbering.json (may be undefined): printed
+// markers the typescript misplaced (counted through, not re-anchored on) and typed lines
+// that are not verses (the author's bracketed alternative reading under a verse).
+function parseTexte(mdText, ctx, numbering = {}) {
+  const ignorePrinted = new Set(numbering.ignore_printed || []);
+  const unnumberedAfter = new Set(numbering.unnumbered_after || []);
   const lines = mdText.split("\n");
   // flow items: {t:'v', text} | {t:'break'} | {t:'p', text} | {t:'hand', text}
   //             {t:'anchor', pid} | {t:'heading', text}
@@ -192,8 +197,16 @@ function parseTexte(mdText, ctx) {
       if (!curLines) curLines = [];
       const m = item.text.trim().match(LINE_NO);
       let text = item.text;
-      if (m) { lineNo = parseInt(m[1], 10); text = m[2]; }
-      else lineNo += 1;
+      const prevLine = curLines[curLines.length - 1];
+      if (!m && prevLine && !prevLine.variant && unnumberedAfter.has(lineNo)) {
+        curLines.push({ no: lineNo, variant: true, text: text.replace(/^\s+/, "") });
+        continue;
+      }
+      if (m) {
+        const printed = parseInt(m[1], 10);
+        lineNo = ignorePrinted.has(printed) ? lineNo + 1 : printed;
+        text = m[2];
+      } else lineNo += 1;
       // strip the common indent the div renderer would have removed
       curLines.push({ no: lineNo, text: text.replace(/^\s+/, "") });
       sawVerse = true;
@@ -277,7 +290,7 @@ export function parseChanson(c, opts) {
     ? parseRemarques(joined(c.remarques.pages), ctx)
     : { heading: "", headnote: "", entries: [] };
 
-  const tx = parseTexte(joined((c.texte || {}).pages), ctx);
+  const tx = parseTexte(joined((c.texte || {}).pages), ctx, opts.numbering);
 
   // --- render strophes, attach lemma marks ----------------------------------
   const marksByLine = new Map();
@@ -309,6 +322,8 @@ export function parseChanson(c, opts) {
       i: st.i,
       lines: st.lines.map((ln) => {
         const html = caesura(renderInlineApparatus(ln.text, ctx));
+        // a variant line belongs to its verse: no number, no anchor, no remark mark
+        if (ln.variant) return { no: ln.no, variant: true, html, pid, marks: [] };
         lineIndex.set(ln.no, stripTags(html));
         const marks = (marksByLine.get(ln.no) || []).filter((e) => e.from === ln.no);
         return { no: ln.no, html, pid, marks: marks.map((e) => ({ id: e.id, label: e.label })) };

@@ -211,6 +211,10 @@ export default async function () {
   // hand-authored catalogue of the collated chansonniers ("Table des
   // manuscrits"); optional, powers the standalone /manuscrits/ page. Resolved
   // against the bibliography further down (manuscriptTable).
+  // hand-authored: where the reading view's verse numbers must not follow the
+  // typescript literally (misplaced printed markers, typed lines that are not verses)
+  let verseNumbering = {};
+  try { verseNumbering = readJSON("verse-numbering.json"); } catch { /* not present */ }
   let manuscriptRaw = null;
   try { manuscriptRaw = readJSON("manuscripts.json"); } catch { /* not present */ }
   // footnote-reference normalization for the READING views (livre view = printed).
@@ -517,7 +521,7 @@ export default async function () {
   const studies = chansons
     .filter((c) => tpages(c).length)
     .map((c) => {
-      const parsed = parseChanson(c, { pageText, ctx, skipPage, roman: c.roman });
+      const parsed = parseChanson(c, { pageText, ctx, skipPage, roman: c.roman, numbering: verseNumbering[c.roman] });
       const L = livreByNum.get(c.num);
       let tradition = parChanson.get(c.roman) || null;
       if (tradition && tradition.manuscrits) {
@@ -545,7 +549,9 @@ export default async function () {
   const verseText = new Map();
   for (const st of studies) {
     const m = new Map();
-    for (const s of st.strophes) for (const ln of s.lines) m.set(ln.no, stripTags(ln.html));
+    // a variant line's words count as its verse's (the index cites them there)
+    for (const s of st.strophes) for (const ln of s.lines)
+      m.set(ln.no, (ln.variant && m.has(ln.no) ? m.get(ln.no) + " " : "") + stripTags(ln.html));
     verseText.set(st.num, m);
   }
   const incipitByNum = new Map(chansons.map((c) => [c.num, (c.incipit || "").trim()]));
@@ -563,6 +569,7 @@ export default async function () {
     if (s.slug !== "index-mots" && s.slug !== "index-nw") continue;
     s.concordance = buildConcordance(wordIndexEntries(s.pages), {
       romanToNum, incipitByNum, studyNums, verseText, slug: s.slug, flags: cxFlags,
+      numbering: verseNumbering,
     });
   }
 

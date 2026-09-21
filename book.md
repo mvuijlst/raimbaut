@@ -7595,7 +7595,8 @@ ab so que par n'Izabel,
 15. s'assai d'alques en soan.
 Q'ar no·m demandon son dan!
 
-"Ha ni sobr'ar Catalana ["Ha-ni-Sobr'am Catalana"]
+"Ha ni sobr'ar Catalana
+["Ha-ni-Sobr'am Catalana"]
 [e] so dizion antan.
 Mas ar no·m val tan ni can,
 20. qar totas gens no·n s'acorda.
@@ -8015,25 +8016,25 @@ non amon tug cil qu'an baizat!
 So sap midons na Lobata.
 
 Tal cug'esser cortes entiers
-qu'es vilans dels quatre ladriers
-45. et a·l cor dins mal ensenhat.
+45. qu'es vilans dels quatre ladriers
+et a·l cor dins mal ensenhat.
 Plus que feutres sembla sendat
 [ni]{.unclear} cuers de bou escarlata,
 non sabon mais que n'an trobat.
-E quecx quo·s pot calafata
+50. E quecx quo·s pot calafata
 
-50. Pos non aus mos durs deziriers
+Pos non aus mos durs deziriers
 dir, tan tem que·l dans fos dobliers,
 maldirai los en luec d'aurat.
 E Dieus — quar fara caritat -
-los maldiga e·ls abata
-55. sai e pueys lai, en Neiron prat,
+55. los maldiga e·ls abata
+sai e pueys lai, en Neiron prat,
 on recebran deliurata.
 
 Parlairat (?), non ges grans parliers,
 d'aquest vers ompli tos paniers
-e porta tot ton col cargat
-60. a 'n Girart, de cuy ai peccat,
+60. e porta tot ton col cargat
+a 'n Girart, de cuy ai peccat,
 a Perpinhan part Laucata.
 E di·l (per que m'aia comprat)
 qu'el cassa·s e'n desbarata.
@@ -11280,7 +11281,7 @@ INDEX DES MOTS[^v2p265-1]
 
 <!-- page: v2p266 -->
 
-- CAIRE I, 5 — CALIVAR V, 55 — CAMJAYRE XXV, 46 — CAN XVI, 33 — CANA XXX, 59 — CASTIAR XXIV, 11 — CHAUT XXI, 46 — CILH II, 51 — CISCLAR X, 2 ; XIII, 5 — CLARS IX, 1, 8, 15, 22, 29, 36, 43, 50 — COCHAR XXXII, 26 — COINDE XXVIII, 19 — COMPASSAR I, 6 — COMPLIR XIX, 34 — CONFES XXXIII, 27 — CONGLAPIS XXXIX, 3 su. — CONH V, 28 — COR (Aver — que) II, 6 — COR (= CORNAR) XXVI, 24 ; XXXIX, 31 — CORRE(R) XXVI, 24 — CREISSER VI, 48 — CUIDAR XXIV, 11 ; XXXV, 19
+- CAIRE I, 5 — CALIVAR V, 55 — CAMJAYRE XXV, 46 — CAN XVI, 33 — CANA XXX, 59 — CASTIAR XXIV, 11 — CHAUT XXI, 46 — CILH II, 51 — CISCLAR X, 2 ; XIII, 5 — CLARS IX, 1, 8, 15, 22, 29, 36, 43, 50 — COCHAR XXXIII, 26 — COINDE XXVIII, 19 — COMPASSAR I, 6 — COMPLIR XIX, 34 — CONFES XXXIII, 27 — CONGLAPIS XXXIX, 3 su. — CONH V, 28 — COR (Aver — que) II, 6 — COR (= CORNAR) XXVI, 24 ; XXXIX, 31 — CORRE(R) XXVI, 24 — CREISSER VI, 48 — CUIDAR XXIV, 11 ; XXXV, 19
 
 - DECHAR II, 10 — DEG XVII, 59 — DEGERTZ XXVIII, 19 — DENHATZ XXXI, 33 — DESIR XXX, 35, 66 — DESTORS XXXIII, 34 — DESTRENHER XXXVIII, 27 — DEVEZIR XXX, 13 — DEVIZAR III, 8
 

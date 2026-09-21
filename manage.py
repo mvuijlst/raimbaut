@@ -394,6 +394,8 @@ def verify():
         if not p.startswith("corpus/"):
             problems.append(f"{p} is not what its script produces from the committed inputs "
                             f"(run: python manage.py all, and commit the result)")
+    if run_py("check_verse_markers.py") != 0:
+        problems.append("verse numbering: printed markers and line counts disagree (see above)")
     # invariants of the edition
     pages = len(json.loads((ROOT / "manifest.json").read_text(encoding="utf-8")))
     chansons = len(json.loads((ROOT / "chansons.json").read_text(encoding="utf-8")))

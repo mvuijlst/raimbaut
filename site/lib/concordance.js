@@ -192,7 +192,7 @@ function parseRefs(ref, romanToNum, onUnknownRoman) {
 
 // ---------------------------------------------------------------------------
 export function buildConcordance(rawEntries, opts) {
-  const { romanToNum, incipitByNum, studyNums, verseText, slug, flags } = opts;
+  const { romanToNum, incipitByNum, studyNums, verseText, slug, flags, numbering = {} } = opts;
   const kid = (i) => `k-${slug}-${i}`;
 
   const entries = rawEntries.map(({ lemma, ref }, i) => {
@@ -206,7 +206,11 @@ export function buildConcordance(rawEntries, opts) {
     const groups = parseRefs(ref, romanToNum, (r) => flags.romans.add(r)).map((g) => {
       const nolink = !studyNums.has(g.num);
       const texts = verseText.get(g.num);
-      const verses = g.verses.map((v) => {
+      // verse-numbering.json: a reference the author's index gives under another number
+      const fixes = ((numbering[g.roman] || {}).index_corrections || []).filter((c) => c.lemma === primary.trim());
+      const verses = g.verses.map((v0) => {
+        const fix = fixes.find((c) => String(c.cited) === v0.digits);
+        const v = fix ? { ...v0, digits: String(fix.verse), label: String(fix.verse) } : v0;
         let textHTML = null;
         if (!v.freq && !nolink) {
           const raw = texts && v.digits ? texts.get(+v.digits) : null;

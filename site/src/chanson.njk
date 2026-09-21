@@ -119,6 +119,9 @@ eleventyComputed:
           <div class="strophe-row{% if item.t == 'strophe' %} solo{% endif %}" id="s{{ item.strophe.i }}">
             <div class="oc" lang="oc">
               {% for ln in item.strophe.lines %}
+              {% if ln.variant %}
+              <p class="vline vvariant"{% if ln.pid %} data-fxpage="{{ ln.pid }}"{% endif %}><span class="lno" aria-hidden="true"></span><span class="vtext">{{ ln.html | safe }}</span></p>
+              {% else %}
               <p class="vline{% if ln.no % 5 == 0 %} q5{% endif %}{% if ln.marks.length %} marked{% endif %}" id="v{{ ln.no }}"{% if ln.pid %} data-fxpage="{{ ln.pid }}"{% endif %}{% if ln.marks.length %} data-rem="{{ ln.marks[0].id }}"{% endif %}>
                 <span class="lno" aria-hidden="true">{{ ln.no }}</span>
                 {%- if ln.marks.length -%}
@@ -126,6 +129,7 @@ eleventyComputed:
                 {%- endif -%}
                 <span class="vtext">{{ ln.html | safe }}</span>
               </p>
+              {% endif %}
               {% endfor %}
             </div>
             {% if item.t == "pair" %}
