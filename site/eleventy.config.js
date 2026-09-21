@@ -32,6 +32,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/js": "js" });
   eleventyConfig.addPassthroughCopy({ "../manuscripts": "manuscrits" });
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });
+  eleventyConfig.addPassthroughCopy({ "src/favicon.svg": "favicon.svg" });
 
   // render bibliography/abbreviation text (italics, ^superscripts^, [x]{.underline})
   eleventyConfig.addFilter("mdInline", (s) => wrapAuthorNames(md.renderInline(String(s || "")), _surnames));

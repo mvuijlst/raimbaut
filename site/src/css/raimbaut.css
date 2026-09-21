@@ -156,6 +156,17 @@ a:hover { color: var(--rubric); }
 /* The bar bleeds full width, but its contents sit on the same 96rem measure
    as the subnav and the reading columns, brand + nav grouped at the left —
    only the theme toggle keeps the far edge. */
+/* skip link: first tab stop, visible only when focused */
+.skip-link {
+  position: fixed; left: 0.6rem; top: -4rem; z-index: 70;
+  padding: 0.45rem 0.9rem;
+  background: var(--paper-card); color: var(--ink);
+  border: 1px solid var(--rule); border-radius: 3px;
+  font-family: var(--sans); font-size: 0.85rem; text-decoration: none;
+}
+.skip-link:focus { top: 0.6rem; }
+#contenu:focus { outline: none; }
+
 .masthead {
   position: sticky; top: 0; z-index: 40;
   height: var(--masthead-h);
@@ -194,6 +205,10 @@ a:hover { color: var(--rubric); }
   margin-left: auto;
 }
 .theme-btn:hover { color: var(--rubric); }
+.masthead-tools { margin-left: auto; display: flex; align-items: center; gap: 1rem; }
+.masthead-tools .theme-btn { margin-left: 0; }
+.search-link { display: inline-flex; color: var(--muted); padding: 0.3rem 0.1rem; }
+.search-link:hover, .search-link[aria-current] { color: var(--rubric); }
 
 /* hamburger: hidden on desktop, revealed as the main-nav trigger on mobile */
 .nav-toggle { display: none; }
@@ -1343,6 +1358,27 @@ ul.pc-v li { margin: 0 0 0.4rem; padding-left: 1.5rem; text-indent: -1.5rem; }
 }
 
 /* ------------------------------------------------------------------ print */
+/* ---------------------------------------------------------------- search */
+/* Pagefind's default UI, dressed in the edition's tokens */
+.search-page {
+  --pagefind-ui-scale: 0.9;
+  --pagefind-ui-primary: var(--rubric);
+  --pagefind-ui-text: var(--ink);
+  --pagefind-ui-background: var(--paper-card);
+  --pagefind-ui-border: var(--rule);
+  --pagefind-ui-tag: var(--paper-deep);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 3px;
+  --pagefind-ui-font: var(--serif);
+}
+.search-page .pagefind-ui__search-input { font-weight: 400; }
+.search-page .pagefind-ui__result-link { color: var(--ink); font-weight: 470; }
+.search-page .pagefind-ui__result-link:hover { color: var(--rubric); }
+.search-page .pagefind-ui__result-excerpt { color: var(--ink-soft); }
+.search-page .pagefind-ui__message { font-family: var(--sans); font-weight: 400; color: var(--muted); }
+.search-page mark { background: var(--gold-wash); color: inherit; padding: 0 0.1em; }
+.search-page .pagefind-ui__button { font-family: var(--sans); font-weight: 500; color: var(--ink-soft); }
+
 @media print {
   .masthead, .subnav, .book-pager, .study-rail, .mode-toggle, .panel-head .resync, .vmark { display: none !important; }
   .study { display: block; }

@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+ownMain: true
 title: Bibliographie
 description: "Bibliographie de la thèse de Marc Vuijlsteke sur Raimbaut d'Orange (Gand, 1981) : généralités, domaine occitan, Raimbaut d'Orange, et bibliographie par chanson."
 permalink: /bibliographie/
@@ -24,7 +25,7 @@ permalink: /bibliographie/
 </ul>
 {% endif %}
 {% endmacro %}
-<div class="cx-view cx-web study prose-study no-notes">
+<div data-pagefind-body class="cx-view cx-web study prose-study no-notes">
 <main class="study-main">
 <article class="prose">
 <header class="section-head">
@@ -113,7 +114,7 @@ permalink: /bibliographie/
 </main>
 {% if bl.notes.length %}
 <aside class="study-panel" aria-label="Notes">
-  <header class="panel-head">
+  <header class="panel-head" data-pagefind-ignore>
     <span>Notes</span>
     <button type="button" class="resync" hidden>⟲ suivre le texte</button>
   </header>

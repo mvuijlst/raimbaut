@@ -1,0 +1,5 @@
+# Kept out of release archives (GitHub zipballs, and so the Zenodo deposit): third-party
+# images that the CC BY licence of the text does not cover — see LICENSE-TEXT.md.
+manuscripts/        export-ignore
+images/             export-ignore
+site/src/images/    export-ignore

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Pour citer cette édition, merci d'utiliser la référence ci-dessous."
+title: "Interprétation \"philologique\" et \"poétique\" du Chansonnier de Raimbaut d'Orange — édition électronique"
+type: dataset
+authors:
+  - family-names: Vuijlsteke
+    given-names: Marc
+url: "https://raimbaut.yusupov.cloud/"
+repository-code: "https://github.com/mvuijlst/raimbaut"
+license: CC-BY-4.0
+preferred-citation:
+  type: thesis
+  title: "Interprétation \"philologique\" et \"poétique\" du Chansonnier de Raimbaut d'Orange"
+  authors:
+    - family-names: Vuijlsteke
+      given-names: Marc
+  editors:
+    - family-names: Vuijlsteke
+      given-names: Michel
+  institution:
+    name: "Rijksuniversiteit Gent"
+  thesis-type: "Thèse de doctorat"
+  year: 1981
+  languages:
+    - fr
+  url: "https://raimbaut.yusupov.cloud/"
+  notes: "Édition électronique établie par Michel Vuijlsteke, 2026."

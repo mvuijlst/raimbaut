@@ -1,0 +1,29 @@
+{
+  "title": "Interprétation \"philologique\" et \"poétique\" du Chansonnier de Raimbaut d'Orange — édition électronique",
+  "upload_type": "publication",
+  "publication_type": "thesis",
+  "description": "<p>Édition électronique de la thèse de doctorat de Marc Vuijlsteke, <em>Interprétation \"philologique\" et \"poétique\" du Chansonnier de Raimbaut d'Orange</em> (Rijksuniversiteit Gent, 1981), restée inédite : édition critique, traduction française et commentaire des trente-neuf chansons du troubadour Raimbaut d'Orange, suivis d'une étude de sa poétique, d'une bibliographie et d'index.</p><p>Ce dépôt contient le texte intégral transcrit à partir du tapuscrit (<code>corpus/</code>, <code>book.md</code>), l'apparat dérivé (bibliographie, sigles, renvois, catalogue des chansons, au format JSON) et le code qui génère le site <a href=\"https://raimbaut.yusupov.cloud/\">raimbaut.yusupov.cloud</a>. La chaîne de production est décrite dans <code>WORKFLOW.md</code>.</p><p>Le texte est sous licence CC BY 4.0 ; le code, sous licence MIT. Les reproductions de manuscrits et le portrait de l'auteur ne font pas partie de ce dépôt.</p>",
+  "creators": [
+    { "name": "Vuijlsteke, Marc" }
+  ],
+  "contributors": [
+    { "name": "Vuijlsteke, Michel", "type": "Editor" }
+  ],
+  "thesis_university": "Rijksuniversiteit Gent",
+  "language": "fra",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Raimbaut d'Orange",
+    "troubadours",
+    "poésie occitane médiévale",
+    "ancien occitan",
+    "édition critique",
+    "trobar clus",
+    "philologie romane"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://raimbaut.yusupov.cloud/", "relation": "isSourceOf", "resource_type": "other" }
+  ],
+  "notes": "Thèse soutenue à la Rijksuniversiteit Gent, Faculteit van de Letteren en Wijsbegeerte, année académique 1980–1981. Édition électronique établie par Michel Vuijlsteke, 2026."
+}

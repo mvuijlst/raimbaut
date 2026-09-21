@@ -5,14 +5,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "eleventy",
+    "build": "npm run clean && eleventy && pagefind --site _site",
     "serve": "eleventy --serve",
-    "clean": "node -e \"require('fs').rmSync('_site',{recursive:true,force:true})\""
+    "clean": "node -e \"require('fs').rmSync('_site',{recursive:true,force:true,maxRetries:10,retryDelay:150})\""
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.1",
-    "markdown-it-bracketed-spans": "^1.0.1"
+    "markdown-it-bracketed-spans": "^1.0.1",
+    "pagefind": "^1.5.2"
   }
 }

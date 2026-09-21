@@ -168,6 +168,14 @@ npm run serve        # → http://localhost:8080  (live-reload dev server)
 npm run clean        # rm -rf _site
 ```
 
+`npm run build` is three steps: wipe `_site/` (so a deleted template can never linger
+in the output and get deployed), run Eleventy, then run **Pagefind** over `_site/` to
+write the full-text search index to `_site/pagefind/` (used by `/recherche/`). Only the
+element marked `data-pagefind-body` is indexed — on study pages that is the web view, so
+each text is indexed once, not once per view; interface chrome inside it carries
+`data-pagefind-ignore`. `npm run serve` does not reindex: search in the dev server
+reflects the last full build.
+
 `site/src/_data/site.js` holds the site-wide metadata: the canonical origin, the
 bibliographic identity of the thesis (only what its title page prints) and the git
 revision the build came from. `base.njk` turns it into each page's canonical link,

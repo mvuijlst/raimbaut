@@ -1,0 +1,15 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{#- paginated templates only put their first page in collections.all, so the chansons
+    and sections are listed from the edition data; the rest are the fixed pages -#}
+{%- set urls = ["/", "/chansons/", "/poetique/", "/bibliographie/", "/abbreviations/", "/manuscrits/", "/colophon/"] %}
+{%- for s in edition.linearSections %}{% set urls = (urls.push("/" + s.slug + "/"), urls) %}{% endfor %}
+{%- for c in edition.studies %}{% set urls = (urls.push("/chansons/" + c.num + "/"), urls) %}{% endfor %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for u in urls %}
+  <url><loc>{{ site.url }}{{ u }}</loc>{% if site.revision.iso %}<lastmod>{{ site.revision.iso }}</lastmod>{% endif %}</url>
+{%- endfor %}
+</urlset>

@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+ownMain: true
 pagination:
   data: edition.linearSections
   size: 1
@@ -13,7 +14,7 @@ eleventyComputed:
 <div class="chanson-page section-page" id="study" data-view="web" data-livre="continue">
 
 {# ================================================= VERSION WEB (lecture) #}
-<div class="cx-view cx-web study prose-study{% if not section.notes.length %} no-notes{% endif %}">
+<div data-pagefind-body class="cx-view cx-web study prose-study{% if not section.notes.length %} no-notes{% endif %}">
 
 <main class="study-main">
 <article class="prose">
@@ -27,7 +28,7 @@ eleventyComputed:
 <section class="edition-body{% if section.kind == 'index' %} index-body{% endif %}">
 {% if section.concordance %}
 <div class="concordance">
-  <div class="cx-toolbar">
+  <div class="cx-toolbar" data-pagefind-ignore>
     <div class="cx-search-row">
       <div class="cx-search-wrap">
         <span class="cx-mag" aria-hidden="true">⌕</span>
@@ -50,7 +51,7 @@ eleventyComputed:
 
 {% if section.notes.length %}
 <aside class="study-panel" id="panel" aria-label="Notes">
-  <header class="panel-head">
+  <header class="panel-head" data-pagefind-ignore>
     <span>Notes</span>
     <button type="button" class="resync" hidden>⟲ suivre le texte</button>
   </header>
@@ -79,7 +80,7 @@ eleventyComputed:
 </main>
 {% if section.livre.notes.length %}
 <aside class="study-panel" aria-label="Notes">
-  <header class="panel-head">
+  <header class="panel-head" data-pagefind-ignore>
     <span>Notes</span>
     <button type="button" class="resync" hidden>⟲ suivre le texte</button>
   </header>

@@ -8,6 +8,7 @@
   <link rel="preload" href="/fonts/JunicodeVF-Roman.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/JunicodeVF-Italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/css/raimbaut.css' | bust }}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   {% set desc = description or site.description %}
   <meta name="description" content="{{ desc }}">
   {% if noindex %}
@@ -16,7 +17,7 @@
   {% set canonical = site.url + page.url %}
   <link rel="canonical" href="{{ canonical }}">
   <meta property="og:site_name" content="{{ site.name }}">
-  <meta property="og:title" content="{{ title }}">
+  <meta property="og:title" content="{{ title }}" data-pagefind-meta="title[content]">
   <meta property="og:description" content="{{ desc }}">
   <meta property="og:url" content="{{ canonical }}">
   <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">
@@ -44,6 +45,7 @@
   {% endif %}
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
 <header class="masthead">
   <div class="masthead-inner">
     {% set u = page.url %}
@@ -63,7 +65,12 @@
       <a href="/poetique/"{% if active == "poetique" %} aria-current="page"{% endif %}>Poétique</a>
       <a href="/bibliographie/"{% if active == "biblio" %} aria-current="page"{% endif %}>Références</a>
     </nav>
-    <button type="button" class="theme-btn" id="theme-btn" aria-label="Thème clair ou sombre" title="Thème : automatique">◐</button>
+    <div class="masthead-tools">
+      <a href="/recherche/" class="search-link" aria-label="Rechercher dans l'édition" title="Rechercher"{% if page.url == "/recherche/" %} aria-current="page"{% endif %}>
+        <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="6.8" cy="6.8" r="4.6"/><path d="M10.3 10.3 14.2 14.2"/></svg>
+      </a>
+      <button type="button" class="theme-btn" id="theme-btn" aria-label="Thème clair ou sombre" title="Thème : automatique">◐</button>
+    </div>
   </div>
 </header>
 {% set here = edition.here[page.url] %}
@@ -115,7 +122,11 @@
   </div>
 </div>
 {% endif %}
+{# the study templates (chanson, section, bibliographie) carry their own <main>, one
+   per reading view; every other page gets its landmark here #}
+{% if ownMain %}<div id="contenu" tabindex="-1">{% else %}<main id="contenu" tabindex="-1">{% endif %}
 {{ content | safe }}
+{% if ownMain %}</div>{% else %}</main>{% endif %}
 {% set bpp = edition.pager[page.url] %}
 {% if bpp %}
 <nav class="book-pager" aria-label="Navigation séquentielle">

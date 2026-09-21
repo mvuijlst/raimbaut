@@ -1,0 +1,40 @@
+---
+layout: base.njk
+title: Recherche
+description: "Recherche en texte intégral dans l'édition du chansonnier de Raimbaut d'Orange : la thèse, les chansons et leurs traductions, les remarques, la bibliographie."
+permalink: /recherche/
+---
+<div class="ch-index search-page">
+<header class="section-head">
+  <span class="u-eyebrow">Texte intégral</span>
+  <h1>Recherche</h1>
+  <p class="home-sub" style="color:var(--ink-soft)">Dans la thèse, les chansons et leurs
+  traductions, les remarques, les notes et la bibliographie.</p>
+</header>
+
+{# Pagefind: a static index built after Eleventy (npm run build), served from the site
+   itself — no third-party service. Only the web view of each page is indexed. #}
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<div id="search"></div>
+<noscript><p>La recherche a besoin de JavaScript. Le texte reste lisible sans lui,
+à partir du <a href="/">sommaire</a>.</p></noscript>
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    if (!window.PagefindUI) return;
+    new PagefindUI({
+      element: "#search",
+      showImages: false,
+      showSubResults: true,
+      excerptLength: 28,
+      autofocus: true,
+    });
+    // /recherche/?q=… — shareable searches
+    var q = new URLSearchParams(location.search).get("q");
+    if (q) {
+      var input = document.querySelector("#search input");
+      if (input) { input.value = q; input.dispatchEvent(new Event("input", { bubbles: true })); }
+    }
+  });
+</script>
+</div>

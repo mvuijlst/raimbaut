@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+ownMain: true
 pagination:
   data: edition.studies
   size: 1
@@ -85,8 +86,8 @@ eleventyComputed:
   </header>
 
   {# ===================================================== VERSION WEB (étude) #}
-  <div class="cx-view cx-web study" data-mode="etude">
-    <nav class="study-rail" aria-label="Sommaire de la chanson">
+  <div data-pagefind-body class="cx-view cx-web study" data-mode="etude">
+    <nav data-pagefind-ignore class="study-rail" aria-label="Sommaire de la chanson">
       <div class="rail-group">
         <span class="rail-label">Strophes</span>
         <ol>
@@ -145,7 +146,7 @@ eleventyComputed:
     </main>
 
     <aside class="study-panel" aria-label="Remarques">
-      <header class="panel-head">
+      <header class="panel-head" data-pagefind-ignore>
         <span>Remarques</span>
         <button type="button" class="resync" hidden>⟲ suivre le texte</button>
       </header>
@@ -185,7 +186,7 @@ eleventyComputed:
     </main>
     {% if ch.livre.notes.length %}
     <aside class="study-panel" aria-label="Notes">
-      <header class="panel-head"><span>Notes</span></header>
+      <header class="panel-head" data-pagefind-ignore><span>Notes</span></header>
       <div class="panel-scroll">
         {% for n in ch.livre.notes %}
         <div class="fnote" id="fn-{{ n.label }}">
