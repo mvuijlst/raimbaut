@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: Colophon
+description: "Colophon de l'édition électronique : l'auteur, Marc Vuijlsteke, l'établissement du texte à partir du tapuscrit de 1981, la typographie, les manuscrits."
 permalink: /colophon/
 ---
 <article class="prose">
@@ -143,6 +144,11 @@ sont disponibles, accompagnent chaque chanson ("Le manuscrit", sous le
 titre). Elles proviennent des bibliothèques qui conservent ces témoins,
 notamment la Biblioteca Apostolica Vaticana (chansonnier
 <span class="sc">A</span>, Vat.&nbsp;lat.&nbsp;5232).</p>
+
+{% if site.revision.hash %}
+<p class="revision" style="color:var(--ink-soft)">Version du {{ site.revision.dateFr }}, révision
+<a href="{{ site.repo }}/commit/{{ site.revision.hash }}">{{ site.revision.hash }}</a>{% if site.revision.dirty %}+{% endif %}.</p>
+{% endif %}
 
 </section>
 </article>

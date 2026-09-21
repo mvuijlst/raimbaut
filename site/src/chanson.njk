@@ -6,7 +6,8 @@ pagination:
   alias: ch
 permalink: "/chansons/{{ ch.num }}/"
 eleventyComputed:
-  title: "Chanson {{ ch.roman }} · {{ ch.incipit }}"
+  title: "Chanson {{ ch.roman }} · {{ ch.incipit | safe }}"
+  description: "Chanson {{ ch.roman }} de Raimbaut d'Orange, « {{ ch.incipit | safe }} » : texte occitan, traduction française et remarques{% if ch.printed %} (pp. {{ ch.printed[0] }}–{{ ch.printed[1] }} de la thèse de Marc Vuijlsteke, Gand, 1981){% endif %}."
 ---
 {% set pn = pagination.pageNumber %}
 <div class="chanson-page" id="study" data-view="web" data-livre="continue">

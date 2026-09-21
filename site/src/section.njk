@@ -6,7 +6,8 @@ pagination:
   alias: section
 permalink: "/{{ section.slug }}/"
 eleventyComputed:
-  title: "{{ section.title }}"
+  title: "{{ section.title | safe }}"
+  description: "{% if section.kind == 'conclusion' and section.slug != 'conclusion' %}« {{ section.title | safe }} » : chapitre de la troisième partie, Vers une poétique de Raimbaut d'Orange{% else %}{{ section.title | safe }}{% endif %} — thèse de Marc Vuijlsteke sur le chansonnier de Raimbaut d'Orange (Gand, 1981){% if section.printed %}, pp. {{ section.printed[0] }}–{{ section.printed[1] }}{% endif %}."
   bodyClass: "livre"
 ---
 <div class="chanson-page section-page" id="study" data-view="web" data-livre="continue">

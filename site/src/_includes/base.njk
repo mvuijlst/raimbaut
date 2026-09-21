@@ -8,7 +8,37 @@
   <link rel="preload" href="/fonts/JunicodeVF-Roman.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/JunicodeVF-Italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/css/raimbaut.css' | bust }}">
-  <meta name="description" content="Édition électronique du chansonnier de Raimbaut d'Orange, troubadour provençal du XIIe siècle : texte occitan, traduction française, remarques et apparat critique.">
+  {% set desc = description or site.description %}
+  <meta name="description" content="{{ desc }}">
+  {% if noindex %}
+  <meta name="robots" content="noindex">
+  {% else %}
+  {% set canonical = site.url + page.url %}
+  <link rel="canonical" href="{{ canonical }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ desc }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">
+  <meta property="og:locale" content="fr_FR">
+  {# bibliographic identity, for Zotero / Google Scholar: every page is a page of the
+     thesis, so each carries the thesis-level record plus its own URL. Only facts
+     printed on the title page — see _data/site.js. #}
+  <meta name="citation_title" content="{{ site.thesis.title }}">
+  <meta name="citation_author" content="{{ site.thesis.author.family }}, {{ site.thesis.author.given }}">
+  <meta name="citation_publication_date" content="{{ site.thesis.year }}">
+  <meta name="citation_dissertation_institution" content="{{ site.thesis.institution }}">
+  <meta name="citation_language" content="{{ site.thesis.language }}">
+  <meta name="citation_fulltext_html_url" content="{{ canonical }}">
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <meta name="DC.title" content="{{ site.thesis.title }}">
+  <meta name="DC.creator" content="{{ site.thesis.author.family }}, {{ site.thesis.author.given }}">
+  <meta name="DC.date" content="{{ site.thesis.year }}">
+  <meta name="DC.publisher" content="{{ site.thesis.institution }}">
+  <meta name="DC.type" content="Thesis">
+  <meta name="DC.language" content="{{ site.thesis.language }}">
+  <meta name="DC.identifier" content="{{ canonical }}">
+  {% endif %}
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
 <header class="masthead">

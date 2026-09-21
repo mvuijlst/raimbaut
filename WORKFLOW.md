@@ -168,6 +168,13 @@ npm run serve        # → http://localhost:8080  (live-reload dev server)
 npm run clean        # rm -rf _site
 ```
 
+`site/src/_data/site.js` holds the site-wide metadata: the canonical origin, the
+bibliographic identity of the thesis (only what its title page prints) and the git
+revision the build came from. `base.njk` turns it into each page's canonical link,
+Open Graph tags and the `citation_*` / Dublin Core tags that Zotero and Google Scholar
+read; the colophon prints the revision. Per-page `description`s live in each
+template's front matter.
+
 (The `.claude/launch.json` configs `raimbaut` / `raimbaut-alt` serve on 8099 / 8137
 for the preview tooling.)
 
