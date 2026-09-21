@@ -1280,6 +1280,14 @@
       ]
     },
     {
+      "siglum": "AdM",
+      "count": 2,
+      "pages": [
+        "v2p262",
+        "v2p263"
+      ]
+    },
+    {
       "siglum": "EA/S",
       "count": 1,
       "pages": [
@@ -1522,20 +1530,6 @@
       "count": 1,
       "pages": [
         "v2p259"
-      ]
-    },
-    {
-      "siglum": "Adm",
-      "count": 1,
-      "pages": [
-        "v2p262"
-      ]
-    },
-    {
-      "siglum": "AdM",
-      "count": 1,
-      "pages": [
-        "v2p263"
       ]
     }
   ],

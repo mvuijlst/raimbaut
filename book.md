@@ -10673,7 +10673,7 @@ B. *Bibliographie par chanson*
 
 1. Manuscrits
 
-D : Est.,91. I : [MG]{.underline},626. K : — M^o^ : [MG]{.underline},627 N^o^ : [Archiv]{.underline},CII,182. a : [RLR]{.underline},XLV,218 + [BA]{.underline},76.
+D : Est.,91. I : [MG]{.underline},626. K : — M : [MG]{.underline},627 N^2^ : [Archiv]{.underline},CII,182. a : [RLR]{.underline},XLV,218 + [BA]{.underline},76.
 
 2. Editions
 
@@ -10689,7 +10689,7 @@ CHANSON II
 
 1. Manuscrits
 
-*D* : Est., 90. *I* : [MG]{.underline}, 628. *K* *M^g^* : [MG]{.underline}, 629. *N^a^* : [Archiv]{.underline}, CI, 180.
+*D* : Est., 90. *I* : [MG]{.underline}, 628. *K* : — *M* : [MG]{.underline}, 629. *N^2^* : [Archiv]{.underline}, CII, 180.
 
 2. Editions
 
@@ -10721,7 +10721,7 @@ CHANSON IV
 
 1. *Manuscrits*
 
-*D* : [MG]{.underline},939; Est.,89. *I* : [MG]{.underline},624. *K* : — *M^2^* : [MG]{.underline},320. *N^o^* : [Archiv]{.underline},CII,183.
+*D* : [MG]{.underline},939; Est.,89. *I* : [MG]{.underline},624. *K* : — *M* : [MG]{.underline},320. *N^2^* : [Archiv]{.underline},CII,183.
 
 2. *Editions*
 
@@ -10777,7 +10777,7 @@ CHANSON VIII
 
 1. Manuscrits
 
-A : *Studj*, III, 92. D : *Est*, 89 D^e^ : vv. 43-48 — *AdM*, XIV, 201. E : — I : — K : — M^2^ : — N^2^ : [Archiv]{.underline}, CII, 183. a : [RLR]{.underline}, XLV, 217 + [BA]{.underline}, 75.
+A : *Studj*, III, 92. D : *Est*, 89 D^c^ : vv. 43-48 — *AdM*, XIV, 201. E : — I : — K : — M : — N^2^ : [Archiv]{.underline}, CII, 183. a : [RLR]{.underline}, XLV, 217 + [BA]{.underline}, 75.
 
 2. Editions
 
@@ -10793,7 +10793,7 @@ CHANSON IX
 
 1. Manuscrits
 
-N^o^ : L. CONSTANS, *Deux mss.*, 16; [RLR]{.underline}, XIX, 272. N^o^2 : [Archiv]{.underline}, CII, 190. a : [RLR]{.underline}, XLV, 213 + [BA]{.underline}, 74.
+N : L. CONSTANS, *Deux mss.*, 16; [RLR]{.underline}, XIX, 272. N^2^ : [Archiv]{.underline}, CII, 190. a : [RLR]{.underline}, XLV, 213 + [BA]{.underline}, 74.
 
 2. Éditions
 
@@ -10825,7 +10825,7 @@ CHANSON XI
 
 1. Manuscrits
 
-A : [Studj]{.underline}, III, 97. C : [MG]{.underline}, 359. I : [MG]{.underline}, 622. K : — N^o^ : — N^c^ : [Archiv]{.underline}, CII, 186. a : [RLR]{.underline}, XLV, 214 + [BA]{.underline}, 75. Ψ : *Romania*, LXVII, 509. d : -
+A : [Studj]{.underline}, III, 97. C : [MG]{.underline}, 359. I : [MG]{.underline}, 622. K : — N : — N^2^ : [Archiv]{.underline}, CII, 186. a : [RLR]{.underline}, XLV, 214 + [BA]{.underline}, 75. ψ : *Romania*, LXVII, 509. d : -
 
 2. Editions
 
@@ -10853,7 +10853,7 @@ CHANSON XIII
 
 1. *Manuscrits*
 
-C : [MG]{.underline},362 N^2^ : N^3^ : [Archiv]{.underline},CII,189. R :
+C : [MG]{.underline},362 N : — N^2^ : [Archiv]{.underline},CII,189. R : —
 
 2. *Editions*
 
@@ -10869,7 +10869,7 @@ CHANSON XIV
 
 1. *Manuscrits*
 
-[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : [a]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76.
+[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : — [a]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76.
 
 2. *Editions*
 
@@ -10885,7 +10885,7 @@ CHANSON XV
 
 1. Manuscrits
 
-*A* : *Studj*, III, 95 *C* : [MG]{.underline}, 361. *D* : — *D^c^* : *AdM*, XIV, 200. *I* : [MG]{.underline}, 623. *K^2^* : — *N°* : [Archiv]{.underline}, CII, 187 *Ψ* : [Romania]{.underline}, LXVII, 507. *R* : -
+*A* : *Studj*, III, 95 *C* : [MG]{.underline}, 361. *D* : — *D^c^* : *AdM*, XIV, 200. *I* : [MG]{.underline}, 623. *K* : — *N^2^* : [Archiv]{.underline}, CII, 187 *ψ* : [Romania]{.underline}, LXVII, 507. *R* : -
 
 2. Editions
 
@@ -10917,7 +10917,7 @@ CHANSON XVII
 
 1. Manuscrits
 
-C : [MG]{.underline}, 354 D : [Est]{.underline}, 90. I : — K : — M^o^ : [MG]{.underline}, 326. N^c^ : [Archiv]{.underline}, CII, 179. R : -
+C : [MG]{.underline}, 354 D : [Est]{.underline}, 90. I : — K : — M : [MG]{.underline}, 326. N^2^ : [Archiv]{.underline}, CII, 179. R : -
 
 2. Editions
 
@@ -10949,7 +10949,7 @@ CHANSON XIX
 
 1. Manuscrits
 
-A : *Studj*, III, 94. C : [MG]{.underline}, 357. D : *Est.*, 88. E : — I : [MG]{.underline}, 621 K : — M^o^ : — N^o^ : [Archiv]{.underline}, CII, 185. d : -
+A : *Studj*, III, 94. C : [MG]{.underline}, 357. D : *Est.*, 88. E : — I : [MG]{.underline}, 621 K : — M : — N^2^ : [Archiv]{.underline}, CII, 185. d : -
 
 2. Editions
 
@@ -11063,7 +11063,7 @@ CHANSON XXVI
 
 1. Manuscrits
 
-E^2^ : [MG]{.underline}, 1028 V : [MG]{.underline}, 1029 et [Archiv]{.underline}, XXXVI, 448.
+E : [MG]{.underline}, 1028 V : [MG]{.underline}, 1029 et [Archiv]{.underline}, XXXVI, 448.
 
 2. Editions
 
@@ -11139,7 +11139,7 @@ CHANSON XXXI
 
 1. Manuscrits
 
-D^a^ : — E^2^ : [MG]{.underline},336 N^2^ : [Archiv]{.underline},CII,191 R : [MG]{.underline},821
+D^a^ : — E : [MG]{.underline},336 N^2^ : [Archiv]{.underline},CII,191 R : [MG]{.underline},821
 
 2. Editions
 
@@ -11203,7 +11203,7 @@ CHANSON XXXV
 
 1. Manuscrits
 
-A : *Studj*, III, 99 et [Archiv]{.underline}, LI, 137. C : D^c^ : *Est.*, 88 D : *AdM*, XIV, 200. I : K : M : N : N^2^ : [Archiv]{.underline}, CII, 181. R : V : [Archiv]{.underline}, XXXVI, 449 et CRESCINI, *Per gli st. rom.*, 129. a : *RLR*, XLV, 142 + *BA*, 72. Berenger de Noya : J. ANGLADE, *Homm. à M. Pidal*, I, 684. (vv. 1-3)
+A : *Studj*, III, 99 et [Archiv]{.underline}, LI, 137. C : — D : *Est.*, 88 D^c^ : *AdM*, XIV, 200. I : — K : — M : — N : — N^2^ : [Archiv]{.underline}, CII, 181. R : — V : [Archiv]{.underline}, XXXVI, 449 et CRESCINI, *Per gli st. rom.*, 129. a : *RLR*, XLV, 142 + *BA*, 72. Berenger de Noya : J. ANGLADE, *Homm. à M. Pidal*, I, 684. (vv. 1-3)
 
 2. Editions
 
@@ -11219,7 +11219,7 @@ CHANSON XXXVI
 
 1. Manuscrits
 
-A : *Studj.*, III, 98 et [Archiv]{.underline}, LI, 136. C : — D^a^ : — I : — K : — N^o^ : [Archiv]{.underline}, CII, 184 R : — a : *RLR*, XLV, 220 + [BA]{.underline}, 75.
+A : *Studj.*, III, 98 et [Archiv]{.underline}, LI, 136. C : — D^a^ : — I : — K : — N : — N^2^ : [Archiv]{.underline}, CII, 184 R : — a : *RLR*, XLV, 220 + [BA]{.underline}, 75.
 
 2. Editions
 
@@ -11231,7 +11231,7 @@ CHANSON XXXVII
 
 1. Manuscrits
 
-A : [Studj]{.underline}, III, 91 et [Archiv]{.underline}, LI, 132. C : [MG]{.underline}, 356. D^c^ : D^e^ : [Adm]{.underline}, XIV, 201 (str. VII) I : [MG]{.underline}, 625. K^2^ : N^2^ : [Archiv]{.underline}, CII, 181. a : [RLR]{.underline}, XLV, 144 + [BA]{.underline}, 72.
+A : [Studj]{.underline}, III, 91 et [Archiv]{.underline}, LI, 132. C : [MG]{.underline}, 356. D : — D^c^ : [AdM]{.underline}, XIV, 201 (str. VII) I : [MG]{.underline}, 625. K : — N^2^ : [Archiv]{.underline}, CII, 181. a : [RLR]{.underline}, XLV, 144 + [BA]{.underline}, 72.
 
 2. Editions
 
@@ -11259,7 +11259,7 @@ CHANSON XXXIX
 
 1. Manuscrits
 
-C : — D : Est.,90 E : — I : — K : — M : [MG]{.underline},325. N^o^ : — O : [Archiv]{.underline},CII,185. O : Atti Accad. dei Lincei, ser. IV, t. II, 39. R : — a : RLR, XLV, 148 + BA, 73. U : [Archiv]{.underline}, XXXV, 377 et [MG]{.underline}, 1304 c : [StudJ]{.underline}, VII, 244.
+C : — D : Est.,90 E : — I : — K : — M : [MG]{.underline},325. N : — N^2^ : [Archiv]{.underline},CII,185. O : Atti Accad. dei Lincei, ser. IV, t. II, 39. R : — a : RLR, XLV, 148 + BA, 73. U : [Archiv]{.underline}, XXXV, 377 et [MG]{.underline}, 1304 c : [StudJ]{.underline}, VII, 244.
 
 2. Editions
 

@@ -3862,7 +3862,7 @@
   "par_chanson": [
     {
       "chanson": "I",
-      "manuscrits": "D : Est.,91. I : [MG]{.underline},626. K : — M^o^ : [MG]{.underline},627 N^o^ : [Archiv]{.underline},CII,182. a : [RLR]{.underline},XLV,218 + [BA]{.underline},76.",
+      "manuscrits": "D : Est.,91. I : [MG]{.underline},626. K : — M : [MG]{.underline},627 N^2^ : [Archiv]{.underline},CII,182. a : [RLR]{.underline},XLV,218 + [BA]{.underline},76.",
       "editions": [
         {
           "raw": "RvO,86",
@@ -3919,16 +3919,14 @@
         "D : Est.,91.",
         "I : [MG]{.underline},626.",
         "K : —",
-        "M^",
-        "o^ : [MG]{.underline},627",
-        "N^",
-        "o^ : [Archiv]{.underline},CII,182.",
+        "M : [MG]{.underline},627",
+        "N^2^ : [Archiv]{.underline},CII,182.",
         "a : [RLR]{.underline},XLV,218 + [BA]{.underline},76."
       ]
     },
     {
       "chanson": "II",
-      "manuscrits": "*D* : Est., 90. *I* : [MG]{.underline}, 628. *K* *M^g^* : [MG]{.underline}, 629. *N^a^* : [Archiv]{.underline}, CI, 180.",
+      "manuscrits": "*D* : Est., 90. *I* : [MG]{.underline}, 628. *K* : — *M* : [MG]{.underline}, 629. *N^2^* : [Archiv]{.underline}, CII, 180.",
       "editions": [
         {
           "raw": "[RO]{.underline}, 72",
@@ -3949,13 +3947,13 @@
         "*",
         "D* : Est., 90.",
         "*",
-        "I* : [MG]{.underline}, 628. *K*",
+        "I* : [MG]{.underline}, 628.",
         "*",
-        "M^",
-        "g^* : [MG]{.underline}, 629.",
+        "K* : —",
         "*",
-        "N^",
-        "a^* : [Archiv]{.underline}, CI, 180."
+        "M* : [MG]{.underline}, 629.",
+        "*",
+        "N^2^* : [Archiv]{.underline}, CII, 180."
       ]
     },
     {
@@ -4009,7 +4007,7 @@
     },
     {
       "chanson": "IV",
-      "manuscrits": "*D* : [MG]{.underline},939; Est.,89. *I* : [MG]{.underline},624. *K* : — *M^2^* : [MG]{.underline},320. *N^o^* : [Archiv]{.underline},CII,183.",
+      "manuscrits": "*D* : [MG]{.underline},939; Est.,89. *I* : [MG]{.underline},624. *K* : — *M* : [MG]{.underline},320. *N^2^* : [Archiv]{.underline},CII,183.",
       "editions": [
         {
           "raw": "A.KOLSEN, *Dichtungen...*,t.III,225",
@@ -4046,10 +4044,9 @@
         "*",
         "K* : —",
         "*",
-        "M^2^* : [MG]{.underline},320.",
+        "M* : [MG]{.underline},320.",
         "*",
-        "N^",
-        "o^* : [Archiv]{.underline},CII,183."
+        "N^2^* : [Archiv]{.underline},CII,183."
       ]
     },
     {
@@ -4164,7 +4161,7 @@
     },
     {
       "chanson": "VIII",
-      "manuscrits": "A : *Studj*, III, 92. D : *Est*, 89 D^e^ : vv. 43-48 — *AdM*, XIV, 201. E : — I : — K : — M^2^ : — N^2^ : [Archiv]{.underline}, CII, 183. a : [RLR]{.underline}, XLV, 217 + [BA]{.underline}, 75.",
+      "manuscrits": "A : *Studj*, III, 92. D : *Est*, 89 D^c^ : vv. 43-48 — *AdM*, XIV, 201. E : — I : — K : — M : — N^2^ : [Archiv]{.underline}, CII, 183. a : [RLR]{.underline}, XLV, 217 + [BA]{.underline}, 75.",
       "editions": [
         {
           "raw": "RO, 93",
@@ -4189,18 +4186,18 @@
         "A : *Studj*, III, 92.",
         "D : *Est*, 89",
         "D^",
-        "e^ : vv. 43-48 — *AdM*, XIV, 201.",
+        "c^ : vv. 43-48 — *AdM*, XIV, 201.",
         "E : —",
         "I : —",
         "K : —",
-        "M^2^ : —",
+        "M : —",
         "N^2^ : [Archiv]{.underline}, CII, 183.",
         "a : [RLR]{.underline}, XLV, 217 + [BA]{.underline}, 75."
       ]
     },
     {
       "chanson": "IX",
-      "manuscrits": "N^o^ : L. CONSTANS, *Deux mss.*, 16; [RLR]{.underline}, XIX, 272. N^o^2 : [Archiv]{.underline}, CII, 190. a : [RLR]{.underline}, XLV, 213 + [BA]{.underline}, 74.",
+      "manuscrits": "N : L. CONSTANS, *Deux mss.*, 16; [RLR]{.underline}, XIX, 272. N^2^ : [Archiv]{.underline}, CII, 190. a : [RLR]{.underline}, XLV, 213 + [BA]{.underline}, 74.",
       "editions": [
         {
           "raw": "C. APPEL, [ZRPh]{.underline}, XLIX, 487",
@@ -4230,9 +4227,8 @@
         }
       ],
       "manuscrits_lines": [
-        "N^",
-        "o^ : L. CONSTANS, *Deux mss.*, 16; [RLR]{.underline}, XIX, 272. N^",
-        "o^2 : [Archiv]{.underline}, CII, 190.",
+        "N : L. CONSTANS, *Deux mss.*, 16; [RLR]{.underline}, XIX, 272.",
+        "N^2^ : [Archiv]{.underline}, CII, 190.",
         "a : [RLR]{.underline}, XLV, 213 + [BA]{.underline}, 74."
       ]
     },
@@ -4270,7 +4266,7 @@
     },
     {
       "chanson": "XI",
-      "manuscrits": "A : [Studj]{.underline}, III, 97. C : [MG]{.underline}, 359. I : [MG]{.underline}, 622. K : — N^o^ : — N^c^ : [Archiv]{.underline}, CII, 186. a : [RLR]{.underline}, XLV, 214 + [BA]{.underline}, 75. Ψ : *Romania*, LXVII, 509. d : -",
+      "manuscrits": "A : [Studj]{.underline}, III, 97. C : [MG]{.underline}, 359. I : [MG]{.underline}, 622. K : — N : — N^2^ : [Archiv]{.underline}, CII, 186. a : [RLR]{.underline}, XLV, 214 + [BA]{.underline}, 75. ψ : *Romania*, LXVII, 509. d : -",
       "editions": [
         {
           "raw": "[RvO]{.underline}, 45",
@@ -4300,11 +4296,9 @@
         "C : [MG]{.underline}, 359.",
         "I : [MG]{.underline}, 622.",
         "K : —",
-        "N^",
-        "o^ : —",
-        "N^",
-        "c^ : [Archiv]{.underline}, CII, 186.",
-        "a : [RLR]{.underline}, XLV, 214 + [BA]{.underline}, 75. Ψ : *Romania*, LXVII, 509.",
+        "N : —",
+        "N^2^ : [Archiv]{.underline}, CII, 186.",
+        "a : [RLR]{.underline}, XLV, 214 + [BA]{.underline}, 75. ψ : *Romania*, LXVII, 509.",
         "d : -"
       ]
     },
@@ -4328,7 +4322,7 @@
     },
     {
       "chanson": "XIII",
-      "manuscrits": "C : [MG]{.underline},362 N^2^ : N^3^ : [Archiv]{.underline},CII,189. R :",
+      "manuscrits": "C : [MG]{.underline},362 N : — N^2^ : [Archiv]{.underline},CII,189. R : —",
       "editions": [
         {
           "raw": "[RO]{.underline},110",
@@ -4355,14 +4349,14 @@
       ],
       "manuscrits_lines": [
         "C : [MG]{.underline},362",
-        "N^2^ :",
-        "N^3^ : [Archiv]{.underline},CII,189.",
-        "R :"
+        "N : —",
+        "N^2^ : [Archiv]{.underline},CII,189.",
+        "R : —"
       ]
     },
     {
       "chanson": "XIV",
-      "manuscrits": "[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : [a]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76.",
+      "manuscrits": "[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : — [a]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76.",
       "editions": [
         {
           "raw": "Choix, V, 405",
@@ -4396,12 +4390,12 @@
         }
       ],
       "manuscrits_lines": [
-        "[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : [a]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76."
+        "[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : — [a]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76."
       ]
     },
     {
       "chanson": "XV",
-      "manuscrits": "*A* : *Studj*, III, 95 *C* : [MG]{.underline}, 361. *D* : — *D^c^* : *AdM*, XIV, 200. *I* : [MG]{.underline}, 623. *K^2^* : — *N°* : [Archiv]{.underline}, CII, 187 *Ψ* : [Romania]{.underline}, LXVII, 507. *R* : -",
+      "manuscrits": "*A* : *Studj*, III, 95 *C* : [MG]{.underline}, 361. *D* : — *D^c^* : *AdM*, XIV, 200. *I* : [MG]{.underline}, 623. *K* : — *N^2^* : [Archiv]{.underline}, CII, 187 *ψ* : [Romania]{.underline}, LXVII, 507. *R* : -",
       "editions": [
         {
           "raw": "*Choix*, V, 413",
@@ -4451,7 +4445,9 @@
         "*",
         "I* : [MG]{.underline}, 623.",
         "*",
-        "K^2^* : — *N°* : [Archiv]{.underline}, CII, 187 *Ψ* : [Romania]{.underline}, LXVII, 507.",
+        "K* : —",
+        "*",
+        "N^2^* : [Archiv]{.underline}, CII, 187 *ψ* : [Romania]{.underline}, LXVII, 507.",
         "*",
         "R* : -"
       ]
@@ -4490,7 +4486,7 @@
     },
     {
       "chanson": "XVII",
-      "manuscrits": "C : [MG]{.underline}, 354 D : [Est]{.underline}, 90. I : — K : — M^o^ : [MG]{.underline}, 326. N^c^ : [Archiv]{.underline}, CII, 179. R : -",
+      "manuscrits": "C : [MG]{.underline}, 354 D : [Est]{.underline}, 90. I : — K : — M : [MG]{.underline}, 326. N^2^ : [Archiv]{.underline}, CII, 179. R : -",
       "editions": [
         {
           "raw": "*Choix*, V, 411",
@@ -4532,10 +4528,8 @@
         "D : [Est]{.underline}, 90.",
         "I : —",
         "K : —",
-        "M^",
-        "o^ : [MG]{.underline}, 326.",
-        "N^",
-        "c^ : [Archiv]{.underline}, CII, 179.",
+        "M : [MG]{.underline}, 326.",
+        "N^2^ : [Archiv]{.underline}, CII, 179.",
         "R : -"
       ]
     },
@@ -4590,7 +4584,7 @@
     },
     {
       "chanson": "XIX",
-      "manuscrits": "A : *Studj*, III, 94. C : [MG]{.underline}, 357. D : *Est.*, 88. E : — I : [MG]{.underline}, 621 K : — M^o^ : — N^o^ : [Archiv]{.underline}, CII, 185. d : -",
+      "manuscrits": "A : *Studj*, III, 94. C : [MG]{.underline}, 357. D : *Est.*, 88. E : — I : [MG]{.underline}, 621 K : — M : — N^2^ : [Archiv]{.underline}, CII, 185. d : -",
       "editions": [
         {
           "raw": "RvO, 23",
@@ -4622,10 +4616,8 @@
         "E : —",
         "I : [MG]{.underline}, 621",
         "K : —",
-        "M^",
-        "o^ : —",
-        "N^",
-        "o^ : [Archiv]{.underline}, CII, 185.",
+        "M : —",
+        "N^2^ : [Archiv]{.underline}, CII, 185.",
         "d : -"
       ]
     },
@@ -4968,7 +4960,7 @@
     },
     {
       "chanson": "XXVI",
-      "manuscrits": "E^2^ : [MG]{.underline}, 1028 V : [MG]{.underline}, 1029 et [Archiv]{.underline}, XXXVI, 448.",
+      "manuscrits": "E : [MG]{.underline}, 1028 V : [MG]{.underline}, 1029 et [Archiv]{.underline}, XXXVI, 448.",
       "editions": [
         {
           "raw": "[RO]{.underline}, 158",
@@ -4986,7 +4978,7 @@
         }
       ],
       "manuscrits_lines": [
-        "E^2^ : [MG]{.underline}, 1028",
+        "E : [MG]{.underline}, 1028",
         "V : [MG]{.underline}, 1029 et [Archiv]{.underline}, XXXVI, 448."
       ]
     },
@@ -5097,7 +5089,7 @@
     },
     {
       "chanson": "XXXI",
-      "manuscrits": "D^a^ : — E^2^ : [MG]{.underline},336 N^2^ : [Archiv]{.underline},CII,191 R : [MG]{.underline},821",
+      "manuscrits": "D^a^ : — E : [MG]{.underline},336 N^2^ : [Archiv]{.underline},CII,191 R : [MG]{.underline},821",
       "editions": [
         {
           "raw": "C.APPEL, *Chrest.*,126",
@@ -5173,7 +5165,7 @@
       "manuscrits_lines": [
         "D^",
         "a^ : —",
-        "E^2^ : [MG]{.underline},336",
+        "E : [MG]{.underline},336",
         "N^2^ : [Archiv]{.underline},CII,191",
         "R : [MG]{.underline},821"
       ]
@@ -5238,7 +5230,7 @@
     },
     {
       "chanson": "XXXV",
-      "manuscrits": "A : *Studj*, III, 99 et [Archiv]{.underline}, LI, 137. C : D^c^ : *Est.*, 88 D : *AdM*, XIV, 200. I : K : M : N : N^2^ : [Archiv]{.underline}, CII, 181. R : V : [Archiv]{.underline}, XXXVI, 449 et CRESCINI, *Per gli st. rom.*, 129. a : *RLR*, XLV, 142 + *BA*, 72. Berenger de Noya : J. ANGLADE, *Homm. à M. Pidal*, I, 684. (vv. 1-3)",
+      "manuscrits": "A : *Studj*, III, 99 et [Archiv]{.underline}, LI, 137. C : — D : *Est.*, 88 D^c^ : *AdM*, XIV, 200. I : — K : — M : — N : — N^2^ : [Archiv]{.underline}, CII, 181. R : — V : [Archiv]{.underline}, XXXVI, 449 et CRESCINI, *Per gli st. rom.*, 129. a : *RLR*, XLV, 142 + *BA*, 72. Berenger de Noya : J. ANGLADE, *Homm. à M. Pidal*, I, 684. (vv. 1-3)",
       "editions": [
         {
           "raw": "*Choix*, III, 15",
@@ -5261,16 +5253,16 @@
       ],
       "manuscrits_lines": [
         "A : *Studj*, III, 99 et [Archiv]{.underline}, LI, 137.",
-        "C :",
+        "C : —",
+        "D : *Est.*, 88",
         "D^",
-        "c^ : *Est.*, 88",
-        "D : *AdM*, XIV, 200.",
-        "I :",
-        "K :",
-        "M :",
-        "N :",
+        "c^ : *AdM*, XIV, 200.",
+        "I : —",
+        "K : —",
+        "M : —",
+        "N : —",
         "N^2^ : [Archiv]{.underline}, CII, 181.",
-        "R :",
+        "R : —",
         "V : [Archiv]{.underline}, XXXVI, 449 et CRESCINI, *Per gli st. rom.*, 129.",
         "a : *RLR*, XLV, 142 + *BA*, 72. Berenger de",
         "N",
@@ -5281,7 +5273,7 @@
     },
     {
       "chanson": "XXXVI",
-      "manuscrits": "A : *Studj.*, III, 98 et [Archiv]{.underline}, LI, 136. C : — D^a^ : — I : — K : — N^o^ : [Archiv]{.underline}, CII, 184 R : — a : *RLR*, XLV, 220 + [BA]{.underline}, 75.",
+      "manuscrits": "A : *Studj.*, III, 98 et [Archiv]{.underline}, LI, 136. C : — D^a^ : — I : — K : — N : — N^2^ : [Archiv]{.underline}, CII, 184 R : — a : *RLR*, XLV, 220 + [BA]{.underline}, 75.",
       "editions": [
         {
           "raw": "*Choix*, III, 19",
@@ -5304,15 +5296,15 @@
         "a^ : —",
         "I : —",
         "K : —",
-        "N^",
-        "o^ : [Archiv]{.underline}, CII, 184",
+        "N : —",
+        "N^2^ : [Archiv]{.underline}, CII, 184",
         "R : —",
         "a : *RLR*, XLV, 220 + [BA]{.underline}, 75."
       ]
     },
     {
       "chanson": "XXXVII",
-      "manuscrits": "A : [Studj]{.underline}, III, 91 et [Archiv]{.underline}, LI, 132. C : [MG]{.underline}, 356. D^c^ : D^e^ : [Adm]{.underline}, XIV, 201 (str. VII) I : [MG]{.underline}, 625. K^2^ : N^2^ : [Archiv]{.underline}, CII, 181. a : [RLR]{.underline}, XLV, 144 + [BA]{.underline}, 72.",
+      "manuscrits": "A : [Studj]{.underline}, III, 91 et [Archiv]{.underline}, LI, 132. C : [MG]{.underline}, 356. D : — D^c^ : [AdM]{.underline}, XIV, 201 (str. VII) I : [MG]{.underline}, 625. K : — N^2^ : [Archiv]{.underline}, CII, 181. a : [RLR]{.underline}, XLV, 144 + [BA]{.underline}, 72.",
       "editions": [
         {
           "raw": "C. APPEL, [St. Med.]{.underline}, N.S., II, 393",
@@ -5340,12 +5332,11 @@
       "manuscrits_lines": [
         "A : [Studj]{.underline}, III, 91 et [Archiv]{.underline}, LI, 132.",
         "C : [MG]{.underline}, 356.",
+        "D : —",
         "D^",
-        "c^ :",
-        "D^",
-        "e^ : [Adm]{.underline}, XIV, 201 (str. VII)",
+        "c^ : [AdM]{.underline}, XIV, 201 (str. VII)",
         "I : [MG]{.underline}, 625.",
-        "K^2^ :",
+        "K : —",
         "N^2^ : [Archiv]{.underline}, CII, 181.",
         "a : [RLR]{.underline}, XLV, 144 + [BA]{.underline}, 72."
       ]
@@ -5410,7 +5401,7 @@
     },
     {
       "chanson": "XXXIX",
-      "manuscrits": "C : — D : Est.,90 E : — I : — K : — M : [MG]{.underline},325. N^o^ : — O : [Archiv]{.underline},CII,185. O : Atti Accad. dei Lincei, ser. IV, t. II, 39. R : — a : RLR, XLV, 148 + BA, 73. U : [Archiv]{.underline}, XXXV, 377 et [MG]{.underline}, 1304 c : [StudJ]{.underline}, VII, 244.",
+      "manuscrits": "C : — D : Est.,90 E : — I : — K : — M : [MG]{.underline},325. N : — N^2^ : [Archiv]{.underline},CII,185. O : Atti Accad. dei Lincei, ser. IV, t. II, 39. R : — a : RLR, XLV, 148 + BA, 73. U : [Archiv]{.underline}, XXXV, 377 et [MG]{.underline}, 1304 c : [StudJ]{.underline}, VII, 244.",
       "editions": [
         {
           "raw": "C. APPEL, Chrest., 60 HILL-BERGIN, 50 VISCARDI, Flor., 50",
@@ -5482,9 +5473,8 @@
         "I : —",
         "K : —",
         "M : [MG]{.underline},325.",
-        "N^",
-        "o^ : —",
-        "O : [Archiv]{.underline},CII,185.",
+        "N : —",
+        "N^2^ : [Archiv]{.underline},CII,185.",
         "O : Atti Accad. dei Lincei, ser. IV, t. II, 39.",
         "R : —",
         "a : RLR, XLV, 148 + BA, 73.",
