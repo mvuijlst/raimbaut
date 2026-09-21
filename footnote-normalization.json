@@ -5,8 +5,8 @@
   "backrefs": 479,
   "auto": 266,
   "ibid_resolved": 156,
-  "flagged": 127,
-  "titles": 27
+  "flagged": 94,
+  "titles": 51
  },
  "subs": {
   "v1p006|3": {
@@ -50,6 +50,14 @@
      "kind": "short-named",
      "to": "*Poésies*",
      "conf": "medium"
+    }
+   ]
+  },
+  "v1p011|2": {
+   "titles": [
+    {
+     "from": "'Raimon de Miraval 's Be m'agrada and the unrhymed refrain word in troubadour poetry'",
+     "to": "« Raimon de Miraval 's Be m'agrada and the unrhymed refrain word in troubadour poetry »"
     }
    ]
   },
@@ -705,6 +713,12 @@
      "kind": "short-named",
      "to": "*Troubadour and Love*",
      "conf": "high"
+    }
+   ],
+   "titles": [
+    {
+     "from": "\"L'idéologie des troubadours. Un examen de travaux récents\"",
+     "to": "« L'idéologie des troubadours. Un examen de travaux récents »"
     }
    ]
   },
@@ -1443,6 +1457,14 @@
     }
    ]
   },
+  "v1p134|3": {
+   "titles": [
+    {
+     "from": "\"Historia lingüística de los Visigodos\"",
+     "to": "« Historia lingüística de los Visigodos »"
+    }
+   ]
+  },
   "v1p134|4": {
    "backrefs": [
     {
@@ -1682,6 +1704,14 @@
     }
    ]
   },
+  "v1p148|3": {
+   "titles": [
+    {
+     "from": "'LOCAL PERSONNEL DES TRAINS - Quelques réflexions sur l'ambiguïté à propos de Raimbaut d'Orange'",
+     "to": "« LOCAL PERSONNEL DES TRAINS - Quelques réflexions sur l'ambiguïté à propos de Raimbaut d'Orange »"
+    }
+   ]
+  },
   "v1p148|5": {
    "backrefs": [
     {
@@ -1755,6 +1785,12 @@
      "kind": "short-ibid",
      "to": "R. GAY-CROSSIER, *Religious elements in the secular…*",
      "conf": "medium"
+    }
+   ],
+   "titles": [
+    {
+     "from": "\"Le motif de la merci dans les romans arthuriens du XII^e^ et XIII^e^ siècles\"",
+     "to": "« Le motif de la merci dans les romans arthuriens du XII^e^ et XIII^e^ siècles »"
     }
    ]
   },
@@ -2222,6 +2258,18 @@
     }
    ]
   },
+  "v1p199|1": {
+   "titles": [
+    {
+     "from": "\"Giraut de Bornelh et la poésie obscure\"",
+     "to": "« Giraut de Bornelh et la poésie obscure »"
+    },
+    {
+     "from": "\"Guiraut de Bornelh, le 'gant', le *trobar clus* et l'ignauré\"",
+     "to": "« Guiraut de Bornelh, le 'gant', le *trobar clus* et l'ignauré »"
+    }
+   ]
+  },
   "v1p199|4": {
    "backrefs": [
     {
@@ -2550,6 +2598,14 @@
     }
    ]
   },
+  "v1p244|3": {
+   "titles": [
+    {
+     "from": "'The troubadours of P. d'Alvernhe's satire in Spain'",
+     "to": "« The troubadours of P. d'Alvernhe's satire in Spain »"
+    }
+   ]
+  },
   "v1p244|6": {
    "backrefs": [
     {
@@ -2558,6 +2614,14 @@
      "kind": "short-ibid",
      "to": "R. LEJEUNE, *La \"Galerie littéraire\" du troubadour…*",
      "conf": "medium"
+    }
+   ]
+  },
+  "v1p245|2": {
+   "titles": [
+    {
+     "from": "\"Le troubadour lombard de la 'Galerie littéraire' satirique de Peire d'Alvernhe\"",
+     "to": "« Le troubadour lombard de la 'Galerie littéraire' satirique de Peire d'Alvernhe »"
     }
    ]
   },
@@ -2929,6 +2993,10 @@
     {
      "from": "'Jeu parti et roman breton'",
      "to": "« Jeu parti et roman breton »"
+    },
+    {
+     "from": "'De l'expression \"partir un jeu\" dans les textes épiques, aux origines du jeu parti'",
+     "to": "« De l'expression \"partir un jeu\" dans les textes épiques, aux origines du jeu parti »"
     }
    ]
   },
@@ -3091,6 +3159,18 @@
      "kind": "short-named",
      "to": "*Appunti di grammatica storica del…*",
      "conf": "high"
+    }
+   ]
+  },
+  "v1p276|3": {
+   "titles": [
+    {
+     "from": "'*No sai qu' s'es — no sai que s'es*'",
+     "to": "« *No sai qu' s'es — no sai que s'es* »"
+    },
+    {
+     "from": "'*Devinaih, \"non-senso\" e \"interiorizzazione testuale\": osservazioni sui rapporti fra strutture formali e contenuti ideologici nella poesia provenzale*'",
+     "to": "« *Devinaih, \"non-senso\" e \"interiorizzazione testuale\": osservazioni sui rapporti fra strutture formali e contenuti ideologici nella poesia provenzale* »"
     }
    ]
   },
@@ -3464,6 +3544,18 @@
      "kind": "flag",
      "to": "*loc. cit.*",
      "conf": "flag"
+    }
+   ]
+  },
+  "v2p010|1": {
+   "titles": [
+    {
+     "from": "'Die Canzone des Trobadors Raimbaut d'Orange, *Ara·m so del tot conquis* (BGr. 389,11)'",
+     "to": "« Die Canzone des Trobadors Raimbaut d'Orange, *Ara·m so del tot conquis* (BGr. 389,11) »"
+    },
+    {
+     "from": "'On the text of two troubadour poems. I: Raïmbaut d'Aurenca: *Ara·m so del tot conquis*...'",
+     "to": "« On the text of two troubadour poems. I: Raïmbaut d'Aurenca: *Ara·m so del tot conquis*... »"
     }
    ]
   },
@@ -3991,6 +4083,14 @@
     }
    ]
   },
+  "v2p047|3": {
+   "titles": [
+    {
+     "from": "'Der Versteckname *Joglar* bei Raïmbaut d'Aurenga'",
+     "to": "« Der Versteckname *Joglar* bei Raïmbaut d'Aurenga »"
+    }
+   ]
+  },
   "v2p047|4": {
    "backrefs": [
     {
@@ -4306,6 +4406,14 @@
      "kind": "short-ibid",
      "to": "STRONSKI, *Folquet de Marseille*",
      "conf": "medium"
+    }
+   ]
+  },
+  "v2p076|1": {
+   "titles": [
+    {
+     "from": "'Raïmbaut d'Aurenga und Bertrand de Born'",
+     "to": "« Raïmbaut d'Aurenga und Bertrand de Born »"
     }
    ]
   },
@@ -4768,6 +4876,14 @@
     }
    ]
   },
+  "v2p113|2": {
+   "titles": [
+    {
+     "from": "\"Lo vers es fis e naturaus. Notes sur la poétique de Bernard de Ventadour\"",
+     "to": "« Lo vers es fis e naturaus. Notes sur la poétique de Bernard de Ventadour »"
+    }
+   ]
+  },
   "v2p114|2": {
    "backrefs": [
     {
@@ -4787,6 +4903,12 @@
      "kind": "short-named",
      "to": "*Observations historiques et…*",
      "conf": "medium"
+    }
+   ],
+   "titles": [
+    {
+     "from": "\"D'une poésie formelle en France au moyen-âge\"",
+     "to": "« D'une poésie formelle en France au moyen-âge »"
     }
    ]
   },
@@ -4959,6 +5081,10 @@
   "v2p125|1": {
    "titles": [
     {
+     "from": "'L'antithèse poétique chez Bernard de Ventadour'",
+     "to": "« L'antithèse poétique chez Bernard de Ventadour »"
+    },
+    {
      "from": "'La douleur et son univers poétique chez Bernard de Ventadour'",
      "to": "« La douleur et son univers poétique chez Bernard de Ventadour »"
     }
@@ -4991,6 +5117,14 @@
      "kind": "short-named",
      "to": "*Essai*",
      "conf": "medium"
+    }
+   ]
+  },
+  "v2p130|2": {
+   "titles": [
+    {
+     "from": "'La *chansoneta nueva* attribuita a Guglielmo d'Aquitania'",
+     "to": "« La *chansoneta nueva* attribuita a Guglielmo d'Aquitania »"
     }
    ]
   },
@@ -5093,6 +5227,18 @@
     }
    ]
   },
+  "v2p139|1": {
+   "titles": [
+    {
+     "from": "\"Les premiers troubadours et les *versus* de l'école d'Aquitaine\"",
+     "to": "« Les premiers troubadours et les *versus* de l'école d'Aquitaine »"
+    },
+    {
+     "from": "\"Le *vers* au XII^e^ siècle: genre poétique ?\"",
+     "to": "« Le *vers* au XII^e^ siècle: genre poétique ? »"
+    }
+   ]
+  },
   "v2p141|1": {
    "backrefs": [
     {
@@ -5174,6 +5320,18 @@
     {
      "from": "'Bibliographie de la syntaxe occitane'",
      "to": "« Bibliographie de la syntaxe occitane »"
+    },
+    {
+     "from": "'La linguistique occitane aujourd'hui et demain'",
+     "to": "« La linguistique occitane aujourd'hui et demain »"
+    }
+   ]
+  },
+  "v2p150|3": {
+   "titles": [
+    {
+     "from": "'Rapport sur l'état présent de la recherche en domaine occitan: Lexicologie médiévale'",
+     "to": "« Rapport sur l'état présent de la recherche en domaine occitan: Lexicologie médiévale »"
     }
    ]
   },

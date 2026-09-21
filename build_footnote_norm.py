@@ -95,6 +95,38 @@ BACKREF = re.compile(r"(?:op|ouv|art|loc)\.?\s*cit[ée]?\.?|ibid\.?", re.I)
 IBID = re.compile(r"^ibid", re.I)
 
 
+# An article title is found from its CLOSER: the quote standing right before the
+# article-in-journal signal (", dans *Journal*"). From there we walk back to the nearest
+# quote of the same kind that follows an author-style lead-in — ", " or ": " after the
+# name (or a bracket / the start of the note). That is what makes French elision safe:
+# the apostrophe of l', d', qu', aujourd'hui — or of "Miraval 's" — follows a letter,
+# never a comma, so it can close over a title but never open one; and a merely quoted
+# phrase ("… le respect de "l'art poétique", dans *Las Leys*") has no such lead-in and is
+# left alone. Both the typescript's single and double straight quotes are handled.
+TITLE_SIGNAL = re.compile(r"""(['"])(\s*,?\s*dans\s+\*)""")
+
+
+def quoted_titles(text):
+    """-> [(quote char, title text, offset of the opening quote, offset of the signal)]
+    for the titles to set in « »."""
+    found = []
+    for m in TITLE_SIGNAL.finditer(text):
+        q, close = m.group(1), m.start(1)
+        i = close
+        while True:
+            i = text.rfind(q, max(0, close - 175), i)
+            if i < 0:
+                break
+            inner = text[i + 1:close]
+            lead_ok = i == 0 or re.search(r"([,:;(\[]|\bcité)\s?$", text[max(0, i - 6):i])
+            if (lead_ok and inner[:1].strip() and 6 <= len(inner) <= 170 and "\n" not in inner
+                    and not TITLE_SIGNAL.search(inner)
+                    and (q == "'" or inner.count('"') % 2 == 0)):
+                found.append((q, inner, i, m.start(2)))
+                break
+    return found
+
+
 def norm_work_key(t):
     """author+title identity for 'same work' comparison."""
     a = re.sub(r"[^a-zà-ÿ]", "", (t.get("author") or "").lower())
@@ -261,24 +293,27 @@ for m in DEF.finditer(book):
     # immediately followed by the article-in-journal signal ", dans *Journal*",
     # and (b) OPENS cleanly — the char before the quote is a non-letter — so an
     # elision apostrophe inside a word can never be mistaken for a title opener.
-    # A title with an internal apostrophe is unmatchable here (the [^'] class
-    # stops at it) and is flagged for manual conversion rather than mangled.
+    # quoted_titles() (top of file) delimits them from the closer, so internal
+    # apostrophes are fine; what it cannot do is pair quotes the source never closed.
     titles = []
-    converted_ends = []  # char offset in `text` just after each converted title
-    for tm in re.finditer(r"(^|[^0-9A-Za-zÀ-ÿ])'([^']{6,110})'(\s*,?\s*dans\s+\*)", text):
-        inner = tm.group(2)
-        titles.append({"from": "'" + inner + "'", "to": "«" + NNBSP + inner + NNBSP + "»"})
-        converted_ends.append(tm.start(3))
+    converted = []       # (opening quote offset, signal offset) of each converted title
+    for q, inner, start, end in quoted_titles(text):
+        titles.append({"from": q + inner + q, "to": "«" + NNBSP + inner + NNBSP + "»"})
+        converted.append((start, end))
         stats["titles"] += 1
-    # flag article-in-journal titles we did NOT convert (internal apostrophe / no
-    # clean open) so they can be handled « » by hand rather than silently dropped.
+    # flag the article-in-journal titles we did NOT convert, so they can be fixed by
+    # hand rather than silently dropped.
     for sm in re.finditer(r",?\s*dans\s+\*", text):
-        if any(abs(sm.start() - e) <= 2 for e in converted_ends):
-            continue  # this journal follows a title we already converted
-        seg = text[max(0, sm.start() - 120):sm.start()]
-        if "'" in seg:  # a quote precedes -> a title probably lives here
+        if any(a <= sm.start() <= e + 2 for a, e in converted):
+            continue  # the journal of a converted title, or a "dans *…*" inside one
+        seg = text[max(0, sm.start() - 170):sm.start()]
+        # only a quote that could OPEN a title (after the author's comma / colon) or
+        # CLOSE one (right before the signal) means a title is here that we failed to
+        # delimit. The apostrophe inside an italic book title (*Les Troubadours
+        # d'Auvergne*, dans …) is not one.
+        if re.search(r"""[,:;(\[]\s?['"]\S""", seg) or re.search(r"""['"]\s*$""", seg):
             flags.append((pageid, noteno, ("…" + seg[-56:]).replace("\n", " ").strip(),
-                          "article title not auto-converted (internal apostrophe) — set « » manually",
+                          "article title not auto-converted (quotes do not pair up in the source) — set « » manually",
                           "title-manual"))
             stats["flagged"] += 1
 
@@ -309,9 +344,10 @@ CATS = [
      "The note's abbr-match count ≠ resolved-ref count, so positional targeting was "
      "not trusted. Left as printed."),
     ("title-manual", "Article title not auto-converted — set « » by hand",
-     "An article-in-journal title precedes «dans *Journal*» but carries an internal "
-     "straight apostrophe (French elision), so it could not be delimited safely. "
-     "Left as printed; wrap in « » manually if desired."),
+     "An article-in-journal title precedes «dans *Journal*» but its quotes do not pair up "
+     "in the source (an opening or closing quote is missing), so it could not be "
+     "delimited. Left as printed: check the typescript, fix the quote in `corpus/`, and "
+     "it converts on the next build."),
     ("ibid-nopage", "Ibid. → work-level short cite — optional page check",
      "The reading view never keeps « Ibid. » (notes open on click, so the preceding "
      "note isn't visible). These bare ibid. were converted to a self-contained "
