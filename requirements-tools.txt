@@ -1,0 +1,17 @@
+# Only for the optional tools — the eight Stage 3 data scripts and manage.py need
+# nothing beyond the Python standard library (3.10+).
+#
+#   python -m venv venv
+#   venv\Scripts\pip install -r requirements-tools.txt
+#
+# Versions are the ones last known to work (venv, 2026-09).
+
+# ocr_page_numbers.py and provenance/transcribe.py (vision stage; also need OPENAI_API_KEY in .env)
+pymupdf==1.28.0
+openai==2.44.0
+pillow==12.3.0
+python-dotenv==1.2.2
+
+# site/tools/subset_fonts.py
+fonttools==4.63.0
+brotli==1.2.0

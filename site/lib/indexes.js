@@ -20,7 +20,17 @@ const ROMAN = "[IVXLC]{1,8}";
 // Groups: 1 = roman, 2 = the comma+spaces separator, 3 = payload.
 const WORD_REF = new RegExp(
   `\\b(${ROMAN})(\\s*,\\s*)` +
-  `(\\d+(?:\\s*,\\s*\\d+)*|(?:<em>)?passim(?:<\\/em>)?|\\([^)]*\\))`, "g");
+  `(\\d+(?:\\s*(?:,|—|–)\\s*\\d+)*|(?:<em>)?passim(?:<\\/em>)?|\\([^)]*\\))`, "g");
+
+// The typescript abbreviates the second verse of a pair: "II, 43 - 5" is vv. 43 and
+// 45 (the remarks to chanson II say so: « à la rime des vv.43 et 45 »). After a dash,
+// a number shorter and smaller than the one before it borrows that one's leading
+// digits. "39 — 42" is left alone.
+export function expandAbbreviatedVerse(prev, cur) {
+  if (!prev || cur.length >= prev.length || Number(cur) >= Number(prev)) return cur;
+  const full = prev.slice(0, prev.length - cur.length) + cur;
+  return Number(full) > Number(prev) ? full : cur;
+}
 
 // A printed page number: a 1–3 digit run that is NOT the tail of a hyphenated
 // range ("391-2", "319-330" -> link only the first endpoint) and not part of a
@@ -58,7 +68,13 @@ export function linkWordIndex(html, ctx, opts = {}) {
     const base = `/chansons/${num}/`;
     const romanLink = `<a class="${chCls}" href="${base}">${roman}</a>`;
     if (/^\d/.test(payload)) {
-      const linked = payload.replace(/\d+/g, (n) => `<a class="${cls}" href="${base}#v${n}">${n}</a>`);
+      // the text stays as printed ("43 — 5"); only the target verse is spelled out
+      let prev = null;
+      const linked = payload.replace(/([—–]\s*)?(\d+)/g, (m, dash, n) => {
+        const v = dash ? expandAbbreviatedVerse(prev, n) : n;
+        prev = v;
+        return `${dash || ""}<a class="${cls}" href="${base}#v${v}">${n}</a>`;
+      });
       return romanLink + sep + linked;
     }
     // `passim` / `(14 x)` — link the chanson, keep the payload verbatim

@@ -8,6 +8,7 @@
 //      panel is context, not navigation — its lines are never links.
 //   2. A chanson is named once per row and once per KWIC block, with its verses
 //      listed under it — never "Chanson XXXIX" repeated per verse.
+import { expandAbbreviatedVerse } from "./indexes.js";
 
 const esc = (s) => String(s)
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -94,8 +95,14 @@ function parseRefs(ref, romanToNum, onUnknownRoman) {
       verses = [{ label: `${freqX[1]} ×`, digits: null, freq: true }];
     } else {
       rest = rest.replace(/\(\s*(?:v\.|voir|cf\.)[^)]*\)/gi, ""); // drop cross-ref notes
-      verses = (rest.match(/\d+(?:\([a-z0-9]\))?/gi) || [])
-        .map((t) => ({ label: t, digits: t.replace(/\D/g, ""), freq: false }));
+      // "43 — 5" is the typescript's abbreviated pair (vv. 43 and 45): the web view
+      // spells the verse out, so the pill reads and links "45"
+      verses = [];
+      for (const v of rest.matchAll(/([—–-]\s*)?(\d+)(\([a-z0-9]\))?/gi)) {
+        const prev = verses[verses.length - 1];
+        const digits = v[1] && prev ? expandAbbreviatedVerse(prev.digits, v[2]) : v[2];
+        verses.push({ label: digits + (v[3] || ""), digits, freq: false });
+      }
     }
     if (!verses.length) continue;
     if (groups.has(num)) groups.get(num).verses.push(...verses);

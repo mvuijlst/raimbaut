@@ -48,7 +48,7 @@ Two properties make this manageable:
   fix a typo — you edit the corpus page directly.
 * **Everything downstream of the corpus is deterministic and stdlib-only.** The eight
   data scripts import nothing beyond the Python standard library, so they run under
-  any Python 3.11+ (including the system 3.14) without a working virtualenv.
+  any Python 3.10+ (including the system 3.14) without a working virtualenv.
 
 ---
 
@@ -79,11 +79,11 @@ with a prompt that asks for a faithful Markdown transcription (italics as `*…*
 underlined runs as `[…]{.underline}`, Occitan verse in `::: {lang=oc}` fenced divs,
 per-page footnotes as `[^N]`). gpt-4o is near-publication quality on the French
 prose but corrupts the Occitan verse — established by a 43-page A/B diff against
-Claude (`review-diff.md`, 997 differing hunks) — so the corpus is a **hybrid**:
+Claude (`provenance/review-diff.md`, 997 differing hunks) — so the corpus is a **hybrid**:
 gpt-4o base with the verse/Occitan pages transcribed by Claude in-session and
 overlaid. Result: 586 pages (298 vol1, 288 vol2), of which 499 gpt-4o and 87
-Claude; per-page provenance in `corpus-v2-sources.csv`. The scripts
-(`transcribe.py`, `merge_corpus.py`, `merge_corpus_v2.py`) were removed after the
+Claude; per-page provenance in `provenance/corpus-sources.csv`. The scripts
+(`transcribe.py`, `merge_corpus.py`, `merge_corpus_v2.py`, now in `provenance/`) were removed after the
 corpus was finalised and later restored from history (commit `db06367`) as
 documentation of this one-time stage; the final run is logged in
 `transcribe-v2.log`.
@@ -152,7 +152,7 @@ the middle of a deploy.
 **Hand-authored data** is never regenerated and must be edited by hand:
 `manuscripts.json` (the Table des manuscrits), `sigla-overrides.json` (siglum
 corrections feeding `build_citations.py`), the photos in `manuscripts/`, and
-`images/`. Note: `tableau_de_synthese.json` is a dead v1 leftover — nothing reads it.
+`images/`.
 
 ---
 
@@ -275,9 +275,9 @@ stale** and it runs exactly the scripts whose inputs changed, in order.
 ## 8. Environment
 
 * **Node** ≥ 18 (tested v22). `cd site && npm install`.
-* **Python** 3.11+ for the eight data scripts — **stdlib only**, no virtualenv needed;
+* **Python** 3.10+ for the eight data scripts — **stdlib only**, no virtualenv needed;
   the system Python 3.14 runs them. `manage.py` uses whatever interpreter launched it.
-* **Vision scripts only** (`ocr_page_numbers.py`, `transcribe.py`) need a
+* **Vision scripts only** (`ocr_page_numbers.py`, `provenance/transcribe.py`) need a
   virtualenv with `pymupdf openai pillow python-dotenv` **and** `OPENAI_API_KEY` in
   `.env`. (The venv broke once, when the Python that created it was removed; it has
   been rebuilt and works. If it ever breaks again:
@@ -302,6 +302,9 @@ raimbaut/
 ├─ normalize_typography.py  build_*.py  assemble_book.py  ocr_page_numbers.py
 ├─ manage.py                                the management TUI  (this workflow, automated)
 ├─ deploy.ps1                               build + ship to production
+├─ provenance/                              one-time transcription stage: scripts, A/B diff, per-page sources
+├─ docs/archive/                            finished design notes (UX-PROPOSAL.md)
+├─ requirements-tools.txt                   deps of the optional tools (vision stage, font subsetting)
 ├─ server/nginx-raimbaut.conf               reference copy of the production nginx site
 └─ site/             Eleventy source (src/, lib/, config) → _site/ output
 ```
