@@ -5707,9 +5707,7 @@ que m'a autrejat e promes
 25. que·m dara so que m'es pus car.
 Dona! Pus mon cor tenetz pres,
 adossatz me ab dous l'amar.
-Dieus, aiuda! In nomine patris
-et filii et spiritus sancti! Aiso,
-que sera, domna ?
+Dieus, aiuda! In nomine patris et filii et spiritus sancti! Aiso, que sera, domna ?
 
 Qu'ieu soy per vos gays, d'ira ples,
 30. iratz-jauzens me faytz trobar.
@@ -5717,8 +5715,7 @@ E so m'en partitz de tals tres
 qu'el mon non a, mas vos, lur par.
 E soy fols cantayres cortes
 tan c'om m'en apela ioglar.
-35. Dona, far ne podetz a vostra guiza,
-co fes n'Ayma de l'espatla que la estujet lay on li plac!
+35. Dona, far ne podetz a vostra guiza, co fes n'Ayma de l'espatla que la estujet lay on li plac!
 
 Er fenisc mon no-say-que-s'es,
 c'aisi l'ay volgut batejar:
@@ -7159,8 +7156,7 @@ Si nous acceptons la correction de *de* en *detz*, empruntée à Carl Appel par 
 
 ::: {.verse lang=oc}
 Si·l cors es pres, la lengua non es preza;
-doncx dir puesc ieu so qu'ieu meils volgra
-    far.
+doncx dir puesc ieu so qu'ieu meils volgra far.
 Mais ieu poirai m'en en Dieu fiansar,
 et aprop Deu, m'en fi en mon Jotglar:
 5. qu'en els ar es tot del meu desliurar.
@@ -7205,8 +7201,7 @@ Seigneur et sire *Fol* ! C'est là parole courtoise ! Hélas! Quand pour moi
 cela avait été par justice, jamais vous n'auriez eu mon *Jotglar*. Jamais elle n'entendit se donner à vous de son propre gré.
 
 ::: {.verse lang=oc}
-Fol, e·l sie·us det, qu'en vos s'es de tot
-    meza,
+Fol, e·l sie·us det, qu'en vos s'es de tot meza,
 e vos detz leis — e non es ges ben dar!
 Pos tan val mais, ben l'i devetz tornar.
 Qu'als non mi da c'apela son jotglar,
@@ -7600,8 +7595,7 @@ ab so que par n'Izabel,
 15. s'assai d'alques en soan.
 Q'ar no·m demandon son dan!
 
-"Ha ni sobr'ar Catalana
-["Ha-ni-Sobr'am Catalana"]
+"Ha ni sobr'ar Catalana ["Ha-ni-Sobr'am Catalana"]
 [e] so dizion antan.
 Mas ar no·m val tan ni can,
 20. qar totas gens no·n s'acorda.
@@ -8021,25 +8015,25 @@ non amon tug cil qu'an baizat!
 So sap midons na Lobata.
 
 Tal cug'esser cortes entiers
-45. qu'es vilans dels quatre ladriers
-et a·l cor dins mal ensenhat.
+qu'es vilans dels quatre ladriers
+45. et a·l cor dins mal ensenhat.
 Plus que feutres sembla sendat
 [ni]{.unclear} cuers de bou escarlata,
 non sabon mais que n'an trobat.
-50. E quecx quo·s pot calafata
+E quecx quo·s pot calafata
 
-Pos non aus mos durs deziriers
+50. Pos non aus mos durs deziriers
 dir, tan tem que·l dans fos dobliers,
 maldirai los en luec d'aurat.
 E Dieus — quar fara caritat -
-55. los maldiga e·ls abata
-sai e pueys lai, en Neiron prat,
+los maldiga e·ls abata
+55. sai e pueys lai, en Neiron prat,
 on recebran deliurata.
 
 Parlairat (?), non ges grans parliers,
 d'aquest vers ompli tos paniers
-60. e porta tot ton col cargat
-a 'n Girart, de cuy ai peccat,
+e porta tot ton col cargat
+60. a 'n Girart, de cuy ai peccat,
 a Perpinhan part Laucata.
 E di·l (per que m'aia comprat)
 qu'el cassa·s e'n desbarata.

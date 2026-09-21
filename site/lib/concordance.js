@@ -76,6 +76,85 @@ function findMark(text, forms) {
   return best;
 }
 
+// ---- second tier: Old Occitan spelling is not fixed ------------------------
+// findMark wants the token to share a long literal prefix with the headword, which
+// fails on ordinary scribal/graphic variation (desir ~ dezir, cuidar ~ cujes,
+// sufrir ~ soffrir, gazur ~ gasurs), on bare stems (limar ~ lim, tolre ~ tol), on
+// enclitic or two-word spellings (entrencar ~ e·n trenque, malserva ~ mal serva) and
+// on a dropped or added prefix (agradar ~ gradaz, rena ~ arena). This tier runs ONLY
+// when findMark found nothing, and only inside the one verse the index names, so the
+// worst it can do is mark the wrong word of the right line.
+const skeleton = (s) => norm(s)
+  .replace(/gu(?=[aeio])/g, "g").replace(/qu|q|k/g, "c").replace(/g/g, "c")
+  .replace(/ign|inh|nh|gn/g, "n").replace(/ill|lh/g, "l")
+  .replace(/tz|ts|ss|z|x/g, "s").replace(/ph/g, "f").replace(/[yj]/g, "i")
+  .replace(/h/g, "").replace(/u/g, "o").replace(/m(?=[bp])/g, "n")
+  .replace(/(.)\1+/g, "$1");
+
+function lev(a, b) {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++)
+    for (let j = 1; j <= b.length; j++)
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  return d[a.length][b.length];
+}
+
+const PREFIXES = ["es", "en", "a", "e"];
+// headword -> the skeleton shapes a token may be compared with: the word itself, its
+// stem (infinitive ending off), and both again without a detachable prefix
+function looseShapes(display) {
+  const out = new Set();
+  const main = display.replace(/\([^)]*\)/g, " ");          // glosses are handled apart
+  for (const part of splitTop(main, ",")) {
+    const sk = skeleton(part); if (sk.length < 3) continue;
+    const stem = sk.replace(/(ar|er|ir|re|r)$/, "");
+    for (const w of [sk, stem.length >= 3 ? stem : sk]) {
+      out.add(w);
+      for (const pre of PREFIXES) if (w.startsWith(pre) && w.length - pre.length >= 4) out.add(w.slice(pre.length));
+    }
+  }
+  return [...out];
+}
+const glossWords = (display) => [...display.matchAll(/\(([^)]*)\)/g)]
+  .flatMap((m) => m[1].split(/[^\p{L}]+/u)).filter((w) => w.length >= 4 && !/^(voir|v|cf)$/i.test(w)).map(skeleton);
+
+// similarity of a token to one shape: 1 = same; short shapes must match exactly
+function looseScore(tok, shape) {
+  if (tok[0] !== shape[0]) return 0;
+  if (tok === shape) return 1;
+  if (shape.length <= 3 || tok.length < 3) return tok.startsWith(shape) && shape.length >= 3 ? 0.9 : 0;
+  let best = 0;
+  for (const k of [shape.length - 1, shape.length, shape.length + 1]) {
+    if (k < 3 || k > tok.length + 1) continue;
+    best = Math.max(best, 1 - lev(shape, tok.slice(0, k)) / shape.length);
+  }
+  return best;
+}
+
+export function findMarkLoose(text, display) {
+  const toks = [...text.matchAll(/\p{L}+/gu)].map((m) => ({ i: m.index, end: m.index + m[0].length, sk: skeleton(m[0]) }));
+  // single words, then runs of 2–3 adjacent words read as one (e·n trenque, mal serva)
+  const cands = [];
+  for (let a = 0; a < toks.length; a++)
+    for (let b = a; b < Math.min(a + 3, toks.length); b++)
+      cands.push({ i: toks[a].i, len: toks[b].end - toks[a].i, sk: toks.slice(a, b + 1).map((t) => t.sk).join(""), words: b - a + 1 });
+  let best = null;
+  const consider = (shapes, floor, bonus) => {
+    for (const c of cands) for (const sh of shapes) {
+      for (const tk of [c.sk, ...PREFIXES.filter((pre) => c.sk.startsWith(pre) && c.sk.length - pre.length >= 4).map((pre) => c.sk.slice(pre.length))]) {
+        const sc = looseScore(tk, sh);
+        if (sc < floor) continue;
+        const score = sc + bonus - (c.words - 1) * 0.02 - (tk === c.sk ? 0 : 0.03);
+        if (!best || score > best.score) best = { i: c.i, len: c.len, score };
+      }
+    }
+  };
+  consider(looseShapes(display), 0.66, 1);
+  if (!best) consider(glossWords(display), 0.99, 0);        // "passar (far pon e plancas)"
+  return best;
+}
+
 // Parse one entry's reference string into chanson groups. Tolerant of the
 // typescript's shapes: "III, 27 ; V, 41" · "XXXIX, 3, 11, 19" · "XXX, passim" ·
 // "XXXVI, (14 x)" · "I, 9(a)" · "XXX, 11 (v. XVIII, 63)".
@@ -134,8 +213,21 @@ export function buildConcordance(rawEntries, opts) {
           if (raw == null) {
             flags.verseMiss.push({ roman: g.roman, num: g.num, verse: v.label });
           } else {
-            const mk = findMark(raw, forms);
-            if (mk) {
+            let mk = findMark(raw, forms);
+            // not in the verse the index names, but plainly in a neighbouring one: the
+            // numbering differs there — report that, don't guess inside the wrong line
+            let shifted = null;
+            if (!mk) {
+              for (const d of [1, -1, 2, -2]) {
+                const near = texts.get(+v.digits + d);
+                if (near != null && findMark(near, forms)) { shifted = +v.digits + d; break; }
+              }
+              if (!shifted) mk = findMarkLoose(raw, display);
+            }
+            if (shifted) {
+              textHTML = esc(raw);
+              flags.kwicShift.push({ lemma: display, roman: g.roman, verse: v.label, found: shifted });
+            } else if (mk) {
               textHTML = esc(raw.slice(0, mk.i)) + "<mark>" + esc(raw.slice(mk.i, mk.i + mk.len))
                 + "</mark>" + esc(raw.slice(mk.i + mk.len));
             } else {

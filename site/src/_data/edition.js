@@ -386,7 +386,7 @@ export default async function () {
   // index diagnostics: unresolved author-index page numbers (from linkAuthorIndex)
   // and the concordance's own unresolved references (built after the studies).
   const indexFlags = [];
-  const cxFlags = { romans: new Set(), verseMiss: [], kwicMiss: [] };
+  const cxFlags = { romans: new Set(), verseMiss: [], kwicMiss: [], kwicShift: [] };
   const renderPages = (pids) => renderSection(pids.map(pageText).join("\n\n"), ctx);
 
   // linear sections collect their footnotes into a synced notes panel.
@@ -766,6 +766,15 @@ export default async function () {
     else {
       md += "| mot | chanson | vers |\n|---|---|---|\n";
       for (const r of cxFlags.kwicMiss) md += `| ${r.lemma} | ${r.roman} | ${r.verse} |\n`;
+    }
+    md += "\n## Vers décalé (" + cxFlags.kwicShift.length + ")\n\n"
+      + "Le mot n'est pas dans le vers que cite l'index, mais il se trouve tel quel dans un "
+      + "vers voisin : la numérotation diffère à cet endroit (vers compté en plus ou en moins "
+      + "dans la chanson, ou renvoi de l'index décalé). Le vers cité s'affiche sans surlignage.\n\n";
+    if (!cxFlags.kwicShift.length) md += "_Aucun._\n";
+    else {
+      md += "| mot | chanson | vers cité | trouvé au vers |\n|---|---|---|---|\n";
+      for (const r of cxFlags.kwicShift) md += `| ${r.lemma} | ${r.roman} | ${r.verse} | ${r.found} |\n`;
     }
     fs.writeFileSync(path.join(ROOT, "index-kwic-flags.md"), md);
   }
