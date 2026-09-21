@@ -33,5 +33,8 @@ export default {
     year: "1981",
     language: "fr",
   },
+  edition: { editor: { given: "Michel", family: "Vuijlsteke" }, year: "2026" },
+  // text only — manuscript images and the portrait are excluded (see colophon)
+  license: { name: "CC BY 4.0", url: "https://creativecommons.org/licenses/by/4.0/deed.fr" },
   revision: { hash, iso, dateFr, dirty },
 };

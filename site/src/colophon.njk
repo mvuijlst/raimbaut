@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: Colophon
-description: "Colophon de l'édition électronique : l'auteur, Marc Vuijlsteke, l'établissement du texte à partir du tapuscrit de 1981, la typographie, les manuscrits."
+description: "Colophon de l'édition électronique : l'auteur, Marc Vuijlsteke, l'établissement du texte à partir du tapuscrit de 1981, la typographie, les manuscrits, la licence (CC BY 4.0) et la manière de citer l'édition."
 permalink: /colophon/
 ---
 <article class="prose">
@@ -144,6 +144,35 @@ sont disponibles, accompagnent chaque chanson ("Le manuscrit", sous le
 titre). Elles proviennent des bibliothèques qui conservent ces témoins,
 notamment la Biblioteca Apostolica Vaticana (chansonnier
 <span class="sc">A</span>, Vat.&nbsp;lat.&nbsp;5232).</p>
+
+<p>Les feuillets des manuscrits de la Bibliothèque nationale de France:
+source gallica.bnf.fr&nbsp;/ BnF. Les feuillets du manuscrit
+<span class="sc">A</span> (Vat.&nbsp;lat.&nbsp;5232): ©&nbsp;Biblioteca
+Apostolica Vaticana. Ces images ne sont pas couvertes par la licence de
+l'édition.</p>
+
+<h2>Licence</h2>
+
+<p>Le texte de cette édition — la thèse, les traductions, l'apparat — est mis
+à disposition selon les termes de la licence
+<a rel="license" href="{{ site.license.url }}">Creative Commons Attribution 4.0
+International</a> (CC&nbsp;BY&nbsp;4.0): on peut le citer, le reproduire et
+le réutiliser librement, à condition de nommer son auteur, Marc Vuijlsteke.
+Les reproductions de manuscrits et le portrait ne sont pas couverts par cette
+licence.</p>
+
+<h2>Pour citer cette édition</h2>
+
+<p>Marc <span class="sc">Vuijlsteke</span>, <em>{{ site.thesis.title }}</em>,
+thèse de doctorat, Rijksuniversiteit Gent, {{ site.thesis.year }}. Édition
+électronique établie par Michel Vuijlsteke, {{ site.edition.year }}.
+{{ site.url }}/{% if site.revision.dateFr %} (version du {{ site.revision.dateFr }}){% endif %}.</p>
+
+<p>Pour une chanson, avec la pagination du tapuscrit: Marc
+<span class="sc">Vuijlsteke</span>, «&nbsp;Chanson XXXIX, <em lang="oc">Ar resplan
+la flors enversa</em>&nbsp;», dans <em>{{ site.thesis.title }}</em>, thèse de
+doctorat, Rijksuniversiteit Gent, {{ site.thesis.year }}, pp.&nbsp;380–389.
+Édition électronique, {{ site.edition.year }}: {{ site.url }}/chansons/39/</p>
 
 {% if site.revision.hash %}
 <p class="revision" style="color:var(--ink-soft)">Version du {{ site.revision.dateFr }}, révision

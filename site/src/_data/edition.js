@@ -67,7 +67,11 @@ function loadManuscripts() {
     if (!byChanson.has(e.roman)) byChanson.set(e.roman, []);
     let witness = byChanson.get(e.roman).find((w) => w.siglum === e.siglum);
     if (!witness) {
-      witness = { siglum: e.siglum, source: e.source, images: [] };
+      // holding library's credit line, required by their reuse terms. Only two
+      // libraries so far: a Vat. lat. shelfmark in the filename = the Vaticana,
+      // everything else (mss. I, K, and the unlabelled XXXIX) is from Gallica.
+      const credit = e.source ? "© Biblioteca Apostolica Vaticana" : "Source gallica.bnf.fr / BnF";
+      witness = { siglum: e.siglum, source: e.source, credit, images: [] };
       byChanson.get(e.roman).push(witness);
     }
     if (!witness.source && e.source) witness.source = e.source;

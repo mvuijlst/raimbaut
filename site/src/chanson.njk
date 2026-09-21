@@ -74,6 +74,7 @@ eleventyComputed:
               {% if w.source %} · {{ w.source }}{% endif %}
               {% if img.note %} — {{ img.note }}{% endif %}
               {% if img.shared.length %} — feuillet partagé avec {% for r in img.shared %}<a href="/chansons/{{ edition.romanToNum[r] }}/">{{ r }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
+              {% if w.credit %}<span class="ms-credit"> · {{ w.credit }}</span>{% endif %}
             </figcaption>
           </figure>
           {% endfor %}

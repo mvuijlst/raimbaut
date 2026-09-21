@@ -38,6 +38,9 @@
   <meta name="DC.type" content="Thesis">
   <meta name="DC.language" content="{{ site.thesis.language }}">
   <meta name="DC.identifier" content="{{ canonical }}">
+  <meta name="DC.contributor" content="{{ site.edition.editor.family }}, {{ site.edition.editor.given }}">
+  <meta name="DC.rights" content="{{ site.license.name }} — {{ site.license.url }}">
+  <meta name="citation_online_date" content="{{ site.edition.year }}">
   {% endif %}
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
