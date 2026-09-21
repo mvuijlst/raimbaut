@@ -203,7 +203,26 @@ export function buildConcordance(rawEntries, opts) {
     const forms = lemmaForms(display);
     const letter = (norm(primary)[0] || "#").toUpperCase();
 
-    const groups = parseRefs(ref, romanToNum, (r) => flags.romans.add(r)).map((g) => {
+    // verse-numbering.json may send a reference to ANOTHER chanson — the typescript's
+    // "FRAITURA (far -) IX, 2" is XI, 2 — so those verses change group before anything else
+    const parsed = parseRefs(ref, romanToNum, (r) => flags.romans.add(r));
+    const moved = [];
+    for (const g of parsed) {
+      const cross = ((numbering[g.roman] || {}).index_corrections || [])
+        .filter((c) => c.lemma === primary.trim() && c.chanson && romanToNum[c.chanson]);
+      g.verses = g.verses.filter((v) => {
+        const f = cross.find((c) => String(c.cited) === v.digits);
+        if (f) moved.push({ roman: f.chanson, v: { ...v, digits: String(f.verse), label: String(f.verse) } });
+        return !f;
+      });
+    }
+    for (const m of moved) {
+      let g = parsed.find((x) => x.roman === m.roman);
+      if (!g) { g = { num: romanToNum[m.roman], roman: m.roman, verses: [] }; parsed.push(g); }
+      g.verses.push(m.v);
+    }
+
+    const groups = parsed.filter((g) => g.verses.length).map((g) => {
       const nolink = !studyNums.has(g.num);
       const texts = verseText.get(g.num);
       // verse-numbering.json: a reference the author's index gives under another number
@@ -221,10 +240,13 @@ export function buildConcordance(rawEntries, opts) {
           } else {
             // an attested form named in verse-numbering.json (irregular: fenher -> feis)
             let mk = null;
-            if (fix && fix.mark) {
-              const at = raw.toLowerCase().indexOf(String(fix.mark).toLowerCase());
-              if (at >= 0) mk = { i: at, len: fix.mark.length };
+            if (fix && fix.mark) {          // as a whole word: "ve" must not hit "vers"
+              const wm = new RegExp(`(?<![\\p{L}])${String(fix.mark).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\p{L}])`, "iu").exec(raw);
+              if (wm) mk = { i: wm.index, len: wm[0].length };
             }
+            // commented in the Remarques at this verse, but not a word of Raimbaut's text
+            // ("LOCHAR XXXIII, 26", the rhyme partner of cochar): the line, no highlight, no flag
+            if (fix && fix.commented_only) return { ...v, textHTML: esc(raw) };
             // the cited verse first — strictly, then with the spelling-tolerant tier: the
             // numbering is audited (check_verse_markers.py), so the index's verse is far
             // likelier than a shift. Only when the word is NOT there do we look next door,

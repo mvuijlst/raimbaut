@@ -1,5 +1,5 @@
 {
-  "_about": "Hand-authored. Places where the verse numbers of the reading view must NOT follow the typescript literally. The corpus (and so the fac-similé) keeps what was typed; site/lib/chanson.js and check_verse_markers.py read this file. In index_corrections, \"mark\" names the attested form to highlight when it is too irregular to be found from the headword (fenher -> feis), and \"verse\": null marks a reference that is wrong in the typescript and cannot be resolved. Each entry was checked against the scan of the page and against the thesis's own word index.",
+  "_about": "Hand-authored. Places where the verse numbers of the reading view must NOT follow the typescript literally. The corpus (and so the fac-similé) keeps what was typed; site/lib/chanson.js and check_verse_markers.py read this file. In index_corrections, \"chanson\" sends the reference to another chanson (the typescript names the wrong one), \"commented_only\" marks a word the Remarques discuss at that verse but which is not in Raimbaut's text, and \"mark\" names the attested form to highlight when it is too irregular to be found from the headword (fenher -> feis), and \"verse\": null marks a reference that is wrong in the typescript and cannot be resolved. Each entry was checked against the scan of the page and against the thesis's own word index.",
   "I": {
     "index_corrections": [
       {
@@ -51,6 +51,17 @@
     ],
     "why": "p. 568: TIMI VII, 11 (scan checked). The word is in the incipit, v. 1: « Al prim qe·il tim sorz en sus »."
   },
+  "IX": {
+    "index_corrections": [
+      {
+        "lemma": "fraitura (far -)",
+        "cited": 2,
+        "chanson": "XI",
+        "verse": 2
+      }
+    ],
+    "why": "p. 558 (scan checked): FRAITURA (Far -) IX, 2 — the expression is in chanson XI, v. 2, « que ja no·m feira fraitura », and is discussed in the remarks to XI (p. 139)."
+  },
   "XI": {
     "index_corrections": [
       {
@@ -72,6 +83,28 @@
     ],
     "why": "v. 46 « me posca »: present subjunctive of poder."
   },
+  "XXIII": {
+    "index_corrections": [
+      {
+        "lemma": "gardar",
+        "cited": 100,
+        "verse": 100,
+        "mark": "gradaz"
+      }
+    ],
+    "why": "GARDAR XXIII, 100: the remark follows Carl Appel, who reads the ms.'s « era gradaz » as a metathesis of « era gardaz »; hence both AGRADAR and GARDAR are indexed for this verse, and the form is gradaz."
+  },
+  "XXVI": {
+    "index_corrections": [
+      {
+        "lemma": "vendre (se)",
+        "cited": 32,
+        "verse": 32,
+        "mark": "ve"
+      }
+    ],
+    "why": "VENDRE (se) XXVI, 32: the remark on vv. 31-32 takes « car m'en ve » as se vendre (against Pattison's 'avenge')."
+  },
   "XXVIII": {
     "index_corrections": [
       {
@@ -83,15 +116,38 @@
     ],
     "why": "v. 45 « que i joigna »: present subjunctive of jonher."
   },
+  "XXXI": {
+    "index_corrections": [
+      {
+        "lemma": "fatz",
+        "cited": 17,
+        "verse": 18,
+        "mark": "faz"
+      },
+      {
+        "lemma": "arapar",
+        "cited": 14,
+        "chanson": "XXI",
+        "verse": 13
+      }
+    ],
+    "why": "FATZ XXXI, 17: the remark on vv. 16-17 is where the word is discussed (« un quatrième qualificatif, fatz (v.18) »); the word itself is v. 18, « Ja per los faz ». — p. 562 (Index des N.W., scan checked): ARAPAR XXXI, 14 — the word is in chanson XXI, v. 13: « lau que la lenga l'arap »."
+  },
   "XXXIII": {
     "index_corrections": [
       {
         "lemma": "temer",
         "cited": 296,
         "verse": null
+      },
+      {
+        "lemma": "lochar",
+        "cited": 26,
+        "verse": 26,
+        "commented_only": true
       }
     ],
-    "why": "p. 560: the word index reads « TEMER XXII, 16 ; XXXIII, 296 » (scan checked). Chanson XXXIII has 52 verses; temer occurs at vv. 8, 10 and 41, and nothing shows which was meant. Kept as typed, shown without a link, and not reported as a broken reference."
+    "why": "p. 560: the word index reads « TEMER XXII, 16 ; XXXIII, 296 » (scan checked). Chanson XXXIII has 52 verses; temer occurs at vv. 8, 10 and 41, and nothing shows which was meant. Kept as typed, shown without a link, and not reported as a broken reference. — LOCHAR XXXIII, 26: not a word of the text — it is discussed with cochar (v. 26), as its rhyme partner in the dictionaries and in Flamenca."
   },
   "XXXIV": {
     "unnumbered_after": [
