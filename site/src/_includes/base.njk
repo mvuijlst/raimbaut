@@ -42,6 +42,8 @@
   <meta name="DC.contributor" content="{{ site.edition.editor.family }}, {{ site.edition.editor.given }}">
   <meta name="DC.rights" content="{{ site.license.name }} — {{ site.license.url }}">
   <meta name="citation_online_date" content="{{ site.edition.year }}">
+  {% if site.doi %}<meta name="citation_doi" content="{{ site.doi }}">
+  <meta name="DC.relation" content="https://doi.org/{{ site.doi }}">{% endif %}
   {% endif %}
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>

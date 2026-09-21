@@ -26,6 +26,8 @@ export default {
   name: "Raimbaut d'Orange, édition électronique",
   description: "Édition électronique du chansonnier de Raimbaut d'Orange, troubadour provençal du XIIe siècle : texte occitan, traduction française, remarques et apparat critique.",
   repo: "https://github.com/mvuijlst/raimbaut",
+  // Zenodo concept DOI: always resolves to the latest archived release
+  doi: "10.5281/zenodo.22873502",
   thesis: {
     title: 'Interprétation "philologique" et "poétique" du Chansonnier de Raimbaut d\'Orange',
     author: { given: "Marc", family: "Vuijlsteke" },

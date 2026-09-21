@@ -8,6 +8,7 @@ authors:
 url: "https://raimbaut.yusupov.cloud/"
 repository-code: "https://github.com/mvuijlst/raimbaut"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.22873502
 preferred-citation:
   type: thesis
   title: "Interprétation \"philologique\" et \"poétique\" du Chansonnier de Raimbaut d'Orange"
@@ -24,4 +25,5 @@ preferred-citation:
   languages:
     - fr
   url: "https://raimbaut.yusupov.cloud/"
+  doi: 10.5281/zenodo.22873502
   notes: "Édition électronique établie par Michel Vuijlsteke, 2026."
