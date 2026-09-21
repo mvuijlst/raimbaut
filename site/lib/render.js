@@ -833,7 +833,11 @@ function linkBackrefs(inner, label, ctx) {
     if (!r || !r.target) return m;
     const slug = pageToSection && pageToSection.get(r.target.page);
     if (!slug) return m;
-    const title = esc(stripMd(`${r.target.author}, ${r.target.title}`));
+    // a siglum work carries its whole definition as title; the thesis itself has neither
+    const t = r.target;
+    const where = t.locator ? `, ${t.locator}` : "";
+    const title = esc(stripMd(t.internal ? `${t.internal}${where}`
+      : t.author ? `${t.author}, ${t.title}` : `${t.title}${where}`));
     return `<a class="backref" href="/${slug}/#page-${r.target.page}" ` +
       `title="${title}" data-conf="${r.confidence || ""}">${m}</a>`;
   });

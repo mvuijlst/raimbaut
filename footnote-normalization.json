@@ -5,7 +5,7 @@
   "backrefs": 479,
   "auto": 275,
   "ibid_resolved": 156,
-  "flagged": 81,
+  "flagged": 58,
   "titles": 54
  },
  "subs": {
@@ -15,7 +15,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "BRUYNE, *Etudes d'esthétique médiévales*",
+     "to": "BRUYNE, *Etudes d'esthétique médiévales*, t. I, p. 108",
      "conf": "medium"
     }
    ]
@@ -37,7 +37,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A. JEANROY, *La poésie lyrique des troubadours*, p. 42",
+     "to": "[RvO]{.underline}, p. 66",
      "conf": "medium"
     }
    ]
@@ -67,7 +67,7 @@
      "idx": 0,
      "from": "loc.cit.",
      "kind": "short-bare",
-     "to": "I. FRANK, *Répertoire métrique de la poésie des…*",
+     "to": "[RvO]{.underline}",
      "conf": "medium"
     }
    ]
@@ -78,7 +78,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "I. FRANK, *Répertoire métrique de la poésie des…*",
+     "to": "[RvO]{.underline}",
      "conf": "medium"
     }
    ]
@@ -119,7 +119,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "NICHOLSON, *The Poems of the troubadour Peire…*",
+     "to": "Derek E.T.NICHOLSON, *The Poems of the troubadour Peire…*",
      "conf": "medium"
     }
    ]
@@ -206,7 +206,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A. S. AVALLE, *La letteratura medievale in lingua…*",
+     "to": "A. S. AVALLE, *La letteratura medievale in lingua…*, pp. 83-128",
      "conf": "medium"
     }
    ]
@@ -228,7 +228,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "A. S. AVALLE, *La letteratura medievale in lingua…*",
+     "to": "[P.-C.]{.underline}",
      "conf": "medium"
     }
    ]
@@ -238,9 +238,9 @@
     {
      "idx": 0,
      "from": "art. cité",
-     "kind": "short-bare",
-     "to": "E. LEVY, *Provenzalisches Supplement…*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*On the text and interpretation of a…*",
+     "conf": "high"
     }
    ]
   },
@@ -250,7 +250,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "E. LEVY, *Provenzalisches Supplement…*, p. 665-666",
+     "to": "J.H. MARSHALL, *On the text and interpretation of a…*, p. 18",
      "conf": "medium"
     }
    ]
@@ -348,7 +348,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A. TOBLER-LOMMATZSCH, *Altfranzösisches Wörterbuch*",
+     "to": "[Leys]{.underline}",
      "conf": "medium"
     }
    ]
@@ -358,9 +358,9 @@
     {
      "idx": 0,
      "from": "art.cité",
-     "kind": "short-bare",
-     "to": "W. BERNHARDT, *Die Werke des Trobadors N'At de Mons*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*On the text and interpretation of a…*",
+     "conf": "high"
     }
    ]
   },
@@ -497,7 +497,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "U. MÖLK, *Trobar clus — Trobar leu. Studien zur…*",
+     "to": "U. MÖLK, *Trobar clus — Trobar leu. Studien zur…*, p. 128",
      "conf": "medium"
     }
    ]
@@ -515,7 +515,7 @@
      "idx": 1,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "U. MÖLK, *Trobar clus — Trobar leu. Studien zur…*",
+     "to": "U. MÖLK, *Trobar clus — Trobar leu. Studien zur…*, p. 127",
      "conf": "medium"
     }
    ]
@@ -537,7 +537,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A. VAYSSIER, *Dictionnaire Patois-Français du…*, p. 249",
+     "to": "[FEW]{.underline}, t. XIII, p. 121",
      "conf": "medium"
     }
    ]
@@ -548,7 +548,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A. VAYSSIER, *Dictionnaire Patois-Français du…*, p. 249",
+     "to": "[FEW]{.underline}, t. XIII, p. 121",
      "conf": "medium"
     }
    ]
@@ -559,7 +559,7 @@
      "idx": 0,
      "from": "loc. cit.",
      "kind": "short-bare",
-     "to": "ADAMS, *Word-formation in Provençal*",
+     "to": "[FEW]{.underline}",
      "conf": "medium"
     }
    ]
@@ -581,7 +581,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "CRESCINI, *Manuale per l'avviamento agli studi…*",
+     "to": "V.CRESCINI, *Manuale per l'avviamento agli studi…*",
      "conf": "medium"
     }
    ]
@@ -602,9 +602,9 @@
     {
      "idx": 0,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "PRESS, *Anthology of Troubadour Lyric Poetry*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Handbuch der literarischen Rhetorik*",
+     "conf": "high"
     }
    ]
   },
@@ -752,7 +752,7 @@
      "idx": 1,
      "from": "ouv. cité",
      "kind": "short-bare",
-     "to": "ELWERT, *Zur Synonymendopplung vom Typ plankh…*",
+     "to": "Alan R.PRESS, *Anthology of Troubadour Lyric Poetry*",
      "conf": "medium"
     }
    ]
@@ -803,14 +803,14 @@
      "idx": 0,
      "from": "ibid",
      "kind": "short-ibid",
-     "to": "A. KOLSEN, *Dichtungen der Trobadors*, p. 229",
+     "to": "[RO]{.underline}, p. 82",
      "conf": "medium"
     },
     {
      "idx": 1,
      "from": "ouv.cité",
      "kind": "short-named",
-     "to": "*Words and descriptive terms for…*",
+     "to": "*Word-formation in Provençal*",
      "conf": "medium"
     }
    ]
@@ -853,9 +853,9 @@
     {
      "idx": 0,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "C. BRUNEL, *Recettes médicales*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*An outline of the phonology and…*",
+     "conf": "high"
     }
    ]
   },
@@ -934,7 +934,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 203",
      "conf": "medium"
     }
    ]
@@ -956,7 +956,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "NICHOLSON, *Peire Rogier*",
+     "to": "[RO]{.underline}, p. 88",
      "conf": "medium"
     }
    ]
@@ -967,7 +967,7 @@
      "idx": 0,
      "from": "ouv.cité",
      "kind": "short-bare",
-     "to": "NICHOLSON, *Peire Rogier*",
+     "to": "D.T.NICHOLSON, *Peire Rogier*",
      "conf": "medium"
     }
    ]
@@ -985,8 +985,8 @@
     {
      "idx": 0,
      "from": "ouv. cité",
-     "kind": "short-bare",
-     "to": "R. BLOMME, *I Siciliani. Alcune propose di lettura*",
+     "kind": "short-named",
+     "to": "*Peire Rogier*",
      "conf": "medium"
     }
    ]
@@ -1059,7 +1059,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "NICHOLSON, *Peire Rogier*",
+     "to": "D.T.NICHOLSON, *Peire Rogier*",
      "conf": "medium"
     }
    ]
@@ -1121,7 +1121,7 @@
      "idx": 0,
      "from": "ouv.cité",
      "kind": "short-bare",
-     "to": "C. W. CARROL, *Medieval Paleography: a brief…*",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
      "conf": "medium"
     }
    ]
@@ -1132,7 +1132,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. W. CARROL, *Medieval Paleography: a brief…*, p. 67",
+     "to": "[RO]{.underline}, p. 88",
      "conf": "medium"
     }
    ]
@@ -1165,7 +1165,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A. JEANROY, *Poésie lyrique*",
+     "to": "[RO]{.underline}, p. 92",
      "conf": "medium"
     }
    ]
@@ -1176,7 +1176,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "R. ZENKER, *Peire d'Auvergne. Die Lieder.…*",
+     "to": "[SW]{.underline}, t. III, p. 335",
      "conf": "medium"
     }
    ]
@@ -1198,7 +1198,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "F. MISTRAL, *Lou Tresor dóu Felibrige ou…*",
+     "to": "[Leys]{.underline}",
      "conf": "medium"
     }
    ]
@@ -1264,7 +1264,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "P. BOYDE, *Dante's style in his lyric poetry*, p. 253",
+     "to": "P. BOYDE, *Dante's style in his lyric poetry*, p. 253 sv.",
      "conf": "medium"
     },
     {
@@ -1314,9 +1314,9 @@
     {
      "idx": 0,
      "from": "art.cité",
-     "kind": "short-bare",
-     "to": "V. L.T. TOPSFIELD, *Les poésies de Raimon de Miraval*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Did the poets \"feign\" or \"fashion\"?*",
+     "conf": "high"
     }
    ]
   },
@@ -1326,7 +1326,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "V. L.T. TOPSFIELD, *Les poésies de Raimon de Miraval*",
+     "to": "[FEW]{.underline}",
      "conf": "medium"
     }
    ]
@@ -1436,7 +1436,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "to": "*supra*, p. 120",
      "conf": "medium"
     }
    ]
@@ -1510,7 +1510,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A.F. MAHN, *Grammatik und Woerterbuch der…*",
+     "to": "[PAT]{.underline}",
      "conf": "medium"
     }
    ]
@@ -1521,7 +1521,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A.F. MAHN, *Grammatik und Woerterbuch der…*",
+     "to": "[FEW]{.underline}",
      "conf": "medium"
     }
    ]
@@ -1532,7 +1532,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A.F. MAHN, *Grammatik und Woerterbuch der…*, p. 350",
+     "to": "[FEW]{.underline}, t. XIV, p. 488",
      "conf": "medium"
     }
    ]
@@ -1543,7 +1543,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A.F. MAHN, *Grammatik und Woerterbuch der…*, p. 350",
+     "to": "[FEW]{.underline}, t. XIV, p. 488",
      "conf": "medium"
     }
    ]
@@ -1554,7 +1554,7 @@
      "idx": 0,
      "from": "ouv. cité",
      "kind": "short-named",
-     "to": "*Words and descriptive terms for…*",
+     "to": "*Word-formation in Provençal*",
      "conf": "medium"
     }
    ]
@@ -1565,7 +1565,7 @@
      "idx": 0,
      "from": "ouv. cité",
      "kind": "short-named",
-     "to": "*Words and descriptive terms for…*",
+     "to": "*Word-formation in Provençal*",
      "conf": "medium"
     }
    ]
@@ -1584,7 +1584,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "K. M. FASSBINDER, *Der Trobador Raimbaut von Vaqueiras*, p. 464",
+     "to": "[FEW]{.underline}, t. IV, pp. 72-74",
      "conf": "medium"
     }
    ]
@@ -1606,7 +1606,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "K. M. FASSBINDER, *Der Trobador Raimbaut von Vaqueiras*, p. 464",
+     "to": "[PAT]{.underline}, p. 160",
      "conf": "medium"
     }
    ]
@@ -1628,7 +1628,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "K. M. FASSBINDER, *Der Trobador Raimbaut von Vaqueiras*, p. 464",
+     "to": "[SW]{.underline}, t. III, p. 294",
      "conf": "medium"
     }
    ]
@@ -1639,7 +1639,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "K. M. FASSBINDER, *Der Trobador Raimbaut von Vaqueiras*, p. 464",
+     "to": "[SW]{.underline}, t. III, p. 294",
      "conf": "medium"
     }
    ]
@@ -1658,7 +1658,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "O. SCHULTZ-GORA, *C.R. de RvO*, p. 300-301",
+     "to": "[RO]{.underline}, p. 107",
      "conf": "medium"
     }
    ]
@@ -1680,7 +1680,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "O. SCHULTZ-GORA, *C.R. de RvO*, p. 300-301",
+     "to": "[RO]{.underline}, p. 40",
      "conf": "medium"
     }
    ]
@@ -1805,9 +1805,9 @@
     {
      "idx": 0,
      "from": "ouv. cité",
-     "kind": "short-bare",
-     "to": "R. GAY-CROSSIER, *Religious elements in the secular…*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Appunti di grammatica storica del…*",
+     "conf": "high"
     }
    ]
   },
@@ -1847,7 +1847,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "to": "[FEW]{.underline}",
      "conf": "medium"
     }
    ]
@@ -1858,14 +1858,14 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "to": "[FEW]{.underline}",
      "conf": "medium"
     },
     {
      "idx": 1,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "to": "[FEW]{.underline}, p. 333",
      "conf": "medium"
     }
    ]
@@ -1876,7 +1876,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "to": "[FEW]{.underline}, p. 333",
      "conf": "medium"
     }
    ]
@@ -1886,9 +1886,9 @@
     {
      "idx": 0,
      "from": "ouv. cité",
-     "kind": "short-bare",
-     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Histoire de la langue provençale à…*",
+     "conf": "high"
     },
     {
      "idx": 1,
@@ -1900,8 +1900,8 @@
     {
      "idx": 2,
      "from": "ouv. cité",
-     "kind": "short-bare",
-     "to": "C. APPEL, *Drei Lieder von Raimbaut von Orange*",
+     "kind": "short-named",
+     "to": "*Word-formation in Provençal*",
      "conf": "medium"
     }
    ]
@@ -1912,7 +1912,7 @@
      "idx": 0,
      "from": "ouv. cité",
      "kind": "short-named",
-     "to": "*Words and descriptive terms for…*",
+     "to": "*Word-formation in Provençal*",
      "conf": "medium"
     }
    ]
@@ -1923,7 +1923,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "MOK, *Manuel pratique de morphologie…*, p. 35",
+     "to": "[SW]{.underline}, t. VII, pp. 223-224",
      "conf": "medium"
     }
    ]
@@ -1973,9 +1973,9 @@
     {
      "idx": 0,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "A. THOMAS, *Poésies complètes de Bertran de Born*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Beiträge zur Lexicographie des…*",
+     "conf": "high"
     }
    ]
   },
@@ -1985,7 +1985,7 @@
      "idx": 0,
      "from": "art.cité",
      "kind": "short-bare",
-     "to": "E. LOMMATZSCH, *Altfranzösisches Wörterbuch*",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*",
      "conf": "medium"
     }
    ]
@@ -2040,7 +2040,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A.H. SCHUTZ, *C.R. de RO...*, p. 420",
+     "to": "[RO]{.underline}, p. 116",
      "conf": "medium"
     }
    ]
@@ -2080,7 +2080,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "A. KOLSEN, *Dichtungen...*, p. 235",
+     "to": "[RO]{.underline}",
      "conf": "medium"
     }
    ]
@@ -2098,7 +2098,7 @@
      "idx": 1,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 462",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 465",
      "conf": "medium"
     }
    ]
@@ -2131,7 +2131,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 462",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 464",
      "conf": "medium"
     }
    ]
@@ -2185,9 +2185,9 @@
     {
      "idx": 0,
      "from": "ouv. cité",
-     "kind": "short-bare",
-     "to": "R. LAVAUD, *Peire Cardenal...*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Anthology of Troubadour Lyric Poetry*",
+     "conf": "high"
     }
    ]
   },
@@ -2208,7 +2208,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A. H. SCHUTZ, *The Romance of Daude de Pradas*",
+     "to": "[RO]{.underline}, p. 120",
      "conf": "medium"
     }
    ]
@@ -2248,7 +2248,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 462",
+     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 460",
      "conf": "medium"
     }
    ]
@@ -2293,7 +2293,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "A. KOLSEN, *Dichtungen der Trobadors*, p. 70",
+     "to": "A. KOLSEN, *Dichtungen der Trobadors*, t. II, p. 41",
      "conf": "medium"
     }
    ]
@@ -2333,7 +2333,7 @@
      "idx": 0,
      "from": "Ibid",
      "kind": "short-ibid",
-     "to": "J. RONJAT, *Grammaire istorique [sic!] des…*",
+     "to": "[RO]{.underline}, p. 130",
      "conf": "medium"
     }
    ]
@@ -2344,7 +2344,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A.H. SCHUTZ, *C.R.*, p. 420",
+     "to": "[RO]{.underline}, p. 127",
      "conf": "medium"
     }
    ]
@@ -2366,7 +2366,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, pp. 278",
      "conf": "medium"
     }
    ]
@@ -2394,16 +2394,16 @@
     {
      "idx": 0,
      "from": "ouv. cité",
-     "kind": "short-bare",
-     "to": "F. M. CHAMBERS, *Proper names in the lyrics of the…*",
+     "kind": "short-named",
+     "to": "*Elementarbuch*",
      "conf": "medium"
     },
     {
      "idx": 1,
      "from": "ouv. cité",
-     "kind": "short-bare",
-     "to": "R.-L. WAGNER, *Les phrases hypothétiques commençant…*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Syntaxe de l'ancien français*",
+     "conf": "high"
     }
    ]
   },
@@ -2413,7 +2413,7 @@
      "idx": 0,
      "from": "loc.cit.",
      "kind": "short-named",
-     "to": "*Peire Cardenal...*",
+     "to": "*Les Troubadours*",
      "conf": "medium"
     }
    ]
@@ -2460,7 +2460,7 @@
      "idx": 1,
      "from": "ouv.cité",
      "kind": "short-named",
-     "to": "*Peire Cardenal...*",
+     "to": "*Les Troubadours*",
      "conf": "medium"
     }
    ]
@@ -2533,7 +2533,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "PUITSPELU, *Dictionnaire étymologique du patois…*",
+     "to": "[GOD]{.underline}, t. VIII, pp. 298-299",
      "conf": "medium"
     }
    ]
@@ -2692,7 +2692,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "to": "[RO]{.underline}",
      "conf": "medium"
     }
    ]
@@ -2702,9 +2702,9 @@
     {
      "idx": 0,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Bild und Funktion der dompna in der…*",
+     "conf": "high"
     }
    ]
   },
@@ -2714,7 +2714,7 @@
      "idx": 0,
      "from": "ouv. cité",
      "kind": "short-named",
-     "to": "*Words and descriptive terms for…*",
+     "to": "*Word-formation in Provençal*",
      "conf": "medium"
     }
    ]
@@ -2754,7 +2754,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "P. GUIRAUD, *Les structures étymologiques du Trobar*, p. 425",
+     "to": "[RO]{.underline}, p. 145",
      "conf": "medium"
     }
    ]
@@ -2827,7 +2827,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "SCHULTZ-GORA, *Elementarbuch*",
+     "to": "[RO]{.underline}, p. 143",
      "conf": "medium"
     }
    ]
@@ -2859,30 +2859,30 @@
     {
      "idx": 0,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "C. CREMONESI, *Nozioni di Grammatica storica…*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*An outline of the phonology and…*",
+     "conf": "high"
     },
     {
      "idx": 1,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "C. CREMONESI, *Nozioni di Grammatica storica…*",
+     "kind": "short-named",
+     "to": "*Elementarbuch*",
      "conf": "medium"
     },
     {
      "idx": 2,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "C. CREMONESI, *Nozioni di Grammatica storica…*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Appunti di grammatica storica del…*",
+     "conf": "high"
     },
     {
      "idx": 3,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "C. CREMONESI, *Nozioni di Grammatica storica…*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Manuel pratique de morphologie…*",
+     "conf": "high"
     }
    ]
   },
@@ -2892,7 +2892,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "VIDAL, *Razos de trobar*",
+     "to": "[Leys]{.underline}",
      "conf": "medium"
     }
    ]
@@ -2902,9 +2902,9 @@
     {
      "idx": 0,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "VIDAL, *Razos de trobar*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Die altprovenzalische Praesens- und…*",
+     "conf": "high"
     }
    ]
   },
@@ -2914,7 +2914,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "VIDAL, *Razos de trobar*, p. 18",
+     "to": "A. HARNISCH, *Die altprovenzalische Praesens- und…*, p. 62",
      "conf": "medium"
     }
    ]
@@ -2924,9 +2924,9 @@
     {
      "idx": 0,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "VIDAL, *Razos de trobar*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*Die altprovenzalische Praesens- und…*",
+     "conf": "high"
     }
    ]
   },
@@ -2936,14 +2936,14 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "VIDAL, *Razos de trobar*, p. 18",
+     "to": "A. HARNISCH, *Die altprovenzalische Praesens- und…*, pp. 56-57",
      "conf": "medium"
     },
     {
      "idx": 1,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "VIDAL, *Razos de trobar*",
+     "to": "A. HARNISCH, *Die altprovenzalische Praesens- und…*",
      "conf": "medium"
     }
    ],
@@ -3020,7 +3020,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Der Liebesbrief Raimbaut von Orange*",
+     "to": "VIDAL, *Razos de trobar*",
      "conf": "medium"
     }
    ]
@@ -3031,7 +3031,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Der Liebesbrief Raimbaut von Orange*",
+     "to": "VIDAL, *Razos de trobar*, p. 117",
      "conf": "medium"
     }
    ]
@@ -3042,7 +3042,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Der Liebesbrief Raimbaut von Orange*",
+     "to": "VIDAL, *Razos de trobar*",
      "conf": "medium"
     }
    ]
@@ -3064,7 +3064,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A. HARNISCH, *Die altprovenzalische Praesens- und…*, p. 198",
+     "to": "[RO]{.underline}, p. 147",
      "conf": "medium"
     }
    ]
@@ -3241,7 +3241,7 @@
      "idx": 0,
      "from": "ouv.cité",
      "kind": "short-named",
-     "to": "*Words and descriptive terms for…*",
+     "to": "*Word-formation in Provençal*",
      "conf": "medium"
     }
    ]
@@ -3262,8 +3262,8 @@
     {
      "idx": 0,
      "from": "loc.cit.",
-     "kind": "short-bare",
-     "to": "STIMMING, *Bertran de Born...*",
+     "kind": "short-named",
+     "to": "*Anthologie...*",
      "conf": "medium"
     }
    ]
@@ -3274,7 +3274,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "STIMMING, *Bertran de Born...*",
+     "to": "A. JEANROY, *Anthologie...*",
      "conf": "medium"
     }
    ]
@@ -3347,7 +3347,7 @@
      "idx": 0,
      "from": "loc. cit.",
      "kind": "short-bare",
-     "to": "RIQUER, *La Lírica de los trovadores.…*",
+     "to": "P. HAGAN, *The Medieval Provençal tenson:…*",
      "conf": "medium"
     }
    ]
@@ -3358,7 +3358,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "L. ALIBERT, *Dictionnaire Occitan-français*, p. 599",
+     "to": "[RO]{.underline}, p. 158",
      "conf": "medium"
     }
    ]
@@ -3376,7 +3376,7 @@
      "idx": 1,
      "from": "art.cité",
      "kind": "short-bare",
-     "to": "A. JEANROY, *Anthologie...*",
+     "to": "G. KUSSLER-RATYE, *Les chansons de Béatrice de Die*",
      "conf": "medium"
     }
    ]
@@ -3442,7 +3442,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "G. KUSSLER-RATYE, *Les chansons de Béatrice de Die*",
+     "to": "[RO]{.underline}, p. 203",
      "conf": "medium"
     }
    ]
@@ -3453,7 +3453,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "G. KUSSLER-RATYE, *Les chansons de Béatrice de Die*",
+     "to": "[RO]{.underline}, p. 203",
      "conf": "medium"
     }
    ]
@@ -3519,7 +3519,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. ROTH, *LOCAL PERSONNEL DES TRAINS - Quelques…*, p. 462",
+     "to": "[RO]{.underline}, p. 166",
      "conf": "medium"
     },
     {
@@ -3571,7 +3571,7 @@
      "idx": 0,
      "from": "Ibid",
      "kind": "short-ibid",
-     "to": "K. LEWENT, *On the text of two troubadour poems.…*",
+     "to": "[RO]{.underline}, p. 168",
      "conf": "medium"
     }
    ]
@@ -3604,7 +3604,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "K. LEWENT, *On the text of two troubadour poems.…*",
+     "to": "[RO]{.underline}, p. 169",
      "conf": "medium"
     }
    ]
@@ -3648,7 +3648,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "K. LEWENT, *On the text of two troubadour poems.…*",
+     "to": "[RO]{.underline}",
      "conf": "medium"
     }
    ]
@@ -3787,7 +3787,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "to": "[RO]{.underline}, p. 173",
      "conf": "medium"
     }
    ]
@@ -3798,7 +3798,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "to": "[FEW]{.underline}, t. II, pp. 199sv.",
      "conf": "medium"
     }
    ]
@@ -3809,7 +3809,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "to": "[FEW]{.underline}",
      "conf": "medium"
     }
    ]
@@ -3820,7 +3820,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*",
+     "to": "[FEW]{.underline}",
      "conf": "medium"
     }
    ]
@@ -3831,7 +3831,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "G. M. CROPP, *Le vocabulaire courtois des…*, p. 17-47",
+     "to": "[FEW]{.underline}, p. 202",
      "conf": "medium"
     }
    ]
@@ -3842,7 +3842,7 @@
      "idx": 0,
      "from": "ouv. cité",
      "kind": "short-named",
-     "to": "*étude de l*",
+     "to": "*Introduction à l'étude de l'ancien…*",
      "conf": "high"
     }
    ]
@@ -4036,7 +4036,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "E. VUOLO, *Postille a testi provenzali*, p. 611",
+     "to": "E. VUOLO, *Postille a testi provenzali*, p. 613",
      "conf": "medium"
     }
    ]
@@ -4055,7 +4055,7 @@
      "idx": 0,
      "from": "art. cité",
      "kind": "short-bare",
-     "to": "C. APPEL, *Drei Lieder von Raïmbaut von Orange*",
+     "to": "[RvO]{.underline}",
      "conf": "medium"
     },
     {
@@ -4072,8 +4072,8 @@
     {
      "idx": 0,
      "from": "art. cité",
-     "kind": "short-bare",
-     "to": "C. APPEL, *Drei Lieder von Raïmbaut von Orange*",
+     "kind": "short-named",
+     "to": "*Drei Lieder von Raïmbaut von Orange*",
      "conf": "medium"
     }
    ]
@@ -4084,7 +4084,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Drei Lieder von Raïmbaut von Orange*, p. 479",
+     "to": "[RO]{.underline}, p. 180",
      "conf": "medium"
     }
    ]
@@ -4114,14 +4114,14 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "MARSHALL, *The Donatz...*",
+     "to": "J.H.MARSHALL, *The Donatz...*",
      "conf": "medium"
     },
     {
      "idx": 1,
      "from": "ouv.cité",
-     "kind": "short-bare",
-     "to": "C. APPEL, *Provenzalische Chrestomathie*",
+     "kind": "short-named",
+     "to": "*No saï que s'es...*",
      "conf": "medium"
     }
    ]
@@ -4161,7 +4161,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "III, *S'ieu fos amatz o amés*, p. 22",
+     "to": "[RO]{.underline}, p. 181",
      "conf": "medium"
     }
    ]
@@ -4216,7 +4216,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "J. COROMINAS, *Diccionario*, p. 978",
+     "to": "J. COROMINAS, *Diccionario*, t. I, p. 978",
      "conf": "medium"
     }
    ]
@@ -4227,7 +4227,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "J. COROMINAS, *Diccionario*, p. 978",
+     "to": "J. COROMINAS, *Diccionario*, t. I, p. 978",
      "conf": "medium"
     }
    ]
@@ -4278,7 +4278,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "E. ERDMANNSDÖRFER, *Reimwörterbuch der Trobadors*, p. 189",
+     "to": "[RO]{.underline}",
      "conf": "medium"
     }
    ]
@@ -4322,7 +4322,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A.J. HENRICHSEN, *Les phrases hypothétiques en ancien…*",
+     "to": "[PDL]{.underline}, p. 345",
      "conf": "medium"
     }
    ]
@@ -4333,7 +4333,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "F. M. CHAMBERS, *Proper names...*",
+     "to": "[RO]{.underline}, p. 183",
      "conf": "medium"
     }
    ]
@@ -4344,7 +4344,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "F. M. CHAMBERS, *Proper names...*",
+     "to": "[RO]{.underline}, p. 183",
      "conf": "medium"
     }
    ]
@@ -4410,7 +4410,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "STRONSKI, *Folquet de Marseille*",
+     "to": "S.STRONSKI, *Folquet de Marseille*",
      "conf": "medium"
     }
    ]
@@ -4498,7 +4498,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Raïmbaut d*",
+     "to": "[FEW]{.underline}",
      "conf": "medium"
     }
    ]
@@ -4509,7 +4509,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "C. APPEL, *Raïmbaut d*",
+     "to": "[FEW]{.underline}, p. 311",
      "conf": "medium"
     }
    ]
@@ -4605,7 +4605,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "R. LAFONT, *Trobar*",
+     "to": "[PDL]{.underline}",
      "conf": "medium"
     }
    ]
@@ -4634,7 +4634,7 @@
      "idx": 0,
      "from": "ouv. cité",
      "kind": "short-bare",
-     "to": "PRESS, *Anthology of Troubadour Lyric Poetry*",
+     "to": "F. R. H. P. T. R. J. HATHAWAY, *Introduction...*",
      "conf": "medium"
     }
    ]
@@ -4671,7 +4671,7 @@
      "from": "ouv.cité",
      "kind": "short-named",
      "to": "*Introduction...*",
-     "conf": "high"
+     "conf": "medium"
     },
     {
      "idx": 3,
@@ -4713,15 +4713,15 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "J. BOUTIERE et A.H. SCHUTZ, *Biographies des troubadours*",
+     "to": "J. BOUTIERE et A.H. SCHUTZ, *Biographies des troubadours*, p. 455",
      "conf": "medium"
     },
     {
      "idx": 1,
      "from": "ouv. cité",
-     "kind": "short-bare",
-     "to": "J. BOUTIERE et A.H. SCHUTZ, *Biographies des troubadours*",
-     "conf": "medium"
+     "kind": "short-named",
+     "to": "*The Medieval Provençal tenson:…*",
+     "conf": "high"
     }
    ]
   },
@@ -4742,7 +4742,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "F. DIEZ, *La poésie des troubadours*, p. 325",
+     "to": "F. DIEZ, *La poésie des troubadours*, p. 123",
      "conf": "medium"
     }
    ]
@@ -4764,7 +4764,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "A. JEANROY, *Histoire sommaire de la poésie…*",
+     "to": "A. JEANROY, *Histoire sommaire de la poésie…*, t. II, p. 123",
      "conf": "medium"
     }
    ]
@@ -4881,7 +4881,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "M.L. DEJEANNE, *Poésies complètes du troubadour…*",
+     "to": "J.M.L. DEJEANNE, *Poésies complètes du troubadour…*",
      "conf": "medium"
     }
    ]
@@ -5072,7 +5072,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "P. ZUMTHOR, *Essai*, p. 214-215",
+     "to": "P. ZUMTHOR, *Essai*, p. 84",
      "conf": "medium"
     }
    ]
@@ -5166,7 +5166,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "P. ZUMTHOR, *Essai*, p. 80",
+     "to": "P. ZUMTHOR, *Essai*, p. 103",
      "conf": "medium"
     }
    ]
@@ -5188,7 +5188,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "L. POLLMANN, *Trobar clus*, p. 44-45",
+     "to": "L. POLLMANN, *Trobar clus*, pp. 44-45",
      "conf": "medium"
     }
    ]
@@ -5411,7 +5411,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "E. LEVY, *Le Troubadour P. de M.*",
+     "to": "*supra*, pp. 414-415",
      "conf": "medium"
     }
    ]

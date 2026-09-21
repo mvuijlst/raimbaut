@@ -259,6 +259,14 @@ for m in DEF.finditer(book):
         multiwork = len(works_by_surname.get(sname, set())) > 1
         stitle = short_title(target.get("title"))
         author_disp = author_initial_surname(target.get("author"))
+        # how the work is named in a self-contained cite: a siglum work by its siglum
+        # (the site turns it into the hover card), the thesis itself by "supra"/"infra"
+        if target.get("siglum"):
+            work = "[" + target["siglum"] + "]{.underline}"
+        elif target.get("internal"):
+            work = "*" + target["internal"] + "*"
+        else:
+            work = f"{author_disp}, *{stitle}*"
 
         if is_ibid:
             # The reading view NEVER keeps "Ibid.": footnotes open on click / show in a
@@ -268,14 +276,17 @@ for m in DEF.finditer(book):
             # as the antecedent, so recover that page when it is unambiguous; otherwise
             # fall back to a work-level short cite rather than guess the page.
             if adj_locator:
-                to = f"{author_disp}, *{stitle}*"   # ibid.'s own following locator stays
+                to = work                           # ibid.'s own following locator stays
             else:
-                pg = antecedent_locator(target)
-                to = f"{author_disp}, *{stitle}*" + (f", p. {pg}" if pg else "")
+                # "same work, same place": the place is where the antecedent itself was
+                # cited (references.json carries it), not where the work was first cited
+                pg = target.get("locator")
+                pg = re.sub(r"\b(pp?|t)\.\s*", r"\1. ", pg) if pg else None
+                to = work + (f", {pg}" if pg else "")
                 if not pg:
                     flags.append((pageid, noteno, phrase,
-                                  "ibid. → work-level short cite (antecedent cites "
-                                  "several pages/works); page not auto-filled", "ibid-nopage"))
+                                  "ibid. → work-level short cite (the antecedent gives no "
+                                  "page either); nothing to fill", "ibid-nopage"))
                     stats["flagged"] += 1
             backrefs.append({"idx": mi, "from": phrase, "kind": "short-ibid",
                              "to": to, "conf": ref["confidence"]})
@@ -299,7 +310,7 @@ for m in DEF.finditer(book):
                                      "to": f"*{phrase}*", "conf": "flag"})
                     stats["flagged"] += 1
                 else:
-                    to = f"{author_disp}, *{stitle}*"
+                    to = work
                     backrefs.append({"idx": mi, "from": phrase, "kind": "short-bare",
                                      "to": to, "conf": ref["confidence"]})
                     stats["auto"] += 1
