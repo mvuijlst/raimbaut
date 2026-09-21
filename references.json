@@ -1,9 +1,9 @@
 {
   "stats": {
-    "resolved": 473,
-    "unresolved": 4,
-    "high_conf": 128,
-    "medium_conf": 345,
+    "resolved": 477,
+    "unresolved": 0,
+    "high_conf": 131,
+    "medium_conf": 346,
     "low_conf": 0,
     "via_bibliography": 9
   },
@@ -3022,15 +3022,29 @@
       "confidence": "high"
     },
     {
+      "page": "v1p232",
+      "note": "6",
+      "kind": "named",
+      "phrase": "MONTE",
+      "author": "MONTE",
+      "target": {
+        "author": "MONTE",
+        "title": "Peire d'Alvernhe...",
+        "page": "v1p019",
+        "note": "2"
+      },
+      "confidence": "medium"
+    },
+    {
       "page": "v1p233",
       "note": "5",
       "kind": "bare",
       "phrase": "loc. cit.",
       "target": {
-        "author": "Rudolf ZENKER",
-        "title": "Peire d'Auvergne. Die Lieder. Kritisch hg^b^. mit Einleitung, Übersetzung, Kommentar und Glossar",
-        "page": "v1p115",
-        "note": "4"
+        "author": "MONTE",
+        "title": "Peire d'Alvernhe...",
+        "page": "v1p019",
+        "note": "2"
       },
       "confidence": "medium"
     },
@@ -3059,6 +3073,20 @@
         "title": "Beiträge zur Lexicographie des altprovenzalischen Verbum",
         "page": "v1p091",
         "note": "2"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "v1p235",
+      "note": "4",
+      "kind": "named",
+      "phrase": "Louis ALIBERT",
+      "author": "Louis ALIBERT",
+      "target": {
+        "author": "Louis ALIBERT",
+        "title": "Dictionnaire occitan-français",
+        "page": "v1p235",
+        "note": "3"
       },
       "confidence": "high"
     },
@@ -4104,7 +4132,7 @@
       "phrase": "Gabrielle KUSSLER-RATYE",
       "author": "Gabrielle KUSSLER-RATYE",
       "target": {
-        "author": "Gabrielle KUSSLER-RÂTYE",
+        "author": "Gabrielle KUSSLER-RATYE",
         "title": "Les chansons de Béatrice de Die",
         "page": "v1p281",
         "note": "6"
@@ -4126,13 +4154,27 @@
       "confidence": "medium"
     },
     {
+      "page": "v1p287",
+      "note": "2",
+      "kind": "named",
+      "phrase": "Gabrielle KUSSLER-RATYE",
+      "author": "Gabrielle KUSSLER-RATYE",
+      "target": {
+        "author": "Gabrielle KUSSLER-RATYE",
+        "title": "Les chansons de Béatrice de Die",
+        "page": "v1p281",
+        "note": "6"
+      },
+      "confidence": "high"
+    },
+    {
       "page": "v1p288",
       "note": "1",
       "kind": "named",
       "phrase": "Gabrielle KUSSLER-RATYE",
       "author": "Gabrielle KUSSLER-RATYE",
       "target": {
-        "author": "Gabrielle KUSSLER-RÂTYE",
+        "author": "Gabrielle KUSSLER-RATYE",
         "title": "Les chansons de Béatrice de Die",
         "page": "v1p281",
         "note": "6"
@@ -4145,7 +4187,7 @@
       "kind": "bare",
       "phrase": "ibid.",
       "target": {
-        "author": "Gabrielle KUSSLER-RÂTYE",
+        "author": "Gabrielle KUSSLER-RATYE",
         "title": "Les chansons de Béatrice de Die",
         "page": "v1p281",
         "note": "6"
@@ -4158,7 +4200,7 @@
       "kind": "bare",
       "phrase": "Ibid.",
       "target": {
-        "author": "Gabrielle KUSSLER-RÂTYE",
+        "author": "Gabrielle KUSSLER-RATYE",
         "title": "Les chansons de Béatrice de Die",
         "page": "v1p281",
         "note": "6"
@@ -4171,7 +4213,7 @@
       "kind": "bare",
       "phrase": "loc.cit.",
       "target": {
-        "author": "Gabrielle KUSSLER-RÂTYE",
+        "author": "Gabrielle KUSSLER-RATYE",
         "title": "Les chansons de Béatrice de Die",
         "page": "v1p281",
         "note": "6"
@@ -5637,6 +5679,20 @@
       "page": "v2p094",
       "note": "4",
       "kind": "named",
+      "phrase": "Frank R. HAMLIN...",
+      "author": "Frank R. HAMLIN...",
+      "target": {
+        "author": "Frank R. HAMLIN, Peter T. RICKETTS, John HATHAWAY",
+        "title": "Introduction...",
+        "page": "v2p091",
+        "note": "1"
+      },
+      "confidence": "high"
+    },
+    {
+      "page": "v2p094",
+      "note": "4",
+      "kind": "named",
       "phrase": "Alan R. PRESS",
       "author": "Alan R. PRESS",
       "target": {
@@ -6408,38 +6464,5 @@
       "confidence": "medium"
     }
   ],
-  "unresolved": [
-    {
-      "page": "v1p232",
-      "note": "6",
-      "kind": "named",
-      "phrase": "NTE",
-      "author": "NTE",
-      "reason": "author not previously cited"
-    },
-    {
-      "page": "v1p235",
-      "note": "4",
-      "kind": "named",
-      "phrase": "LTF et Louis ALIBERT",
-      "author": "LTF et Louis ALIBERT",
-      "reason": "author not previously cited"
-    },
-    {
-      "page": "v1p287",
-      "note": "2",
-      "kind": "named",
-      "phrase": "Gabrielle KUSSLER-RAIYE",
-      "author": "Gabrielle KUSSLER-RAIYE",
-      "reason": "author not previously cited"
-    },
-    {
-      "page": "v2p094",
-      "note": "4",
-      "kind": "named",
-      "phrase": "Frank R. HAMITN...",
-      "author": "Frank R. HAMITN...",
-      "reason": "author not previously cited"
-    }
-  ]
+  "unresolved": []
 }

@@ -4681,7 +4681,7 @@ Notons que, de toute façon, si *saill* peut être tant une troisième personne 
 [^v1p232-3]: Voir e.a. *ANG*, p. 284.
 [^v1p232-4]: Ou bien aussi une première ou une troisième personne du subjonctif présent, ce qui ne nous est d'aucune utilité dans le cas présent (voir *ANG*, pp.269-270 et 276).
 [^v1p232-5]: *ANG*, p.346; celui-ci ne cite d'ailleurs aucune forme *sort* s.v. *sorzer*!
-[^v1p232-6]: R. ZENKER, *ouv.cité*, p.907 ('Glossar'). il s'agit de la chanson XI (*B'eth m'es qui*), vv.11-12; voir aussi A. del MŌNTE, *ouv.cité*, p.146.
+[^v1p232-6]: R. ZENKER, *ouv.cité*, p.907 ('Glossar'). il s'agit de la chanson XI (*B'eth m'es qui*), vv.11-12; voir aussi A. del MONTE, *ouv.cité*, p.146.
 [^v1p232-7]: *SW*, t.VII, p.881 (*sortir*, 'entstehen, erwachsen').
 
 <!-- page: v1p233 -->
@@ -5747,7 +5747,7 @@ Toutefois, il nous semble plutôt que *amaire* est un substantif tout ce qu'il y
 [^v1p281-3]: Voir [SW]{.underline}, t.V, p.272.
 [^v1p281-4]: Alfred JEANROY, *loc.cit.*
 [^v1p281-5]: Voir e.a. Edward L.ADAMS, *ouv.cité*, pp.36sv.
-[^v1p281-6]: [SW]{.underline}, *loc.cit.* — Voir aussi [LR]{.underline}, t.IV,p.221; on se rapportera également à Gabrielle KUSSLER-RÂTYE, 'Les chansons de Béatrice de Die', dans [Archivum Romanicum]{.underline}, I (1917), p.178, pour qui cette expression est un cas de double nominatif à propos duquel elle renvoie à F.DIEZ, *Grammaire des langues romanes*, t.III, p.90 ainsi qu'à A.STIMMING, *Bertran de Born...*, 1879, pp.229-230.
+[^v1p281-6]: [SW]{.underline}, *loc.cit.* — Voir aussi [LR]{.underline}, t.IV,p.221; on se rapportera également à Gabrielle KUSSLER-RATYE, 'Les chansons de Béatrice de Die', dans [Archivum Romanicum]{.underline}, I (1917), p.178, pour qui cette expression est un cas de double nominatif à propos duquel elle renvoie à F.DIEZ, *Grammaire des langues romanes*, t.III, p.90 ainsi qu'à A.STIMMING, *Bertran de Born...*, 1879, pp.229-230.
 
 <!-- page: v1p282 -->
 
@@ -5830,7 +5830,7 @@ Il est un fait que *serena* peut signifier, en général, 'oiseau'. Mais là où
 
 [^v1p287-1]: Oscar SCHULTZ-GORA, *loc. cit.*
 
-[^v1p287-2]: RvO, pp. 36-37. — Tout en se tenant à l'hypothèse de Schultz-Gora, Gabrielle KUSSLER-RAIYE, *art. cité*, p. 179 faisait déjà remarquer que pour Mistral *serena* désignait plusieurs sortes de petits oiseaux, plutôt que des oiseaux de proie (voir [LTF]{.underline}, t. II, p. 881).
+[^v1p287-2]: RvO, pp. 36-37. — Tout en se tenant à l'hypothèse de Schultz-Gora, Gabrielle KUSSLER-RATYE, *art. cité*, p. 179 faisait déjà remarquer que pour Mistral *serena* désignait plusieurs sortes de petits oiseaux, plutôt que des oiseaux de proie (voir [LTF]{.underline}, t. II, p. 881).
 
 [^v1p287-3]: [FEW]{.underline}, t. XI, pp. 654-655.
 
@@ -8318,7 +8318,7 @@ Dans ce cas-ci, nous croyons que *cor* est tout simplement un substantif, et que
 [^v2p094-1]: [RO]{.underline}, p.203.
 [^v2p094-2]: [RO]{.underline}, p.200. Il est un fait que cette traduction s'insère bien dans le contexte, là où elle expliciterait le motif de la discrétion.
 [^v2p094-3]: Voir *supra* notre note à XXVI,24.
-[^v2p094-4]: Cette interprétation n'est d'ailleurs pas différente de celle des autres traducteurs de cette chanson: voir à ce propos, M. DE RIQUER, *ouv.cité*, p. Aurelio RONCAGLIA, *Le più belle pagine delle letteratura d'oc e d'oïl*, Milano, Nuova Accademia Editrice, 1961, p.335; Marco BONI, *ouv.cité*, p.136; Hans G. TUCHEL (ed.), *Die Trobadors. Leben und Lieder*, Bremen, Carl Schüneman Verlag, 1966, 2^e^ éd., p.75; Frank R. HAMITN..., *ouv.cité*, p.137; Alan R. PRESS, *ouv.cité*, p.109; P. BEC, *ouv.cité*, p.207.
+[^v2p094-4]: Cette interprétation n'est d'ailleurs pas différente de celle des autres traducteurs de cette chanson: voir à ce propos, M. DE RIQUER, *ouv.cité*, p. ; Aurelio RONCAGLIA, *Le più belle pagine delle letteratura d'oc e d'oïl*, Milano, Nuova Accademia Editrice, 1961, p.335; Marco BONI, *ouv.cité*, p.136; Hans G. TUCHEL (ed.), *Die Trobadors. Leben und Lieder*, Bremen, Carl Schüneman Verlag, 1966, 2^e^ éd., p.75; Frank R. HAMLIN..., *ouv.cité*, p.137; Alan R. PRESS, *ouv.cité*, p.109; P. BEC, *ouv.cité*, p.207.
 
 <!-- page: v2p095 -->
 

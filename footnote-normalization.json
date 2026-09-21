@@ -3,9 +3,9 @@
  "stats": {
   "notes": 1257,
   "backrefs": 479,
-  "auto": 266,
+  "auto": 275,
   "ibid_resolved": 156,
-  "flagged": 90,
+  "flagged": 81,
   "titles": 54
  },
  "subs": {
@@ -2470,16 +2470,16 @@
     {
      "idx": 0,
      "from": "ouv.cité",
-     "kind": "flag",
-     "to": "*ouv.cité*",
-     "conf": "flag"
+     "kind": "short-named",
+     "to": "*Peire d'Auvergne. Die Lieder.…*",
+     "conf": "high"
     },
     {
      "idx": 1,
      "from": "ouv.cité",
-     "kind": "flag",
-     "to": "*ouv.cité*",
-     "conf": "flag"
+     "kind": "short-named",
+     "to": "*Peire d'Alvernhe...*",
+     "conf": "medium"
     }
    ]
   },
@@ -2521,9 +2521,9 @@
     {
      "idx": 0,
      "from": "loc. cit.",
-     "kind": "flag",
-     "to": "*loc. cit.*",
-     "conf": "flag"
+     "kind": "short-named",
+     "to": "*Dictionnaire occitan-français*",
+     "conf": "high"
     }
    ]
   },
@@ -3419,9 +3419,9 @@
     {
      "idx": 0,
      "from": "art. cité",
-     "kind": "flag",
-     "to": "*art. cité*",
-     "conf": "flag"
+     "kind": "short-named",
+     "to": "*Les chansons de Béatrice de Die*",
+     "conf": "high"
     }
    ]
   },
@@ -3442,7 +3442,7 @@
      "idx": 0,
      "from": "ibid.",
      "kind": "short-ibid",
-     "to": "G. KUSSLER-RÂTYE, *Les chansons de Béatrice de Die*",
+     "to": "G. KUSSLER-RATYE, *Les chansons de Béatrice de Die*",
      "conf": "medium"
     }
    ]
@@ -3453,7 +3453,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "G. KUSSLER-RÂTYE, *Les chansons de Béatrice de Die*",
+     "to": "G. KUSSLER-RATYE, *Les chansons de Béatrice de Die*",
      "conf": "medium"
     }
    ]
@@ -4655,37 +4655,37 @@
     {
      "idx": 0,
      "from": "ouv.cité",
-     "kind": "flag",
-     "to": "*ouv.cité*",
-     "conf": "flag"
+     "kind": "short-named",
+     "to": "*Antología*",
+     "conf": "medium"
     },
     {
      "idx": 1,
      "from": "ouv.cité",
-     "kind": "flag",
-     "to": "*ouv.cité*",
-     "conf": "flag"
+     "kind": "short-named",
+     "to": "*Antologia trobadorica*",
+     "conf": "high"
     },
     {
      "idx": 2,
      "from": "ouv.cité",
-     "kind": "flag",
-     "to": "*ouv.cité*",
-     "conf": "flag"
+     "kind": "short-named",
+     "to": "*Introduction...*",
+     "conf": "high"
     },
     {
      "idx": 3,
      "from": "ouv.cité",
-     "kind": "flag",
-     "to": "*ouv.cité*",
-     "conf": "flag"
+     "kind": "short-named",
+     "to": "*Anthology of Troubadour Lyric Poetry*",
+     "conf": "high"
     },
     {
      "idx": 4,
      "from": "ouv.cité",
-     "kind": "flag",
-     "to": "*ouv.cité*",
-     "conf": "flag"
+     "kind": "short-named",
+     "to": "*Nouvelle anthologie de la lyrique…*",
+     "conf": "medium"
     }
    ]
   },

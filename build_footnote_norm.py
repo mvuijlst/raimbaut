@@ -200,18 +200,36 @@ for m in DEF.finditer(book):
     # positional alignment (render.js maps the i-th abbr match -> refs[i]) is only
     # trustworthy when the counts agree; otherwise an unresolved ref mid-note would
     # shift every target. Flag the whole note and auto-apply nothing (rare: ~7 notes).
-    aligned = (len(matches) == len(note_refs))
-    for mm in matches:
+    # A siglum standing right before the abbr ("PAT, *loc.cit.*") already names the work,
+    # and build_references.py does not always emit a ref for it. When the counts only
+    # disagree because of such matches, they are handled as rule 7 without consuming a
+    # ref, and the rest of the note still aligns.
+    def siglum_at(m):
+        b = re.sub(r"\{\.underline\}", "", text[max(0, m.start() - 40):m.start()])
+        g = re.search(r"\b([A-Z][A-Za-z.\-]{1,6})\b[\]\}]?[,\s*]*$", b)
+        return g.group(1) if g and g.group(1) in sigla_codes else None
+    skip_sigla = (len(matches) != len(note_refs)
+                  and len([m for m in matches if not siglum_at(m)]) == len(note_refs))
+    aligned = (len(matches) == len(note_refs)) or skip_sigla
+    for mi, mm in enumerate(matches):
         phrase = mm.group(0)
         is_ibid = bool(IBID.match(phrase))
+        stats["backrefs"] += 1
+        if skip_sigla and siglum_at(mm):
+            flags.append((pageid, noteno, siglum_at(mm) + " " + phrase,
+                          "siglum kept + linked; Latin abbr italicized (rule 7); "
+                          "locator not collapsed", "siglum-latin"))
+            backrefs.append({"idx": mi, "from": phrase, "kind": "flag",
+                             "to": f"*{phrase}*", "conf": "flag"})
+            stats["flagged"] += 1
+            continue
         ref = note_refs[ri] if ri < len(note_refs) else None
         ri += 1
-        stats["backrefs"] += 1
 
         if not aligned:
             flags.append((pageid, noteno, phrase,
                           "match/ref count mismatch — manual review", "mismatch"))
-            backrefs.append({"idx": ri - 1, "from": phrase, "kind": "flag",
+            backrefs.append({"idx": mi, "from": phrase, "kind": "flag",
                              "to": f"*{phrase}*", "conf": "flag"})
             stats["flagged"] += 1
             if ref:
@@ -230,7 +248,7 @@ for m in DEF.finditer(book):
             reason = "unresolved back-ref" if ref is None else "low-confidence resolution"
             flags.append((pageid, noteno, phrase, reason,
                           "unresolved" if ref is None else "low-conf"))
-            backrefs.append({"idx": ri - 1, "from": phrase, "kind": "flag",
+            backrefs.append({"idx": mi, "from": phrase, "kind": "flag",
                              "to": f"*{phrase}*", "conf": "flag"})
             stats["flagged"] += 1
             prev_target = ref["target"] if ref else prev_target
@@ -259,7 +277,7 @@ for m in DEF.finditer(book):
                                   "ibid. → work-level short cite (antecedent cites "
                                   "several pages/works); page not auto-filled", "ibid-nopage"))
                     stats["flagged"] += 1
-            backrefs.append({"idx": ri - 1, "from": phrase, "kind": "short-ibid",
+            backrefs.append({"idx": mi, "from": phrase, "kind": "short-ibid",
                              "to": to, "conf": ref["confidence"]})
             stats["ibid_resolved"] += 1
         else:
@@ -267,7 +285,7 @@ for m in DEF.finditer(book):
             if ref["kind"] == "named":
                 # author already printed before the abbr -> replace abbr with title
                 title_html = f"*{stitle}*"
-                backrefs.append({"idx": ri - 1, "from": phrase, "kind": "short-named",
+                backrefs.append({"idx": mi, "from": phrase, "kind": "short-named",
                                  "to": title_html, "conf": ref["confidence"]})
                 stats["auto"] += 1
             else:
@@ -277,12 +295,12 @@ for m in DEF.finditer(book):
                                   siglum_before.group(1) + " " + phrase,
                                   "siglum kept + linked; Latin abbr italicized (rule 7); "
                                   "locator not collapsed", "siglum-latin"))
-                    backrefs.append({"idx": ri - 1, "from": phrase, "kind": "flag",
+                    backrefs.append({"idx": mi, "from": phrase, "kind": "flag",
                                      "to": f"*{phrase}*", "conf": "flag"})
                     stats["flagged"] += 1
                 else:
                     to = f"{author_disp}, *{stitle}*"
-                    backrefs.append({"idx": ri - 1, "from": phrase, "kind": "short-bare",
+                    backrefs.append({"idx": mi, "from": phrase, "kind": "short-bare",
                                      "to": to, "conf": ref["confidence"]})
                     stats["auto"] += 1
         prev_target = target

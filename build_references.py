@@ -84,6 +84,11 @@ for m in MANIFEST:
         events, cit_spans = [], []
         for cm in CITATION.finditer(body):
             author = LEAD.sub("", re.sub(r"\s+", " ", cm.group("author")).strip(" ,"))
+            # "LTF et Louis ALIBERT, loc. cit.": a siglum coordinated with an author is
+            # not a co-author — the back-reference is the author's
+            lead_sig = re.match(r"^(\S+)\s+(?:et|and)\s+(.+)$", author)
+            if lead_sig and lead_sig.group(1) in SIGLA:
+                author = lead_sig.group(2)
             title = re.sub(r"\s+", " ", (cm.group("t1") or cm.group("t2") or cm.group("t3"))).strip()
             cit_spans.append((cm.start(), cm.end()))
             if BACKREF_TITLE.match(title):
