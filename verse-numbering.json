@@ -1,5 +1,88 @@
 {
-  "_about": "Hand-authored. Places where the verse numbers of the reading view must NOT follow the typescript literally. The corpus (and so the fac-similé) keeps what was typed; site/lib/chanson.js and check_verse_markers.py read this file. In index_corrections, \"verse\": null marks a reference that is wrong in the typescript and cannot be resolved. Each entry was checked against the scan of the page and against the thesis's own word index.",
+  "_about": "Hand-authored. Places where the verse numbers of the reading view must NOT follow the typescript literally. The corpus (and so the fac-similé) keeps what was typed; site/lib/chanson.js and check_verse_markers.py read this file. In index_corrections, \"mark\" names the attested form to highlight when it is too irregular to be found from the headword (fenher -> feis), and \"verse\": null marks a reference that is wrong in the typescript and cannot be resolved. Each entry was checked against the scan of the page and against the thesis's own word index.",
+  "I": {
+    "index_corrections": [
+      {
+        "lemma": "grezesc",
+        "cited": 9,
+        "verse": null
+      }
+    ],
+    "why": "p. 565: GREZESC I, 9(a) ; I, 10 — « 9(a) » is a line of the apparatus, not a verse of the text; v. 10 is linked normally."
+  },
+  "IV": {
+    "index_corrections": [
+      {
+        "lemma": "entegre",
+        "cited": 22,
+        "verse": 16
+      },
+      {
+        "lemma": "pols",
+        "cited": 23,
+        "verse": 17
+      },
+      {
+        "lemma": "bretols",
+        "cited": 24,
+        "verse": 18
+      }
+    ],
+    "why": "p. 564/567/563 (Index des N.W., scans checked): ENTEGRE IV, 22 · POLS IV, 23 · BRETOLS IV, 24 — but the three words end vv. 16, 17, 18 (p. 87 of the typescript, same strophe order as here), each cited exactly one strophe (6 verses) late. The Index des mots has BRETOLS IV, 18, correctly."
+  },
+  "VI": {
+    "index_corrections": [
+      {
+        "lemma": "creisser",
+        "cited": 48,
+        "verse": 48,
+        "mark": "cregutz"
+      }
+    ],
+    "why": "v. 48 « qe·m fos cregutz »: past participle of creisser."
+  },
+  "VII": {
+    "index_corrections": [
+      {
+        "lemma": "timi",
+        "cited": 11,
+        "verse": 1
+      }
+    ],
+    "why": "p. 568: TIMI VII, 11 (scan checked). The word is in the incipit, v. 1: « Al prim qe·il tim sorz en sus »."
+  },
+  "XI": {
+    "index_corrections": [
+      {
+        "lemma": "desastrucs",
+        "cited": 21,
+        "verse": 28
+      }
+    ],
+    "why": "p. 564: DESASTRUCS XI, 21 (scan checked). The word opens v. 28: « Desastrucs nasquei de maire »."
+  },
+  "XVI": {
+    "index_corrections": [
+      {
+        "lemma": "poder",
+        "cited": 46,
+        "verse": 46,
+        "mark": "posca"
+      }
+    ],
+    "why": "v. 46 « me posca »: present subjunctive of poder."
+  },
+  "XXVIII": {
+    "index_corrections": [
+      {
+        "lemma": "jonher",
+        "cited": 45,
+        "verse": 45,
+        "mark": "joigna"
+      }
+    ],
+    "why": "v. 45 « que i joigna »: present subjunctive of jonher."
+  },
   "XXXIII": {
     "index_corrections": [
       {
@@ -24,9 +107,14 @@
         "lemma": "sobrar",
         "cited": 18,
         "verse": 17
+      },
+      {
+        "lemma": "ancas",
+        "cited": 35,
+        "verse": 45
       }
     ],
-    "why": "p. 359: under v. 17 (\"Ha ni sobr'ar Catalana) the author typed his alternative reading on a line of its own, in brackets ([\"Ha-ni-Sobr'am Catalana\"]). It is not a verse: the printed 15 and 20 only fit if it is not counted. The word index cites sobra/sobrar at XXXIV, 18 — i.e. that typed line — so those two references are pointed at v. 17."
+    "why": "p. 359: under v. 17 (\"Ha ni sobr'ar Catalana) the author typed his alternative reading on a line of its own, in brackets ([\"Ha-ni-Sobr'am Catalana\"]). It is not a verse: the printed 15 and 20 only fit if it is not counted. The word index cites sobra/sobrar at XXXIV, 18 — i.e. that typed line — so those two references are pointed at v. 17. — p. 562: ANCAS XXXIV, 35 (scan checked); the word ends v. 45: « c'ai en las ancas »."
   },
   "XXXVII": {
     "ignore_printed": [
@@ -36,5 +124,16 @@
       60
     ],
     "why": "p. 373: the typescript prints 45, 50, 55 and 60 one line too early (45 stands beside the 44th verse, etc.); 40 and 65 are right, the strophes have 7 lines, and the author's own index uses the true count (feutre and sendat 46, cuers 47, calafatar 49, parlairat 57, omplir 58, desbaratar 63). The reading view counts through these four markers instead of re-anchoring on them."
+  },
+  "XXXVIII": {
+    "index_corrections": [
+      {
+        "lemma": "fenher (se)",
+        "cited": 17,
+        "verse": 17,
+        "mark": "feis"
+      }
+    ],
+    "why": "v. 17 « si feis »: preterite of fenher."
   }
 }

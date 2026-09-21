@@ -219,16 +219,23 @@ export function buildConcordance(rawEntries, opts) {
           if (raw == null) {
             flags.verseMiss.push({ roman: g.roman, num: g.num, verse: v.label });
           } else {
-            let mk = findMark(raw, forms);
-            // not in the verse the index names, but plainly in a neighbouring one: the
-            // numbering differs there — report that, don't guess inside the wrong line
+            // an attested form named in verse-numbering.json (irregular: fenher -> feis)
+            let mk = null;
+            if (fix && fix.mark) {
+              const at = raw.toLowerCase().indexOf(String(fix.mark).toLowerCase());
+              if (at >= 0) mk = { i: at, len: fix.mark.length };
+            }
+            // the cited verse first — strictly, then with the spelling-tolerant tier: the
+            // numbering is audited (check_verse_markers.py), so the index's verse is far
+            // likelier than a shift. Only when the word is NOT there do we look next door,
+            // and then we report it instead of guessing inside the wrong line.
+            mk = mk || findMark(raw, forms) || findMarkLoose(raw, display);
             let shifted = null;
             if (!mk) {
               for (const d of [1, -1, 2, -2]) {
                 const near = texts.get(+v.digits + d);
                 if (near != null && findMark(near, forms)) { shifted = +v.digits + d; break; }
               }
-              if (!shifted) mk = findMarkLoose(raw, display);
             }
             if (shifted) {
               textHTML = esc(raw);
