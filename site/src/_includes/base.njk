@@ -7,7 +7,7 @@
   <script>try{var t=localStorage.getItem("rb-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
   <link rel="preload" href="/fonts/JunicodeVF-Roman.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/JunicodeVF-Italic.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/css/raimbaut.css">
+  <link rel="stylesheet" href="{{ '/css/raimbaut.css' | bust }}">
   <meta name="description" content="Édition électronique du chansonnier de Raimbaut d'Orange, troubadour provençal du XIIe siècle : texte occitan, traduction française, remarques et apparat critique.">
 </head>
 <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
@@ -101,6 +101,6 @@
 <footer class="colophon">
   <p>Raimbaut d'Orange, édition électronique · <a href="/colophon/">Colophon</a></p>
 </footer>
-<script src="/js/edition.js" defer></script>
+<script src="{{ '/js/edition.js' | bust }}" defer></script>
 </body>
 </html>

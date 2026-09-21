@@ -16,6 +16,7 @@ need ./venv; it runs the stdlib build scripts with whatever Python launched it.
     python manage.py deploy     # build + deploy
     python manage.py publish    # rebuild stale -> site -> deploy
     python manage.py status     # print the dashboard and exit
+    python manage.py check      # exit 1 if derived data is stale (deploy guard)
 """
 import glob
 import os
@@ -352,10 +353,22 @@ def _print_status():
         s = status(st)
         print(f"{s:<8} {st.title}")
 
+def check():
+    """Deploy guard (deploy.ps1 calls this): exit 1 if any derived data is not
+    FRESH, i.e. the site would ship without reflecting the corpus."""
+    bad = [(st, status(st)) for st in DATA if status(st) != "FRESH"]
+    for st, s in bad:
+        print(f"{s:<8} {st.title}")
+    if bad:
+        print(RED("derived data is not fresh — run: python manage.py stale"))
+        sys.exit(1)
+    print(GREEN("derived data fresh."))
+
 def main():
     if len(sys.argv) > 1:
         cmd = sys.argv[1].lower()
         return {
+            "check": check,
             "stale": rebuild_stale, "all": rebuild_all, "normalize": normalize,
             "site": build_site, "serve": serve_site, "deploy": deploy,
             "publish": publish, "status": _print_status,

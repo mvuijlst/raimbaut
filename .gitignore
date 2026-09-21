@@ -165,3 +165,6 @@ scratchpad_*.txt
 corrections-crosspage-hyphen.csv
 corrections-reflow.csv
 footnote-issues.md
+
+# deploy tarball (removed after a successful deploy)
+site/_deploy.tgz

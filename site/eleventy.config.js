@@ -1,4 +1,5 @@
 // Eleventy 3 (ESM) config for the Raimbaut d'Orange web edition.
+import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -46,6 +47,18 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("msRef", (s) => {
     const t = String(s || "").replace(/\b(Jeanroy|Brunel|Avalle)\b/g, '<span class="sc">$1</span>');
     return renderBibInline(t, _bibCtx);
+  });
+
+  // cache-busting: /css/raimbaut.css → /css/raimbaut.css?v=<content hash>, so the
+  // server can cache CSS/JS for a year (see server/nginx-raimbaut.conf) and a
+  // deploy still reaches every reader at once.
+  const _bust = new Map();
+  eleventyConfig.addFilter("bust", (url) => {
+    if (!_bust.has(url) || process.env.ELEVENTY_RUN_MODE !== "build") {
+      const buf = fs.readFileSync(path.join(ROOT, "site", "src", url));
+      _bust.set(url, crypto.createHash("md5").update(buf).digest("hex").slice(0, 8));
+    }
+    return `${url}?v=${_bust.get(url)}`;
   });
 
   // small helpers used in templates

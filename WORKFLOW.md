@@ -38,7 +38,7 @@ reference behind that tool.
     site/src/_data/edition.js  reads  book.md + the 7 JSONs   ─►  site/_site/  (static HTML)
 
   ── deploy (PowerShell) ──────────────────────────────────────────────────────
-    deploy.ps1   build ─► tar ─► scp ─► extract on yusupov:2708 ─► raimbaut.yusupov.cloud
+    deploy.ps1   check ─► build ─► tar ─► scp ─► swap on yusupov:2708 ─► raimbaut.yusupov.cloud
 ```
 
 Two properties make this manageable:
@@ -181,14 +181,27 @@ for the preview tooling.)
 
 Pure-static deploy to `raimbaut.yusupov.cloud`:
 
+0. Guard: `python manage.py check` — refuses to deploy if any Stage 3 data is stale
+   (`.\deploy.ps1 -Force` skips this).
 1. `npm run build` in `site/`.
 2. `tar czf _deploy.tgz -C _site .` — ships a tarball (piping tar through the
    PowerShell pipeline corrupts binary fonts/images).
 3. `scp -P 2708 _deploy.tgz yusupov:/tmp/` (ssh alias `yusupov` → `46.62.148.249`).
-4. On the server: clear `/home/django/raimbaut-yusupov`, extract, `chown django:django`.
+4. On the server: extract into `/home/django/raimbaut-yusupov.new`, check it has an
+   `index.html`, `chown django:django`, then swap it into place with two `mv`s. The
+   live site is never empty or half-extracted; a failed extract leaves it untouched.
+5. If the git tree was clean, tag the commit `deploy/YYYY-MM-DD-HHmm` — `git tag -l
+   "deploy/*"` answers "what is live?". (A dirty tree deploys with a warning, untagged.)
 
 Requires the `yusupov` ssh alias (already in `~/.ssh/config`, port 2708, key
 `~/.ssh/yusupov`).
+
+**Server.** nginx serves the directory straight from disk; the reference copy of the
+site config is `server/nginx-raimbaut.conf` (gzip for CSS/JS/SVG, cache + security
+headers, `/404.html`). CSS and JS are cached for a year, which is safe because
+`base.njk` references them through the `bust` filter (`file?v=<content hash>`, defined
+in `site/eleventy.config.js`) — any new asset linked from a template should go through
+it too.
 
 ---
 
@@ -237,5 +250,6 @@ raimbaut/
 ├─ normalize_typography.py  build_*.py  assemble_book.py  ocr_page_numbers.py
 ├─ manage.py                                the management TUI  (this workflow, automated)
 ├─ deploy.ps1                               build + ship to production
+├─ server/nginx-raimbaut.conf               reference copy of the production nginx site
 └─ site/             Eleventy source (src/, lib/, config) → _site/ output
 ```
