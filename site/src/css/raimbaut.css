@@ -7,17 +7,15 @@
 
 @font-face {
   font-family: "Junicode";
-  src: url("/fonts/JunicodeVF-Roman.woff2") format("woff2-variations");
+  src: url("/fonts/JunicodeWeb-Roman.woff2") format("woff2-variations");
   font-weight: 300 700;
-  font-stretch: 75% 125%;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Junicode";
-  src: url("/fonts/JunicodeVF-Italic.woff2") format("woff2-variations");
+  src: url("/fonts/JunicodeWeb-Italic.woff2") format("woff2-variations");
   font-weight: 300 700;
-  font-stretch: 75% 125%;
   font-style: italic;
   font-display: swap;
 }
@@ -1379,11 +1377,77 @@ ul.pc-v li { margin: 0 0 0.4rem; padding-left: 1.5rem; text-indent: -1.5rem; }
 .search-page mark { background: var(--gold-wash); color: inherit; padding: 0 0.1em; }
 .search-page .pagefind-ui__button { font-family: var(--sans); font-weight: 500; color: var(--ink-soft); }
 
+/* ----------------------------------------------------------------- print */
+/* Prints the view that is on screen (web, livre or fac-similé): the others are
+   [hidden]. One column, light palette whatever the theme, no interface. */
+.print-cite { display: none; }
+
 @media print {
-  .masthead, .subnav, .book-pager, .study-rail, .mode-toggle, .panel-head .resync, .vmark { display: none !important; }
-  .study { display: block; }
-  .study-panel { position: static; height: auto; border: 0; background: none; }
-  .panel-scroll { overflow: visible; padding: 0; }
-  body { background: white; color: black; }
-  .sidenote { display: block; float: none; width: auto; margin: 0.4rem 0; }
+  @page { margin: 18mm 17mm 20mm; }
+
+  /* always the light palette: a dark-theme reader must not print white on black */
+  :root, :root[data-theme="dark"] {
+    --paper: #fff; --paper-deep: #fff; --paper-card: #fff;
+    --ink: #000; --ink-soft: #222; --muted: #555;
+    --rule: #bbb; --rule-soft: #ddd;
+    --rubric: #7c251b; --rubric-deep: #7c251b;
+    --rubric-wash: transparent; --gold-wash: transparent;
+  }
+  html { font-size: 10.5pt; }
+  body { background: #fff; color: #000; }
+
+  /* interface */
+  .skip-link, .masthead, .subnav, .book-pager, footer.colophon,
+  .study-rail, .mode-toggle, .panel-head .resync, .vmark, .view-control,
+  .cx-toolbar, .lightbox, .nav-toggle, .theme-btn, .search-link,
+  .backtov, #search, .pagefind-ui { display: none !important; }
+  details:not([open]) { display: none; }      /* a closed panel would print as a bare label */
+
+  /* one column: text first, then the remarks / notes that sat in the side panel */
+  .study, .study[data-mode="etude"] { display: block; max-width: none; padding: 0; }
+  .study-main { padding: 0 0 1rem; }
+  .study-panel {
+    position: static; height: auto; display: block;
+    border: 0; border-top: 1px solid var(--rule); background: none;
+    margin-top: 1.5rem; padding-top: 0.5rem;
+  }
+  .panel-head { padding: 0.4rem 0; border: 0; }
+  .panel-scroll { overflow: visible; padding: 0; font-size: 0.9rem; }
+  .prose, .prose-study .prose, .prose-study.no-notes .prose, .ch-index {
+    max-width: none; margin: 0; padding: 0;
+  }
+  .prose .edition-body > * { max-width: none; }
+  /* notes open on click on screen; on paper every note is printed, under its call
+     (same selectors as the screen rules that hide them, so these win) */
+  .prose .sidenote, .fr .sidenote, .study-panel .sidenote, .lemma .sidenote {
+    display: block !important; float: none; width: auto;
+    margin: 0.35rem 0 0.5rem 1.4rem; padding: 0 0 0 0.7rem;
+    border-left: 1px solid var(--rule); background: none;
+    font-size: 0.86em; line-height: 1.45; text-align: left;
+    break-inside: avoid;
+  }
+
+  /* verse + translation stay side by side, and a strophe is never cut in two */
+  .strophe-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.6rem; margin-bottom: 1.2rem; }
+  .strophe-row, .lemma, .fx-page, figure, table, blockquote, .parchanson { break-inside: avoid; }
+  h1, h2, h3, h4, .rem-heading, .panel-head { break-after: avoid; }
+  p { orphans: 3; widows: 3; }
+
+  /* fac-similé: one typescript page per printed page, no card shadow */
+  .fx-page { margin: 0 auto; break-after: page; }
+  .fx-sheet { border: 0; box-shadow: none; padding: 0; }
+
+  /* the manuscript photos are for the screen (and are the libraries' images) */
+  details.ms-gallery { display: none; }
+
+  a { color: inherit; text-decoration: none; }
+  mark { background: none; }
+
+  /* what this sheet of paper is, and where it came from */
+  .print-cite {
+    display: block; margin-top: 2rem; padding-top: 0.6rem;
+    border-top: 1px solid var(--rule);
+    font-family: var(--sans); font-size: 0.78rem; color: var(--muted);
+    break-inside: avoid;
+  }
 }

@@ -373,8 +373,7 @@ def verify():
     Note: it rebuilds in place, like `all` — on failure, `git diff` shows the drift."""
     import json
     tracked = (sorted(str(p.relative_to(ROOT)).replace("\\", "/") for p in ROOT.glob("corpus/*.md"))
-               + [o for st in DATA for o in st.out]
-               + ["bibliography-flags.md", "footnote-norm-flags.md"])
+               + [o for st in DATA for o in st.out])
     def snap():
         return {p: (ROOT / p).read_bytes().replace(b"\r\n", b"\n")
                 for p in tracked if (ROOT / p).is_file()}

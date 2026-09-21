@@ -165,6 +165,8 @@ scratchpad_*.txt
 corrections-crosspage-hyphen.csv
 corrections-reflow.csv
 footnote-issues.md
+# review lists rewritten by every data / site build (they would dirty the tree mid-deploy)
+*-flags.md
 
 # deploy tarball (removed after a successful deploy)
 site/_deploy.tgz

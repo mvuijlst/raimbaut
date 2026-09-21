@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }} — Raimbaut d'Orange</title>
   <script>try{var t=localStorage.getItem("rb-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
-  <link rel="preload" href="/fonts/JunicodeVF-Roman.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/JunicodeVF-Italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/JunicodeWeb-Roman.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/JunicodeWeb-Italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/css/raimbaut.css' | bust }}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   {% set desc = description or site.description %}
@@ -144,6 +144,8 @@
   </div>
 </nav>
 {% endif %}
+{# print only (see @media print): what this sheet is and where it came from #}
+<p class="print-cite">Marc Vuijlsteke, <em>{{ site.thesis.title }}</em>, thèse de doctorat, {{ site.thesis.institution }}, {{ site.thesis.year }} — édition électronique, {{ site.url }}{{ page.url }}{% if site.revision.dateFr %} (version du {{ site.revision.dateFr }}){% endif %}{% if site.doi %} · https://doi.org/{{ site.doi }}{% endif %}</p>
 <footer class="colophon">
   <p>Raimbaut d'Orange, édition électronique · <a href="/colophon/">Colophon</a></p>
 </footer>

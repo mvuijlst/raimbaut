@@ -145,7 +145,9 @@ Run from the repo root, **in this order** (later scripts read earlier outputs):
 **Review outputs.** The `*-flags.md` files (`footnote-norm-flags.md`,
 `bibliography-flags.md`, `index-flags.md`, `index-kwic-flags.md`, `manuscrits-flags.md`)
 list every uncertain / unresolved / ambiguous case for a human to check. They're
-regenerated build reports (git-ignored), not committed artifacts.
+regenerated build reports, not committed artifacts — git-ignored, because both the
+data scripts and the site build rewrite them, which would otherwise dirty the tree in
+the middle of a deploy.
 
 **Hand-authored data** is never regenerated and must be edited by hand:
 `manuscripts.json` (the Table des manuscrits), `sigla-overrides.json` (siglum
@@ -178,6 +180,21 @@ element marked `data-pagefind-body` is indexed — on study pages that is the we
 each text is indexed once, not once per view; interface chrome inside it carries
 `data-pagefind-ignore`. `npm run serve` does not reindex: search in the dev server
 reflects the last full build.
+
+**Fonts.** `site/src/fonts/` holds the web fonts with their OFL licence texts and a
+README (the OFL wants both with every copy). The two Junicode files are *generated*:
+`site/tools/subset_fonts.py` (venv: `fonttools`, `brotli`) reads the stock variable fonts
+in `site/fonts-src/`, pins the width and "ENLA" axes nothing in the CSS uses (−41 %),
+restricts the characters to a whitelist of Unicode ranges, and writes
+`JunicodeWeb-{Roman,Italic}.woff2`. `--check` reports any character of the built site
+that the source font has but the web font lost. Fonts are cached for a year as
+immutable, so if the output ever changes, rename it (script, CSS, preload links).
+
+**Print.** The last block of `raimbaut.css` is the print stylesheet: it prints whichever
+view is on screen, in one column and the light palette, with every note printed (under
+its call in the remarks, as endnotes in prose sections), manuscript photos left out, and
+a closing line — `.print-cite` in `base.njk` — giving the citation, the page URL, the
+version and the DOI.
 
 **Manuscript photos.** `manuscripts/` holds one photo per folio, named
 `ROMAN[+ROMAN…] - Ms. SIGLUM - f° FOLIO - source.jpg` — a folio carrying several
