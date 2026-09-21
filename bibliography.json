@@ -4362,7 +4362,7 @@
     },
     {
       "chanson": "XIV",
-      "manuscrits": "[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : [α]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76.",
+      "manuscrits": "[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : [a]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76.",
       "editions": [
         {
           "raw": "Choix, V, 405",
@@ -4396,7 +4396,7 @@
         }
       ],
       "manuscrits_lines": [
-        "[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : [α]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76."
+        "[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : [a]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76."
       ]
     },
     {
@@ -4541,7 +4541,7 @@
     },
     {
       "chanson": "XVIII",
-      "manuscrits": "A : *Studj*, III, 96. I : [MG]{.underline}, 630. K : [MG]{.underline}, 631. N^2^ : — u^2^ : *Archiv*, CII, 187. α : [RLR]{.underline}, XLV, 212. d : — Ψ : *Romania*, LXVII, 508.",
+      "manuscrits": "A : *Studj*, III, 96. I : [MG]{.underline}, 630. K : [MG]{.underline}, 631. N : — N^2^ : *Archiv*, CII, 187. a : [RLR]{.underline}, XLV, 212. d : — ψ : *Romania*, LXVII, 508.",
       "editions": [
         {
           "raw": "RvO, 80",
@@ -4582,9 +4582,10 @@
         "A : *Studj*, III, 96.",
         "I : [MG]{.underline}, 630.",
         "K : [MG]{.underline}, 631.",
-        "N^2^ : —",
-        "u^2^ : *Archiv*, CII, 187. α : [RLR]{.underline}, XLV, 212.",
-        "d : — Ψ : *Romania*, LXVII, 508."
+        "N : —",
+        "N^2^ : *Archiv*, CII, 187.",
+        "a : [RLR]{.underline}, XLV, 212.",
+        "d : — ψ : *Romania*, LXVII, 508."
       ]
     },
     {
@@ -4630,7 +4631,7 @@
     },
     {
       "chanson": "XX",
-      "manuscrits": "C D^a^ I K N N^2^ : [RLR]{.underline}, XX, 130. V : [Archiv]{.underline}, CII, 186. m : [Archiv]{.underline}, XXXVI, 447. ψ : [St. med.]{.underline}, XII, 141. Berenguer de Noya : [Romania]{.underline}, LXVII, 507. : J. ANGLADE, *Hommage à M. Pidal*, I, 682.",
+      "manuscrits": "C : — D^a^ : — I : — K : — N : [RLR]{.underline}, XX, 130. N^2^ : [Archiv]{.underline}, CII, 186. V : [Archiv]{.underline}, XXXVI, 447. m : [St. med.]{.underline}, XII, 141. ψ : [Romania]{.underline}, LXVII, 507. Berenguer de Noya : J. ANGLADE, *Hommage à M. Pidal*, I, 682.",
       "editions": [
         {
           "raw": "LR, I, 324",
@@ -4680,14 +4681,19 @@
         }
       ],
       "manuscrits_lines": [
-        "C D^a^ I K N",
-        "N^2^ : [RLR]{.underline}, XX, 130.",
-        "V : [Archiv]{.underline}, CII, 186.",
-        "m : [Archiv]{.underline}, XXXVI, 447. ψ : [St. med.]{.underline}, XII, 141. Berenguer de",
+        "C : —",
+        "D^",
+        "a^ : —",
+        "I : —",
+        "K : —",
+        "N : [RLR]{.underline}, XX, 130.",
+        "N^2^ : [Archiv]{.underline}, CII, 186.",
+        "V : [Archiv]{.underline}, XXXVI, 447.",
+        "m : [St. med.]{.underline}, XII, 141. ψ : [Romania]{.underline}, LXVII, 507. Berenguer de",
         "N",
         "o",
         "y",
-        "a : [Romania]{.underline}, LXVII, 507. : J. ANGLADE, *Hommage à M. Pidal*, I, 682."
+        "a : J. ANGLADE, *Hommage à M. Pidal*, I, 682."
       ]
     },
     {
@@ -4986,7 +4992,7 @@
     },
     {
       "chanson": "XXVII",
-      "manuscrits": "A : *Studj*, III, 102 et [Archiv]{.underline}, LI, 137. α : *RLR*, XLV, 146 + *BA*, 72.",
+      "manuscrits": "A : *Studj*, III, 102 et [Archiv]{.underline}, LI, 137. a : *RLR*, XLV, 146 + *BA*, 72.",
       "editions": [
         {
           "raw": "*Choix*, V, 410",
@@ -5012,12 +5018,13 @@
         }
       ],
       "manuscrits_lines": [
-        "A : *Studj*, III, 102 et [Archiv]{.underline}, LI, 137. α : *RLR*, XLV, 146 + *BA*, 72."
+        "A : *Studj*, III, 102 et [Archiv]{.underline}, LI, 137.",
+        "a : *RLR*, XLV, 146 + *BA*, 72."
       ]
     },
     {
       "chanson": "XXVIII",
-      "manuscrits": "[I]{.underline} : [MG]{.underline}, 620 [k]{.underline} : — [a]{.underline} : -",
+      "manuscrits": "[I]{.underline} : [MG]{.underline}, 620 [K]{.underline} : — [a]{.underline} : -",
       "editions": [
         {
           "raw": "[RvO]{.underline}, 38",
@@ -5030,7 +5037,7 @@
       ],
       "etudes": [],
       "manuscrits_lines": [
-        "[I]{.underline} : [MG]{.underline}, 620 [k]{.underline} : — [a]{.underline} : -"
+        "[I]{.underline} : [MG]{.underline}, 620 [K]{.underline} : — [a]{.underline} : -"
       ]
     },
     {
@@ -5196,7 +5203,7 @@
     },
     {
       "chanson": "XXXIII",
-      "manuscrits": "*α* : [RLR]{.underline}, XLV, 140 + [BA]{.underline}, 71.",
+      "manuscrits": "*a* : [RLR]{.underline}, XLV, 140 + [BA]{.underline}, 71.",
       "editions": [
         {
           "raw": "C. APPEL, [RLR]{.underline}, XL, 412 [RvO]{.underline}, 102",
@@ -5218,7 +5225,8 @@
         }
       ],
       "manuscrits_lines": [
-        "*α* : [RLR]{.underline}, XLV, 140 + [BA]{.underline}, 71."
+        "*",
+        "a* : [RLR]{.underline}, XLV, 140 + [BA]{.underline}, 71."
       ]
     },
     {
@@ -5344,7 +5352,7 @@
     },
     {
       "chanson": "XXXVIII",
-      "manuscrits": "A : Studj, III, 93. C : — C' : — D : — D^a^ : — D^c^ : [AdM]{.underline}, XIV, 201. G : G. BERTONI, *Canzoniere della Bibl. Ambr.*, 275. I : — I' : — K : — k' : — L : Studj, XVI, 88. M^2^ : — N^2^ : [Archiv]{.underline}, CII, 184. R : — U : [Archiv]{.underline}, XXXV, 449. x : P. MEYER et G. RAYNAUD, *Chansonnier de St. Germain*, 88. α : RLR, XLV, 138 + [BA]{.underline}, 70. d : -",
+      "manuscrits": "A : Studj, III, 93. C : — C' : — D^a^ : — D^c^ : [AdM]{.underline}, XIV, 201. G : G. BERTONI, *Canzoniere della Bibl. Ambr.*, 275. I : — I' : — K : — k' : — L : Studj, XVI, 88. M : — N^2^ : [Archiv]{.underline}, CII, 184. R : — U : [Archiv]{.underline}, XXXV, 449. X : P. MEYER et G. RAYNAUD, *Chansonnier de St. Germain*, 88. a : RLR, XLV, 138 + [BA]{.underline}, 70. d : -",
       "editions": [
         {
           "raw": "*Choix*, V, 411",
@@ -5383,7 +5391,6 @@
       "manuscrits_lines": [
         "A : Studj, III, 93.",
         "C : — C' : —",
-        "D : —",
         "D^",
         "a^ : —",
         "D^",
@@ -5392,11 +5399,12 @@
         "I : — I' : —",
         "K : — k' : —",
         "L : Studj, XVI, 88.",
-        "M^2^ : —",
+        "M : —",
         "N^2^ : [Archiv]{.underline}, CII, 184.",
         "R : —",
         "U : [Archiv]{.underline}, XXXV, 449.",
-        "x : P. MEYER et G. RAYNAUD, *Chansonnier de St. Germain*, 88. α : RLR, XLV, 138 + [BA]{.underline}, 70.",
+        "X : P. MEYER et G. RAYNAUD, *Chansonnier de St. Germain*, 88.",
+        "a : RLR, XLV, 138 + [BA]{.underline}, 70.",
         "d : -"
       ]
     },

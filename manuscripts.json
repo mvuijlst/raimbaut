@@ -1,5 +1,9 @@
 {
   "note": "Table établie à l'aide de A. Jeanroy, *Bibliographie sommaire des chansonniers provençaux*, Paris, 1916 (CFMA XVI) ; P.-C. ; et Cl. Brunel, *Bibliographie des manuscrits littéraires en ancien provençal*, Genève, Slatkine Reprints, 1973 (réimpr. de l'éd. de Paris, 1935). — Voir aussi, en général, D'Arco Silvio Avalle, *La letteratura d'oc nella sua tradizione manoscritta*, 1961. — Voir aussi la section « Manuscrits occitans » de la bibliographie, où l'on trouvera les références complètes des ouvrages cités dans cette « Table des manuscrits ».",
+  "aliases": [
+    { "typed": "k'", "siglum": "K",
+      "why": "p. 553 (chanson XXXVIII): the rows read C, C', … I, I', K, k' — the typescript has a lowercase k for K' (the second copy of the song in K). Kept as typed in the corpus; resolved here." }
+  ],
   "witnesses": [
     {
       "siglum": "A",

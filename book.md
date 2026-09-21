@@ -450,7 +450,7 @@ Consi d'amador si capteïnon
 (vv.1764-6)[^v1p041-4]
 
 [^v1p041-1]: Roger DRAGONETTI, *ouv. cité*, p.250.
-[^v1p041-2]: A.H. SCHUTZ, 'Did the poets "feign" or "fashion"?, dans *Symposium*, XI (1957), p. 117-122. — Pour l'*exornatio*, voir H. LAUSBERG, *ouv. cité*, § 1244, p.700. — Schutz mentionne également que Brunet Latin voit dans ce qu'il appelle la *fainiture*, une des sept couleurs de rhétorique: *La quinte colour est apelee fainiture, pour ce que l'om fait une chose ki n'a pooir de parler ne nature n'en a, autresi comme s'ele parlast* (Brunetto Latini. Li *Livres dou Tresor*, édition critique par Francis J. CARMODY, Berkeley-Los Angeles, 1948, p. 331). Il s'agit ici, bien sûr de la personnification, qui fait également partie de l'*ornatus* (voir H. LAUSBERG, *ouv. cité*, § 559, c, p.287).
+[^v1p041-2]: A.H. SCHUTZ, 'Did the poets "feign" or "fashion"?', dans *Symposium*, XI (1957), p. 117-122. — Pour l'*exornatio*, voir H. LAUSBERG, *ouv. cité*, § 1244, p.700. — Schutz mentionne également que Brunet Latin voit dans ce qu'il appelle la *fainture*, une des sept couleurs de rhétorique: *La quinte colour est apelee fainture, pour ce que l'om faint une chose ki n'a pooir de parler ne nature n'en a, autresi comme s'ele parlast* (Brunetto Latini. Li *Livres dou Tresor*, édition critique par Francis J. CARMODY, Berkeley-Los Angeles, 1948, p. 331). Il s'agit ici, bien sûr de la personnification, qui fait également partie de l'*ornatus* (voir H. LAUSBERG, *ouv. cité*, § 559, c, p.287).
 [^v1p041-3]: A.H. SCHUTZ, *art. cité*, p. 121.
 [^v1p041-4]: Et non vv.1704-1706 comme il est indiqué par Schutz (*ibid.*, p.120)
 
@@ -4833,7 +4833,7 @@ Un dernier point subsiste, et qui a trait à la datation de ces différents text
 [^v1p244-2]: [RO]{.underline}, p.44.
 [^v1p244-3]: W.T. PATTISON, 'The background of Peire d'Alvernhe's *Chantarai d'aquestz trobador*, dans *Modern Philology*, XXXI (1933), pp.19-34; voir aussi, du même, 'The troubadours of P. d'Alvernhe's satire in Spain', dans *PMLA*, L (1935), pp.14-24.
 [^v1p244-4]: Maurice DELBOUILLE, *Les senhals littéraires désignant R. d'O. et la chronologie de ces témoignages*, dans *CN*, XVII (1957), pp.1-25.
-[^v1p244-5]: Rita LEJEUNE, 'La "Galerie littéraire" du troubadour Peire d'Auvergne dans *Actes du IIIe Congrès int.de langue et de litt.d'oc*, Bordeaux, 1965, pp.35-54.
+[^v1p244-5]: Rita LEJEUNE, La "Galerie littéraire" du troubadour Peire d'Auvergne dans *Actes du IIIe Congrès int.de langue et de litt.d'oc*, Bordeaux, 1965, pp.35-54.
 [^v1p244-6]: *Ibid.*, p.54.
 
 <!-- page: v1p245 -->
@@ -8487,7 +8487,7 @@ Et il est vrai, bien entendu, que dans la plupart des cas les textes lyriques m�
 
 [^v2p104-3]: Paul REMY, *ouv.cité*, p.12.
 
-[^v2p104-4]: W.M. WIACEK, *Lexique des noms géographiques et ethniques dans les poésies des troubadours des XII^e^ et XIII^e^ siècles*, Paris, Nizet, 1968, 260 pp. — Même si le poète fait usage de références plus précises, le critique se doit d'être prudent dans ses interprétations. Car ces références peuvent être réalistes, sans doute, mais aussi parfaitement symboliques; voir Pierre LASSALE, 'La référence géographique chez Peire Cardenal', dans *Actes de V^e^ Congrès Intern.de Langue et de Litt.d'Oc et d'Etudes Franco-Prov.*, Nice, Les Belles Lettres, 1974, pp.198-207; dans une autre optique, structurale celle-ci, Patricia HARRIS-STABLEIN a démontré lors du congrès *Gent de la Litteratura* (Gand 1978) qu'"en suivant les rapports entre les lieux fictifs ou réels cités par les artistes, on établit les dimensions spatiales de la dynamique esthétique d'un texte" (La signification de Gand dans la cartologie poétique d'un troubadour du XII^e^ siècle: Bertran de Born', dans *Résumé des communications*).
+[^v2p104-4]: W.M. WIACEK, *Lexique des noms géographiques et ethniques dans les poésies des troubadours des XII^e^ et XIII^e^ siècles*, Paris, Nizet, 1968, 260 pp. — Même si le poète fait usage de références plus précises, le critique se doit d'être prudent dans ses interprétations. Car ces références peuvent être réalistes, sans doute, mais aussi parfaitement symboliques; voir Pierre LASSALE, 'La référence géographique chez Peire Cardenal', dans *Actes du V^e^ Congrès Intern.de Langue et de Litt.d'Oc et d'Etudes Franco-Prov.*, Nice, Les Belles Lettres, 1974, pp.198-207; dans une autre optique, structurale celle-ci, Patricia HARRIS-STABLEIN a démontré lors du congrès *Gent in de Literatuur* (Gand 1978) qu'"en suivant les rapports entre les lieux fictifs ou réels cités par les artistes, on établit les dimensions spatiales de la dynamique esthétique d'un texte" ('La signification de Gand dans la cartologie poétique d'un troubadour du XII^e^ siècle: Bertran de Born', dans *Résumé des communications*).
 
 <!-- page: v2p105 -->
 
@@ -9273,7 +9273,7 @@ Dans cette optique, il nous [[hand: parut]] intéressant de considérer le lexiq
 
 [^v2p151-1]: Voir à ce propos Iouri LOTMAN, *La structure du texte artistique*, traduit du russe par A. Fournier, B. Kreise, E. Malleret et J. Yong sous la direction d'Henri Meschonnic, Paris, éd. Gallimard, 1973 (Bibliothèque des Sciences Humaines), pp. 355^v^.
 
-[^v2p151-2]: Charles CAMPROUX, 'Le vocabulaire de la *Vida del Glorios Sant Frances*, dans *Actes du IVe Congrès de langue et de littérature d'Oc et d'Études Franco-Provençales* (Avignon 1964), Rodez, 1970 — C'est nous qui soulignons.
+[^v2p151-2]: Charles CAMPROUX, 'Le vocabulaire de la *Vida del Glorios Sant Frances*', dans *Actes du IVe Congrès de langue et de littérature d'Oc et d'Études Franco-Provençales* (Avignon 1964), Rodez, 1970 — C'est nous qui soulignons.
 
 <!-- page: v2p152 -->
 
@@ -10869,7 +10869,7 @@ CHANSON XIV
 
 1. *Manuscrits*
 
-[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : [α]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76.
+[C]{.underline} : [MG]{.underline}, 358. [R]{.underline} : [a]{.underline} : [RLR]{.underline}, XLV, 221 + [BA]{.underline}, 76.
 
 2. *Editions*
 
@@ -10933,7 +10933,7 @@ CHANSON XVIII
 
 1. Manuscrits
 
-A : *Studj*, III, 96. I : [MG]{.underline}, 630. K : [MG]{.underline}, 631. N^2^ : — u^2^ : *Archiv*, CII, 187. α : [RLR]{.underline}, XLV, 212. d : — Ψ : *Romania*, LXVII, 508.
+A : *Studj*, III, 96. I : [MG]{.underline}, 630. K : [MG]{.underline}, 631. N : — N^2^ : *Archiv*, CII, 187. a : [RLR]{.underline}, XLV, 212. d : — ψ : *Romania*, LXVII, 508.
 
 2. Editions
 
@@ -10965,7 +10965,7 @@ CHANSON XX
 
 1. Manuscrits
 
-C D^a^ I K N N^2^ : [RLR]{.underline}, XX, 130. V : [Archiv]{.underline}, CII, 186. m : [Archiv]{.underline}, XXXVI, 447. ψ : [St. med.]{.underline}, XII, 141. Berenguer de Noya : [Romania]{.underline}, LXVII, 507. : J. ANGLADE, *Hommage à M. Pidal*, I, 682.
+C : — D^a^ : — I : — K : — N : [RLR]{.underline}, XX, 130. N^2^ : [Archiv]{.underline}, CII, 186. V : [Archiv]{.underline}, XXXVI, 447. m : [St. med.]{.underline}, XII, 141. ψ : [Romania]{.underline}, LXVII, 507. Berenguer de Noya : J. ANGLADE, *Hommage à M. Pidal*, I, 682.
 
 2. Editions
 
@@ -11079,7 +11079,7 @@ CHANSON XXVII
 
 1. Manuscrits
 
-A : *Studj*, III, 102 et [Archiv]{.underline}, LI, 137. α : *RLR*, XLV, 146 + *BA*, 72.
+A : *Studj*, III, 102 et [Archiv]{.underline}, LI, 137. a : *RLR*, XLV, 146 + *BA*, 72.
 
 2. Editions
 
@@ -11095,7 +11095,7 @@ CHANSON XXVIII
 
 1. Manuscrits
 
-[I]{.underline} : [MG]{.underline}, 620 [k]{.underline} : — [a]{.underline} : -
+[I]{.underline} : [MG]{.underline}, 620 [K]{.underline} : — [a]{.underline} : -
 
 2. Editions
 
@@ -11171,7 +11171,7 @@ CHANSON XXXIII
 
 1. *Manuscrits*
 
-*α* : [RLR]{.underline}, XLV, 140 + [BA]{.underline}, 71.
+*a* : [RLR]{.underline}, XLV, 140 + [BA]{.underline}, 71.
 
 2. *Editions*
 
@@ -11247,7 +11247,7 @@ CHANSON XXXVIII
 
 1. Manuscrits
 
-A : Studj, III, 93. C : — C' : — D : — D^a^ : — D^c^ : [AdM]{.underline}, XIV, 201. G : G. BERTONI, *Canzoniere della Bibl. Ambr.*, 275. I : — I' : — K : — k' : — L : Studj, XVI, 88. M^2^ : — N^2^ : [Archiv]{.underline}, CII, 184. R : — U : [Archiv]{.underline}, XXXV, 449. x : P. MEYER et G. RAYNAUD, *Chansonnier de St. Germain*, 88. α : RLR, XLV, 138 + [BA]{.underline}, 70. d : -
+A : Studj, III, 93. C : — C' : — D^a^ : — D^c^ : [AdM]{.underline}, XIV, 201. G : G. BERTONI, *Canzoniere della Bibl. Ambr.*, 275. I : — I' : — K : — k' : — L : Studj, XVI, 88. M : — N^2^ : [Archiv]{.underline}, CII, 184. R : — U : [Archiv]{.underline}, XXXV, 449. X : P. MEYER et G. RAYNAUD, *Chansonnier de St. Germain*, 88. a : RLR, XLV, 138 + [BA]{.underline}, 70. d : -
 
 2. Editions
 

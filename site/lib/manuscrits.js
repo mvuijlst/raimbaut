@@ -16,6 +16,10 @@ export function buildMsIdentityIndex(manuscriptRaw) {
     // the Greek witnesses are cited by their symbol, not the ASCII key.
     if (w.label === "β" || w.label === "ψ") idx.set(w.label, rec);
   }
+  // a siglum the typescript mistyped (manuscripts.json "aliases", each with its reason):
+  // shown as typed, identified as the witness it stands for
+  for (const a of (manuscriptRaw && manuscriptRaw.aliases) || [])
+    if (idx.has(a.siglum)) idx.set("alias:" + a.typed, idx.get(a.siglum));
   return idx;
 }
 
@@ -45,6 +49,7 @@ function tokenHtml(t) {
 // Returns null when nothing matches — the caller flags it.
 function baseKey(tok, idx) {
   const t = cleanToken(tok);
+  if (idx.has("alias:" + t)) return "alias:" + t;
   if (t && "αβψ".includes(t[0])) return idx.has(t[0]) ? t[0] : null;
   const m = t.match(/^([A-Za-z])/);
   if (!m) return null;

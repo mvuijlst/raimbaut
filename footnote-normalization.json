@@ -5,8 +5,8 @@
   "backrefs": 479,
   "auto": 266,
   "ibid_resolved": 156,
-  "flagged": 94,
-  "titles": 51
+  "flagged": 90,
+  "titles": 54
  },
  "subs": {
   "v1p006|3": {
@@ -281,6 +281,12 @@
      "kind": "short-named",
      "to": "*Handbuch der literarischen Rhetorik*",
      "conf": "high"
+    }
+   ],
+   "titles": [
+    {
+     "from": "'Did the poets \"feign\" or \"fashion\"?'",
+     "to": "« Did the poets \"feign\" or \"fashion\"? »"
     }
    ]
   },
@@ -2612,7 +2618,7 @@
      "idx": 0,
      "from": "Ibid.",
      "kind": "short-ibid",
-     "to": "R. LEJEUNE, *La \"Galerie littéraire\" du troubadour…*",
+     "to": "M. DELBOUILLE, *Les senhals littéraires désignant R.…*",
      "conf": "medium"
     }
    ]
@@ -2654,7 +2660,7 @@
      "from": "art.cité",
      "kind": "short-named",
      "to": "*Le troubadour lombard de la 'Galerie…*",
-     "conf": "medium"
+     "conf": "high"
     }
    ]
   },
@@ -2665,7 +2671,7 @@
      "from": "art.cité",
      "kind": "short-named",
      "to": "*Le troubadour lombard de la 'Galerie…*",
-     "conf": "medium"
+     "conf": "high"
     }
    ]
   },
@@ -4790,6 +4796,10 @@
     {
      "from": "'La référence géographique chez Peire Cardenal'",
      "to": "« La référence géographique chez Peire Cardenal »"
+    },
+    {
+     "from": "'La signification de Gand dans la cartologie poétique d'un troubadour du XII^e^ siècle: Bertran de Born'",
+     "to": "« La signification de Gand dans la cartologie poétique d'un troubadour du XII^e^ siècle: Bertran de Born »"
     }
    ]
   },
@@ -5332,6 +5342,14 @@
     {
      "from": "'Rapport sur l'état présent de la recherche en domaine occitan: Lexicologie médiévale'",
      "to": "« Rapport sur l'état présent de la recherche en domaine occitan: Lexicologie médiévale »"
+    }
+   ]
+  },
+  "v2p151|2": {
+   "titles": [
+    {
+     "from": "'Le vocabulaire de la *Vida del Glorios Sant Frances*'",
+     "to": "« Le vocabulaire de la *Vida del Glorios Sant Frances* »"
     }
    ]
   },

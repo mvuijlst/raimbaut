@@ -2,8 +2,8 @@
   "stats": {
     "resolved": 473,
     "unresolved": 4,
-    "high_conf": 126,
-    "medium_conf": 347,
+    "high_conf": 128,
+    "medium_conf": 345,
     "low_conf": 0,
     "via_bibliography": 9
   },
@@ -329,7 +329,7 @@
       "author": "A.H. SCHUTZ",
       "target": {
         "author": "A.H. SCHUTZ",
-        "title": "Did the poets \"feign\" or \"fashion\"?, dans *Symposium*, XI (1957), p. 117-122. — Pour l",
+        "title": "Did the poets \"feign\" or \"fashion\"?",
         "page": "v1p041",
         "note": "2"
       },
@@ -342,7 +342,7 @@
       "phrase": "ibid.",
       "target": {
         "author": "A.H. SCHUTZ",
-        "title": "Did the poets \"feign\" or \"fashion\"?, dans *Symposium*, XI (1957), p. 117-122. — Pour l",
+        "title": "Did the poets \"feign\" or \"fashion\"?",
         "page": "v1p041",
         "note": "2"
       },
@@ -761,7 +761,7 @@
       "author": "A.H. SCHUTZ",
       "target": {
         "author": "A.H. SCHUTZ",
-        "title": "Did the poets \"feign\" or \"fashion\"?, dans *Symposium*, XI (1957), p. 117-122. — Pour l",
+        "title": "Did the poets \"feign\" or \"fashion\"?",
         "page": "v1p041",
         "note": "2"
       },
@@ -3164,10 +3164,10 @@
       "kind": "bare",
       "phrase": "Ibid.",
       "target": {
-        "author": "Rita LEJEUNE",
-        "title": "La \"Galerie littéraire\" du troubadour Peire d",
+        "author": "Maurice DELBOUILLE",
+        "title": "Les senhals littéraires désignant R. d'O. et la chronologie de ces témoignages",
         "page": "v1p244",
-        "note": "5"
+        "note": "4"
       },
       "confidence": "medium"
     },
@@ -3210,7 +3210,7 @@
         "page": "v1p245",
         "note": "2"
       },
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "page": "v1p247",
@@ -3224,7 +3224,7 @@
         "page": "v1p245",
         "note": "2"
       },
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "page": "v1p250",

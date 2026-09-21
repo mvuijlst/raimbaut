@@ -210,6 +210,8 @@ export function buildConcordance(rawEntries, opts) {
       const fixes = ((numbering[g.roman] || {}).index_corrections || []).filter((c) => c.lemma === primary.trim());
       const verses = g.verses.map((v0) => {
         const fix = fixes.find((c) => String(c.cited) === v0.digits);
+        // verse: null = wrong in the typescript and unresolvable: as typed, no link, no flag
+        if (fix && fix.verse == null) return { ...v0, digits: null, freq: true, textHTML: null };
         const v = fix ? { ...v0, digits: String(fix.verse), label: String(fix.verse) } : v0;
         let textHTML = null;
         if (!v.freq && !nolink) {

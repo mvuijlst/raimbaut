@@ -1,17 +1,40 @@
 {
-  "_about": "Hand-authored. Places where the verse numbers of the reading view must NOT follow the typescript literally. The corpus (and so the fac-similé) keeps what was typed; site/lib/chanson.js and check_verse_markers.py read this file. Each entry was checked against the scan of the page and against the thesis's own word index.",
-
-  "XXXIV": {
-    "unnumbered_after": [17],
+  "_about": "Hand-authored. Places where the verse numbers of the reading view must NOT follow the typescript literally. The corpus (and so the fac-similé) keeps what was typed; site/lib/chanson.js and check_verse_markers.py read this file. In index_corrections, \"verse\": null marks a reference that is wrong in the typescript and cannot be resolved. Each entry was checked against the scan of the page and against the thesis's own word index.",
+  "XXXIII": {
     "index_corrections": [
-      { "lemma": "sobra",  "cited": 18, "verse": 17 },
-      { "lemma": "sobrar", "cited": 18, "verse": 17 }
+      {
+        "lemma": "temer",
+        "cited": 296,
+        "verse": null
+      }
+    ],
+    "why": "p. 560: the word index reads « TEMER XXII, 16 ; XXXIII, 296 » (scan checked). Chanson XXXIII has 52 verses; temer occurs at vv. 8, 10 and 41, and nothing shows which was meant. Kept as typed, shown without a link, and not reported as a broken reference."
+  },
+  "XXXIV": {
+    "unnumbered_after": [
+      17
+    ],
+    "index_corrections": [
+      {
+        "lemma": "sobra",
+        "cited": 18,
+        "verse": 17
+      },
+      {
+        "lemma": "sobrar",
+        "cited": 18,
+        "verse": 17
+      }
     ],
     "why": "p. 359: under v. 17 (\"Ha ni sobr'ar Catalana) the author typed his alternative reading on a line of its own, in brackets ([\"Ha-ni-Sobr'am Catalana\"]). It is not a verse: the printed 15 and 20 only fit if it is not counted. The word index cites sobra/sobrar at XXXIV, 18 — i.e. that typed line — so those two references are pointed at v. 17."
   },
-
   "XXXVII": {
-    "ignore_printed": [45, 50, 55, 60],
+    "ignore_printed": [
+      45,
+      50,
+      55,
+      60
+    ],
     "why": "p. 373: the typescript prints 45, 50, 55 and 60 one line too early (45 stands beside the 44th verse, etc.); 40 and 65 are right, the strophes have 7 lines, and the author's own index uses the true count (feutre and sendat 46, cuers 47, calafatar 49, parlairat 57, omplir 58, desbaratar 63). The reading view counts through these four markers instead of re-anchoring on them."
   }
 }
